@@ -80,48 +80,53 @@ npm run fetch:market-data
 
 ---
 
-### Phase 2: Profitability Calculation 🔜 NEXT PHASE
+### Phase 2: Profitability Calculation ✅ COMPLETED
 
 **Goal**: Calculate which items yield the most profit given current market demand
 
 **Key Question**: "Given the quantity of each item the market is demanding right now, what items would yield the most profit?"
 
-**Tasks**:
-- [ ] Implement crafting cost calculator
-  - Calculate raw material costs
-  - Apply Resource Return Rate (RRR) based on production bonuses
-  - Include crafting fees (user input at runtime)
-- [ ] Calculate revenue
-  - Apply market sales tax (8% without premium, 4% with premium)
-  - Apply listing fee (2.5%)
-  - Calculate gross revenue
-- [ ] Calculate profitability metrics
-  - Net profit per item
-  - ROI percentage
-  - Profit per focus point (if using focus)
-- [ ] Rank opportunities
-  - Weight by demand
-  - Filter by supply signal
-  - Sort by profitability
-- [ ] Generate opportunity reports per city
+**Status**: ✅ Complete
 
-**User Inputs Needed at Runtime**:
-- Premium status (affects sales tax: 8% vs 4%)
-- Focus usage (yes/no, affects RRR)
-- Specialization levels (affects city bonuses)
-- Crafting/refining service fee (dynamic, changes per station)
+**Completed Tasks**:
+- ✅ Implemented crafting cost calculator with RRR
+- ✅ Calculate revenue with market taxes
+- ✅ Calculate profitability metrics (Net profit, ROI%, Profit/Day)
+- ✅ Added Profit/Day as PRIMARY SORT metric
+- ✅ Added demand trend indicator (↑ Rising / → Stable / ↓ Falling)
+- ✅ Added price trend indicator (↑ Rising / → Stable / ↓ Falling)
+- ✅ Added market condition synthesis (🟢 Hot / 🟡 Stable / 🔴 Dying)
+- ✅ Added liquidity calculation (Sells In days + risk indicator)
+- ✅ Generate opportunity tables per city
 
-**Deliverables**:
-- Profitability calculator service (src/services/profitability-calculator.ts)
-- User settings prompt/config
-- Report generator (src/services/report-generator.ts)
-- CLI interface for viewing results
+**CLI Options**:
+- Option 3: Fetch profitability data (material prices + market data)
+- Option 4: Show best opportunities by city
 
-**Success Criteria**:
-- Accurate cost calculations including RRR
-- Accurate profit calculations including all taxes
-- Can process 45,000+ opportunities (6,465 items × 7 cities) in < 10 seconds
-- Results ranked by weighted profitability score
+**Table Columns**:
+| Column | What It Shows | Source |
+|--------|--------------|--------|
+| # | Rank by Profit/Day | Calculated |
+| Item | Item name | Static data |
+| Demand | Daily market demand | Phase 1 (demand-supply.json) |
+| D.Trend | ↑ Rising / → Stable / ↓ Falling | Phase 1 (supply signal) |
+| P.Trend | ↑ Rising / → Stable / ↓ Falling | Phase 1 (7-day avg comparison) |
+| Market | 🟢 Hot / 🟡 Stable / 🔴 Dying | Phase 1 (synthesis) |
+| Profit/Item | Net profit per craft | Phase 2 (profitability calc) |
+| Sells In | Days to sell + risk indicator | Phase 2 (liquidity calc) |
+| Profit/Day | Expected daily profit (PRIMARY SORT) | Phase 2 (velocity metric) |
+
+**Key Files**:
+- [src/services/profitability-calculator.ts](src/services/profitability-calculator.ts) - Full profitability engine
+- [src/services/report-generator.ts](src/services/report-generator.ts) - CSV/JSON report generation
+- [src/cli.ts](src/cli.ts) - CLI with opportunity tables
+- [src/types/index.ts](src/types/index.ts) - TypeScript types for all metrics
+
+**Success Criteria**: ✅ All met
+- ✅ Accurate cost calculations including RRR
+- ✅ Accurate profit calculations including all taxes
+- ✅ Results ranked by Profit/Day (primary metric)
+- ✅ Formatted table output with all required columns
 
 ---
 
@@ -161,8 +166,8 @@ npm run fetch:market-data
 
 ## Current Status
 
-**Active Phase**: Phase 1 (Market Demand & Supply) - ✅ Complete
-**Next Phase**: Phase 2 (Profitability Calculation)
+**Active Phase**: Phase 2 (Profitability Calculation) - ✅ Complete
+**Next Phase**: Phase 3 (Shopping List Generator)
 
 ## File Organization
 
@@ -282,6 +287,6 @@ npm run calc:rrr              # Calculate RRR values for different scenarios
 **Status Summary**:
 - Phase 0 (Data Setup): ✅ 100% complete
 - Phase 1 (Market Analysis): ✅ 100% complete
-- Phase 2 (Profitability): ⏳ 0% complete - Starting next
+- Phase 2 (Profitability): ✅ 100% complete
 - Phase 3 (Shopping List): ⏳ 0% complete
-- Overall Project: 🚧 50% complete
+- Overall Project: 🚧 75% complete

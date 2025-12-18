@@ -7,8 +7,8 @@ import * as path from 'path';
 import { DataLoader } from './services/data-loader';
 import { ProfitabilityCalculator } from './services/profitability-calculator';
 import { fetchAllMaterialPrices } from './services/material-prices-fetcher';
-import { fetchAllMarketData } from './services/market-data-fetcher';
-import { UserStats, City, ProfitabilityResult } from './types';
+import { fetchAllMarketData, fetchDemandSupplyData, DemandSupplyData } from './services/market-data-fetcher';
+import { UserStats, City } from './types';
 
 // Default user stats (can be customized via config file)
 const DEFAULT_USER_STATS: UserStats = {
@@ -30,24 +30,45 @@ const CITIES: City[] = [
   'Brecilien',
 ];
 
-// Get data freshness indicator
-function getDataFreshnessIndicator(): string {
+// Get data freshness indicator for demand/supply data
+function getDemandSupplyFreshnessIndicator(): string {
+  const demandSupplyPath = path.join(process.cwd(), 'src', 'db', 'demand-supply.json');
+
+  if (!fs.existsSync(demandSupplyPath)) {
+    return '⚫ Never';
+  }
+
+  const stats = fs.statSync(demandSupplyPath);
+  const ageHours = (Date.now() - stats.mtimeMs) / (1000 * 60 * 60);
+
+  if (ageHours < 6) {
+    return `🟢 ${Math.floor(ageHours)}h ago`;
+  } else if (ageHours < 24) {
+    return `🟡 ${Math.floor(ageHours)}h ago`;
+  } else {
+    const days = Math.floor(ageHours / 24);
+    return `🔴 ${days}d ago`;
+  }
+}
+
+// Get data freshness indicator for full market data
+function getMarketDataFreshnessIndicator(): string {
   const marketDataPath = path.join(process.cwd(), 'src', 'db', 'market-data.json');
 
   if (!fs.existsSync(marketDataPath)) {
-    return '⚫ Never'; // No data
+    return '⚫ Never';
   }
 
   const stats = fs.statSync(marketDataPath);
   const ageHours = (Date.now() - stats.mtimeMs) / (1000 * 60 * 60);
 
   if (ageHours < 6) {
-    return `🟢 ${Math.floor(ageHours)}h ago`; // Fresh (< 6 hours)
+    return `🟢 ${Math.floor(ageHours)}h ago`;
   } else if (ageHours < 24) {
-    return `🟡 ${Math.floor(ageHours)}h ago`; // Getting old (6-24 hours)
+    return `🟡 ${Math.floor(ageHours)}h ago`;
   } else {
     const days = Math.floor(ageHours / 24);
-    return `🔴 ${days}d ago`; // Stale (> 24 hours)
+    return `🔴 ${days}d ago`;
   }
 }
 
@@ -58,130 +79,254 @@ async function showMenu(): Promise<string> {
     output: process.stdout,
   });
 
-  const dataFreshness = getDataFreshnessIndicator();
+  const demandSupplyFreshness = getDemandSupplyFreshnessIndicator();
+  const marketDataFreshness = getMarketDataFreshnessIndicator();
 
   return new Promise((resolve) => {
     console.log('\n========================================');
     console.log('ALBION CRAFT PROFITABILITY ANALYZER');
     console.log('========================================');
-    console.log(`1. Refresh market data ${dataFreshness}`);
-    console.log('2. Run full profitability analysis');
-    console.log('3. View opportunities by city');
-    console.log('4. Exit');
+    console.log(`1. Refresh market demand + supply ${demandSupplyFreshness}`);
+    console.log('2. View high demand / low supply items');
+    console.log(`3. Fetch profitability data ${marketDataFreshness}`);
+    console.log('4. Show best opportunities by city');
+    console.log('5. Exit');
     console.log('========================================');
 
-    rl.question('Choose an option (1-4): ', (answer) => {
+    rl.question('Choose an option (1-5): ', (answer) => {
       rl.close();
       resolve(answer.trim());
     });
   });
 }
 
-// Run full analysis
-async function runFullAnalysis() {
-  console.log('\n--- RUNNING FULL PROFITABILITY ANALYSIS ---\n');
+// Refresh demand + supply data only (charts endpoint)
+async function refreshDemandSupply() {
+  try {
+    await fetchDemandSupplyData();
+    console.log('✅ Demand & supply data refresh complete!\n');
+  } catch (error) {
+    console.error('❌ Error refreshing demand/supply data:', error);
+  }
+}
 
-  // Step 1: Check data files
-  console.log('Step 1: Checking data files...');
+// Format number with K/M suffix for compact display
+function formatNumber(num: number): string {
+  if (num >= 1000000) {
+    return (num / 1000000).toFixed(1) + 'M';
+  }
+  if (num >= 1000) {
+    return (num / 1000).toFixed(1) + 'K';
+  }
+  return num.toFixed(0);
+}
+
+// Truncate string to max length with ellipsis
+function truncate(str: string, maxLen: number): string {
+  if (str.length <= maxLen) return str.padEnd(maxLen);
+  return str.substring(0, maxLen - 1) + '…';
+}
+
+// Format percentage with sign
+function formatPercent(pct: number): string {
+  const sign = pct >= 0 ? '+' : '';
+  return `${sign}${pct.toFixed(1)}%`;
+}
+
+// Show best opportunities by city with formatted table
+async function showBestOpportunities() {
+  console.log('\n--- BEST OPPORTUNITIES BY CITY ---\n');
+
+  // Check data files
   const loader = new DataLoader();
   const dataStatus = loader.checkDataFiles();
 
-  console.log(`  Recipes: ${dataStatus.recipes ? '✓' : '❌'}`);
-  console.log(`  Material Prices: ${dataStatus.materialPrices ? '✓' : '❌'}`);
-  console.log(`  Market Data: ${dataStatus.marketData ? '✓' : '❌'}\n`);
-
-  if (!dataStatus.recipes) {
-    console.error('❌ recipes.json not found. Please ensure recipes data exists.');
+  if (!dataStatus.recipes || !dataStatus.materialPrices || !dataStatus.marketData) {
+    console.error('❌ Required data files not found.');
+    console.error('Please run "Fetch profitability data" (option 3) first.\n');
     return;
   }
 
-  if (!dataStatus.materialPrices) {
-    console.error('❌ material-prices.json not found.');
-    console.error('Select "Refresh market data" from the main menu to fetch prices.');
+  if (!dataStatus.demandSupply) {
+    console.error('❌ Demand/supply data not found.');
+    console.error('Please run "Refresh market demand + supply" (option 1) first.\n');
     return;
   }
 
-  if (!dataStatus.marketData) {
-    console.error('❌ market-data.json not found.');
-    console.error('Select "Refresh market data" from the main menu to fetch market data.');
-    return;
-  }
-
-  // Step 2: Load data
-  console.log('Step 2: Loading data...');
+  // Load data
+  console.log('Loading data...');
   const recipes = loader.loadRecipes();
-  console.log(`  Loaded ${recipes.length} recipes`);
-
   const materialPrices = loader.loadMaterialPrices();
-  console.log(`  Loaded ${materialPrices.length} material prices`);
-
   const marketData = loader.loadMarketData();
-  console.log(`  Loaded ${marketData.length} market data records\n`);
+  const demandSupplyData = loader.loadDemandSupplyData();
 
-  // Step 3: Initialize calculator
-  console.log('Step 3: Initializing profitability calculator...');
-  const calculator = new ProfitabilityCalculator(materialPrices, marketData, recipes);
-  console.log('  ✓ Calculator initialized\n');
+  const calculator = new ProfitabilityCalculator(materialPrices, marketData, recipes, demandSupplyData);
 
-  // Step 4: Calculate profitability
-  console.log('Step 4: Calculating profitability...');
-  console.log('  User stats:');
-  console.log(`    Premium: ${DEFAULT_USER_STATS.premiumStatus ? 'Yes' : 'No'}`);
-  console.log(`    Base Return Rate: ${DEFAULT_USER_STATS.baseReturnRate}%`);
-  console.log(`    Use Focus: ${DEFAULT_USER_STATS.useFocus ? 'Yes' : 'No'}`);
-  console.log(`    Specialization Bonus: ${DEFAULT_USER_STATS.specializationBonus}`);
-  console.log(`    Crafting Tax Rate: ${DEFAULT_USER_STATS.craftingTaxRate}%\n`);
+  // Let user select city
+  const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout,
+  });
 
-  const startTime = Date.now();
-  const results = calculator.calculateAll(DEFAULT_USER_STATS);
-  const elapsed = ((Date.now() - startTime) / 1000).toFixed(2);
+  return new Promise<void>((resolve) => {
+    console.log('\nSelect a city:');
+    CITIES.forEach((city, index) => {
+      console.log(`${index + 1}. ${city}`);
+    });
+    console.log(`${CITIES.length + 1}. All cities (combined)`);
 
-  console.log(`  ✓ Calculated ${results.length} profitable opportunities in ${elapsed}s\n`);
+    rl.question(`\nChoose (1-${CITIES.length + 1}): `, (answer) => {
+      rl.close();
 
-  // Step 5: Display summary
-  console.log('Step 5: Summary...');
-  printSummary(results);
+      const choice = parseInt(answer.trim());
+      let selectedCity: City | undefined;
 
-  console.log('\n✅ Analysis complete!\n');
+      if (choice >= 1 && choice <= CITIES.length) {
+        selectedCity = CITIES[choice - 1];
+      } else if (choice !== CITIES.length + 1) {
+        console.log('Invalid choice.');
+        resolve();
+        return;
+      }
+
+      // Get top opportunities sorted by Profit/Day
+      console.log('\nCalculating profitability...');
+      const startTime = Date.now();
+      const results = calculator.getTopByProfitPerDay(DEFAULT_USER_STATS, 50, selectedCity);
+      const elapsed = ((Date.now() - startTime) / 1000).toFixed(2);
+
+      if (results.length === 0) {
+        console.log('\nNo profitable opportunities found.');
+        resolve();
+        return;
+      }
+
+      console.log(`\nCalculated in ${elapsed}s`);
+
+      // Print table header
+      const cityLabel = selectedCity || 'ALL CITIES';
+      console.log(`\n=== TOP 50 OPPORTUNITIES - ${cityLabel} ===`);
+      console.log('(Sorted by: Supply → Demand → Profit/Day)\n');
+
+      // Table header
+      console.log(
+        '#   ' +
+        'Item                         ' +
+        'Sold/Day ' +
+        '7d Price   ' +
+        'Profit/Item ' +
+        'Sells In  ' +
+        'Profit/Day'
+      );
+      console.log('-'.repeat(95));
+
+      // Print each row
+      results.forEach((result, index) => {
+        const rank = (index + 1).toString().padStart(2);
+        const item = truncate(result.itemName, 28);
+        const soldPerDay = result.demandPerDay.toString().padStart(8);
+        // Green = good for me (low supply = opportunity), Red = bad for me (high supply = saturated)
+        const priceEmoji = result.demandTrend === '↑' ? '🟢' : result.demandTrend === '↓' ? '🔴' : '🟡';
+        const pricePct = formatPercent(result.priceTrendPct);
+        const priceChange = `${priceEmoji} ${pricePct}`;
+        const profit = formatNumber(result.netProfit).padStart(11);
+        const sellsIn = `${result.sellsInDays}d (${result.liquidityRisk.charAt(0)})`.padStart(9);
+        const profitDay = formatNumber(result.profitPerDay).padStart(10);
+
+        console.log(
+          `${rank}  ${item} ${soldPerDay} ${priceChange.padEnd(10)} ${profit} ${sellsIn} ${profitDay}`
+        );
+      });
+
+      // Legend
+      console.log('\n' + '-'.repeat(95));
+      console.log('Legend:');
+      console.log('  Sold/Day: Average items sold per day (last 7 days)');
+      console.log('  7d Price: Current price vs 7-day avg (🟢 rising = low supply, 🔴 falling = high supply)');
+      console.log('  Sells In: Estimated days to sell (L=Low risk, M=Medium, H=High)');
+      console.log('  Sorting: 1) Rising prices first, 2) High sales, 3) Profit/Day');
+      console.log('');
+
+      resolve();
+    });
+  });
 }
 
-// Print profitability summary
-function printSummary(results: ProfitabilityResult[]) {
-  if (results.length === 0) {
-    console.log('No profitable opportunities found.');
+// View high demand / low supply items per city
+async function viewHighDemandLowSupply() {
+  console.log('\n--- HIGH DEMAND / LOW SUPPLY ITEMS ---\n');
+
+  const demandSupplyPath = path.join(process.cwd(), 'src', 'db', 'demand-supply.json');
+
+  if (!fs.existsSync(demandSupplyPath)) {
+    console.error('❌ demand-supply.json not found.');
+    console.error('Select "Refresh market demand + supply" from the main menu first.\n');
     return;
   }
 
-  // Sort by profit rank
-  const sorted = [...results].sort((a, b) => b.profitRank - a.profitRank);
+  const demandSupplyData: DemandSupplyData[] = JSON.parse(fs.readFileSync(demandSupplyPath, 'utf8'));
 
-  console.log('\n=== TOP 20 OPPORTUNITIES ===\n');
-  console.log('Rank | Item ID                | City            | Net Profit | ROI%  | Daily Demand');
-  console.log('-----|------------------------|-----------------|------------|-------|-------------');
-
-  sorted.slice(0, 20).forEach((result, index) => {
-    console.log(
-      `${(index + 1).toString().padStart(4)} | ${result.itemId.padEnd(22)} | ${result.city.padEnd(15)} | ${result.netProfit.toFixed(0).padStart(10)} | ${result.roiPercent.toFixed(1).padStart(5)} | ${result.marketData.dailyDemand.toFixed(0).padStart(12)}`
-    );
+  // Filter for items with meaningful demand and falling supply (price rising = supply falling)
+  const highDemandLowSupply = demandSupplyData.filter((item) => {
+    return item.dailyDemand > 0 && item.supplySignal === '🔴 Falling';
   });
 
-  // Summary by city
-  console.log('\n=== OPPORTUNITIES BY CITY ===\n');
+  if (highDemandLowSupply.length === 0) {
+    console.log('No items found with high demand and low supply signals.\n');
+    console.log('This could mean:');
+    console.log('  - Markets are well-supplied');
+    console.log('  - Data is stale (refresh recommended)\n');
+    return;
+  }
+
+  // Sort by daily demand descending
+  highDemandLowSupply.sort((a, b) => b.dailyDemand - a.dailyDemand);
+
+  // Group by city
+  console.log('Items with HIGH DEMAND and FALLING SUPPLY (opportunity indicators):\n');
+
   CITIES.forEach((city) => {
-    const cityResults = results.filter((r) => r.city === city);
-    const totalProfit = cityResults.reduce((sum, r) => sum + r.netProfit, 0);
-    const avgROI =
-      cityResults.length > 0 ? cityResults.reduce((sum, r) => sum + r.roiPercent, 0) / cityResults.length : 0;
+    const cityItems = highDemandLowSupply.filter((item) => item.city === city);
 
-    console.log(
-      `${city.padEnd(15)} | ${cityResults.length.toString().padStart(3)} opportunities | Avg Profit: ${totalProfit.toFixed(0).padStart(8)} | Avg ROI: ${avgROI.toFixed(1).padStart(5)}%`
-    );
+    if (cityItems.length === 0) {
+      console.log(`\n📍 ${city}: No opportunities found`);
+      return;
+    }
+
+    console.log(`\n📍 ${city} (${cityItems.length} items):`);
+    console.log('   Item ID                          | Daily Demand | Price Trend | 7d Avg Price');
+    console.log('   ---------------------------------|--------------|-------------|-------------');
+
+    cityItems.slice(0, 10).forEach((item) => {
+      const trendStr = item.priceTrendPct >= 0 ? `+${item.priceTrendPct.toFixed(1)}%` : `${item.priceTrendPct.toFixed(1)}%`;
+      console.log(
+        `   ${item.itemId.padEnd(33)} | ${item.dailyDemand.toString().padStart(12)} | ${trendStr.padStart(11)} | ${item.price7dAvg.toString().padStart(12)}`
+      );
+    });
+
+    if (cityItems.length > 10) {
+      console.log(`   ... and ${cityItems.length - 10} more items`);
+    }
   });
+
+  // Summary
+  const totalOpportunities = highDemandLowSupply.length;
+  const topCity = CITIES.reduce((best, city) => {
+    const count = highDemandLowSupply.filter((item) => item.city === city).length;
+    return count > best.count ? { city, count } : best;
+  }, { city: '' as City, count: 0 });
+
+  console.log('\n========================================');
+  console.log('SUMMARY');
+  console.log('========================================');
+  console.log(`Total opportunities: ${totalOpportunities}`);
+  console.log(`Best city: ${topCity.city} (${topCity.count} items)`);
+  console.log('\n💡 These items have people buying but supply is decreasing - good crafting targets!\n');
 }
 
-// Refresh market data
+// Refresh full market data (prices + charts)
 async function refreshMarketData() {
-  console.log('\n--- REFRESHING MARKET DATA ---\n');
+  console.log('\n--- REFRESHING FULL MARKET DATA ---\n');
   console.log('Fetching both material prices and market data...\n');
 
   try {
@@ -193,107 +338,12 @@ async function refreshMarketData() {
     await fetchAllMarketData();
     console.log('✓ Market data updated\n');
 
-    console.log('✅ Market data refresh complete!\n');
+    console.log('✅ Full market data refresh complete!\n');
   } catch (error) {
     console.error('❌ Error refreshing market data:', error);
   }
 }
 
-// View opportunities by city
-async function viewOpportunitiesByCity() {
-  console.log('\n--- VIEWING OPPORTUNITIES BY CITY ---\n');
-
-  // First check if data exists
-  const loader = new DataLoader();
-  const dataStatus = loader.checkDataFiles();
-
-  if (!dataStatus.recipes || !dataStatus.materialPrices || !dataStatus.marketData) {
-    console.error('❌ Required data files not found. Please run full analysis first.');
-    return;
-  }
-
-  // Load data
-  const recipes = loader.loadRecipes();
-  const materialPrices = loader.loadMaterialPrices();
-  const marketData = loader.loadMarketData();
-
-  const calculator = new ProfitabilityCalculator(materialPrices, marketData, recipes);
-  const results = calculator.calculateAll(DEFAULT_USER_STATS);
-
-  const rl = readline.createInterface({
-    input: process.stdin,
-    output: process.stdout,
-  });
-
-  return new Promise<void>((resolve) => {
-    console.log('Available cities:');
-    CITIES.forEach((city, index) => {
-      console.log(`${index + 1}. ${city}`);
-    });
-    console.log(`${CITIES.length + 1}. All cities`);
-
-    rl.question(`Choose a city (1-${CITIES.length + 1}): `, (answer) => {
-      rl.close();
-
-      const choice = parseInt(answer.trim());
-      if (choice >= 1 && choice <= CITIES.length) {
-        const selectedCity = CITIES[choice - 1];
-        showCityOpportunities(results, selectedCity);
-      } else if (choice === CITIES.length + 1) {
-        showAllCitiesOpportunities(results);
-      } else {
-        console.log('Invalid choice.');
-      }
-
-      resolve();
-    });
-  });
-}
-
-// Show opportunities for a specific city
-function showCityOpportunities(results: any[], city: City) {
-  const cityResults = results.filter((r) => r.city === city);
-
-  console.log(`\n=== OPPORTUNITIES IN ${city.toUpperCase()} ===`);
-  console.log(`Total opportunities: ${cityResults.length}`);
-
-  if (cityResults.length === 0) {
-    console.log('No profitable opportunities found in this city.');
-    return;
-  }
-
-  // Sort by profit rank
-  cityResults.sort((a, b) => b.profitRank - a.profitRank);
-
-  console.log('\nTop 10 opportunities:');
-  console.log('Rank | Item ID | Profit | ROI% | Daily Demand');
-  console.log('-----|---------|--------|------|-------------');
-
-  cityResults.slice(0, 10).forEach((result, index) => {
-    console.log(
-      `${(index + 1).toString().padStart(4)} | ${result.itemId.padEnd(7)} | ${result.netProfit.toFixed(0).padStart(6)} | ${result.roiPercent.toFixed(1).padStart(4)} | ${result.marketData.dailyDemand.toFixed(0).padStart(12)}`
-    );
-  });
-
-  console.log('\n💡 Full reports are available in the ./reports directory');
-}
-
-// Show opportunities summary for all cities
-function showAllCitiesOpportunities(results: any[]) {
-  console.log('\n=== OPPORTUNITIES SUMMARY BY CITY ===');
-
-  CITIES.forEach((city) => {
-    const cityResults = results.filter((r) => r.city === city);
-    const totalProfit = cityResults.reduce((sum, r) => sum + r.netProfit, 0);
-    const avgROI = cityResults.length > 0
-      ? cityResults.reduce((sum, r) => sum + r.roiPercent, 0) / cityResults.length
-      : 0;
-
-    console.log(`${city.padEnd(15)} | ${cityResults.length.toString().padStart(3)} opportunities | Avg Profit: ${totalProfit.toFixed(0).padStart(6)} | Avg ROI: ${avgROI.toFixed(1).padStart(5)}%`);
-  });
-
-  console.log('\n💡 Run full analysis to generate detailed CSV reports for each city');
-}
 
 async function main() {
   console.log('Welcome to the Albion Craft Profitability Analyzer!');
@@ -305,20 +355,23 @@ async function main() {
 
     switch (choice) {
       case '1':
-        await refreshMarketData();
+        await refreshDemandSupply();
         break;
       case '2':
-        await runFullAnalysis();
+        await viewHighDemandLowSupply();
         break;
       case '3':
-        await viewOpportunitiesByCity();
+        await refreshMarketData();
         break;
       case '4':
-        console.log('\nGoodbye! 👋\n');
+        await showBestOpportunities();
+        break;
+      case '5':
+        console.log('\nGoodbye!\n');
         running = false;
         break;
       default:
-        console.log('\n❌ Invalid option. Please choose 1-4.\n');
+        console.log('\n❌ Invalid option. Please choose 1-5.\n');
     }
   }
 }

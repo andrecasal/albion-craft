@@ -2,7 +2,7 @@
 
 import * as fs from 'fs';
 import * as path from 'path';
-import { Recipe, MaterialPrice, MarketData, ReturnRates, Taxes } from '../types';
+import { Recipe, MaterialPrice, MarketData, ReturnRates, Taxes, DemandSupplyData } from '../types';
 
 export class DataLoader {
   private dataDir: string;
@@ -83,12 +83,30 @@ export class DataLoader {
   }
 
   /**
+   * Load demand/supply data from src/db/demand-supply.json
+   * This has more accurate demand data from charts endpoint
+   */
+  loadDemandSupplyData(): DemandSupplyData[] {
+    const demandSupplyPath = path.join(this.dataDir, 'src', 'db', 'demand-supply.json');
+    if (!fs.existsSync(demandSupplyPath)) {
+      throw new Error(
+        `Demand/supply data file not found: ${demandSupplyPath}\n` +
+        'Run the CLI and select "Refresh market demand + supply" to fetch data.'
+      );
+    }
+
+    const data = JSON.parse(fs.readFileSync(demandSupplyPath, 'utf8'));
+    return data as DemandSupplyData[];
+  }
+
+  /**
    * Check if all required data files exist
    */
   checkDataFiles(): {
     recipes: boolean;
     materialPrices: boolean;
     marketData: boolean;
+    demandSupply: boolean;
     returnRates: boolean;
     taxes: boolean;
   } {
@@ -96,6 +114,7 @@ export class DataLoader {
       recipes: fs.existsSync(path.join(__dirname, '../constants/recipes.json')),
       materialPrices: fs.existsSync(path.join(this.dataDir, 'src', 'db', 'material-prices.json')),
       marketData: fs.existsSync(path.join(this.dataDir, 'src', 'db', 'market-data.json')),
+      demandSupply: fs.existsSync(path.join(this.dataDir, 'src', 'db', 'demand-supply.json')),
       returnRates: fs.existsSync(path.join(__dirname, '../constants/return-rates.json')),
       taxes: fs.existsSync(path.join(__dirname, '../constants/taxes.json')),
     };

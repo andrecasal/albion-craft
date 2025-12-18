@@ -47,6 +47,17 @@ export interface MarketData {
   marketSignal: string;
 }
 
+// Demand/supply data from charts endpoint (more accurate demand data)
+export interface DemandSupplyData {
+  itemId: string;
+  city: City;
+  dailyDemand: number;
+  supplySignal: SupplySignal;
+  price7dAvg: number;
+  priceTrendPct: number;
+  dataAgeHours: number;
+}
+
 export interface UserStats {
   premiumStatus: boolean;
   baseReturnRate: number;  // 15.2% without focus, 43.9% with focus
@@ -68,8 +79,12 @@ export interface CraftingCost {
   totalCost: number;
 }
 
+export type TrendIndicator = '↑' | '→' | '↓';
+export type MarketCondition = '🟢 Hot' | '🟡 Stable' | '🔴 Dying';
+
 export interface ProfitabilityResult {
   itemId: string;
+  itemName: string;
   city: City;
   recipe: Recipe;
   marketData: MarketData;
@@ -81,6 +96,16 @@ export interface ProfitabilityResult {
   netProfit: number;
   roiPercent: number;
   profitRank: number;  // Weighted by demand & supply signal
+
+  // Phase 2 metrics
+  demandPerDay: number;      // Daily market demand
+  demandTrend: TrendIndicator;  // ↑ Rising / → Stable / ↓ Falling
+  priceTrend: TrendIndicator;   // ↑ Rising / → Stable / ↓ Falling
+  priceTrendPct: number;     // Price trend as percentage
+  marketCondition: MarketCondition;  // 🟢 Hot / 🟡 Stable / 🔴 Dying
+  sellsInDays: number;       // Estimated days to sell
+  liquidityRisk: 'Low' | 'Medium' | 'High';  // Risk indicator
+  profitPerDay: number;      // Expected daily profit (PRIMARY SORT)
 
   // Metadata
   calculatedAt: Date;

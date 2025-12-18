@@ -1,148 +1,66 @@
 // rate-limiter.ts
-// Shared rate limiter for AODP API across all fetchers
+// Reactive rate limiter for AODP API - goes fast until we hit a 429, then waits
 
-import * as fs from 'fs';
-import * as path from 'path';
-
-// AODP Rate Limits
-export const RATE_LIMITS = {
-  perMinute: 180,
-  perFiveMinutes: 300,
-} as const;
-
-export interface RateLimiterStats {
-  last1min: number;
-  last5min: number;
-  limit1min: number;
-  limit5min: number;
-  pct1min: string;
-  pct5min: string;
+export interface RateLimitInfo {
+  limit: number;
+  remaining: number;
+  resetTimestamp: number; // Unix timestamp in seconds
 }
 
-interface RateLimiterState {
-  requestTimes: number[];
-  lastUpdated: string;
+export interface RateLimitResult {
+  isRateLimited: boolean;
+  waitSeconds: number;
+  rateLimitInfo?: RateLimitInfo;
 }
 
-export class RateLimiter {
-  private requestTimes: number[];
-  private readonly stateFile: string;
+/**
+ * Parse rate limit headers from a 429 response
+ */
+export function parseRateLimitHeaders(headers: Record<string, string | string[] | undefined>): RateLimitInfo | null {
+  const limit = headers['ratelimit-limit'];
+  const remaining = headers['ratelimit-remaining'];
+  const reset = headers['ratelimit-reset'];
 
-  constructor() {
-    const dbDir = path.join(process.cwd(), 'src', 'db');
-    if (!fs.existsSync(dbDir)) {
-      fs.mkdirSync(dbDir, { recursive: true });
-    }
-    this.stateFile = path.join(dbDir, 'rate-limiter-state.json');
-    this.requestTimes = this.loadState();
+  if (limit === undefined || remaining === undefined || reset === undefined) {
+    return null;
   }
 
-  /**
-   * Load persisted state from file (to share across processes)
-   */
-  private loadState(): number[] {
-    try {
-      if (fs.existsSync(this.stateFile)) {
-        const data = JSON.parse(
-          fs.readFileSync(this.stateFile, 'utf8')
-        ) as RateLimiterState;
-        const now = Date.now();
-        const fiveMinutesAgo = now - 5 * 60 * 1000;
-
-        // Only keep requests from last 5 minutes
-        return data.requestTimes.filter((time) => time > fiveMinutesAgo);
-      }
-    } catch (e) {
-      const error = e as Error;
-      console.warn(`⚠️  Could not load rate limiter state: ${error.message}`);
-    }
-    return [];
-  }
-
-  /**
-   * Save state to file (to share across processes)
-   */
-  private saveState(): void {
-    try {
-      const state: RateLimiterState = {
-        requestTimes: this.requestTimes,
-        lastUpdated: new Date().toISOString(),
-      };
-      fs.writeFileSync(this.stateFile, JSON.stringify(state, null, 2));
-    } catch (e) {
-      const error = e as Error;
-      console.warn(`⚠️  Could not save rate limiter state: ${error.message}`);
-    }
-  }
-
-  /**
-   * Record a new API request
-   */
-  recordRequest(): void {
-    const now = Date.now();
-    this.requestTimes.push(now);
-
-    // Clean up old requests (older than 5 minutes)
-    const fiveMinutesAgo = now - 5 * 60 * 1000;
-    this.requestTimes = this.requestTimes.filter((time) => time > fiveMinutesAgo);
-
-    // Persist to file
-    this.saveState();
-  }
-
-  /**
-   * Get current rate limit statistics
-   */
-  getStats(): RateLimiterStats {
-    // Reload state to get latest from other processes
-    this.requestTimes = this.loadState();
-
-    const now = Date.now();
-    const oneMinuteAgo = now - 60 * 1000;
-    const fiveMinutesAgo = now - 5 * 60 * 1000;
-
-    const last1min = this.requestTimes.filter((time) => time > oneMinuteAgo).length;
-    const last5min = this.requestTimes.filter((time) => time > fiveMinutesAgo).length;
-
-    return {
-      last1min,
-      last5min,
-      limit1min: RATE_LIMITS.perMinute,
-      limit5min: RATE_LIMITS.perFiveMinutes,
-      pct1min: ((last1min / RATE_LIMITS.perMinute) * 100).toFixed(0),
-      pct5min: ((last5min / RATE_LIMITS.perFiveMinutes) * 100).toFixed(0),
-    };
-  }
-
-  /**
-   * Check if we need to wait before making next request
-   * Returns wait time in milliseconds (0 if no wait needed)
-   */
-  async waitIfNeeded(): Promise<number> {
-    const stats = this.getStats();
-
-    // If we're at 90% of either limit, wait
-    if (stats.last1min >= RATE_LIMITS.perMinute * 0.9) {
-      return 60000; // Wait 1 minute
-    }
-
-    if (stats.last5min >= RATE_LIMITS.perFiveMinutes * 0.9) {
-      return 60000; // Wait 1 minute
-    }
-
-    return 0;
-  }
-
-  /**
-   * Clean up state file (call when all fetchers are done)
-   */
-  cleanup(): void {
-    try {
-      if (fs.existsSync(this.stateFile)) {
-        fs.unlinkSync(this.stateFile);
-      }
-    } catch (e) {
-      // Ignore cleanup errors
-    }
-  }
+  return {
+    limit: parseInt(String(limit), 10),
+    remaining: parseInt(String(remaining), 10),
+    resetTimestamp: parseInt(String(reset), 10),
+  };
 }
+
+/**
+ * Calculate how many seconds to wait based on rate limit info
+ */
+export function calculateWaitTime(rateLimitInfo: RateLimitInfo): number {
+  const nowSeconds = Math.floor(Date.now() / 1000);
+  const waitSeconds = rateLimitInfo.resetTimestamp - nowSeconds;
+  // Add 1 second buffer to be safe, minimum 1 second wait
+  return Math.max(1, waitSeconds + 1);
+}
+
+/**
+ * Display a countdown timer to the user
+ * Shows countdown on a new line, then removes it when done
+ */
+export async function displayCountdown(seconds: number, message: string = 'Rate limited'): Promise<void> {
+  // Move to a new line for the countdown
+  console.log('');
+
+  for (let remaining = seconds; remaining > 0; remaining--) {
+    // Move cursor up one line, clear it, and write countdown
+    process.stdout.write(`\x1b[1A\x1b[2K⏳ ${message}, resuming in ${remaining}s...\n`);
+    await new Promise((resolve) => setTimeout(resolve, 1000));
+  }
+
+  // Clear the countdown line and move cursor back up
+  process.stdout.write(`\x1b[1A\x1b[2K`);
+}
+
+/**
+ * Default fallback wait time when headers are missing (in seconds)
+ */
+export const DEFAULT_RATE_LIMIT_WAIT = 10;

@@ -4,7 +4,13 @@
 import * as https from 'https';
 import * as fs from 'fs';
 import * as path from 'path';
-import { RateLimiter } from '../utils/rate-limiter';
+import {
+  parseRateLimitHeaders,
+  calculateWaitTime,
+  displayCountdown,
+  DEFAULT_RATE_LIMIT_WAIT,
+  RateLimitInfo,
+} from '../utils/rate-limiter';
 import { City, MaterialPrice } from '../types';
 
 // ============================================================================
@@ -26,7 +32,6 @@ const CITIES: City[] = [
 
 interface FetchConfig {
   batchSize: number;
-  delayBetweenBatches: number;
   maxRetries: number;
   initialRetryDelay: number;
   maxRetryDelay: number;
@@ -38,7 +43,6 @@ interface FetchConfig {
 
 const CONFIG: FetchConfig = {
   batchSize: 50,
-  delayBetweenBatches: 1000,
   maxRetries: 5,
   initialRetryDelay: 2000,
   maxRetryDelay: 60000,
@@ -58,6 +62,7 @@ interface FetchResult<T = any> {
   error?: string;
   statusCode?: number;
   retryable?: boolean;
+  rateLimitInfo?: RateLimitInfo;
 }
 
 interface Progress {
@@ -82,21 +87,13 @@ interface AODPPriceRecord {
 // HELPER FUNCTIONS
 // ============================================================================
 
-function sleep(ms: number): Promise<void> {
-  return new Promise((resolve) => setTimeout(resolve, ms));
-}
-
 function addJitter(delay: number): number {
   const jitter = delay * CONFIG.jitterRange;
   return delay + (Math.random() * 2 - 1) * jitter;
 }
 
-function fetchPrices(materialsBatch: string[]): Promise<FetchResult<AODPPriceRecord[]>> {
+function makeHttpsRequest(url: string): Promise<FetchResult<AODPPriceRecord[]>> {
   return new Promise((resolve) => {
-    const itemsParam = materialsBatch.join(',');
-    const locationsParam = CITIES.join(',');
-    const url = `https://west.albion-online-data.com/api/v2/stats/prices/${itemsParam}?locations=${locationsParam}`;
-
     const request = https.get(url, (res) => {
       let data = '';
 
@@ -123,11 +120,14 @@ function fetchPrices(materialsBatch: string[]): Promise<FetchResult<AODPPriceRec
             });
           }
         } else if (res.statusCode === 429) {
+          // Parse rate limit headers to know exactly when we can retry
+          const rateLimitInfo = parseRateLimitHeaders(res.headers as Record<string, string | string[] | undefined>);
           resolve({
             success: false,
             error: 'Rate limited',
             statusCode: 429,
             retryable: true,
+            rateLimitInfo: rateLimitInfo || undefined,
           });
         } else if (res.statusCode && res.statusCode >= 500) {
           resolve({
@@ -166,31 +166,50 @@ function fetchPrices(materialsBatch: string[]): Promise<FetchResult<AODPPriceRec
   });
 }
 
-async function fetchPricesWithRetry(
-  materialsBatch: string[],
-  attempt: number = 1,
-  onRetry?: (attempt: number, delay: number, error: string) => void
+async function fetchWithRetry(
+  url: string,
+  attempt: number = 1
 ): Promise<FetchResult<AODPPriceRecord[]>> {
-  const result = await fetchPrices(materialsBatch);
+  const result = await makeHttpsRequest(url);
 
   if (result.success) {
     return result;
   }
 
-  if (!result.retryable || attempt >= CONFIG.maxRetries) {
+  // For rate limiting (429), always retry - don't count against maxRetries
+  const isRateLimited = result.statusCode === 429;
+
+  if (!result.retryable || (!isRateLimited && attempt >= CONFIG.maxRetries)) {
     return result;
   }
 
-  const baseDelay = CONFIG.initialRetryDelay * Math.pow(CONFIG.backoffMultiplier, attempt - 1);
-  const delayWithJitter = addJitter(Math.min(baseDelay, CONFIG.maxRetryDelay));
+  if (isRateLimited) {
+    // Use rate limit headers if available, otherwise use default wait
+    const waitSeconds = result.rateLimitInfo
+      ? calculateWaitTime(result.rateLimitInfo)
+      : DEFAULT_RATE_LIMIT_WAIT;
 
-  if (onRetry) {
-    onRetry(attempt, delayWithJitter, result.error || 'Unknown error');
+    await displayCountdown(waitSeconds, 'Rate limited');
+  } else {
+    // Exponential backoff for other retryable errors (server errors, timeouts)
+    const baseDelay = CONFIG.initialRetryDelay * Math.pow(CONFIG.backoffMultiplier, attempt - 1);
+    const delayWithJitter = addJitter(Math.min(baseDelay, CONFIG.maxRetryDelay));
+    const waitSeconds = Math.round(delayWithJitter / 1000);
+
+    await displayCountdown(waitSeconds, `Retry ${attempt}/${CONFIG.maxRetries}`);
   }
 
-  await sleep(delayWithJitter);
+  // For rate limiting, don't increment attempt counter so we retry indefinitely
+  const nextAttempt = isRateLimited ? attempt : attempt + 1;
+  return fetchWithRetry(url, nextAttempt);
+}
 
-  return fetchPricesWithRetry(materialsBatch, attempt + 1, onRetry);
+async function fetchPrices(materialsBatch: string[]): Promise<FetchResult<AODPPriceRecord[]>> {
+  const itemsParam = materialsBatch.join(',');
+  const locationsParam = CITIES.join(',');
+  const url = `https://europe.albion-online-data.com/api/v2/stats/prices/${itemsParam}?locations=${locationsParam}`;
+
+  return fetchWithRetry(url);
 }
 
 function loadProgress(): Progress {
@@ -232,70 +251,23 @@ export async function fetchAllMaterialPrices(): Promise<void> {
     return;
   }
 
-  console.log(`Fetching prices for ${materialsToProcess.length} materials across ${CITIES.length} cities...\n`);
+  console.log(`Fetching prices for ${materialsToProcess.length} materials across ${CITIES.length} cities...`);
+  console.log('(Going as fast as possible - will pause if rate limited)\n');
 
-  // Table header
-  console.log('┌──────────┬──────────┬─────────┬─────────────────────┬────────────────────────────────────┐');
-  console.log('│  Batch   │ Complete │ Success │    Rate Limits      │ Status                             │');
-  console.log('│          │          │         │   1m  │     5m      │                                    │');
-  console.log('├──────────┼──────────┼─────────┼───────┼─────────────┼────────────────────────────────────┤');
-
-  const rateLimiter = new RateLimiter();
   const totalBatches = Math.ceil(materialsToProcess.length / CONFIG.batchSize);
 
   for (let i = 0; i < materialsToProcess.length; i += CONFIG.batchSize) {
     const batch = materialsToProcess.slice(i, Math.min(i + CONFIG.batchSize, materialsToProcess.length));
     const batchNum = Math.floor(i / CONFIG.batchSize) + 1;
 
-    // Check rate limits before making request
-    const waitTime = await rateLimiter.waitIfNeeded();
-    if (waitTime > 0) {
-      const rateStats = rateLimiter.getStats();
-      const batchStr = `${batchNum}/${totalBatches}`.padEnd(8);
-      const totalProcessed = progress.processedMaterials.length;
-      const percentComplete = ((totalProcessed / MATERIALS.length) * 100).toFixed(1);
-      const completeStr = `${percentComplete}%`.padEnd(8);
-      const successRate =
-        totalProcessed > 0
-          ? (
-              ((totalProcessed - progress.errors.reduce((sum, e) => sum + e.materials.length, 0)) / totalProcessed) *
-              100
-            ).toFixed(0)
-          : '100';
-      const successStr = `${successRate}%`.padEnd(7);
-      const rate1mStr = `${rateStats.last1min}/180`.padEnd(5);
-      const rate5mStr = `${rateStats.last5min}/300`.padEnd(11);
-      const statusStr = `⏸ Waiting ${(waitTime / 1000).toFixed(0)}s (rate limit)`.padEnd(34);
+    // Show progress
+    const totalProcessed = progress.processedMaterials.length;
+    const percentComplete = ((totalProcessed / MATERIALS.length) * 100).toFixed(1);
+    const errorCount = progress.errors.reduce((sum, e) => sum + e.materials.length, 0);
 
-      console.log(`│ ${batchStr} │ ${completeStr} │ ${successStr} │ ${rate1mStr} │ ${rate5mStr} │ ${statusStr} │`);
-      await sleep(waitTime);
-    }
+    process.stdout.write(`\r📦 Batch ${batchNum}/${totalBatches} | ${percentComplete}% complete | ${errorCount} errors   `);
 
-    const result = await fetchPricesWithRetry(batch, 1, (attempt, delay, error) => {
-      const rateStats = rateLimiter.getStats();
-      const batchStr = `${batchNum}/${totalBatches}`.padEnd(8);
-      const totalProcessed = progress.processedMaterials.length;
-      const percentComplete = ((totalProcessed / MATERIALS.length) * 100).toFixed(1);
-      const completeStr = `${percentComplete}%`.padEnd(8);
-      const successRate =
-        totalProcessed > 0
-          ? (
-              ((totalProcessed - progress.errors.reduce((sum, e) => sum + e.materials.length, 0)) / totalProcessed) *
-              100
-            ).toFixed(0)
-          : '100';
-      const successStr = `${successRate}%`.padEnd(7);
-      const rate1mStr = `${rateStats.last1min}/180`.padEnd(5);
-      const rate5mStr = `${rateStats.last5min}/300`.padEnd(11);
-      const retryStr = `🔄 Retry ${attempt}/${CONFIG.maxRetries} in ${(delay / 1000).toFixed(0)}s (${error})`.padEnd(
-        34
-      );
-
-      console.log(`│ ${batchStr} │ ${completeStr} │ ${successStr} │ ${rate1mStr} │ ${rate5mStr} │ ${retryStr} │`);
-    });
-
-    // Record the API request
-    rateLimiter.recordRequest();
+    const result = await fetchPrices(batch);
 
     if (result.success && result.data) {
       // Process the price data
@@ -321,44 +293,13 @@ export async function fetchAllMaterialPrices(): Promise<void> {
       });
     }
 
-    const rateStats = rateLimiter.getStats();
-    const totalProcessed = progress.processedMaterials.length;
-    const percentComplete = ((totalProcessed / MATERIALS.length) * 100).toFixed(1);
-    const successRate =
-      totalProcessed > 0
-        ? (
-            ((totalProcessed - progress.errors.reduce((sum, e) => sum + e.materials.length, 0)) / totalProcessed) *
-            100
-          ).toFixed(0)
-        : '100';
-
-    const batchStr = `${batchNum}/${totalBatches}`.padEnd(8);
-    const completeStr = `${percentComplete}%`.padEnd(8);
-    const successStr = `${successRate}%`.padEnd(7);
-    const rate1mStr = `${rateStats.last1min}/180`.padEnd(5);
-    const rate5mStr = `${rateStats.last5min}/300`.padEnd(11);
-
-    let statusStr = '';
-    if (result.success && result.data) {
-      statusStr = `✓ Fetched ${result.data.length} prices`.padEnd(34);
-    } else {
-      statusStr = `✗ ${result.error}`.padEnd(34);
-    }
-
-    console.log(`│ ${batchStr} │ ${completeStr} │ ${successStr} │ ${rate1mStr} │ ${rate5mStr} │ ${statusStr} │`);
-
     // Save progress
     saveProgress(progress);
-
-    // Delay between batches
-    if (i + CONFIG.batchSize < materialsToProcess.length) {
-      await sleep(CONFIG.delayBetweenBatches);
-    }
   }
 
-  console.log('└──────────┴──────────┴─────────┴───────┴─────────────┴────────────────────────────────────┘');
-
-  console.log(''); // New line after progress
+  // Clear the progress line and show completion
+  process.stdout.write('\r' + ' '.repeat(80) + '\r');
+  console.log('✅ Fetching complete!\n');
 
   // Ensure output directory exists
   const outputDir = path.join(process.cwd(), 'src', 'db');

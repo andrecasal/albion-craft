@@ -4,7 +4,13 @@
 import * as https from 'https';
 import * as fs from 'fs';
 import * as path from 'path';
-import { RateLimiter } from '../utils/rate-limiter';
+import {
+  parseRateLimitHeaders,
+  calculateWaitTime,
+  displayCountdown,
+  DEFAULT_RATE_LIMIT_WAIT,
+  RateLimitInfo,
+} from '../utils/rate-limiter';
 import { City, MarketData, SupplySignal } from '../types';
 
 // ============================================================================
@@ -62,6 +68,7 @@ interface FetchResult<T = any> {
   error?: string;
   statusCode?: number;
   retryable?: boolean;
+  rateLimitInfo?: RateLimitInfo;
 }
 
 interface Progress {
@@ -72,6 +79,11 @@ interface Progress {
     error: string;
     statusCode?: number;
   }>;
+  itemFailures: Map<string, {
+    missingDays: number[];  // Days 0-6 that have no data
+    reason: string;         // Human-readable reason for the failure
+    url: string;            // API URL to manually test the item
+  }>;
 }
 
 interface AODPPriceRecord {
@@ -80,12 +92,6 @@ interface AODPPriceRecord {
   sell_price_min: number;
   buy_price_max: number;
   sell_price_min_date: string;
-}
-
-interface AODPHistoricalRecord {
-  location: string;
-  timestamp: string;
-  sell_price_min: number;
 }
 
 interface AODPChartDataPoint {
@@ -99,6 +105,72 @@ interface AODPChartLocationData {
   data: AODPChartDataPoint[];
 }
 
+// Raw API response format from /charts endpoint
+interface AODPChartRawResponse {
+  location: string;
+  item_id: string;
+  quality: number;
+  data: {
+    timestamps: string[];
+    prices_avg: number[];
+    item_count: number[];
+  };
+}
+
+/**
+ * Transform raw API response into grouped format by item ID
+ * Aggregates all qualities for each item+city combination
+ */
+function transformChartsResponse(rawData: AODPChartRawResponse[]): Record<string, AODPChartLocationData[]> {
+  const result: Record<string, AODPChartLocationData[]> = {};
+
+  for (const record of rawData) {
+    const { item_id, location, data } = record;
+
+    if (!data || !data.timestamps || data.timestamps.length === 0) {
+      continue;
+    }
+
+    // Convert arrays into data points
+    const dataPoints: AODPChartDataPoint[] = data.timestamps.map((ts, i) => ({
+      timestamp: new Date(ts).getTime(),
+      avg_price: data.prices_avg[i] || 0,
+      item_count: data.item_count[i] || 0,
+    }));
+
+    if (!result[item_id]) {
+      result[item_id] = [];
+    }
+
+    // Find existing location data for this item
+    const existingLocation = result[item_id].find((loc) => loc.location === location);
+
+    if (existingLocation) {
+      // Aggregate: sum item_count, weighted avg for price per timestamp
+      for (const newPoint of dataPoints) {
+        const existingPoint = existingLocation.data.find((p) => p.timestamp === newPoint.timestamp);
+        if (existingPoint) {
+          // Sum item counts across qualities
+          existingPoint.item_count += newPoint.item_count;
+          // Keep the lower price (more relevant for buyers)
+          if (newPoint.avg_price > 0 && (existingPoint.avg_price === 0 || newPoint.avg_price < existingPoint.avg_price)) {
+            existingPoint.avg_price = newPoint.avg_price;
+          }
+        } else {
+          existingLocation.data.push({ ...newPoint });
+        }
+      }
+    } else {
+      result[item_id].push({
+        location,
+        data: dataPoints,
+      });
+    }
+  }
+
+  return result;
+}
+
 interface TrendAnalysis {
   price7dAvg: number;
   priceTrendPct: number;
@@ -109,10 +181,6 @@ interface TrendAnalysis {
 // ============================================================================
 // HELPER FUNCTIONS
 // ============================================================================
-
-function sleep(ms: number): Promise<void> {
-  return new Promise((resolve) => setTimeout(resolve, ms));
-}
 
 function addJitter(delay: number): number {
   const jitter = delay * CONFIG.jitterRange;
@@ -126,41 +194,30 @@ function calculateDaysAgo(days: number): string {
 }
 
 /**
- * Split items into sub-batches that respect URL length limit
+ * Split items into batches that respect URL length limit
  */
-function createHistoricalBatches(items: string[]): string[][] {
+function createBatchesByUrlLength(items: string[], baseUrl: string, queryParams: string): string[][] {
   const batches: string[][] = [];
-  const locationsParam = CITIES.join(',');
-  const dateFrom = calculateDaysAgo(CONFIG.historyDays);
-  const dateTo = new Date().toISOString().split('T')[0];
-
-  // Build base URL without items parameter
-  const baseUrl = `https://west.albion-online-data.com/api/v2/stats/charts/`;
-  const queryParams = `?time-scale=24&locations=${locationsParam}&date=${dateFrom}&end_date=${dateTo}`;
   const baseLength = baseUrl.length + queryParams.length;
 
   let currentBatch: string[] = [];
   let currentLength = baseLength;
 
   for (const itemId of items) {
-    // Calculate length if we add this item
     // +1 for comma separator (except for first item)
     const itemLength = itemId.length + (currentBatch.length > 0 ? 1 : 0);
     const newLength = currentLength + itemLength;
 
     if (newLength > MAX_URL_LENGTH && currentBatch.length > 0) {
-      // Current batch would exceed limit, save it and start new batch
       batches.push([...currentBatch]);
       currentBatch = [itemId];
       currentLength = baseLength + itemId.length;
     } else {
-      // Add item to current batch
       currentBatch.push(itemId);
       currentLength = newLength;
     }
   }
 
-  // Add remaining batch
   if (currentBatch.length > 0) {
     batches.push(currentBatch);
   }
@@ -196,11 +253,14 @@ function makeHttpsRequest(url: string): Promise<FetchResult> {
             });
           }
         } else if (res.statusCode === 429) {
+          // Parse rate limit headers to know exactly when we can retry
+          const rateLimitInfo = parseRateLimitHeaders(res.headers as Record<string, string | string[] | undefined>);
           resolve({
             success: false,
             error: 'Rate limited',
             statusCode: 429,
             retryable: true,
+            rateLimitInfo: rateLimitInfo || undefined,
           });
         } else if (res.statusCode && res.statusCode >= 500) {
           resolve({
@@ -241,8 +301,7 @@ function makeHttpsRequest(url: string): Promise<FetchResult> {
 
 async function fetchWithRetry(
   url: string,
-  attempt: number = 1,
-  onRetry?: (attempt: number, delay: number, error: string) => void
+  attempt: number = 1
 ): Promise<FetchResult> {
   const result = await makeHttpsRequest(url);
 
@@ -250,38 +309,82 @@ async function fetchWithRetry(
     return result;
   }
 
-  if (!result.retryable || attempt >= CONFIG.maxRetries) {
+  // For rate limiting (429), always retry - don't count against maxRetries
+  const isRateLimited = result.statusCode === 429;
+
+  if (!result.retryable || (!isRateLimited && attempt >= CONFIG.maxRetries)) {
     return result;
   }
 
-  const baseDelay = CONFIG.initialRetryDelay * Math.pow(CONFIG.backoffMultiplier, attempt - 1);
-  const delayWithJitter = addJitter(Math.min(baseDelay, CONFIG.maxRetryDelay));
+  if (isRateLimited) {
+    // Use rate limit headers if available, otherwise use default wait
+    const waitSeconds = result.rateLimitInfo
+      ? calculateWaitTime(result.rateLimitInfo)
+      : DEFAULT_RATE_LIMIT_WAIT;
 
-  if (onRetry) {
-    onRetry(attempt, delayWithJitter, result.error || 'Unknown error');
+    await displayCountdown(waitSeconds, 'Rate limited');
+  } else {
+    // Exponential backoff for other retryable errors (server errors, timeouts)
+    const baseDelay = CONFIG.initialRetryDelay * Math.pow(CONFIG.backoffMultiplier, attempt - 1);
+    const delayWithJitter = addJitter(Math.min(baseDelay, CONFIG.maxRetryDelay));
+    const waitSeconds = Math.round(delayWithJitter / 1000);
+
+    await displayCountdown(waitSeconds, `Retry ${attempt}/${CONFIG.maxRetries}`);
   }
 
-  await sleep(delayWithJitter);
+  // For rate limiting, don't increment attempt counter so we retry indefinitely
+  const nextAttempt = isRateLimited ? attempt : attempt + 1;
+  return fetchWithRetry(url, nextAttempt);
+}
 
-  return fetchWithRetry(url, attempt + 1, onRetry);
+// Small delay between requests to avoid hitting rate limits
+const REQUEST_DELAY_MS = 200;
+
+function sleep(ms: number): Promise<void> {
+  return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
 async function fetchCurrentPrices(itemsBatch: string[]): Promise<FetchResult<AODPPriceRecord[]>> {
   const itemsParam = itemsBatch.join(',');
   const locationsParam = CITIES.join(',');
-  const url = `https://west.albion-online-data.com/api/v2/stats/prices/${itemsParam}?locations=${locationsParam}`;
+  const url = `https://europe.albion-online-data.com/api/v2/stats/prices/${itemsParam}?locations=${locationsParam}`;
 
-  return fetchWithRetry(url);
+  console.log(`\n📡 [PRICES] ${itemsBatch.length} items | URL length: ${url.length}`);
+  console.log(`   ${url.substring(0, 150)}${url.length > 150 ? '...' : ''}`);
+
+  const result = await fetchWithRetry(url);
+  await sleep(REQUEST_DELAY_MS);
+  return result;
 }
 
-async function fetchHistoricalPrices(itemIds: string[]): Promise<FetchResult<Record<string, AODPChartLocationData[]>>> {
+function buildHistoricalUrl(itemIds: string[]): string {
   const itemsParam = itemIds.join(',');
   const locationsParam = CITIES.join(',');
   const dateFrom = calculateDaysAgo(CONFIG.historyDays);
   const dateTo = new Date().toISOString().split('T')[0];
-  const url = `https://west.albion-online-data.com/api/v2/stats/charts/${itemsParam}?time-scale=24&locations=${locationsParam}&date=${dateFrom}&end_date=${dateTo}`;
+  return `https://europe.albion-online-data.com/api/v2/stats/charts/${itemsParam}?time-scale=24&locations=${locationsParam}&date=${dateFrom}&end_date=${dateTo}`;
+}
 
-  return fetchWithRetry(url);
+async function fetchHistoricalPrices(itemIds: string[]): Promise<FetchResult<Record<string, AODPChartLocationData[]>>> {
+  const url = buildHistoricalUrl(itemIds);
+
+  console.log(`\n📡 [HISTORY] ${itemIds.length} items | URL length: ${url.length}`);
+  console.log(`   ${url.substring(0, 150)}${url.length > 150 ? '...' : ''}`);
+
+  const result = await fetchWithRetry(url);
+  await sleep(REQUEST_DELAY_MS);
+
+  // Transform raw API response into expected format
+  if (result.success && result.data) {
+    const rawData = result.data as AODPChartRawResponse[];
+    const transformed = transformChartsResponse(rawData);
+    return {
+      ...result,
+      data: transformed,
+    };
+  }
+
+  return result;
 }
 
 function analyzePriceTrend(historicalData: AODPChartLocationData[], city: City): TrendAnalysis {
@@ -347,14 +450,6 @@ function analyzePriceTrend(historicalData: AODPChartLocationData[], city: City):
   };
 }
 
-function calculateDataAge(timestamp: string): number {
-  if (!timestamp) return 999;
-  const now = new Date();
-  const dataTime = new Date(timestamp);
-  const ageMs = now.getTime() - dataTime.getTime();
-  return Math.round(ageMs / (1000 * 60 * 60)); // Convert to hours
-}
-
 function calculateDataAgeFromTimestamp(timestamp: number): number {
   if (!timestamp) return 999;
   const now = Date.now();
@@ -386,11 +481,22 @@ function estimateDailyDemand(historicalData: AODPChartLocationData[], city: City
 function loadProgress(): Progress {
   try {
     if (fs.existsSync(CONFIG.resumeFromFile)) {
-      const data = JSON.parse(fs.readFileSync(CONFIG.resumeFromFile, 'utf8')) as Progress;
+      const raw = JSON.parse(fs.readFileSync(CONFIG.resumeFromFile, 'utf8')) as any;
       console.log(`\n✓ Resuming from ${CONFIG.resumeFromFile}`);
-      console.log(`  Already processed: ${data.processedItems.length} items`);
-      console.log(`  Market records: ${data.marketData.length}\n`);
-      return data;
+      console.log(`  Already processed: ${raw.processedItems.length} items`);
+      console.log(`  Market records: ${raw.marketData.length}\n`);
+
+      // Convert itemFailures from object to Map
+      const itemFailures = new Map<string, { missingDays: number[]; reason: string; url: string }>(
+        Object.entries(raw.itemFailures || {})
+      );
+
+      return {
+        processedItems: raw.processedItems,
+        marketData: raw.marketData,
+        errors: raw.errors,
+        itemFailures,
+      };
     }
   } catch (e) {
     const error = e as Error;
@@ -401,16 +507,173 @@ function loadProgress(): Progress {
     processedItems: [],
     marketData: [],
     errors: [],
+    itemFailures: new Map(),
   };
 }
 
 function saveProgress(data: Progress): void {
-  fs.writeFileSync(CONFIG.resumeFromFile, JSON.stringify(data, null, 2));
+  // Convert Map to object for JSON serialization
+  const serializable = {
+    processedItems: data.processedItems,
+    marketData: data.marketData,
+    errors: data.errors,
+    itemFailures: Object.fromEntries(data.itemFailures),
+  };
+  fs.writeFileSync(CONFIG.resumeFromFile, JSON.stringify(serializable, null, 2));
+}
+
+/**
+ * Calculate failure metrics for progress display
+ */
+function calculateFailures(itemFailures: Map<string, { missingDays: number[]; reason: string; url: string }>): { itemsFailed: number; daysFailed: number } {
+  if (itemFailures.size === 0) {
+    return { itemsFailed: 0, daysFailed: 0 };
+  }
+
+  const itemsFailed = itemFailures.size;
+
+  // Calculate total missing days across all items
+  let totalMissingDays = 0;
+  itemFailures.forEach((failure) => {
+    totalMissingDays += failure.missingDays.length;
+  });
+
+  return {
+    itemsFailed,
+    daysFailed: totalMissingDays,
+  };
 }
 
 // ============================================================================
 // MAIN FUNCTION
 // ============================================================================
+
+// ============================================================================
+// DEMAND/SUPPLY ONLY FETCH (Charts endpoint only)
+// ============================================================================
+
+export interface DemandSupplyData {
+  itemId: string;
+  city: City;
+  dailyDemand: number;
+  supplySignal: SupplySignal;
+  price7dAvg: number;
+  priceTrendPct: number;
+  dataAgeHours: number;
+}
+
+export async function fetchDemandSupplyData(): Promise<DemandSupplyData[]> {
+  console.log('\n--- FETCHING MARKET DEMAND & SUPPLY DATA ---\n');
+  console.log(`Fetching charts data for ${ITEMS.length} items across ${CITIES.length} cities...`);
+  console.log('(Going as fast as possible - will pause if rate limited)\n');
+
+  // Create URL-length-aware batches for historical endpoint
+  const dateFrom = calculateDaysAgo(CONFIG.historyDays);
+  const dateTo = new Date().toISOString().split('T')[0];
+  const locationsParam = CITIES.join(',');
+  const historyBaseUrl = 'https://europe.albion-online-data.com/api/v2/stats/charts/';
+  const historyQueryParams = `?time-scale=24&locations=${locationsParam}&date=${dateFrom}&end_date=${dateTo}`;
+  const historyBatches = createBatchesByUrlLength(ITEMS, historyBaseUrl, historyQueryParams);
+
+  console.log(`📊 Total: ${historyBatches.length} requests needed\n`);
+
+  // Fetch ALL historical data
+  const historicalDataMap = new Map<string, AODPChartLocationData[]>();
+  for (let i = 0; i < historyBatches.length; i++) {
+    const batch = historyBatches[i];
+    const percentComplete = ((i / historyBatches.length) * 100).toFixed(1);
+    process.stdout.write(`\r📡 Fetching charts data: batch ${i + 1}/${historyBatches.length} (${percentComplete}%)   `);
+
+    const historyResult = await fetchHistoricalPrices(batch);
+
+    if (historyResult.success && historyResult.data) {
+      const histData = historyResult.data as Record<string, AODPChartLocationData[]>;
+      Object.entries(histData).forEach(([itemId, locationData]) => {
+        historicalDataMap.set(itemId, locationData);
+      });
+    }
+  }
+  console.log(`\n✅ Charts data: fetched for ${historicalDataMap.size} items\n`);
+
+  // Process data into demand/supply records
+  console.log('📊 Processing demand & supply data...\n');
+
+  const demandSupplyData: DemandSupplyData[] = [];
+
+  ITEMS.forEach((itemId) => {
+    const historicalData = historicalDataMap.get(itemId) || [];
+
+    CITIES.forEach((city) => {
+      const trendAnalysis = analyzePriceTrend(historicalData, city);
+      const dailyDemand = estimateDailyDemand(historicalData, city);
+
+      demandSupplyData.push({
+        itemId,
+        city,
+        dailyDemand,
+        supplySignal: trendAnalysis.supplySignal,
+        price7dAvg: trendAnalysis.price7dAvg,
+        priceTrendPct: trendAnalysis.priceTrendPct,
+        dataAgeHours: trendAnalysis.dataAgeHours,
+      });
+    });
+  });
+
+  // Ensure output directory exists
+  const outputDir = path.join(process.cwd(), 'src', 'db');
+  if (!fs.existsSync(outputDir)) {
+    fs.mkdirSync(outputDir, { recursive: true });
+  }
+
+  // Write output file
+  const outputPath = path.join(outputDir, 'demand-supply.json');
+  fs.writeFileSync(outputPath, JSON.stringify(demandSupplyData, null, 2));
+
+  console.log(`✅ Done! Saved ${demandSupplyData.length} demand/supply records`);
+  console.log(`Output: ${outputPath}\n`);
+
+  return demandSupplyData;
+}
+
+// ============================================================================
+// FULL MARKET DATA FETCH (Prices + Charts)
+// ============================================================================
+
+/**
+ * Check if demand-supply.json exists and is fresh (less than maxAgeHours old)
+ */
+function getDemandSupplyFreshness(maxAgeHours: number = 6): { exists: boolean; isFresh: boolean; ageHours: number } {
+  const demandSupplyPath = path.join(process.cwd(), 'src', 'db', 'demand-supply.json');
+
+  if (!fs.existsSync(demandSupplyPath)) {
+    return { exists: false, isFresh: false, ageHours: Infinity };
+  }
+
+  const stats = fs.statSync(demandSupplyPath);
+  const ageHours = (Date.now() - stats.mtimeMs) / (1000 * 60 * 60);
+
+  return {
+    exists: true,
+    isFresh: ageHours < maxAgeHours,
+    ageHours: Math.round(ageHours * 10) / 10,
+  };
+}
+
+/**
+ * Load existing demand-supply data and convert to map for quick lookup
+ */
+function loadDemandSupplyAsMap(): Map<string, DemandSupplyData> {
+  const demandSupplyPath = path.join(process.cwd(), 'src', 'db', 'demand-supply.json');
+  const data: DemandSupplyData[] = JSON.parse(fs.readFileSync(demandSupplyPath, 'utf8'));
+
+  const map = new Map<string, DemandSupplyData>();
+  for (const record of data) {
+    const key = `${record.itemId}:${record.city}`;
+    map.set(key, record);
+  }
+
+  return map;
+}
 
 export async function fetchAllMarketData(): Promise<void> {
   const progress = loadProgress();
@@ -422,130 +685,84 @@ export async function fetchAllMarketData(): Promise<void> {
     return;
   }
 
+  // Check if we can reuse existing demand-supply data
+  const demandSupplyStatus = getDemandSupplyFreshness(6); // 6 hours threshold
+  let demandSupplyMap: Map<string, DemandSupplyData> | null = null;
+
+  if (demandSupplyStatus.exists && demandSupplyStatus.isFresh) {
+    console.log(`\n✅ Reusing existing demand-supply data (${demandSupplyStatus.ageHours}h old)`);
+    console.log('   Skipping charts API fetch - will only fetch current prices\n');
+    demandSupplyMap = loadDemandSupplyAsMap();
+  } else if (demandSupplyStatus.exists) {
+    console.log(`\n⚠️  Demand-supply data is stale (${demandSupplyStatus.ageHours}h old)`);
+    console.log('   Will fetch fresh charts data\n');
+  } else {
+    console.log('\n⚠️  No demand-supply data found');
+    console.log('   Will fetch charts data\n');
+  }
+
   console.log(`Fetching market data for ${itemsToProcess.length} items across ${CITIES.length} cities...`);
-  console.log('(This includes price history for trend analysis - may take a few minutes)\n');
+  console.log('(Going as fast as possible - will pause if rate limited)\n');
 
-  // Table header
-  console.log('┌──────────┬──────────┬─────────┬─────────────────────┬────────────────────────────────────┐');
-  console.log('│  Batch   │ Complete │ Success │    Rate Limits      │ Status                             │');
-  console.log('│          │          │         │   1m  │     5m      │                                    │');
-  console.log('├──────────┼──────────┼─────────┼───────┼─────────────┼────────────────────────────────────┤');
+  // Create URL-length-aware batches for prices endpoint
+  const locationsParam = CITIES.join(',');
+  const pricesBaseUrl = 'https://europe.albion-online-data.com/api/v2/stats/prices/';
+  const pricesQueryParams = `?locations=${locationsParam}`;
+  const priceBatches = createBatchesByUrlLength(itemsToProcess, pricesBaseUrl, pricesQueryParams);
 
-  const rateLimiter = new RateLimiter();
-  const totalBatches = Math.ceil(itemsToProcess.length / CONFIG.batchSize);
+  // Only create history batches if we don't have fresh demand-supply data
+  let historyBatches: string[][] = [];
+  if (!demandSupplyMap) {
+    const dateFrom = calculateDaysAgo(CONFIG.historyDays);
+    const dateTo = new Date().toISOString().split('T')[0];
+    const historyBaseUrl = 'https://europe.albion-online-data.com/api/v2/stats/charts/';
+    const historyQueryParams = `?time-scale=24&locations=${locationsParam}&date=${dateFrom}&end_date=${dateTo}`;
+    historyBatches = createBatchesByUrlLength(itemsToProcess, historyBaseUrl, historyQueryParams);
+  }
 
-  for (let i = 0; i < itemsToProcess.length; i += CONFIG.batchSize) {
-    const batch = itemsToProcess.slice(i, Math.min(i + CONFIG.batchSize, itemsToProcess.length));
-    const batchNum = Math.floor(i / CONFIG.batchSize) + 1;
+  console.log(`📊 Prices: ${priceBatches.length} requests needed`);
+  if (demandSupplyMap) {
+    console.log(`📊 History: 0 requests (reusing demand-supply.json)`);
+  } else {
+    console.log(`📊 History: ${historyBatches.length} requests needed`);
+  }
+  console.log(`📊 Total: ${priceBatches.length + historyBatches.length} requests\n`);
 
-    // Check rate limits before making request
-    const waitTime = await rateLimiter.waitIfNeeded();
-    const rateStats = rateLimiter.getStats();
+  // Step 1: Fetch ALL current prices
+  const allPriceData: AODPPriceRecord[] = [];
+  for (let i = 0; i < priceBatches.length; i++) {
+    const batch = priceBatches[i];
+    const percentComplete = ((i / priceBatches.length) * 100).toFixed(1);
+    process.stdout.write(`\r📡 Fetching prices: batch ${i + 1}/${priceBatches.length} (${percentComplete}%)   `);
 
-    // Always show progress row so user knows we're running
-    const batchStr = `${batchNum}/${totalBatches}`.padEnd(8);
-    const totalProcessed = progress.processedItems.length;
-    const percentComplete = ((totalProcessed / ITEMS.length) * 100).toFixed(1);
-    const completeStr = `${percentComplete}%`.padEnd(8);
-    const successRate =
-      totalProcessed > 0
-        ? (
-            ((totalProcessed - progress.errors.reduce((sum, e) => sum + e.items.length, 0)) / totalProcessed) *
-            100
-          ).toFixed(0)
-        : '100';
-    const successStr = `${successRate}%`.padEnd(7);
-    const rate1mStr = `${rateStats.last1min}/180`.padEnd(5);
-    const rate5mStr = `${rateStats.last5min}/300`.padEnd(11);
-
-    if (waitTime > 0) {
-      const statusStr = `⏸ Waiting ${(waitTime / 1000).toFixed(0)}s (rate limit)`.padEnd(34);
-      console.log(`│ ${batchStr} │ ${completeStr} │ ${successStr} │ ${rate1mStr} │ ${rate5mStr} │ ${statusStr} │`);
-      await sleep(waitTime);
-    } else {
-      // Show starting status
-      const statusStr = `▶ Starting batch...`.padEnd(34);
-      console.log(`│ ${batchStr} │ ${completeStr} │ ${successStr} │ ${rate1mStr} │ ${rate5mStr} │ ${statusStr} │`);
-    }
-
-    // Step 1: Fetch current prices
     const pricesResult = await fetchCurrentPrices(batch);
-    rateLimiter.recordRequest();
 
-    if (!pricesResult.success) {
+    if (pricesResult.success && pricesResult.data) {
+      allPriceData.push(...pricesResult.data);
+    } else {
       progress.errors.push({
         items: batch,
         error: pricesResult.error || 'Unknown error',
         statusCode: pricesResult.statusCode,
       });
-
-      const errorRateStats = rateLimiter.getStats();
-      const errorTotalProcessed = progress.processedItems.length;
-      const errorPercentComplete = ((errorTotalProcessed / ITEMS.length) * 100).toFixed(1);
-      const errorSuccessRate =
-        errorTotalProcessed > 0
-          ? (
-              ((errorTotalProcessed - progress.errors.reduce((sum, e) => sum + e.items.length, 0)) /
-                errorTotalProcessed) *
-              100
-            ).toFixed(0)
-          : '100';
-
-      const errorBatchStr = `${batchNum}/${totalBatches}`.padEnd(8);
-      const errorCompleteStr = `${errorPercentComplete}%`.padEnd(8);
-      const errorSuccessStr = `${errorSuccessRate}%`.padEnd(7);
-      const errorRate1mStr = `${errorRateStats.last1min}/180`.padEnd(5);
-      const errorRate5mStr = `${errorRateStats.last5min}/300`.padEnd(11);
-      const statusStr = `✗ ${pricesResult.error}`.padEnd(34);
-
-      console.log(
-        `│ ${errorBatchStr} │ ${errorCompleteStr} │ ${errorSuccessStr} │ ${errorRate1mStr} │ ${errorRate5mStr} │ ${statusStr} │`
-      );
-
-      saveProgress(progress);
-      continue;
     }
+  }
+  console.log(`\n✅ Prices: fetched ${allPriceData.length} records\n`);
 
-    // Step 2: Fetch historical data for trend analysis (URL-length-aware batching)
-    const historicalBatches = createHistoricalBatches(batch);
-    const historicalDataMap = new Map<string, AODPChartLocationData[]>();
+  // Step 2: Get historical data (either from API or from existing demand-supply.json)
+  let historicalDataMap = new Map<string, AODPChartLocationData[]>();
 
-    for (let histBatchIdx = 0; histBatchIdx < historicalBatches.length; histBatchIdx++) {
-      const histBatch = historicalBatches[histBatchIdx];
+  if (demandSupplyMap) {
+    // We already have demand-supply data, no need to fetch history
+    console.log(`✅ History: using ${demandSupplyMap.size} records from demand-supply.json\n`);
+  } else {
+    // Fetch historical data from API
+    for (let i = 0; i < historyBatches.length; i++) {
+      const batch = historyBatches[i];
+      const percentComplete = ((i / historyBatches.length) * 100).toFixed(1);
+      process.stdout.write(`\r📡 Fetching history: batch ${i + 1}/${historyBatches.length} (${percentComplete}%)   `);
 
-      const histWaitTime = await rateLimiter.waitIfNeeded();
-      const histRateStats = rateLimiter.getStats();
-      const histBatchStr = `${batchNum}/${totalBatches}`.padEnd(8);
-      const histTotalProcessed = progress.processedItems.length;
-      const histPercentComplete = ((histTotalProcessed / ITEMS.length) * 100).toFixed(1);
-      const histCompleteStr = `${histPercentComplete}%`.padEnd(8);
-      const histSuccessRate =
-        histTotalProcessed > 0
-          ? (
-              ((histTotalProcessed - progress.errors.reduce((sum, e) => sum + e.items.length, 0)) /
-                histTotalProcessed) *
-              100
-            ).toFixed(0)
-          : '100';
-      const histSuccessStr = `${histSuccessRate}%`.padEnd(7);
-      const histRate1mStr = `${histRateStats.last1min}/180`.padEnd(5);
-      const histRate5mStr = `${histRateStats.last5min}/300`.padEnd(11);
-
-      if (histWaitTime > 0) {
-        const statusStr = `⏸ Wait ${(histWaitTime / 1000).toFixed(0)}s (history ${histBatchIdx + 1}/${historicalBatches.length})`.padEnd(34);
-        console.log(
-          `│ ${histBatchStr} │ ${histCompleteStr} │ ${histSuccessStr} │ ${histRate1mStr} │ ${histRate5mStr} │ ${statusStr} │`
-        );
-        await sleep(histWaitTime);
-      } else {
-        const statusStr = `⏳ History ${histBatchIdx + 1}/${historicalBatches.length} (${histBatch.length} items)`.padEnd(34);
-        console.log(
-          `│ ${histBatchStr} │ ${histCompleteStr} │ ${histSuccessStr} │ ${histRate1mStr} │ ${histRate5mStr} │ ${statusStr} │`
-        );
-      }
-
-      const historyResult = await fetchHistoricalPrices(histBatch);
-      rateLimiter.recordRequest();
+      const historyResult = await fetchHistoricalPrices(batch);
 
       if (historyResult.success && historyResult.data) {
         const histData = historyResult.data as Record<string, AODPChartLocationData[]>;
@@ -553,84 +770,126 @@ export async function fetchAllMarketData(): Promise<void> {
           historicalDataMap.set(itemId, locationData);
         });
       }
-
-      await sleep(200);
     }
-
-    // Step 3: Combine price data with trend analysis
-    const priceData = pricesResult.data as AODPPriceRecord[];
-    priceData.forEach((priceRecord) => {
-      const itemId = priceRecord.item_id;
-      const city = priceRecord.city as City;
-      const historicalData = historicalDataMap.get(itemId) || [];
-
-      const trendAnalysis = analyzePriceTrend(historicalData, city);
-      const dailyDemand = estimateDailyDemand(historicalData, city);
-      const availableCapacity = dailyDemand > 0 ? Math.round(dailyDemand * 2.5) : 0;
-      const confidence =
-        trendAnalysis.dataAgeHours < 12
-          ? 95
-          : trendAnalysis.dataAgeHours < 24
-          ? 80
-          : trendAnalysis.dataAgeHours < 48
-          ? 60
-          : 40;
-      const marketSignal =
-        trendAnalysis.supplySignal === '🟢 Rising' ? 'GOOD' : trendAnalysis.supplySignal === '🟡 Stable' ? 'FAIR' : 'POOR';
-
-      progress.marketData.push({
-        itemId,
-        city,
-        dailyDemand,
-        lowestSellPrice: priceRecord.sell_price_min || 0,
-        price7dAvg: trendAnalysis.price7dAvg,
-        dataAgeHours: trendAnalysis.dataAgeHours,
-        confidence,
-        availableCapacity,
-        priceTrendPct: trendAnalysis.priceTrendPct,
-        supplySignal: trendAnalysis.supplySignal,
-        marketSignal,
-      });
-    });
-
-    // Mark items as processed
-    batch.forEach((item) => progress.processedItems.push(item));
-
-    const finalRateStats = rateLimiter.getStats();
-    const finalTotalProcessed = progress.processedItems.length;
-    const finalPercentComplete = ((finalTotalProcessed / ITEMS.length) * 100).toFixed(1);
-    const finalSuccessRate =
-      finalTotalProcessed > 0
-        ? (
-            ((finalTotalProcessed - progress.errors.reduce((sum, e) => sum + e.items.length, 0)) /
-              finalTotalProcessed) *
-            100
-          ).toFixed(0)
-        : '100';
-
-    const finalBatchStr = `${batchNum}/${totalBatches}`.padEnd(8);
-    const finalCompleteStr = `${finalPercentComplete}%`.padEnd(8);
-    const finalSuccessStr = `${finalSuccessRate}%`.padEnd(7);
-    const finalRate1mStr = `${finalRateStats.last1min}/180`.padEnd(5);
-    const finalRate5mStr = `${finalRateStats.last5min}/300`.padEnd(11);
-    const recordsCount = priceData.length;
-    const statusStr = `✓ Analyzed ${recordsCount} records`.padEnd(34);
-
-    console.log(
-      `│ ${finalBatchStr} │ ${finalCompleteStr} │ ${finalSuccessStr} │ ${finalRate1mStr} │ ${finalRate5mStr} │ ${statusStr} │`
-    );
-
-    saveProgress(progress);
-
-    // Delay between batches
-    if (i + CONFIG.batchSize < itemsToProcess.length) {
-      await sleep(CONFIG.delayBetweenBatches);
-    }
+    console.log(`\n✅ History: fetched data for ${historicalDataMap.size} items\n`);
   }
 
-  console.log('└──────────┴──────────┴─────────┴───────┴─────────────┴────────────────────────────────────┘');
+  // Step 3: Combine price data with trend analysis and track missing days
+  console.log('📊 Processing data...\n');
 
-  console.log(''); // New line after progress
+  allPriceData.forEach((priceRecord) => {
+    const itemId = priceRecord.item_id;
+    const city = priceRecord.city as City;
+
+    let dailyDemand: number;
+    let price7dAvg: number;
+    let dataAgeHours: number;
+    let priceTrendPct: number;
+    let supplySignal: SupplySignal;
+
+    if (demandSupplyMap) {
+      // Use existing demand-supply data (no API call needed)
+      const key = `${itemId}:${city}`;
+      const existingData = demandSupplyMap.get(key);
+
+      if (existingData) {
+        dailyDemand = existingData.dailyDemand;
+        price7dAvg = existingData.price7dAvg;
+        dataAgeHours = existingData.dataAgeHours;
+        priceTrendPct = existingData.priceTrendPct;
+        supplySignal = existingData.supplySignal;
+      } else {
+        // Item not found in demand-supply data, use defaults
+        dailyDemand = 0;
+        price7dAvg = 0;
+        dataAgeHours = 999;
+        priceTrendPct = 0;
+        supplySignal = '🟡 Stable';
+      }
+    } else {
+      // Calculate from freshly fetched historical data
+      const historicalData = historicalDataMap.get(itemId) || [];
+
+      // Check how many days of data we got
+      const cityLocation = historicalData.find((loc) => loc.location === city);
+      const daysReceived = cityLocation?.data?.length || 0;
+      const missingDays: number[] = [];
+
+      // We expect 7 days (0-6), track which are missing
+      for (let day = 0; day < CONFIG.historyDays; day++) {
+        if (day >= daysReceived) {
+          missingDays.push(day);
+        }
+      }
+
+      // If any days are missing, track the failure
+      if (missingDays.length > 0) {
+        const existing = progress.itemFailures.get(itemId);
+        let reason: string;
+        if (daysReceived === 0) {
+          reason = 'No historical data returned by API (item may be rarely traded or new)';
+        } else {
+          reason = `Partial historical data: only ${daysReceived} of ${CONFIG.historyDays} days returned`;
+        }
+
+        const url = buildHistoricalUrl([itemId]);
+
+        if (existing) {
+          const allMissing = new Set([...existing.missingDays, ...missingDays]);
+          progress.itemFailures.set(itemId, {
+            missingDays: Array.from(allMissing).sort((a, b) => a - b),
+            reason: existing.reason,
+            url: existing.url,
+          });
+        } else {
+          progress.itemFailures.set(itemId, {
+            missingDays,
+            reason,
+            url,
+          });
+        }
+      }
+
+      const trendAnalysis = analyzePriceTrend(historicalData, city);
+      dailyDemand = estimateDailyDemand(historicalData, city);
+      price7dAvg = trendAnalysis.price7dAvg;
+      dataAgeHours = trendAnalysis.dataAgeHours;
+      priceTrendPct = trendAnalysis.priceTrendPct;
+      supplySignal = trendAnalysis.supplySignal;
+    }
+
+    const availableCapacity = dailyDemand > 0 ? Math.round(dailyDemand * 2.5) : 0;
+    const confidence =
+      dataAgeHours < 12
+        ? 95
+        : dataAgeHours < 24
+        ? 80
+        : dataAgeHours < 48
+        ? 60
+        : 40;
+    const marketSignal =
+      supplySignal === '🟢 Rising' ? 'GOOD' : supplySignal === '🟡 Stable' ? 'FAIR' : 'POOR';
+
+    progress.marketData.push({
+      itemId,
+      city,
+      dailyDemand,
+      lowestSellPrice: priceRecord.sell_price_min || 0,
+      price7dAvg,
+      dataAgeHours,
+      confidence,
+      availableCapacity,
+      priceTrendPct,
+      supplySignal,
+      marketSignal,
+    });
+  });
+
+  // Mark all items as processed
+  itemsToProcess.forEach((item) => progress.processedItems.push(item));
+  saveProgress(progress);
+
+  console.log('✅ Fetching complete!\n');
 
   // Ensure output directory exists
   const outputDir = path.join(process.cwd(), 'src', 'db');
@@ -673,6 +932,38 @@ export async function fetchAllMarketData(): Promise<void> {
   summary.avgConfidence = Math.round(summary.avgConfidence / progress.marketData.length);
 
   fs.writeFileSync('market-data-summary.json', JSON.stringify(summary, null, 2));
+
+  // Write detailed failure report
+  if (progress.itemFailures.size > 0) {
+    console.log('\n========================================');
+    console.log('FAILURE REPORT');
+    console.log('========================================\n');
+    console.log(`Total items with failures: ${progress.itemFailures.size}`);
+    console.log(`Total missing days: ${calculateFailures(progress.itemFailures).daysFailed}\n`);
+
+    console.log('Items with missing days:\n');
+    const sortedFailures = Array.from(progress.itemFailures.entries()).sort((a, b) =>
+      b[1].missingDays.length - a[1].missingDays.length
+    );
+
+    sortedFailures.slice(0, 50).forEach(([itemId, failure]) => {
+      const daysStr = failure.missingDays.map(d => `Day ${d}`).join(', ');
+      console.log(`  ${itemId}: Missing ${failure.missingDays.length} days [${daysStr}]`);
+      console.log(`    Reason: ${failure.reason}`);
+    });
+
+    if (sortedFailures.length > 50) {
+      console.log(`\n  ... and ${sortedFailures.length - 50} more items\n`);
+    }
+
+    // Write detailed failures to file
+    const failuresForFile = Object.fromEntries(progress.itemFailures);
+    fs.writeFileSync(
+      path.join(outputDir, 'item-failures.json'),
+      JSON.stringify(failuresForFile, null, 2)
+    );
+    console.log(`\nDetailed failure report saved to: ${path.join(outputDir, 'item-failures.json')}\n`);
+  }
 
   // Clean up progress file
   if (fs.existsSync(CONFIG.resumeFromFile)) {
