@@ -94,3 +94,31 @@ export interface OpportunityReport {
   topItem: string;
   generatedAt: Date;
 }
+
+// Game Constants Types
+export interface CityBonuses {
+  farming: string[];      // Array of item names with farming bonus (10%)
+  refining: string[];     // Array of materials with refining bonus (40%)
+  butchering: string[];   // Array of items with butchering bonus (10%)
+  crafting: string[];     // Array of items with crafting bonus (15%)
+}
+
+export interface ReturnRates {
+  bonuses: {
+    base: number;
+    focus: number;
+    farming: number;
+    refining: number;
+    butchering: number;
+    crafting: number;
+  };
+  cityBonuses: Record<City, CityBonuses>;
+}
+
+export interface Taxes {
+  salesTax: {
+    withoutPremium: number;
+    withPremium: number;
+  };
+  listingFee: number;
+}

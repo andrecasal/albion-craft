@@ -1,0 +1,7 @@
+{
+	"salesTax": {
+		"withoutPremium": 8.0,
+		"withPremium": 4.0
+	},
+	"listingFee": 2.5
+}

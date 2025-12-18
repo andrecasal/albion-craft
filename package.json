@@ -4,14 +4,8 @@
 	"description": "Albion Online crafting profitability analyzer",
 	"main": "dist/index.js",
 	"scripts": {
-		"extract-materials": "node extract-materials.js",
-		"fetch-material-prices": "node material-prices-fetcher.js",
-		"create-sample-market-data": "node create-sample-market-data.js",
-		"build": "tsc",
-		"start": "node dist/index.js",
 		"dev": "ts-node src/cli.ts",
-		"calculate": "ts-node src/cli.ts",
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"typecheck": "tsc --noEmit"
 	},
 	"keywords": [
 		"albion-online",

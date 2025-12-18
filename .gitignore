@@ -1,18 +1,14 @@
 # Dependencies
 node_modules/
 
-# Build output
-dist/
+# Generated data files (fetch locally)
+src/db/
 
-# Data files (large, fetch locally)
-material-prices.json
-material-prices.csv
-market-data.json
-material-prices-progress.json
+# Error logs
 material-prices-errors.json
-
-# Reports (generated)
-reports/
+material-names-errors.json
+market-data-errors.json
+market-data-summary.json
 
 # Logs
 *.log
@@ -31,6 +27,3 @@ npm-debug.log*
 # OS
 .DS_Store
 Thumbs.db
-
-# Keep example files
-!example-*.json

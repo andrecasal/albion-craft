@@ -2,7 +2,7 @@
 
 import * as fs from 'fs';
 import * as path from 'path';
-import { Recipe, MaterialPrice, MarketData } from '../types';
+import { Recipe, MaterialPrice, MarketData, ReturnRates, Taxes } from '../types';
 
 export class DataLoader {
   private dataDir: string;
@@ -12,10 +12,10 @@ export class DataLoader {
   }
 
   /**
-   * Load recipes from recipes.json
+   * Load recipes from src/constants/recipes.json
    */
   loadRecipes(): Recipe[] {
-    const recipesPath = path.join(this.dataDir, 'recipes.json');
+    const recipesPath = path.join(__dirname, '../constants/recipes.json');
     if (!fs.existsSync(recipesPath)) {
       throw new Error(`Recipes file not found: ${recipesPath}`);
     }
@@ -25,14 +25,14 @@ export class DataLoader {
   }
 
   /**
-   * Load material prices from material-prices.json
+   * Load material prices from src/db/material-prices.json
    */
   loadMaterialPrices(): MaterialPrice[] {
-    const pricesPath = path.join(this.dataDir, 'material-prices.json');
+    const pricesPath = path.join(this.dataDir, 'src', 'db', 'material-prices.json');
     if (!fs.existsSync(pricesPath)) {
       throw new Error(
         `Material prices file not found: ${pricesPath}\n` +
-        'Run "npm run fetch-material-prices" to fetch material prices first.'
+        'Run the CLI and select "Refresh market data" to fetch material prices.'
       );
     }
 
@@ -41,15 +41,14 @@ export class DataLoader {
   }
 
   /**
-   * Load market data from market-data.json
-   * Note: You'll need to export this from Google Sheets or create a fetcher
+   * Load market data from src/db/market-data.json
    */
   loadMarketData(): MarketData[] {
-    const marketDataPath = path.join(this.dataDir, 'market-data.json');
+    const marketDataPath = path.join(this.dataDir, 'src', 'db', 'market-data.json');
     if (!fs.existsSync(marketDataPath)) {
       throw new Error(
         `Market data file not found: ${marketDataPath}\n` +
-        'Please export market data from Google Sheets or run market data fetcher.'
+        'Run the CLI and select "Refresh market data" to fetch market data.'
       );
     }
 
@@ -58,13 +57,47 @@ export class DataLoader {
   }
 
   /**
+   * Load return rates from src/constants/return-rates.json
+   */
+  loadReturnRates(): ReturnRates {
+    const returnRatesPath = path.join(__dirname, '../constants/return-rates.json');
+    if (!fs.existsSync(returnRatesPath)) {
+      throw new Error(`Return rates file not found: ${returnRatesPath}`);
+    }
+
+    const data = JSON.parse(fs.readFileSync(returnRatesPath, 'utf8'));
+    return data as ReturnRates;
+  }
+
+  /**
+   * Load taxes from src/constants/taxes.json
+   */
+  loadTaxes(): Taxes {
+    const taxesPath = path.join(__dirname, '../constants/taxes.json');
+    if (!fs.existsSync(taxesPath)) {
+      throw new Error(`Taxes file not found: ${taxesPath}`);
+    }
+
+    const data = JSON.parse(fs.readFileSync(taxesPath, 'utf8'));
+    return data as Taxes;
+  }
+
+  /**
    * Check if all required data files exist
    */
-  checkDataFiles(): { recipes: boolean; materialPrices: boolean; marketData: boolean } {
+  checkDataFiles(): {
+    recipes: boolean;
+    materialPrices: boolean;
+    marketData: boolean;
+    returnRates: boolean;
+    taxes: boolean;
+  } {
     return {
-      recipes: fs.existsSync(path.join(this.dataDir, 'recipes.json')),
-      materialPrices: fs.existsSync(path.join(this.dataDir, 'material-prices.json')),
-      marketData: fs.existsSync(path.join(this.dataDir, 'market-data.json')),
+      recipes: fs.existsSync(path.join(__dirname, '../constants/recipes.json')),
+      materialPrices: fs.existsSync(path.join(this.dataDir, 'src', 'db', 'material-prices.json')),
+      marketData: fs.existsSync(path.join(this.dataDir, 'src', 'db', 'market-data.json')),
+      returnRates: fs.existsSync(path.join(__dirname, '../constants/return-rates.json')),
+      taxes: fs.existsSync(path.join(__dirname, '../constants/taxes.json')),
     };
   }
 }

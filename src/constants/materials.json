@@ -1,0 +1,1130 @@
+[
+	{
+		"id": "QUESTITEM_TOKEN_AVALON",
+		"name": "Avalonian Energy"
+	},
+	{
+		"id": "QUESTITEM_TOKEN_ROYAL_T4",
+		"name": "Adept's Royal Sigil"
+	},
+	{
+		"id": "QUESTITEM_TOKEN_ROYAL_T5",
+		"name": "Expert's Royal Sigil"
+	},
+	{
+		"id": "QUESTITEM_TOKEN_ROYAL_T6",
+		"name": "Master's Royal Sigil"
+	},
+	{
+		"id": "QUESTITEM_TOKEN_ROYAL_T7",
+		"name": "Grandmaster's Royal Sigil"
+	},
+	{
+		"id": "QUESTITEM_TOKEN_ROYAL_T8",
+		"name": "Elder's Royal Sigil"
+	},
+	{
+		"id": "T3_ALCHEMY_RARE_DIREBEAR",
+		"name": "Rugged Spirit Paws"
+	},
+	{
+		"id": "T3_ALCHEMY_RARE_EAGLE",
+		"name": "Rugged Dawnfeather"
+	},
+	{
+		"id": "T3_ALCHEMY_RARE_ELEMENTAL",
+		"name": "Rugged Runestone Tooth"
+	},
+	{
+		"id": "T3_ALCHEMY_RARE_ENT",
+		"name": "Rugged Sylvian Root"
+	},
+	{
+		"id": "T3_ALCHEMY_RARE_IMP",
+		"name": "Rugged Imp's Horn"
+	},
+	{
+		"id": "T3_ALCHEMY_RARE_PANTHER",
+		"name": "Rugged Shadow Claws"
+	},
+	{
+		"id": "T3_ALCHEMY_RARE_WEREWOLF",
+		"name": "Rugged Werewolf Fangs"
+	},
+	{
+		"id": "T4_ARMOR_CLOTH_SET3",
+		"name": "Adept's Mage Robe"
+	},
+	{
+		"id": "T4_ARMOR_LEATHER_SET3",
+		"name": "Adept's Assassin Jacket"
+	},
+	{
+		"id": "T4_ARMOR_PLATE_SET3",
+		"name": "Adept's Guardian Armor"
+	},
+	{
+		"id": "T4_ARTEFACT_2H_ARCANESTAFF_CRYSTAL",
+		"name": "Adept's Startouched Crystal"
+	},
+	{
+		"id": "T4_ARTEFACT_2H_BOW_CRYSTAL",
+		"name": "Adept's Windborne Crystal"
+	},
+	{
+		"id": "T4_ARTEFACT_2H_DAGGERPAIR_CRYSTAL",
+		"name": "Adept's Death-Touched Crystal"
+	},
+	{
+		"id": "T4_ARTEFACT_2H_DOUBLEBLADEDSTAFF_CRYSTAL",
+		"name": "Adept's Mirage Crystal"
+	},
+	{
+		"id": "T4_ARTEFACT_2H_DUALCROSSBOW_CRYSTAL",
+		"name": "Adept's Arclight Crystal"
+	},
+	{
+		"id": "T4_ARTEFACT_2H_FROSTSTAFF_CRYSTAL",
+		"name": "Adept's Icy Crystal"
+	},
+	{
+		"id": "T4_ARTEFACT_2H_GLAIVE_CRYSTAL",
+		"name": "Adept's Rift Crystal"
+	},
+	{
+		"id": "T4_ARTEFACT_2H_HAMMER_CRYSTAL",
+		"name": "Adept's Crackling Crystal"
+	},
+	{
+		"id": "T4_ARTEFACT_2H_HOLYSTAFF_CRYSTAL",
+		"name": "Adept's Exalted Crystal"
+	},
+	{
+		"id": "T4_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+		"name": "Adept's Pulsating Crystal"
+	},
+	{
+		"id": "T4_ARTEFACT_2H_SCYTHE_CRYSTAL",
+		"name": "Adept's Edged Crystal"
+	},
+	{
+		"id": "T4_ARTEFACT_2H_SHAPESHIFTER_AVALON",
+		"name": "Adept's Dawnbird Remnant"
+	},
+	{
+		"id": "T4_ARTEFACT_2H_SHAPESHIFTER_CRYSTAL",
+		"name": "Adept's Serpent Crystal"
+	},
+	{
+		"id": "T4_ARTEFACT_2H_SHAPESHIFTER_HELL",
+		"name": "Adept's Hellfire Imp Remnant"
+	},
+	{
+		"id": "T4_ARTEFACT_2H_SHAPESHIFTER_KEEPER",
+		"name": "Adept's Runestone Golem Remnant"
+	},
+	{
+		"id": "T4_ARTEFACT_2H_SHAPESHIFTER_MORGANA",
+		"name": "Adept's Werewolf Remnant"
+	},
+	{
+		"id": "T4_ARTEFACT_ARMOR_CLOTH_FEY",
+		"name": "Adept's Fey Dorsal Wing"
+	},
+	{
+		"id": "T4_ARTEFACT_ARMOR_LEATHER_FEY",
+		"name": "Adept's Untarnished Griffin Feathers"
+	},
+	{
+		"id": "T4_ARTEFACT_ARMOR_PLATE_FEY",
+		"name": "Adept's Veilweaver Carapace"
+	},
+	{
+		"id": "T4_ARTEFACT_HEAD_CLOTH_FEY",
+		"name": "Adept's Intact Fey Fibula"
+	},
+	{
+		"id": "T4_ARTEFACT_HEAD_LEATHER_FEY",
+		"name": "Adept's Flawless Griffin Beak"
+	},
+	{
+		"id": "T4_ARTEFACT_HEAD_PLATE_FEY",
+		"name": "Adept's Veilweaver Mandibles"
+	},
+	{
+		"id": "T4_ARTEFACT_MAIN_CURSEDSTAFF_CRYSTAL",
+		"name": "Adept's Rotten Crystal"
+	},
+	{
+		"id": "T4_ARTEFACT_MAIN_FIRESTAFF_CRYSTAL",
+		"name": "Adept's Pyreheart Crystal"
+	},
+	{
+		"id": "T4_ARTEFACT_MAIN_MACE_CRYSTAL",
+		"name": "Adept's Dreadstorm Crystal"
+	},
+	{
+		"id": "T4_ARTEFACT_MAIN_NATURESTAFF_CRYSTAL",
+		"name": "Adept's Forged Crystal"
+	},
+	{
+		"id": "T4_ARTEFACT_MAIN_SWORD_CRYSTAL",
+		"name": "Adept's Infinite Crystal"
+	},
+	{
+		"id": "T4_ARTEFACT_OFF_SHIELD_CRYSTAL",
+		"name": "Adept's Unbreakable Crystal"
+	},
+	{
+		"id": "T4_ARTEFACT_OFF_TOME_CRYSTAL",
+		"name": "Adept's Timelocked Crystal"
+	},
+	{
+		"id": "T4_ARTEFACT_OFF_TORCH_CRYSTAL",
+		"name": "Adept's Blueflame Crystal"
+	},
+	{
+		"id": "T4_ARTEFACT_SHOES_CLOTH_FEY",
+		"name": "Adept's Fey Dragonscales"
+	},
+	{
+		"id": "T4_ARTEFACT_SHOES_LEATHER_FEY",
+		"name": "Adept's Griffin Underfur"
+	},
+	{
+		"id": "T4_ARTEFACT_SHOES_PLATE_FEY",
+		"name": "Adept's Veilweaver Claws"
+	},
+	{
+		"id": "T4_ARTEFACT_TOKEN_FAVOR_1",
+		"name": "Adept's Crystallized Spirit"
+	},
+	{
+		"id": "T4_ARTEFACT_TOKEN_FAVOR_2",
+		"name": "Adept's Crystallized Dread"
+	},
+	{
+		"id": "T4_ARTEFACT_TOKEN_FAVOR_3",
+		"name": "Adept's Crystallized Magic"
+	},
+	{
+		"id": "T4_ARTEFACT_TOKEN_FAVOR_4",
+		"name": "Adept's Crystallized Divinity"
+	},
+	{
+		"id": "T4_CLOTH",
+		"name": "Fine Cloth"
+	},
+	{
+		"id": "T4_HEAD_CLOTH_SET3",
+		"name": "Adept's Mage Cowl"
+	},
+	{
+		"id": "T4_HEAD_LEATHER_SET3",
+		"name": "Adept's Assassin Hood"
+	},
+	{
+		"id": "T4_HEAD_PLATE_SET3",
+		"name": "Adept's Guardian Helmet"
+	},
+	{
+		"id": "T4_LEATHER",
+		"name": "Worked Leather"
+	},
+	{
+		"id": "T4_METALBAR",
+		"name": "Steel Bar"
+	},
+	{
+		"id": "T4_PLANKS",
+		"name": "Pine Planks"
+	},
+	{
+		"id": "T4_SHOES_CLOTH_SET3",
+		"name": "Adept's Mage Sandals"
+	},
+	{
+		"id": "T4_SHOES_LEATHER_SET3",
+		"name": "Adept's Assassin Shoes"
+	},
+	{
+		"id": "T4_SHOES_PLATE_SET3",
+		"name": "Adept's Guardian Boots"
+	},
+	{
+		"id": "T4_STONEBLOCK",
+		"name": "Travertine Block"
+	},
+	{
+		"id": "T5_ALCHEMY_RARE_DIREBEAR",
+		"name": "Fine Spirit Paws"
+	},
+	{
+		"id": "T5_ALCHEMY_RARE_EAGLE",
+		"name": "Fine Dawnfeather"
+	},
+	{
+		"id": "T5_ALCHEMY_RARE_ELEMENTAL",
+		"name": "Fine Runestone Tooth"
+	},
+	{
+		"id": "T5_ALCHEMY_RARE_ENT",
+		"name": "Fine Sylvian Root"
+	},
+	{
+		"id": "T5_ALCHEMY_RARE_IMP",
+		"name": "Fine Imp's Horn"
+	},
+	{
+		"id": "T5_ALCHEMY_RARE_PANTHER",
+		"name": "Fine Shadow Claws"
+	},
+	{
+		"id": "T5_ALCHEMY_RARE_WEREWOLF",
+		"name": "Fine Werewolf Fangs"
+	},
+	{
+		"id": "T5_ARMOR_CLOTH_SET3",
+		"name": "Expert's Mage Robe"
+	},
+	{
+		"id": "T5_ARMOR_LEATHER_SET3",
+		"name": "Expert's Assassin Jacket"
+	},
+	{
+		"id": "T5_ARMOR_PLATE_SET3",
+		"name": "Expert's Guardian Armor"
+	},
+	{
+		"id": "T5_ARTEFACT_2H_ARCANESTAFF_CRYSTAL",
+		"name": "Expert's Startouched Crystal"
+	},
+	{
+		"id": "T5_ARTEFACT_2H_BOW_CRYSTAL",
+		"name": "Expert's Windborne Crystal"
+	},
+	{
+		"id": "T5_ARTEFACT_2H_DAGGERPAIR_CRYSTAL",
+		"name": "Expert's Death-Touched Crystal"
+	},
+	{
+		"id": "T5_ARTEFACT_2H_DOUBLEBLADEDSTAFF_CRYSTAL",
+		"name": "Expert's Mirage Crystal"
+	},
+	{
+		"id": "T5_ARTEFACT_2H_DUALCROSSBOW_CRYSTAL",
+		"name": "Expert's Arclight Crystal"
+	},
+	{
+		"id": "T5_ARTEFACT_2H_FROSTSTAFF_CRYSTAL",
+		"name": "Expert's Icy Crystal"
+	},
+	{
+		"id": "T5_ARTEFACT_2H_GLAIVE_CRYSTAL",
+		"name": "Expert's Rift Crystal"
+	},
+	{
+		"id": "T5_ARTEFACT_2H_HAMMER_CRYSTAL",
+		"name": "Expert's Crackling Crystal"
+	},
+	{
+		"id": "T5_ARTEFACT_2H_HOLYSTAFF_CRYSTAL",
+		"name": "Expert's Exalted Crystal"
+	},
+	{
+		"id": "T5_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+		"name": "Expert's Pulsating Crystal"
+	},
+	{
+		"id": "T5_ARTEFACT_2H_SCYTHE_CRYSTAL",
+		"name": "Expert's Edged Crystal"
+	},
+	{
+		"id": "T5_ARTEFACT_2H_SHAPESHIFTER_AVALON",
+		"name": "Expert's Dawnbird Remnant"
+	},
+	{
+		"id": "T5_ARTEFACT_2H_SHAPESHIFTER_CRYSTAL",
+		"name": "Expert's Serpent Crystal"
+	},
+	{
+		"id": "T5_ARTEFACT_2H_SHAPESHIFTER_HELL",
+		"name": "Expert's Hellfire Imp Remnant"
+	},
+	{
+		"id": "T5_ARTEFACT_2H_SHAPESHIFTER_KEEPER",
+		"name": "Expert's Runestone Golem Remnant"
+	},
+	{
+		"id": "T5_ARTEFACT_2H_SHAPESHIFTER_MORGANA",
+		"name": "Expert's Werewolf Remnant"
+	},
+	{
+		"id": "T5_ARTEFACT_ARMOR_CLOTH_FEY",
+		"name": "Expert's Fey Dorsal Wing"
+	},
+	{
+		"id": "T5_ARTEFACT_ARMOR_LEATHER_FEY",
+		"name": "Expert's Untarnished Griffin Feathers"
+	},
+	{
+		"id": "T5_ARTEFACT_ARMOR_PLATE_FEY",
+		"name": "Expert's Veilweaver Carapace"
+	},
+	{
+		"id": "T5_ARTEFACT_HEAD_CLOTH_FEY",
+		"name": "Expert's Intact Fey Fibula"
+	},
+	{
+		"id": "T5_ARTEFACT_HEAD_LEATHER_FEY",
+		"name": "Expert's Flawless Griffin Beak"
+	},
+	{
+		"id": "T5_ARTEFACT_HEAD_PLATE_FEY",
+		"name": "Expert's Veilweaver Mandibles"
+	},
+	{
+		"id": "T5_ARTEFACT_MAIN_CURSEDSTAFF_CRYSTAL",
+		"name": "Expert's Rotten Crystal"
+	},
+	{
+		"id": "T5_ARTEFACT_MAIN_FIRESTAFF_CRYSTAL",
+		"name": "Expert's Pyreheart Crystal"
+	},
+	{
+		"id": "T5_ARTEFACT_MAIN_MACE_CRYSTAL",
+		"name": "Expert's Dreadstorm Crystal"
+	},
+	{
+		"id": "T5_ARTEFACT_MAIN_NATURESTAFF_CRYSTAL",
+		"name": "Expert's Forged Crystal"
+	},
+	{
+		"id": "T5_ARTEFACT_MAIN_SWORD_CRYSTAL",
+		"name": "Expert's Infinite Crystal"
+	},
+	{
+		"id": "T5_ARTEFACT_OFF_SHIELD_CRYSTAL",
+		"name": "Expert's Unbreakable Crystal"
+	},
+	{
+		"id": "T5_ARTEFACT_OFF_TOME_CRYSTAL",
+		"name": "Expert's Timelocked Crystal"
+	},
+	{
+		"id": "T5_ARTEFACT_OFF_TORCH_CRYSTAL",
+		"name": "Expert's Blueflame Crystal"
+	},
+	{
+		"id": "T5_ARTEFACT_SHOES_CLOTH_FEY",
+		"name": "Expert's Fey Dragonscales"
+	},
+	{
+		"id": "T5_ARTEFACT_SHOES_LEATHER_FEY",
+		"name": "Expert's Griffin Underfur"
+	},
+	{
+		"id": "T5_ARTEFACT_SHOES_PLATE_FEY",
+		"name": "Expert's Veilweaver Claws"
+	},
+	{
+		"id": "T5_ARTEFACT_TOKEN_FAVOR_1",
+		"name": "Expert's Crystallized Spirit"
+	},
+	{
+		"id": "T5_ARTEFACT_TOKEN_FAVOR_2",
+		"name": "Expert's Crystallized Dread"
+	},
+	{
+		"id": "T5_ARTEFACT_TOKEN_FAVOR_3",
+		"name": "Expert's Crystallized Magic"
+	},
+	{
+		"id": "T5_ARTEFACT_TOKEN_FAVOR_4",
+		"name": "Expert's Crystallized Divinity"
+	},
+	{
+		"id": "T5_CLOTH",
+		"name": "Ornate Cloth"
+	},
+	{
+		"id": "T5_HEAD_CLOTH_SET3",
+		"name": "Expert's Mage Cowl"
+	},
+	{
+		"id": "T5_HEAD_LEATHER_SET3",
+		"name": "Expert's Assassin Hood"
+	},
+	{
+		"id": "T5_HEAD_PLATE_SET3",
+		"name": "Expert's Guardian Helmet"
+	},
+	{
+		"id": "T5_LEATHER",
+		"name": "Cured Leather"
+	},
+	{
+		"id": "T5_METALBAR",
+		"name": "Titanium Steel Bar"
+	},
+	{
+		"id": "T5_PLANKS",
+		"name": "Cedar Planks"
+	},
+	{
+		"id": "T5_SHOES_CLOTH_SET3",
+		"name": "Expert's Mage Sandals"
+	},
+	{
+		"id": "T5_SHOES_LEATHER_SET3",
+		"name": "Expert's Assassin Shoes"
+	},
+	{
+		"id": "T5_SHOES_PLATE_SET3",
+		"name": "Expert's Guardian Boots"
+	},
+	{
+		"id": "T5_STONEBLOCK",
+		"name": "Granite Block"
+	},
+	{
+		"id": "T6_ARMOR_CLOTH_SET3",
+		"name": "Master's Mage Robe"
+	},
+	{
+		"id": "T6_ARMOR_LEATHER_SET3",
+		"name": "Master's Assassin Jacket"
+	},
+	{
+		"id": "T6_ARMOR_PLATE_SET3",
+		"name": "Master's Guardian Armor"
+	},
+	{
+		"id": "T6_ARTEFACT_2H_ARCANESTAFF_CRYSTAL",
+		"name": "Master's Startouched Crystal"
+	},
+	{
+		"id": "T6_ARTEFACT_2H_BOW_CRYSTAL",
+		"name": "Master's Windborne Crystal"
+	},
+	{
+		"id": "T6_ARTEFACT_2H_DAGGERPAIR_CRYSTAL",
+		"name": "Master's Death-Touched Crystal"
+	},
+	{
+		"id": "T6_ARTEFACT_2H_DOUBLEBLADEDSTAFF_CRYSTAL",
+		"name": "Master's Mirage Crystal"
+	},
+	{
+		"id": "T6_ARTEFACT_2H_DUALCROSSBOW_CRYSTAL",
+		"name": "Master's Arclight Crystal"
+	},
+	{
+		"id": "T6_ARTEFACT_2H_FROSTSTAFF_CRYSTAL",
+		"name": "Master's Icy Crystal"
+	},
+	{
+		"id": "T6_ARTEFACT_2H_GLAIVE_CRYSTAL",
+		"name": "Master's Rift Crystal"
+	},
+	{
+		"id": "T6_ARTEFACT_2H_HAMMER_CRYSTAL",
+		"name": "Master's Crackling Crystal"
+	},
+	{
+		"id": "T6_ARTEFACT_2H_HOLYSTAFF_CRYSTAL",
+		"name": "Master's Exalted Crystal"
+	},
+	{
+		"id": "T6_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+		"name": "Master's Pulsating Crystal"
+	},
+	{
+		"id": "T6_ARTEFACT_2H_SCYTHE_CRYSTAL",
+		"name": "Master's Edged Crystal"
+	},
+	{
+		"id": "T6_ARTEFACT_2H_SHAPESHIFTER_AVALON",
+		"name": "Master's Dawnbird Remnant"
+	},
+	{
+		"id": "T6_ARTEFACT_2H_SHAPESHIFTER_CRYSTAL",
+		"name": "Master's Serpent Crystal"
+	},
+	{
+		"id": "T6_ARTEFACT_2H_SHAPESHIFTER_HELL",
+		"name": "Master's Hellfire Imp Remnant"
+	},
+	{
+		"id": "T6_ARTEFACT_2H_SHAPESHIFTER_KEEPER",
+		"name": "Master's Runestone Golem Remnant"
+	},
+	{
+		"id": "T6_ARTEFACT_2H_SHAPESHIFTER_MORGANA",
+		"name": "Master's Werewolf Remnant"
+	},
+	{
+		"id": "T6_ARTEFACT_ARMOR_CLOTH_FEY",
+		"name": "Master's Fey Dorsal Wing"
+	},
+	{
+		"id": "T6_ARTEFACT_ARMOR_LEATHER_FEY",
+		"name": "Master's Untarnished Griffin Feathers"
+	},
+	{
+		"id": "T6_ARTEFACT_ARMOR_PLATE_FEY",
+		"name": "Master's Veilweaver Carapace"
+	},
+	{
+		"id": "T6_ARTEFACT_HEAD_CLOTH_FEY",
+		"name": "Master's Intact Fey Fibula"
+	},
+	{
+		"id": "T6_ARTEFACT_HEAD_LEATHER_FEY",
+		"name": "Master's Flawless Griffin Beak"
+	},
+	{
+		"id": "T6_ARTEFACT_HEAD_PLATE_FEY",
+		"name": "Master's Veilweaver Mandibles"
+	},
+	{
+		"id": "T6_ARTEFACT_MAIN_CURSEDSTAFF_CRYSTAL",
+		"name": "Master's Rotten Crystal"
+	},
+	{
+		"id": "T6_ARTEFACT_MAIN_FIRESTAFF_CRYSTAL",
+		"name": "Master's Pyreheart Crystal"
+	},
+	{
+		"id": "T6_ARTEFACT_MAIN_MACE_CRYSTAL",
+		"name": "Master's Dreadstorm Crystal"
+	},
+	{
+		"id": "T6_ARTEFACT_MAIN_NATURESTAFF_CRYSTAL",
+		"name": "Master's Forged Crystal"
+	},
+	{
+		"id": "T6_ARTEFACT_MAIN_SWORD_CRYSTAL",
+		"name": "Master's Infinite Crystal"
+	},
+	{
+		"id": "T6_ARTEFACT_OFF_SHIELD_CRYSTAL",
+		"name": "Master's Unbreakable Crystal"
+	},
+	{
+		"id": "T6_ARTEFACT_OFF_TOME_CRYSTAL",
+		"name": "Master's Timelocked Crystal"
+	},
+	{
+		"id": "T6_ARTEFACT_OFF_TORCH_CRYSTAL",
+		"name": "Master's Blueflame Crystal"
+	},
+	{
+		"id": "T6_ARTEFACT_SHOES_CLOTH_FEY",
+		"name": "Master's Fey Dragonscales"
+	},
+	{
+		"id": "T6_ARTEFACT_SHOES_LEATHER_FEY",
+		"name": "Master's Griffin Underfur"
+	},
+	{
+		"id": "T6_ARTEFACT_SHOES_PLATE_FEY",
+		"name": "Master's Veilweaver Claws"
+	},
+	{
+		"id": "T6_ARTEFACT_TOKEN_FAVOR_1",
+		"name": "Master's Crystallized Spirit"
+	},
+	{
+		"id": "T6_ARTEFACT_TOKEN_FAVOR_2",
+		"name": "Master's Crystallized Dread"
+	},
+	{
+		"id": "T6_ARTEFACT_TOKEN_FAVOR_3",
+		"name": "Master's Crystallized Magic"
+	},
+	{
+		"id": "T6_ARTEFACT_TOKEN_FAVOR_4",
+		"name": "Master's Crystallized Divinity"
+	},
+	{
+		"id": "T6_CLOTH",
+		"name": "Lavish Cloth"
+	},
+	{
+		"id": "T6_HEAD_CLOTH_SET3",
+		"name": "Master's Mage Cowl"
+	},
+	{
+		"id": "T6_HEAD_LEATHER_SET3",
+		"name": "Master's Assassin Hood"
+	},
+	{
+		"id": "T6_HEAD_PLATE_SET3",
+		"name": "Master's Guardian Helmet"
+	},
+	{
+		"id": "T6_LEATHER",
+		"name": "Hardened Leather"
+	},
+	{
+		"id": "T6_METALBAR",
+		"name": "Runite Steel Bar"
+	},
+	{
+		"id": "T6_PLANKS",
+		"name": "Bloodoak Planks"
+	},
+	{
+		"id": "T6_SHOES_CLOTH_SET3",
+		"name": "Master's Mage Sandals"
+	},
+	{
+		"id": "T6_SHOES_LEATHER_SET3",
+		"name": "Master's Assassin Shoes"
+	},
+	{
+		"id": "T6_SHOES_PLATE_SET3",
+		"name": "Master's Guardian Boots"
+	},
+	{
+		"id": "T6_STONEBLOCK",
+		"name": "Slate Block"
+	},
+	{
+		"id": "T7_ALCHEMY_RARE_DIREBEAR",
+		"name": "Excellent Spirit Paws"
+	},
+	{
+		"id": "T7_ALCHEMY_RARE_EAGLE",
+		"name": "Excellent Dawnfeather"
+	},
+	{
+		"id": "T7_ALCHEMY_RARE_ELEMENTAL",
+		"name": "Excellent Runestone Tooth"
+	},
+	{
+		"id": "T7_ALCHEMY_RARE_ENT",
+		"name": "Excellent Sylvian Root"
+	},
+	{
+		"id": "T7_ALCHEMY_RARE_IMP",
+		"name": "Excellent Imp's Horn"
+	},
+	{
+		"id": "T7_ALCHEMY_RARE_PANTHER",
+		"name": "Excellent Shadow Claws"
+	},
+	{
+		"id": "T7_ALCHEMY_RARE_WEREWOLF",
+		"name": "Excellent Werewolf Fangs"
+	},
+	{
+		"id": "T7_ARMOR_CLOTH_SET3",
+		"name": "Grandmaster's Mage Robe"
+	},
+	{
+		"id": "T7_ARMOR_LEATHER_SET3",
+		"name": "Grandmaster's Assassin Jacket"
+	},
+	{
+		"id": "T7_ARMOR_PLATE_SET3",
+		"name": "Grandmaster's Guardian Armor"
+	},
+	{
+		"id": "T7_ARTEFACT_2H_ARCANESTAFF_CRYSTAL",
+		"name": "Grandmaster's Startouched Crystal"
+	},
+	{
+		"id": "T7_ARTEFACT_2H_BOW_CRYSTAL",
+		"name": "Grandmaster's Windborne Crystal"
+	},
+	{
+		"id": "T7_ARTEFACT_2H_DAGGERPAIR_CRYSTAL",
+		"name": "Grandmaster's Death-Touched Crystal"
+	},
+	{
+		"id": "T7_ARTEFACT_2H_DOUBLEBLADEDSTAFF_CRYSTAL",
+		"name": "Grandmaster's Mirage Crystal"
+	},
+	{
+		"id": "T7_ARTEFACT_2H_DUALCROSSBOW_CRYSTAL",
+		"name": "Grandmaster's Arclight Crystal"
+	},
+	{
+		"id": "T7_ARTEFACT_2H_FROSTSTAFF_CRYSTAL",
+		"name": "Grandmaster's Icy Crystal"
+	},
+	{
+		"id": "T7_ARTEFACT_2H_GLAIVE_CRYSTAL",
+		"name": "Grandmaster's Rift Crystal"
+	},
+	{
+		"id": "T7_ARTEFACT_2H_HAMMER_CRYSTAL",
+		"name": "Grandmaster's Crackling Crystal"
+	},
+	{
+		"id": "T7_ARTEFACT_2H_HOLYSTAFF_CRYSTAL",
+		"name": "Grandmaster's Exalted Crystal"
+	},
+	{
+		"id": "T7_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+		"name": "Grandmaster's Pulsating Crystal"
+	},
+	{
+		"id": "T7_ARTEFACT_2H_SCYTHE_CRYSTAL",
+		"name": "Grandmaster's Edged Crystal"
+	},
+	{
+		"id": "T7_ARTEFACT_2H_SHAPESHIFTER_AVALON",
+		"name": "Grandmaster's Dawnbird Remnant"
+	},
+	{
+		"id": "T7_ARTEFACT_2H_SHAPESHIFTER_CRYSTAL",
+		"name": "Grandmaster's Serpent Crystal"
+	},
+	{
+		"id": "T7_ARTEFACT_2H_SHAPESHIFTER_HELL",
+		"name": "Grandmaster's Hellfire Imp Remnant"
+	},
+	{
+		"id": "T7_ARTEFACT_2H_SHAPESHIFTER_KEEPER",
+		"name": "Grandmaster's Runestone Golem Remnant"
+	},
+	{
+		"id": "T7_ARTEFACT_2H_SHAPESHIFTER_MORGANA",
+		"name": "Grandmaster's Werewolf Remnant"
+	},
+	{
+		"id": "T7_ARTEFACT_ARMOR_CLOTH_FEY",
+		"name": "Grandmaster's Fey Dorsal Wing"
+	},
+	{
+		"id": "T7_ARTEFACT_ARMOR_LEATHER_FEY",
+		"name": "Grandmaster's Untarnished Griffin Feathers"
+	},
+	{
+		"id": "T7_ARTEFACT_ARMOR_PLATE_FEY",
+		"name": "Grandmaster's Veilweaver Carapace"
+	},
+	{
+		"id": "T7_ARTEFACT_HEAD_CLOTH_FEY",
+		"name": "Grandmaster's Intact Fey Fibula"
+	},
+	{
+		"id": "T7_ARTEFACT_HEAD_LEATHER_FEY",
+		"name": "Grandmaster's Flawless Griffin Beak"
+	},
+	{
+		"id": "T7_ARTEFACT_HEAD_PLATE_FEY",
+		"name": "Grandmaster's Veilweaver Mandibles"
+	},
+	{
+		"id": "T7_ARTEFACT_MAIN_CURSEDSTAFF_CRYSTAL",
+		"name": "Grandmaster's Rotten Crystal"
+	},
+	{
+		"id": "T7_ARTEFACT_MAIN_FIRESTAFF_CRYSTAL",
+		"name": "Grandmaster's Pyreheart Crystal"
+	},
+	{
+		"id": "T7_ARTEFACT_MAIN_MACE_CRYSTAL",
+		"name": "Grandmaster's Dreadstorm Crystal"
+	},
+	{
+		"id": "T7_ARTEFACT_MAIN_NATURESTAFF_CRYSTAL",
+		"name": "Grandmaster's Forged Crystal"
+	},
+	{
+		"id": "T7_ARTEFACT_MAIN_SWORD_CRYSTAL",
+		"name": "Grandmaster's Infinite Crystal"
+	},
+	{
+		"id": "T7_ARTEFACT_OFF_SHIELD_CRYSTAL",
+		"name": "Grandmaster's Unbreakable Crystal"
+	},
+	{
+		"id": "T7_ARTEFACT_OFF_TOME_CRYSTAL",
+		"name": "Grandmaster's Timelocked Crystal"
+	},
+	{
+		"id": "T7_ARTEFACT_OFF_TORCH_CRYSTAL",
+		"name": "Grandmaster's Blueflame Crystal"
+	},
+	{
+		"id": "T7_ARTEFACT_SHOES_CLOTH_FEY",
+		"name": "Grandmaster's Fey Dragonscales"
+	},
+	{
+		"id": "T7_ARTEFACT_SHOES_LEATHER_FEY",
+		"name": "Grandmaster's Griffin Underfur"
+	},
+	{
+		"id": "T7_ARTEFACT_SHOES_PLATE_FEY",
+		"name": "Grandmaster's Veilweaver Claws"
+	},
+	{
+		"id": "T7_ARTEFACT_TOKEN_FAVOR_1",
+		"name": "Grandmaster's Crystallized Spirit"
+	},
+	{
+		"id": "T7_ARTEFACT_TOKEN_FAVOR_2",
+		"name": "Grandmaster's Crystallized Dread"
+	},
+	{
+		"id": "T7_ARTEFACT_TOKEN_FAVOR_3",
+		"name": "Grandmaster's Crystallized Magic"
+	},
+	{
+		"id": "T7_ARTEFACT_TOKEN_FAVOR_4",
+		"name": "Grandmaster's Crystallized Divinity"
+	},
+	{
+		"id": "T7_CLOTH",
+		"name": "Opulent Cloth"
+	},
+	{
+		"id": "T7_HEAD_CLOTH_SET3",
+		"name": "Grandmaster's Mage Cowl"
+	},
+	{
+		"id": "T7_HEAD_LEATHER_SET3",
+		"name": "Grandmaster's Assassin Hood"
+	},
+	{
+		"id": "T7_HEAD_PLATE_SET3",
+		"name": "Grandmaster's Guardian Helmet"
+	},
+	{
+		"id": "T7_LEATHER",
+		"name": "Reinforced Leather"
+	},
+	{
+		"id": "T7_METALBAR",
+		"name": "Meteorite Steel Bar"
+	},
+	{
+		"id": "T7_PLANKS",
+		"name": "Ashenbark Planks"
+	},
+	{
+		"id": "T7_SHOES_CLOTH_SET3",
+		"name": "Grandmaster's Mage Sandals"
+	},
+	{
+		"id": "T7_SHOES_LEATHER_SET3",
+		"name": "Grandmaster's Assassin Shoes"
+	},
+	{
+		"id": "T7_SHOES_PLATE_SET3",
+		"name": "Grandmaster's Guardian Boots"
+	},
+	{
+		"id": "T7_STONEBLOCK",
+		"name": "Basalt Block"
+	},
+	{
+		"id": "T8_ARMOR_CLOTH_SET3",
+		"name": "Elder's Mage Robe"
+	},
+	{
+		"id": "T8_ARMOR_LEATHER_SET3",
+		"name": "Elder's Assassin Jacket"
+	},
+	{
+		"id": "T8_ARMOR_PLATE_SET3",
+		"name": "Elder's Guardian Armor"
+	},
+	{
+		"id": "T8_ARTEFACT_2H_ARCANESTAFF_CRYSTAL",
+		"name": "Elder's Startouched Crystal"
+	},
+	{
+		"id": "T8_ARTEFACT_2H_BOW_CRYSTAL",
+		"name": "Elder's Windborne Crystal"
+	},
+	{
+		"id": "T8_ARTEFACT_2H_DAGGERPAIR_CRYSTAL",
+		"name": "Elder's Death-Touched Crystal"
+	},
+	{
+		"id": "T8_ARTEFACT_2H_DOUBLEBLADEDSTAFF_CRYSTAL",
+		"name": "Elder's Mirage Crystal"
+	},
+	{
+		"id": "T8_ARTEFACT_2H_DUALCROSSBOW_CRYSTAL",
+		"name": "Elder's Arclight Crystal"
+	},
+	{
+		"id": "T8_ARTEFACT_2H_FROSTSTAFF_CRYSTAL",
+		"name": "Elder's Icy Crystal"
+	},
+	{
+		"id": "T8_ARTEFACT_2H_GLAIVE_CRYSTAL",
+		"name": "Elder's Rift Crystal"
+	},
+	{
+		"id": "T8_ARTEFACT_2H_HAMMER_CRYSTAL",
+		"name": "Elder's Crackling Crystal"
+	},
+	{
+		"id": "T8_ARTEFACT_2H_HOLYSTAFF_CRYSTAL",
+		"name": "Elder's Exalted Crystal"
+	},
+	{
+		"id": "T8_ARTEFACT_2H_KNUCKLES_CRYSTAL",
+		"name": "Elder's Pulsating Crystal"
+	},
+	{
+		"id": "T8_ARTEFACT_2H_SCYTHE_CRYSTAL",
+		"name": "Elder's Edged Crystal"
+	},
+	{
+		"id": "T8_ARTEFACT_2H_SHAPESHIFTER_AVALON",
+		"name": "Elder's Dawnbird Remnant"
+	},
+	{
+		"id": "T8_ARTEFACT_2H_SHAPESHIFTER_CRYSTAL",
+		"name": "Elder's Serpent Crystal"
+	},
+	{
+		"id": "T8_ARTEFACT_2H_SHAPESHIFTER_HELL",
+		"name": "Elder's Hellfire Imp Remnant"
+	},
+	{
+		"id": "T8_ARTEFACT_2H_SHAPESHIFTER_KEEPER",
+		"name": "Elder's Runestone Golem Remnant"
+	},
+	{
+		"id": "T8_ARTEFACT_2H_SHAPESHIFTER_MORGANA",
+		"name": "Elder's Werewolf Remnant"
+	},
+	{
+		"id": "T8_ARTEFACT_ARMOR_CLOTH_FEY",
+		"name": "Elder's Fey Dorsal Wing"
+	},
+	{
+		"id": "T8_ARTEFACT_ARMOR_LEATHER_FEY",
+		"name": "Elder's Untarnished Griffin Feathers"
+	},
+	{
+		"id": "T8_ARTEFACT_ARMOR_PLATE_FEY",
+		"name": "Elder's Veilweaver Carapace"
+	},
+	{
+		"id": "T8_ARTEFACT_HEAD_CLOTH_FEY",
+		"name": "Elder's Intact Fey Fibula"
+	},
+	{
+		"id": "T8_ARTEFACT_HEAD_LEATHER_FEY",
+		"name": "Elder's Flawless Griffin Beak"
+	},
+	{
+		"id": "T8_ARTEFACT_HEAD_PLATE_FEY",
+		"name": "Elder's Veilweaver Mandibles"
+	},
+	{
+		"id": "T8_ARTEFACT_MAIN_CURSEDSTAFF_CRYSTAL",
+		"name": "Elder's Rotten Crystal"
+	},
+	{
+		"id": "T8_ARTEFACT_MAIN_FIRESTAFF_CRYSTAL",
+		"name": "Elder's Pyreheart Crystal"
+	},
+	{
+		"id": "T8_ARTEFACT_MAIN_MACE_CRYSTAL",
+		"name": "Elder's Dreadstorm Crystal"
+	},
+	{
+		"id": "T8_ARTEFACT_MAIN_NATURESTAFF_CRYSTAL",
+		"name": "Elder's Forged Crystal"
+	},
+	{
+		"id": "T8_ARTEFACT_MAIN_SWORD_CRYSTAL",
+		"name": "Elder's Infinite Crystal"
+	},
+	{
+		"id": "T8_ARTEFACT_OFF_SHIELD_CRYSTAL",
+		"name": "Elder's Unbreakable Crystal"
+	},
+	{
+		"id": "T8_ARTEFACT_OFF_TOME_CRYSTAL",
+		"name": "Elder's Timelocked Crystal"
+	},
+	{
+		"id": "T8_ARTEFACT_OFF_TORCH_CRYSTAL",
+		"name": "Elder's Blueflame Crystal"
+	},
+	{
+		"id": "T8_ARTEFACT_SHOES_CLOTH_FEY",
+		"name": "Elder's Fey Dragonscales"
+	},
+	{
+		"id": "T8_ARTEFACT_SHOES_LEATHER_FEY",
+		"name": "Elder's Griffin Underfur"
+	},
+	{
+		"id": "T8_ARTEFACT_SHOES_PLATE_FEY",
+		"name": "Elder's Veilweaver Claws"
+	},
+	{
+		"id": "T8_ARTEFACT_TOKEN_FAVOR_1",
+		"name": "Elder's Crystallized Spirit"
+	},
+	{
+		"id": "T8_ARTEFACT_TOKEN_FAVOR_2",
+		"name": "Elder's Crystallized Dread"
+	},
+	{
+		"id": "T8_ARTEFACT_TOKEN_FAVOR_3",
+		"name": "Elder's Crystallized Magic"
+	},
+	{
+		"id": "T8_ARTEFACT_TOKEN_FAVOR_4",
+		"name": "Elder's Crystallized Divinity"
+	},
+	{
+		"id": "T8_CLOTH",
+		"name": "Baroque Cloth"
+	},
+	{
+		"id": "T8_HEAD_CLOTH_SET3",
+		"name": "Elder's Mage Cowl"
+	},
+	{
+		"id": "T8_HEAD_LEATHER_SET3",
+		"name": "Elder's Assassin Hood"
+	},
+	{
+		"id": "T8_HEAD_PLATE_SET3",
+		"name": "Elder's Guardian Helmet"
+	},
+	{
+		"id": "T8_LEATHER",
+		"name": "Fortified Leather"
+	},
+	{
+		"id": "T8_METALBAR",
+		"name": "Adamantium Steel Bar"
+	},
+	{
+		"id": "T8_PLANKS",
+		"name": "Whitewood Planks"
+	},
+	{
+		"id": "T8_SHOES_CLOTH_SET3",
+		"name": "Elder's Mage Sandals"
+	},
+	{
+		"id": "T8_SHOES_LEATHER_SET3",
+		"name": "Elder's Assassin Shoes"
+	},
+	{
+		"id": "T8_SHOES_PLATE_SET3",
+		"name": "Elder's Guardian Boots"
+	},
+	{
+		"id": "T8_STONEBLOCK",
+		"name": "Marble Block"
+	}
+]

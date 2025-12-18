@@ -1,0 +1,54 @@
+{
+	"bonuses": {
+		"base": 18,
+		"farming": 10,
+		"butchering": 10,
+		"refining": 40,
+		"crafting": 15,
+		"focus": 59
+	},
+	"cityBonuses": {
+		"Caerleon": {
+			"farming": ["Brightleaf Comfrey", "Dragon Teasel", "Firetouched Mullein"],
+			"refining": [],
+			"butchering": [],
+			"crafting": ["Gathering Gear", "Tool", "Food", "War Gloves", "Shapeshifter Staff"]
+		},
+		"Bridgewatch": {
+			"farming": ["Beans", "Goat's Milk", "Dragon Teasel", "Bundle of Corn"],
+			"refining": ["Stone"],
+			"butchering": ["Raw Goat"],
+			"crafting": ["Crossbow", "Dagger", "Cursed Staff", "Plate Armor", "Cloth Shoes"]
+		},
+		"Fort Sterling": {
+			"farming": ["Hen Eggs", "Turnips", "Sheep's Milk", "Ghoul Yarrow"],
+			"refining": ["Wood"],
+			"butchering": ["Raw Chicken", "Raw Mutton"],
+			"crafting": ["Hammer", "Spear", "Holy Staff", "Plate Helmet", "Cloth Armor"]
+		},
+		"Lymhurst": {
+			"farming": ["Carrots", "Crenellated Burdock", "Goose Eggs", "Pumpkin"],
+			"refining": ["Fiber"],
+			"butchering": ["Raw Goose"],
+			"crafting": ["Sword", "Bow", "Arcane Staff", "Leather Helmet", "Leather Shoes"]
+		},
+		"Martlock": {
+			"farming": ["Sheaf of Wheat", "Potatoes", "Elusive Foxglove", "Cow's Milk"],
+			"refining": ["Hide"],
+			"butchering": ["Raw Beef"],
+			"crafting": ["Axe", "Quarterstaff", "Froststaff", "Plate Shoes", "Off-hand"]
+		},
+		"Thetford": {
+			"farming": ["Arcane Agaric", "Cabbage", "Firetouched Mullein"],
+			"refining": [],
+			"butchering": ["Raw Pork"],
+			"crafting": ["Mace", "Nature Staff", "Fire Staff", "Leather Armor", "Cloth Helmet"]
+		},
+		"Brecilien": {
+			"farming": ["Carrots", "Beans", "Sheaf of Wheat", "Turnips", "Cabbage", "Potatoes", "Bundle of Corn", "Pumpkin"],
+			"refining": [],
+			"butchering": [],
+			"crafting": ["Cape", "Bag", "Potion"]
+		}
+	}
+}
