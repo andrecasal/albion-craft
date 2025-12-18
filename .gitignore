@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Data files (large, fetch locally)
+material-prices.json
+material-prices.csv
+market-data.json
+material-prices-progress.json
+material-prices-errors.json
+
+# Reports (generated)
+reports/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment variables
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Keep example files
+!example-*.json

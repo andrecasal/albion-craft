@@ -1,0 +1,34 @@
+{
+	"name": "albion-craft",
+	"version": "1.0.0",
+	"description": "Albion Online crafting profitability analyzer",
+	"main": "dist/index.js",
+	"scripts": {
+		"extract-materials": "node extract-materials.js",
+		"fetch-material-prices": "node material-prices-fetcher.js",
+		"create-sample-market-data": "node create-sample-market-data.js",
+		"build": "tsc",
+		"start": "node dist/index.js",
+		"dev": "ts-node src/cli.ts",
+		"calculate": "ts-node src/cli.ts",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"albion-online",
+		"market-analysis",
+		"crafting",
+		"profitability"
+	],
+	"author": "",
+	"license": "MIT",
+	"devDependencies": {
+		"@types/node": "^20.10.0",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.3.3"
+	},
+	"dependencies": {
+		"better-sqlite3": "^9.2.2",
+		"csv-parser": "^3.0.0",
+		"csv-writer": "^1.6.0"
+	}
+}
