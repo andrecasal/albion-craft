@@ -252,32 +252,4 @@ npm run collect
 
 # Interactive CLI
 npm run dev
-
-# Debug: view raw NATS stream
-npm run nats
-```
-
----
-
-## File Structure
-
-```
-src/
-├── cli.ts                      # Main CLI entry point
-├── types/
-│   └── index.ts                # Shared type definitions
-├── services/
-│   ├── order-book-db.ts        # SQLite database service
-│   ├── nats-collector.ts       # NATS stream → SQLite
-│   ├── market-data-fetcher.ts  # REST API fetcher (to be updated)
-│   ├── profitability-calculator.ts
-│   └── ...
-├── scripts/
-│   └── nats-market-stream.ts   # Debug tool for raw stream
-├── constants/
-│   ├── items.json
-│   ├── recipes.json
-│   └── ...
-└── db/
-    └── database.sqlite         # All persistent data
 ```
