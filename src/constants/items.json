@@ -45023,5 +45023,309 @@
 		"tier": 8,
 		"enchant": 4,
 		"category": "Two-Hand Weapon"
+	},
+	{
+		"id": "T2_POTION_HEAL",
+		"name": "Minor Healing Potion",
+		"tier": 2,
+		"enchant": 0,
+		"weight": 0.1,
+		"category": "Potion"
+	},
+	{
+		"id": "T2_POTION_HEAL@1",
+		"name": "Minor Healing Potion",
+		"tier": 2,
+		"enchant": 1,
+		"weight": 0.1,
+		"category": "Potion"
+	},
+	{
+		"id": "T4_POTION_HEAL",
+		"name": "Healing Potion",
+		"tier": 4,
+		"enchant": 0,
+		"weight": 0.3,
+		"category": "Potion"
+	},
+	{
+		"id": "T4_POTION_HEAL@1",
+		"name": "Healing Potion",
+		"tier": 4,
+		"enchant": 1,
+		"weight": 0.3,
+		"category": "Potion"
+	},
+	{
+		"id": "T6_POTION_HEAL",
+		"name": "Major Healing Potion",
+		"tier": 6,
+		"enchant": 0,
+		"weight": 0.87,
+		"category": "Potion"
+	},
+	{
+		"id": "T6_POTION_HEAL@1",
+		"name": "Major Healing Potion",
+		"tier": 6,
+		"enchant": 1,
+		"weight": 0.87,
+		"category": "Potion"
+	},
+	{
+		"id": "T2_POTION_ENERGY",
+		"name": "Minor Energy Potion",
+		"tier": 2,
+		"enchant": 0,
+		"weight": 0.1,
+		"category": "Potion"
+	},
+	{
+		"id": "T2_POTION_ENERGY@1",
+		"name": "Minor Energy Potion",
+		"tier": 2,
+		"enchant": 1,
+		"weight": 0.1,
+		"category": "Potion"
+	},
+	{
+		"id": "T4_POTION_ENERGY",
+		"name": "Energy Potion",
+		"tier": 4,
+		"enchant": 0,
+		"weight": 0.3,
+		"category": "Potion"
+	},
+	{
+		"id": "T4_POTION_ENERGY@1",
+		"name": "Energy Potion",
+		"tier": 4,
+		"enchant": 1,
+		"weight": 0.3,
+		"category": "Potion"
+	},
+	{
+		"id": "T6_POTION_ENERGY",
+		"name": "Major Energy Potion",
+		"tier": 6,
+		"enchant": 0,
+		"weight": 0.87,
+		"category": "Potion"
+	},
+	{
+		"id": "T6_POTION_ENERGY@1",
+		"name": "Major Energy Potion",
+		"tier": 6,
+		"enchant": 1,
+		"weight": 0.87,
+		"category": "Potion"
+	},
+	{
+		"id": "T3_POTION_REVIVE",
+		"name": "Minor Gigantify Potion",
+		"tier": 3,
+		"enchant": 0,
+		"weight": 0.1,
+		"category": "Potion"
+	},
+	{
+		"id": "T3_POTION_REVIVE@1",
+		"name": "Minor Gigantify Potion",
+		"tier": 3,
+		"enchant": 1,
+		"weight": 0.1,
+		"category": "Potion"
+	},
+	{
+		"id": "T5_POTION_REVIVE",
+		"name": "Gigantify Potion",
+		"tier": 5,
+		"enchant": 0,
+		"weight": 0.42,
+		"category": "Potion"
+	},
+	{
+		"id": "T5_POTION_REVIVE@1",
+		"name": "Gigantify Potion",
+		"tier": 5,
+		"enchant": 1,
+		"weight": 0.42,
+		"category": "Potion"
+	},
+	{
+		"id": "T7_POTION_REVIVE",
+		"name": "Major Gigantify Potion",
+		"tier": 7,
+		"enchant": 0,
+		"weight": 1.15,
+		"category": "Potion"
+	},
+	{
+		"id": "T7_POTION_REVIVE@1",
+		"name": "Major Gigantify Potion",
+		"tier": 7,
+		"enchant": 1,
+		"weight": 1.15,
+		"category": "Potion"
+	},
+	{
+		"id": "T3_POTION_STONESKIN",
+		"name": "Minor Resistance Potion",
+		"tier": 3,
+		"enchant": 0,
+		"weight": 0.1,
+		"category": "Potion"
+	},
+	{
+		"id": "T3_POTION_STONESKIN@1",
+		"name": "Minor Resistance Potion",
+		"tier": 3,
+		"enchant": 1,
+		"weight": 0.1,
+		"category": "Potion"
+	},
+	{
+		"id": "T5_POTION_STONESKIN",
+		"name": "Resistance Potion",
+		"tier": 5,
+		"enchant": 0,
+		"weight": 0.42,
+		"category": "Potion"
+	},
+	{
+		"id": "T5_POTION_STONESKIN@1",
+		"name": "Resistance Potion",
+		"tier": 5,
+		"enchant": 1,
+		"weight": 0.42,
+		"category": "Potion"
+	},
+	{
+		"id": "T7_POTION_STONESKIN",
+		"name": "Major Resistance Potion",
+		"tier": 7,
+		"enchant": 0,
+		"weight": 1.44,
+		"category": "Potion"
+	},
+	{
+		"id": "T7_POTION_STONESKIN@1",
+		"name": "Major Resistance Potion",
+		"tier": 7,
+		"enchant": 1,
+		"weight": 1.44,
+		"category": "Potion"
+	},
+	{
+		"id": "T3_POTION_SLOWFIELD",
+		"name": "Minor Sticky Potion",
+		"tier": 3,
+		"enchant": 0,
+		"weight": 0.1,
+		"category": "Potion"
+	},
+	{
+		"id": "T3_POTION_SLOWFIELD@1",
+		"name": "Minor Sticky Potion",
+		"tier": 3,
+		"enchant": 1,
+		"weight": 0.1,
+		"category": "Potion"
+	},
+	{
+		"id": "T5_POTION_SLOWFIELD",
+		"name": "Sticky Potion",
+		"tier": 5,
+		"enchant": 0,
+		"weight": 0.42,
+		"category": "Potion"
+	},
+	{
+		"id": "T5_POTION_SLOWFIELD@1",
+		"name": "Sticky Potion",
+		"tier": 5,
+		"enchant": 1,
+		"weight": 0.42,
+		"category": "Potion"
+	},
+	{
+		"id": "T7_POTION_SLOWFIELD",
+		"name": "Major Sticky Potion",
+		"tier": 7,
+		"enchant": 0,
+		"weight": 1.44,
+		"category": "Potion"
+	},
+	{
+		"id": "T7_POTION_SLOWFIELD@1",
+		"name": "Major Sticky Potion",
+		"tier": 7,
+		"enchant": 1,
+		"weight": 1.44,
+		"category": "Potion"
+	},
+	{
+		"id": "T4_POTION_COOLDOWN",
+		"name": "Minor Poison Potion",
+		"tier": 4,
+		"enchant": 0,
+		"weight": 0.14,
+		"category": "Potion"
+	},
+	{
+		"id": "T4_POTION_COOLDOWN@1",
+		"name": "Minor Poison Potion",
+		"tier": 4,
+		"enchant": 1,
+		"weight": 0.14,
+		"category": "Potion"
+	},
+	{
+		"id": "T6_POTION_COOLDOWN",
+		"name": "Poison Potion",
+		"tier": 6,
+		"enchant": 0,
+		"weight": 0.53,
+		"category": "Potion"
+	},
+	{
+		"id": "T6_POTION_COOLDOWN@1",
+		"name": "Poison Potion",
+		"tier": 6,
+		"enchant": 1,
+		"weight": 0.53,
+		"category": "Potion"
+	},
+	{
+		"id": "T8_POTION_COOLDOWN",
+		"name": "Major Poison Potion",
+		"tier": 8,
+		"enchant": 0,
+		"weight": 1.44,
+		"category": "Potion"
+	},
+	{
+		"id": "T8_POTION_COOLDOWN@1",
+		"name": "Major Poison Potion",
+		"tier": 8,
+		"enchant": 1,
+		"weight": 1.44,
+		"category": "Potion"
+	},
+	{
+		"id": "T8_POTION_CLEANSE",
+		"name": "Cleansing Potion",
+		"tier": 8,
+		"enchant": 0,
+		"weight": 2.16,
+		"category": "Potion"
+	},
+	{
+		"id": "T8_POTION_CLEANSE@1",
+		"name": "Cleansing Potion",
+		"tier": 8,
+		"enchant": 1,
+		"weight": 2.16,
+		"category": "Potion"
 	}
 ]
