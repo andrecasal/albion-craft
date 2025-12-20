@@ -1,0 +1,53 @@
+{
+	"description": "Travel times between cities in minutes. Cities form a circle with Caerleon in the center.",
+	"travelTimes": {
+		"Lymhurst": {
+			"Lymhurst": 0,
+			"Bridgewatch": 5,
+			"Martlock": 10,
+			"Thetford": 10,
+			"Fort Sterling": 5,
+			"Caerleon": 5
+		},
+		"Bridgewatch": {
+			"Lymhurst": 5,
+			"Bridgewatch": 0,
+			"Martlock": 5,
+			"Thetford": 10,
+			"Fort Sterling": 10,
+			"Caerleon": 5
+		},
+		"Martlock": {
+			"Lymhurst": 10,
+			"Bridgewatch": 5,
+			"Martlock": 0,
+			"Thetford": 5,
+			"Fort Sterling": 10,
+			"Caerleon": 5
+		},
+		"Thetford": {
+			"Lymhurst": 10,
+			"Bridgewatch": 10,
+			"Martlock": 5,
+			"Thetford": 0,
+			"Fort Sterling": 5,
+			"Caerleon": 5
+		},
+		"Fort Sterling": {
+			"Lymhurst": 5,
+			"Bridgewatch": 10,
+			"Martlock": 10,
+			"Thetford": 5,
+			"Fort Sterling": 0,
+			"Caerleon": 5
+		},
+		"Caerleon": {
+			"Lymhurst": 5,
+			"Bridgewatch": 5,
+			"Martlock": 5,
+			"Thetford": 5,
+			"Fort Sterling": 5,
+			"Caerleon": 0
+		}
+	}
+}
