@@ -319,27 +319,27 @@ export class NatsCollector {
 
       // Header
       lines.push(`┌${W}┐`);
-      const titleText = `ALBION MARKET COLLECTOR                         > ${this.region.toUpperCase()}`;
+      const titleText = `ALBION MARKET COLLECTOR                   > ${this.region.toUpperCase()}`;
       lines.push(`│  📡 ${titleText.padEnd(63)}  │`);
       const statusIcon = this.nc ? '🟢' : '🔴';
-      const statusText = `${this.nc ? 'Connected' : 'Disconnected'}                                       Uptime: ${uptime}`;
+      const statusText = `${this.nc ? 'Connected' : 'Disconnected'}                                 Uptime: ${uptime}`;
       lines.push(`│  ${statusIcon} ${statusText.padEnd(65)}│`);
       lines.push(`├${W}┤`);
 
       // Stats rows - emoji + text, pad text portion to align
       const r1c1 = `Rate: ${ordersPerSecond}/s`.padEnd(19);
-      const r1c2 = `Total: ${this.formatNumber(dbStats.totalOrders)}`.padEnd(21);
-      const r1c3 = `Items: ${this.formatNumber(dbStats.uniqueItems)}`.padEnd(17);
+      const r1c2 = `Total: ${this.formatNumber(dbStats.totalOrders)}`.padEnd(18);
+      const r1c3 = `Items: ${this.formatNumber(dbStats.uniqueItems)}`.padEnd(20);
       lines.push(`│  ⚡ ${r1c1} 📦 ${r1c2} 🏷️  ${r1c3}│`);
 
       const r2c1 = `Session: ${this.formatNumber(this.ordersProcessedTotal)}`.padEnd(19);
-      const r2c2 = `Sell: ${this.formatNumber(dbStats.sellOrders)}`.padEnd(21);
-      const r2c3 = `Cities: ${citiesWithData}/${totalCities}`.padEnd(17);
+      const r2c2 = `Sell: ${this.formatNumber(dbStats.sellOrders)}`.padEnd(18);
+      const r2c3 = `Cities: ${citiesWithData}/${totalCities}`.padEnd(20);
       lines.push(`│  📊 ${r2c1} 💰 ${r2c2} 🏙️  ${r2c3}│`);
 
       const r3c1 = `Cleaned: ${this.formatNumber(this.ordersExpiredCleaned)}`.padEnd(19);
-      const r3c2 = `Buy: ${this.formatNumber(dbStats.buyOrders)}`.padEnd(21);
-      const r3c3 = `Fresh: ${freshness.freshPercent.toFixed(0)}%`.padEnd(17);
+      const r3c2 = `Buy: ${this.formatNumber(dbStats.buyOrders)}`.padEnd(18);
+      const r3c3 = `Fresh: ${freshness.freshPercent.toFixed(0)}%`.padEnd(20);
       lines.push(`│  🧹 ${r3c1} 🛒 ${r3c2} ✨ ${r3c3}│`);
 
       lines.push(`├${W}┤`);
@@ -348,19 +348,19 @@ export class NatsCollector {
       // City data with emojis
       const allCities = Object.keys(CITY_TO_LOCATION) as City[];
       const cityEmojis: Record<City, string> = {
-        'Thetford': '🌿', 'Martlock': '⛰️', 'Fort Sterling': '❄️',
-        'Lymhurst': '🌲', 'Bridgewatch': '🏜️', 'Caerleon': '👑', 'Brecilien': '🌳',
+        'Thetford': '🌿', 'Martlock': '⛰️ ', 'Fort Sterling': '❄️ ',
+        'Lymhurst': '🌲', 'Bridgewatch': '🏜️ ', 'Caerleon': '👑', 'Brecilien': '🌳',
       };
 
       const fmtCity = (city: City, padLen: number): string => {
         const count = cityCounts[city] || 0;
-        const name = city === 'Fort Sterling' ? 'FortSterling' : city;
+        const name = city;
         const text = `${name}: ${this.formatNumber(count)}`.padEnd(padLen);
         return `${cityEmojis[city]} ${text}`;
       };
 
-      lines.push(`│  ${fmtCity(allCities[0], 19)} ${fmtCity(allCities[1], 19)} ${fmtCity(allCities[2], 21)}│`);
-      lines.push(`│  ${fmtCity(allCities[3], 19)} ${fmtCity(allCities[4], 18)} ${fmtCity(allCities[5], 21)}│`);
+      lines.push(`│  ${fmtCity(allCities[0], 19)} ${fmtCity(allCities[1], 18)} ${fmtCity(allCities[2], 20)}│`);
+      lines.push(`│  ${fmtCity(allCities[3], 19)} ${fmtCity(allCities[4], 18)} ${fmtCity(allCities[5], 20)}│`);
       if (allCities[6]) {
         const lastCity = allCities[6];
         const count = cityCounts[lastCity] || 0;

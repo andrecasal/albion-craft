@@ -98,7 +98,7 @@ export class OrderBookDatabase {
   private deleteExpiredStmt: Database.Statement;
 
   constructor(dbPath?: string) {
-    const defaultPath = path.join(process.cwd(), 'src', 'db', 'order-book.sqlite');
+    const defaultPath = path.join(process.cwd(), 'src', 'db', 'database.sqlite');
     const finalPath = dbPath || defaultPath;
 
     // Ensure directory exists
