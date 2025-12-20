@@ -40,7 +40,7 @@
 		},
 		"Thetford": {
 			"farming": ["Arcane Agaric", "Cabbage", "Firetouched Mullein"],
-			"refining": [],
+			"refining": ["Ore"],
 			"butchering": ["Raw Pork"],
 			"crafting": ["Mace", "Nature Staff", "Fire Staff", "Leather Armor", "Cloth Helmet"]
 		},

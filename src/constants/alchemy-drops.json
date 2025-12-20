@@ -1,0 +1,86 @@
+[
+	{
+		"id": "T3_ALCHEMY_RARE_DIREBEAR",
+		"name": "Rugged Spirit Paws"
+	},
+	{
+		"id": "T3_ALCHEMY_RARE_EAGLE",
+		"name": "Rugged Dawnfeather"
+	},
+	{
+		"id": "T3_ALCHEMY_RARE_ELEMENTAL",
+		"name": "Rugged Runestone Tooth"
+	},
+	{
+		"id": "T3_ALCHEMY_RARE_ENT",
+		"name": "Rugged Sylvian Root"
+	},
+	{
+		"id": "T3_ALCHEMY_RARE_IMP",
+		"name": "Rugged Imp's Horn"
+	},
+	{
+		"id": "T3_ALCHEMY_RARE_PANTHER",
+		"name": "Rugged Shadow Claws"
+	},
+	{
+		"id": "T3_ALCHEMY_RARE_WEREWOLF",
+		"name": "Rugged Werewolf Fangs"
+	},
+	{
+		"id": "T5_ALCHEMY_RARE_DIREBEAR",
+		"name": "Fine Spirit Paws"
+	},
+	{
+		"id": "T5_ALCHEMY_RARE_EAGLE",
+		"name": "Fine Dawnfeather"
+	},
+	{
+		"id": "T5_ALCHEMY_RARE_ELEMENTAL",
+		"name": "Fine Runestone Tooth"
+	},
+	{
+		"id": "T5_ALCHEMY_RARE_ENT",
+		"name": "Fine Sylvian Root"
+	},
+	{
+		"id": "T5_ALCHEMY_RARE_IMP",
+		"name": "Fine Imp's Horn"
+	},
+	{
+		"id": "T5_ALCHEMY_RARE_PANTHER",
+		"name": "Fine Shadow Claws"
+	},
+	{
+		"id": "T5_ALCHEMY_RARE_WEREWOLF",
+		"name": "Fine Werewolf Fangs"
+	},
+	{
+		"id": "T7_ALCHEMY_RARE_DIREBEAR",
+		"name": "Excellent Spirit Paws"
+	},
+	{
+		"id": "T7_ALCHEMY_RARE_EAGLE",
+		"name": "Excellent Dawnfeather"
+	},
+	{
+		"id": "T7_ALCHEMY_RARE_ELEMENTAL",
+		"name": "Excellent Runestone Tooth"
+	},
+	{
+		"id": "T7_ALCHEMY_RARE_ENT",
+		"name": "Excellent Sylvian Root"
+	},
+	{
+		"id": "T7_ALCHEMY_RARE_IMP",
+		"name": "Excellent Imp's Horn"
+	},
+	{
+		"id": "T7_ALCHEMY_RARE_PANTHER",
+		"name": "Excellent Shadow Claws"
+	},
+	{
+		"id": "T7_ALCHEMY_RARE_WEREWOLF",
+		"name": "Excellent Werewolf Fangs"
+	}
+]

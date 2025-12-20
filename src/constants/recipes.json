@@ -6826,7 +6826,7 @@
 	},
 	{
 		"itemId": "T4_HEAD_CLOTH_ROYAL",
-		"material1": "T4_HEAD_CLOTH_SET3",
+		"material1": "T4_HEAD_CLOTH_SET1",
 		"mat1Qty": 1,
 		"material2": "QUESTITEM_TOKEN_ROYAL_T4",
 		"mat2Qty": 2,
@@ -6839,7 +6839,7 @@
 	},
 	{
 		"itemId": "T5_HEAD_CLOTH_ROYAL",
-		"material1": "T5_HEAD_CLOTH_SET3",
+		"material1": "T5_HEAD_CLOTH_SET1",
 		"mat1Qty": 1,
 		"material2": "QUESTITEM_TOKEN_ROYAL_T5",
 		"mat2Qty": 4,
@@ -6852,7 +6852,7 @@
 	},
 	{
 		"itemId": "T6_HEAD_CLOTH_ROYAL",
-		"material1": "T6_HEAD_CLOTH_SET3",
+		"material1": "T6_HEAD_CLOTH_SET1",
 		"mat1Qty": 1,
 		"material2": "QUESTITEM_TOKEN_ROYAL_T6",
 		"mat2Qty": 8,
@@ -6865,7 +6865,7 @@
 	},
 	{
 		"itemId": "T7_HEAD_CLOTH_ROYAL",
-		"material1": "T7_HEAD_CLOTH_SET3",
+		"material1": "T7_HEAD_CLOTH_SET1",
 		"mat1Qty": 1,
 		"material2": "QUESTITEM_TOKEN_ROYAL_T7",
 		"mat2Qty": 8,
@@ -6878,7 +6878,7 @@
 	},
 	{
 		"itemId": "T8_HEAD_CLOTH_ROYAL",
-		"material1": "T8_HEAD_CLOTH_SET3",
+		"material1": "T8_HEAD_CLOTH_SET1",
 		"mat1Qty": 1,
 		"material2": "QUESTITEM_TOKEN_ROYAL_T8",
 		"mat2Qty": 8,
@@ -6891,7 +6891,7 @@
 	},
 	{
 		"itemId": "T4_ARMOR_CLOTH_ROYAL",
-		"material1": "T4_ARMOR_CLOTH_SET3",
+		"material1": "T4_ARMOR_CLOTH_SET1",
 		"mat1Qty": 1,
 		"material2": "QUESTITEM_TOKEN_ROYAL_T4",
 		"mat2Qty": 4,
@@ -6904,7 +6904,7 @@
 	},
 	{
 		"itemId": "T5_ARMOR_CLOTH_ROYAL",
-		"material1": "T5_ARMOR_CLOTH_SET3",
+		"material1": "T5_ARMOR_CLOTH_SET1",
 		"mat1Qty": 1,
 		"material2": "QUESTITEM_TOKEN_ROYAL_T5",
 		"mat2Qty": 8,
@@ -6917,7 +6917,7 @@
 	},
 	{
 		"itemId": "T6_ARMOR_CLOTH_ROYAL",
-		"material1": "T6_ARMOR_CLOTH_SET3",
+		"material1": "T6_ARMOR_CLOTH_SET1",
 		"mat1Qty": 1,
 		"material2": "QUESTITEM_TOKEN_ROYAL_T6",
 		"mat2Qty": 16,
@@ -6930,7 +6930,7 @@
 	},
 	{
 		"itemId": "T7_ARMOR_CLOTH_ROYAL",
-		"material1": "T7_ARMOR_CLOTH_SET3",
+		"material1": "T7_ARMOR_CLOTH_SET1",
 		"mat1Qty": 1,
 		"material2": "QUESTITEM_TOKEN_ROYAL_T7",
 		"mat2Qty": 16,
@@ -6943,7 +6943,7 @@
 	},
 	{
 		"itemId": "T8_ARMOR_CLOTH_ROYAL",
-		"material1": "T8_ARMOR_CLOTH_SET3",
+		"material1": "T8_ARMOR_CLOTH_SET1",
 		"mat1Qty": 1,
 		"material2": "QUESTITEM_TOKEN_ROYAL_T8",
 		"mat2Qty": 16,
@@ -6956,7 +6956,7 @@
 	},
 	{
 		"itemId": "T4_SHOES_CLOTH_ROYAL",
-		"material1": "T4_SHOES_CLOTH_SET3",
+		"material1": "T4_SHOES_CLOTH_SET1",
 		"mat1Qty": 1,
 		"material2": "QUESTITEM_TOKEN_ROYAL_T4",
 		"mat2Qty": 2,
@@ -6969,7 +6969,7 @@
 	},
 	{
 		"itemId": "T5_SHOES_CLOTH_ROYAL",
-		"material1": "T5_SHOES_CLOTH_SET3",
+		"material1": "T5_SHOES_CLOTH_SET1",
 		"mat1Qty": 1,
 		"material2": "QUESTITEM_TOKEN_ROYAL_T5",
 		"mat2Qty": 4,
@@ -6982,7 +6982,7 @@
 	},
 	{
 		"itemId": "T6_SHOES_CLOTH_ROYAL",
-		"material1": "T6_SHOES_CLOTH_SET3",
+		"material1": "T6_SHOES_CLOTH_SET1",
 		"mat1Qty": 1,
 		"material2": "QUESTITEM_TOKEN_ROYAL_T6",
 		"mat2Qty": 8,
@@ -6995,7 +6995,7 @@
 	},
 	{
 		"itemId": "T7_SHOES_CLOTH_ROYAL",
-		"material1": "T7_SHOES_CLOTH_SET3",
+		"material1": "T7_SHOES_CLOTH_SET1",
 		"mat1Qty": 1,
 		"material2": "QUESTITEM_TOKEN_ROYAL_T7",
 		"mat2Qty": 8,
@@ -7008,7 +7008,7 @@
 	},
 	{
 		"itemId": "T8_SHOES_CLOTH_ROYAL",
-		"material1": "T8_SHOES_CLOTH_SET3",
+		"material1": "T8_SHOES_CLOTH_SET1",
 		"mat1Qty": 1,
 		"material2": "QUESTITEM_TOKEN_ROYAL_T8",
 		"mat2Qty": 8,
@@ -7021,7 +7021,7 @@
 	},
 	{
 		"itemId": "T4_HEAD_LEATHER_ROYAL",
-		"material1": "T4_HEAD_LEATHER_SET3",
+		"material1": "T4_HEAD_LEATHER_SET1",
 		"mat1Qty": 1,
 		"material2": "QUESTITEM_TOKEN_ROYAL_T4",
 		"mat2Qty": 2,
@@ -7034,7 +7034,7 @@
 	},
 	{
 		"itemId": "T5_HEAD_LEATHER_ROYAL",
-		"material1": "T5_HEAD_LEATHER_SET3",
+		"material1": "T5_HEAD_LEATHER_SET1",
 		"mat1Qty": 1,
 		"material2": "QUESTITEM_TOKEN_ROYAL_T5",
 		"mat2Qty": 4,
@@ -7047,7 +7047,7 @@
 	},
 	{
 		"itemId": "T6_HEAD_LEATHER_ROYAL",
-		"material1": "T6_HEAD_LEATHER_SET3",
+		"material1": "T6_HEAD_LEATHER_SET1",
 		"mat1Qty": 1,
 		"material2": "QUESTITEM_TOKEN_ROYAL_T6",
 		"mat2Qty": 8,
@@ -7060,7 +7060,7 @@
 	},
 	{
 		"itemId": "T7_HEAD_LEATHER_ROYAL",
-		"material1": "T7_HEAD_LEATHER_SET3",
+		"material1": "T7_HEAD_LEATHER_SET1",
 		"mat1Qty": 1,
 		"material2": "QUESTITEM_TOKEN_ROYAL_T7",
 		"mat2Qty": 8,
@@ -7073,7 +7073,7 @@
 	},
 	{
 		"itemId": "T8_HEAD_LEATHER_ROYAL",
-		"material1": "T8_HEAD_LEATHER_SET3",
+		"material1": "T8_HEAD_LEATHER_SET1",
 		"mat1Qty": 1,
 		"material2": "QUESTITEM_TOKEN_ROYAL_T8",
 		"mat2Qty": 8,
@@ -7086,7 +7086,7 @@
 	},
 	{
 		"itemId": "T4_ARMOR_LEATHER_ROYAL",
-		"material1": "T4_ARMOR_LEATHER_SET3",
+		"material1": "T4_ARMOR_LEATHER_SET1",
 		"mat1Qty": 1,
 		"material2": "QUESTITEM_TOKEN_ROYAL_T4",
 		"mat2Qty": 4,
@@ -7099,7 +7099,7 @@
 	},
 	{
 		"itemId": "T5_ARMOR_LEATHER_ROYAL",
-		"material1": "T5_ARMOR_LEATHER_SET3",
+		"material1": "T5_ARMOR_LEATHER_SET1",
 		"mat1Qty": 1,
 		"material2": "QUESTITEM_TOKEN_ROYAL_T5",
 		"mat2Qty": 8,
@@ -7112,7 +7112,7 @@
 	},
 	{
 		"itemId": "T6_ARMOR_LEATHER_ROYAL",
-		"material1": "T6_ARMOR_LEATHER_SET3",
+		"material1": "T6_ARMOR_LEATHER_SET1",
 		"mat1Qty": 1,
 		"material2": "QUESTITEM_TOKEN_ROYAL_T6",
 		"mat2Qty": 16,
@@ -7125,7 +7125,7 @@
 	},
 	{
 		"itemId": "T7_ARMOR_LEATHER_ROYAL",
-		"material1": "T7_ARMOR_LEATHER_SET3",
+		"material1": "T7_ARMOR_LEATHER_SET1",
 		"mat1Qty": 1,
 		"material2": "QUESTITEM_TOKEN_ROYAL_T7",
 		"mat2Qty": 16,
@@ -7138,7 +7138,7 @@
 	},
 	{
 		"itemId": "T8_ARMOR_LEATHER_ROYAL",
-		"material1": "T8_ARMOR_LEATHER_SET3",
+		"material1": "T8_ARMOR_LEATHER_SET1",
 		"mat1Qty": 1,
 		"material2": "QUESTITEM_TOKEN_ROYAL_T8",
 		"mat2Qty": 16,
@@ -7151,7 +7151,7 @@
 	},
 	{
 		"itemId": "T4_SHOES_LEATHER_ROYAL",
-		"material1": "T4_SHOES_LEATHER_SET3",
+		"material1": "T4_SHOES_LEATHER_SET1",
 		"mat1Qty": 1,
 		"material2": "QUESTITEM_TOKEN_ROYAL_T4",
 		"mat2Qty": 2,
@@ -7164,7 +7164,7 @@
 	},
 	{
 		"itemId": "T5_SHOES_LEATHER_ROYAL",
-		"material1": "T5_SHOES_LEATHER_SET3",
+		"material1": "T5_SHOES_LEATHER_SET1",
 		"mat1Qty": 1,
 		"material2": "QUESTITEM_TOKEN_ROYAL_T5",
 		"mat2Qty": 4,
@@ -7177,7 +7177,7 @@
 	},
 	{
 		"itemId": "T6_SHOES_LEATHER_ROYAL",
-		"material1": "T6_SHOES_LEATHER_SET3",
+		"material1": "T6_SHOES_LEATHER_SET1",
 		"mat1Qty": 1,
 		"material2": "QUESTITEM_TOKEN_ROYAL_T6",
 		"mat2Qty": 8,
@@ -7190,7 +7190,7 @@
 	},
 	{
 		"itemId": "T7_SHOES_LEATHER_ROYAL",
-		"material1": "T7_SHOES_LEATHER_SET3",
+		"material1": "T7_SHOES_LEATHER_SET1",
 		"mat1Qty": 1,
 		"material2": "QUESTITEM_TOKEN_ROYAL_T7",
 		"mat2Qty": 8,
@@ -7203,7 +7203,7 @@
 	},
 	{
 		"itemId": "T8_SHOES_LEATHER_ROYAL",
-		"material1": "T8_SHOES_LEATHER_SET3",
+		"material1": "T8_SHOES_LEATHER_SET1",
 		"mat1Qty": 1,
 		"material2": "QUESTITEM_TOKEN_ROYAL_T8",
 		"mat2Qty": 8,
@@ -7216,7 +7216,7 @@
 	},
 	{
 		"itemId": "T4_HEAD_PLATE_ROYAL",
-		"material1": "T4_HEAD_PLATE_SET3",
+		"material1": "T4_HEAD_PLATE_SET1",
 		"mat1Qty": 1,
 		"material2": "QUESTITEM_TOKEN_ROYAL_T4",
 		"mat2Qty": 2,
@@ -7229,7 +7229,7 @@
 	},
 	{
 		"itemId": "T5_HEAD_PLATE_ROYAL",
-		"material1": "T5_HEAD_PLATE_SET3",
+		"material1": "T5_HEAD_PLATE_SET1",
 		"mat1Qty": 1,
 		"material2": "QUESTITEM_TOKEN_ROYAL_T5",
 		"mat2Qty": 4,
@@ -7242,7 +7242,7 @@
 	},
 	{
 		"itemId": "T6_HEAD_PLATE_ROYAL",
-		"material1": "T6_HEAD_PLATE_SET3",
+		"material1": "T6_HEAD_PLATE_SET1",
 		"mat1Qty": 1,
 		"material2": "QUESTITEM_TOKEN_ROYAL_T6",
 		"mat2Qty": 8,
@@ -7255,7 +7255,7 @@
 	},
 	{
 		"itemId": "T7_HEAD_PLATE_ROYAL",
-		"material1": "T7_HEAD_PLATE_SET3",
+		"material1": "T7_HEAD_PLATE_SET1",
 		"mat1Qty": 1,
 		"material2": "QUESTITEM_TOKEN_ROYAL_T7",
 		"mat2Qty": 8,
@@ -7268,7 +7268,7 @@
 	},
 	{
 		"itemId": "T8_HEAD_PLATE_ROYAL",
-		"material1": "T8_HEAD_PLATE_SET3",
+		"material1": "T8_HEAD_PLATE_SET1",
 		"mat1Qty": 1,
 		"material2": "QUESTITEM_TOKEN_ROYAL_T8",
 		"mat2Qty": 8,
@@ -7281,7 +7281,7 @@
 	},
 	{
 		"itemId": "T4_ARMOR_PLATE_ROYAL",
-		"material1": "T4_ARMOR_PLATE_SET3",
+		"material1": "T4_ARMOR_PLATE_SET1",
 		"mat1Qty": 1,
 		"material2": "QUESTITEM_TOKEN_ROYAL_T4",
 		"mat2Qty": 4,
@@ -7294,7 +7294,7 @@
 	},
 	{
 		"itemId": "T5_ARMOR_PLATE_ROYAL",
-		"material1": "T5_ARMOR_PLATE_SET3",
+		"material1": "T5_ARMOR_PLATE_SET1",
 		"mat1Qty": 1,
 		"material2": "QUESTITEM_TOKEN_ROYAL_T5",
 		"mat2Qty": 8,
@@ -7307,7 +7307,7 @@
 	},
 	{
 		"itemId": "T6_ARMOR_PLATE_ROYAL",
-		"material1": "T6_ARMOR_PLATE_SET3",
+		"material1": "T6_ARMOR_PLATE_SET1",
 		"mat1Qty": 1,
 		"material2": "QUESTITEM_TOKEN_ROYAL_T6",
 		"mat2Qty": 16,
@@ -7320,7 +7320,7 @@
 	},
 	{
 		"itemId": "T7_ARMOR_PLATE_ROYAL",
-		"material1": "T7_ARMOR_PLATE_SET3",
+		"material1": "T7_ARMOR_PLATE_SET1",
 		"mat1Qty": 1,
 		"material2": "QUESTITEM_TOKEN_ROYAL_T7",
 		"mat2Qty": 16,
@@ -7333,7 +7333,7 @@
 	},
 	{
 		"itemId": "T8_ARMOR_PLATE_ROYAL",
-		"material1": "T8_ARMOR_PLATE_SET3",
+		"material1": "T8_ARMOR_PLATE_SET1",
 		"mat1Qty": 1,
 		"material2": "QUESTITEM_TOKEN_ROYAL_T8",
 		"mat2Qty": 16,
@@ -7346,7 +7346,7 @@
 	},
 	{
 		"itemId": "T4_SHOES_PLATE_ROYAL",
-		"material1": "T4_SHOES_PLATE_SET3",
+		"material1": "T4_SHOES_PLATE_SET1",
 		"mat1Qty": 1,
 		"material2": "QUESTITEM_TOKEN_ROYAL_T4",
 		"mat2Qty": 2,
@@ -7359,7 +7359,7 @@
 	},
 	{
 		"itemId": "T5_SHOES_PLATE_ROYAL",
-		"material1": "T5_SHOES_PLATE_SET3",
+		"material1": "T5_SHOES_PLATE_SET1",
 		"mat1Qty": 1,
 		"material2": "QUESTITEM_TOKEN_ROYAL_T5",
 		"mat2Qty": 4,
@@ -7372,7 +7372,7 @@
 	},
 	{
 		"itemId": "T6_SHOES_PLATE_ROYAL",
-		"material1": "T6_SHOES_PLATE_SET3",
+		"material1": "T6_SHOES_PLATE_SET1",
 		"mat1Qty": 1,
 		"material2": "QUESTITEM_TOKEN_ROYAL_T6",
 		"mat2Qty": 8,
@@ -7385,7 +7385,7 @@
 	},
 	{
 		"itemId": "T7_SHOES_PLATE_ROYAL",
-		"material1": "T7_SHOES_PLATE_SET3",
+		"material1": "T7_SHOES_PLATE_SET1",
 		"mat1Qty": 1,
 		"material2": "QUESTITEM_TOKEN_ROYAL_T7",
 		"mat2Qty": 8,
@@ -7398,7 +7398,7 @@
 	},
 	{
 		"itemId": "T8_SHOES_PLATE_ROYAL",
-		"material1": "T8_SHOES_PLATE_SET3",
+		"material1": "T8_SHOES_PLATE_SET1",
 		"mat1Qty": 1,
 		"material2": "QUESTITEM_TOKEN_ROYAL_T8",
 		"mat2Qty": 8,

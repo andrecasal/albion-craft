@@ -56,7 +56,7 @@ const CONFIG: FetchConfig = {
   historyDays: 7,
 };
 
-const MAX_URL_LENGTH = 2000;
+const MAX_URL_LENGTH = 8192; // API returns 414 at ~8192 chars; use 8000 for safety margin
 
 // ============================================================================
 // TYPES
@@ -89,6 +89,7 @@ interface Progress {
 interface AODPPriceRecord {
   item_id: string;
   city: string;
+  quality: number;  // 1=Normal, 2=Good, 3=Outstanding, 4=Excellent, 5=Masterpiece
   sell_price_min: number;
   buy_price_max: number;
   sell_price_min_date: string;
@@ -253,7 +254,6 @@ function makeHttpsRequest(url: string): Promise<FetchResult> {
             });
           }
         } else if (res.statusCode === 429) {
-          // Parse rate limit headers to know exactly when we can retry
           const rateLimitInfo = parseRateLimitHeaders(res.headers as Record<string, string | string[] | undefined>);
           resolve({
             success: false,
@@ -301,6 +301,7 @@ function makeHttpsRequest(url: string): Promise<FetchResult> {
 
 async function fetchWithRetry(
   url: string,
+  progressMessage?: string,
   attempt: number = 1
 ): Promise<FetchResult> {
   const result = await makeHttpsRequest(url);
@@ -322,39 +323,37 @@ async function fetchWithRetry(
       ? calculateWaitTime(result.rateLimitInfo)
       : DEFAULT_RATE_LIMIT_WAIT;
 
-    await displayCountdown(waitSeconds, 'Rate limited');
+    await displayCountdown(waitSeconds, progressMessage);
   } else {
     // Exponential backoff for other retryable errors (server errors, timeouts)
     const baseDelay = CONFIG.initialRetryDelay * Math.pow(CONFIG.backoffMultiplier, attempt - 1);
     const delayWithJitter = addJitter(Math.min(baseDelay, CONFIG.maxRetryDelay));
     const waitSeconds = Math.round(delayWithJitter / 1000);
 
-    await displayCountdown(waitSeconds, `Retry ${attempt}/${CONFIG.maxRetries}`);
+    const retryPrefix = progressMessage ? `${progressMessage} - retry ${attempt}/${CONFIG.maxRetries}` : undefined;
+    await displayCountdown(waitSeconds, retryPrefix);
   }
 
   // For rate limiting, don't increment attempt counter so we retry indefinitely
   const nextAttempt = isRateLimited ? attempt : attempt + 1;
-  return fetchWithRetry(url, nextAttempt);
+  return fetchWithRetry(url, progressMessage, nextAttempt);
 }
 
-// Small delay between requests to avoid hitting rate limits
-const REQUEST_DELAY_MS = 200;
+// Reactive rate limiting: go fast, wait only when we hit 429
 
-function sleep(ms: number): Promise<void> {
-  return new Promise((resolve) => setTimeout(resolve, ms));
-}
-
-async function fetchCurrentPrices(itemsBatch: string[]): Promise<FetchResult<AODPPriceRecord[]>> {
+async function fetchCurrentPrices(itemsBatch: string[], batchIndex?: number, totalBatches?: number): Promise<FetchResult<AODPPriceRecord[]>> {
   const itemsParam = itemsBatch.join(',');
   const locationsParam = CITIES.join(',');
   const url = `https://europe.albion-online-data.com/api/v2/stats/prices/${itemsParam}?locations=${locationsParam}`;
 
-  console.log(`\n📡 [PRICES] ${itemsBatch.length} items | URL length: ${url.length}`);
-  console.log(`   ${url.substring(0, 150)}${url.length > 150 ? '...' : ''}`);
+  let progressMessage: string | undefined;
+  if (batchIndex !== undefined && totalBatches !== undefined) {
+    const percentComplete = Math.round(((batchIndex + 1) / totalBatches) * 100);
+    progressMessage = `Fetching current prices... ${percentComplete}% (${batchIndex + 1}/${totalBatches} batches)`;
+    process.stdout.write(`\r   ${progressMessage}`);
+  }
 
-  const result = await fetchWithRetry(url);
-  await sleep(REQUEST_DELAY_MS);
-  return result;
+  return fetchWithRetry(url, progressMessage);
 }
 
 function buildHistoricalUrl(itemIds: string[]): string {
@@ -365,14 +364,17 @@ function buildHistoricalUrl(itemIds: string[]): string {
   return `https://europe.albion-online-data.com/api/v2/stats/charts/${itemsParam}?time-scale=24&locations=${locationsParam}&date=${dateFrom}&end_date=${dateTo}`;
 }
 
-async function fetchHistoricalPrices(itemIds: string[]): Promise<FetchResult<Record<string, AODPChartLocationData[]>>> {
+async function fetchHistoricalPrices(itemIds: string[], batchIndex?: number, totalBatches?: number): Promise<FetchResult<Record<string, AODPChartLocationData[]>>> {
   const url = buildHistoricalUrl(itemIds);
 
-  console.log(`\n📡 [HISTORY] ${itemIds.length} items | URL length: ${url.length}`);
-  console.log(`   ${url.substring(0, 150)}${url.length > 150 ? '...' : ''}`);
+  let progressMessage: string | undefined;
+  if (batchIndex !== undefined && totalBatches !== undefined) {
+    const percentComplete = Math.round(((batchIndex + 1) / totalBatches) * 100);
+    progressMessage = `Fetching price history... ${percentComplete}% (${batchIndex + 1}/${totalBatches} batches)`;
+    process.stdout.write(`\r   ${progressMessage}`);
+  }
 
-  const result = await fetchWithRetry(url);
-  await sleep(REQUEST_DELAY_MS);
+  const result = await fetchWithRetry(url, progressMessage);
 
   // Transform raw API response into expected format
   if (result.success && result.data) {
@@ -563,28 +565,43 @@ export interface DemandSupplyData {
 }
 
 export async function fetchDemandSupplyData(): Promise<DemandSupplyData[]> {
-  console.log('\n--- FETCHING MARKET DEMAND & SUPPLY DATA ---\n');
-  console.log(`Fetching charts data for ${ITEMS.length} items across ${CITIES.length} cities...`);
-  console.log('(Going as fast as possible - will pause if rate limited)\n');
+  console.log(`\nFetching demand, supply, and prices for ${ITEMS.length} items across ${CITIES.length} cities...\n`);
+
+  const locationsParam = CITIES.join(',');
+
+  // Create URL-length-aware batches for prices endpoint
+  const pricesBaseUrl = 'https://europe.albion-online-data.com/api/v2/stats/prices/';
+  const pricesQueryParams = `?locations=${locationsParam}`;
+  const priceBatches = createBatchesByUrlLength(ITEMS, pricesBaseUrl, pricesQueryParams);
 
   // Create URL-length-aware batches for historical endpoint
   const dateFrom = calculateDaysAgo(CONFIG.historyDays);
   const dateTo = new Date().toISOString().split('T')[0];
-  const locationsParam = CITIES.join(',');
   const historyBaseUrl = 'https://europe.albion-online-data.com/api/v2/stats/charts/';
   const historyQueryParams = `?time-scale=24&locations=${locationsParam}&date=${dateFrom}&end_date=${dateTo}`;
   const historyBatches = createBatchesByUrlLength(ITEMS, historyBaseUrl, historyQueryParams);
 
-  console.log(`📊 Total: ${historyBatches.length} requests needed\n`);
+  console.log(`📊 Prices: ${priceBatches.length} requests`);
+  console.log(`📊 Charts: ${historyBatches.length} requests`);
+  console.log(`📊 Total: ${priceBatches.length + historyBatches.length} requests\n`);
 
-  // Fetch ALL historical data
+  // Step 1: Fetch ALL current prices
+  const allPriceData: AODPPriceRecord[] = [];
+  for (let i = 0; i < priceBatches.length; i++) {
+    const batch = priceBatches[i];
+    const pricesResult = await fetchCurrentPrices(batch, i, priceBatches.length);
+
+    if (pricesResult.success && pricesResult.data) {
+      allPriceData.push(...pricesResult.data);
+    }
+  }
+  console.log(`\n   Done! Fetched ${allPriceData.length} price records\n`);
+
+  // Step 2: Fetch ALL historical data
   const historicalDataMap = new Map<string, AODPChartLocationData[]>();
   for (let i = 0; i < historyBatches.length; i++) {
     const batch = historyBatches[i];
-    const percentComplete = ((i / historyBatches.length) * 100).toFixed(1);
-    process.stdout.write(`\r📡 Fetching charts data: batch ${i + 1}/${historyBatches.length} (${percentComplete}%)   `);
-
-    const historyResult = await fetchHistoricalPrices(batch);
+    const historyResult = await fetchHistoricalPrices(batch, i, historyBatches.length);
 
     if (historyResult.success && historyResult.data) {
       const histData = historyResult.data as Record<string, AODPChartLocationData[]>;
@@ -593,12 +610,44 @@ export async function fetchDemandSupplyData(): Promise<DemandSupplyData[]> {
       });
     }
   }
-  console.log(`\n✅ Charts data: fetched for ${historicalDataMap.size} items\n`);
+  console.log(`\n   Done! Fetched history for ${historicalDataMap.size} items\n`);
 
-  // Process data into demand/supply records
-  console.log('📊 Processing demand & supply data...\n');
+  // Step 3: Process data
+  console.log('📊 Processing market data...\n');
+
+  // Filter for Normal quality (1) only
+  const normalQualityPrices = allPriceData.filter((record) => record.quality === 1);
+
+  // Build price lookup maps
+  const priceMap = new Map<string, number>();
+  const sellPriceMap = new Map<string, number>();
+  const buyPriceMap = new Map<string, number>();
+  for (const record of normalQualityPrices) {
+    const key = `${record.item_id}:${record.city}`;
+    priceMap.set(key, record.sell_price_min || 0);
+    if (record.sell_price_min > 0) {
+      sellPriceMap.set(key, record.sell_price_min);
+    }
+    if (record.buy_price_max > 0) {
+      buyPriceMap.set(key, record.buy_price_max);
+    }
+  }
+
+  // Save item prices for arbitrage scanner
+  const itemPrices: Array<{ itemId: string; city: string; sellPriceMin: number; buyPriceMax: number }> = [];
+  for (const record of normalQualityPrices) {
+    if (record.sell_price_min > 0 || record.buy_price_max > 0) {
+      itemPrices.push({
+        itemId: record.item_id,
+        city: record.city,
+        sellPriceMin: record.sell_price_min || 0,
+        buyPriceMax: record.buy_price_max || 0,
+      });
+    }
+  }
 
   const demandSupplyData: DemandSupplyData[] = [];
+  const marketData: MarketData[] = [];
 
   ITEMS.forEach((itemId) => {
     const historicalData = historicalDataMap.get(itemId) || [];
@@ -606,7 +655,9 @@ export async function fetchDemandSupplyData(): Promise<DemandSupplyData[]> {
     CITIES.forEach((city) => {
       const trendAnalysis = analyzePriceTrend(historicalData, city);
       const dailyDemand = estimateDailyDemand(historicalData, city);
+      const lowestSellPrice = priceMap.get(`${itemId}:${city}`) || 0;
 
+      // DemandSupplyData (for demand/supply analysis)
       demandSupplyData.push({
         itemId,
         city,
@@ -615,6 +666,33 @@ export async function fetchDemandSupplyData(): Promise<DemandSupplyData[]> {
         price7dAvg: trendAnalysis.price7dAvg,
         priceTrendPct: trendAnalysis.priceTrendPct,
         dataAgeHours: trendAnalysis.dataAgeHours,
+      });
+
+      // MarketData (for profitability calculations)
+      const availableCapacity = dailyDemand > 0 ? Math.round(dailyDemand * 2.5) : 0;
+      const confidence =
+        trendAnalysis.dataAgeHours < 12
+          ? 95
+          : trendAnalysis.dataAgeHours < 24
+          ? 80
+          : trendAnalysis.dataAgeHours < 48
+          ? 60
+          : 40;
+      const marketSignal =
+        trendAnalysis.supplySignal === '🟢 Rising' ? 'GOOD' : trendAnalysis.supplySignal === '🟡 Stable' ? 'FAIR' : 'POOR';
+
+      marketData.push({
+        itemId,
+        city,
+        dailyDemand,
+        lowestSellPrice,
+        price7dAvg: trendAnalysis.price7dAvg,
+        dataAgeHours: trendAnalysis.dataAgeHours,
+        confidence,
+        availableCapacity,
+        priceTrendPct: trendAnalysis.priceTrendPct,
+        supplySignal: trendAnalysis.supplySignal,
+        marketSignal,
       });
     });
   });
@@ -625,12 +703,20 @@ export async function fetchDemandSupplyData(): Promise<DemandSupplyData[]> {
     fs.mkdirSync(outputDir, { recursive: true });
   }
 
-  // Write output file
-  const outputPath = path.join(outputDir, 'demand-supply.json');
-  fs.writeFileSync(outputPath, JSON.stringify(demandSupplyData, null, 2));
+  // Write output files
+  const demandSupplyPath = path.join(outputDir, 'demand-supply.json');
+  fs.writeFileSync(demandSupplyPath, JSON.stringify(demandSupplyData, null, 2));
 
-  console.log(`✅ Done! Saved ${demandSupplyData.length} demand/supply records`);
-  console.log(`Output: ${outputPath}\n`);
+  const marketDataPath = path.join(outputDir, 'market-data.json');
+  fs.writeFileSync(marketDataPath, JSON.stringify(marketData, null, 2));
+
+  const itemPricesPath = path.join(outputDir, 'item-prices.json');
+  fs.writeFileSync(itemPricesPath, JSON.stringify(itemPrices, null, 2));
+
+  console.log(`✅ Done! Saved:`);
+  console.log(`   ${demandSupplyData.length} demand/supply records → ${demandSupplyPath}`);
+  console.log(`   ${marketData.length} market data records → ${marketDataPath}`);
+  console.log(`   ${itemPrices.length} item price records → ${itemPricesPath}\n`);
 
   return demandSupplyData;
 }
@@ -701,8 +787,7 @@ export async function fetchAllMarketData(): Promise<void> {
     console.log('   Will fetch charts data\n');
   }
 
-  console.log(`Fetching market data for ${itemsToProcess.length} items across ${CITIES.length} cities...`);
-  console.log('(Going as fast as possible - will pause if rate limited)\n');
+  console.log(`Fetching market data for ${itemsToProcess.length} items across ${CITIES.length} cities...\n`);
 
   // Create URL-length-aware batches for prices endpoint
   const locationsParam = CITIES.join(',');
@@ -732,10 +817,7 @@ export async function fetchAllMarketData(): Promise<void> {
   const allPriceData: AODPPriceRecord[] = [];
   for (let i = 0; i < priceBatches.length; i++) {
     const batch = priceBatches[i];
-    const percentComplete = ((i / priceBatches.length) * 100).toFixed(1);
-    process.stdout.write(`\r📡 Fetching prices: batch ${i + 1}/${priceBatches.length} (${percentComplete}%)   `);
-
-    const pricesResult = await fetchCurrentPrices(batch);
+    const pricesResult = await fetchCurrentPrices(batch, i, priceBatches.length);
 
     if (pricesResult.success && pricesResult.data) {
       allPriceData.push(...pricesResult.data);
@@ -747,22 +829,19 @@ export async function fetchAllMarketData(): Promise<void> {
       });
     }
   }
-  console.log(`\n✅ Prices: fetched ${allPriceData.length} records\n`);
+  console.log(`\n   Done! Fetched ${allPriceData.length} price records\n`);
 
   // Step 2: Get historical data (either from API or from existing demand-supply.json)
   let historicalDataMap = new Map<string, AODPChartLocationData[]>();
 
   if (demandSupplyMap) {
     // We already have demand-supply data, no need to fetch history
-    console.log(`✅ History: using ${demandSupplyMap.size} records from demand-supply.json\n`);
+    console.log(`   Using cached history data (${demandSupplyMap.size} records)\n`);
   } else {
     // Fetch historical data from API
     for (let i = 0; i < historyBatches.length; i++) {
       const batch = historyBatches[i];
-      const percentComplete = ((i / historyBatches.length) * 100).toFixed(1);
-      process.stdout.write(`\r📡 Fetching history: batch ${i + 1}/${historyBatches.length} (${percentComplete}%)   `);
-
-      const historyResult = await fetchHistoricalPrices(batch);
+      const historyResult = await fetchHistoricalPrices(batch, i, historyBatches.length);
 
       if (historyResult.success && historyResult.data) {
         const histData = historyResult.data as Record<string, AODPChartLocationData[]>;
@@ -771,13 +850,18 @@ export async function fetchAllMarketData(): Promise<void> {
         });
       }
     }
-    console.log(`\n✅ History: fetched data for ${historicalDataMap.size} items\n`);
+    console.log(`\n   Done! Fetched history for ${historicalDataMap.size} items\n`);
   }
 
   // Step 3: Combine price data with trend analysis and track missing days
   console.log('📊 Processing data...\n');
 
-  allPriceData.forEach((priceRecord) => {
+  // Filter for Normal quality (1) only since crafted items are always normal quality
+  // The API returns separate records for each quality level (1-5)
+  const normalQualityPrices = allPriceData.filter((record) => record.quality === 1);
+  console.log(`📊 Filtered to ${normalQualityPrices.length} Normal quality price records (from ${allPriceData.length} total)\n`);
+
+  normalQualityPrices.forEach((priceRecord) => {
     const itemId = priceRecord.item_id;
     const city = priceRecord.city as City;
 

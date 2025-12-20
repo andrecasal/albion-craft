@@ -5,7 +5,8 @@
 	"main": "dist/index.js",
 	"scripts": {
 		"dev": "ts-node src/cli.ts",
-		"typecheck": "tsc --noEmit"
+		"typecheck": "tsc --noEmit",
+		"collect": "ts-node src/services/nats-collector.ts"
 	},
 	"keywords": [
 		"albion-online",
@@ -16,6 +17,7 @@
 	"author": "",
 	"license": "MIT",
 	"devDependencies": {
+		"@types/better-sqlite3": "^7.6.13",
 		"@types/node": "^20.10.0",
 		"ts-node": "^10.9.2",
 		"typescript": "^5.3.3"
@@ -23,6 +25,7 @@
 	"dependencies": {
 		"better-sqlite3": "^9.2.2",
 		"csv-parser": "^3.0.0",
-		"csv-writer": "^1.6.0"
+		"csv-writer": "^1.6.0",
+		"nats": "^2.29.3"
 	}
 }

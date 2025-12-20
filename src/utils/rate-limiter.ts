@@ -44,20 +44,22 @@ export function calculateWaitTime(rateLimitInfo: RateLimitInfo): number {
 
 /**
  * Display a countdown timer to the user
- * Shows countdown on a new line, then removes it when done
+ * Shows countdown in place, then clears when done
+ * @param seconds - Number of seconds to count down
+ * @param prefix - Text to show before the countdown (e.g., "Fetching prices... 50%")
  */
-export async function displayCountdown(seconds: number, message: string = 'Rate limited'): Promise<void> {
-  // Move to a new line for the countdown
-  console.log('');
-
+export async function displayCountdown(seconds: number, prefix?: string): Promise<void> {
   for (let remaining = seconds; remaining > 0; remaining--) {
-    // Move cursor up one line, clear it, and write countdown
-    process.stdout.write(`\x1b[1A\x1b[2K⏳ ${message}, resuming in ${remaining}s...\n`);
+    if (prefix) {
+      process.stdout.write(`\r   ${prefix} - rate limited, waiting ${remaining}s...`);
+    } else {
+      process.stdout.write(`\r   Rate limited, waiting ${remaining}s...`);
+    }
     await new Promise((resolve) => setTimeout(resolve, 1000));
   }
 
-  // Clear the countdown line and move cursor back up
-  process.stdout.write(`\x1b[1A\x1b[2K`);
+  // Clear the line so the next progress update can take over
+  process.stdout.write(`\r\x1b[2K`);
 }
 
 /**

@@ -4729,525 +4729,600 @@
 		"name": "Adept's Guardian Helmet",
 		"tier": 4,
 		"enchant": 0,
-		"category": "Head"
+		"category": "Head",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_HEAD_PLATE_SET3@1",
 		"name": "Adept's Guardian Helmet",
 		"tier": 4,
 		"enchant": 1,
-		"category": "Head"
+		"category": "Head",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_HEAD_PLATE_SET3@2",
 		"name": "Adept's Guardian Helmet",
 		"tier": 4,
 		"enchant": 2,
-		"category": "Head"
+		"category": "Head",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_HEAD_PLATE_SET3@3",
 		"name": "Adept's Guardian Helmet",
 		"tier": 4,
 		"enchant": 3,
-		"category": "Head"
+		"category": "Head",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_HEAD_PLATE_SET3@4",
 		"name": "Adept's Guardian Helmet",
 		"tier": 4,
 		"enchant": 4,
-		"category": "Head"
+		"category": "Head",
+		"weight": 1.7
 	},
 	{
 		"id": "T5_HEAD_PLATE_SET3",
 		"name": "Expert's Guardian Helmet",
 		"tier": 5,
 		"enchant": 0,
-		"category": "Head"
+		"category": "Head",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_HEAD_PLATE_SET3@1",
 		"name": "Expert's Guardian Helmet",
 		"tier": 5,
 		"enchant": 1,
-		"category": "Head"
+		"category": "Head",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_HEAD_PLATE_SET3@2",
 		"name": "Expert's Guardian Helmet",
 		"tier": 5,
 		"enchant": 2,
-		"category": "Head"
+		"category": "Head",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_HEAD_PLATE_SET3@3",
 		"name": "Expert's Guardian Helmet",
 		"tier": 5,
 		"enchant": 3,
-		"category": "Head"
+		"category": "Head",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_HEAD_PLATE_SET3@4",
 		"name": "Expert's Guardian Helmet",
 		"tier": 5,
 		"enchant": 4,
-		"category": "Head"
+		"category": "Head",
+		"weight": 2.5
 	},
 	{
 		"id": "T6_HEAD_PLATE_SET3",
 		"name": "Master's Guardian Helmet",
 		"tier": 6,
 		"enchant": 0,
-		"category": "Head"
+		"category": "Head",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_HEAD_PLATE_SET3@1",
 		"name": "Master's Guardian Helmet",
 		"tier": 6,
 		"enchant": 1,
-		"category": "Head"
+		"category": "Head",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_HEAD_PLATE_SET3@2",
 		"name": "Master's Guardian Helmet",
 		"tier": 6,
 		"enchant": 2,
-		"category": "Head"
+		"category": "Head",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_HEAD_PLATE_SET3@3",
 		"name": "Master's Guardian Helmet",
 		"tier": 6,
 		"enchant": 3,
-		"category": "Head"
+		"category": "Head",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_HEAD_PLATE_SET3@4",
 		"name": "Master's Guardian Helmet",
 		"tier": 6,
 		"enchant": 4,
-		"category": "Head"
+		"category": "Head",
+		"weight": 3.8
 	},
 	{
 		"id": "T7_HEAD_PLATE_SET3",
 		"name": "Grandmaster's Guardian Helmet",
 		"tier": 7,
 		"enchant": 0,
-		"category": "Head"
+		"category": "Head",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_HEAD_PLATE_SET3@1",
 		"name": "Grandmaster's Guardian Helmet",
 		"tier": 7,
 		"enchant": 1,
-		"category": "Head"
+		"category": "Head",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_HEAD_PLATE_SET3@2",
 		"name": "Grandmaster's Guardian Helmet",
 		"tier": 7,
 		"enchant": 2,
-		"category": "Head"
+		"category": "Head",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_HEAD_PLATE_SET3@3",
 		"name": "Grandmaster's Guardian Helmet",
 		"tier": 7,
 		"enchant": 3,
-		"category": "Head"
+		"category": "Head",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_HEAD_PLATE_SET3@4",
 		"name": "Grandmaster's Guardian Helmet",
 		"tier": 7,
 		"enchant": 4,
-		"category": "Head"
+		"category": "Head",
+		"weight": 5.7
 	},
 	{
 		"id": "T8_HEAD_PLATE_SET3",
 		"name": "Elder's Guardian Helmet",
 		"tier": 8,
 		"enchant": 0,
-		"category": "Head"
+		"category": "Head",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_HEAD_PLATE_SET3@1",
 		"name": "Elder's Guardian Helmet",
 		"tier": 8,
 		"enchant": 1,
-		"category": "Head"
+		"category": "Head",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_HEAD_PLATE_SET3@2",
 		"name": "Elder's Guardian Helmet",
 		"tier": 8,
 		"enchant": 2,
-		"category": "Head"
+		"category": "Head",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_HEAD_PLATE_SET3@3",
 		"name": "Elder's Guardian Helmet",
 		"tier": 8,
 		"enchant": 3,
-		"category": "Head"
+		"category": "Head",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_HEAD_PLATE_SET3@4",
 		"name": "Elder's Guardian Helmet",
 		"tier": 8,
 		"enchant": 4,
-		"category": "Head"
+		"category": "Head",
+		"weight": 8.5
 	},
 	{
 		"id": "T4_ARMOR_PLATE_SET3",
 		"name": "Adept's Guardian Armor",
 		"tier": 4,
 		"enchant": 0,
-		"category": "Body"
+		"category": "Body",
+		"weight": 3.4
 	},
 	{
 		"id": "T4_ARMOR_PLATE_SET3@1",
 		"name": "Adept's Guardian Armor",
 		"tier": 4,
 		"enchant": 1,
-		"category": "Body"
+		"category": "Body",
+		"weight": 3.4
 	},
 	{
 		"id": "T4_ARMOR_PLATE_SET3@2",
 		"name": "Adept's Guardian Armor",
 		"tier": 4,
 		"enchant": 2,
-		"category": "Body"
+		"category": "Body",
+		"weight": 3.4
 	},
 	{
 		"id": "T4_ARMOR_PLATE_SET3@3",
 		"name": "Adept's Guardian Armor",
 		"tier": 4,
 		"enchant": 3,
-		"category": "Body"
+		"category": "Body",
+		"weight": 3.4
 	},
 	{
 		"id": "T4_ARMOR_PLATE_SET3@4",
 		"name": "Adept's Guardian Armor",
 		"tier": 4,
 		"enchant": 4,
-		"category": "Body"
+		"category": "Body",
+		"weight": 3.4
 	},
 	{
 		"id": "T5_ARMOR_PLATE_SET3",
 		"name": "Expert's Guardian Armor",
 		"tier": 5,
 		"enchant": 0,
-		"category": "Body"
+		"category": "Body",
+		"weight": 5.1
 	},
 	{
 		"id": "T5_ARMOR_PLATE_SET3@1",
 		"name": "Expert's Guardian Armor",
 		"tier": 5,
 		"enchant": 1,
-		"category": "Body"
+		"category": "Body",
+		"weight": 5.1
 	},
 	{
 		"id": "T5_ARMOR_PLATE_SET3@2",
 		"name": "Expert's Guardian Armor",
 		"tier": 5,
 		"enchant": 2,
-		"category": "Body"
+		"category": "Body",
+		"weight": 5.1
 	},
 	{
 		"id": "T5_ARMOR_PLATE_SET3@3",
 		"name": "Expert's Guardian Armor",
 		"tier": 5,
 		"enchant": 3,
-		"category": "Body"
+		"category": "Body",
+		"weight": 5.1
 	},
 	{
 		"id": "T5_ARMOR_PLATE_SET3@4",
 		"name": "Expert's Guardian Armor",
 		"tier": 5,
 		"enchant": 4,
-		"category": "Body"
+		"category": "Body",
+		"weight": 5.1
 	},
 	{
 		"id": "T6_ARMOR_PLATE_SET3",
 		"name": "Master's Guardian Armor",
 		"tier": 6,
 		"enchant": 0,
-		"category": "Body"
+		"category": "Body",
+		"weight": 7.6
 	},
 	{
 		"id": "T6_ARMOR_PLATE_SET3@1",
 		"name": "Master's Guardian Armor",
 		"tier": 6,
 		"enchant": 1,
-		"category": "Body"
+		"category": "Body",
+		"weight": 7.6
 	},
 	{
 		"id": "T6_ARMOR_PLATE_SET3@2",
 		"name": "Master's Guardian Armor",
 		"tier": 6,
 		"enchant": 2,
-		"category": "Body"
+		"category": "Body",
+		"weight": 7.6
 	},
 	{
 		"id": "T6_ARMOR_PLATE_SET3@3",
 		"name": "Master's Guardian Armor",
 		"tier": 6,
 		"enchant": 3,
-		"category": "Body"
+		"category": "Body",
+		"weight": 7.6
 	},
 	{
 		"id": "T6_ARMOR_PLATE_SET3@4",
 		"name": "Master's Guardian Armor",
 		"tier": 6,
 		"enchant": 4,
-		"category": "Body"
+		"category": "Body",
+		"weight": 7.6
 	},
 	{
 		"id": "T7_ARMOR_PLATE_SET3",
 		"name": "Grandmaster's Guardian Armor",
 		"tier": 7,
 		"enchant": 0,
-		"category": "Body"
+		"category": "Body",
+		"weight": 11.4
 	},
 	{
 		"id": "T7_ARMOR_PLATE_SET3@1",
 		"name": "Grandmaster's Guardian Armor",
 		"tier": 7,
 		"enchant": 1,
-		"category": "Body"
+		"category": "Body",
+		"weight": 11.4
 	},
 	{
 		"id": "T7_ARMOR_PLATE_SET3@2",
 		"name": "Grandmaster's Guardian Armor",
 		"tier": 7,
 		"enchant": 2,
-		"category": "Body"
+		"category": "Body",
+		"weight": 11.4
 	},
 	{
 		"id": "T7_ARMOR_PLATE_SET3@3",
 		"name": "Grandmaster's Guardian Armor",
 		"tier": 7,
 		"enchant": 3,
-		"category": "Body"
+		"category": "Body",
+		"weight": 11.4
 	},
 	{
 		"id": "T7_ARMOR_PLATE_SET3@4",
 		"name": "Grandmaster's Guardian Armor",
 		"tier": 7,
 		"enchant": 4,
-		"category": "Body"
+		"category": "Body",
+		"weight": 11.4
 	},
 	{
 		"id": "T8_ARMOR_PLATE_SET3",
 		"name": "Elder's Guardian Armor",
 		"tier": 8,
 		"enchant": 0,
-		"category": "Body"
+		"category": "Body",
+		"weight": 17.1
 	},
 	{
 		"id": "T8_ARMOR_PLATE_SET3@1",
 		"name": "Elder's Guardian Armor",
 		"tier": 8,
 		"enchant": 1,
-		"category": "Body"
+		"category": "Body",
+		"weight": 17.1
 	},
 	{
 		"id": "T8_ARMOR_PLATE_SET3@2",
 		"name": "Elder's Guardian Armor",
 		"tier": 8,
 		"enchant": 2,
-		"category": "Body"
+		"category": "Body",
+		"weight": 17.1
 	},
 	{
 		"id": "T8_ARMOR_PLATE_SET3@3",
 		"name": "Elder's Guardian Armor",
 		"tier": 8,
 		"enchant": 3,
-		"category": "Body"
+		"category": "Body",
+		"weight": 17.1
 	},
 	{
 		"id": "T8_ARMOR_PLATE_SET3@4",
 		"name": "Elder's Guardian Armor",
 		"tier": 8,
 		"enchant": 4,
-		"category": "Body"
+		"category": "Body",
+		"weight": 17.1
 	},
 	{
 		"id": "T4_SHOES_PLATE_SET3",
 		"name": "Adept's Guardian Boots",
 		"tier": 4,
 		"enchant": 0,
-		"category": "Feet"
+		"category": "Feet",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_SHOES_PLATE_SET3@1",
 		"name": "Adept's Guardian Boots",
 		"tier": 4,
 		"enchant": 1,
-		"category": "Feet"
+		"category": "Feet",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_SHOES_PLATE_SET3@2",
 		"name": "Adept's Guardian Boots",
 		"tier": 4,
 		"enchant": 2,
-		"category": "Feet"
+		"category": "Feet",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_SHOES_PLATE_SET3@3",
 		"name": "Adept's Guardian Boots",
 		"tier": 4,
 		"enchant": 3,
-		"category": "Feet"
+		"category": "Feet",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_SHOES_PLATE_SET3@4",
 		"name": "Adept's Guardian Boots",
 		"tier": 4,
 		"enchant": 4,
-		"category": "Feet"
+		"category": "Feet",
+		"weight": 1.7
 	},
 	{
 		"id": "T5_SHOES_PLATE_SET3",
 		"name": "Expert's Guardian Boots",
 		"tier": 5,
 		"enchant": 0,
-		"category": "Feet"
+		"category": "Feet",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_SHOES_PLATE_SET3@1",
 		"name": "Expert's Guardian Boots",
 		"tier": 5,
 		"enchant": 1,
-		"category": "Feet"
+		"category": "Feet",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_SHOES_PLATE_SET3@2",
 		"name": "Expert's Guardian Boots",
 		"tier": 5,
 		"enchant": 2,
-		"category": "Feet"
+		"category": "Feet",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_SHOES_PLATE_SET3@3",
 		"name": "Expert's Guardian Boots",
 		"tier": 5,
 		"enchant": 3,
-		"category": "Feet"
+		"category": "Feet",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_SHOES_PLATE_SET3@4",
 		"name": "Expert's Guardian Boots",
 		"tier": 5,
 		"enchant": 4,
-		"category": "Feet"
+		"category": "Feet",
+		"weight": 2.5
 	},
 	{
 		"id": "T6_SHOES_PLATE_SET3",
 		"name": "Master's Guardian Boots",
 		"tier": 6,
 		"enchant": 0,
-		"category": "Feet"
+		"category": "Feet",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_SHOES_PLATE_SET3@1",
 		"name": "Master's Guardian Boots",
 		"tier": 6,
 		"enchant": 1,
-		"category": "Feet"
+		"category": "Feet",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_SHOES_PLATE_SET3@2",
 		"name": "Master's Guardian Boots",
 		"tier": 6,
 		"enchant": 2,
-		"category": "Feet"
+		"category": "Feet",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_SHOES_PLATE_SET3@3",
 		"name": "Master's Guardian Boots",
 		"tier": 6,
 		"enchant": 3,
-		"category": "Feet"
+		"category": "Feet",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_SHOES_PLATE_SET3@4",
 		"name": "Master's Guardian Boots",
 		"tier": 6,
 		"enchant": 4,
-		"category": "Feet"
+		"category": "Feet",
+		"weight": 3.8
 	},
 	{
 		"id": "T7_SHOES_PLATE_SET3",
 		"name": "Grandmaster's Guardian Boots",
 		"tier": 7,
 		"enchant": 0,
-		"category": "Feet"
+		"category": "Feet",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_SHOES_PLATE_SET3@1",
 		"name": "Grandmaster's Guardian Boots",
 		"tier": 7,
 		"enchant": 1,
-		"category": "Feet"
+		"category": "Feet",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_SHOES_PLATE_SET3@2",
 		"name": "Grandmaster's Guardian Boots",
 		"tier": 7,
 		"enchant": 2,
-		"category": "Feet"
+		"category": "Feet",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_SHOES_PLATE_SET3@3",
 		"name": "Grandmaster's Guardian Boots",
 		"tier": 7,
 		"enchant": 3,
-		"category": "Feet"
+		"category": "Feet",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_SHOES_PLATE_SET3@4",
 		"name": "Grandmaster's Guardian Boots",
 		"tier": 7,
 		"enchant": 4,
-		"category": "Feet"
+		"category": "Feet",
+		"weight": 5.7
 	},
 	{
 		"id": "T8_SHOES_PLATE_SET3",
 		"name": "Elder's Guardian Boots",
 		"tier": 8,
 		"enchant": 0,
-		"category": "Feet"
+		"category": "Feet",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_SHOES_PLATE_SET3@1",
 		"name": "Elder's Guardian Boots",
 		"tier": 8,
 		"enchant": 1,
-		"category": "Feet"
+		"category": "Feet",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_SHOES_PLATE_SET3@2",
 		"name": "Elder's Guardian Boots",
 		"tier": 8,
 		"enchant": 2,
-		"category": "Feet"
+		"category": "Feet",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_SHOES_PLATE_SET3@3",
 		"name": "Elder's Guardian Boots",
 		"tier": 8,
 		"enchant": 3,
-		"category": "Feet"
+		"category": "Feet",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_SHOES_PLATE_SET3@4",
 		"name": "Elder's Guardian Boots",
 		"tier": 8,
 		"enchant": 4,
-		"category": "Feet"
+		"category": "Feet",
+		"weight": 8.5
 	},
 	{
 		"id": "T4_HEAD_PLATE_UNDEAD",
@@ -8929,525 +9004,600 @@
 		"name": "Adept's Assassin Hood",
 		"tier": 4,
 		"enchant": 0,
-		"category": "Head"
+		"category": "Head",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_HEAD_LEATHER_SET3@1",
 		"name": "Adept's Assassin Hood",
 		"tier": 4,
 		"enchant": 1,
-		"category": "Head"
+		"category": "Head",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_HEAD_LEATHER_SET3@2",
 		"name": "Adept's Assassin Hood",
 		"tier": 4,
 		"enchant": 2,
-		"category": "Head"
+		"category": "Head",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_HEAD_LEATHER_SET3@3",
 		"name": "Adept's Assassin Hood",
 		"tier": 4,
 		"enchant": 3,
-		"category": "Head"
+		"category": "Head",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_HEAD_LEATHER_SET3@4",
 		"name": "Adept's Assassin Hood",
 		"tier": 4,
 		"enchant": 4,
-		"category": "Head"
+		"category": "Head",
+		"weight": 1.7
 	},
 	{
 		"id": "T5_HEAD_LEATHER_SET3",
 		"name": "Expert's Assassin Hood",
 		"tier": 5,
 		"enchant": 0,
-		"category": "Head"
+		"category": "Head",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_HEAD_LEATHER_SET3@1",
 		"name": "Expert's Assassin Hood",
 		"tier": 5,
 		"enchant": 1,
-		"category": "Head"
+		"category": "Head",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_HEAD_LEATHER_SET3@2",
 		"name": "Expert's Assassin Hood",
 		"tier": 5,
 		"enchant": 2,
-		"category": "Head"
+		"category": "Head",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_HEAD_LEATHER_SET3@3",
 		"name": "Expert's Assassin Hood",
 		"tier": 5,
 		"enchant": 3,
-		"category": "Head"
+		"category": "Head",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_HEAD_LEATHER_SET3@4",
 		"name": "Expert's Assassin Hood",
 		"tier": 5,
 		"enchant": 4,
-		"category": "Head"
+		"category": "Head",
+		"weight": 2.5
 	},
 	{
 		"id": "T6_HEAD_LEATHER_SET3",
 		"name": "Master's Assassin Hood",
 		"tier": 6,
 		"enchant": 0,
-		"category": "Head"
+		"category": "Head",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_HEAD_LEATHER_SET3@1",
 		"name": "Master's Assassin Hood",
 		"tier": 6,
 		"enchant": 1,
-		"category": "Head"
+		"category": "Head",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_HEAD_LEATHER_SET3@2",
 		"name": "Master's Assassin Hood",
 		"tier": 6,
 		"enchant": 2,
-		"category": "Head"
+		"category": "Head",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_HEAD_LEATHER_SET3@3",
 		"name": "Master's Assassin Hood",
 		"tier": 6,
 		"enchant": 3,
-		"category": "Head"
+		"category": "Head",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_HEAD_LEATHER_SET3@4",
 		"name": "Master's Assassin Hood",
 		"tier": 6,
 		"enchant": 4,
-		"category": "Head"
+		"category": "Head",
+		"weight": 3.8
 	},
 	{
 		"id": "T7_HEAD_LEATHER_SET3",
 		"name": "Grandmaster's Assassin Hood",
 		"tier": 7,
 		"enchant": 0,
-		"category": "Head"
+		"category": "Head",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_HEAD_LEATHER_SET3@1",
 		"name": "Grandmaster's Assassin Hood",
 		"tier": 7,
 		"enchant": 1,
-		"category": "Head"
+		"category": "Head",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_HEAD_LEATHER_SET3@2",
 		"name": "Grandmaster's Assassin Hood",
 		"tier": 7,
 		"enchant": 2,
-		"category": "Head"
+		"category": "Head",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_HEAD_LEATHER_SET3@3",
 		"name": "Grandmaster's Assassin Hood",
 		"tier": 7,
 		"enchant": 3,
-		"category": "Head"
+		"category": "Head",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_HEAD_LEATHER_SET3@4",
 		"name": "Grandmaster's Assassin Hood",
 		"tier": 7,
 		"enchant": 4,
-		"category": "Head"
+		"category": "Head",
+		"weight": 5.7
 	},
 	{
 		"id": "T8_HEAD_LEATHER_SET3",
 		"name": "Elder's Assassin Hood",
 		"tier": 8,
 		"enchant": 0,
-		"category": "Head"
+		"category": "Head",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_HEAD_LEATHER_SET3@1",
 		"name": "Elder's Assassin Hood",
 		"tier": 8,
 		"enchant": 1,
-		"category": "Head"
+		"category": "Head",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_HEAD_LEATHER_SET3@2",
 		"name": "Elder's Assassin Hood",
 		"tier": 8,
 		"enchant": 2,
-		"category": "Head"
+		"category": "Head",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_HEAD_LEATHER_SET3@3",
 		"name": "Elder's Assassin Hood",
 		"tier": 8,
 		"enchant": 3,
-		"category": "Head"
+		"category": "Head",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_HEAD_LEATHER_SET3@4",
 		"name": "Elder's Assassin Hood",
 		"tier": 8,
 		"enchant": 4,
-		"category": "Head"
+		"category": "Head",
+		"weight": 8.5
 	},
 	{
 		"id": "T4_ARMOR_LEATHER_SET3",
 		"name": "Adept's Assassin Jacket",
 		"tier": 4,
 		"enchant": 0,
-		"category": "Body"
+		"category": "Body",
+		"weight": 3.4
 	},
 	{
 		"id": "T4_ARMOR_LEATHER_SET3@1",
 		"name": "Adept's Assassin Jacket",
 		"tier": 4,
 		"enchant": 1,
-		"category": "Body"
+		"category": "Body",
+		"weight": 3.4
 	},
 	{
 		"id": "T4_ARMOR_LEATHER_SET3@2",
 		"name": "Adept's Assassin Jacket",
 		"tier": 4,
 		"enchant": 2,
-		"category": "Body"
+		"category": "Body",
+		"weight": 3.4
 	},
 	{
 		"id": "T4_ARMOR_LEATHER_SET3@3",
 		"name": "Adept's Assassin Jacket",
 		"tier": 4,
 		"enchant": 3,
-		"category": "Body"
+		"category": "Body",
+		"weight": 3.4
 	},
 	{
 		"id": "T4_ARMOR_LEATHER_SET3@4",
 		"name": "Adept's Assassin Jacket",
 		"tier": 4,
 		"enchant": 4,
-		"category": "Body"
+		"category": "Body",
+		"weight": 3.4
 	},
 	{
 		"id": "T5_ARMOR_LEATHER_SET3",
 		"name": "Expert's Assassin Jacket",
 		"tier": 5,
 		"enchant": 0,
-		"category": "Body"
+		"category": "Body",
+		"weight": 5.1
 	},
 	{
 		"id": "T5_ARMOR_LEATHER_SET3@1",
 		"name": "Expert's Assassin Jacket",
 		"tier": 5,
 		"enchant": 1,
-		"category": "Body"
+		"category": "Body",
+		"weight": 5.1
 	},
 	{
 		"id": "T5_ARMOR_LEATHER_SET3@2",
 		"name": "Expert's Assassin Jacket",
 		"tier": 5,
 		"enchant": 2,
-		"category": "Body"
+		"category": "Body",
+		"weight": 5.1
 	},
 	{
 		"id": "T5_ARMOR_LEATHER_SET3@3",
 		"name": "Expert's Assassin Jacket",
 		"tier": 5,
 		"enchant": 3,
-		"category": "Body"
+		"category": "Body",
+		"weight": 5.1
 	},
 	{
 		"id": "T5_ARMOR_LEATHER_SET3@4",
 		"name": "Expert's Assassin Jacket",
 		"tier": 5,
 		"enchant": 4,
-		"category": "Body"
+		"category": "Body",
+		"weight": 5.1
 	},
 	{
 		"id": "T6_ARMOR_LEATHER_SET3",
 		"name": "Master's Assassin Jacket",
 		"tier": 6,
 		"enchant": 0,
-		"category": "Body"
+		"category": "Body",
+		"weight": 7.6
 	},
 	{
 		"id": "T6_ARMOR_LEATHER_SET3@1",
 		"name": "Master's Assassin Jacket",
 		"tier": 6,
 		"enchant": 1,
-		"category": "Body"
+		"category": "Body",
+		"weight": 7.6
 	},
 	{
 		"id": "T6_ARMOR_LEATHER_SET3@2",
 		"name": "Master's Assassin Jacket",
 		"tier": 6,
 		"enchant": 2,
-		"category": "Body"
+		"category": "Body",
+		"weight": 7.6
 	},
 	{
 		"id": "T6_ARMOR_LEATHER_SET3@3",
 		"name": "Master's Assassin Jacket",
 		"tier": 6,
 		"enchant": 3,
-		"category": "Body"
+		"category": "Body",
+		"weight": 7.6
 	},
 	{
 		"id": "T6_ARMOR_LEATHER_SET3@4",
 		"name": "Master's Assassin Jacket",
 		"tier": 6,
 		"enchant": 4,
-		"category": "Body"
+		"category": "Body",
+		"weight": 7.6
 	},
 	{
 		"id": "T7_ARMOR_LEATHER_SET3",
 		"name": "Grandmaster's Assassin Jacket",
 		"tier": 7,
 		"enchant": 0,
-		"category": "Body"
+		"category": "Body",
+		"weight": 11.4
 	},
 	{
 		"id": "T7_ARMOR_LEATHER_SET3@1",
 		"name": "Grandmaster's Assassin Jacket",
 		"tier": 7,
 		"enchant": 1,
-		"category": "Body"
+		"category": "Body",
+		"weight": 11.4
 	},
 	{
 		"id": "T7_ARMOR_LEATHER_SET3@2",
 		"name": "Grandmaster's Assassin Jacket",
 		"tier": 7,
 		"enchant": 2,
-		"category": "Body"
+		"category": "Body",
+		"weight": 11.4
 	},
 	{
 		"id": "T7_ARMOR_LEATHER_SET3@3",
 		"name": "Grandmaster's Assassin Jacket",
 		"tier": 7,
 		"enchant": 3,
-		"category": "Body"
+		"category": "Body",
+		"weight": 11.4
 	},
 	{
 		"id": "T7_ARMOR_LEATHER_SET3@4",
 		"name": "Grandmaster's Assassin Jacket",
 		"tier": 7,
 		"enchant": 4,
-		"category": "Body"
+		"category": "Body",
+		"weight": 11.4
 	},
 	{
 		"id": "T8_ARMOR_LEATHER_SET3",
 		"name": "Elder's Assassin Jacket",
 		"tier": 8,
 		"enchant": 0,
-		"category": "Body"
+		"category": "Body",
+		"weight": 17.1
 	},
 	{
 		"id": "T8_ARMOR_LEATHER_SET3@1",
 		"name": "Elder's Assassin Jacket",
 		"tier": 8,
 		"enchant": 1,
-		"category": "Body"
+		"category": "Body",
+		"weight": 17.1
 	},
 	{
 		"id": "T8_ARMOR_LEATHER_SET3@2",
 		"name": "Elder's Assassin Jacket",
 		"tier": 8,
 		"enchant": 2,
-		"category": "Body"
+		"category": "Body",
+		"weight": 17.1
 	},
 	{
 		"id": "T8_ARMOR_LEATHER_SET3@3",
 		"name": "Elder's Assassin Jacket",
 		"tier": 8,
 		"enchant": 3,
-		"category": "Body"
+		"category": "Body",
+		"weight": 17.1
 	},
 	{
 		"id": "T8_ARMOR_LEATHER_SET3@4",
 		"name": "Elder's Assassin Jacket",
 		"tier": 8,
 		"enchant": 4,
-		"category": "Body"
+		"category": "Body",
+		"weight": 17.1
 	},
 	{
 		"id": "T4_SHOES_LEATHER_SET3",
 		"name": "Adept's Assassin Shoes",
 		"tier": 4,
 		"enchant": 0,
-		"category": "Feet"
+		"category": "Feet",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_SHOES_LEATHER_SET3@1",
 		"name": "Adept's Assassin Shoes",
 		"tier": 4,
 		"enchant": 1,
-		"category": "Feet"
+		"category": "Feet",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_SHOES_LEATHER_SET3@2",
 		"name": "Adept's Assassin Shoes",
 		"tier": 4,
 		"enchant": 2,
-		"category": "Feet"
+		"category": "Feet",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_SHOES_LEATHER_SET3@3",
 		"name": "Adept's Assassin Shoes",
 		"tier": 4,
 		"enchant": 3,
-		"category": "Feet"
+		"category": "Feet",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_SHOES_LEATHER_SET3@4",
 		"name": "Adept's Assassin Shoes",
 		"tier": 4,
 		"enchant": 4,
-		"category": "Feet"
+		"category": "Feet",
+		"weight": 1.7
 	},
 	{
 		"id": "T5_SHOES_LEATHER_SET3",
 		"name": "Expert's Assassin Shoes",
 		"tier": 5,
 		"enchant": 0,
-		"category": "Feet"
+		"category": "Feet",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_SHOES_LEATHER_SET3@1",
 		"name": "Expert's Assassin Shoes",
 		"tier": 5,
 		"enchant": 1,
-		"category": "Feet"
+		"category": "Feet",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_SHOES_LEATHER_SET3@2",
 		"name": "Expert's Assassin Shoes",
 		"tier": 5,
 		"enchant": 2,
-		"category": "Feet"
+		"category": "Feet",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_SHOES_LEATHER_SET3@3",
 		"name": "Expert's Assassin Shoes",
 		"tier": 5,
 		"enchant": 3,
-		"category": "Feet"
+		"category": "Feet",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_SHOES_LEATHER_SET3@4",
 		"name": "Expert's Assassin Shoes",
 		"tier": 5,
 		"enchant": 4,
-		"category": "Feet"
+		"category": "Feet",
+		"weight": 2.5
 	},
 	{
 		"id": "T6_SHOES_LEATHER_SET3",
 		"name": "Master's Assassin Shoes",
 		"tier": 6,
 		"enchant": 0,
-		"category": "Feet"
+		"category": "Feet",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_SHOES_LEATHER_SET3@1",
 		"name": "Master's Assassin Shoes",
 		"tier": 6,
 		"enchant": 1,
-		"category": "Feet"
+		"category": "Feet",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_SHOES_LEATHER_SET3@2",
 		"name": "Master's Assassin Shoes",
 		"tier": 6,
 		"enchant": 2,
-		"category": "Feet"
+		"category": "Feet",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_SHOES_LEATHER_SET3@3",
 		"name": "Master's Assassin Shoes",
 		"tier": 6,
 		"enchant": 3,
-		"category": "Feet"
+		"category": "Feet",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_SHOES_LEATHER_SET3@4",
 		"name": "Master's Assassin Shoes",
 		"tier": 6,
 		"enchant": 4,
-		"category": "Feet"
+		"category": "Feet",
+		"weight": 3.8
 	},
 	{
 		"id": "T7_SHOES_LEATHER_SET3",
 		"name": "Grandmaster's Assassin Shoes",
 		"tier": 7,
 		"enchant": 0,
-		"category": "Feet"
+		"category": "Feet",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_SHOES_LEATHER_SET3@1",
 		"name": "Grandmaster's Assassin Shoes",
 		"tier": 7,
 		"enchant": 1,
-		"category": "Feet"
+		"category": "Feet",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_SHOES_LEATHER_SET3@2",
 		"name": "Grandmaster's Assassin Shoes",
 		"tier": 7,
 		"enchant": 2,
-		"category": "Feet"
+		"category": "Feet",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_SHOES_LEATHER_SET3@3",
 		"name": "Grandmaster's Assassin Shoes",
 		"tier": 7,
 		"enchant": 3,
-		"category": "Feet"
+		"category": "Feet",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_SHOES_LEATHER_SET3@4",
 		"name": "Grandmaster's Assassin Shoes",
 		"tier": 7,
 		"enchant": 4,
-		"category": "Feet"
+		"category": "Feet",
+		"weight": 5.7
 	},
 	{
 		"id": "T8_SHOES_LEATHER_SET3",
 		"name": "Elder's Assassin Shoes",
 		"tier": 8,
 		"enchant": 0,
-		"category": "Feet"
+		"category": "Feet",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_SHOES_LEATHER_SET3@1",
 		"name": "Elder's Assassin Shoes",
 		"tier": 8,
 		"enchant": 1,
-		"category": "Feet"
+		"category": "Feet",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_SHOES_LEATHER_SET3@2",
 		"name": "Elder's Assassin Shoes",
 		"tier": 8,
 		"enchant": 2,
-		"category": "Feet"
+		"category": "Feet",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_SHOES_LEATHER_SET3@3",
 		"name": "Elder's Assassin Shoes",
 		"tier": 8,
 		"enchant": 3,
-		"category": "Feet"
+		"category": "Feet",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_SHOES_LEATHER_SET3@4",
 		"name": "Elder's Assassin Shoes",
 		"tier": 8,
 		"enchant": 4,
-		"category": "Feet"
+		"category": "Feet",
+		"weight": 8.5
 	},
 	{
 		"id": "T4_HEAD_LEATHER_MORGANA",
@@ -13129,525 +13279,600 @@
 		"name": "Adept's Mage Cowl",
 		"tier": 4,
 		"enchant": 0,
-		"category": "Head"
+		"category": "Head",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_HEAD_CLOTH_SET3@1",
 		"name": "Adept's Mage Cowl",
 		"tier": 4,
 		"enchant": 1,
-		"category": "Head"
+		"category": "Head",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_HEAD_CLOTH_SET3@2",
 		"name": "Adept's Mage Cowl",
 		"tier": 4,
 		"enchant": 2,
-		"category": "Head"
+		"category": "Head",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_HEAD_CLOTH_SET3@3",
 		"name": "Adept's Mage Cowl",
 		"tier": 4,
 		"enchant": 3,
-		"category": "Head"
+		"category": "Head",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_HEAD_CLOTH_SET3@4",
 		"name": "Adept's Mage Cowl",
 		"tier": 4,
 		"enchant": 4,
-		"category": "Head"
+		"category": "Head",
+		"weight": 1.7
 	},
 	{
 		"id": "T5_HEAD_CLOTH_SET3",
 		"name": "Expert's Mage Cowl",
 		"tier": 5,
 		"enchant": 0,
-		"category": "Head"
+		"category": "Head",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_HEAD_CLOTH_SET3@1",
 		"name": "Expert's Mage Cowl",
 		"tier": 5,
 		"enchant": 1,
-		"category": "Head"
+		"category": "Head",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_HEAD_CLOTH_SET3@2",
 		"name": "Expert's Mage Cowl",
 		"tier": 5,
 		"enchant": 2,
-		"category": "Head"
+		"category": "Head",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_HEAD_CLOTH_SET3@3",
 		"name": "Expert's Mage Cowl",
 		"tier": 5,
 		"enchant": 3,
-		"category": "Head"
+		"category": "Head",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_HEAD_CLOTH_SET3@4",
 		"name": "Expert's Mage Cowl",
 		"tier": 5,
 		"enchant": 4,
-		"category": "Head"
+		"category": "Head",
+		"weight": 2.5
 	},
 	{
 		"id": "T6_HEAD_CLOTH_SET3",
 		"name": "Master's Mage Cowl",
 		"tier": 6,
 		"enchant": 0,
-		"category": "Head"
+		"category": "Head",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_HEAD_CLOTH_SET3@1",
 		"name": "Master's Mage Cowl",
 		"tier": 6,
 		"enchant": 1,
-		"category": "Head"
+		"category": "Head",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_HEAD_CLOTH_SET3@2",
 		"name": "Master's Mage Cowl",
 		"tier": 6,
 		"enchant": 2,
-		"category": "Head"
+		"category": "Head",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_HEAD_CLOTH_SET3@3",
 		"name": "Master's Mage Cowl",
 		"tier": 6,
 		"enchant": 3,
-		"category": "Head"
+		"category": "Head",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_HEAD_CLOTH_SET3@4",
 		"name": "Master's Mage Cowl",
 		"tier": 6,
 		"enchant": 4,
-		"category": "Head"
+		"category": "Head",
+		"weight": 3.8
 	},
 	{
 		"id": "T7_HEAD_CLOTH_SET3",
 		"name": "Grandmaster's Mage Cowl",
 		"tier": 7,
 		"enchant": 0,
-		"category": "Head"
+		"category": "Head",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_HEAD_CLOTH_SET3@1",
 		"name": "Grandmaster's Mage Cowl",
 		"tier": 7,
 		"enchant": 1,
-		"category": "Head"
+		"category": "Head",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_HEAD_CLOTH_SET3@2",
 		"name": "Grandmaster's Mage Cowl",
 		"tier": 7,
 		"enchant": 2,
-		"category": "Head"
+		"category": "Head",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_HEAD_CLOTH_SET3@3",
 		"name": "Grandmaster's Mage Cowl",
 		"tier": 7,
 		"enchant": 3,
-		"category": "Head"
+		"category": "Head",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_HEAD_CLOTH_SET3@4",
 		"name": "Grandmaster's Mage Cowl",
 		"tier": 7,
 		"enchant": 4,
-		"category": "Head"
+		"category": "Head",
+		"weight": 5.7
 	},
 	{
 		"id": "T8_HEAD_CLOTH_SET3",
 		"name": "Elder's Mage Cowl",
 		"tier": 8,
 		"enchant": 0,
-		"category": "Head"
+		"category": "Head",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_HEAD_CLOTH_SET3@1",
 		"name": "Elder's Mage Cowl",
 		"tier": 8,
 		"enchant": 1,
-		"category": "Head"
+		"category": "Head",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_HEAD_CLOTH_SET3@2",
 		"name": "Elder's Mage Cowl",
 		"tier": 8,
 		"enchant": 2,
-		"category": "Head"
+		"category": "Head",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_HEAD_CLOTH_SET3@3",
 		"name": "Elder's Mage Cowl",
 		"tier": 8,
 		"enchant": 3,
-		"category": "Head"
+		"category": "Head",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_HEAD_CLOTH_SET3@4",
 		"name": "Elder's Mage Cowl",
 		"tier": 8,
 		"enchant": 4,
-		"category": "Head"
+		"category": "Head",
+		"weight": 8.5
 	},
 	{
 		"id": "T4_ARMOR_CLOTH_SET3",
 		"name": "Adept's Mage Robe",
 		"tier": 4,
 		"enchant": 0,
-		"category": "Body"
+		"category": "Body",
+		"weight": 3.4
 	},
 	{
 		"id": "T4_ARMOR_CLOTH_SET3@1",
 		"name": "Adept's Mage Robe",
 		"tier": 4,
 		"enchant": 1,
-		"category": "Body"
+		"category": "Body",
+		"weight": 3.4
 	},
 	{
 		"id": "T4_ARMOR_CLOTH_SET3@2",
 		"name": "Adept's Mage Robe",
 		"tier": 4,
 		"enchant": 2,
-		"category": "Body"
+		"category": "Body",
+		"weight": 3.4
 	},
 	{
 		"id": "T4_ARMOR_CLOTH_SET3@3",
 		"name": "Adept's Mage Robe",
 		"tier": 4,
 		"enchant": 3,
-		"category": "Body"
+		"category": "Body",
+		"weight": 3.4
 	},
 	{
 		"id": "T4_ARMOR_CLOTH_SET3@4",
 		"name": "Adept's Mage Robe",
 		"tier": 4,
 		"enchant": 4,
-		"category": "Body"
+		"category": "Body",
+		"weight": 3.4
 	},
 	{
 		"id": "T5_ARMOR_CLOTH_SET3",
 		"name": "Expert's Mage Robe",
 		"tier": 5,
 		"enchant": 0,
-		"category": "Body"
+		"category": "Body",
+		"weight": 5.1
 	},
 	{
 		"id": "T5_ARMOR_CLOTH_SET3@1",
 		"name": "Expert's Mage Robe",
 		"tier": 5,
 		"enchant": 1,
-		"category": "Body"
+		"category": "Body",
+		"weight": 5.1
 	},
 	{
 		"id": "T5_ARMOR_CLOTH_SET3@2",
 		"name": "Expert's Mage Robe",
 		"tier": 5,
 		"enchant": 2,
-		"category": "Body"
+		"category": "Body",
+		"weight": 5.1
 	},
 	{
 		"id": "T5_ARMOR_CLOTH_SET3@3",
 		"name": "Expert's Mage Robe",
 		"tier": 5,
 		"enchant": 3,
-		"category": "Body"
+		"category": "Body",
+		"weight": 5.1
 	},
 	{
 		"id": "T5_ARMOR_CLOTH_SET3@4",
 		"name": "Expert's Mage Robe",
 		"tier": 5,
 		"enchant": 4,
-		"category": "Body"
+		"category": "Body",
+		"weight": 5.1
 	},
 	{
 		"id": "T6_ARMOR_CLOTH_SET3",
 		"name": "Master's Mage Robe",
 		"tier": 6,
 		"enchant": 0,
-		"category": "Body"
+		"category": "Body",
+		"weight": 7.6
 	},
 	{
 		"id": "T6_ARMOR_CLOTH_SET3@1",
 		"name": "Master's Mage Robe",
 		"tier": 6,
 		"enchant": 1,
-		"category": "Body"
+		"category": "Body",
+		"weight": 7.6
 	},
 	{
 		"id": "T6_ARMOR_CLOTH_SET3@2",
 		"name": "Master's Mage Robe",
 		"tier": 6,
 		"enchant": 2,
-		"category": "Body"
+		"category": "Body",
+		"weight": 7.6
 	},
 	{
 		"id": "T6_ARMOR_CLOTH_SET3@3",
 		"name": "Master's Mage Robe",
 		"tier": 6,
 		"enchant": 3,
-		"category": "Body"
+		"category": "Body",
+		"weight": 7.6
 	},
 	{
 		"id": "T6_ARMOR_CLOTH_SET3@4",
 		"name": "Master's Mage Robe",
 		"tier": 6,
 		"enchant": 4,
-		"category": "Body"
+		"category": "Body",
+		"weight": 7.6
 	},
 	{
 		"id": "T7_ARMOR_CLOTH_SET3",
 		"name": "Grandmaster's Mage Robe",
 		"tier": 7,
 		"enchant": 0,
-		"category": "Body"
+		"category": "Body",
+		"weight": 11.4
 	},
 	{
 		"id": "T7_ARMOR_CLOTH_SET3@1",
 		"name": "Grandmaster's Mage Robe",
 		"tier": 7,
 		"enchant": 1,
-		"category": "Body"
+		"category": "Body",
+		"weight": 11.4
 	},
 	{
 		"id": "T7_ARMOR_CLOTH_SET3@2",
 		"name": "Grandmaster's Mage Robe",
 		"tier": 7,
 		"enchant": 2,
-		"category": "Body"
+		"category": "Body",
+		"weight": 11.4
 	},
 	{
 		"id": "T7_ARMOR_CLOTH_SET3@3",
 		"name": "Grandmaster's Mage Robe",
 		"tier": 7,
 		"enchant": 3,
-		"category": "Body"
+		"category": "Body",
+		"weight": 11.4
 	},
 	{
 		"id": "T7_ARMOR_CLOTH_SET3@4",
 		"name": "Grandmaster's Mage Robe",
 		"tier": 7,
 		"enchant": 4,
-		"category": "Body"
+		"category": "Body",
+		"weight": 11.4
 	},
 	{
 		"id": "T8_ARMOR_CLOTH_SET3",
 		"name": "Elder's Mage Robe",
 		"tier": 8,
 		"enchant": 0,
-		"category": "Body"
+		"category": "Body",
+		"weight": 17.1
 	},
 	{
 		"id": "T8_ARMOR_CLOTH_SET3@1",
 		"name": "Elder's Mage Robe",
 		"tier": 8,
 		"enchant": 1,
-		"category": "Body"
+		"category": "Body",
+		"weight": 17.1
 	},
 	{
 		"id": "T8_ARMOR_CLOTH_SET3@2",
 		"name": "Elder's Mage Robe",
 		"tier": 8,
 		"enchant": 2,
-		"category": "Body"
+		"category": "Body",
+		"weight": 17.1
 	},
 	{
 		"id": "T8_ARMOR_CLOTH_SET3@3",
 		"name": "Elder's Mage Robe",
 		"tier": 8,
 		"enchant": 3,
-		"category": "Body"
+		"category": "Body",
+		"weight": 17.1
 	},
 	{
 		"id": "T8_ARMOR_CLOTH_SET3@4",
 		"name": "Elder's Mage Robe",
 		"tier": 8,
 		"enchant": 4,
-		"category": "Body"
+		"category": "Body",
+		"weight": 17.1
 	},
 	{
 		"id": "T4_SHOES_CLOTH_SET3",
 		"name": "Adept's Mage Sandals",
 		"tier": 4,
 		"enchant": 0,
-		"category": "Feet"
+		"category": "Feet",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_SHOES_CLOTH_SET3@1",
 		"name": "Adept's Mage Sandals",
 		"tier": 4,
 		"enchant": 1,
-		"category": "Feet"
+		"category": "Feet",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_SHOES_CLOTH_SET3@2",
 		"name": "Adept's Mage Sandals",
 		"tier": 4,
 		"enchant": 2,
-		"category": "Feet"
+		"category": "Feet",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_SHOES_CLOTH_SET3@3",
 		"name": "Adept's Mage Sandals",
 		"tier": 4,
 		"enchant": 3,
-		"category": "Feet"
+		"category": "Feet",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_SHOES_CLOTH_SET3@4",
 		"name": "Adept's Mage Sandals",
 		"tier": 4,
 		"enchant": 4,
-		"category": "Feet"
+		"category": "Feet",
+		"weight": 1.7
 	},
 	{
 		"id": "T5_SHOES_CLOTH_SET3",
 		"name": "Expert's Mage Sandals",
 		"tier": 5,
 		"enchant": 0,
-		"category": "Feet"
+		"category": "Feet",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_SHOES_CLOTH_SET3@1",
 		"name": "Expert's Mage Sandals",
 		"tier": 5,
 		"enchant": 1,
-		"category": "Feet"
+		"category": "Feet",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_SHOES_CLOTH_SET3@2",
 		"name": "Expert's Mage Sandals",
 		"tier": 5,
 		"enchant": 2,
-		"category": "Feet"
+		"category": "Feet",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_SHOES_CLOTH_SET3@3",
 		"name": "Expert's Mage Sandals",
 		"tier": 5,
 		"enchant": 3,
-		"category": "Feet"
+		"category": "Feet",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_SHOES_CLOTH_SET3@4",
 		"name": "Expert's Mage Sandals",
 		"tier": 5,
 		"enchant": 4,
-		"category": "Feet"
+		"category": "Feet",
+		"weight": 2.5
 	},
 	{
 		"id": "T6_SHOES_CLOTH_SET3",
 		"name": "Master's Mage Sandals",
 		"tier": 6,
 		"enchant": 0,
-		"category": "Feet"
+		"category": "Feet",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_SHOES_CLOTH_SET3@1",
 		"name": "Master's Mage Sandals",
 		"tier": 6,
 		"enchant": 1,
-		"category": "Feet"
+		"category": "Feet",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_SHOES_CLOTH_SET3@2",
 		"name": "Master's Mage Sandals",
 		"tier": 6,
 		"enchant": 2,
-		"category": "Feet"
+		"category": "Feet",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_SHOES_CLOTH_SET3@3",
 		"name": "Master's Mage Sandals",
 		"tier": 6,
 		"enchant": 3,
-		"category": "Feet"
+		"category": "Feet",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_SHOES_CLOTH_SET3@4",
 		"name": "Master's Mage Sandals",
 		"tier": 6,
 		"enchant": 4,
-		"category": "Feet"
+		"category": "Feet",
+		"weight": 3.8
 	},
 	{
 		"id": "T7_SHOES_CLOTH_SET3",
 		"name": "Grandmaster's Mage Sandals",
 		"tier": 7,
 		"enchant": 0,
-		"category": "Feet"
+		"category": "Feet",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_SHOES_CLOTH_SET3@1",
 		"name": "Grandmaster's Mage Sandals",
 		"tier": 7,
 		"enchant": 1,
-		"category": "Feet"
+		"category": "Feet",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_SHOES_CLOTH_SET3@2",
 		"name": "Grandmaster's Mage Sandals",
 		"tier": 7,
 		"enchant": 2,
-		"category": "Feet"
+		"category": "Feet",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_SHOES_CLOTH_SET3@3",
 		"name": "Grandmaster's Mage Sandals",
 		"tier": 7,
 		"enchant": 3,
-		"category": "Feet"
+		"category": "Feet",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_SHOES_CLOTH_SET3@4",
 		"name": "Grandmaster's Mage Sandals",
 		"tier": 7,
 		"enchant": 4,
-		"category": "Feet"
+		"category": "Feet",
+		"weight": 5.7
 	},
 	{
 		"id": "T8_SHOES_CLOTH_SET3",
 		"name": "Elder's Mage Sandals",
 		"tier": 8,
 		"enchant": 0,
-		"category": "Feet"
+		"category": "Feet",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_SHOES_CLOTH_SET3@1",
 		"name": "Elder's Mage Sandals",
 		"tier": 8,
 		"enchant": 1,
-		"category": "Feet"
+		"category": "Feet",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_SHOES_CLOTH_SET3@2",
 		"name": "Elder's Mage Sandals",
 		"tier": 8,
 		"enchant": 2,
-		"category": "Feet"
+		"category": "Feet",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_SHOES_CLOTH_SET3@3",
 		"name": "Elder's Mage Sandals",
 		"tier": 8,
 		"enchant": 3,
-		"category": "Feet"
+		"category": "Feet",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_SHOES_CLOTH_SET3@4",
 		"name": "Elder's Mage Sandals",
 		"tier": 8,
 		"enchant": 4,
-		"category": "Feet"
+		"category": "Feet",
+		"weight": 8.5
 	},
 	{
 		"id": "T4_HEAD_CLOTH_KEEPER",

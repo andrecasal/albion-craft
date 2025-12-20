@@ -58,12 +58,77 @@ export interface DemandSupplyData {
   dataAgeHours: number;
 }
 
+// Daily bonus categories for refining (10% bonus)
+export type RefiningCategory =
+  | 'Ore'      // Metal bars
+  | 'Wood'     // Planks
+  | 'Hide'     // Leather
+  | 'Fiber'    // Cloth
+  | 'Stone';   // Stone blocks
+
+// Daily bonus categories for crafting (20% bonus)
+export type CraftingCategory =
+  | 'Plate Armor'
+  | 'Plate Helmet'
+  | 'Plate Shoes'
+  | 'Leather Armor'
+  | 'Leather Helmet'
+  | 'Leather Shoes'
+  | 'Cloth Armor'
+  | 'Cloth Helmet'
+  | 'Cloth Shoes'
+  | 'Sword'
+  | 'Axe'
+  | 'Mace'
+  | 'Hammer'
+  | 'Crossbow'
+  | 'Bow'
+  | 'Spear'
+  | 'Dagger'
+  | 'Quarterstaff'
+  | 'Fire Staff'
+  | 'Holy Staff'
+  | 'Arcane Staff'
+  | 'Froststaff'
+  | 'Cursed Staff'
+  | 'Nature Staff'
+  | 'Off-hand'
+  | 'Shield'
+  | 'Cape'
+  | 'Bag'
+  | 'Tool'
+  | 'Gathering Gear'
+  | 'Mount'
+  | 'Food'
+  | 'Potion';
+
+// Individual crafting bonus entry (category + percentage)
+export interface CraftingBonusEntry {
+  category: CraftingCategory;
+  percentage: 10 | 20;  // Either +10% or +20%
+}
+
+// Daily bonus configuration
+export interface DailyBonus {
+  refiningCategory: RefiningCategory | null;  // 10% bonus for refining this material
+  craftingCategory: CraftingCategory | null;  // DEPRECATED: Use craftingBonuses instead
+  craftingBonuses: CraftingBonusEntry[];      // Up to 2 crafting bonuses with their percentages
+}
+
 export interface UserStats {
   premiumStatus: boolean;
-  baseReturnRate: number;  // 15.2% without focus, 43.9% with focus
   useFocus: boolean;
-  specializationBonus: number;  // 0-100
-  craftingTaxRate: number;  // Default 3.5%
+  dailyBonus: DailyBonus;  // Categories with active daily bonus
+  targetDaysOfSupply: number;  // How many days of demand to craft for (default: 3)
+}
+
+// Calculated values derived from UserStats and game constants
+export interface CalculatedStats {
+  salesTaxPercent: number;      // 4% with premium, 8% without
+  listingFeePercent: number;    // 2.5% always
+  totalMarketFeePercent: number; // salesTax + listingFee
+  baseProductionBonus: number;  // 18% base
+  focusBonus: number;           // 59% if using focus
 }
 
 export interface CraftingCost {

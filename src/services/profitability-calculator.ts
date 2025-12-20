@@ -12,6 +12,11 @@ import {
   SupplySignal,
   TrendIndicator,
   MarketCondition,
+  ReturnRates,
+  Taxes,
+  RefiningCategory,
+  CraftingCategory,
+  DailyBonus,
 } from '../types';
 
 // Item name lookup
@@ -24,6 +29,8 @@ interface ItemInfo {
 }
 
 const itemsData = require('../constants/items.json') as ItemInfo[];
+const taxesData: Taxes = require('../constants/taxes.json');
+const returnRatesData: ReturnRates = require('../constants/return-rates.json');
 
 export class ProfitabilityCalculator {
   private materialPrices: Map<string, MaterialPrice[]>;
@@ -81,23 +88,106 @@ export class ProfitabilityCalculator {
   }
 
   /**
-   * Calculate resource return rate based on user stats
+   * Calculate market tax rate based on premium status
+   * Sales tax + listing fee
    */
-  calculateReturnRate(userStats: UserStats): number {
-    // Base return rate (15.2% without focus, 43.9% with focus)
-    let returnRate = userStats.baseReturnRate;
+  calculateMarketTaxRate(userStats: UserStats): number {
+    const salesTax = userStats.premiumStatus
+      ? taxesData.salesTax.withPremium
+      : taxesData.salesTax.withoutPremium;
+    return salesTax + taxesData.listingFee;
+  }
 
-    // Add premium bonus (20%)
-    if (userStats.premiumStatus) {
-      returnRate += 20;
+  /**
+   * Get the daily bonus percentage for an item based on its category
+   * Returns 10% for refining bonus, 20% for crafting bonus, 0% if no bonus
+   */
+  getDailyBonusForItem(dailyBonus: DailyBonus, itemName: string): number {
+    const nameLower = itemName.toLowerCase();
+
+    // Check crafting daily bonus (20%)
+    if (dailyBonus.craftingCategory) {
+      const craftingCat = dailyBonus.craftingCategory.toLowerCase();
+      if (nameLower.includes(craftingCat)) {
+        return 20;
+      }
     }
 
-    // Add specialization bonus (0.2% per level, max 100 levels = 20%)
-    const specializationBonus = Math.min(userStats.specializationBonus, 100) * 0.2;
-    returnRate += specializationBonus;
+    // Note: Refining bonus applies to materials, not crafted items
+    // This is handled separately when calculating material costs
+    return 0;
+  }
 
-    // Return as decimal (e.g., 0.152 for 15.2%)
-    return returnRate / 100;
+  /**
+   * Check if a material matches the refining daily bonus category
+   * Returns 10% bonus if it matches, 0% otherwise
+   */
+  getRefiningBonusForMaterial(dailyBonus: DailyBonus, materialId: string): number {
+    if (!dailyBonus.refiningCategory) return 0;
+
+    const materialIdLower = materialId.toLowerCase();
+
+    // Map refining categories to material ID patterns
+    const refiningPatterns: Record<RefiningCategory, string[]> = {
+      'Ore': ['_metalbar'],
+      'Wood': ['_planks'],
+      'Hide': ['_leather'],
+      'Fiber': ['_cloth'],
+      'Stone': ['_stoneblock'],
+    };
+
+    const patterns = refiningPatterns[dailyBonus.refiningCategory];
+    if (patterns) {
+      for (const pattern of patterns) {
+        if (materialIdLower.includes(pattern)) {
+          return 10; // 10% refining bonus
+        }
+      }
+    }
+
+    return 0;
+  }
+
+  /**
+   * Calculate resource return rate based on user stats, city, and item type
+   * Formula: Return Rate = 1 - 1/(1 + (Production Bonus/100))
+   *
+   * Production bonus components:
+   * - Base: 18% (all cities)
+   * - City crafting bonus: 15% (if item matches city specialization)
+   * - Focus: 59% (if using focus)
+   * - Daily crafting bonus: 20% (if item matches daily bonus category)
+   */
+  calculateReturnRate(userStats: UserStats, city?: City, itemCategory?: string): number {
+    let productionBonus = returnRatesData.bonuses.base; // 18% base
+
+    // Add city crafting bonus if item matches city specialization
+    if (city && itemCategory) {
+      const cityBonuses = returnRatesData.cityBonuses[city];
+      if (cityBonuses?.crafting) {
+        // Check if this item category has a crafting bonus in this city
+        const hasBonus = cityBonuses.crafting.some((cat: string) =>
+          itemCategory.toLowerCase().includes(cat.toLowerCase())
+        );
+        if (hasBonus) {
+          productionBonus += returnRatesData.bonuses.crafting; // +15%
+        }
+      }
+    }
+
+    // Add focus bonus
+    if (userStats.useFocus) {
+      productionBonus += returnRatesData.bonuses.focus; // +59%
+    }
+
+    // Add daily crafting bonus (20%) if item matches the daily bonus category
+    if (itemCategory) {
+      productionBonus += this.getDailyBonusForItem(userStats.dailyBonus, itemCategory);
+    }
+
+    // Calculate return rate using game formula: 1 - 1/(1 + bonus/100)
+    const returnRate = 1 - 1 / (1 + productionBonus / 100);
+    return returnRate; // Return as decimal (e.g., 0.439 for 43.9%)
   }
 
   /**
@@ -314,8 +404,11 @@ export class ProfitabilityCalculator {
     const demandSupplyList = this.demandSupply.get(itemId);
     const demandSupplyData = demandSupplyList?.find((d) => d.city === city);
 
-    // Calculate return rate
-    const returnRate = this.calculateReturnRate(userStats);
+    // Get item category for city bonus calculation
+    const itemCategory = this.getItemCategory(itemId);
+
+    // Calculate return rate (auto-calculated based on city, item, focus, etc.)
+    const returnRate = this.calculateReturnRate(userStats, city, itemCategory);
 
     // Calculate material costs
     const craftingCost = this.calculateMaterialCost(recipe, city, returnRate);
@@ -323,8 +416,11 @@ export class ProfitabilityCalculator {
       return null;
     }
 
+    // Calculate market tax (auto-calculated based on premium status)
+    const marketTaxRate = this.calculateMarketTaxRate(userStats);
+
     // Calculate gross revenue (after market tax)
-    const grossRevenue = marketData.lowestSellPrice * (1 - userStats.craftingTaxRate / 100);
+    const grossRevenue = marketData.lowestSellPrice * (1 - marketTaxRate / 100);
 
     // Calculate net profit
     const netProfit = grossRevenue - craftingCost.totalCost;
@@ -385,6 +481,7 @@ export class ProfitabilityCalculator {
 
   /**
    * Calculate profitability for all items in all cities
+   * Includes enchanted variants (@1, @2, @3, @4) of each base item
    */
   calculateAll(userStats: UserStats): ProfitabilityResult[] {
     const results: ProfitabilityResult[] = [];
@@ -397,18 +494,228 @@ export class ProfitabilityCalculator {
       'Thetford',
       'Brecilien',
     ];
+    const enchantLevels = ['', '@1', '@2', '@3', '@4']; // '' = base item (.0)
 
-    for (const [itemId, recipe] of this.recipes) {
-      for (const city of cities) {
-        const result = this.calculateProfitability(itemId, city, userStats);
-        if (result && result.netProfit > 0) {
-          // Only include profitable items
-          results.push(result);
+    for (const [baseItemId, recipe] of this.recipes) {
+      for (const enchant of enchantLevels) {
+        const itemId = baseItemId + enchant;
+        for (const city of cities) {
+          const result = this.calculateProfitabilityForEnchant(itemId, baseItemId, enchant, city, userStats);
+          if (result && result.netProfit > 0) {
+            // Only include profitable items
+            results.push(result);
+          }
         }
       }
     }
 
     return results;
+  }
+
+  /**
+   * Calculate profitability for a specific enchant level of an item
+   * Uses the base recipe but looks up enchanted material prices
+   */
+  private calculateProfitabilityForEnchant(
+    itemId: string,
+    baseItemId: string,
+    enchant: string,
+    city: City,
+    userStats: UserStats
+  ): ProfitabilityResult | null {
+    // Get base recipe
+    const recipe = this.recipes.get(baseItemId);
+    if (!recipe) {
+      return null;
+    }
+
+    // Get market data for the enchanted item
+    const marketDataList = this.marketData.get(itemId);
+    if (!marketDataList) {
+      return null;
+    }
+
+    const marketData = marketDataList.find((m) => m.city === city);
+    if (!marketData || marketData.lowestSellPrice === 0) {
+      return null;
+    }
+
+    // Get demand/supply data (more accurate demand from charts endpoint)
+    const demandSupplyList = this.demandSupply.get(itemId);
+    const demandSupplyData = demandSupplyList?.find((d) => d.city === city);
+
+    // Get item category for city bonus calculation (use base item for category)
+    const itemCategory = this.getItemCategory(baseItemId);
+
+    // Calculate return rate (auto-calculated based on city, item, focus, etc.)
+    const returnRate = this.calculateReturnRate(userStats, city, itemCategory);
+
+    // Calculate material costs (using enchanted materials if applicable)
+    const craftingCost = this.calculateMaterialCostForEnchant(recipe, enchant, city, returnRate);
+    if (!craftingCost) {
+      return null;
+    }
+
+    // Calculate market tax (auto-calculated based on premium status)
+    const marketTaxRate = this.calculateMarketTaxRate(userStats);
+
+    // Calculate gross revenue (after market tax)
+    const grossRevenue = marketData.lowestSellPrice * (1 - marketTaxRate / 100);
+
+    // Calculate net profit
+    const netProfit = grossRevenue - craftingCost.totalCost;
+
+    // Calculate ROI %
+    const roiPercent = (netProfit / craftingCost.totalCost) * 100;
+
+    // Use demand/supply data if available (more accurate), otherwise fall back to market data
+    const demandPerDay = demandSupplyData?.dailyDemand ?? marketData.dailyDemand;
+    const supplySignal = demandSupplyData?.supplySignal ?? marketData.supplySignal;
+    const priceTrendPct = demandSupplyData?.priceTrendPct ?? marketData.priceTrendPct;
+    const dataAgeHours = demandSupplyData?.dataAgeHours ?? marketData.dataAgeHours;
+    const confidence = dataAgeHours < 12 ? 95 : dataAgeHours < 24 ? 80 : dataAgeHours < 48 ? 60 : 40;
+
+    // Calculate profit rank (weighted by demand & supply signal)
+    const supplyMultiplier = this.getSupplyMultiplier(supplySignal);
+    const profitRank = (netProfit * demandPerDay * supplyMultiplier) / 1000;
+
+    // Phase 2 metrics
+    const demandTrend = this.getDemandTrend(supplySignal);
+    const priceTrend = this.getPriceTrend(priceTrendPct);
+    const marketCondition = this.getMarketCondition(
+      demandPerDay,
+      priceTrendPct,
+      supplySignal,
+      confidence
+    );
+    const { sellsInDays, liquidityRisk } = this.calculateLiquidity(demandPerDay, netProfit);
+    const profitPerDay = this.calculateProfitPerDay(netProfit, demandPerDay, sellsInDays);
+
+    // Get item name
+    const itemName = this.itemNames.get(itemId) || this.itemNames.get(baseItemId) || itemId;
+
+    return {
+      itemId,
+      itemName,
+      city,
+      recipe,
+      marketData,
+      craftingCost,
+      returnRate,
+      grossRevenue,
+      netProfit,
+      roiPercent,
+      profitRank,
+      // Phase 2 metrics
+      demandPerDay,
+      demandTrend,
+      priceTrend,
+      priceTrendPct,
+      marketCondition,
+      sellsInDays,
+      liquidityRisk,
+      profitPerDay,
+      calculatedAt: new Date(),
+    };
+  }
+
+  /**
+   * Calculate material costs for a recipe with a specific enchant level
+   * Enchanted items use enchanted materials (e.g., T4_PLANKS@1 for a .1 item)
+   */
+  private calculateMaterialCostForEnchant(
+    recipe: Recipe,
+    enchant: string,
+    city: City,
+    returnRate: number
+  ): CraftingCost | null {
+    const materials = [
+      { id: recipe.material1, qty: recipe.mat1Qty },
+      { id: recipe.material2, qty: recipe.mat2Qty },
+      { id: recipe.material3, qty: recipe.mat3Qty },
+      { id: recipe.material4, qty: recipe.mat4Qty },
+    ].filter((m) => m.id && m.id.trim() !== '' && m.qty > 0);
+
+    const materialCosts = [];
+    let totalMaterialCost = 0;
+
+    for (const material of materials) {
+      // For enchanted items, use enchanted materials
+      // Only add enchant suffix to refined resources (CLOTH, LEATHER, METALBAR, PLANKS)
+      // Artifacts and other special materials don't have enchant variants
+      let materialId = material.id;
+      if (enchant && this.isRefinedResource(material.id)) {
+        materialId = material.id + enchant;
+      }
+
+      const prices = this.materialPrices.get(materialId);
+      if (!prices) {
+        // Try base material if enchanted not found
+        const basePrices = this.materialPrices.get(material.id);
+        if (!basePrices) {
+          return null;
+        }
+        // Use base material price (enchanted material might not have price data)
+        const cityPrice = basePrices.find((p) => p.city === city);
+        if (!cityPrice || cityPrice.sellPriceMin === 0) {
+          return null;
+        }
+        const totalCost = cityPrice.sellPriceMin * material.qty;
+        materialCosts.push({
+          materialId: material.id,
+          quantity: material.qty,
+          pricePerUnit: cityPrice.sellPriceMin,
+          totalCost,
+        });
+        totalMaterialCost += totalCost;
+        continue;
+      }
+
+      // Find price for this city
+      const cityPrice = prices.find((p) => p.city === city);
+      if (!cityPrice || cityPrice.sellPriceMin === 0) {
+        return null;
+      }
+
+      const totalCost = cityPrice.sellPriceMin * material.qty;
+      materialCosts.push({
+        materialId,
+        quantity: material.qty,
+        pricePerUnit: cityPrice.sellPriceMin,
+        totalCost,
+      });
+
+      totalMaterialCost += totalCost;
+    }
+
+    // Calculate effective cost after resource return
+    const effectiveCost = totalMaterialCost * (1 - returnRate);
+
+    return {
+      materialCosts,
+      totalMaterialCost,
+      effectiveCost,
+      craftingFee: recipe.craftingFee,
+      totalCost: effectiveCost + recipe.craftingFee,
+    };
+  }
+
+  /**
+   * Check if a material ID is a refined resource that has enchant variants
+   */
+  private isRefinedResource(materialId: string): boolean {
+    return /_CLOTH$|_LEATHER$|_METALBAR$|_PLANKS$|_STONEBLOCK$/.test(materialId);
+  }
+
+  /**
+   * Extract item category from item ID for city bonus matching
+   * E.g., T4_HEAD_CLOTH_SET1 -> "cloth" (for matching Lymhurst's cloth bonus)
+   * E.g., T4_2H_CROSSBOW -> "crossbow" (for matching Bridgewatch's crossbow bonus)
+   */
+  private getItemCategory(itemId: string): string {
+    // Get item name for better category detection
+    const itemName = this.itemNames.get(itemId)?.toLowerCase() || itemId.toLowerCase();
+    return itemName;
   }
 
   /**
@@ -471,7 +778,8 @@ export class ProfitabilityCalculator {
   }
 
   /**
-   * Get top opportunities sorted by: supply signal, demand, then profit/day
+   * Get top opportunities sorted by profit per day
+   * This accounts for how quickly items sell, not just profit per item
    */
   getTopByProfitPerDay(
     userStats: UserStats,
@@ -485,19 +793,8 @@ export class ProfitabilityCalculator {
       results = results.filter((r) => r.city === city);
     }
 
-    // Sort by: 1) Supply signal (low supply first), 2) Demand (high first), 3) Profit/Day (high first)
-    results.sort((a, b) => {
-      // 1. Supply signal (demandTrend: ↑ low supply first)
-      const supplyDiff = this.getDemandTrendScore(b.demandTrend) - this.getDemandTrendScore(a.demandTrend);
-      if (supplyDiff !== 0) return supplyDiff;
-
-      // 2. Demand (higher demand first)
-      const demandDiff = b.demandPerDay - a.demandPerDay;
-      if (demandDiff !== 0) return demandDiff;
-
-      // 3. Profit per day (tiebreaker)
-      return b.profitPerDay - a.profitPerDay;
-    });
+    // Sort by profit per day (highest first)
+    results.sort((a, b) => b.profitPerDay - a.profitPerDay);
 
     return results.slice(0, limit);
   }
