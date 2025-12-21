@@ -1,0 +1,1882 @@
+[
+  {
+    "id": "T1_OFF_SHIELD",
+    "name": "T1_OFF_SHIELD"
+  },
+  {
+    "id": "T2_OFF_SHIELD",
+    "name": "T2_OFF_SHIELD"
+  },
+  {
+    "id": "T3_OFF_SHIELD",
+    "name": "T3_OFF_SHIELD"
+  },
+  {
+    "id": "T4_OFF_SHIELD",
+    "name": "T4_OFF_SHIELD"
+  },
+  {
+    "id": "T4_OFF_SHIELD@1",
+    "name": "T4_OFF_SHIELD"
+  },
+  {
+    "id": "T4_OFF_SHIELD@2",
+    "name": "T4_OFF_SHIELD"
+  },
+  {
+    "id": "T4_OFF_SHIELD@3",
+    "name": "T4_OFF_SHIELD"
+  },
+  {
+    "id": "T4_OFF_SHIELD@4",
+    "name": "T4_OFF_SHIELD"
+  },
+  {
+    "id": "T5_OFF_SHIELD",
+    "name": "T5_OFF_SHIELD"
+  },
+  {
+    "id": "T5_OFF_SHIELD@1",
+    "name": "T5_OFF_SHIELD"
+  },
+  {
+    "id": "T5_OFF_SHIELD@2",
+    "name": "T5_OFF_SHIELD"
+  },
+  {
+    "id": "T5_OFF_SHIELD@3",
+    "name": "T5_OFF_SHIELD"
+  },
+  {
+    "id": "T5_OFF_SHIELD@4",
+    "name": "T5_OFF_SHIELD"
+  },
+  {
+    "id": "T6_OFF_SHIELD",
+    "name": "T6_OFF_SHIELD"
+  },
+  {
+    "id": "T6_OFF_SHIELD@1",
+    "name": "T6_OFF_SHIELD"
+  },
+  {
+    "id": "T6_OFF_SHIELD@2",
+    "name": "T6_OFF_SHIELD"
+  },
+  {
+    "id": "T6_OFF_SHIELD@3",
+    "name": "T6_OFF_SHIELD"
+  },
+  {
+    "id": "T6_OFF_SHIELD@4",
+    "name": "T6_OFF_SHIELD"
+  },
+  {
+    "id": "T7_OFF_SHIELD",
+    "name": "T7_OFF_SHIELD"
+  },
+  {
+    "id": "T7_OFF_SHIELD@1",
+    "name": "T7_OFF_SHIELD"
+  },
+  {
+    "id": "T7_OFF_SHIELD@2",
+    "name": "T7_OFF_SHIELD"
+  },
+  {
+    "id": "T7_OFF_SHIELD@3",
+    "name": "T7_OFF_SHIELD"
+  },
+  {
+    "id": "T7_OFF_SHIELD@4",
+    "name": "T7_OFF_SHIELD"
+  },
+  {
+    "id": "T8_OFF_SHIELD",
+    "name": "T8_OFF_SHIELD"
+  },
+  {
+    "id": "T8_OFF_SHIELD@1",
+    "name": "T8_OFF_SHIELD"
+  },
+  {
+    "id": "T8_OFF_SHIELD@2",
+    "name": "T8_OFF_SHIELD"
+  },
+  {
+    "id": "T8_OFF_SHIELD@3",
+    "name": "T8_OFF_SHIELD"
+  },
+  {
+    "id": "T8_OFF_SHIELD@4",
+    "name": "T8_OFF_SHIELD"
+  },
+  {
+    "id": "T4_OFF_TOWERSHIELD_UNDEAD",
+    "name": "T4_OFF_TOWERSHIELD_UNDEAD"
+  },
+  {
+    "id": "T4_OFF_TOWERSHIELD_UNDEAD@1",
+    "name": "T4_OFF_TOWERSHIELD_UNDEAD"
+  },
+  {
+    "id": "T4_OFF_TOWERSHIELD_UNDEAD@2",
+    "name": "T4_OFF_TOWERSHIELD_UNDEAD"
+  },
+  {
+    "id": "T4_OFF_TOWERSHIELD_UNDEAD@3",
+    "name": "T4_OFF_TOWERSHIELD_UNDEAD"
+  },
+  {
+    "id": "T4_OFF_TOWERSHIELD_UNDEAD@4",
+    "name": "T4_OFF_TOWERSHIELD_UNDEAD"
+  },
+  {
+    "id": "T5_OFF_TOWERSHIELD_UNDEAD",
+    "name": "T5_OFF_TOWERSHIELD_UNDEAD"
+  },
+  {
+    "id": "T5_OFF_TOWERSHIELD_UNDEAD@1",
+    "name": "T5_OFF_TOWERSHIELD_UNDEAD"
+  },
+  {
+    "id": "T5_OFF_TOWERSHIELD_UNDEAD@2",
+    "name": "T5_OFF_TOWERSHIELD_UNDEAD"
+  },
+  {
+    "id": "T5_OFF_TOWERSHIELD_UNDEAD@3",
+    "name": "T5_OFF_TOWERSHIELD_UNDEAD"
+  },
+  {
+    "id": "T5_OFF_TOWERSHIELD_UNDEAD@4",
+    "name": "T5_OFF_TOWERSHIELD_UNDEAD"
+  },
+  {
+    "id": "T6_OFF_TOWERSHIELD_UNDEAD",
+    "name": "T6_OFF_TOWERSHIELD_UNDEAD"
+  },
+  {
+    "id": "T6_OFF_TOWERSHIELD_UNDEAD@1",
+    "name": "T6_OFF_TOWERSHIELD_UNDEAD"
+  },
+  {
+    "id": "T6_OFF_TOWERSHIELD_UNDEAD@2",
+    "name": "T6_OFF_TOWERSHIELD_UNDEAD"
+  },
+  {
+    "id": "T6_OFF_TOWERSHIELD_UNDEAD@3",
+    "name": "T6_OFF_TOWERSHIELD_UNDEAD"
+  },
+  {
+    "id": "T6_OFF_TOWERSHIELD_UNDEAD@4",
+    "name": "T6_OFF_TOWERSHIELD_UNDEAD"
+  },
+  {
+    "id": "T7_OFF_TOWERSHIELD_UNDEAD",
+    "name": "T7_OFF_TOWERSHIELD_UNDEAD"
+  },
+  {
+    "id": "T7_OFF_TOWERSHIELD_UNDEAD@1",
+    "name": "T7_OFF_TOWERSHIELD_UNDEAD"
+  },
+  {
+    "id": "T7_OFF_TOWERSHIELD_UNDEAD@2",
+    "name": "T7_OFF_TOWERSHIELD_UNDEAD"
+  },
+  {
+    "id": "T7_OFF_TOWERSHIELD_UNDEAD@3",
+    "name": "T7_OFF_TOWERSHIELD_UNDEAD"
+  },
+  {
+    "id": "T7_OFF_TOWERSHIELD_UNDEAD@4",
+    "name": "T7_OFF_TOWERSHIELD_UNDEAD"
+  },
+  {
+    "id": "T8_OFF_TOWERSHIELD_UNDEAD",
+    "name": "T8_OFF_TOWERSHIELD_UNDEAD"
+  },
+  {
+    "id": "T8_OFF_TOWERSHIELD_UNDEAD@1",
+    "name": "T8_OFF_TOWERSHIELD_UNDEAD"
+  },
+  {
+    "id": "T8_OFF_TOWERSHIELD_UNDEAD@2",
+    "name": "T8_OFF_TOWERSHIELD_UNDEAD"
+  },
+  {
+    "id": "T8_OFF_TOWERSHIELD_UNDEAD@3",
+    "name": "T8_OFF_TOWERSHIELD_UNDEAD"
+  },
+  {
+    "id": "T8_OFF_TOWERSHIELD_UNDEAD@4",
+    "name": "T8_OFF_TOWERSHIELD_UNDEAD"
+  },
+  {
+    "id": "T4_OFF_SHIELD_HELL",
+    "name": "T4_OFF_SHIELD_HELL"
+  },
+  {
+    "id": "T4_OFF_SHIELD_HELL@1",
+    "name": "T4_OFF_SHIELD_HELL"
+  },
+  {
+    "id": "T4_OFF_SHIELD_HELL@2",
+    "name": "T4_OFF_SHIELD_HELL"
+  },
+  {
+    "id": "T4_OFF_SHIELD_HELL@3",
+    "name": "T4_OFF_SHIELD_HELL"
+  },
+  {
+    "id": "T4_OFF_SHIELD_HELL@4",
+    "name": "T4_OFF_SHIELD_HELL"
+  },
+  {
+    "id": "T5_OFF_SHIELD_HELL",
+    "name": "T5_OFF_SHIELD_HELL"
+  },
+  {
+    "id": "T5_OFF_SHIELD_HELL@1",
+    "name": "T5_OFF_SHIELD_HELL"
+  },
+  {
+    "id": "T5_OFF_SHIELD_HELL@2",
+    "name": "T5_OFF_SHIELD_HELL"
+  },
+  {
+    "id": "T5_OFF_SHIELD_HELL@3",
+    "name": "T5_OFF_SHIELD_HELL"
+  },
+  {
+    "id": "T5_OFF_SHIELD_HELL@4",
+    "name": "T5_OFF_SHIELD_HELL"
+  },
+  {
+    "id": "T6_OFF_SHIELD_HELL",
+    "name": "T6_OFF_SHIELD_HELL"
+  },
+  {
+    "id": "T6_OFF_SHIELD_HELL@1",
+    "name": "T6_OFF_SHIELD_HELL"
+  },
+  {
+    "id": "T6_OFF_SHIELD_HELL@2",
+    "name": "T6_OFF_SHIELD_HELL"
+  },
+  {
+    "id": "T6_OFF_SHIELD_HELL@3",
+    "name": "T6_OFF_SHIELD_HELL"
+  },
+  {
+    "id": "T6_OFF_SHIELD_HELL@4",
+    "name": "T6_OFF_SHIELD_HELL"
+  },
+  {
+    "id": "T7_OFF_SHIELD_HELL",
+    "name": "T7_OFF_SHIELD_HELL"
+  },
+  {
+    "id": "T7_OFF_SHIELD_HELL@1",
+    "name": "T7_OFF_SHIELD_HELL"
+  },
+  {
+    "id": "T7_OFF_SHIELD_HELL@2",
+    "name": "T7_OFF_SHIELD_HELL"
+  },
+  {
+    "id": "T7_OFF_SHIELD_HELL@3",
+    "name": "T7_OFF_SHIELD_HELL"
+  },
+  {
+    "id": "T7_OFF_SHIELD_HELL@4",
+    "name": "T7_OFF_SHIELD_HELL"
+  },
+  {
+    "id": "T8_OFF_SHIELD_HELL",
+    "name": "T8_OFF_SHIELD_HELL"
+  },
+  {
+    "id": "T8_OFF_SHIELD_HELL@1",
+    "name": "T8_OFF_SHIELD_HELL"
+  },
+  {
+    "id": "T8_OFF_SHIELD_HELL@2",
+    "name": "T8_OFF_SHIELD_HELL"
+  },
+  {
+    "id": "T8_OFF_SHIELD_HELL@3",
+    "name": "T8_OFF_SHIELD_HELL"
+  },
+  {
+    "id": "T8_OFF_SHIELD_HELL@4",
+    "name": "T8_OFF_SHIELD_HELL"
+  },
+  {
+    "id": "T4_OFF_SPIKEDSHIELD_MORGANA",
+    "name": "T4_OFF_SPIKEDSHIELD_MORGANA"
+  },
+  {
+    "id": "T4_OFF_SPIKEDSHIELD_MORGANA@1",
+    "name": "T4_OFF_SPIKEDSHIELD_MORGANA"
+  },
+  {
+    "id": "T4_OFF_SPIKEDSHIELD_MORGANA@2",
+    "name": "T4_OFF_SPIKEDSHIELD_MORGANA"
+  },
+  {
+    "id": "T4_OFF_SPIKEDSHIELD_MORGANA@3",
+    "name": "T4_OFF_SPIKEDSHIELD_MORGANA"
+  },
+  {
+    "id": "T4_OFF_SPIKEDSHIELD_MORGANA@4",
+    "name": "T4_OFF_SPIKEDSHIELD_MORGANA"
+  },
+  {
+    "id": "T5_OFF_SPIKEDSHIELD_MORGANA",
+    "name": "T5_OFF_SPIKEDSHIELD_MORGANA"
+  },
+  {
+    "id": "T5_OFF_SPIKEDSHIELD_MORGANA@1",
+    "name": "T5_OFF_SPIKEDSHIELD_MORGANA"
+  },
+  {
+    "id": "T5_OFF_SPIKEDSHIELD_MORGANA@2",
+    "name": "T5_OFF_SPIKEDSHIELD_MORGANA"
+  },
+  {
+    "id": "T5_OFF_SPIKEDSHIELD_MORGANA@3",
+    "name": "T5_OFF_SPIKEDSHIELD_MORGANA"
+  },
+  {
+    "id": "T5_OFF_SPIKEDSHIELD_MORGANA@4",
+    "name": "T5_OFF_SPIKEDSHIELD_MORGANA"
+  },
+  {
+    "id": "T6_OFF_SPIKEDSHIELD_MORGANA",
+    "name": "T6_OFF_SPIKEDSHIELD_MORGANA"
+  },
+  {
+    "id": "T6_OFF_SPIKEDSHIELD_MORGANA@1",
+    "name": "T6_OFF_SPIKEDSHIELD_MORGANA"
+  },
+  {
+    "id": "T6_OFF_SPIKEDSHIELD_MORGANA@2",
+    "name": "T6_OFF_SPIKEDSHIELD_MORGANA"
+  },
+  {
+    "id": "T6_OFF_SPIKEDSHIELD_MORGANA@3",
+    "name": "T6_OFF_SPIKEDSHIELD_MORGANA"
+  },
+  {
+    "id": "T6_OFF_SPIKEDSHIELD_MORGANA@4",
+    "name": "T6_OFF_SPIKEDSHIELD_MORGANA"
+  },
+  {
+    "id": "T7_OFF_SPIKEDSHIELD_MORGANA",
+    "name": "T7_OFF_SPIKEDSHIELD_MORGANA"
+  },
+  {
+    "id": "T7_OFF_SPIKEDSHIELD_MORGANA@1",
+    "name": "T7_OFF_SPIKEDSHIELD_MORGANA"
+  },
+  {
+    "id": "T7_OFF_SPIKEDSHIELD_MORGANA@2",
+    "name": "T7_OFF_SPIKEDSHIELD_MORGANA"
+  },
+  {
+    "id": "T7_OFF_SPIKEDSHIELD_MORGANA@3",
+    "name": "T7_OFF_SPIKEDSHIELD_MORGANA"
+  },
+  {
+    "id": "T7_OFF_SPIKEDSHIELD_MORGANA@4",
+    "name": "T7_OFF_SPIKEDSHIELD_MORGANA"
+  },
+  {
+    "id": "T8_OFF_SPIKEDSHIELD_MORGANA",
+    "name": "T8_OFF_SPIKEDSHIELD_MORGANA"
+  },
+  {
+    "id": "T8_OFF_SPIKEDSHIELD_MORGANA@1",
+    "name": "T8_OFF_SPIKEDSHIELD_MORGANA"
+  },
+  {
+    "id": "T8_OFF_SPIKEDSHIELD_MORGANA@2",
+    "name": "T8_OFF_SPIKEDSHIELD_MORGANA"
+  },
+  {
+    "id": "T8_OFF_SPIKEDSHIELD_MORGANA@3",
+    "name": "T8_OFF_SPIKEDSHIELD_MORGANA"
+  },
+  {
+    "id": "T8_OFF_SPIKEDSHIELD_MORGANA@4",
+    "name": "T8_OFF_SPIKEDSHIELD_MORGANA"
+  },
+  {
+    "id": "T4_OFF_SHIELD_AVALON",
+    "name": "T4_OFF_SHIELD_AVALON"
+  },
+  {
+    "id": "T4_OFF_SHIELD_AVALON@1",
+    "name": "T4_OFF_SHIELD_AVALON"
+  },
+  {
+    "id": "T4_OFF_SHIELD_AVALON@2",
+    "name": "T4_OFF_SHIELD_AVALON"
+  },
+  {
+    "id": "T4_OFF_SHIELD_AVALON@3",
+    "name": "T4_OFF_SHIELD_AVALON"
+  },
+  {
+    "id": "T4_OFF_SHIELD_AVALON@4",
+    "name": "T4_OFF_SHIELD_AVALON"
+  },
+  {
+    "id": "T5_OFF_SHIELD_AVALON",
+    "name": "T5_OFF_SHIELD_AVALON"
+  },
+  {
+    "id": "T5_OFF_SHIELD_AVALON@1",
+    "name": "T5_OFF_SHIELD_AVALON"
+  },
+  {
+    "id": "T5_OFF_SHIELD_AVALON@2",
+    "name": "T5_OFF_SHIELD_AVALON"
+  },
+  {
+    "id": "T5_OFF_SHIELD_AVALON@3",
+    "name": "T5_OFF_SHIELD_AVALON"
+  },
+  {
+    "id": "T5_OFF_SHIELD_AVALON@4",
+    "name": "T5_OFF_SHIELD_AVALON"
+  },
+  {
+    "id": "T6_OFF_SHIELD_AVALON",
+    "name": "T6_OFF_SHIELD_AVALON"
+  },
+  {
+    "id": "T6_OFF_SHIELD_AVALON@1",
+    "name": "T6_OFF_SHIELD_AVALON"
+  },
+  {
+    "id": "T6_OFF_SHIELD_AVALON@2",
+    "name": "T6_OFF_SHIELD_AVALON"
+  },
+  {
+    "id": "T6_OFF_SHIELD_AVALON@3",
+    "name": "T6_OFF_SHIELD_AVALON"
+  },
+  {
+    "id": "T6_OFF_SHIELD_AVALON@4",
+    "name": "T6_OFF_SHIELD_AVALON"
+  },
+  {
+    "id": "T7_OFF_SHIELD_AVALON",
+    "name": "T7_OFF_SHIELD_AVALON"
+  },
+  {
+    "id": "T7_OFF_SHIELD_AVALON@1",
+    "name": "T7_OFF_SHIELD_AVALON"
+  },
+  {
+    "id": "T7_OFF_SHIELD_AVALON@2",
+    "name": "T7_OFF_SHIELD_AVALON"
+  },
+  {
+    "id": "T7_OFF_SHIELD_AVALON@3",
+    "name": "T7_OFF_SHIELD_AVALON"
+  },
+  {
+    "id": "T7_OFF_SHIELD_AVALON@4",
+    "name": "T7_OFF_SHIELD_AVALON"
+  },
+  {
+    "id": "T8_OFF_SHIELD_AVALON",
+    "name": "T8_OFF_SHIELD_AVALON"
+  },
+  {
+    "id": "T8_OFF_SHIELD_AVALON@1",
+    "name": "T8_OFF_SHIELD_AVALON"
+  },
+  {
+    "id": "T8_OFF_SHIELD_AVALON@2",
+    "name": "T8_OFF_SHIELD_AVALON"
+  },
+  {
+    "id": "T8_OFF_SHIELD_AVALON@3",
+    "name": "T8_OFF_SHIELD_AVALON"
+  },
+  {
+    "id": "T8_OFF_SHIELD_AVALON@4",
+    "name": "T8_OFF_SHIELD_AVALON"
+  },
+  {
+    "id": "T4_OFF_SHIELD_CRYSTAL",
+    "name": "T4_OFF_SHIELD_CRYSTAL"
+  },
+  {
+    "id": "T4_OFF_SHIELD_CRYSTAL@1",
+    "name": "T4_OFF_SHIELD_CRYSTAL"
+  },
+  {
+    "id": "T4_OFF_SHIELD_CRYSTAL@2",
+    "name": "T4_OFF_SHIELD_CRYSTAL"
+  },
+  {
+    "id": "T4_OFF_SHIELD_CRYSTAL@3",
+    "name": "T4_OFF_SHIELD_CRYSTAL"
+  },
+  {
+    "id": "T4_OFF_SHIELD_CRYSTAL@4",
+    "name": "T4_OFF_SHIELD_CRYSTAL"
+  },
+  {
+    "id": "T5_OFF_SHIELD_CRYSTAL",
+    "name": "T5_OFF_SHIELD_CRYSTAL"
+  },
+  {
+    "id": "T5_OFF_SHIELD_CRYSTAL@1",
+    "name": "T5_OFF_SHIELD_CRYSTAL"
+  },
+  {
+    "id": "T5_OFF_SHIELD_CRYSTAL@2",
+    "name": "T5_OFF_SHIELD_CRYSTAL"
+  },
+  {
+    "id": "T5_OFF_SHIELD_CRYSTAL@3",
+    "name": "T5_OFF_SHIELD_CRYSTAL"
+  },
+  {
+    "id": "T5_OFF_SHIELD_CRYSTAL@4",
+    "name": "T5_OFF_SHIELD_CRYSTAL"
+  },
+  {
+    "id": "T6_OFF_SHIELD_CRYSTAL",
+    "name": "T6_OFF_SHIELD_CRYSTAL"
+  },
+  {
+    "id": "T6_OFF_SHIELD_CRYSTAL@1",
+    "name": "T6_OFF_SHIELD_CRYSTAL"
+  },
+  {
+    "id": "T6_OFF_SHIELD_CRYSTAL@2",
+    "name": "T6_OFF_SHIELD_CRYSTAL"
+  },
+  {
+    "id": "T6_OFF_SHIELD_CRYSTAL@3",
+    "name": "T6_OFF_SHIELD_CRYSTAL"
+  },
+  {
+    "id": "T6_OFF_SHIELD_CRYSTAL@4",
+    "name": "T6_OFF_SHIELD_CRYSTAL"
+  },
+  {
+    "id": "T7_OFF_SHIELD_CRYSTAL",
+    "name": "T7_OFF_SHIELD_CRYSTAL"
+  },
+  {
+    "id": "T7_OFF_SHIELD_CRYSTAL@1",
+    "name": "T7_OFF_SHIELD_CRYSTAL"
+  },
+  {
+    "id": "T7_OFF_SHIELD_CRYSTAL@2",
+    "name": "T7_OFF_SHIELD_CRYSTAL"
+  },
+  {
+    "id": "T7_OFF_SHIELD_CRYSTAL@3",
+    "name": "T7_OFF_SHIELD_CRYSTAL"
+  },
+  {
+    "id": "T7_OFF_SHIELD_CRYSTAL@4",
+    "name": "T7_OFF_SHIELD_CRYSTAL"
+  },
+  {
+    "id": "T8_OFF_SHIELD_CRYSTAL",
+    "name": "T8_OFF_SHIELD_CRYSTAL"
+  },
+  {
+    "id": "T8_OFF_SHIELD_CRYSTAL@1",
+    "name": "T8_OFF_SHIELD_CRYSTAL"
+  },
+  {
+    "id": "T8_OFF_SHIELD_CRYSTAL@2",
+    "name": "T8_OFF_SHIELD_CRYSTAL"
+  },
+  {
+    "id": "T8_OFF_SHIELD_CRYSTAL@3",
+    "name": "T8_OFF_SHIELD_CRYSTAL"
+  },
+  {
+    "id": "T8_OFF_SHIELD_CRYSTAL@4",
+    "name": "T8_OFF_SHIELD_CRYSTAL"
+  },
+  {
+    "id": "T2_OFF_BOOK",
+    "name": "T2_OFF_BOOK"
+  },
+  {
+    "id": "T3_OFF_BOOK",
+    "name": "T3_OFF_BOOK"
+  },
+  {
+    "id": "T4_OFF_BOOK",
+    "name": "T4_OFF_BOOK"
+  },
+  {
+    "id": "T4_OFF_BOOK@1",
+    "name": "T4_OFF_BOOK"
+  },
+  {
+    "id": "T4_OFF_BOOK@2",
+    "name": "T4_OFF_BOOK"
+  },
+  {
+    "id": "T4_OFF_BOOK@3",
+    "name": "T4_OFF_BOOK"
+  },
+  {
+    "id": "T4_OFF_BOOK@4",
+    "name": "T4_OFF_BOOK"
+  },
+  {
+    "id": "T5_OFF_BOOK",
+    "name": "T5_OFF_BOOK"
+  },
+  {
+    "id": "T5_OFF_BOOK@1",
+    "name": "T5_OFF_BOOK"
+  },
+  {
+    "id": "T5_OFF_BOOK@2",
+    "name": "T5_OFF_BOOK"
+  },
+  {
+    "id": "T5_OFF_BOOK@3",
+    "name": "T5_OFF_BOOK"
+  },
+  {
+    "id": "T5_OFF_BOOK@4",
+    "name": "T5_OFF_BOOK"
+  },
+  {
+    "id": "T6_OFF_BOOK",
+    "name": "T6_OFF_BOOK"
+  },
+  {
+    "id": "T6_OFF_BOOK@1",
+    "name": "T6_OFF_BOOK"
+  },
+  {
+    "id": "T6_OFF_BOOK@2",
+    "name": "T6_OFF_BOOK"
+  },
+  {
+    "id": "T6_OFF_BOOK@3",
+    "name": "T6_OFF_BOOK"
+  },
+  {
+    "id": "T6_OFF_BOOK@4",
+    "name": "T6_OFF_BOOK"
+  },
+  {
+    "id": "T7_OFF_BOOK",
+    "name": "T7_OFF_BOOK"
+  },
+  {
+    "id": "T7_OFF_BOOK@1",
+    "name": "T7_OFF_BOOK"
+  },
+  {
+    "id": "T7_OFF_BOOK@2",
+    "name": "T7_OFF_BOOK"
+  },
+  {
+    "id": "T7_OFF_BOOK@3",
+    "name": "T7_OFF_BOOK"
+  },
+  {
+    "id": "T7_OFF_BOOK@4",
+    "name": "T7_OFF_BOOK"
+  },
+  {
+    "id": "T8_OFF_BOOK",
+    "name": "T8_OFF_BOOK"
+  },
+  {
+    "id": "T8_OFF_BOOK@1",
+    "name": "T8_OFF_BOOK"
+  },
+  {
+    "id": "T8_OFF_BOOK@2",
+    "name": "T8_OFF_BOOK"
+  },
+  {
+    "id": "T8_OFF_BOOK@3",
+    "name": "T8_OFF_BOOK"
+  },
+  {
+    "id": "T8_OFF_BOOK@4",
+    "name": "T8_OFF_BOOK"
+  },
+  {
+    "id": "T4_OFF_ORB_MORGANA",
+    "name": "T4_OFF_ORB_MORGANA"
+  },
+  {
+    "id": "T4_OFF_ORB_MORGANA@1",
+    "name": "T4_OFF_ORB_MORGANA"
+  },
+  {
+    "id": "T4_OFF_ORB_MORGANA@2",
+    "name": "T4_OFF_ORB_MORGANA"
+  },
+  {
+    "id": "T4_OFF_ORB_MORGANA@3",
+    "name": "T4_OFF_ORB_MORGANA"
+  },
+  {
+    "id": "T4_OFF_ORB_MORGANA@4",
+    "name": "T4_OFF_ORB_MORGANA"
+  },
+  {
+    "id": "T5_OFF_ORB_MORGANA",
+    "name": "T5_OFF_ORB_MORGANA"
+  },
+  {
+    "id": "T5_OFF_ORB_MORGANA@1",
+    "name": "T5_OFF_ORB_MORGANA"
+  },
+  {
+    "id": "T5_OFF_ORB_MORGANA@2",
+    "name": "T5_OFF_ORB_MORGANA"
+  },
+  {
+    "id": "T5_OFF_ORB_MORGANA@3",
+    "name": "T5_OFF_ORB_MORGANA"
+  },
+  {
+    "id": "T5_OFF_ORB_MORGANA@4",
+    "name": "T5_OFF_ORB_MORGANA"
+  },
+  {
+    "id": "T6_OFF_ORB_MORGANA",
+    "name": "T6_OFF_ORB_MORGANA"
+  },
+  {
+    "id": "T6_OFF_ORB_MORGANA@1",
+    "name": "T6_OFF_ORB_MORGANA"
+  },
+  {
+    "id": "T6_OFF_ORB_MORGANA@2",
+    "name": "T6_OFF_ORB_MORGANA"
+  },
+  {
+    "id": "T6_OFF_ORB_MORGANA@3",
+    "name": "T6_OFF_ORB_MORGANA"
+  },
+  {
+    "id": "T6_OFF_ORB_MORGANA@4",
+    "name": "T6_OFF_ORB_MORGANA"
+  },
+  {
+    "id": "T7_OFF_ORB_MORGANA",
+    "name": "T7_OFF_ORB_MORGANA"
+  },
+  {
+    "id": "T7_OFF_ORB_MORGANA@1",
+    "name": "T7_OFF_ORB_MORGANA"
+  },
+  {
+    "id": "T7_OFF_ORB_MORGANA@2",
+    "name": "T7_OFF_ORB_MORGANA"
+  },
+  {
+    "id": "T7_OFF_ORB_MORGANA@3",
+    "name": "T7_OFF_ORB_MORGANA"
+  },
+  {
+    "id": "T7_OFF_ORB_MORGANA@4",
+    "name": "T7_OFF_ORB_MORGANA"
+  },
+  {
+    "id": "T8_OFF_ORB_MORGANA",
+    "name": "T8_OFF_ORB_MORGANA"
+  },
+  {
+    "id": "T8_OFF_ORB_MORGANA@1",
+    "name": "T8_OFF_ORB_MORGANA"
+  },
+  {
+    "id": "T8_OFF_ORB_MORGANA@2",
+    "name": "T8_OFF_ORB_MORGANA"
+  },
+  {
+    "id": "T8_OFF_ORB_MORGANA@3",
+    "name": "T8_OFF_ORB_MORGANA"
+  },
+  {
+    "id": "T8_OFF_ORB_MORGANA@4",
+    "name": "T8_OFF_ORB_MORGANA"
+  },
+  {
+    "id": "T4_OFF_DEMONSKULL_HELL",
+    "name": "T4_OFF_DEMONSKULL_HELL"
+  },
+  {
+    "id": "T4_OFF_DEMONSKULL_HELL@1",
+    "name": "T4_OFF_DEMONSKULL_HELL"
+  },
+  {
+    "id": "T4_OFF_DEMONSKULL_HELL@2",
+    "name": "T4_OFF_DEMONSKULL_HELL"
+  },
+  {
+    "id": "T4_OFF_DEMONSKULL_HELL@3",
+    "name": "T4_OFF_DEMONSKULL_HELL"
+  },
+  {
+    "id": "T4_OFF_DEMONSKULL_HELL@4",
+    "name": "T4_OFF_DEMONSKULL_HELL"
+  },
+  {
+    "id": "T5_OFF_DEMONSKULL_HELL",
+    "name": "T5_OFF_DEMONSKULL_HELL"
+  },
+  {
+    "id": "T5_OFF_DEMONSKULL_HELL@1",
+    "name": "T5_OFF_DEMONSKULL_HELL"
+  },
+  {
+    "id": "T5_OFF_DEMONSKULL_HELL@2",
+    "name": "T5_OFF_DEMONSKULL_HELL"
+  },
+  {
+    "id": "T5_OFF_DEMONSKULL_HELL@3",
+    "name": "T5_OFF_DEMONSKULL_HELL"
+  },
+  {
+    "id": "T5_OFF_DEMONSKULL_HELL@4",
+    "name": "T5_OFF_DEMONSKULL_HELL"
+  },
+  {
+    "id": "T6_OFF_DEMONSKULL_HELL",
+    "name": "T6_OFF_DEMONSKULL_HELL"
+  },
+  {
+    "id": "T6_OFF_DEMONSKULL_HELL@1",
+    "name": "T6_OFF_DEMONSKULL_HELL"
+  },
+  {
+    "id": "T6_OFF_DEMONSKULL_HELL@2",
+    "name": "T6_OFF_DEMONSKULL_HELL"
+  },
+  {
+    "id": "T6_OFF_DEMONSKULL_HELL@3",
+    "name": "T6_OFF_DEMONSKULL_HELL"
+  },
+  {
+    "id": "T6_OFF_DEMONSKULL_HELL@4",
+    "name": "T6_OFF_DEMONSKULL_HELL"
+  },
+  {
+    "id": "T7_OFF_DEMONSKULL_HELL",
+    "name": "T7_OFF_DEMONSKULL_HELL"
+  },
+  {
+    "id": "T7_OFF_DEMONSKULL_HELL@1",
+    "name": "T7_OFF_DEMONSKULL_HELL"
+  },
+  {
+    "id": "T7_OFF_DEMONSKULL_HELL@2",
+    "name": "T7_OFF_DEMONSKULL_HELL"
+  },
+  {
+    "id": "T7_OFF_DEMONSKULL_HELL@3",
+    "name": "T7_OFF_DEMONSKULL_HELL"
+  },
+  {
+    "id": "T7_OFF_DEMONSKULL_HELL@4",
+    "name": "T7_OFF_DEMONSKULL_HELL"
+  },
+  {
+    "id": "T8_OFF_DEMONSKULL_HELL",
+    "name": "T8_OFF_DEMONSKULL_HELL"
+  },
+  {
+    "id": "T8_OFF_DEMONSKULL_HELL@1",
+    "name": "T8_OFF_DEMONSKULL_HELL"
+  },
+  {
+    "id": "T8_OFF_DEMONSKULL_HELL@2",
+    "name": "T8_OFF_DEMONSKULL_HELL"
+  },
+  {
+    "id": "T8_OFF_DEMONSKULL_HELL@3",
+    "name": "T8_OFF_DEMONSKULL_HELL"
+  },
+  {
+    "id": "T8_OFF_DEMONSKULL_HELL@4",
+    "name": "T8_OFF_DEMONSKULL_HELL"
+  },
+  {
+    "id": "T4_OFF_TOTEM_KEEPER",
+    "name": "T4_OFF_TOTEM_KEEPER"
+  },
+  {
+    "id": "T4_OFF_TOTEM_KEEPER@1",
+    "name": "T4_OFF_TOTEM_KEEPER"
+  },
+  {
+    "id": "T4_OFF_TOTEM_KEEPER@2",
+    "name": "T4_OFF_TOTEM_KEEPER"
+  },
+  {
+    "id": "T4_OFF_TOTEM_KEEPER@3",
+    "name": "T4_OFF_TOTEM_KEEPER"
+  },
+  {
+    "id": "T4_OFF_TOTEM_KEEPER@4",
+    "name": "T4_OFF_TOTEM_KEEPER"
+  },
+  {
+    "id": "T5_OFF_TOTEM_KEEPER",
+    "name": "T5_OFF_TOTEM_KEEPER"
+  },
+  {
+    "id": "T5_OFF_TOTEM_KEEPER@1",
+    "name": "T5_OFF_TOTEM_KEEPER"
+  },
+  {
+    "id": "T5_OFF_TOTEM_KEEPER@2",
+    "name": "T5_OFF_TOTEM_KEEPER"
+  },
+  {
+    "id": "T5_OFF_TOTEM_KEEPER@3",
+    "name": "T5_OFF_TOTEM_KEEPER"
+  },
+  {
+    "id": "T5_OFF_TOTEM_KEEPER@4",
+    "name": "T5_OFF_TOTEM_KEEPER"
+  },
+  {
+    "id": "T6_OFF_TOTEM_KEEPER",
+    "name": "T6_OFF_TOTEM_KEEPER"
+  },
+  {
+    "id": "T6_OFF_TOTEM_KEEPER@1",
+    "name": "T6_OFF_TOTEM_KEEPER"
+  },
+  {
+    "id": "T6_OFF_TOTEM_KEEPER@2",
+    "name": "T6_OFF_TOTEM_KEEPER"
+  },
+  {
+    "id": "T6_OFF_TOTEM_KEEPER@3",
+    "name": "T6_OFF_TOTEM_KEEPER"
+  },
+  {
+    "id": "T6_OFF_TOTEM_KEEPER@4",
+    "name": "T6_OFF_TOTEM_KEEPER"
+  },
+  {
+    "id": "T7_OFF_TOTEM_KEEPER",
+    "name": "T7_OFF_TOTEM_KEEPER"
+  },
+  {
+    "id": "T7_OFF_TOTEM_KEEPER@1",
+    "name": "T7_OFF_TOTEM_KEEPER"
+  },
+  {
+    "id": "T7_OFF_TOTEM_KEEPER@2",
+    "name": "T7_OFF_TOTEM_KEEPER"
+  },
+  {
+    "id": "T7_OFF_TOTEM_KEEPER@3",
+    "name": "T7_OFF_TOTEM_KEEPER"
+  },
+  {
+    "id": "T7_OFF_TOTEM_KEEPER@4",
+    "name": "T7_OFF_TOTEM_KEEPER"
+  },
+  {
+    "id": "T8_OFF_TOTEM_KEEPER",
+    "name": "T8_OFF_TOTEM_KEEPER"
+  },
+  {
+    "id": "T8_OFF_TOTEM_KEEPER@1",
+    "name": "T8_OFF_TOTEM_KEEPER"
+  },
+  {
+    "id": "T8_OFF_TOTEM_KEEPER@2",
+    "name": "T8_OFF_TOTEM_KEEPER"
+  },
+  {
+    "id": "T8_OFF_TOTEM_KEEPER@3",
+    "name": "T8_OFF_TOTEM_KEEPER"
+  },
+  {
+    "id": "T8_OFF_TOTEM_KEEPER@4",
+    "name": "T8_OFF_TOTEM_KEEPER"
+  },
+  {
+    "id": "T4_OFF_CENSER_AVALON",
+    "name": "T4_OFF_CENSER_AVALON"
+  },
+  {
+    "id": "T4_OFF_CENSER_AVALON@1",
+    "name": "T4_OFF_CENSER_AVALON"
+  },
+  {
+    "id": "T4_OFF_CENSER_AVALON@2",
+    "name": "T4_OFF_CENSER_AVALON"
+  },
+  {
+    "id": "T4_OFF_CENSER_AVALON@3",
+    "name": "T4_OFF_CENSER_AVALON"
+  },
+  {
+    "id": "T4_OFF_CENSER_AVALON@4",
+    "name": "T4_OFF_CENSER_AVALON"
+  },
+  {
+    "id": "T5_OFF_CENSER_AVALON",
+    "name": "T5_OFF_CENSER_AVALON"
+  },
+  {
+    "id": "T5_OFF_CENSER_AVALON@1",
+    "name": "T5_OFF_CENSER_AVALON"
+  },
+  {
+    "id": "T5_OFF_CENSER_AVALON@2",
+    "name": "T5_OFF_CENSER_AVALON"
+  },
+  {
+    "id": "T5_OFF_CENSER_AVALON@3",
+    "name": "T5_OFF_CENSER_AVALON"
+  },
+  {
+    "id": "T5_OFF_CENSER_AVALON@4",
+    "name": "T5_OFF_CENSER_AVALON"
+  },
+  {
+    "id": "T6_OFF_CENSER_AVALON",
+    "name": "T6_OFF_CENSER_AVALON"
+  },
+  {
+    "id": "T6_OFF_CENSER_AVALON@1",
+    "name": "T6_OFF_CENSER_AVALON"
+  },
+  {
+    "id": "T6_OFF_CENSER_AVALON@2",
+    "name": "T6_OFF_CENSER_AVALON"
+  },
+  {
+    "id": "T6_OFF_CENSER_AVALON@3",
+    "name": "T6_OFF_CENSER_AVALON"
+  },
+  {
+    "id": "T6_OFF_CENSER_AVALON@4",
+    "name": "T6_OFF_CENSER_AVALON"
+  },
+  {
+    "id": "T7_OFF_CENSER_AVALON",
+    "name": "T7_OFF_CENSER_AVALON"
+  },
+  {
+    "id": "T7_OFF_CENSER_AVALON@1",
+    "name": "T7_OFF_CENSER_AVALON"
+  },
+  {
+    "id": "T7_OFF_CENSER_AVALON@2",
+    "name": "T7_OFF_CENSER_AVALON"
+  },
+  {
+    "id": "T7_OFF_CENSER_AVALON@3",
+    "name": "T7_OFF_CENSER_AVALON"
+  },
+  {
+    "id": "T7_OFF_CENSER_AVALON@4",
+    "name": "T7_OFF_CENSER_AVALON"
+  },
+  {
+    "id": "T8_OFF_CENSER_AVALON",
+    "name": "T8_OFF_CENSER_AVALON"
+  },
+  {
+    "id": "T8_OFF_CENSER_AVALON@1",
+    "name": "T8_OFF_CENSER_AVALON"
+  },
+  {
+    "id": "T8_OFF_CENSER_AVALON@2",
+    "name": "T8_OFF_CENSER_AVALON"
+  },
+  {
+    "id": "T8_OFF_CENSER_AVALON@3",
+    "name": "T8_OFF_CENSER_AVALON"
+  },
+  {
+    "id": "T8_OFF_CENSER_AVALON@4",
+    "name": "T8_OFF_CENSER_AVALON"
+  },
+  {
+    "id": "T4_OFF_TOME_CRYSTAL",
+    "name": "T4_OFF_TOME_CRYSTAL"
+  },
+  {
+    "id": "T4_OFF_TOME_CRYSTAL@1",
+    "name": "T4_OFF_TOME_CRYSTAL"
+  },
+  {
+    "id": "T4_OFF_TOME_CRYSTAL@2",
+    "name": "T4_OFF_TOME_CRYSTAL"
+  },
+  {
+    "id": "T4_OFF_TOME_CRYSTAL@3",
+    "name": "T4_OFF_TOME_CRYSTAL"
+  },
+  {
+    "id": "T4_OFF_TOME_CRYSTAL@4",
+    "name": "T4_OFF_TOME_CRYSTAL"
+  },
+  {
+    "id": "T5_OFF_TOME_CRYSTAL",
+    "name": "T5_OFF_TOME_CRYSTAL"
+  },
+  {
+    "id": "T5_OFF_TOME_CRYSTAL@1",
+    "name": "T5_OFF_TOME_CRYSTAL"
+  },
+  {
+    "id": "T5_OFF_TOME_CRYSTAL@2",
+    "name": "T5_OFF_TOME_CRYSTAL"
+  },
+  {
+    "id": "T5_OFF_TOME_CRYSTAL@3",
+    "name": "T5_OFF_TOME_CRYSTAL"
+  },
+  {
+    "id": "T5_OFF_TOME_CRYSTAL@4",
+    "name": "T5_OFF_TOME_CRYSTAL"
+  },
+  {
+    "id": "T6_OFF_TOME_CRYSTAL",
+    "name": "T6_OFF_TOME_CRYSTAL"
+  },
+  {
+    "id": "T6_OFF_TOME_CRYSTAL@1",
+    "name": "T6_OFF_TOME_CRYSTAL"
+  },
+  {
+    "id": "T6_OFF_TOME_CRYSTAL@2",
+    "name": "T6_OFF_TOME_CRYSTAL"
+  },
+  {
+    "id": "T6_OFF_TOME_CRYSTAL@3",
+    "name": "T6_OFF_TOME_CRYSTAL"
+  },
+  {
+    "id": "T6_OFF_TOME_CRYSTAL@4",
+    "name": "T6_OFF_TOME_CRYSTAL"
+  },
+  {
+    "id": "T7_OFF_TOME_CRYSTAL",
+    "name": "T7_OFF_TOME_CRYSTAL"
+  },
+  {
+    "id": "T7_OFF_TOME_CRYSTAL@1",
+    "name": "T7_OFF_TOME_CRYSTAL"
+  },
+  {
+    "id": "T7_OFF_TOME_CRYSTAL@2",
+    "name": "T7_OFF_TOME_CRYSTAL"
+  },
+  {
+    "id": "T7_OFF_TOME_CRYSTAL@3",
+    "name": "T7_OFF_TOME_CRYSTAL"
+  },
+  {
+    "id": "T7_OFF_TOME_CRYSTAL@4",
+    "name": "T7_OFF_TOME_CRYSTAL"
+  },
+  {
+    "id": "T8_OFF_TOME_CRYSTAL",
+    "name": "T8_OFF_TOME_CRYSTAL"
+  },
+  {
+    "id": "T8_OFF_TOME_CRYSTAL@1",
+    "name": "T8_OFF_TOME_CRYSTAL"
+  },
+  {
+    "id": "T8_OFF_TOME_CRYSTAL@2",
+    "name": "T8_OFF_TOME_CRYSTAL"
+  },
+  {
+    "id": "T8_OFF_TOME_CRYSTAL@3",
+    "name": "T8_OFF_TOME_CRYSTAL"
+  },
+  {
+    "id": "T8_OFF_TOME_CRYSTAL@4",
+    "name": "T8_OFF_TOME_CRYSTAL"
+  },
+  {
+    "id": "T3_OFF_TORCH",
+    "name": "T3_OFF_TORCH"
+  },
+  {
+    "id": "T4_OFF_TORCH",
+    "name": "T4_OFF_TORCH"
+  },
+  {
+    "id": "T4_OFF_TORCH@1",
+    "name": "T4_OFF_TORCH"
+  },
+  {
+    "id": "T4_OFF_TORCH@2",
+    "name": "T4_OFF_TORCH"
+  },
+  {
+    "id": "T4_OFF_TORCH@3",
+    "name": "T4_OFF_TORCH"
+  },
+  {
+    "id": "T4_OFF_TORCH@4",
+    "name": "T4_OFF_TORCH"
+  },
+  {
+    "id": "T5_OFF_TORCH",
+    "name": "T5_OFF_TORCH"
+  },
+  {
+    "id": "T5_OFF_TORCH@1",
+    "name": "T5_OFF_TORCH"
+  },
+  {
+    "id": "T5_OFF_TORCH@2",
+    "name": "T5_OFF_TORCH"
+  },
+  {
+    "id": "T5_OFF_TORCH@3",
+    "name": "T5_OFF_TORCH"
+  },
+  {
+    "id": "T5_OFF_TORCH@4",
+    "name": "T5_OFF_TORCH"
+  },
+  {
+    "id": "T6_OFF_TORCH",
+    "name": "T6_OFF_TORCH"
+  },
+  {
+    "id": "T6_OFF_TORCH@1",
+    "name": "T6_OFF_TORCH"
+  },
+  {
+    "id": "T6_OFF_TORCH@2",
+    "name": "T6_OFF_TORCH"
+  },
+  {
+    "id": "T6_OFF_TORCH@3",
+    "name": "T6_OFF_TORCH"
+  },
+  {
+    "id": "T6_OFF_TORCH@4",
+    "name": "T6_OFF_TORCH"
+  },
+  {
+    "id": "T7_OFF_TORCH",
+    "name": "T7_OFF_TORCH"
+  },
+  {
+    "id": "T7_OFF_TORCH@1",
+    "name": "T7_OFF_TORCH"
+  },
+  {
+    "id": "T7_OFF_TORCH@2",
+    "name": "T7_OFF_TORCH"
+  },
+  {
+    "id": "T7_OFF_TORCH@3",
+    "name": "T7_OFF_TORCH"
+  },
+  {
+    "id": "T7_OFF_TORCH@4",
+    "name": "T7_OFF_TORCH"
+  },
+  {
+    "id": "T8_OFF_TORCH",
+    "name": "T8_OFF_TORCH"
+  },
+  {
+    "id": "T8_OFF_TORCH@1",
+    "name": "T8_OFF_TORCH"
+  },
+  {
+    "id": "T8_OFF_TORCH@2",
+    "name": "T8_OFF_TORCH"
+  },
+  {
+    "id": "T8_OFF_TORCH@3",
+    "name": "T8_OFF_TORCH"
+  },
+  {
+    "id": "T8_OFF_TORCH@4",
+    "name": "T8_OFF_TORCH"
+  },
+  {
+    "id": "T4_OFF_HORN_KEEPER",
+    "name": "T4_OFF_HORN_KEEPER"
+  },
+  {
+    "id": "T4_OFF_HORN_KEEPER@1",
+    "name": "T4_OFF_HORN_KEEPER"
+  },
+  {
+    "id": "T4_OFF_HORN_KEEPER@2",
+    "name": "T4_OFF_HORN_KEEPER"
+  },
+  {
+    "id": "T4_OFF_HORN_KEEPER@3",
+    "name": "T4_OFF_HORN_KEEPER"
+  },
+  {
+    "id": "T4_OFF_HORN_KEEPER@4",
+    "name": "T4_OFF_HORN_KEEPER"
+  },
+  {
+    "id": "T5_OFF_HORN_KEEPER",
+    "name": "T5_OFF_HORN_KEEPER"
+  },
+  {
+    "id": "T5_OFF_HORN_KEEPER@1",
+    "name": "T5_OFF_HORN_KEEPER"
+  },
+  {
+    "id": "T5_OFF_HORN_KEEPER@2",
+    "name": "T5_OFF_HORN_KEEPER"
+  },
+  {
+    "id": "T5_OFF_HORN_KEEPER@3",
+    "name": "T5_OFF_HORN_KEEPER"
+  },
+  {
+    "id": "T5_OFF_HORN_KEEPER@4",
+    "name": "T5_OFF_HORN_KEEPER"
+  },
+  {
+    "id": "T6_OFF_HORN_KEEPER",
+    "name": "T6_OFF_HORN_KEEPER"
+  },
+  {
+    "id": "T6_OFF_HORN_KEEPER@1",
+    "name": "T6_OFF_HORN_KEEPER"
+  },
+  {
+    "id": "T6_OFF_HORN_KEEPER@2",
+    "name": "T6_OFF_HORN_KEEPER"
+  },
+  {
+    "id": "T6_OFF_HORN_KEEPER@3",
+    "name": "T6_OFF_HORN_KEEPER"
+  },
+  {
+    "id": "T6_OFF_HORN_KEEPER@4",
+    "name": "T6_OFF_HORN_KEEPER"
+  },
+  {
+    "id": "T7_OFF_HORN_KEEPER",
+    "name": "T7_OFF_HORN_KEEPER"
+  },
+  {
+    "id": "T7_OFF_HORN_KEEPER@1",
+    "name": "T7_OFF_HORN_KEEPER"
+  },
+  {
+    "id": "T7_OFF_HORN_KEEPER@2",
+    "name": "T7_OFF_HORN_KEEPER"
+  },
+  {
+    "id": "T7_OFF_HORN_KEEPER@3",
+    "name": "T7_OFF_HORN_KEEPER"
+  },
+  {
+    "id": "T7_OFF_HORN_KEEPER@4",
+    "name": "T7_OFF_HORN_KEEPER"
+  },
+  {
+    "id": "T8_OFF_HORN_KEEPER",
+    "name": "T8_OFF_HORN_KEEPER"
+  },
+  {
+    "id": "T8_OFF_HORN_KEEPER@1",
+    "name": "T8_OFF_HORN_KEEPER"
+  },
+  {
+    "id": "T8_OFF_HORN_KEEPER@2",
+    "name": "T8_OFF_HORN_KEEPER"
+  },
+  {
+    "id": "T8_OFF_HORN_KEEPER@3",
+    "name": "T8_OFF_HORN_KEEPER"
+  },
+  {
+    "id": "T8_OFF_HORN_KEEPER@4",
+    "name": "T8_OFF_HORN_KEEPER"
+  },
+  {
+    "id": "T4_OFF_TALISMAN_AVALON",
+    "name": "T4_OFF_TALISMAN_AVALON"
+  },
+  {
+    "id": "T4_OFF_TALISMAN_AVALON@1",
+    "name": "T4_OFF_TALISMAN_AVALON"
+  },
+  {
+    "id": "T4_OFF_TALISMAN_AVALON@2",
+    "name": "T4_OFF_TALISMAN_AVALON"
+  },
+  {
+    "id": "T4_OFF_TALISMAN_AVALON@3",
+    "name": "T4_OFF_TALISMAN_AVALON"
+  },
+  {
+    "id": "T4_OFF_TALISMAN_AVALON@4",
+    "name": "T4_OFF_TALISMAN_AVALON"
+  },
+  {
+    "id": "T5_OFF_TALISMAN_AVALON",
+    "name": "T5_OFF_TALISMAN_AVALON"
+  },
+  {
+    "id": "T5_OFF_TALISMAN_AVALON@1",
+    "name": "T5_OFF_TALISMAN_AVALON"
+  },
+  {
+    "id": "T5_OFF_TALISMAN_AVALON@2",
+    "name": "T5_OFF_TALISMAN_AVALON"
+  },
+  {
+    "id": "T5_OFF_TALISMAN_AVALON@3",
+    "name": "T5_OFF_TALISMAN_AVALON"
+  },
+  {
+    "id": "T5_OFF_TALISMAN_AVALON@4",
+    "name": "T5_OFF_TALISMAN_AVALON"
+  },
+  {
+    "id": "T6_OFF_TALISMAN_AVALON",
+    "name": "T6_OFF_TALISMAN_AVALON"
+  },
+  {
+    "id": "T6_OFF_TALISMAN_AVALON@1",
+    "name": "T6_OFF_TALISMAN_AVALON"
+  },
+  {
+    "id": "T6_OFF_TALISMAN_AVALON@2",
+    "name": "T6_OFF_TALISMAN_AVALON"
+  },
+  {
+    "id": "T6_OFF_TALISMAN_AVALON@3",
+    "name": "T6_OFF_TALISMAN_AVALON"
+  },
+  {
+    "id": "T6_OFF_TALISMAN_AVALON@4",
+    "name": "T6_OFF_TALISMAN_AVALON"
+  },
+  {
+    "id": "T7_OFF_TALISMAN_AVALON",
+    "name": "T7_OFF_TALISMAN_AVALON"
+  },
+  {
+    "id": "T7_OFF_TALISMAN_AVALON@1",
+    "name": "T7_OFF_TALISMAN_AVALON"
+  },
+  {
+    "id": "T7_OFF_TALISMAN_AVALON@2",
+    "name": "T7_OFF_TALISMAN_AVALON"
+  },
+  {
+    "id": "T7_OFF_TALISMAN_AVALON@3",
+    "name": "T7_OFF_TALISMAN_AVALON"
+  },
+  {
+    "id": "T7_OFF_TALISMAN_AVALON@4",
+    "name": "T7_OFF_TALISMAN_AVALON"
+  },
+  {
+    "id": "T8_OFF_TALISMAN_AVALON",
+    "name": "T8_OFF_TALISMAN_AVALON"
+  },
+  {
+    "id": "T8_OFF_TALISMAN_AVALON@1",
+    "name": "T8_OFF_TALISMAN_AVALON"
+  },
+  {
+    "id": "T8_OFF_TALISMAN_AVALON@2",
+    "name": "T8_OFF_TALISMAN_AVALON"
+  },
+  {
+    "id": "T8_OFF_TALISMAN_AVALON@3",
+    "name": "T8_OFF_TALISMAN_AVALON"
+  },
+  {
+    "id": "T8_OFF_TALISMAN_AVALON@4",
+    "name": "T8_OFF_TALISMAN_AVALON"
+  },
+  {
+    "id": "T4_OFF_LAMP_UNDEAD",
+    "name": "T4_OFF_LAMP_UNDEAD"
+  },
+  {
+    "id": "T4_OFF_LAMP_UNDEAD@1",
+    "name": "T4_OFF_LAMP_UNDEAD"
+  },
+  {
+    "id": "T4_OFF_LAMP_UNDEAD@2",
+    "name": "T4_OFF_LAMP_UNDEAD"
+  },
+  {
+    "id": "T4_OFF_LAMP_UNDEAD@3",
+    "name": "T4_OFF_LAMP_UNDEAD"
+  },
+  {
+    "id": "T4_OFF_LAMP_UNDEAD@4",
+    "name": "T4_OFF_LAMP_UNDEAD"
+  },
+  {
+    "id": "T5_OFF_LAMP_UNDEAD",
+    "name": "T5_OFF_LAMP_UNDEAD"
+  },
+  {
+    "id": "T5_OFF_LAMP_UNDEAD@1",
+    "name": "T5_OFF_LAMP_UNDEAD"
+  },
+  {
+    "id": "T5_OFF_LAMP_UNDEAD@2",
+    "name": "T5_OFF_LAMP_UNDEAD"
+  },
+  {
+    "id": "T5_OFF_LAMP_UNDEAD@3",
+    "name": "T5_OFF_LAMP_UNDEAD"
+  },
+  {
+    "id": "T5_OFF_LAMP_UNDEAD@4",
+    "name": "T5_OFF_LAMP_UNDEAD"
+  },
+  {
+    "id": "T6_OFF_LAMP_UNDEAD",
+    "name": "T6_OFF_LAMP_UNDEAD"
+  },
+  {
+    "id": "T6_OFF_LAMP_UNDEAD@1",
+    "name": "T6_OFF_LAMP_UNDEAD"
+  },
+  {
+    "id": "T6_OFF_LAMP_UNDEAD@2",
+    "name": "T6_OFF_LAMP_UNDEAD"
+  },
+  {
+    "id": "T6_OFF_LAMP_UNDEAD@3",
+    "name": "T6_OFF_LAMP_UNDEAD"
+  },
+  {
+    "id": "T6_OFF_LAMP_UNDEAD@4",
+    "name": "T6_OFF_LAMP_UNDEAD"
+  },
+  {
+    "id": "T7_OFF_LAMP_UNDEAD",
+    "name": "T7_OFF_LAMP_UNDEAD"
+  },
+  {
+    "id": "T7_OFF_LAMP_UNDEAD@1",
+    "name": "T7_OFF_LAMP_UNDEAD"
+  },
+  {
+    "id": "T7_OFF_LAMP_UNDEAD@2",
+    "name": "T7_OFF_LAMP_UNDEAD"
+  },
+  {
+    "id": "T7_OFF_LAMP_UNDEAD@3",
+    "name": "T7_OFF_LAMP_UNDEAD"
+  },
+  {
+    "id": "T7_OFF_LAMP_UNDEAD@4",
+    "name": "T7_OFF_LAMP_UNDEAD"
+  },
+  {
+    "id": "T8_OFF_LAMP_UNDEAD",
+    "name": "T8_OFF_LAMP_UNDEAD"
+  },
+  {
+    "id": "T8_OFF_LAMP_UNDEAD@1",
+    "name": "T8_OFF_LAMP_UNDEAD"
+  },
+  {
+    "id": "T8_OFF_LAMP_UNDEAD@2",
+    "name": "T8_OFF_LAMP_UNDEAD"
+  },
+  {
+    "id": "T8_OFF_LAMP_UNDEAD@3",
+    "name": "T8_OFF_LAMP_UNDEAD"
+  },
+  {
+    "id": "T8_OFF_LAMP_UNDEAD@4",
+    "name": "T8_OFF_LAMP_UNDEAD"
+  },
+  {
+    "id": "T4_OFF_JESTERCANE_HELL",
+    "name": "T4_OFF_JESTERCANE_HELL"
+  },
+  {
+    "id": "T4_OFF_JESTERCANE_HELL@1",
+    "name": "T4_OFF_JESTERCANE_HELL"
+  },
+  {
+    "id": "T4_OFF_JESTERCANE_HELL@2",
+    "name": "T4_OFF_JESTERCANE_HELL"
+  },
+  {
+    "id": "T4_OFF_JESTERCANE_HELL@3",
+    "name": "T4_OFF_JESTERCANE_HELL"
+  },
+  {
+    "id": "T4_OFF_JESTERCANE_HELL@4",
+    "name": "T4_OFF_JESTERCANE_HELL"
+  },
+  {
+    "id": "T5_OFF_JESTERCANE_HELL",
+    "name": "T5_OFF_JESTERCANE_HELL"
+  },
+  {
+    "id": "T5_OFF_JESTERCANE_HELL@1",
+    "name": "T5_OFF_JESTERCANE_HELL"
+  },
+  {
+    "id": "T5_OFF_JESTERCANE_HELL@2",
+    "name": "T5_OFF_JESTERCANE_HELL"
+  },
+  {
+    "id": "T5_OFF_JESTERCANE_HELL@3",
+    "name": "T5_OFF_JESTERCANE_HELL"
+  },
+  {
+    "id": "T5_OFF_JESTERCANE_HELL@4",
+    "name": "T5_OFF_JESTERCANE_HELL"
+  },
+  {
+    "id": "T6_OFF_JESTERCANE_HELL",
+    "name": "T6_OFF_JESTERCANE_HELL"
+  },
+  {
+    "id": "T6_OFF_JESTERCANE_HELL@1",
+    "name": "T6_OFF_JESTERCANE_HELL"
+  },
+  {
+    "id": "T6_OFF_JESTERCANE_HELL@2",
+    "name": "T6_OFF_JESTERCANE_HELL"
+  },
+  {
+    "id": "T6_OFF_JESTERCANE_HELL@3",
+    "name": "T6_OFF_JESTERCANE_HELL"
+  },
+  {
+    "id": "T6_OFF_JESTERCANE_HELL@4",
+    "name": "T6_OFF_JESTERCANE_HELL"
+  },
+  {
+    "id": "T7_OFF_JESTERCANE_HELL",
+    "name": "T7_OFF_JESTERCANE_HELL"
+  },
+  {
+    "id": "T7_OFF_JESTERCANE_HELL@1",
+    "name": "T7_OFF_JESTERCANE_HELL"
+  },
+  {
+    "id": "T7_OFF_JESTERCANE_HELL@2",
+    "name": "T7_OFF_JESTERCANE_HELL"
+  },
+  {
+    "id": "T7_OFF_JESTERCANE_HELL@3",
+    "name": "T7_OFF_JESTERCANE_HELL"
+  },
+  {
+    "id": "T7_OFF_JESTERCANE_HELL@4",
+    "name": "T7_OFF_JESTERCANE_HELL"
+  },
+  {
+    "id": "T8_OFF_JESTERCANE_HELL",
+    "name": "T8_OFF_JESTERCANE_HELL"
+  },
+  {
+    "id": "T8_OFF_JESTERCANE_HELL@1",
+    "name": "T8_OFF_JESTERCANE_HELL"
+  },
+  {
+    "id": "T8_OFF_JESTERCANE_HELL@2",
+    "name": "T8_OFF_JESTERCANE_HELL"
+  },
+  {
+    "id": "T8_OFF_JESTERCANE_HELL@3",
+    "name": "T8_OFF_JESTERCANE_HELL"
+  },
+  {
+    "id": "T8_OFF_JESTERCANE_HELL@4",
+    "name": "T8_OFF_JESTERCANE_HELL"
+  },
+  {
+    "id": "T4_OFF_TORCH_CRYSTAL",
+    "name": "T4_OFF_TORCH_CRYSTAL"
+  },
+  {
+    "id": "T4_OFF_TORCH_CRYSTAL@1",
+    "name": "T4_OFF_TORCH_CRYSTAL"
+  },
+  {
+    "id": "T4_OFF_TORCH_CRYSTAL@2",
+    "name": "T4_OFF_TORCH_CRYSTAL"
+  },
+  {
+    "id": "T4_OFF_TORCH_CRYSTAL@3",
+    "name": "T4_OFF_TORCH_CRYSTAL"
+  },
+  {
+    "id": "T4_OFF_TORCH_CRYSTAL@4",
+    "name": "T4_OFF_TORCH_CRYSTAL"
+  },
+  {
+    "id": "T5_OFF_TORCH_CRYSTAL",
+    "name": "T5_OFF_TORCH_CRYSTAL"
+  },
+  {
+    "id": "T5_OFF_TORCH_CRYSTAL@1",
+    "name": "T5_OFF_TORCH_CRYSTAL"
+  },
+  {
+    "id": "T5_OFF_TORCH_CRYSTAL@2",
+    "name": "T5_OFF_TORCH_CRYSTAL"
+  },
+  {
+    "id": "T5_OFF_TORCH_CRYSTAL@3",
+    "name": "T5_OFF_TORCH_CRYSTAL"
+  },
+  {
+    "id": "T5_OFF_TORCH_CRYSTAL@4",
+    "name": "T5_OFF_TORCH_CRYSTAL"
+  },
+  {
+    "id": "T6_OFF_TORCH_CRYSTAL",
+    "name": "T6_OFF_TORCH_CRYSTAL"
+  },
+  {
+    "id": "T6_OFF_TORCH_CRYSTAL@1",
+    "name": "T6_OFF_TORCH_CRYSTAL"
+  },
+  {
+    "id": "T6_OFF_TORCH_CRYSTAL@2",
+    "name": "T6_OFF_TORCH_CRYSTAL"
+  },
+  {
+    "id": "T6_OFF_TORCH_CRYSTAL@3",
+    "name": "T6_OFF_TORCH_CRYSTAL"
+  },
+  {
+    "id": "T6_OFF_TORCH_CRYSTAL@4",
+    "name": "T6_OFF_TORCH_CRYSTAL"
+  },
+  {
+    "id": "T7_OFF_TORCH_CRYSTAL",
+    "name": "T7_OFF_TORCH_CRYSTAL"
+  },
+  {
+    "id": "T7_OFF_TORCH_CRYSTAL@1",
+    "name": "T7_OFF_TORCH_CRYSTAL"
+  },
+  {
+    "id": "T7_OFF_TORCH_CRYSTAL@2",
+    "name": "T7_OFF_TORCH_CRYSTAL"
+  },
+  {
+    "id": "T7_OFF_TORCH_CRYSTAL@3",
+    "name": "T7_OFF_TORCH_CRYSTAL"
+  },
+  {
+    "id": "T7_OFF_TORCH_CRYSTAL@4",
+    "name": "T7_OFF_TORCH_CRYSTAL"
+  },
+  {
+    "id": "T8_OFF_TORCH_CRYSTAL",
+    "name": "T8_OFF_TORCH_CRYSTAL"
+  },
+  {
+    "id": "T8_OFF_TORCH_CRYSTAL@1",
+    "name": "T8_OFF_TORCH_CRYSTAL"
+  },
+  {
+    "id": "T8_OFF_TORCH_CRYSTAL@2",
+    "name": "T8_OFF_TORCH_CRYSTAL"
+  },
+  {
+    "id": "T8_OFF_TORCH_CRYSTAL@3",
+    "name": "T8_OFF_TORCH_CRYSTAL"
+  },
+  {
+    "id": "T8_OFF_TORCH_CRYSTAL@4",
+    "name": "T8_OFF_TORCH_CRYSTAL"
+  },
+  {
+    "id": "UNIQUE_INTERNAL_OFF_SCROLL_GAMEMASTER",
+    "name": "UNIQUE_INTERNAL_OFF_SCROLL_GAMEMASTER"
+  },
+  {
+    "id": "UNIQUE_OFF_VANITY_WEDDING_DRESS",
+    "name": "UNIQUE_OFF_VANITY_WEDDING_DRESS"
+  },
+  {
+    "id": "UNIQUE_OFF_VANITY_WEDDING_TUXEDO",
+    "name": "UNIQUE_OFF_VANITY_WEDDING_TUXEDO"
+  },
+  {
+    "id": "UNIQUE_OFF_VANITY_PRIEST",
+    "name": "UNIQUE_OFF_VANITY_PRIEST"
+  },
+  {
+    "id": "UNIQUE_OFF_VANITY_INNKEEPER",
+    "name": "UNIQUE_OFF_VANITY_INNKEEPER"
+  },
+  {
+    "id": "UNIQUE_OFF_VANITY_PIRATE",
+    "name": "UNIQUE_OFF_VANITY_PIRATE"
+  },
+  {
+    "id": "UNIQUE_OFF_VANITY_CHARITY_MARCH2020",
+    "name": "UNIQUE_OFF_VANITY_CHARITY_MARCH2020"
+  },
+  {
+    "id": "UNIQUE_OFF_VANITY_PUMPKIN_HAPPY",
+    "name": "UNIQUE_OFF_VANITY_PUMPKIN_HAPPY"
+  },
+  {
+    "id": "UNIQUE_OFF_VANITY_PUMPKIN_SAD",
+    "name": "UNIQUE_OFF_VANITY_PUMPKIN_SAD"
+  },
+  {
+    "id": "UNIQUE_OFF_VANITY_PUMPKIN_ANGRY",
+    "name": "UNIQUE_OFF_VANITY_PUMPKIN_ANGRY"
+  },
+  {
+    "id": "UNIQUE_OFF_VANITY_PIRATE_RED",
+    "name": "UNIQUE_OFF_VANITY_PIRATE_RED"
+  },
+  {
+    "id": "UNIQUE_OFF_VANITY_PIRATE_GREEN",
+    "name": "UNIQUE_OFF_VANITY_PIRATE_GREEN"
+  },
+  {
+    "id": "UNIQUE_OFF_VANITY_PIRATE_COCKATOO",
+    "name": "UNIQUE_OFF_VANITY_PIRATE_COCKATOO"
+  },
+  {
+    "id": "UNIQUE_OFF_VANITY_PRIEST_RED",
+    "name": "UNIQUE_OFF_VANITY_PRIEST_RED"
+  }
+]

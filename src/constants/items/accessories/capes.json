@@ -1,0 +1,2102 @@
+[
+  {
+    "id": "T2_CAPE",
+    "name": "T2_CAPE"
+  },
+  {
+    "id": "T3_CAPE",
+    "name": "T3_CAPE"
+  },
+  {
+    "id": "T4_CAPE",
+    "name": "T4_CAPE"
+  },
+  {
+    "id": "T4_CAPE@1",
+    "name": "T4_CAPE"
+  },
+  {
+    "id": "T4_CAPE@2",
+    "name": "T4_CAPE"
+  },
+  {
+    "id": "T4_CAPE@3",
+    "name": "T4_CAPE"
+  },
+  {
+    "id": "T4_CAPE@4",
+    "name": "T4_CAPE"
+  },
+  {
+    "id": "T5_CAPE",
+    "name": "T5_CAPE"
+  },
+  {
+    "id": "T5_CAPE@1",
+    "name": "T5_CAPE"
+  },
+  {
+    "id": "T5_CAPE@2",
+    "name": "T5_CAPE"
+  },
+  {
+    "id": "T5_CAPE@3",
+    "name": "T5_CAPE"
+  },
+  {
+    "id": "T5_CAPE@4",
+    "name": "T5_CAPE"
+  },
+  {
+    "id": "T6_CAPE",
+    "name": "T6_CAPE"
+  },
+  {
+    "id": "T6_CAPE@1",
+    "name": "T6_CAPE"
+  },
+  {
+    "id": "T6_CAPE@2",
+    "name": "T6_CAPE"
+  },
+  {
+    "id": "T6_CAPE@3",
+    "name": "T6_CAPE"
+  },
+  {
+    "id": "T6_CAPE@4",
+    "name": "T6_CAPE"
+  },
+  {
+    "id": "T7_CAPE",
+    "name": "T7_CAPE"
+  },
+  {
+    "id": "T7_CAPE@1",
+    "name": "T7_CAPE"
+  },
+  {
+    "id": "T7_CAPE@2",
+    "name": "T7_CAPE"
+  },
+  {
+    "id": "T7_CAPE@3",
+    "name": "T7_CAPE"
+  },
+  {
+    "id": "T7_CAPE@4",
+    "name": "T7_CAPE"
+  },
+  {
+    "id": "T8_CAPE",
+    "name": "T8_CAPE"
+  },
+  {
+    "id": "T8_CAPE@1",
+    "name": "T8_CAPE"
+  },
+  {
+    "id": "T8_CAPE@2",
+    "name": "T8_CAPE"
+  },
+  {
+    "id": "T8_CAPE@3",
+    "name": "T8_CAPE"
+  },
+  {
+    "id": "T8_CAPE@4",
+    "name": "T8_CAPE"
+  },
+  {
+    "id": "T4_CAPEITEM_FW_BRIDGEWATCH",
+    "name": "T4_CAPEITEM_FW_BRIDGEWATCH"
+  },
+  {
+    "id": "T4_CAPEITEM_FW_BRIDGEWATCH@1",
+    "name": "T4_CAPEITEM_FW_BRIDGEWATCH"
+  },
+  {
+    "id": "T4_CAPEITEM_FW_BRIDGEWATCH@2",
+    "name": "T4_CAPEITEM_FW_BRIDGEWATCH"
+  },
+  {
+    "id": "T4_CAPEITEM_FW_BRIDGEWATCH@3",
+    "name": "T4_CAPEITEM_FW_BRIDGEWATCH"
+  },
+  {
+    "id": "T4_CAPEITEM_FW_BRIDGEWATCH@4",
+    "name": "T4_CAPEITEM_FW_BRIDGEWATCH"
+  },
+  {
+    "id": "T5_CAPEITEM_FW_BRIDGEWATCH",
+    "name": "T5_CAPEITEM_FW_BRIDGEWATCH"
+  },
+  {
+    "id": "T5_CAPEITEM_FW_BRIDGEWATCH@1",
+    "name": "T5_CAPEITEM_FW_BRIDGEWATCH"
+  },
+  {
+    "id": "T5_CAPEITEM_FW_BRIDGEWATCH@2",
+    "name": "T5_CAPEITEM_FW_BRIDGEWATCH"
+  },
+  {
+    "id": "T5_CAPEITEM_FW_BRIDGEWATCH@3",
+    "name": "T5_CAPEITEM_FW_BRIDGEWATCH"
+  },
+  {
+    "id": "T5_CAPEITEM_FW_BRIDGEWATCH@4",
+    "name": "T5_CAPEITEM_FW_BRIDGEWATCH"
+  },
+  {
+    "id": "T6_CAPEITEM_FW_BRIDGEWATCH",
+    "name": "T6_CAPEITEM_FW_BRIDGEWATCH"
+  },
+  {
+    "id": "T6_CAPEITEM_FW_BRIDGEWATCH@1",
+    "name": "T6_CAPEITEM_FW_BRIDGEWATCH"
+  },
+  {
+    "id": "T6_CAPEITEM_FW_BRIDGEWATCH@2",
+    "name": "T6_CAPEITEM_FW_BRIDGEWATCH"
+  },
+  {
+    "id": "T6_CAPEITEM_FW_BRIDGEWATCH@3",
+    "name": "T6_CAPEITEM_FW_BRIDGEWATCH"
+  },
+  {
+    "id": "T6_CAPEITEM_FW_BRIDGEWATCH@4",
+    "name": "T6_CAPEITEM_FW_BRIDGEWATCH"
+  },
+  {
+    "id": "T7_CAPEITEM_FW_BRIDGEWATCH",
+    "name": "T7_CAPEITEM_FW_BRIDGEWATCH"
+  },
+  {
+    "id": "T7_CAPEITEM_FW_BRIDGEWATCH@1",
+    "name": "T7_CAPEITEM_FW_BRIDGEWATCH"
+  },
+  {
+    "id": "T7_CAPEITEM_FW_BRIDGEWATCH@2",
+    "name": "T7_CAPEITEM_FW_BRIDGEWATCH"
+  },
+  {
+    "id": "T7_CAPEITEM_FW_BRIDGEWATCH@3",
+    "name": "T7_CAPEITEM_FW_BRIDGEWATCH"
+  },
+  {
+    "id": "T7_CAPEITEM_FW_BRIDGEWATCH@4",
+    "name": "T7_CAPEITEM_FW_BRIDGEWATCH"
+  },
+  {
+    "id": "T8_CAPEITEM_FW_BRIDGEWATCH",
+    "name": "T8_CAPEITEM_FW_BRIDGEWATCH"
+  },
+  {
+    "id": "T8_CAPEITEM_FW_BRIDGEWATCH@1",
+    "name": "T8_CAPEITEM_FW_BRIDGEWATCH"
+  },
+  {
+    "id": "T8_CAPEITEM_FW_BRIDGEWATCH@2",
+    "name": "T8_CAPEITEM_FW_BRIDGEWATCH"
+  },
+  {
+    "id": "T8_CAPEITEM_FW_BRIDGEWATCH@3",
+    "name": "T8_CAPEITEM_FW_BRIDGEWATCH"
+  },
+  {
+    "id": "T8_CAPEITEM_FW_BRIDGEWATCH@4",
+    "name": "T8_CAPEITEM_FW_BRIDGEWATCH"
+  },
+  {
+    "id": "T4_CAPEITEM_FW_FORTSTERLING",
+    "name": "T4_CAPEITEM_FW_FORTSTERLING"
+  },
+  {
+    "id": "T4_CAPEITEM_FW_FORTSTERLING@1",
+    "name": "T4_CAPEITEM_FW_FORTSTERLING"
+  },
+  {
+    "id": "T4_CAPEITEM_FW_FORTSTERLING@2",
+    "name": "T4_CAPEITEM_FW_FORTSTERLING"
+  },
+  {
+    "id": "T4_CAPEITEM_FW_FORTSTERLING@3",
+    "name": "T4_CAPEITEM_FW_FORTSTERLING"
+  },
+  {
+    "id": "T4_CAPEITEM_FW_FORTSTERLING@4",
+    "name": "T4_CAPEITEM_FW_FORTSTERLING"
+  },
+  {
+    "id": "T5_CAPEITEM_FW_FORTSTERLING",
+    "name": "T5_CAPEITEM_FW_FORTSTERLING"
+  },
+  {
+    "id": "T5_CAPEITEM_FW_FORTSTERLING@1",
+    "name": "T5_CAPEITEM_FW_FORTSTERLING"
+  },
+  {
+    "id": "T5_CAPEITEM_FW_FORTSTERLING@2",
+    "name": "T5_CAPEITEM_FW_FORTSTERLING"
+  },
+  {
+    "id": "T5_CAPEITEM_FW_FORTSTERLING@3",
+    "name": "T5_CAPEITEM_FW_FORTSTERLING"
+  },
+  {
+    "id": "T5_CAPEITEM_FW_FORTSTERLING@4",
+    "name": "T5_CAPEITEM_FW_FORTSTERLING"
+  },
+  {
+    "id": "T6_CAPEITEM_FW_FORTSTERLING",
+    "name": "T6_CAPEITEM_FW_FORTSTERLING"
+  },
+  {
+    "id": "T6_CAPEITEM_FW_FORTSTERLING@1",
+    "name": "T6_CAPEITEM_FW_FORTSTERLING"
+  },
+  {
+    "id": "T6_CAPEITEM_FW_FORTSTERLING@2",
+    "name": "T6_CAPEITEM_FW_FORTSTERLING"
+  },
+  {
+    "id": "T6_CAPEITEM_FW_FORTSTERLING@3",
+    "name": "T6_CAPEITEM_FW_FORTSTERLING"
+  },
+  {
+    "id": "T6_CAPEITEM_FW_FORTSTERLING@4",
+    "name": "T6_CAPEITEM_FW_FORTSTERLING"
+  },
+  {
+    "id": "T7_CAPEITEM_FW_FORTSTERLING",
+    "name": "T7_CAPEITEM_FW_FORTSTERLING"
+  },
+  {
+    "id": "T7_CAPEITEM_FW_FORTSTERLING@1",
+    "name": "T7_CAPEITEM_FW_FORTSTERLING"
+  },
+  {
+    "id": "T7_CAPEITEM_FW_FORTSTERLING@2",
+    "name": "T7_CAPEITEM_FW_FORTSTERLING"
+  },
+  {
+    "id": "T7_CAPEITEM_FW_FORTSTERLING@3",
+    "name": "T7_CAPEITEM_FW_FORTSTERLING"
+  },
+  {
+    "id": "T7_CAPEITEM_FW_FORTSTERLING@4",
+    "name": "T7_CAPEITEM_FW_FORTSTERLING"
+  },
+  {
+    "id": "T8_CAPEITEM_FW_FORTSTERLING",
+    "name": "T8_CAPEITEM_FW_FORTSTERLING"
+  },
+  {
+    "id": "T8_CAPEITEM_FW_FORTSTERLING@1",
+    "name": "T8_CAPEITEM_FW_FORTSTERLING"
+  },
+  {
+    "id": "T8_CAPEITEM_FW_FORTSTERLING@2",
+    "name": "T8_CAPEITEM_FW_FORTSTERLING"
+  },
+  {
+    "id": "T8_CAPEITEM_FW_FORTSTERLING@3",
+    "name": "T8_CAPEITEM_FW_FORTSTERLING"
+  },
+  {
+    "id": "T8_CAPEITEM_FW_FORTSTERLING@4",
+    "name": "T8_CAPEITEM_FW_FORTSTERLING"
+  },
+  {
+    "id": "T4_CAPEITEM_FW_LYMHURST",
+    "name": "T4_CAPEITEM_FW_LYMHURST"
+  },
+  {
+    "id": "T4_CAPEITEM_FW_LYMHURST@1",
+    "name": "T4_CAPEITEM_FW_LYMHURST"
+  },
+  {
+    "id": "T4_CAPEITEM_FW_LYMHURST@2",
+    "name": "T4_CAPEITEM_FW_LYMHURST"
+  },
+  {
+    "id": "T4_CAPEITEM_FW_LYMHURST@3",
+    "name": "T4_CAPEITEM_FW_LYMHURST"
+  },
+  {
+    "id": "T4_CAPEITEM_FW_LYMHURST@4",
+    "name": "T4_CAPEITEM_FW_LYMHURST"
+  },
+  {
+    "id": "T5_CAPEITEM_FW_LYMHURST",
+    "name": "T5_CAPEITEM_FW_LYMHURST"
+  },
+  {
+    "id": "T5_CAPEITEM_FW_LYMHURST@1",
+    "name": "T5_CAPEITEM_FW_LYMHURST"
+  },
+  {
+    "id": "T5_CAPEITEM_FW_LYMHURST@2",
+    "name": "T5_CAPEITEM_FW_LYMHURST"
+  },
+  {
+    "id": "T5_CAPEITEM_FW_LYMHURST@3",
+    "name": "T5_CAPEITEM_FW_LYMHURST"
+  },
+  {
+    "id": "T5_CAPEITEM_FW_LYMHURST@4",
+    "name": "T5_CAPEITEM_FW_LYMHURST"
+  },
+  {
+    "id": "T6_CAPEITEM_FW_LYMHURST",
+    "name": "T6_CAPEITEM_FW_LYMHURST"
+  },
+  {
+    "id": "T6_CAPEITEM_FW_LYMHURST@1",
+    "name": "T6_CAPEITEM_FW_LYMHURST"
+  },
+  {
+    "id": "T6_CAPEITEM_FW_LYMHURST@2",
+    "name": "T6_CAPEITEM_FW_LYMHURST"
+  },
+  {
+    "id": "T6_CAPEITEM_FW_LYMHURST@3",
+    "name": "T6_CAPEITEM_FW_LYMHURST"
+  },
+  {
+    "id": "T6_CAPEITEM_FW_LYMHURST@4",
+    "name": "T6_CAPEITEM_FW_LYMHURST"
+  },
+  {
+    "id": "T7_CAPEITEM_FW_LYMHURST",
+    "name": "T7_CAPEITEM_FW_LYMHURST"
+  },
+  {
+    "id": "T7_CAPEITEM_FW_LYMHURST@1",
+    "name": "T7_CAPEITEM_FW_LYMHURST"
+  },
+  {
+    "id": "T7_CAPEITEM_FW_LYMHURST@2",
+    "name": "T7_CAPEITEM_FW_LYMHURST"
+  },
+  {
+    "id": "T7_CAPEITEM_FW_LYMHURST@3",
+    "name": "T7_CAPEITEM_FW_LYMHURST"
+  },
+  {
+    "id": "T7_CAPEITEM_FW_LYMHURST@4",
+    "name": "T7_CAPEITEM_FW_LYMHURST"
+  },
+  {
+    "id": "T8_CAPEITEM_FW_LYMHURST",
+    "name": "T8_CAPEITEM_FW_LYMHURST"
+  },
+  {
+    "id": "T8_CAPEITEM_FW_LYMHURST@1",
+    "name": "T8_CAPEITEM_FW_LYMHURST"
+  },
+  {
+    "id": "T8_CAPEITEM_FW_LYMHURST@2",
+    "name": "T8_CAPEITEM_FW_LYMHURST"
+  },
+  {
+    "id": "T8_CAPEITEM_FW_LYMHURST@3",
+    "name": "T8_CAPEITEM_FW_LYMHURST"
+  },
+  {
+    "id": "T8_CAPEITEM_FW_LYMHURST@4",
+    "name": "T8_CAPEITEM_FW_LYMHURST"
+  },
+  {
+    "id": "T4_CAPEITEM_FW_MARTLOCK",
+    "name": "T4_CAPEITEM_FW_MARTLOCK"
+  },
+  {
+    "id": "T4_CAPEITEM_FW_MARTLOCK@1",
+    "name": "T4_CAPEITEM_FW_MARTLOCK"
+  },
+  {
+    "id": "T4_CAPEITEM_FW_MARTLOCK@2",
+    "name": "T4_CAPEITEM_FW_MARTLOCK"
+  },
+  {
+    "id": "T4_CAPEITEM_FW_MARTLOCK@3",
+    "name": "T4_CAPEITEM_FW_MARTLOCK"
+  },
+  {
+    "id": "T4_CAPEITEM_FW_MARTLOCK@4",
+    "name": "T4_CAPEITEM_FW_MARTLOCK"
+  },
+  {
+    "id": "T5_CAPEITEM_FW_MARTLOCK",
+    "name": "T5_CAPEITEM_FW_MARTLOCK"
+  },
+  {
+    "id": "T5_CAPEITEM_FW_MARTLOCK@1",
+    "name": "T5_CAPEITEM_FW_MARTLOCK"
+  },
+  {
+    "id": "T5_CAPEITEM_FW_MARTLOCK@2",
+    "name": "T5_CAPEITEM_FW_MARTLOCK"
+  },
+  {
+    "id": "T5_CAPEITEM_FW_MARTLOCK@3",
+    "name": "T5_CAPEITEM_FW_MARTLOCK"
+  },
+  {
+    "id": "T5_CAPEITEM_FW_MARTLOCK@4",
+    "name": "T5_CAPEITEM_FW_MARTLOCK"
+  },
+  {
+    "id": "T6_CAPEITEM_FW_MARTLOCK",
+    "name": "T6_CAPEITEM_FW_MARTLOCK"
+  },
+  {
+    "id": "T6_CAPEITEM_FW_MARTLOCK@1",
+    "name": "T6_CAPEITEM_FW_MARTLOCK"
+  },
+  {
+    "id": "T6_CAPEITEM_FW_MARTLOCK@2",
+    "name": "T6_CAPEITEM_FW_MARTLOCK"
+  },
+  {
+    "id": "T6_CAPEITEM_FW_MARTLOCK@3",
+    "name": "T6_CAPEITEM_FW_MARTLOCK"
+  },
+  {
+    "id": "T6_CAPEITEM_FW_MARTLOCK@4",
+    "name": "T6_CAPEITEM_FW_MARTLOCK"
+  },
+  {
+    "id": "T7_CAPEITEM_FW_MARTLOCK",
+    "name": "T7_CAPEITEM_FW_MARTLOCK"
+  },
+  {
+    "id": "T7_CAPEITEM_FW_MARTLOCK@1",
+    "name": "T7_CAPEITEM_FW_MARTLOCK"
+  },
+  {
+    "id": "T7_CAPEITEM_FW_MARTLOCK@2",
+    "name": "T7_CAPEITEM_FW_MARTLOCK"
+  },
+  {
+    "id": "T7_CAPEITEM_FW_MARTLOCK@3",
+    "name": "T7_CAPEITEM_FW_MARTLOCK"
+  },
+  {
+    "id": "T7_CAPEITEM_FW_MARTLOCK@4",
+    "name": "T7_CAPEITEM_FW_MARTLOCK"
+  },
+  {
+    "id": "T8_CAPEITEM_FW_MARTLOCK",
+    "name": "T8_CAPEITEM_FW_MARTLOCK"
+  },
+  {
+    "id": "T8_CAPEITEM_FW_MARTLOCK@1",
+    "name": "T8_CAPEITEM_FW_MARTLOCK"
+  },
+  {
+    "id": "T8_CAPEITEM_FW_MARTLOCK@2",
+    "name": "T8_CAPEITEM_FW_MARTLOCK"
+  },
+  {
+    "id": "T8_CAPEITEM_FW_MARTLOCK@3",
+    "name": "T8_CAPEITEM_FW_MARTLOCK"
+  },
+  {
+    "id": "T8_CAPEITEM_FW_MARTLOCK@4",
+    "name": "T8_CAPEITEM_FW_MARTLOCK"
+  },
+  {
+    "id": "T4_CAPEITEM_FW_THETFORD",
+    "name": "T4_CAPEITEM_FW_THETFORD"
+  },
+  {
+    "id": "T4_CAPEITEM_FW_THETFORD@1",
+    "name": "T4_CAPEITEM_FW_THETFORD"
+  },
+  {
+    "id": "T4_CAPEITEM_FW_THETFORD@2",
+    "name": "T4_CAPEITEM_FW_THETFORD"
+  },
+  {
+    "id": "T4_CAPEITEM_FW_THETFORD@3",
+    "name": "T4_CAPEITEM_FW_THETFORD"
+  },
+  {
+    "id": "T4_CAPEITEM_FW_THETFORD@4",
+    "name": "T4_CAPEITEM_FW_THETFORD"
+  },
+  {
+    "id": "T5_CAPEITEM_FW_THETFORD",
+    "name": "T5_CAPEITEM_FW_THETFORD"
+  },
+  {
+    "id": "T5_CAPEITEM_FW_THETFORD@1",
+    "name": "T5_CAPEITEM_FW_THETFORD"
+  },
+  {
+    "id": "T5_CAPEITEM_FW_THETFORD@2",
+    "name": "T5_CAPEITEM_FW_THETFORD"
+  },
+  {
+    "id": "T5_CAPEITEM_FW_THETFORD@3",
+    "name": "T5_CAPEITEM_FW_THETFORD"
+  },
+  {
+    "id": "T5_CAPEITEM_FW_THETFORD@4",
+    "name": "T5_CAPEITEM_FW_THETFORD"
+  },
+  {
+    "id": "T6_CAPEITEM_FW_THETFORD",
+    "name": "T6_CAPEITEM_FW_THETFORD"
+  },
+  {
+    "id": "T6_CAPEITEM_FW_THETFORD@1",
+    "name": "T6_CAPEITEM_FW_THETFORD"
+  },
+  {
+    "id": "T6_CAPEITEM_FW_THETFORD@2",
+    "name": "T6_CAPEITEM_FW_THETFORD"
+  },
+  {
+    "id": "T6_CAPEITEM_FW_THETFORD@3",
+    "name": "T6_CAPEITEM_FW_THETFORD"
+  },
+  {
+    "id": "T6_CAPEITEM_FW_THETFORD@4",
+    "name": "T6_CAPEITEM_FW_THETFORD"
+  },
+  {
+    "id": "T7_CAPEITEM_FW_THETFORD",
+    "name": "T7_CAPEITEM_FW_THETFORD"
+  },
+  {
+    "id": "T7_CAPEITEM_FW_THETFORD@1",
+    "name": "T7_CAPEITEM_FW_THETFORD"
+  },
+  {
+    "id": "T7_CAPEITEM_FW_THETFORD@2",
+    "name": "T7_CAPEITEM_FW_THETFORD"
+  },
+  {
+    "id": "T7_CAPEITEM_FW_THETFORD@3",
+    "name": "T7_CAPEITEM_FW_THETFORD"
+  },
+  {
+    "id": "T7_CAPEITEM_FW_THETFORD@4",
+    "name": "T7_CAPEITEM_FW_THETFORD"
+  },
+  {
+    "id": "T8_CAPEITEM_FW_THETFORD",
+    "name": "T8_CAPEITEM_FW_THETFORD"
+  },
+  {
+    "id": "T8_CAPEITEM_FW_THETFORD@1",
+    "name": "T8_CAPEITEM_FW_THETFORD"
+  },
+  {
+    "id": "T8_CAPEITEM_FW_THETFORD@2",
+    "name": "T8_CAPEITEM_FW_THETFORD"
+  },
+  {
+    "id": "T8_CAPEITEM_FW_THETFORD@3",
+    "name": "T8_CAPEITEM_FW_THETFORD"
+  },
+  {
+    "id": "T8_CAPEITEM_FW_THETFORD@4",
+    "name": "T8_CAPEITEM_FW_THETFORD"
+  },
+  {
+    "id": "T4_CAPEITEM_FW_CAERLEON",
+    "name": "T4_CAPEITEM_FW_CAERLEON"
+  },
+  {
+    "id": "T4_CAPEITEM_FW_CAERLEON@1",
+    "name": "T4_CAPEITEM_FW_CAERLEON"
+  },
+  {
+    "id": "T4_CAPEITEM_FW_CAERLEON@2",
+    "name": "T4_CAPEITEM_FW_CAERLEON"
+  },
+  {
+    "id": "T4_CAPEITEM_FW_CAERLEON@3",
+    "name": "T4_CAPEITEM_FW_CAERLEON"
+  },
+  {
+    "id": "T4_CAPEITEM_FW_CAERLEON@4",
+    "name": "T4_CAPEITEM_FW_CAERLEON"
+  },
+  {
+    "id": "T5_CAPEITEM_FW_CAERLEON",
+    "name": "T5_CAPEITEM_FW_CAERLEON"
+  },
+  {
+    "id": "T5_CAPEITEM_FW_CAERLEON@1",
+    "name": "T5_CAPEITEM_FW_CAERLEON"
+  },
+  {
+    "id": "T5_CAPEITEM_FW_CAERLEON@2",
+    "name": "T5_CAPEITEM_FW_CAERLEON"
+  },
+  {
+    "id": "T5_CAPEITEM_FW_CAERLEON@3",
+    "name": "T5_CAPEITEM_FW_CAERLEON"
+  },
+  {
+    "id": "T5_CAPEITEM_FW_CAERLEON@4",
+    "name": "T5_CAPEITEM_FW_CAERLEON"
+  },
+  {
+    "id": "T6_CAPEITEM_FW_CAERLEON",
+    "name": "T6_CAPEITEM_FW_CAERLEON"
+  },
+  {
+    "id": "T6_CAPEITEM_FW_CAERLEON@1",
+    "name": "T6_CAPEITEM_FW_CAERLEON"
+  },
+  {
+    "id": "T6_CAPEITEM_FW_CAERLEON@2",
+    "name": "T6_CAPEITEM_FW_CAERLEON"
+  },
+  {
+    "id": "T6_CAPEITEM_FW_CAERLEON@3",
+    "name": "T6_CAPEITEM_FW_CAERLEON"
+  },
+  {
+    "id": "T6_CAPEITEM_FW_CAERLEON@4",
+    "name": "T6_CAPEITEM_FW_CAERLEON"
+  },
+  {
+    "id": "T7_CAPEITEM_FW_CAERLEON",
+    "name": "T7_CAPEITEM_FW_CAERLEON"
+  },
+  {
+    "id": "T7_CAPEITEM_FW_CAERLEON@1",
+    "name": "T7_CAPEITEM_FW_CAERLEON"
+  },
+  {
+    "id": "T7_CAPEITEM_FW_CAERLEON@2",
+    "name": "T7_CAPEITEM_FW_CAERLEON"
+  },
+  {
+    "id": "T7_CAPEITEM_FW_CAERLEON@3",
+    "name": "T7_CAPEITEM_FW_CAERLEON"
+  },
+  {
+    "id": "T7_CAPEITEM_FW_CAERLEON@4",
+    "name": "T7_CAPEITEM_FW_CAERLEON"
+  },
+  {
+    "id": "T8_CAPEITEM_FW_CAERLEON",
+    "name": "T8_CAPEITEM_FW_CAERLEON"
+  },
+  {
+    "id": "T8_CAPEITEM_FW_CAERLEON@1",
+    "name": "T8_CAPEITEM_FW_CAERLEON"
+  },
+  {
+    "id": "T8_CAPEITEM_FW_CAERLEON@2",
+    "name": "T8_CAPEITEM_FW_CAERLEON"
+  },
+  {
+    "id": "T8_CAPEITEM_FW_CAERLEON@3",
+    "name": "T8_CAPEITEM_FW_CAERLEON"
+  },
+  {
+    "id": "T8_CAPEITEM_FW_CAERLEON@4",
+    "name": "T8_CAPEITEM_FW_CAERLEON"
+  },
+  {
+    "id": "T4_CAPEITEM_FW_BRECILIEN",
+    "name": "T4_CAPEITEM_FW_BRECILIEN"
+  },
+  {
+    "id": "T4_CAPEITEM_FW_BRECILIEN@1",
+    "name": "T4_CAPEITEM_FW_BRECILIEN"
+  },
+  {
+    "id": "T4_CAPEITEM_FW_BRECILIEN@2",
+    "name": "T4_CAPEITEM_FW_BRECILIEN"
+  },
+  {
+    "id": "T4_CAPEITEM_FW_BRECILIEN@3",
+    "name": "T4_CAPEITEM_FW_BRECILIEN"
+  },
+  {
+    "id": "T4_CAPEITEM_FW_BRECILIEN@4",
+    "name": "T4_CAPEITEM_FW_BRECILIEN"
+  },
+  {
+    "id": "T5_CAPEITEM_FW_BRECILIEN",
+    "name": "T5_CAPEITEM_FW_BRECILIEN"
+  },
+  {
+    "id": "T5_CAPEITEM_FW_BRECILIEN@1",
+    "name": "T5_CAPEITEM_FW_BRECILIEN"
+  },
+  {
+    "id": "T5_CAPEITEM_FW_BRECILIEN@2",
+    "name": "T5_CAPEITEM_FW_BRECILIEN"
+  },
+  {
+    "id": "T5_CAPEITEM_FW_BRECILIEN@3",
+    "name": "T5_CAPEITEM_FW_BRECILIEN"
+  },
+  {
+    "id": "T5_CAPEITEM_FW_BRECILIEN@4",
+    "name": "T5_CAPEITEM_FW_BRECILIEN"
+  },
+  {
+    "id": "T6_CAPEITEM_FW_BRECILIEN",
+    "name": "T6_CAPEITEM_FW_BRECILIEN"
+  },
+  {
+    "id": "T6_CAPEITEM_FW_BRECILIEN@1",
+    "name": "T6_CAPEITEM_FW_BRECILIEN"
+  },
+  {
+    "id": "T6_CAPEITEM_FW_BRECILIEN@2",
+    "name": "T6_CAPEITEM_FW_BRECILIEN"
+  },
+  {
+    "id": "T6_CAPEITEM_FW_BRECILIEN@3",
+    "name": "T6_CAPEITEM_FW_BRECILIEN"
+  },
+  {
+    "id": "T6_CAPEITEM_FW_BRECILIEN@4",
+    "name": "T6_CAPEITEM_FW_BRECILIEN"
+  },
+  {
+    "id": "T7_CAPEITEM_FW_BRECILIEN",
+    "name": "T7_CAPEITEM_FW_BRECILIEN"
+  },
+  {
+    "id": "T7_CAPEITEM_FW_BRECILIEN@1",
+    "name": "T7_CAPEITEM_FW_BRECILIEN"
+  },
+  {
+    "id": "T7_CAPEITEM_FW_BRECILIEN@2",
+    "name": "T7_CAPEITEM_FW_BRECILIEN"
+  },
+  {
+    "id": "T7_CAPEITEM_FW_BRECILIEN@3",
+    "name": "T7_CAPEITEM_FW_BRECILIEN"
+  },
+  {
+    "id": "T7_CAPEITEM_FW_BRECILIEN@4",
+    "name": "T7_CAPEITEM_FW_BRECILIEN"
+  },
+  {
+    "id": "T8_CAPEITEM_FW_BRECILIEN",
+    "name": "T8_CAPEITEM_FW_BRECILIEN"
+  },
+  {
+    "id": "T8_CAPEITEM_FW_BRECILIEN@1",
+    "name": "T8_CAPEITEM_FW_BRECILIEN"
+  },
+  {
+    "id": "T8_CAPEITEM_FW_BRECILIEN@2",
+    "name": "T8_CAPEITEM_FW_BRECILIEN"
+  },
+  {
+    "id": "T8_CAPEITEM_FW_BRECILIEN@3",
+    "name": "T8_CAPEITEM_FW_BRECILIEN"
+  },
+  {
+    "id": "T8_CAPEITEM_FW_BRECILIEN@4",
+    "name": "T8_CAPEITEM_FW_BRECILIEN"
+  },
+  {
+    "id": "T4_CAPEITEM_AVALON",
+    "name": "T4_CAPEITEM_AVALON"
+  },
+  {
+    "id": "T4_CAPEITEM_AVALON@1",
+    "name": "T4_CAPEITEM_AVALON"
+  },
+  {
+    "id": "T4_CAPEITEM_AVALON@2",
+    "name": "T4_CAPEITEM_AVALON"
+  },
+  {
+    "id": "T4_CAPEITEM_AVALON@3",
+    "name": "T4_CAPEITEM_AVALON"
+  },
+  {
+    "id": "T4_CAPEITEM_AVALON@4",
+    "name": "T4_CAPEITEM_AVALON"
+  },
+  {
+    "id": "T5_CAPEITEM_AVALON",
+    "name": "T5_CAPEITEM_AVALON"
+  },
+  {
+    "id": "T5_CAPEITEM_AVALON@1",
+    "name": "T5_CAPEITEM_AVALON"
+  },
+  {
+    "id": "T5_CAPEITEM_AVALON@2",
+    "name": "T5_CAPEITEM_AVALON"
+  },
+  {
+    "id": "T5_CAPEITEM_AVALON@3",
+    "name": "T5_CAPEITEM_AVALON"
+  },
+  {
+    "id": "T5_CAPEITEM_AVALON@4",
+    "name": "T5_CAPEITEM_AVALON"
+  },
+  {
+    "id": "T6_CAPEITEM_AVALON",
+    "name": "T6_CAPEITEM_AVALON"
+  },
+  {
+    "id": "T6_CAPEITEM_AVALON@1",
+    "name": "T6_CAPEITEM_AVALON"
+  },
+  {
+    "id": "T6_CAPEITEM_AVALON@2",
+    "name": "T6_CAPEITEM_AVALON"
+  },
+  {
+    "id": "T6_CAPEITEM_AVALON@3",
+    "name": "T6_CAPEITEM_AVALON"
+  },
+  {
+    "id": "T6_CAPEITEM_AVALON@4",
+    "name": "T6_CAPEITEM_AVALON"
+  },
+  {
+    "id": "T7_CAPEITEM_AVALON",
+    "name": "T7_CAPEITEM_AVALON"
+  },
+  {
+    "id": "T7_CAPEITEM_AVALON@1",
+    "name": "T7_CAPEITEM_AVALON"
+  },
+  {
+    "id": "T7_CAPEITEM_AVALON@2",
+    "name": "T7_CAPEITEM_AVALON"
+  },
+  {
+    "id": "T7_CAPEITEM_AVALON@3",
+    "name": "T7_CAPEITEM_AVALON"
+  },
+  {
+    "id": "T7_CAPEITEM_AVALON@4",
+    "name": "T7_CAPEITEM_AVALON"
+  },
+  {
+    "id": "T8_CAPEITEM_AVALON",
+    "name": "T8_CAPEITEM_AVALON"
+  },
+  {
+    "id": "T8_CAPEITEM_AVALON@1",
+    "name": "T8_CAPEITEM_AVALON"
+  },
+  {
+    "id": "T8_CAPEITEM_AVALON@2",
+    "name": "T8_CAPEITEM_AVALON"
+  },
+  {
+    "id": "T8_CAPEITEM_AVALON@3",
+    "name": "T8_CAPEITEM_AVALON"
+  },
+  {
+    "id": "T8_CAPEITEM_AVALON@4",
+    "name": "T8_CAPEITEM_AVALON"
+  },
+  {
+    "id": "T4_CAPEITEM_SMUGGLER",
+    "name": "T4_CAPEITEM_SMUGGLER"
+  },
+  {
+    "id": "T4_CAPEITEM_SMUGGLER@1",
+    "name": "T4_CAPEITEM_SMUGGLER"
+  },
+  {
+    "id": "T4_CAPEITEM_SMUGGLER@2",
+    "name": "T4_CAPEITEM_SMUGGLER"
+  },
+  {
+    "id": "T4_CAPEITEM_SMUGGLER@3",
+    "name": "T4_CAPEITEM_SMUGGLER"
+  },
+  {
+    "id": "T4_CAPEITEM_SMUGGLER@4",
+    "name": "T4_CAPEITEM_SMUGGLER"
+  },
+  {
+    "id": "T5_CAPEITEM_SMUGGLER",
+    "name": "T5_CAPEITEM_SMUGGLER"
+  },
+  {
+    "id": "T5_CAPEITEM_SMUGGLER@1",
+    "name": "T5_CAPEITEM_SMUGGLER"
+  },
+  {
+    "id": "T5_CAPEITEM_SMUGGLER@2",
+    "name": "T5_CAPEITEM_SMUGGLER"
+  },
+  {
+    "id": "T5_CAPEITEM_SMUGGLER@3",
+    "name": "T5_CAPEITEM_SMUGGLER"
+  },
+  {
+    "id": "T5_CAPEITEM_SMUGGLER@4",
+    "name": "T5_CAPEITEM_SMUGGLER"
+  },
+  {
+    "id": "T6_CAPEITEM_SMUGGLER",
+    "name": "T6_CAPEITEM_SMUGGLER"
+  },
+  {
+    "id": "T6_CAPEITEM_SMUGGLER@1",
+    "name": "T6_CAPEITEM_SMUGGLER"
+  },
+  {
+    "id": "T6_CAPEITEM_SMUGGLER@2",
+    "name": "T6_CAPEITEM_SMUGGLER"
+  },
+  {
+    "id": "T6_CAPEITEM_SMUGGLER@3",
+    "name": "T6_CAPEITEM_SMUGGLER"
+  },
+  {
+    "id": "T6_CAPEITEM_SMUGGLER@4",
+    "name": "T6_CAPEITEM_SMUGGLER"
+  },
+  {
+    "id": "T7_CAPEITEM_SMUGGLER",
+    "name": "T7_CAPEITEM_SMUGGLER"
+  },
+  {
+    "id": "T7_CAPEITEM_SMUGGLER@1",
+    "name": "T7_CAPEITEM_SMUGGLER"
+  },
+  {
+    "id": "T7_CAPEITEM_SMUGGLER@2",
+    "name": "T7_CAPEITEM_SMUGGLER"
+  },
+  {
+    "id": "T7_CAPEITEM_SMUGGLER@3",
+    "name": "T7_CAPEITEM_SMUGGLER"
+  },
+  {
+    "id": "T7_CAPEITEM_SMUGGLER@4",
+    "name": "T7_CAPEITEM_SMUGGLER"
+  },
+  {
+    "id": "T8_CAPEITEM_SMUGGLER",
+    "name": "T8_CAPEITEM_SMUGGLER"
+  },
+  {
+    "id": "T8_CAPEITEM_SMUGGLER@1",
+    "name": "T8_CAPEITEM_SMUGGLER"
+  },
+  {
+    "id": "T8_CAPEITEM_SMUGGLER@2",
+    "name": "T8_CAPEITEM_SMUGGLER"
+  },
+  {
+    "id": "T8_CAPEITEM_SMUGGLER@3",
+    "name": "T8_CAPEITEM_SMUGGLER"
+  },
+  {
+    "id": "T8_CAPEITEM_SMUGGLER@4",
+    "name": "T8_CAPEITEM_SMUGGLER"
+  },
+  {
+    "id": "T4_CAPEITEM_HERETIC",
+    "name": "T4_CAPEITEM_HERETIC"
+  },
+  {
+    "id": "T4_CAPEITEM_HERETIC@1",
+    "name": "T4_CAPEITEM_HERETIC"
+  },
+  {
+    "id": "T4_CAPEITEM_HERETIC@2",
+    "name": "T4_CAPEITEM_HERETIC"
+  },
+  {
+    "id": "T4_CAPEITEM_HERETIC@3",
+    "name": "T4_CAPEITEM_HERETIC"
+  },
+  {
+    "id": "T4_CAPEITEM_HERETIC@4",
+    "name": "T4_CAPEITEM_HERETIC"
+  },
+  {
+    "id": "T5_CAPEITEM_HERETIC",
+    "name": "T5_CAPEITEM_HERETIC"
+  },
+  {
+    "id": "T5_CAPEITEM_HERETIC@1",
+    "name": "T5_CAPEITEM_HERETIC"
+  },
+  {
+    "id": "T5_CAPEITEM_HERETIC@2",
+    "name": "T5_CAPEITEM_HERETIC"
+  },
+  {
+    "id": "T5_CAPEITEM_HERETIC@3",
+    "name": "T5_CAPEITEM_HERETIC"
+  },
+  {
+    "id": "T5_CAPEITEM_HERETIC@4",
+    "name": "T5_CAPEITEM_HERETIC"
+  },
+  {
+    "id": "T6_CAPEITEM_HERETIC",
+    "name": "T6_CAPEITEM_HERETIC"
+  },
+  {
+    "id": "T6_CAPEITEM_HERETIC@1",
+    "name": "T6_CAPEITEM_HERETIC"
+  },
+  {
+    "id": "T6_CAPEITEM_HERETIC@2",
+    "name": "T6_CAPEITEM_HERETIC"
+  },
+  {
+    "id": "T6_CAPEITEM_HERETIC@3",
+    "name": "T6_CAPEITEM_HERETIC"
+  },
+  {
+    "id": "T6_CAPEITEM_HERETIC@4",
+    "name": "T6_CAPEITEM_HERETIC"
+  },
+  {
+    "id": "T7_CAPEITEM_HERETIC",
+    "name": "T7_CAPEITEM_HERETIC"
+  },
+  {
+    "id": "T7_CAPEITEM_HERETIC@1",
+    "name": "T7_CAPEITEM_HERETIC"
+  },
+  {
+    "id": "T7_CAPEITEM_HERETIC@2",
+    "name": "T7_CAPEITEM_HERETIC"
+  },
+  {
+    "id": "T7_CAPEITEM_HERETIC@3",
+    "name": "T7_CAPEITEM_HERETIC"
+  },
+  {
+    "id": "T7_CAPEITEM_HERETIC@4",
+    "name": "T7_CAPEITEM_HERETIC"
+  },
+  {
+    "id": "T8_CAPEITEM_HERETIC",
+    "name": "T8_CAPEITEM_HERETIC"
+  },
+  {
+    "id": "T8_CAPEITEM_HERETIC@1",
+    "name": "T8_CAPEITEM_HERETIC"
+  },
+  {
+    "id": "T8_CAPEITEM_HERETIC@2",
+    "name": "T8_CAPEITEM_HERETIC"
+  },
+  {
+    "id": "T8_CAPEITEM_HERETIC@3",
+    "name": "T8_CAPEITEM_HERETIC"
+  },
+  {
+    "id": "T8_CAPEITEM_HERETIC@4",
+    "name": "T8_CAPEITEM_HERETIC"
+  },
+  {
+    "id": "T4_CAPEITEM_UNDEAD",
+    "name": "T4_CAPEITEM_UNDEAD"
+  },
+  {
+    "id": "T4_CAPEITEM_UNDEAD@1",
+    "name": "T4_CAPEITEM_UNDEAD"
+  },
+  {
+    "id": "T4_CAPEITEM_UNDEAD@2",
+    "name": "T4_CAPEITEM_UNDEAD"
+  },
+  {
+    "id": "T4_CAPEITEM_UNDEAD@3",
+    "name": "T4_CAPEITEM_UNDEAD"
+  },
+  {
+    "id": "T4_CAPEITEM_UNDEAD@4",
+    "name": "T4_CAPEITEM_UNDEAD"
+  },
+  {
+    "id": "T5_CAPEITEM_UNDEAD",
+    "name": "T5_CAPEITEM_UNDEAD"
+  },
+  {
+    "id": "T5_CAPEITEM_UNDEAD@1",
+    "name": "T5_CAPEITEM_UNDEAD"
+  },
+  {
+    "id": "T5_CAPEITEM_UNDEAD@2",
+    "name": "T5_CAPEITEM_UNDEAD"
+  },
+  {
+    "id": "T5_CAPEITEM_UNDEAD@3",
+    "name": "T5_CAPEITEM_UNDEAD"
+  },
+  {
+    "id": "T5_CAPEITEM_UNDEAD@4",
+    "name": "T5_CAPEITEM_UNDEAD"
+  },
+  {
+    "id": "T6_CAPEITEM_UNDEAD",
+    "name": "T6_CAPEITEM_UNDEAD"
+  },
+  {
+    "id": "T6_CAPEITEM_UNDEAD@1",
+    "name": "T6_CAPEITEM_UNDEAD"
+  },
+  {
+    "id": "T6_CAPEITEM_UNDEAD@2",
+    "name": "T6_CAPEITEM_UNDEAD"
+  },
+  {
+    "id": "T6_CAPEITEM_UNDEAD@3",
+    "name": "T6_CAPEITEM_UNDEAD"
+  },
+  {
+    "id": "T6_CAPEITEM_UNDEAD@4",
+    "name": "T6_CAPEITEM_UNDEAD"
+  },
+  {
+    "id": "T7_CAPEITEM_UNDEAD",
+    "name": "T7_CAPEITEM_UNDEAD"
+  },
+  {
+    "id": "T7_CAPEITEM_UNDEAD@1",
+    "name": "T7_CAPEITEM_UNDEAD"
+  },
+  {
+    "id": "T7_CAPEITEM_UNDEAD@2",
+    "name": "T7_CAPEITEM_UNDEAD"
+  },
+  {
+    "id": "T7_CAPEITEM_UNDEAD@3",
+    "name": "T7_CAPEITEM_UNDEAD"
+  },
+  {
+    "id": "T7_CAPEITEM_UNDEAD@4",
+    "name": "T7_CAPEITEM_UNDEAD"
+  },
+  {
+    "id": "T8_CAPEITEM_UNDEAD",
+    "name": "T8_CAPEITEM_UNDEAD"
+  },
+  {
+    "id": "T8_CAPEITEM_UNDEAD@1",
+    "name": "T8_CAPEITEM_UNDEAD"
+  },
+  {
+    "id": "T8_CAPEITEM_UNDEAD@2",
+    "name": "T8_CAPEITEM_UNDEAD"
+  },
+  {
+    "id": "T8_CAPEITEM_UNDEAD@3",
+    "name": "T8_CAPEITEM_UNDEAD"
+  },
+  {
+    "id": "T8_CAPEITEM_UNDEAD@4",
+    "name": "T8_CAPEITEM_UNDEAD"
+  },
+  {
+    "id": "T4_CAPEITEM_KEEPER",
+    "name": "T4_CAPEITEM_KEEPER"
+  },
+  {
+    "id": "T4_CAPEITEM_KEEPER@1",
+    "name": "T4_CAPEITEM_KEEPER"
+  },
+  {
+    "id": "T4_CAPEITEM_KEEPER@2",
+    "name": "T4_CAPEITEM_KEEPER"
+  },
+  {
+    "id": "T4_CAPEITEM_KEEPER@3",
+    "name": "T4_CAPEITEM_KEEPER"
+  },
+  {
+    "id": "T4_CAPEITEM_KEEPER@4",
+    "name": "T4_CAPEITEM_KEEPER"
+  },
+  {
+    "id": "T5_CAPEITEM_KEEPER",
+    "name": "T5_CAPEITEM_KEEPER"
+  },
+  {
+    "id": "T5_CAPEITEM_KEEPER@1",
+    "name": "T5_CAPEITEM_KEEPER"
+  },
+  {
+    "id": "T5_CAPEITEM_KEEPER@2",
+    "name": "T5_CAPEITEM_KEEPER"
+  },
+  {
+    "id": "T5_CAPEITEM_KEEPER@3",
+    "name": "T5_CAPEITEM_KEEPER"
+  },
+  {
+    "id": "T5_CAPEITEM_KEEPER@4",
+    "name": "T5_CAPEITEM_KEEPER"
+  },
+  {
+    "id": "T6_CAPEITEM_KEEPER",
+    "name": "T6_CAPEITEM_KEEPER"
+  },
+  {
+    "id": "T6_CAPEITEM_KEEPER@1",
+    "name": "T6_CAPEITEM_KEEPER"
+  },
+  {
+    "id": "T6_CAPEITEM_KEEPER@2",
+    "name": "T6_CAPEITEM_KEEPER"
+  },
+  {
+    "id": "T6_CAPEITEM_KEEPER@3",
+    "name": "T6_CAPEITEM_KEEPER"
+  },
+  {
+    "id": "T6_CAPEITEM_KEEPER@4",
+    "name": "T6_CAPEITEM_KEEPER"
+  },
+  {
+    "id": "T7_CAPEITEM_KEEPER",
+    "name": "T7_CAPEITEM_KEEPER"
+  },
+  {
+    "id": "T7_CAPEITEM_KEEPER@1",
+    "name": "T7_CAPEITEM_KEEPER"
+  },
+  {
+    "id": "T7_CAPEITEM_KEEPER@2",
+    "name": "T7_CAPEITEM_KEEPER"
+  },
+  {
+    "id": "T7_CAPEITEM_KEEPER@3",
+    "name": "T7_CAPEITEM_KEEPER"
+  },
+  {
+    "id": "T7_CAPEITEM_KEEPER@4",
+    "name": "T7_CAPEITEM_KEEPER"
+  },
+  {
+    "id": "T8_CAPEITEM_KEEPER",
+    "name": "T8_CAPEITEM_KEEPER"
+  },
+  {
+    "id": "T8_CAPEITEM_KEEPER@1",
+    "name": "T8_CAPEITEM_KEEPER"
+  },
+  {
+    "id": "T8_CAPEITEM_KEEPER@2",
+    "name": "T8_CAPEITEM_KEEPER"
+  },
+  {
+    "id": "T8_CAPEITEM_KEEPER@3",
+    "name": "T8_CAPEITEM_KEEPER"
+  },
+  {
+    "id": "T8_CAPEITEM_KEEPER@4",
+    "name": "T8_CAPEITEM_KEEPER"
+  },
+  {
+    "id": "T4_CAPEITEM_MORGANA",
+    "name": "T4_CAPEITEM_MORGANA"
+  },
+  {
+    "id": "T4_CAPEITEM_MORGANA@1",
+    "name": "T4_CAPEITEM_MORGANA"
+  },
+  {
+    "id": "T4_CAPEITEM_MORGANA@2",
+    "name": "T4_CAPEITEM_MORGANA"
+  },
+  {
+    "id": "T4_CAPEITEM_MORGANA@3",
+    "name": "T4_CAPEITEM_MORGANA"
+  },
+  {
+    "id": "T4_CAPEITEM_MORGANA@4",
+    "name": "T4_CAPEITEM_MORGANA"
+  },
+  {
+    "id": "T5_CAPEITEM_MORGANA",
+    "name": "T5_CAPEITEM_MORGANA"
+  },
+  {
+    "id": "T5_CAPEITEM_MORGANA@1",
+    "name": "T5_CAPEITEM_MORGANA"
+  },
+  {
+    "id": "T5_CAPEITEM_MORGANA@2",
+    "name": "T5_CAPEITEM_MORGANA"
+  },
+  {
+    "id": "T5_CAPEITEM_MORGANA@3",
+    "name": "T5_CAPEITEM_MORGANA"
+  },
+  {
+    "id": "T5_CAPEITEM_MORGANA@4",
+    "name": "T5_CAPEITEM_MORGANA"
+  },
+  {
+    "id": "T6_CAPEITEM_MORGANA",
+    "name": "T6_CAPEITEM_MORGANA"
+  },
+  {
+    "id": "T6_CAPEITEM_MORGANA@1",
+    "name": "T6_CAPEITEM_MORGANA"
+  },
+  {
+    "id": "T6_CAPEITEM_MORGANA@2",
+    "name": "T6_CAPEITEM_MORGANA"
+  },
+  {
+    "id": "T6_CAPEITEM_MORGANA@3",
+    "name": "T6_CAPEITEM_MORGANA"
+  },
+  {
+    "id": "T6_CAPEITEM_MORGANA@4",
+    "name": "T6_CAPEITEM_MORGANA"
+  },
+  {
+    "id": "T7_CAPEITEM_MORGANA",
+    "name": "T7_CAPEITEM_MORGANA"
+  },
+  {
+    "id": "T7_CAPEITEM_MORGANA@1",
+    "name": "T7_CAPEITEM_MORGANA"
+  },
+  {
+    "id": "T7_CAPEITEM_MORGANA@2",
+    "name": "T7_CAPEITEM_MORGANA"
+  },
+  {
+    "id": "T7_CAPEITEM_MORGANA@3",
+    "name": "T7_CAPEITEM_MORGANA"
+  },
+  {
+    "id": "T7_CAPEITEM_MORGANA@4",
+    "name": "T7_CAPEITEM_MORGANA"
+  },
+  {
+    "id": "T8_CAPEITEM_MORGANA",
+    "name": "T8_CAPEITEM_MORGANA"
+  },
+  {
+    "id": "T8_CAPEITEM_MORGANA@1",
+    "name": "T8_CAPEITEM_MORGANA"
+  },
+  {
+    "id": "T8_CAPEITEM_MORGANA@2",
+    "name": "T8_CAPEITEM_MORGANA"
+  },
+  {
+    "id": "T8_CAPEITEM_MORGANA@3",
+    "name": "T8_CAPEITEM_MORGANA"
+  },
+  {
+    "id": "T8_CAPEITEM_MORGANA@4",
+    "name": "T8_CAPEITEM_MORGANA"
+  },
+  {
+    "id": "T4_CAPEITEM_DEMON",
+    "name": "T4_CAPEITEM_DEMON"
+  },
+  {
+    "id": "T4_CAPEITEM_DEMON@1",
+    "name": "T4_CAPEITEM_DEMON"
+  },
+  {
+    "id": "T4_CAPEITEM_DEMON@2",
+    "name": "T4_CAPEITEM_DEMON"
+  },
+  {
+    "id": "T4_CAPEITEM_DEMON@3",
+    "name": "T4_CAPEITEM_DEMON"
+  },
+  {
+    "id": "T4_CAPEITEM_DEMON@4",
+    "name": "T4_CAPEITEM_DEMON"
+  },
+  {
+    "id": "T5_CAPEITEM_DEMON",
+    "name": "T5_CAPEITEM_DEMON"
+  },
+  {
+    "id": "T5_CAPEITEM_DEMON@1",
+    "name": "T5_CAPEITEM_DEMON"
+  },
+  {
+    "id": "T5_CAPEITEM_DEMON@2",
+    "name": "T5_CAPEITEM_DEMON"
+  },
+  {
+    "id": "T5_CAPEITEM_DEMON@3",
+    "name": "T5_CAPEITEM_DEMON"
+  },
+  {
+    "id": "T5_CAPEITEM_DEMON@4",
+    "name": "T5_CAPEITEM_DEMON"
+  },
+  {
+    "id": "T6_CAPEITEM_DEMON",
+    "name": "T6_CAPEITEM_DEMON"
+  },
+  {
+    "id": "T6_CAPEITEM_DEMON@1",
+    "name": "T6_CAPEITEM_DEMON"
+  },
+  {
+    "id": "T6_CAPEITEM_DEMON@2",
+    "name": "T6_CAPEITEM_DEMON"
+  },
+  {
+    "id": "T6_CAPEITEM_DEMON@3",
+    "name": "T6_CAPEITEM_DEMON"
+  },
+  {
+    "id": "T6_CAPEITEM_DEMON@4",
+    "name": "T6_CAPEITEM_DEMON"
+  },
+  {
+    "id": "T7_CAPEITEM_DEMON",
+    "name": "T7_CAPEITEM_DEMON"
+  },
+  {
+    "id": "T7_CAPEITEM_DEMON@1",
+    "name": "T7_CAPEITEM_DEMON"
+  },
+  {
+    "id": "T7_CAPEITEM_DEMON@2",
+    "name": "T7_CAPEITEM_DEMON"
+  },
+  {
+    "id": "T7_CAPEITEM_DEMON@3",
+    "name": "T7_CAPEITEM_DEMON"
+  },
+  {
+    "id": "T7_CAPEITEM_DEMON@4",
+    "name": "T7_CAPEITEM_DEMON"
+  },
+  {
+    "id": "T8_CAPEITEM_DEMON",
+    "name": "T8_CAPEITEM_DEMON"
+  },
+  {
+    "id": "T8_CAPEITEM_DEMON@1",
+    "name": "T8_CAPEITEM_DEMON"
+  },
+  {
+    "id": "T8_CAPEITEM_DEMON@2",
+    "name": "T8_CAPEITEM_DEMON"
+  },
+  {
+    "id": "T8_CAPEITEM_DEMON@3",
+    "name": "T8_CAPEITEM_DEMON"
+  },
+  {
+    "id": "T8_CAPEITEM_DEMON@4",
+    "name": "T8_CAPEITEM_DEMON"
+  },
+  {
+    "id": "UNIQUE_CAPE_VANITY_FOUNDER_ASIA_CRYSTAL",
+    "name": "UNIQUE_CAPE_VANITY_FOUNDER_ASIA_CRYSTAL"
+  },
+  {
+    "id": "UNIQUE_CAPE_VANITY_FOUNDER_ASIA_GOLD",
+    "name": "UNIQUE_CAPE_VANITY_FOUNDER_ASIA_GOLD"
+  },
+  {
+    "id": "UNIQUE_CAPE_VANITY_WARRIOR_KING",
+    "name": "UNIQUE_CAPE_VANITY_WARRIOR_KING"
+  },
+  {
+    "id": "UNIQUE_CAPE_VANITY_WARRIOR_KNIGHT",
+    "name": "UNIQUE_CAPE_VANITY_WARRIOR_KNIGHT"
+  },
+  {
+    "id": "UNIQUE_CAPE_VANITY_DARK_SORCERER",
+    "name": "UNIQUE_CAPE_VANITY_DARK_SORCERER"
+  },
+  {
+    "id": "UNIQUE_CAPE_VANITY_DARK_NOVICE",
+    "name": "UNIQUE_CAPE_VANITY_DARK_NOVICE"
+  },
+  {
+    "id": "UNIQUE_CAPE_VANITY_WEDDING_TUXEDO",
+    "name": "UNIQUE_CAPE_VANITY_WEDDING_TUXEDO"
+  },
+  {
+    "id": "UNIQUE_CAPE_VANITY_ARENA_SET_01",
+    "name": "UNIQUE_CAPE_VANITY_ARENA_SET_01"
+  },
+  {
+    "id": "T4_CAPE_ARENA_BANNER",
+    "name": "T4_CAPE_ARENA_BANNER"
+  },
+  {
+    "id": "T6_CAPE_ARENA_BANNER",
+    "name": "T6_CAPE_ARENA_BANNER"
+  },
+  {
+    "id": "T8_CAPE_ARENA_BANNER",
+    "name": "T8_CAPE_ARENA_BANNER"
+  },
+  {
+    "id": "UNIQUE_CAPE_VANITY_GLADIATOR_ARENA",
+    "name": "UNIQUE_CAPE_VANITY_GLADIATOR_ARENA"
+  },
+  {
+    "id": "UNIQUE_CAPE_VANITY_GLADIATOR_CRYSTAL",
+    "name": "UNIQUE_CAPE_VANITY_GLADIATOR_CRYSTAL"
+  },
+  {
+    "id": "UNIQUE_CAPE_VANITY_SKELETON",
+    "name": "UNIQUE_CAPE_VANITY_SKELETON"
+  },
+  {
+    "id": "UNIQUE_CAPE_FOUNDER_LEGENDARY",
+    "name": "UNIQUE_CAPE_FOUNDER_LEGENDARY"
+  },
+  {
+    "id": "UNIQUE_CAPE_STARTERPACK_LEGENDARY",
+    "name": "UNIQUE_CAPE_STARTERPACK_LEGENDARY"
+  },
+  {
+    "id": "UNIQUE_CAPE_VANITY_SKELETON_UNDEAD",
+    "name": "UNIQUE_CAPE_VANITY_SKELETON_UNDEAD"
+  },
+  {
+    "id": "UNIQUE_CAPE_TELLAFRIEND",
+    "name": "UNIQUE_CAPE_TELLAFRIEND"
+  },
+  {
+    "id": "UNIQUE_CAPE_TELLAFRIEND_02",
+    "name": "UNIQUE_CAPE_TELLAFRIEND_02"
+  },
+  {
+    "id": "UNIQUE_CAPE_TELLAFRIEND_BATRIDER",
+    "name": "UNIQUE_CAPE_TELLAFRIEND_BATRIDER"
+  },
+  {
+    "id": "UNIQUE_CAPE_TELLAFRIEND_BANNER",
+    "name": "UNIQUE_CAPE_TELLAFRIEND_BANNER"
+  },
+  {
+    "id": "UNIQUE_CAPE_TELLAFRIEND_BANNER_02",
+    "name": "UNIQUE_CAPE_TELLAFRIEND_BANNER_02"
+  },
+  {
+    "id": "UNIQUE_CAPE_TOAD_TELLAFRIEND",
+    "name": "UNIQUE_CAPE_TOAD_TELLAFRIEND"
+  },
+  {
+    "id": "UNIQUE_CAPE_BLOODHOUND_TELLAFRIEND",
+    "name": "UNIQUE_CAPE_BLOODHOUND_TELLAFRIEND"
+  },
+  {
+    "id": "UNIQUE_CAPE_TIGER_TELLAFRIEND",
+    "name": "UNIQUE_CAPE_TIGER_TELLAFRIEND"
+  },
+  {
+    "id": "UNIQUE_CAPE_RAM_TELLAFRIEND",
+    "name": "UNIQUE_CAPE_RAM_TELLAFRIEND"
+  },
+  {
+    "id": "UNIQUE_CAPE_WOLF_GREY_TELLAFRIEND",
+    "name": "UNIQUE_CAPE_WOLF_GREY_TELLAFRIEND"
+  },
+  {
+    "id": "T6_CAPE_PLATE_UNDEAD",
+    "name": "T6_CAPE_PLATE_UNDEAD"
+  },
+  {
+    "id": "T6_CAPE_LEATHER_UNDEAD",
+    "name": "T6_CAPE_LEATHER_UNDEAD"
+  },
+  {
+    "id": "T6_CAPE_CLOTH_UNDEAD",
+    "name": "T6_CAPE_CLOTH_UNDEAD"
+  },
+  {
+    "id": "T6_CAPE_PLATE_KEEPER",
+    "name": "T6_CAPE_PLATE_KEEPER"
+  },
+  {
+    "id": "T6_CAPE_LEATHER_KEEPER",
+    "name": "T6_CAPE_LEATHER_KEEPER"
+  },
+  {
+    "id": "T6_CAPE_CLOTH_KEEPER",
+    "name": "T6_CAPE_CLOTH_KEEPER"
+  },
+  {
+    "id": "T6_CAPE_PLATE_MORGANA",
+    "name": "T6_CAPE_PLATE_MORGANA"
+  },
+  {
+    "id": "T6_CAPE_LEATHER_MORGANA",
+    "name": "T6_CAPE_LEATHER_MORGANA"
+  },
+  {
+    "id": "T6_CAPE_CLOTH_MORGANA",
+    "name": "T6_CAPE_CLOTH_MORGANA"
+  },
+  {
+    "id": "UNIQUE_CAPE_VANITY_ROGUE",
+    "name": "UNIQUE_CAPE_VANITY_ROGUE"
+  },
+  {
+    "id": "UNIQUE_CAPE_VANITY_ROGUE_GUILD_COLORED",
+    "name": "UNIQUE_CAPE_VANITY_ROGUE_GUILD_COLORED"
+  },
+  {
+    "id": "UNIQUE_CAPE_VANITY_KNIGHT",
+    "name": "UNIQUE_CAPE_VANITY_KNIGHT"
+  },
+  {
+    "id": "UNIQUE_CAPE_VANITY_KNIGHT_GUILD_COLORED",
+    "name": "UNIQUE_CAPE_VANITY_KNIGHT_GUILD_COLORED"
+  },
+  {
+    "id": "UNIQUE_CAPE_VANITY_MAGE",
+    "name": "UNIQUE_CAPE_VANITY_MAGE"
+  },
+  {
+    "id": "UNIQUE_CAPE_VANITY_MAGE_GUILD_COLORED",
+    "name": "UNIQUE_CAPE_VANITY_MAGE_GUILD_COLORED"
+  },
+  {
+    "id": "UNIQUE_CAPE_VANITY_BARBARIAN",
+    "name": "UNIQUE_CAPE_VANITY_BARBARIAN"
+  },
+  {
+    "id": "UNIQUE_CAPE_VANITY_SOULKEEPER",
+    "name": "UNIQUE_CAPE_VANITY_SOULKEEPER"
+  },
+  {
+    "id": "UNIQUE_CAPE_VANITY_PALADIN",
+    "name": "UNIQUE_CAPE_VANITY_PALADIN"
+  },
+  {
+    "id": "UNIQUE_CAPE_VANITY_PALADIN_GUILD_COLORED",
+    "name": "UNIQUE_CAPE_VANITY_PALADIN_GUILD_COLORED"
+  },
+  {
+    "id": "UNIQUE_CAPE_VANITY_PALADIN_ANNIVERSARY",
+    "name": "UNIQUE_CAPE_VANITY_PALADIN_ANNIVERSARY"
+  },
+  {
+    "id": "UNIQUE_CAPE_VANITY_DEMONHUNTER",
+    "name": "UNIQUE_CAPE_VANITY_DEMONHUNTER"
+  },
+  {
+    "id": "UNIQUE_CAPE_VANITY_DRUID",
+    "name": "UNIQUE_CAPE_VANITY_DRUID"
+  },
+  {
+    "id": "UNIQUE_CAPE_VANITY_DEMONICWARRIOR",
+    "name": "UNIQUE_CAPE_VANITY_DEMONICWARRIOR"
+  },
+  {
+    "id": "UNIQUE_CAPE_VANITY_MONK",
+    "name": "UNIQUE_CAPE_VANITY_MONK"
+  },
+  {
+    "id": "UNIQUE_CAPE_VANITY_MARAUDER",
+    "name": "UNIQUE_CAPE_VANITY_MARAUDER"
+  },
+  {
+    "id": "UNIQUE_CAPE_VANITY_FIREMAGE",
+    "name": "UNIQUE_CAPE_VANITY_FIREMAGE"
+  },
+  {
+    "id": "UNIQUE_CAPE_VANITY_FROSTMAGE",
+    "name": "UNIQUE_CAPE_VANITY_FROSTMAGE"
+  },
+  {
+    "id": "UNIQUE_CAPE_VANITY_PRIEST_HOLY",
+    "name": "UNIQUE_CAPE_VANITY_PRIEST_HOLY"
+  },
+  {
+    "id": "UNIQUE_CAPE_VANITY_RANGER",
+    "name": "UNIQUE_CAPE_VANITY_RANGER"
+  },
+  {
+    "id": "UNIQUE_CAPE_VANITY_BATTLEMAGE",
+    "name": "UNIQUE_CAPE_VANITY_BATTLEMAGE"
+  },
+  {
+    "id": "UNIQUE_CAPE_VANITY_ZEALOT",
+    "name": "UNIQUE_CAPE_VANITY_ZEALOT"
+  },
+  {
+    "id": "UNIQUE_CAPE_VANITY_TITAN",
+    "name": "UNIQUE_CAPE_VANITY_TITAN"
+  },
+  {
+    "id": "UNIQUE_CAPE_VANITY_ASSASSIN",
+    "name": "UNIQUE_CAPE_VANITY_ASSASSIN"
+  },
+  {
+    "id": "UNIQUE_CAPE_VANITY_TRACKER",
+    "name": "UNIQUE_CAPE_VANITY_TRACKER"
+  },
+  {
+    "id": "UNIQUE_CAPE_VANITY_ALCHEMIST",
+    "name": "UNIQUE_CAPE_VANITY_ALCHEMIST"
+  },
+  {
+    "id": "UNIQUE_CAPE_VANITY_FROSTKNIGHT",
+    "name": "UNIQUE_CAPE_VANITY_FROSTKNIGHT"
+  },
+  {
+    "id": "UNIQUE_CAPE_VANITY_DUELIST",
+    "name": "UNIQUE_CAPE_VANITY_DUELIST"
+  },
+  {
+    "id": "UNIQUE_CAPE_VANITY_DUELIST_01",
+    "name": "UNIQUE_CAPE_VANITY_DUELIST_01"
+  },
+  {
+    "id": "UNIQUE_CAPE_VANITY_CORRUPTED_PREACHER",
+    "name": "UNIQUE_CAPE_VANITY_CORRUPTED_PREACHER"
+  },
+  {
+    "id": "UNIQUE_CAPE_VANITY_BARBARIAN_ANNIVERSARY",
+    "name": "UNIQUE_CAPE_VANITY_BARBARIAN_ANNIVERSARY"
+  },
+  {
+    "id": "UNIQUE_CAPE_VANITY_PRIEST_HOLY_ANNIVERSARY",
+    "name": "UNIQUE_CAPE_VANITY_PRIEST_HOLY_ANNIVERSARY"
+  },
+  {
+    "id": "UNIQUE_CAPE_VANITY_FW_COMMANDER",
+    "name": "UNIQUE_CAPE_VANITY_FW_COMMANDER"
+  },
+  {
+    "id": "UNIQUE_CAPE_VANITY_FW_COMMANDER_GUILD_COLORED",
+    "name": "UNIQUE_CAPE_VANITY_FW_COMMANDER_GUILD_COLORED"
+  },
+  {
+    "id": "UNIQUE_CAPE_VANITY_KICKSTART_2024_UPGRADE",
+    "name": "UNIQUE_CAPE_VANITY_KICKSTART_2024_UPGRADE"
+  },
+  {
+    "id": "UNIQUE_CAPE_VANITY_KICKSTART_2024",
+    "name": "UNIQUE_CAPE_VANITY_KICKSTART_2024"
+  },
+  {
+    "id": "UNIQUE_CAPE_VANITY_KNIGHT_GREEN",
+    "name": "UNIQUE_CAPE_VANITY_KNIGHT_GREEN"
+  },
+  {
+    "id": "UNIQUE_CAPE_VANITY_SMUGGLER",
+    "name": "UNIQUE_CAPE_VANITY_SMUGGLER"
+  },
+  {
+    "id": "UNIQUE_CAPE_VANITY_KNIGHT_AOCP",
+    "name": "UNIQUE_CAPE_VANITY_KNIGHT_AOCP"
+  },
+  {
+    "id": "UNIQUE_CAPE_VANITY_FW_SOLDIER_PLATE",
+    "name": "UNIQUE_CAPE_VANITY_FW_SOLDIER_PLATE"
+  },
+  {
+    "id": "UNIQUE_CAPE_VANITY_HYENA",
+    "name": "UNIQUE_CAPE_VANITY_HYENA"
+  },
+  {
+    "id": "UNIQUE_CAPE_VANITY_SNOWLEOPARD",
+    "name": "UNIQUE_CAPE_VANITY_SNOWLEOPARD"
+  },
+  {
+    "id": "T4_CAPEITEM_FW_BRIDGEWATCH_BP",
+    "name": "T4_CAPEITEM_FW_BRIDGEWATCH_BP"
+  },
+  {
+    "id": "T5_CAPEITEM_FW_BRIDGEWATCH_BP",
+    "name": "T5_CAPEITEM_FW_BRIDGEWATCH_BP"
+  },
+  {
+    "id": "T6_CAPEITEM_FW_BRIDGEWATCH_BP",
+    "name": "T6_CAPEITEM_FW_BRIDGEWATCH_BP"
+  },
+  {
+    "id": "T7_CAPEITEM_FW_BRIDGEWATCH_BP",
+    "name": "T7_CAPEITEM_FW_BRIDGEWATCH_BP"
+  },
+  {
+    "id": "T8_CAPEITEM_FW_BRIDGEWATCH_BP",
+    "name": "T8_CAPEITEM_FW_BRIDGEWATCH_BP"
+  },
+  {
+    "id": "T4_CAPEITEM_FW_FORTSTERLING_BP",
+    "name": "T4_CAPEITEM_FW_FORTSTERLING_BP"
+  },
+  {
+    "id": "T5_CAPEITEM_FW_FORTSTERLING_BP",
+    "name": "T5_CAPEITEM_FW_FORTSTERLING_BP"
+  },
+  {
+    "id": "T6_CAPEITEM_FW_FORTSTERLING_BP",
+    "name": "T6_CAPEITEM_FW_FORTSTERLING_BP"
+  },
+  {
+    "id": "T7_CAPEITEM_FW_FORTSTERLING_BP",
+    "name": "T7_CAPEITEM_FW_FORTSTERLING_BP"
+  },
+  {
+    "id": "T8_CAPEITEM_FW_FORTSTERLING_BP",
+    "name": "T8_CAPEITEM_FW_FORTSTERLING_BP"
+  },
+  {
+    "id": "T4_CAPEITEM_FW_LYMHURST_BP",
+    "name": "T4_CAPEITEM_FW_LYMHURST_BP"
+  },
+  {
+    "id": "T5_CAPEITEM_FW_LYMHURST_BP",
+    "name": "T5_CAPEITEM_FW_LYMHURST_BP"
+  },
+  {
+    "id": "T6_CAPEITEM_FW_LYMHURST_BP",
+    "name": "T6_CAPEITEM_FW_LYMHURST_BP"
+  },
+  {
+    "id": "T7_CAPEITEM_FW_LYMHURST_BP",
+    "name": "T7_CAPEITEM_FW_LYMHURST_BP"
+  },
+  {
+    "id": "T8_CAPEITEM_FW_LYMHURST_BP",
+    "name": "T8_CAPEITEM_FW_LYMHURST_BP"
+  },
+  {
+    "id": "T4_CAPEITEM_FW_MARTLOCK_BP",
+    "name": "T4_CAPEITEM_FW_MARTLOCK_BP"
+  },
+  {
+    "id": "T5_CAPEITEM_FW_MARTLOCK_BP",
+    "name": "T5_CAPEITEM_FW_MARTLOCK_BP"
+  },
+  {
+    "id": "T6_CAPEITEM_FW_MARTLOCK_BP",
+    "name": "T6_CAPEITEM_FW_MARTLOCK_BP"
+  },
+  {
+    "id": "T7_CAPEITEM_FW_MARTLOCK_BP",
+    "name": "T7_CAPEITEM_FW_MARTLOCK_BP"
+  },
+  {
+    "id": "T8_CAPEITEM_FW_MARTLOCK_BP",
+    "name": "T8_CAPEITEM_FW_MARTLOCK_BP"
+  },
+  {
+    "id": "T4_CAPEITEM_FW_THETFORD_BP",
+    "name": "T4_CAPEITEM_FW_THETFORD_BP"
+  },
+  {
+    "id": "T5_CAPEITEM_FW_THETFORD_BP",
+    "name": "T5_CAPEITEM_FW_THETFORD_BP"
+  },
+  {
+    "id": "T6_CAPEITEM_FW_THETFORD_BP",
+    "name": "T6_CAPEITEM_FW_THETFORD_BP"
+  },
+  {
+    "id": "T7_CAPEITEM_FW_THETFORD_BP",
+    "name": "T7_CAPEITEM_FW_THETFORD_BP"
+  },
+  {
+    "id": "T8_CAPEITEM_FW_THETFORD_BP",
+    "name": "T8_CAPEITEM_FW_THETFORD_BP"
+  },
+  {
+    "id": "T4_CAPEITEM_FW_CAERLEON_BP",
+    "name": "T4_CAPEITEM_FW_CAERLEON_BP"
+  },
+  {
+    "id": "T5_CAPEITEM_FW_CAERLEON_BP",
+    "name": "T5_CAPEITEM_FW_CAERLEON_BP"
+  },
+  {
+    "id": "T6_CAPEITEM_FW_CAERLEON_BP",
+    "name": "T6_CAPEITEM_FW_CAERLEON_BP"
+  },
+  {
+    "id": "T7_CAPEITEM_FW_CAERLEON_BP",
+    "name": "T7_CAPEITEM_FW_CAERLEON_BP"
+  },
+  {
+    "id": "T8_CAPEITEM_FW_CAERLEON_BP",
+    "name": "T8_CAPEITEM_FW_CAERLEON_BP"
+  },
+  {
+    "id": "T4_CAPEITEM_SMUGGLER_BP",
+    "name": "T4_CAPEITEM_SMUGGLER_BP"
+  },
+  {
+    "id": "T5_CAPEITEM_SMUGGLER_BP",
+    "name": "T5_CAPEITEM_SMUGGLER_BP"
+  },
+  {
+    "id": "T6_CAPEITEM_SMUGGLER_BP",
+    "name": "T6_CAPEITEM_SMUGGLER_BP"
+  },
+  {
+    "id": "T7_CAPEITEM_SMUGGLER_BP",
+    "name": "T7_CAPEITEM_SMUGGLER_BP"
+  },
+  {
+    "id": "T8_CAPEITEM_SMUGGLER_BP",
+    "name": "T8_CAPEITEM_SMUGGLER_BP"
+  },
+  {
+    "id": "T4_CAPEITEM_FW_BRECILIEN_BP",
+    "name": "T4_CAPEITEM_FW_BRECILIEN_BP"
+  },
+  {
+    "id": "T5_CAPEITEM_FW_BRECILIEN_BP",
+    "name": "T5_CAPEITEM_FW_BRECILIEN_BP"
+  },
+  {
+    "id": "T6_CAPEITEM_FW_BRECILIEN_BP",
+    "name": "T6_CAPEITEM_FW_BRECILIEN_BP"
+  },
+  {
+    "id": "T7_CAPEITEM_FW_BRECILIEN_BP",
+    "name": "T7_CAPEITEM_FW_BRECILIEN_BP"
+  },
+  {
+    "id": "T8_CAPEITEM_FW_BRECILIEN_BP",
+    "name": "T8_CAPEITEM_FW_BRECILIEN_BP"
+  },
+  {
+    "id": "T4_CAPEITEM_AVALON_BP",
+    "name": "T4_CAPEITEM_AVALON_BP"
+  },
+  {
+    "id": "T5_CAPEITEM_AVALON_BP",
+    "name": "T5_CAPEITEM_AVALON_BP"
+  },
+  {
+    "id": "T6_CAPEITEM_AVALON_BP",
+    "name": "T6_CAPEITEM_AVALON_BP"
+  },
+  {
+    "id": "T7_CAPEITEM_AVALON_BP",
+    "name": "T7_CAPEITEM_AVALON_BP"
+  },
+  {
+    "id": "T8_CAPEITEM_AVALON_BP",
+    "name": "T8_CAPEITEM_AVALON_BP"
+  },
+  {
+    "id": "T4_CAPEITEM_HERETIC_BP",
+    "name": "T4_CAPEITEM_HERETIC_BP"
+  },
+  {
+    "id": "T5_CAPEITEM_HERETIC_BP",
+    "name": "T5_CAPEITEM_HERETIC_BP"
+  },
+  {
+    "id": "T6_CAPEITEM_HERETIC_BP",
+    "name": "T6_CAPEITEM_HERETIC_BP"
+  },
+  {
+    "id": "T7_CAPEITEM_HERETIC_BP",
+    "name": "T7_CAPEITEM_HERETIC_BP"
+  },
+  {
+    "id": "T8_CAPEITEM_HERETIC_BP",
+    "name": "T8_CAPEITEM_HERETIC_BP"
+  },
+  {
+    "id": "T4_CAPEITEM_UNDEAD_BP",
+    "name": "T4_CAPEITEM_UNDEAD_BP"
+  },
+  {
+    "id": "T5_CAPEITEM_UNDEAD_BP",
+    "name": "T5_CAPEITEM_UNDEAD_BP"
+  },
+  {
+    "id": "T6_CAPEITEM_UNDEAD_BP",
+    "name": "T6_CAPEITEM_UNDEAD_BP"
+  },
+  {
+    "id": "T7_CAPEITEM_UNDEAD_BP",
+    "name": "T7_CAPEITEM_UNDEAD_BP"
+  },
+  {
+    "id": "T8_CAPEITEM_UNDEAD_BP",
+    "name": "T8_CAPEITEM_UNDEAD_BP"
+  },
+  {
+    "id": "T4_CAPEITEM_KEEPER_BP",
+    "name": "T4_CAPEITEM_KEEPER_BP"
+  },
+  {
+    "id": "T5_CAPEITEM_KEEPER_BP",
+    "name": "T5_CAPEITEM_KEEPER_BP"
+  },
+  {
+    "id": "T6_CAPEITEM_KEEPER_BP",
+    "name": "T6_CAPEITEM_KEEPER_BP"
+  },
+  {
+    "id": "T7_CAPEITEM_KEEPER_BP",
+    "name": "T7_CAPEITEM_KEEPER_BP"
+  },
+  {
+    "id": "T8_CAPEITEM_KEEPER_BP",
+    "name": "T8_CAPEITEM_KEEPER_BP"
+  },
+  {
+    "id": "T4_CAPEITEM_MORGANA_BP",
+    "name": "T4_CAPEITEM_MORGANA_BP"
+  },
+  {
+    "id": "T5_CAPEITEM_MORGANA_BP",
+    "name": "T5_CAPEITEM_MORGANA_BP"
+  },
+  {
+    "id": "T6_CAPEITEM_MORGANA_BP",
+    "name": "T6_CAPEITEM_MORGANA_BP"
+  },
+  {
+    "id": "T7_CAPEITEM_MORGANA_BP",
+    "name": "T7_CAPEITEM_MORGANA_BP"
+  },
+  {
+    "id": "T8_CAPEITEM_MORGANA_BP",
+    "name": "T8_CAPEITEM_MORGANA_BP"
+  },
+  {
+    "id": "T4_CAPEITEM_DEMON_BP",
+    "name": "T4_CAPEITEM_DEMON_BP"
+  },
+  {
+    "id": "T5_CAPEITEM_DEMON_BP",
+    "name": "T5_CAPEITEM_DEMON_BP"
+  },
+  {
+    "id": "T6_CAPEITEM_DEMON_BP",
+    "name": "T6_CAPEITEM_DEMON_BP"
+  },
+  {
+    "id": "T7_CAPEITEM_DEMON_BP",
+    "name": "T7_CAPEITEM_DEMON_BP"
+  },
+  {
+    "id": "T8_CAPEITEM_DEMON_BP",
+    "name": "T8_CAPEITEM_DEMON_BP"
+  }
+]

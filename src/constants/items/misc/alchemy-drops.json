@@ -1,0 +1,98 @@
+[
+  {
+    "id": "T3_ALCHEMY_RARE_PANTHER",
+    "name": "T3_ALCHEMY_RARE_PANTHER"
+  },
+  {
+    "id": "T5_ALCHEMY_RARE_PANTHER",
+    "name": "T5_ALCHEMY_RARE_PANTHER"
+  },
+  {
+    "id": "T7_ALCHEMY_RARE_PANTHER",
+    "name": "T7_ALCHEMY_RARE_PANTHER"
+  },
+  {
+    "id": "T3_ALCHEMY_RARE_ENT",
+    "name": "T3_ALCHEMY_RARE_ENT"
+  },
+  {
+    "id": "T5_ALCHEMY_RARE_ENT",
+    "name": "T5_ALCHEMY_RARE_ENT"
+  },
+  {
+    "id": "T7_ALCHEMY_RARE_ENT",
+    "name": "T7_ALCHEMY_RARE_ENT"
+  },
+  {
+    "id": "T3_ALCHEMY_RARE_DIREBEAR",
+    "name": "T3_ALCHEMY_RARE_DIREBEAR"
+  },
+  {
+    "id": "T5_ALCHEMY_RARE_DIREBEAR",
+    "name": "T5_ALCHEMY_RARE_DIREBEAR"
+  },
+  {
+    "id": "T7_ALCHEMY_RARE_DIREBEAR",
+    "name": "T7_ALCHEMY_RARE_DIREBEAR"
+  },
+  {
+    "id": "T3_ALCHEMY_RARE_WEREWOLF",
+    "name": "T3_ALCHEMY_RARE_WEREWOLF"
+  },
+  {
+    "id": "T5_ALCHEMY_RARE_WEREWOLF",
+    "name": "T5_ALCHEMY_RARE_WEREWOLF"
+  },
+  {
+    "id": "T7_ALCHEMY_RARE_WEREWOLF",
+    "name": "T7_ALCHEMY_RARE_WEREWOLF"
+  },
+  {
+    "id": "T3_ALCHEMY_RARE_IMP",
+    "name": "T3_ALCHEMY_RARE_IMP"
+  },
+  {
+    "id": "T5_ALCHEMY_RARE_IMP",
+    "name": "T5_ALCHEMY_RARE_IMP"
+  },
+  {
+    "id": "T7_ALCHEMY_RARE_IMP",
+    "name": "T7_ALCHEMY_RARE_IMP"
+  },
+  {
+    "id": "T3_ALCHEMY_RARE_ELEMENTAL",
+    "name": "T3_ALCHEMY_RARE_ELEMENTAL"
+  },
+  {
+    "id": "T5_ALCHEMY_RARE_ELEMENTAL",
+    "name": "T5_ALCHEMY_RARE_ELEMENTAL"
+  },
+  {
+    "id": "T7_ALCHEMY_RARE_ELEMENTAL",
+    "name": "T7_ALCHEMY_RARE_ELEMENTAL"
+  },
+  {
+    "id": "T3_ALCHEMY_RARE_EAGLE",
+    "name": "T3_ALCHEMY_RARE_EAGLE"
+  },
+  {
+    "id": "T5_ALCHEMY_RARE_EAGLE",
+    "name": "T5_ALCHEMY_RARE_EAGLE"
+  },
+  {
+    "id": "T7_ALCHEMY_RARE_EAGLE",
+    "name": "T7_ALCHEMY_RARE_EAGLE"
+  },
+  {
+    "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
+    "name": "T1_ALCHEMY_EXTRACT_LEVEL1"
+  },
+  {
+    "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
+    "name": "T1_ALCHEMY_EXTRACT_LEVEL2"
+  },
+  {
+    "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
+    "name": "T1_ALCHEMY_EXTRACT_LEVEL3"
+  }
+]

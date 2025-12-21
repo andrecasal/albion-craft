@@ -19,7 +19,7 @@ import { getRealtimeCalculator, CraftFromMarketResult, CraftFromInventoryResult,
 // DISABLED: Order book functions removed from db.ts
 // import { CITY_TO_LOCATION, getRawDb, getStats, getPriceHistoryCount, get30DayAverage, getBestBuyPrices } from './db/db';
 import { CITY_TO_LOCATION, getRawDb, getDailyPriceCount, get30DayAverage } from './db/db';
-import { checkHistoryStatus } from './services/history-fetcher';
+import { getDailyPriceStatus } from './collector';
 // DISABLED: Hourly fetcher has been deleted
 // import { checkHourlyHistoryStatus } from './services/hourly-fetcher';
 import { scanHourlyArbitrage } from './services/hourly-arbitrage-scanner';
@@ -233,7 +233,7 @@ const CITIES: City[] = [
 
 // Get data freshness indicator for historical price data
 function getHistoryDataFreshnessIndicator(): string {
-  const status = checkHistoryStatus();
+  const status = getDailyPriceStatus();
 
   if (status.totalRecords === 0) {
     return '⚫ No data';

@@ -1,0 +1,646 @@
+[
+  {
+    "id": "T2_POTION_HEAL",
+    "name": "T2_POTION_HEAL"
+  },
+  {
+    "id": "T2_POTION_HEAL@1",
+    "name": "T2_POTION_HEAL"
+  },
+  {
+    "id": "T2_POTION_HEAL@2",
+    "name": "T2_POTION_HEAL"
+  },
+  {
+    "id": "T2_POTION_HEAL@3",
+    "name": "T2_POTION_HEAL"
+  },
+  {
+    "id": "T4_POTION_HEAL",
+    "name": "T4_POTION_HEAL"
+  },
+  {
+    "id": "T4_POTION_HEAL@1",
+    "name": "T4_POTION_HEAL"
+  },
+  {
+    "id": "T4_POTION_HEAL@2",
+    "name": "T4_POTION_HEAL"
+  },
+  {
+    "id": "T4_POTION_HEAL@3",
+    "name": "T4_POTION_HEAL"
+  },
+  {
+    "id": "T6_POTION_HEAL",
+    "name": "T6_POTION_HEAL"
+  },
+  {
+    "id": "T6_POTION_HEAL@1",
+    "name": "T6_POTION_HEAL"
+  },
+  {
+    "id": "T6_POTION_HEAL@2",
+    "name": "T6_POTION_HEAL"
+  },
+  {
+    "id": "T6_POTION_HEAL@3",
+    "name": "T6_POTION_HEAL"
+  },
+  {
+    "id": "T2_POTION_ENERGY",
+    "name": "T2_POTION_ENERGY"
+  },
+  {
+    "id": "T2_POTION_ENERGY@1",
+    "name": "T2_POTION_ENERGY"
+  },
+  {
+    "id": "T2_POTION_ENERGY@2",
+    "name": "T2_POTION_ENERGY"
+  },
+  {
+    "id": "T2_POTION_ENERGY@3",
+    "name": "T2_POTION_ENERGY"
+  },
+  {
+    "id": "T4_POTION_ENERGY",
+    "name": "T4_POTION_ENERGY"
+  },
+  {
+    "id": "T4_POTION_ENERGY@1",
+    "name": "T4_POTION_ENERGY"
+  },
+  {
+    "id": "T4_POTION_ENERGY@2",
+    "name": "T4_POTION_ENERGY"
+  },
+  {
+    "id": "T4_POTION_ENERGY@3",
+    "name": "T4_POTION_ENERGY"
+  },
+  {
+    "id": "T6_POTION_ENERGY",
+    "name": "T6_POTION_ENERGY"
+  },
+  {
+    "id": "T6_POTION_ENERGY@1",
+    "name": "T6_POTION_ENERGY"
+  },
+  {
+    "id": "T6_POTION_ENERGY@2",
+    "name": "T6_POTION_ENERGY"
+  },
+  {
+    "id": "T6_POTION_ENERGY@3",
+    "name": "T6_POTION_ENERGY"
+  },
+  {
+    "id": "T3_POTION_REVIVE",
+    "name": "T3_POTION_REVIVE"
+  },
+  {
+    "id": "T3_POTION_REVIVE@1",
+    "name": "T3_POTION_REVIVE"
+  },
+  {
+    "id": "T3_POTION_REVIVE@2",
+    "name": "T3_POTION_REVIVE"
+  },
+  {
+    "id": "T3_POTION_REVIVE@3",
+    "name": "T3_POTION_REVIVE"
+  },
+  {
+    "id": "T5_POTION_REVIVE",
+    "name": "T5_POTION_REVIVE"
+  },
+  {
+    "id": "T5_POTION_REVIVE@1",
+    "name": "T5_POTION_REVIVE"
+  },
+  {
+    "id": "T5_POTION_REVIVE@2",
+    "name": "T5_POTION_REVIVE"
+  },
+  {
+    "id": "T5_POTION_REVIVE@3",
+    "name": "T5_POTION_REVIVE"
+  },
+  {
+    "id": "T7_POTION_REVIVE",
+    "name": "T7_POTION_REVIVE"
+  },
+  {
+    "id": "T7_POTION_REVIVE@1",
+    "name": "T7_POTION_REVIVE"
+  },
+  {
+    "id": "T7_POTION_REVIVE@2",
+    "name": "T7_POTION_REVIVE"
+  },
+  {
+    "id": "T7_POTION_REVIVE@3",
+    "name": "T7_POTION_REVIVE"
+  },
+  {
+    "id": "T3_POTION_STONESKIN",
+    "name": "T3_POTION_STONESKIN"
+  },
+  {
+    "id": "T3_POTION_STONESKIN@1",
+    "name": "T3_POTION_STONESKIN"
+  },
+  {
+    "id": "T3_POTION_STONESKIN@2",
+    "name": "T3_POTION_STONESKIN"
+  },
+  {
+    "id": "T3_POTION_STONESKIN@3",
+    "name": "T3_POTION_STONESKIN"
+  },
+  {
+    "id": "T5_POTION_STONESKIN",
+    "name": "T5_POTION_STONESKIN"
+  },
+  {
+    "id": "T5_POTION_STONESKIN@1",
+    "name": "T5_POTION_STONESKIN"
+  },
+  {
+    "id": "T5_POTION_STONESKIN@2",
+    "name": "T5_POTION_STONESKIN"
+  },
+  {
+    "id": "T5_POTION_STONESKIN@3",
+    "name": "T5_POTION_STONESKIN"
+  },
+  {
+    "id": "T7_POTION_STONESKIN",
+    "name": "T7_POTION_STONESKIN"
+  },
+  {
+    "id": "T7_POTION_STONESKIN@1",
+    "name": "T7_POTION_STONESKIN"
+  },
+  {
+    "id": "T7_POTION_STONESKIN@2",
+    "name": "T7_POTION_STONESKIN"
+  },
+  {
+    "id": "T7_POTION_STONESKIN@3",
+    "name": "T7_POTION_STONESKIN"
+  },
+  {
+    "id": "T3_POTION_SLOWFIELD",
+    "name": "T3_POTION_SLOWFIELD"
+  },
+  {
+    "id": "T3_POTION_SLOWFIELD@1",
+    "name": "T3_POTION_SLOWFIELD"
+  },
+  {
+    "id": "T3_POTION_SLOWFIELD@2",
+    "name": "T3_POTION_SLOWFIELD"
+  },
+  {
+    "id": "T3_POTION_SLOWFIELD@3",
+    "name": "T3_POTION_SLOWFIELD"
+  },
+  {
+    "id": "T5_POTION_SLOWFIELD",
+    "name": "T5_POTION_SLOWFIELD"
+  },
+  {
+    "id": "T5_POTION_SLOWFIELD@1",
+    "name": "T5_POTION_SLOWFIELD"
+  },
+  {
+    "id": "T5_POTION_SLOWFIELD@2",
+    "name": "T5_POTION_SLOWFIELD"
+  },
+  {
+    "id": "T5_POTION_SLOWFIELD@3",
+    "name": "T5_POTION_SLOWFIELD"
+  },
+  {
+    "id": "T7_POTION_SLOWFIELD",
+    "name": "T7_POTION_SLOWFIELD"
+  },
+  {
+    "id": "T7_POTION_SLOWFIELD@1",
+    "name": "T7_POTION_SLOWFIELD"
+  },
+  {
+    "id": "T7_POTION_SLOWFIELD@2",
+    "name": "T7_POTION_SLOWFIELD"
+  },
+  {
+    "id": "T7_POTION_SLOWFIELD@3",
+    "name": "T7_POTION_SLOWFIELD"
+  },
+  {
+    "id": "T4_POTION_COOLDOWN",
+    "name": "T4_POTION_COOLDOWN"
+  },
+  {
+    "id": "T4_POTION_COOLDOWN@1",
+    "name": "T4_POTION_COOLDOWN"
+  },
+  {
+    "id": "T4_POTION_COOLDOWN@2",
+    "name": "T4_POTION_COOLDOWN"
+  },
+  {
+    "id": "T4_POTION_COOLDOWN@3",
+    "name": "T4_POTION_COOLDOWN"
+  },
+  {
+    "id": "T6_POTION_COOLDOWN",
+    "name": "T6_POTION_COOLDOWN"
+  },
+  {
+    "id": "T6_POTION_COOLDOWN@1",
+    "name": "T6_POTION_COOLDOWN"
+  },
+  {
+    "id": "T6_POTION_COOLDOWN@2",
+    "name": "T6_POTION_COOLDOWN"
+  },
+  {
+    "id": "T6_POTION_COOLDOWN@3",
+    "name": "T6_POTION_COOLDOWN"
+  },
+  {
+    "id": "T8_POTION_COOLDOWN",
+    "name": "T8_POTION_COOLDOWN"
+  },
+  {
+    "id": "T8_POTION_COOLDOWN@1",
+    "name": "T8_POTION_COOLDOWN"
+  },
+  {
+    "id": "T8_POTION_COOLDOWN@2",
+    "name": "T8_POTION_COOLDOWN"
+  },
+  {
+    "id": "T8_POTION_COOLDOWN@3",
+    "name": "T8_POTION_COOLDOWN"
+  },
+  {
+    "id": "T8_POTION_CLEANSE",
+    "name": "T8_POTION_CLEANSE"
+  },
+  {
+    "id": "T8_POTION_CLEANSE@1",
+    "name": "T8_POTION_CLEANSE"
+  },
+  {
+    "id": "T8_POTION_CLEANSE@2",
+    "name": "T8_POTION_CLEANSE"
+  },
+  {
+    "id": "T8_POTION_CLEANSE@3",
+    "name": "T8_POTION_CLEANSE"
+  },
+  {
+    "id": "T3_POTION_MOB_RESET",
+    "name": "T3_POTION_MOB_RESET"
+  },
+  {
+    "id": "T3_POTION_MOB_RESET@1",
+    "name": "T3_POTION_MOB_RESET"
+  },
+  {
+    "id": "T3_POTION_MOB_RESET@2",
+    "name": "T3_POTION_MOB_RESET"
+  },
+  {
+    "id": "T3_POTION_MOB_RESET@3",
+    "name": "T3_POTION_MOB_RESET"
+  },
+  {
+    "id": "T5_POTION_MOB_RESET",
+    "name": "T5_POTION_MOB_RESET"
+  },
+  {
+    "id": "T5_POTION_MOB_RESET@1",
+    "name": "T5_POTION_MOB_RESET"
+  },
+  {
+    "id": "T5_POTION_MOB_RESET@2",
+    "name": "T5_POTION_MOB_RESET"
+  },
+  {
+    "id": "T5_POTION_MOB_RESET@3",
+    "name": "T5_POTION_MOB_RESET"
+  },
+  {
+    "id": "T7_POTION_MOB_RESET",
+    "name": "T7_POTION_MOB_RESET"
+  },
+  {
+    "id": "T7_POTION_MOB_RESET@1",
+    "name": "T7_POTION_MOB_RESET"
+  },
+  {
+    "id": "T7_POTION_MOB_RESET@2",
+    "name": "T7_POTION_MOB_RESET"
+  },
+  {
+    "id": "T7_POTION_MOB_RESET@3",
+    "name": "T7_POTION_MOB_RESET"
+  },
+  {
+    "id": "T3_POTION_CLEANSE2",
+    "name": "T3_POTION_CLEANSE2"
+  },
+  {
+    "id": "T3_POTION_CLEANSE2@1",
+    "name": "T3_POTION_CLEANSE2"
+  },
+  {
+    "id": "T3_POTION_CLEANSE2@2",
+    "name": "T3_POTION_CLEANSE2"
+  },
+  {
+    "id": "T3_POTION_CLEANSE2@3",
+    "name": "T3_POTION_CLEANSE2"
+  },
+  {
+    "id": "T5_POTION_CLEANSE2",
+    "name": "T5_POTION_CLEANSE2"
+  },
+  {
+    "id": "T5_POTION_CLEANSE2@1",
+    "name": "T5_POTION_CLEANSE2"
+  },
+  {
+    "id": "T5_POTION_CLEANSE2@2",
+    "name": "T5_POTION_CLEANSE2"
+  },
+  {
+    "id": "T5_POTION_CLEANSE2@3",
+    "name": "T5_POTION_CLEANSE2"
+  },
+  {
+    "id": "T7_POTION_CLEANSE2",
+    "name": "T7_POTION_CLEANSE2"
+  },
+  {
+    "id": "T7_POTION_CLEANSE2@1",
+    "name": "T7_POTION_CLEANSE2"
+  },
+  {
+    "id": "T7_POTION_CLEANSE2@2",
+    "name": "T7_POTION_CLEANSE2"
+  },
+  {
+    "id": "T7_POTION_CLEANSE2@3",
+    "name": "T7_POTION_CLEANSE2"
+  },
+  {
+    "id": "T3_POTION_ACID",
+    "name": "T3_POTION_ACID"
+  },
+  {
+    "id": "T3_POTION_ACID@1",
+    "name": "T3_POTION_ACID"
+  },
+  {
+    "id": "T3_POTION_ACID@2",
+    "name": "T3_POTION_ACID"
+  },
+  {
+    "id": "T3_POTION_ACID@3",
+    "name": "T3_POTION_ACID"
+  },
+  {
+    "id": "T5_POTION_ACID",
+    "name": "T5_POTION_ACID"
+  },
+  {
+    "id": "T5_POTION_ACID@1",
+    "name": "T5_POTION_ACID"
+  },
+  {
+    "id": "T5_POTION_ACID@2",
+    "name": "T5_POTION_ACID"
+  },
+  {
+    "id": "T5_POTION_ACID@3",
+    "name": "T5_POTION_ACID"
+  },
+  {
+    "id": "T7_POTION_ACID",
+    "name": "T7_POTION_ACID"
+  },
+  {
+    "id": "T7_POTION_ACID@1",
+    "name": "T7_POTION_ACID"
+  },
+  {
+    "id": "T7_POTION_ACID@2",
+    "name": "T7_POTION_ACID"
+  },
+  {
+    "id": "T7_POTION_ACID@3",
+    "name": "T7_POTION_ACID"
+  },
+  {
+    "id": "T4_POTION_BERSERK",
+    "name": "T4_POTION_BERSERK"
+  },
+  {
+    "id": "T4_POTION_BERSERK@1",
+    "name": "T4_POTION_BERSERK"
+  },
+  {
+    "id": "T4_POTION_BERSERK@2",
+    "name": "T4_POTION_BERSERK"
+  },
+  {
+    "id": "T4_POTION_BERSERK@3",
+    "name": "T4_POTION_BERSERK"
+  },
+  {
+    "id": "T6_POTION_BERSERK",
+    "name": "T6_POTION_BERSERK"
+  },
+  {
+    "id": "T6_POTION_BERSERK@1",
+    "name": "T6_POTION_BERSERK"
+  },
+  {
+    "id": "T6_POTION_BERSERK@2",
+    "name": "T6_POTION_BERSERK"
+  },
+  {
+    "id": "T6_POTION_BERSERK@3",
+    "name": "T6_POTION_BERSERK"
+  },
+  {
+    "id": "T8_POTION_BERSERK",
+    "name": "T8_POTION_BERSERK"
+  },
+  {
+    "id": "T8_POTION_BERSERK@1",
+    "name": "T8_POTION_BERSERK"
+  },
+  {
+    "id": "T8_POTION_BERSERK@2",
+    "name": "T8_POTION_BERSERK"
+  },
+  {
+    "id": "T8_POTION_BERSERK@3",
+    "name": "T8_POTION_BERSERK"
+  },
+  {
+    "id": "T4_POTION_LAVA",
+    "name": "T4_POTION_LAVA"
+  },
+  {
+    "id": "T4_POTION_LAVA@1",
+    "name": "T4_POTION_LAVA"
+  },
+  {
+    "id": "T4_POTION_LAVA@2",
+    "name": "T4_POTION_LAVA"
+  },
+  {
+    "id": "T4_POTION_LAVA@3",
+    "name": "T4_POTION_LAVA"
+  },
+  {
+    "id": "T6_POTION_LAVA",
+    "name": "T6_POTION_LAVA"
+  },
+  {
+    "id": "T6_POTION_LAVA@1",
+    "name": "T6_POTION_LAVA"
+  },
+  {
+    "id": "T6_POTION_LAVA@2",
+    "name": "T6_POTION_LAVA"
+  },
+  {
+    "id": "T6_POTION_LAVA@3",
+    "name": "T6_POTION_LAVA"
+  },
+  {
+    "id": "T8_POTION_LAVA",
+    "name": "T8_POTION_LAVA"
+  },
+  {
+    "id": "T8_POTION_LAVA@1",
+    "name": "T8_POTION_LAVA"
+  },
+  {
+    "id": "T8_POTION_LAVA@2",
+    "name": "T8_POTION_LAVA"
+  },
+  {
+    "id": "T8_POTION_LAVA@3",
+    "name": "T8_POTION_LAVA"
+  },
+  {
+    "id": "T4_POTION_GATHER",
+    "name": "T4_POTION_GATHER"
+  },
+  {
+    "id": "T4_POTION_GATHER@1",
+    "name": "T4_POTION_GATHER"
+  },
+  {
+    "id": "T4_POTION_GATHER@2",
+    "name": "T4_POTION_GATHER"
+  },
+  {
+    "id": "T4_POTION_GATHER@3",
+    "name": "T4_POTION_GATHER"
+  },
+  {
+    "id": "T6_POTION_GATHER",
+    "name": "T6_POTION_GATHER"
+  },
+  {
+    "id": "T6_POTION_GATHER@1",
+    "name": "T6_POTION_GATHER"
+  },
+  {
+    "id": "T6_POTION_GATHER@2",
+    "name": "T6_POTION_GATHER"
+  },
+  {
+    "id": "T6_POTION_GATHER@3",
+    "name": "T6_POTION_GATHER"
+  },
+  {
+    "id": "T8_POTION_GATHER",
+    "name": "T8_POTION_GATHER"
+  },
+  {
+    "id": "T8_POTION_GATHER@1",
+    "name": "T8_POTION_GATHER"
+  },
+  {
+    "id": "T8_POTION_GATHER@2",
+    "name": "T8_POTION_GATHER"
+  },
+  {
+    "id": "T8_POTION_GATHER@3",
+    "name": "T8_POTION_GATHER"
+  },
+  {
+    "id": "T4_POTION_TORNADO",
+    "name": "T4_POTION_TORNADO"
+  },
+  {
+    "id": "T4_POTION_TORNADO@1",
+    "name": "T4_POTION_TORNADO"
+  },
+  {
+    "id": "T4_POTION_TORNADO@2",
+    "name": "T4_POTION_TORNADO"
+  },
+  {
+    "id": "T4_POTION_TORNADO@3",
+    "name": "T4_POTION_TORNADO"
+  },
+  {
+    "id": "T6_POTION_TORNADO",
+    "name": "T6_POTION_TORNADO"
+  },
+  {
+    "id": "T6_POTION_TORNADO@1",
+    "name": "T6_POTION_TORNADO"
+  },
+  {
+    "id": "T6_POTION_TORNADO@2",
+    "name": "T6_POTION_TORNADO"
+  },
+  {
+    "id": "T6_POTION_TORNADO@3",
+    "name": "T6_POTION_TORNADO"
+  },
+  {
+    "id": "T8_POTION_TORNADO",
+    "name": "T8_POTION_TORNADO"
+  },
+  {
+    "id": "T8_POTION_TORNADO@1",
+    "name": "T8_POTION_TORNADO"
+  },
+  {
+    "id": "T8_POTION_TORNADO@2",
+    "name": "T8_POTION_TORNADO"
+  },
+  {
+    "id": "T8_POTION_TORNADO@3",
+    "name": "T8_POTION_TORNADO"
+  },
+  {
+    "id": "UNIQUE_WEAPONMASTER_POTION_PROTOTYPE",
+    "name": "UNIQUE_WEAPONMASTER_POTION_PROTOTYPE"
+  }
+]

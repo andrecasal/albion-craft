@@ -1,0 +1,114 @@
+[
+  {
+    "id": "T4_SKILLBOOK_GATHER_FIBER",
+    "name": "T4_SKILLBOOK_GATHER_FIBER"
+  },
+  {
+    "id": "T5_SKILLBOOK_GATHER_FIBER",
+    "name": "T5_SKILLBOOK_GATHER_FIBER"
+  },
+  {
+    "id": "T6_SKILLBOOK_GATHER_FIBER",
+    "name": "T6_SKILLBOOK_GATHER_FIBER"
+  },
+  {
+    "id": "T7_SKILLBOOK_GATHER_FIBER",
+    "name": "T7_SKILLBOOK_GATHER_FIBER"
+  },
+  {
+    "id": "T8_SKILLBOOK_GATHER_FIBER",
+    "name": "T8_SKILLBOOK_GATHER_FIBER"
+  },
+  {
+    "id": "T4_SKILLBOOK_GATHER_HIDE",
+    "name": "T4_SKILLBOOK_GATHER_HIDE"
+  },
+  {
+    "id": "T5_SKILLBOOK_GATHER_HIDE",
+    "name": "T5_SKILLBOOK_GATHER_HIDE"
+  },
+  {
+    "id": "T6_SKILLBOOK_GATHER_HIDE",
+    "name": "T6_SKILLBOOK_GATHER_HIDE"
+  },
+  {
+    "id": "T7_SKILLBOOK_GATHER_HIDE",
+    "name": "T7_SKILLBOOK_GATHER_HIDE"
+  },
+  {
+    "id": "T8_SKILLBOOK_GATHER_HIDE",
+    "name": "T8_SKILLBOOK_GATHER_HIDE"
+  },
+  {
+    "id": "T4_SKILLBOOK_GATHER_ORE",
+    "name": "T4_SKILLBOOK_GATHER_ORE"
+  },
+  {
+    "id": "T5_SKILLBOOK_GATHER_ORE",
+    "name": "T5_SKILLBOOK_GATHER_ORE"
+  },
+  {
+    "id": "T6_SKILLBOOK_GATHER_ORE",
+    "name": "T6_SKILLBOOK_GATHER_ORE"
+  },
+  {
+    "id": "T7_SKILLBOOK_GATHER_ORE",
+    "name": "T7_SKILLBOOK_GATHER_ORE"
+  },
+  {
+    "id": "T8_SKILLBOOK_GATHER_ORE",
+    "name": "T8_SKILLBOOK_GATHER_ORE"
+  },
+  {
+    "id": "T4_SKILLBOOK_GATHER_ROCK",
+    "name": "T4_SKILLBOOK_GATHER_ROCK"
+  },
+  {
+    "id": "T5_SKILLBOOK_GATHER_ROCK",
+    "name": "T5_SKILLBOOK_GATHER_ROCK"
+  },
+  {
+    "id": "T6_SKILLBOOK_GATHER_ROCK",
+    "name": "T6_SKILLBOOK_GATHER_ROCK"
+  },
+  {
+    "id": "T7_SKILLBOOK_GATHER_ROCK",
+    "name": "T7_SKILLBOOK_GATHER_ROCK"
+  },
+  {
+    "id": "T8_SKILLBOOK_GATHER_ROCK",
+    "name": "T8_SKILLBOOK_GATHER_ROCK"
+  },
+  {
+    "id": "T4_SKILLBOOK_GATHER_WOOD",
+    "name": "T4_SKILLBOOK_GATHER_WOOD"
+  },
+  {
+    "id": "T5_SKILLBOOK_GATHER_WOOD",
+    "name": "T5_SKILLBOOK_GATHER_WOOD"
+  },
+  {
+    "id": "T6_SKILLBOOK_GATHER_WOOD",
+    "name": "T6_SKILLBOOK_GATHER_WOOD"
+  },
+  {
+    "id": "T7_SKILLBOOK_GATHER_WOOD",
+    "name": "T7_SKILLBOOK_GATHER_WOOD"
+  },
+  {
+    "id": "T8_SKILLBOOK_GATHER_WOOD",
+    "name": "T8_SKILLBOOK_GATHER_WOOD"
+  },
+  {
+    "id": "T4_SKILLBOOK_STANDARD",
+    "name": "T4_SKILLBOOK_STANDARD"
+  },
+  {
+    "id": "UNIQUE_LOOTCHEST_SKILLBOOKS_TELLAFRIEND",
+    "name": "UNIQUE_LOOTCHEST_SKILLBOOKS_TELLAFRIEND"
+  },
+  {
+    "id": "UNIQUE_SKILLBOOK_ADC_GENERAL_01",
+    "name": "UNIQUE_SKILLBOOK_ADC_GENERAL_01"
+  }
+]

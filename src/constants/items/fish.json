@@ -1,0 +1,174 @@
+[
+  {
+    "id": "T1_FISH_FRESHWATER_ALL_COMMON",
+    "name": "T1_FISH_FRESHWATER_ALL_COMMON"
+  },
+  {
+    "id": "T2_FISH_FRESHWATER_ALL_COMMON",
+    "name": "T2_FISH_FRESHWATER_ALL_COMMON"
+  },
+  {
+    "id": "T3_FISH_FRESHWATER_ALL_COMMON",
+    "name": "T3_FISH_FRESHWATER_ALL_COMMON"
+  },
+  {
+    "id": "T4_FISH_FRESHWATER_ALL_COMMON",
+    "name": "T4_FISH_FRESHWATER_ALL_COMMON"
+  },
+  {
+    "id": "T5_FISH_FRESHWATER_ALL_COMMON",
+    "name": "T5_FISH_FRESHWATER_ALL_COMMON"
+  },
+  {
+    "id": "T6_FISH_FRESHWATER_ALL_COMMON",
+    "name": "T6_FISH_FRESHWATER_ALL_COMMON"
+  },
+  {
+    "id": "T7_FISH_FRESHWATER_ALL_COMMON",
+    "name": "T7_FISH_FRESHWATER_ALL_COMMON"
+  },
+  {
+    "id": "T8_FISH_FRESHWATER_ALL_COMMON",
+    "name": "T8_FISH_FRESHWATER_ALL_COMMON"
+  },
+  {
+    "id": "T1_FISH_SALTWATER_ALL_COMMON",
+    "name": "T1_FISH_SALTWATER_ALL_COMMON"
+  },
+  {
+    "id": "T2_FISH_SALTWATER_ALL_COMMON",
+    "name": "T2_FISH_SALTWATER_ALL_COMMON"
+  },
+  {
+    "id": "T3_FISH_SALTWATER_ALL_COMMON",
+    "name": "T3_FISH_SALTWATER_ALL_COMMON"
+  },
+  {
+    "id": "T4_FISH_SALTWATER_ALL_COMMON",
+    "name": "T4_FISH_SALTWATER_ALL_COMMON"
+  },
+  {
+    "id": "T5_FISH_SALTWATER_ALL_COMMON",
+    "name": "T5_FISH_SALTWATER_ALL_COMMON"
+  },
+  {
+    "id": "T6_FISH_SALTWATER_ALL_COMMON",
+    "name": "T6_FISH_SALTWATER_ALL_COMMON"
+  },
+  {
+    "id": "T7_FISH_SALTWATER_ALL_COMMON",
+    "name": "T7_FISH_SALTWATER_ALL_COMMON"
+  },
+  {
+    "id": "T8_FISH_SALTWATER_ALL_COMMON",
+    "name": "T8_FISH_SALTWATER_ALL_COMMON"
+  },
+  {
+    "id": "T3_FISH_FRESHWATER_FOREST_RARE",
+    "name": "T3_FISH_FRESHWATER_FOREST_RARE"
+  },
+  {
+    "id": "T5_FISH_FRESHWATER_FOREST_RARE",
+    "name": "T5_FISH_FRESHWATER_FOREST_RARE"
+  },
+  {
+    "id": "T7_FISH_FRESHWATER_FOREST_RARE",
+    "name": "T7_FISH_FRESHWATER_FOREST_RARE"
+  },
+  {
+    "id": "T3_FISH_FRESHWATER_MOUNTAIN_RARE",
+    "name": "T3_FISH_FRESHWATER_MOUNTAIN_RARE"
+  },
+  {
+    "id": "T5_FISH_FRESHWATER_MOUNTAIN_RARE",
+    "name": "T5_FISH_FRESHWATER_MOUNTAIN_RARE"
+  },
+  {
+    "id": "T7_FISH_FRESHWATER_MOUNTAIN_RARE",
+    "name": "T7_FISH_FRESHWATER_MOUNTAIN_RARE"
+  },
+  {
+    "id": "T3_FISH_FRESHWATER_HIGHLANDS_RARE",
+    "name": "T3_FISH_FRESHWATER_HIGHLANDS_RARE"
+  },
+  {
+    "id": "T5_FISH_FRESHWATER_HIGHLANDS_RARE",
+    "name": "T5_FISH_FRESHWATER_HIGHLANDS_RARE"
+  },
+  {
+    "id": "T7_FISH_FRESHWATER_HIGHLANDS_RARE",
+    "name": "T7_FISH_FRESHWATER_HIGHLANDS_RARE"
+  },
+  {
+    "id": "T3_FISH_FRESHWATER_STEPPE_RARE",
+    "name": "T3_FISH_FRESHWATER_STEPPE_RARE"
+  },
+  {
+    "id": "T5_FISH_FRESHWATER_STEPPE_RARE",
+    "name": "T5_FISH_FRESHWATER_STEPPE_RARE"
+  },
+  {
+    "id": "T7_FISH_FRESHWATER_STEPPE_RARE",
+    "name": "T7_FISH_FRESHWATER_STEPPE_RARE"
+  },
+  {
+    "id": "T3_FISH_FRESHWATER_SWAMP_RARE",
+    "name": "T3_FISH_FRESHWATER_SWAMP_RARE"
+  },
+  {
+    "id": "T5_FISH_FRESHWATER_SWAMP_RARE",
+    "name": "T5_FISH_FRESHWATER_SWAMP_RARE"
+  },
+  {
+    "id": "T7_FISH_FRESHWATER_SWAMP_RARE",
+    "name": "T7_FISH_FRESHWATER_SWAMP_RARE"
+  },
+  {
+    "id": "T3_FISH_SALTWATER_ALL_RARE",
+    "name": "T3_FISH_SALTWATER_ALL_RARE"
+  },
+  {
+    "id": "T5_FISH_SALTWATER_ALL_RARE",
+    "name": "T5_FISH_SALTWATER_ALL_RARE"
+  },
+  {
+    "id": "T7_FISH_SALTWATER_ALL_RARE",
+    "name": "T7_FISH_SALTWATER_ALL_RARE"
+  },
+  {
+    "id": "T3_FISH_FRESHWATER_AVALON_RARE",
+    "name": "T3_FISH_FRESHWATER_AVALON_RARE"
+  },
+  {
+    "id": "T5_FISH_FRESHWATER_AVALON_RARE",
+    "name": "T5_FISH_FRESHWATER_AVALON_RARE"
+  },
+  {
+    "id": "T7_FISH_FRESHWATER_AVALON_RARE",
+    "name": "T7_FISH_FRESHWATER_AVALON_RARE"
+  },
+  {
+    "id": "T1_SEAWEED",
+    "name": "T1_SEAWEED"
+  },
+  {
+    "id": "T8_FISH_SALTWATER_ALL_BOSS_SHARK",
+    "name": "T8_FISH_SALTWATER_ALL_BOSS_SHARK"
+  },
+  {
+    "id": "T1_FISHCHOPS",
+    "name": "T1_FISHCHOPS"
+  },
+  {
+    "id": "T1_FISHSAUCE_LEVEL1",
+    "name": "T1_FISHSAUCE_LEVEL1"
+  },
+  {
+    "id": "T1_FISHSAUCE_LEVEL2",
+    "name": "T1_FISHSAUCE_LEVEL2"
+  },
+  {
+    "id": "T1_FISHSAUCE_LEVEL3",
+    "name": "T1_FISHSAUCE_LEVEL3"
+  }
+]

@@ -323,15 +323,14 @@ async function fetchWithRetry(
       ? calculateWaitTime(result.rateLimitInfo)
       : DEFAULT_RATE_LIMIT_WAIT;
 
-    await displayCountdown(waitSeconds, progressMessage);
+    await displayCountdown(waitSeconds);
   } else {
     // Exponential backoff for other retryable errors (server errors, timeouts)
     const baseDelay = CONFIG.initialRetryDelay * Math.pow(CONFIG.backoffMultiplier, attempt - 1);
     const delayWithJitter = addJitter(Math.min(baseDelay, CONFIG.maxRetryDelay));
     const waitSeconds = Math.round(delayWithJitter / 1000);
 
-    const retryPrefix = progressMessage ? `${progressMessage} - retry ${attempt}/${CONFIG.maxRetries}` : undefined;
-    await displayCountdown(waitSeconds, retryPrefix);
+    await displayCountdown(waitSeconds);
   }
 
   // For rate limiting, don't increment attempt counter so we retry indefinitely

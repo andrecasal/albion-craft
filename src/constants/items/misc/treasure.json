@@ -1,0 +1,86 @@
+[
+  {
+    "id": "TREASURE_KNOWLEDGE_RARITY1",
+    "name": "TREASURE_KNOWLEDGE_RARITY1"
+  },
+  {
+    "id": "TREASURE_KNOWLEDGE_RARITY2",
+    "name": "TREASURE_KNOWLEDGE_RARITY2"
+  },
+  {
+    "id": "TREASURE_KNOWLEDGE_RARITY3",
+    "name": "TREASURE_KNOWLEDGE_RARITY3"
+  },
+  {
+    "id": "TREASURE_SILVERWARE_RARITY1",
+    "name": "TREASURE_SILVERWARE_RARITY1"
+  },
+  {
+    "id": "TREASURE_SILVERWARE_RARITY2",
+    "name": "TREASURE_SILVERWARE_RARITY2"
+  },
+  {
+    "id": "TREASURE_SILVERWARE_RARITY3",
+    "name": "TREASURE_SILVERWARE_RARITY3"
+  },
+  {
+    "id": "TREASURE_DECORATIVE_RARITY1",
+    "name": "TREASURE_DECORATIVE_RARITY1"
+  },
+  {
+    "id": "TREASURE_DECORATIVE_RARITY2",
+    "name": "TREASURE_DECORATIVE_RARITY2"
+  },
+  {
+    "id": "TREASURE_DECORATIVE_RARITY3",
+    "name": "TREASURE_DECORATIVE_RARITY3"
+  },
+  {
+    "id": "TREASURE_CEREMONIAL_RARITY1",
+    "name": "TREASURE_CEREMONIAL_RARITY1"
+  },
+  {
+    "id": "TREASURE_CEREMONIAL_RARITY2",
+    "name": "TREASURE_CEREMONIAL_RARITY2"
+  },
+  {
+    "id": "TREASURE_CEREMONIAL_RARITY3",
+    "name": "TREASURE_CEREMONIAL_RARITY3"
+  },
+  {
+    "id": "TREASURE_TRIBAL_RARITY1",
+    "name": "TREASURE_TRIBAL_RARITY1"
+  },
+  {
+    "id": "TREASURE_TRIBAL_RARITY2",
+    "name": "TREASURE_TRIBAL_RARITY2"
+  },
+  {
+    "id": "TREASURE_TRIBAL_RARITY3",
+    "name": "TREASURE_TRIBAL_RARITY3"
+  },
+  {
+    "id": "TREASURE_RITUAL_RARITY1",
+    "name": "TREASURE_RITUAL_RARITY1"
+  },
+  {
+    "id": "TREASURE_RITUAL_RARITY2",
+    "name": "TREASURE_RITUAL_RARITY2"
+  },
+  {
+    "id": "TREASURE_RITUAL_RARITY3",
+    "name": "TREASURE_RITUAL_RARITY3"
+  },
+  {
+    "id": "TREASURE_AVALON_RARITY1",
+    "name": "TREASURE_AVALON_RARITY1"
+  },
+  {
+    "id": "TREASURE_AVALON_RARITY2",
+    "name": "TREASURE_AVALON_RARITY2"
+  },
+  {
+    "id": "TREASURE_AVALON_RARITY3",
+    "name": "TREASURE_AVALON_RARITY3"
+  }
+]

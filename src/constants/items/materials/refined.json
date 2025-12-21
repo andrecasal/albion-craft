@@ -1,0 +1,1034 @@
+[
+  {
+    "id": "T2_PLANKS",
+    "name": "T2_PLANKS"
+  },
+  {
+    "id": "T3_PLANKS",
+    "name": "T3_PLANKS"
+  },
+  {
+    "id": "T4_PLANKS",
+    "name": "T4_PLANKS"
+  },
+  {
+    "id": "T5_PLANKS",
+    "name": "T5_PLANKS"
+  },
+  {
+    "id": "T6_PLANKS",
+    "name": "T6_PLANKS"
+  },
+  {
+    "id": "T7_PLANKS",
+    "name": "T7_PLANKS"
+  },
+  {
+    "id": "T8_PLANKS",
+    "name": "T8_PLANKS"
+  },
+  {
+    "id": "T4_PLANKS_LEVEL1",
+    "name": "T4_PLANKS_LEVEL1"
+  },
+  {
+    "id": "T5_PLANKS_LEVEL1",
+    "name": "T5_PLANKS_LEVEL1"
+  },
+  {
+    "id": "T6_PLANKS_LEVEL1",
+    "name": "T6_PLANKS_LEVEL1"
+  },
+  {
+    "id": "T7_PLANKS_LEVEL1",
+    "name": "T7_PLANKS_LEVEL1"
+  },
+  {
+    "id": "T8_PLANKS_LEVEL1",
+    "name": "T8_PLANKS_LEVEL1"
+  },
+  {
+    "id": "T4_PLANKS_LEVEL2",
+    "name": "T4_PLANKS_LEVEL2"
+  },
+  {
+    "id": "T5_PLANKS_LEVEL2",
+    "name": "T5_PLANKS_LEVEL2"
+  },
+  {
+    "id": "T6_PLANKS_LEVEL2",
+    "name": "T6_PLANKS_LEVEL2"
+  },
+  {
+    "id": "T7_PLANKS_LEVEL2",
+    "name": "T7_PLANKS_LEVEL2"
+  },
+  {
+    "id": "T8_PLANKS_LEVEL2",
+    "name": "T8_PLANKS_LEVEL2"
+  },
+  {
+    "id": "T4_PLANKS_LEVEL3",
+    "name": "T4_PLANKS_LEVEL3"
+  },
+  {
+    "id": "T5_PLANKS_LEVEL3",
+    "name": "T5_PLANKS_LEVEL3"
+  },
+  {
+    "id": "T6_PLANKS_LEVEL3",
+    "name": "T6_PLANKS_LEVEL3"
+  },
+  {
+    "id": "T7_PLANKS_LEVEL3",
+    "name": "T7_PLANKS_LEVEL3"
+  },
+  {
+    "id": "T8_PLANKS_LEVEL3",
+    "name": "T8_PLANKS_LEVEL3"
+  },
+  {
+    "id": "T4_PLANKS_LEVEL4",
+    "name": "T4_PLANKS_LEVEL4"
+  },
+  {
+    "id": "T5_PLANKS_LEVEL4",
+    "name": "T5_PLANKS_LEVEL4"
+  },
+  {
+    "id": "T6_PLANKS_LEVEL4",
+    "name": "T6_PLANKS_LEVEL4"
+  },
+  {
+    "id": "T7_PLANKS_LEVEL4",
+    "name": "T7_PLANKS_LEVEL4"
+  },
+  {
+    "id": "T8_PLANKS_LEVEL4",
+    "name": "T8_PLANKS_LEVEL4"
+  },
+  {
+    "id": "T2_METALBAR",
+    "name": "T2_METALBAR"
+  },
+  {
+    "id": "T3_METALBAR",
+    "name": "T3_METALBAR"
+  },
+  {
+    "id": "T4_METALBAR",
+    "name": "T4_METALBAR"
+  },
+  {
+    "id": "T5_METALBAR",
+    "name": "T5_METALBAR"
+  },
+  {
+    "id": "T6_METALBAR",
+    "name": "T6_METALBAR"
+  },
+  {
+    "id": "T7_METALBAR",
+    "name": "T7_METALBAR"
+  },
+  {
+    "id": "T8_METALBAR",
+    "name": "T8_METALBAR"
+  },
+  {
+    "id": "T4_METALBAR_LEVEL1",
+    "name": "T4_METALBAR_LEVEL1"
+  },
+  {
+    "id": "T5_METALBAR_LEVEL1",
+    "name": "T5_METALBAR_LEVEL1"
+  },
+  {
+    "id": "T6_METALBAR_LEVEL1",
+    "name": "T6_METALBAR_LEVEL1"
+  },
+  {
+    "id": "T7_METALBAR_LEVEL1",
+    "name": "T7_METALBAR_LEVEL1"
+  },
+  {
+    "id": "T8_METALBAR_LEVEL1",
+    "name": "T8_METALBAR_LEVEL1"
+  },
+  {
+    "id": "T4_METALBAR_LEVEL2",
+    "name": "T4_METALBAR_LEVEL2"
+  },
+  {
+    "id": "T5_METALBAR_LEVEL2",
+    "name": "T5_METALBAR_LEVEL2"
+  },
+  {
+    "id": "T6_METALBAR_LEVEL2",
+    "name": "T6_METALBAR_LEVEL2"
+  },
+  {
+    "id": "T7_METALBAR_LEVEL2",
+    "name": "T7_METALBAR_LEVEL2"
+  },
+  {
+    "id": "T8_METALBAR_LEVEL2",
+    "name": "T8_METALBAR_LEVEL2"
+  },
+  {
+    "id": "T4_METALBAR_LEVEL3",
+    "name": "T4_METALBAR_LEVEL3"
+  },
+  {
+    "id": "T5_METALBAR_LEVEL3",
+    "name": "T5_METALBAR_LEVEL3"
+  },
+  {
+    "id": "T6_METALBAR_LEVEL3",
+    "name": "T6_METALBAR_LEVEL3"
+  },
+  {
+    "id": "T7_METALBAR_LEVEL3",
+    "name": "T7_METALBAR_LEVEL3"
+  },
+  {
+    "id": "T8_METALBAR_LEVEL3",
+    "name": "T8_METALBAR_LEVEL3"
+  },
+  {
+    "id": "T4_METALBAR_LEVEL4",
+    "name": "T4_METALBAR_LEVEL4"
+  },
+  {
+    "id": "T5_METALBAR_LEVEL4",
+    "name": "T5_METALBAR_LEVEL4"
+  },
+  {
+    "id": "T6_METALBAR_LEVEL4",
+    "name": "T6_METALBAR_LEVEL4"
+  },
+  {
+    "id": "T7_METALBAR_LEVEL4",
+    "name": "T7_METALBAR_LEVEL4"
+  },
+  {
+    "id": "T8_METALBAR_LEVEL4",
+    "name": "T8_METALBAR_LEVEL4"
+  },
+  {
+    "id": "T2_LEATHER",
+    "name": "T2_LEATHER"
+  },
+  {
+    "id": "T3_LEATHER",
+    "name": "T3_LEATHER"
+  },
+  {
+    "id": "T4_LEATHER",
+    "name": "T4_LEATHER"
+  },
+  {
+    "id": "T5_LEATHER",
+    "name": "T5_LEATHER"
+  },
+  {
+    "id": "T6_LEATHER",
+    "name": "T6_LEATHER"
+  },
+  {
+    "id": "T7_LEATHER",
+    "name": "T7_LEATHER"
+  },
+  {
+    "id": "T8_LEATHER",
+    "name": "T8_LEATHER"
+  },
+  {
+    "id": "T4_LEATHER_LEVEL1",
+    "name": "T4_LEATHER_LEVEL1"
+  },
+  {
+    "id": "T5_LEATHER_LEVEL1",
+    "name": "T5_LEATHER_LEVEL1"
+  },
+  {
+    "id": "T6_LEATHER_LEVEL1",
+    "name": "T6_LEATHER_LEVEL1"
+  },
+  {
+    "id": "T7_LEATHER_LEVEL1",
+    "name": "T7_LEATHER_LEVEL1"
+  },
+  {
+    "id": "T8_LEATHER_LEVEL1",
+    "name": "T8_LEATHER_LEVEL1"
+  },
+  {
+    "id": "T4_LEATHER_LEVEL2",
+    "name": "T4_LEATHER_LEVEL2"
+  },
+  {
+    "id": "T5_LEATHER_LEVEL2",
+    "name": "T5_LEATHER_LEVEL2"
+  },
+  {
+    "id": "T6_LEATHER_LEVEL2",
+    "name": "T6_LEATHER_LEVEL2"
+  },
+  {
+    "id": "T7_LEATHER_LEVEL2",
+    "name": "T7_LEATHER_LEVEL2"
+  },
+  {
+    "id": "T8_LEATHER_LEVEL2",
+    "name": "T8_LEATHER_LEVEL2"
+  },
+  {
+    "id": "T4_LEATHER_LEVEL3",
+    "name": "T4_LEATHER_LEVEL3"
+  },
+  {
+    "id": "T5_LEATHER_LEVEL3",
+    "name": "T5_LEATHER_LEVEL3"
+  },
+  {
+    "id": "T6_LEATHER_LEVEL3",
+    "name": "T6_LEATHER_LEVEL3"
+  },
+  {
+    "id": "T7_LEATHER_LEVEL3",
+    "name": "T7_LEATHER_LEVEL3"
+  },
+  {
+    "id": "T8_LEATHER_LEVEL3",
+    "name": "T8_LEATHER_LEVEL3"
+  },
+  {
+    "id": "T4_LEATHER_LEVEL4",
+    "name": "T4_LEATHER_LEVEL4"
+  },
+  {
+    "id": "T5_LEATHER_LEVEL4",
+    "name": "T5_LEATHER_LEVEL4"
+  },
+  {
+    "id": "T6_LEATHER_LEVEL4",
+    "name": "T6_LEATHER_LEVEL4"
+  },
+  {
+    "id": "T7_LEATHER_LEVEL4",
+    "name": "T7_LEATHER_LEVEL4"
+  },
+  {
+    "id": "T8_LEATHER_LEVEL4",
+    "name": "T8_LEATHER_LEVEL4"
+  },
+  {
+    "id": "T2_CLOTH",
+    "name": "T2_CLOTH"
+  },
+  {
+    "id": "T3_CLOTH",
+    "name": "T3_CLOTH"
+  },
+  {
+    "id": "T4_CLOTH",
+    "name": "T4_CLOTH"
+  },
+  {
+    "id": "T5_CLOTH",
+    "name": "T5_CLOTH"
+  },
+  {
+    "id": "T6_CLOTH",
+    "name": "T6_CLOTH"
+  },
+  {
+    "id": "T7_CLOTH",
+    "name": "T7_CLOTH"
+  },
+  {
+    "id": "T8_CLOTH",
+    "name": "T8_CLOTH"
+  },
+  {
+    "id": "T4_CLOTH_LEVEL1",
+    "name": "T4_CLOTH_LEVEL1"
+  },
+  {
+    "id": "T5_CLOTH_LEVEL1",
+    "name": "T5_CLOTH_LEVEL1"
+  },
+  {
+    "id": "T6_CLOTH_LEVEL1",
+    "name": "T6_CLOTH_LEVEL1"
+  },
+  {
+    "id": "T7_CLOTH_LEVEL1",
+    "name": "T7_CLOTH_LEVEL1"
+  },
+  {
+    "id": "T8_CLOTH_LEVEL1",
+    "name": "T8_CLOTH_LEVEL1"
+  },
+  {
+    "id": "T4_CLOTH_LEVEL2",
+    "name": "T4_CLOTH_LEVEL2"
+  },
+  {
+    "id": "T5_CLOTH_LEVEL2",
+    "name": "T5_CLOTH_LEVEL2"
+  },
+  {
+    "id": "T6_CLOTH_LEVEL2",
+    "name": "T6_CLOTH_LEVEL2"
+  },
+  {
+    "id": "T7_CLOTH_LEVEL2",
+    "name": "T7_CLOTH_LEVEL2"
+  },
+  {
+    "id": "T8_CLOTH_LEVEL2",
+    "name": "T8_CLOTH_LEVEL2"
+  },
+  {
+    "id": "T4_CLOTH_LEVEL3",
+    "name": "T4_CLOTH_LEVEL3"
+  },
+  {
+    "id": "T5_CLOTH_LEVEL3",
+    "name": "T5_CLOTH_LEVEL3"
+  },
+  {
+    "id": "T6_CLOTH_LEVEL3",
+    "name": "T6_CLOTH_LEVEL3"
+  },
+  {
+    "id": "T7_CLOTH_LEVEL3",
+    "name": "T7_CLOTH_LEVEL3"
+  },
+  {
+    "id": "T8_CLOTH_LEVEL3",
+    "name": "T8_CLOTH_LEVEL3"
+  },
+  {
+    "id": "T4_CLOTH_LEVEL4",
+    "name": "T4_CLOTH_LEVEL4"
+  },
+  {
+    "id": "T5_CLOTH_LEVEL4",
+    "name": "T5_CLOTH_LEVEL4"
+  },
+  {
+    "id": "T6_CLOTH_LEVEL4",
+    "name": "T6_CLOTH_LEVEL4"
+  },
+  {
+    "id": "T7_CLOTH_LEVEL4",
+    "name": "T7_CLOTH_LEVEL4"
+  },
+  {
+    "id": "T8_CLOTH_LEVEL4",
+    "name": "T8_CLOTH_LEVEL4"
+  },
+  {
+    "id": "T4_ARTEFACT_HEAD_LEATHER_MORGANA",
+    "name": "T4_ARTEFACT_HEAD_LEATHER_MORGANA"
+  },
+  {
+    "id": "T5_ARTEFACT_HEAD_LEATHER_MORGANA",
+    "name": "T5_ARTEFACT_HEAD_LEATHER_MORGANA"
+  },
+  {
+    "id": "T6_ARTEFACT_HEAD_LEATHER_MORGANA",
+    "name": "T6_ARTEFACT_HEAD_LEATHER_MORGANA"
+  },
+  {
+    "id": "T7_ARTEFACT_HEAD_LEATHER_MORGANA",
+    "name": "T7_ARTEFACT_HEAD_LEATHER_MORGANA"
+  },
+  {
+    "id": "T8_ARTEFACT_HEAD_LEATHER_MORGANA",
+    "name": "T8_ARTEFACT_HEAD_LEATHER_MORGANA"
+  },
+  {
+    "id": "T4_ARTEFACT_ARMOR_LEATHER_MORGANA",
+    "name": "T4_ARTEFACT_ARMOR_LEATHER_MORGANA"
+  },
+  {
+    "id": "T5_ARTEFACT_ARMOR_LEATHER_MORGANA",
+    "name": "T5_ARTEFACT_ARMOR_LEATHER_MORGANA"
+  },
+  {
+    "id": "T6_ARTEFACT_ARMOR_LEATHER_MORGANA",
+    "name": "T6_ARTEFACT_ARMOR_LEATHER_MORGANA"
+  },
+  {
+    "id": "T7_ARTEFACT_ARMOR_LEATHER_MORGANA",
+    "name": "T7_ARTEFACT_ARMOR_LEATHER_MORGANA"
+  },
+  {
+    "id": "T8_ARTEFACT_ARMOR_LEATHER_MORGANA",
+    "name": "T8_ARTEFACT_ARMOR_LEATHER_MORGANA"
+  },
+  {
+    "id": "T4_ARTEFACT_SHOES_LEATHER_MORGANA",
+    "name": "T4_ARTEFACT_SHOES_LEATHER_MORGANA"
+  },
+  {
+    "id": "T5_ARTEFACT_SHOES_LEATHER_MORGANA",
+    "name": "T5_ARTEFACT_SHOES_LEATHER_MORGANA"
+  },
+  {
+    "id": "T6_ARTEFACT_SHOES_LEATHER_MORGANA",
+    "name": "T6_ARTEFACT_SHOES_LEATHER_MORGANA"
+  },
+  {
+    "id": "T7_ARTEFACT_SHOES_LEATHER_MORGANA",
+    "name": "T7_ARTEFACT_SHOES_LEATHER_MORGANA"
+  },
+  {
+    "id": "T8_ARTEFACT_SHOES_LEATHER_MORGANA",
+    "name": "T8_ARTEFACT_SHOES_LEATHER_MORGANA"
+  },
+  {
+    "id": "T4_ARTEFACT_HEAD_LEATHER_HELL",
+    "name": "T4_ARTEFACT_HEAD_LEATHER_HELL"
+  },
+  {
+    "id": "T5_ARTEFACT_HEAD_LEATHER_HELL",
+    "name": "T5_ARTEFACT_HEAD_LEATHER_HELL"
+  },
+  {
+    "id": "T6_ARTEFACT_HEAD_LEATHER_HELL",
+    "name": "T6_ARTEFACT_HEAD_LEATHER_HELL"
+  },
+  {
+    "id": "T7_ARTEFACT_HEAD_LEATHER_HELL",
+    "name": "T7_ARTEFACT_HEAD_LEATHER_HELL"
+  },
+  {
+    "id": "T8_ARTEFACT_HEAD_LEATHER_HELL",
+    "name": "T8_ARTEFACT_HEAD_LEATHER_HELL"
+  },
+  {
+    "id": "T4_ARTEFACT_ARMOR_LEATHER_HELL",
+    "name": "T4_ARTEFACT_ARMOR_LEATHER_HELL"
+  },
+  {
+    "id": "T5_ARTEFACT_ARMOR_LEATHER_HELL",
+    "name": "T5_ARTEFACT_ARMOR_LEATHER_HELL"
+  },
+  {
+    "id": "T6_ARTEFACT_ARMOR_LEATHER_HELL",
+    "name": "T6_ARTEFACT_ARMOR_LEATHER_HELL"
+  },
+  {
+    "id": "T7_ARTEFACT_ARMOR_LEATHER_HELL",
+    "name": "T7_ARTEFACT_ARMOR_LEATHER_HELL"
+  },
+  {
+    "id": "T8_ARTEFACT_ARMOR_LEATHER_HELL",
+    "name": "T8_ARTEFACT_ARMOR_LEATHER_HELL"
+  },
+  {
+    "id": "T4_ARTEFACT_SHOES_LEATHER_HELL",
+    "name": "T4_ARTEFACT_SHOES_LEATHER_HELL"
+  },
+  {
+    "id": "T5_ARTEFACT_SHOES_LEATHER_HELL",
+    "name": "T5_ARTEFACT_SHOES_LEATHER_HELL"
+  },
+  {
+    "id": "T6_ARTEFACT_SHOES_LEATHER_HELL",
+    "name": "T6_ARTEFACT_SHOES_LEATHER_HELL"
+  },
+  {
+    "id": "T7_ARTEFACT_SHOES_LEATHER_HELL",
+    "name": "T7_ARTEFACT_SHOES_LEATHER_HELL"
+  },
+  {
+    "id": "T8_ARTEFACT_SHOES_LEATHER_HELL",
+    "name": "T8_ARTEFACT_SHOES_LEATHER_HELL"
+  },
+  {
+    "id": "T4_ARTEFACT_HEAD_LEATHER_UNDEAD",
+    "name": "T4_ARTEFACT_HEAD_LEATHER_UNDEAD"
+  },
+  {
+    "id": "T5_ARTEFACT_HEAD_LEATHER_UNDEAD",
+    "name": "T5_ARTEFACT_HEAD_LEATHER_UNDEAD"
+  },
+  {
+    "id": "T6_ARTEFACT_HEAD_LEATHER_UNDEAD",
+    "name": "T6_ARTEFACT_HEAD_LEATHER_UNDEAD"
+  },
+  {
+    "id": "T7_ARTEFACT_HEAD_LEATHER_UNDEAD",
+    "name": "T7_ARTEFACT_HEAD_LEATHER_UNDEAD"
+  },
+  {
+    "id": "T8_ARTEFACT_HEAD_LEATHER_UNDEAD",
+    "name": "T8_ARTEFACT_HEAD_LEATHER_UNDEAD"
+  },
+  {
+    "id": "T4_ARTEFACT_ARMOR_LEATHER_UNDEAD",
+    "name": "T4_ARTEFACT_ARMOR_LEATHER_UNDEAD"
+  },
+  {
+    "id": "T5_ARTEFACT_ARMOR_LEATHER_UNDEAD",
+    "name": "T5_ARTEFACT_ARMOR_LEATHER_UNDEAD"
+  },
+  {
+    "id": "T6_ARTEFACT_ARMOR_LEATHER_UNDEAD",
+    "name": "T6_ARTEFACT_ARMOR_LEATHER_UNDEAD"
+  },
+  {
+    "id": "T7_ARTEFACT_ARMOR_LEATHER_UNDEAD",
+    "name": "T7_ARTEFACT_ARMOR_LEATHER_UNDEAD"
+  },
+  {
+    "id": "T8_ARTEFACT_ARMOR_LEATHER_UNDEAD",
+    "name": "T8_ARTEFACT_ARMOR_LEATHER_UNDEAD"
+  },
+  {
+    "id": "T4_ARTEFACT_SHOES_LEATHER_UNDEAD",
+    "name": "T4_ARTEFACT_SHOES_LEATHER_UNDEAD"
+  },
+  {
+    "id": "T5_ARTEFACT_SHOES_LEATHER_UNDEAD",
+    "name": "T5_ARTEFACT_SHOES_LEATHER_UNDEAD"
+  },
+  {
+    "id": "T6_ARTEFACT_SHOES_LEATHER_UNDEAD",
+    "name": "T6_ARTEFACT_SHOES_LEATHER_UNDEAD"
+  },
+  {
+    "id": "T7_ARTEFACT_SHOES_LEATHER_UNDEAD",
+    "name": "T7_ARTEFACT_SHOES_LEATHER_UNDEAD"
+  },
+  {
+    "id": "T8_ARTEFACT_SHOES_LEATHER_UNDEAD",
+    "name": "T8_ARTEFACT_SHOES_LEATHER_UNDEAD"
+  },
+  {
+    "id": "T4_ARTEFACT_HEAD_LEATHER_AVALON",
+    "name": "T4_ARTEFACT_HEAD_LEATHER_AVALON"
+  },
+  {
+    "id": "T5_ARTEFACT_HEAD_LEATHER_AVALON",
+    "name": "T5_ARTEFACT_HEAD_LEATHER_AVALON"
+  },
+  {
+    "id": "T6_ARTEFACT_HEAD_LEATHER_AVALON",
+    "name": "T6_ARTEFACT_HEAD_LEATHER_AVALON"
+  },
+  {
+    "id": "T7_ARTEFACT_HEAD_LEATHER_AVALON",
+    "name": "T7_ARTEFACT_HEAD_LEATHER_AVALON"
+  },
+  {
+    "id": "T8_ARTEFACT_HEAD_LEATHER_AVALON",
+    "name": "T8_ARTEFACT_HEAD_LEATHER_AVALON"
+  },
+  {
+    "id": "T4_ARTEFACT_ARMOR_LEATHER_AVALON",
+    "name": "T4_ARTEFACT_ARMOR_LEATHER_AVALON"
+  },
+  {
+    "id": "T5_ARTEFACT_ARMOR_LEATHER_AVALON",
+    "name": "T5_ARTEFACT_ARMOR_LEATHER_AVALON"
+  },
+  {
+    "id": "T6_ARTEFACT_ARMOR_LEATHER_AVALON",
+    "name": "T6_ARTEFACT_ARMOR_LEATHER_AVALON"
+  },
+  {
+    "id": "T7_ARTEFACT_ARMOR_LEATHER_AVALON",
+    "name": "T7_ARTEFACT_ARMOR_LEATHER_AVALON"
+  },
+  {
+    "id": "T8_ARTEFACT_ARMOR_LEATHER_AVALON",
+    "name": "T8_ARTEFACT_ARMOR_LEATHER_AVALON"
+  },
+  {
+    "id": "T4_ARTEFACT_SHOES_LEATHER_AVALON",
+    "name": "T4_ARTEFACT_SHOES_LEATHER_AVALON"
+  },
+  {
+    "id": "T5_ARTEFACT_SHOES_LEATHER_AVALON",
+    "name": "T5_ARTEFACT_SHOES_LEATHER_AVALON"
+  },
+  {
+    "id": "T6_ARTEFACT_SHOES_LEATHER_AVALON",
+    "name": "T6_ARTEFACT_SHOES_LEATHER_AVALON"
+  },
+  {
+    "id": "T7_ARTEFACT_SHOES_LEATHER_AVALON",
+    "name": "T7_ARTEFACT_SHOES_LEATHER_AVALON"
+  },
+  {
+    "id": "T8_ARTEFACT_SHOES_LEATHER_AVALON",
+    "name": "T8_ARTEFACT_SHOES_LEATHER_AVALON"
+  },
+  {
+    "id": "T4_ARTEFACT_ARMOR_LEATHER_FEY",
+    "name": "T4_ARTEFACT_ARMOR_LEATHER_FEY"
+  },
+  {
+    "id": "T5_ARTEFACT_ARMOR_LEATHER_FEY",
+    "name": "T5_ARTEFACT_ARMOR_LEATHER_FEY"
+  },
+  {
+    "id": "T6_ARTEFACT_ARMOR_LEATHER_FEY",
+    "name": "T6_ARTEFACT_ARMOR_LEATHER_FEY"
+  },
+  {
+    "id": "T7_ARTEFACT_ARMOR_LEATHER_FEY",
+    "name": "T7_ARTEFACT_ARMOR_LEATHER_FEY"
+  },
+  {
+    "id": "T8_ARTEFACT_ARMOR_LEATHER_FEY",
+    "name": "T8_ARTEFACT_ARMOR_LEATHER_FEY"
+  },
+  {
+    "id": "T4_ARTEFACT_HEAD_LEATHER_FEY",
+    "name": "T4_ARTEFACT_HEAD_LEATHER_FEY"
+  },
+  {
+    "id": "T5_ARTEFACT_HEAD_LEATHER_FEY",
+    "name": "T5_ARTEFACT_HEAD_LEATHER_FEY"
+  },
+  {
+    "id": "T6_ARTEFACT_HEAD_LEATHER_FEY",
+    "name": "T6_ARTEFACT_HEAD_LEATHER_FEY"
+  },
+  {
+    "id": "T7_ARTEFACT_HEAD_LEATHER_FEY",
+    "name": "T7_ARTEFACT_HEAD_LEATHER_FEY"
+  },
+  {
+    "id": "T8_ARTEFACT_HEAD_LEATHER_FEY",
+    "name": "T8_ARTEFACT_HEAD_LEATHER_FEY"
+  },
+  {
+    "id": "T4_ARTEFACT_SHOES_LEATHER_FEY",
+    "name": "T4_ARTEFACT_SHOES_LEATHER_FEY"
+  },
+  {
+    "id": "T5_ARTEFACT_SHOES_LEATHER_FEY",
+    "name": "T5_ARTEFACT_SHOES_LEATHER_FEY"
+  },
+  {
+    "id": "T6_ARTEFACT_SHOES_LEATHER_FEY",
+    "name": "T6_ARTEFACT_SHOES_LEATHER_FEY"
+  },
+  {
+    "id": "T7_ARTEFACT_SHOES_LEATHER_FEY",
+    "name": "T7_ARTEFACT_SHOES_LEATHER_FEY"
+  },
+  {
+    "id": "T8_ARTEFACT_SHOES_LEATHER_FEY",
+    "name": "T8_ARTEFACT_SHOES_LEATHER_FEY"
+  },
+  {
+    "id": "T4_ARTEFACT_HEAD_CLOTH_KEEPER",
+    "name": "T4_ARTEFACT_HEAD_CLOTH_KEEPER"
+  },
+  {
+    "id": "T5_ARTEFACT_HEAD_CLOTH_KEEPER",
+    "name": "T5_ARTEFACT_HEAD_CLOTH_KEEPER"
+  },
+  {
+    "id": "T6_ARTEFACT_HEAD_CLOTH_KEEPER",
+    "name": "T6_ARTEFACT_HEAD_CLOTH_KEEPER"
+  },
+  {
+    "id": "T7_ARTEFACT_HEAD_CLOTH_KEEPER",
+    "name": "T7_ARTEFACT_HEAD_CLOTH_KEEPER"
+  },
+  {
+    "id": "T8_ARTEFACT_HEAD_CLOTH_KEEPER",
+    "name": "T8_ARTEFACT_HEAD_CLOTH_KEEPER"
+  },
+  {
+    "id": "T4_ARTEFACT_ARMOR_CLOTH_KEEPER",
+    "name": "T4_ARTEFACT_ARMOR_CLOTH_KEEPER"
+  },
+  {
+    "id": "T5_ARTEFACT_ARMOR_CLOTH_KEEPER",
+    "name": "T5_ARTEFACT_ARMOR_CLOTH_KEEPER"
+  },
+  {
+    "id": "T6_ARTEFACT_ARMOR_CLOTH_KEEPER",
+    "name": "T6_ARTEFACT_ARMOR_CLOTH_KEEPER"
+  },
+  {
+    "id": "T7_ARTEFACT_ARMOR_CLOTH_KEEPER",
+    "name": "T7_ARTEFACT_ARMOR_CLOTH_KEEPER"
+  },
+  {
+    "id": "T8_ARTEFACT_ARMOR_CLOTH_KEEPER",
+    "name": "T8_ARTEFACT_ARMOR_CLOTH_KEEPER"
+  },
+  {
+    "id": "T4_ARTEFACT_SHOES_CLOTH_KEEPER",
+    "name": "T4_ARTEFACT_SHOES_CLOTH_KEEPER"
+  },
+  {
+    "id": "T5_ARTEFACT_SHOES_CLOTH_KEEPER",
+    "name": "T5_ARTEFACT_SHOES_CLOTH_KEEPER"
+  },
+  {
+    "id": "T6_ARTEFACT_SHOES_CLOTH_KEEPER",
+    "name": "T6_ARTEFACT_SHOES_CLOTH_KEEPER"
+  },
+  {
+    "id": "T7_ARTEFACT_SHOES_CLOTH_KEEPER",
+    "name": "T7_ARTEFACT_SHOES_CLOTH_KEEPER"
+  },
+  {
+    "id": "T8_ARTEFACT_SHOES_CLOTH_KEEPER",
+    "name": "T8_ARTEFACT_SHOES_CLOTH_KEEPER"
+  },
+  {
+    "id": "T4_ARTEFACT_HEAD_CLOTH_HELL",
+    "name": "T4_ARTEFACT_HEAD_CLOTH_HELL"
+  },
+  {
+    "id": "T5_ARTEFACT_HEAD_CLOTH_HELL",
+    "name": "T5_ARTEFACT_HEAD_CLOTH_HELL"
+  },
+  {
+    "id": "T6_ARTEFACT_HEAD_CLOTH_HELL",
+    "name": "T6_ARTEFACT_HEAD_CLOTH_HELL"
+  },
+  {
+    "id": "T7_ARTEFACT_HEAD_CLOTH_HELL",
+    "name": "T7_ARTEFACT_HEAD_CLOTH_HELL"
+  },
+  {
+    "id": "T8_ARTEFACT_HEAD_CLOTH_HELL",
+    "name": "T8_ARTEFACT_HEAD_CLOTH_HELL"
+  },
+  {
+    "id": "T4_ARTEFACT_ARMOR_CLOTH_HELL",
+    "name": "T4_ARTEFACT_ARMOR_CLOTH_HELL"
+  },
+  {
+    "id": "T5_ARTEFACT_ARMOR_CLOTH_HELL",
+    "name": "T5_ARTEFACT_ARMOR_CLOTH_HELL"
+  },
+  {
+    "id": "T6_ARTEFACT_ARMOR_CLOTH_HELL",
+    "name": "T6_ARTEFACT_ARMOR_CLOTH_HELL"
+  },
+  {
+    "id": "T7_ARTEFACT_ARMOR_CLOTH_HELL",
+    "name": "T7_ARTEFACT_ARMOR_CLOTH_HELL"
+  },
+  {
+    "id": "T8_ARTEFACT_ARMOR_CLOTH_HELL",
+    "name": "T8_ARTEFACT_ARMOR_CLOTH_HELL"
+  },
+  {
+    "id": "T4_ARTEFACT_SHOES_CLOTH_HELL",
+    "name": "T4_ARTEFACT_SHOES_CLOTH_HELL"
+  },
+  {
+    "id": "T5_ARTEFACT_SHOES_CLOTH_HELL",
+    "name": "T5_ARTEFACT_SHOES_CLOTH_HELL"
+  },
+  {
+    "id": "T6_ARTEFACT_SHOES_CLOTH_HELL",
+    "name": "T6_ARTEFACT_SHOES_CLOTH_HELL"
+  },
+  {
+    "id": "T7_ARTEFACT_SHOES_CLOTH_HELL",
+    "name": "T7_ARTEFACT_SHOES_CLOTH_HELL"
+  },
+  {
+    "id": "T8_ARTEFACT_SHOES_CLOTH_HELL",
+    "name": "T8_ARTEFACT_SHOES_CLOTH_HELL"
+  },
+  {
+    "id": "T4_ARTEFACT_HEAD_CLOTH_MORGANA",
+    "name": "T4_ARTEFACT_HEAD_CLOTH_MORGANA"
+  },
+  {
+    "id": "T5_ARTEFACT_HEAD_CLOTH_MORGANA",
+    "name": "T5_ARTEFACT_HEAD_CLOTH_MORGANA"
+  },
+  {
+    "id": "T6_ARTEFACT_HEAD_CLOTH_MORGANA",
+    "name": "T6_ARTEFACT_HEAD_CLOTH_MORGANA"
+  },
+  {
+    "id": "T7_ARTEFACT_HEAD_CLOTH_MORGANA",
+    "name": "T7_ARTEFACT_HEAD_CLOTH_MORGANA"
+  },
+  {
+    "id": "T8_ARTEFACT_HEAD_CLOTH_MORGANA",
+    "name": "T8_ARTEFACT_HEAD_CLOTH_MORGANA"
+  },
+  {
+    "id": "T4_ARTEFACT_ARMOR_CLOTH_MORGANA",
+    "name": "T4_ARTEFACT_ARMOR_CLOTH_MORGANA"
+  },
+  {
+    "id": "T5_ARTEFACT_ARMOR_CLOTH_MORGANA",
+    "name": "T5_ARTEFACT_ARMOR_CLOTH_MORGANA"
+  },
+  {
+    "id": "T6_ARTEFACT_ARMOR_CLOTH_MORGANA",
+    "name": "T6_ARTEFACT_ARMOR_CLOTH_MORGANA"
+  },
+  {
+    "id": "T7_ARTEFACT_ARMOR_CLOTH_MORGANA",
+    "name": "T7_ARTEFACT_ARMOR_CLOTH_MORGANA"
+  },
+  {
+    "id": "T8_ARTEFACT_ARMOR_CLOTH_MORGANA",
+    "name": "T8_ARTEFACT_ARMOR_CLOTH_MORGANA"
+  },
+  {
+    "id": "T4_ARTEFACT_SHOES_CLOTH_MORGANA",
+    "name": "T4_ARTEFACT_SHOES_CLOTH_MORGANA"
+  },
+  {
+    "id": "T5_ARTEFACT_SHOES_CLOTH_MORGANA",
+    "name": "T5_ARTEFACT_SHOES_CLOTH_MORGANA"
+  },
+  {
+    "id": "T6_ARTEFACT_SHOES_CLOTH_MORGANA",
+    "name": "T6_ARTEFACT_SHOES_CLOTH_MORGANA"
+  },
+  {
+    "id": "T7_ARTEFACT_SHOES_CLOTH_MORGANA",
+    "name": "T7_ARTEFACT_SHOES_CLOTH_MORGANA"
+  },
+  {
+    "id": "T8_ARTEFACT_SHOES_CLOTH_MORGANA",
+    "name": "T8_ARTEFACT_SHOES_CLOTH_MORGANA"
+  },
+  {
+    "id": "T4_ARTEFACT_HEAD_CLOTH_AVALON",
+    "name": "T4_ARTEFACT_HEAD_CLOTH_AVALON"
+  },
+  {
+    "id": "T5_ARTEFACT_HEAD_CLOTH_AVALON",
+    "name": "T5_ARTEFACT_HEAD_CLOTH_AVALON"
+  },
+  {
+    "id": "T6_ARTEFACT_HEAD_CLOTH_AVALON",
+    "name": "T6_ARTEFACT_HEAD_CLOTH_AVALON"
+  },
+  {
+    "id": "T7_ARTEFACT_HEAD_CLOTH_AVALON",
+    "name": "T7_ARTEFACT_HEAD_CLOTH_AVALON"
+  },
+  {
+    "id": "T8_ARTEFACT_HEAD_CLOTH_AVALON",
+    "name": "T8_ARTEFACT_HEAD_CLOTH_AVALON"
+  },
+  {
+    "id": "T4_ARTEFACT_ARMOR_CLOTH_AVALON",
+    "name": "T4_ARTEFACT_ARMOR_CLOTH_AVALON"
+  },
+  {
+    "id": "T5_ARTEFACT_ARMOR_CLOTH_AVALON",
+    "name": "T5_ARTEFACT_ARMOR_CLOTH_AVALON"
+  },
+  {
+    "id": "T6_ARTEFACT_ARMOR_CLOTH_AVALON",
+    "name": "T6_ARTEFACT_ARMOR_CLOTH_AVALON"
+  },
+  {
+    "id": "T7_ARTEFACT_ARMOR_CLOTH_AVALON",
+    "name": "T7_ARTEFACT_ARMOR_CLOTH_AVALON"
+  },
+  {
+    "id": "T8_ARTEFACT_ARMOR_CLOTH_AVALON",
+    "name": "T8_ARTEFACT_ARMOR_CLOTH_AVALON"
+  },
+  {
+    "id": "T4_ARTEFACT_SHOES_CLOTH_AVALON",
+    "name": "T4_ARTEFACT_SHOES_CLOTH_AVALON"
+  },
+  {
+    "id": "T5_ARTEFACT_SHOES_CLOTH_AVALON",
+    "name": "T5_ARTEFACT_SHOES_CLOTH_AVALON"
+  },
+  {
+    "id": "T6_ARTEFACT_SHOES_CLOTH_AVALON",
+    "name": "T6_ARTEFACT_SHOES_CLOTH_AVALON"
+  },
+  {
+    "id": "T7_ARTEFACT_SHOES_CLOTH_AVALON",
+    "name": "T7_ARTEFACT_SHOES_CLOTH_AVALON"
+  },
+  {
+    "id": "T8_ARTEFACT_SHOES_CLOTH_AVALON",
+    "name": "T8_ARTEFACT_SHOES_CLOTH_AVALON"
+  },
+  {
+    "id": "T4_ARTEFACT_ARMOR_CLOTH_FEY",
+    "name": "T4_ARTEFACT_ARMOR_CLOTH_FEY"
+  },
+  {
+    "id": "T5_ARTEFACT_ARMOR_CLOTH_FEY",
+    "name": "T5_ARTEFACT_ARMOR_CLOTH_FEY"
+  },
+  {
+    "id": "T6_ARTEFACT_ARMOR_CLOTH_FEY",
+    "name": "T6_ARTEFACT_ARMOR_CLOTH_FEY"
+  },
+  {
+    "id": "T7_ARTEFACT_ARMOR_CLOTH_FEY",
+    "name": "T7_ARTEFACT_ARMOR_CLOTH_FEY"
+  },
+  {
+    "id": "T8_ARTEFACT_ARMOR_CLOTH_FEY",
+    "name": "T8_ARTEFACT_ARMOR_CLOTH_FEY"
+  },
+  {
+    "id": "T4_ARTEFACT_HEAD_CLOTH_FEY",
+    "name": "T4_ARTEFACT_HEAD_CLOTH_FEY"
+  },
+  {
+    "id": "T5_ARTEFACT_HEAD_CLOTH_FEY",
+    "name": "T5_ARTEFACT_HEAD_CLOTH_FEY"
+  },
+  {
+    "id": "T6_ARTEFACT_HEAD_CLOTH_FEY",
+    "name": "T6_ARTEFACT_HEAD_CLOTH_FEY"
+  },
+  {
+    "id": "T7_ARTEFACT_HEAD_CLOTH_FEY",
+    "name": "T7_ARTEFACT_HEAD_CLOTH_FEY"
+  },
+  {
+    "id": "T8_ARTEFACT_HEAD_CLOTH_FEY",
+    "name": "T8_ARTEFACT_HEAD_CLOTH_FEY"
+  },
+  {
+    "id": "T4_ARTEFACT_SHOES_CLOTH_FEY",
+    "name": "T4_ARTEFACT_SHOES_CLOTH_FEY"
+  },
+  {
+    "id": "T5_ARTEFACT_SHOES_CLOTH_FEY",
+    "name": "T5_ARTEFACT_SHOES_CLOTH_FEY"
+  },
+  {
+    "id": "T6_ARTEFACT_SHOES_CLOTH_FEY",
+    "name": "T6_ARTEFACT_SHOES_CLOTH_FEY"
+  },
+  {
+    "id": "T7_ARTEFACT_SHOES_CLOTH_FEY",
+    "name": "T7_ARTEFACT_SHOES_CLOTH_FEY"
+  },
+  {
+    "id": "T8_ARTEFACT_SHOES_CLOTH_FEY",
+    "name": "T8_ARTEFACT_SHOES_CLOTH_FEY"
+  }
+]

@@ -263,13 +263,13 @@ async function fetchWithRetry<T = any>(
       ? calculateWaitTime(result.rateLimitInfo)
       : DEFAULT_RATE_LIMIT_WAIT;
 
-    await displayCountdown(waitSeconds, progressMessage || 'Rate limited');
+    await displayCountdown(waitSeconds);
   } else {
     const baseDelay = CONFIG.initialRetryDelay * Math.pow(CONFIG.backoffMultiplier, attempt - 1);
     const delayWithJitter = addJitter(Math.min(baseDelay, CONFIG.maxRetryDelay));
     const waitSeconds = Math.round(delayWithJitter / 1000);
 
-    await displayCountdown(waitSeconds, `Retry ${attempt}/${CONFIG.maxRetries}`);
+    await displayCountdown(waitSeconds);
   }
 
   const nextAttempt = isRateLimited ? attempt : attempt + 1;

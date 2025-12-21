@@ -1,0 +1,354 @@
+[
+  {
+    "id": "T1_2H_TOOL_PICK",
+    "name": "T1_2H_TOOL_PICK"
+  },
+  {
+    "id": "T2_2H_TOOL_PICK",
+    "name": "T2_2H_TOOL_PICK"
+  },
+  {
+    "id": "T3_2H_TOOL_PICK",
+    "name": "T3_2H_TOOL_PICK"
+  },
+  {
+    "id": "T4_2H_TOOL_PICK",
+    "name": "T4_2H_TOOL_PICK"
+  },
+  {
+    "id": "T5_2H_TOOL_PICK",
+    "name": "T5_2H_TOOL_PICK"
+  },
+  {
+    "id": "T6_2H_TOOL_PICK",
+    "name": "T6_2H_TOOL_PICK"
+  },
+  {
+    "id": "T7_2H_TOOL_PICK",
+    "name": "T7_2H_TOOL_PICK"
+  },
+  {
+    "id": "T8_2H_TOOL_PICK",
+    "name": "T8_2H_TOOL_PICK"
+  },
+  {
+    "id": "T4_2H_TOOL_PICK_AVALON",
+    "name": "T4_2H_TOOL_PICK_AVALON"
+  },
+  {
+    "id": "T5_2H_TOOL_PICK_AVALON",
+    "name": "T5_2H_TOOL_PICK_AVALON"
+  },
+  {
+    "id": "T6_2H_TOOL_PICK_AVALON",
+    "name": "T6_2H_TOOL_PICK_AVALON"
+  },
+  {
+    "id": "T7_2H_TOOL_PICK_AVALON",
+    "name": "T7_2H_TOOL_PICK_AVALON"
+  },
+  {
+    "id": "T8_2H_TOOL_PICK_AVALON",
+    "name": "T8_2H_TOOL_PICK_AVALON"
+  },
+  {
+    "id": "T1_2H_TOOL_HAMMER",
+    "name": "T1_2H_TOOL_HAMMER"
+  },
+  {
+    "id": "T2_2H_TOOL_HAMMER",
+    "name": "T2_2H_TOOL_HAMMER"
+  },
+  {
+    "id": "T3_2H_TOOL_HAMMER",
+    "name": "T3_2H_TOOL_HAMMER"
+  },
+  {
+    "id": "T4_2H_TOOL_HAMMER",
+    "name": "T4_2H_TOOL_HAMMER"
+  },
+  {
+    "id": "T5_2H_TOOL_HAMMER",
+    "name": "T5_2H_TOOL_HAMMER"
+  },
+  {
+    "id": "T6_2H_TOOL_HAMMER",
+    "name": "T6_2H_TOOL_HAMMER"
+  },
+  {
+    "id": "T7_2H_TOOL_HAMMER",
+    "name": "T7_2H_TOOL_HAMMER"
+  },
+  {
+    "id": "T8_2H_TOOL_HAMMER",
+    "name": "T8_2H_TOOL_HAMMER"
+  },
+  {
+    "id": "T4_2H_TOOL_HAMMER_AVALON",
+    "name": "T4_2H_TOOL_HAMMER_AVALON"
+  },
+  {
+    "id": "T5_2H_TOOL_HAMMER_AVALON",
+    "name": "T5_2H_TOOL_HAMMER_AVALON"
+  },
+  {
+    "id": "T6_2H_TOOL_HAMMER_AVALON",
+    "name": "T6_2H_TOOL_HAMMER_AVALON"
+  },
+  {
+    "id": "T7_2H_TOOL_HAMMER_AVALON",
+    "name": "T7_2H_TOOL_HAMMER_AVALON"
+  },
+  {
+    "id": "T8_2H_TOOL_HAMMER_AVALON",
+    "name": "T8_2H_TOOL_HAMMER_AVALON"
+  },
+  {
+    "id": "T1_2H_TOOL_AXE",
+    "name": "T1_2H_TOOL_AXE"
+  },
+  {
+    "id": "T2_2H_TOOL_AXE",
+    "name": "T2_2H_TOOL_AXE"
+  },
+  {
+    "id": "T3_2H_TOOL_AXE",
+    "name": "T3_2H_TOOL_AXE"
+  },
+  {
+    "id": "T4_2H_TOOL_AXE",
+    "name": "T4_2H_TOOL_AXE"
+  },
+  {
+    "id": "T5_2H_TOOL_AXE",
+    "name": "T5_2H_TOOL_AXE"
+  },
+  {
+    "id": "T6_2H_TOOL_AXE",
+    "name": "T6_2H_TOOL_AXE"
+  },
+  {
+    "id": "T7_2H_TOOL_AXE",
+    "name": "T7_2H_TOOL_AXE"
+  },
+  {
+    "id": "T8_2H_TOOL_AXE",
+    "name": "T8_2H_TOOL_AXE"
+  },
+  {
+    "id": "T4_2H_TOOL_AXE_AVALON",
+    "name": "T4_2H_TOOL_AXE_AVALON"
+  },
+  {
+    "id": "T5_2H_TOOL_AXE_AVALON",
+    "name": "T5_2H_TOOL_AXE_AVALON"
+  },
+  {
+    "id": "T6_2H_TOOL_AXE_AVALON",
+    "name": "T6_2H_TOOL_AXE_AVALON"
+  },
+  {
+    "id": "T7_2H_TOOL_AXE_AVALON",
+    "name": "T7_2H_TOOL_AXE_AVALON"
+  },
+  {
+    "id": "T8_2H_TOOL_AXE_AVALON",
+    "name": "T8_2H_TOOL_AXE_AVALON"
+  },
+  {
+    "id": "T1_2H_TOOL_SICKLE",
+    "name": "T1_2H_TOOL_SICKLE"
+  },
+  {
+    "id": "T2_2H_TOOL_SICKLE",
+    "name": "T2_2H_TOOL_SICKLE"
+  },
+  {
+    "id": "T3_2H_TOOL_SICKLE",
+    "name": "T3_2H_TOOL_SICKLE"
+  },
+  {
+    "id": "T4_2H_TOOL_SICKLE",
+    "name": "T4_2H_TOOL_SICKLE"
+  },
+  {
+    "id": "T5_2H_TOOL_SICKLE",
+    "name": "T5_2H_TOOL_SICKLE"
+  },
+  {
+    "id": "T6_2H_TOOL_SICKLE",
+    "name": "T6_2H_TOOL_SICKLE"
+  },
+  {
+    "id": "T7_2H_TOOL_SICKLE",
+    "name": "T7_2H_TOOL_SICKLE"
+  },
+  {
+    "id": "T8_2H_TOOL_SICKLE",
+    "name": "T8_2H_TOOL_SICKLE"
+  },
+  {
+    "id": "T4_2H_TOOL_SICKLE_AVALON",
+    "name": "T4_2H_TOOL_SICKLE_AVALON"
+  },
+  {
+    "id": "T5_2H_TOOL_SICKLE_AVALON",
+    "name": "T5_2H_TOOL_SICKLE_AVALON"
+  },
+  {
+    "id": "T6_2H_TOOL_SICKLE_AVALON",
+    "name": "T6_2H_TOOL_SICKLE_AVALON"
+  },
+  {
+    "id": "T7_2H_TOOL_SICKLE_AVALON",
+    "name": "T7_2H_TOOL_SICKLE_AVALON"
+  },
+  {
+    "id": "T8_2H_TOOL_SICKLE_AVALON",
+    "name": "T8_2H_TOOL_SICKLE_AVALON"
+  },
+  {
+    "id": "T1_2H_TOOL_KNIFE",
+    "name": "T1_2H_TOOL_KNIFE"
+  },
+  {
+    "id": "T2_2H_TOOL_KNIFE",
+    "name": "T2_2H_TOOL_KNIFE"
+  },
+  {
+    "id": "T3_2H_TOOL_KNIFE",
+    "name": "T3_2H_TOOL_KNIFE"
+  },
+  {
+    "id": "T4_2H_TOOL_KNIFE",
+    "name": "T4_2H_TOOL_KNIFE"
+  },
+  {
+    "id": "T5_2H_TOOL_KNIFE",
+    "name": "T5_2H_TOOL_KNIFE"
+  },
+  {
+    "id": "T6_2H_TOOL_KNIFE",
+    "name": "T6_2H_TOOL_KNIFE"
+  },
+  {
+    "id": "T7_2H_TOOL_KNIFE",
+    "name": "T7_2H_TOOL_KNIFE"
+  },
+  {
+    "id": "T8_2H_TOOL_KNIFE",
+    "name": "T8_2H_TOOL_KNIFE"
+  },
+  {
+    "id": "T4_2H_TOOL_KNIFE_AVALON",
+    "name": "T4_2H_TOOL_KNIFE_AVALON"
+  },
+  {
+    "id": "T5_2H_TOOL_KNIFE_AVALON",
+    "name": "T5_2H_TOOL_KNIFE_AVALON"
+  },
+  {
+    "id": "T6_2H_TOOL_KNIFE_AVALON",
+    "name": "T6_2H_TOOL_KNIFE_AVALON"
+  },
+  {
+    "id": "T7_2H_TOOL_KNIFE_AVALON",
+    "name": "T7_2H_TOOL_KNIFE_AVALON"
+  },
+  {
+    "id": "T8_2H_TOOL_KNIFE_AVALON",
+    "name": "T8_2H_TOOL_KNIFE_AVALON"
+  },
+  {
+    "id": "T2_2H_TOOL_SIEGEHAMMER",
+    "name": "T2_2H_TOOL_SIEGEHAMMER"
+  },
+  {
+    "id": "T3_2H_TOOL_SIEGEHAMMER",
+    "name": "T3_2H_TOOL_SIEGEHAMMER"
+  },
+  {
+    "id": "T4_2H_TOOL_SIEGEHAMMER",
+    "name": "T4_2H_TOOL_SIEGEHAMMER"
+  },
+  {
+    "id": "T5_2H_TOOL_SIEGEHAMMER",
+    "name": "T5_2H_TOOL_SIEGEHAMMER"
+  },
+  {
+    "id": "T6_2H_TOOL_SIEGEHAMMER",
+    "name": "T6_2H_TOOL_SIEGEHAMMER"
+  },
+  {
+    "id": "T7_2H_TOOL_SIEGEHAMMER",
+    "name": "T7_2H_TOOL_SIEGEHAMMER"
+  },
+  {
+    "id": "T8_2H_TOOL_SIEGEHAMMER",
+    "name": "T8_2H_TOOL_SIEGEHAMMER"
+  },
+  {
+    "id": "T4_2H_TOOL_SIEGEHAMMER_AVALON",
+    "name": "T4_2H_TOOL_SIEGEHAMMER_AVALON"
+  },
+  {
+    "id": "T5_2H_TOOL_SIEGEHAMMER_AVALON",
+    "name": "T5_2H_TOOL_SIEGEHAMMER_AVALON"
+  },
+  {
+    "id": "T6_2H_TOOL_SIEGEHAMMER_AVALON",
+    "name": "T6_2H_TOOL_SIEGEHAMMER_AVALON"
+  },
+  {
+    "id": "T7_2H_TOOL_SIEGEHAMMER_AVALON",
+    "name": "T7_2H_TOOL_SIEGEHAMMER_AVALON"
+  },
+  {
+    "id": "T8_2H_TOOL_SIEGEHAMMER_AVALON",
+    "name": "T8_2H_TOOL_SIEGEHAMMER_AVALON"
+  },
+  {
+    "id": "T3_2H_TOOL_FISHINGROD",
+    "name": "T3_2H_TOOL_FISHINGROD"
+  },
+  {
+    "id": "T4_2H_TOOL_FISHINGROD",
+    "name": "T4_2H_TOOL_FISHINGROD"
+  },
+  {
+    "id": "T5_2H_TOOL_FISHINGROD",
+    "name": "T5_2H_TOOL_FISHINGROD"
+  },
+  {
+    "id": "T6_2H_TOOL_FISHINGROD",
+    "name": "T6_2H_TOOL_FISHINGROD"
+  },
+  {
+    "id": "T7_2H_TOOL_FISHINGROD",
+    "name": "T7_2H_TOOL_FISHINGROD"
+  },
+  {
+    "id": "T8_2H_TOOL_FISHINGROD",
+    "name": "T8_2H_TOOL_FISHINGROD"
+  },
+  {
+    "id": "T4_2H_TOOL_FISHINGROD_AVALON",
+    "name": "T4_2H_TOOL_FISHINGROD_AVALON"
+  },
+  {
+    "id": "T5_2H_TOOL_FISHINGROD_AVALON",
+    "name": "T5_2H_TOOL_FISHINGROD_AVALON"
+  },
+  {
+    "id": "T6_2H_TOOL_FISHINGROD_AVALON",
+    "name": "T6_2H_TOOL_FISHINGROD_AVALON"
+  },
+  {
+    "id": "T7_2H_TOOL_FISHINGROD_AVALON",
+    "name": "T7_2H_TOOL_FISHINGROD_AVALON"
+  },
+  {
+    "id": "T8_2H_TOOL_FISHINGROD_AVALON",
+    "name": "T8_2H_TOOL_FISHINGROD_AVALON"
+  }
+]

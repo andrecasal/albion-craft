@@ -1,0 +1,62 @@
+[
+  {
+    "id": "T1_FARM_CARROT_SEED",
+    "name": "T1_FARM_CARROT_SEED"
+  },
+  {
+    "id": "T2_FARM_BEAN_SEED",
+    "name": "T2_FARM_BEAN_SEED"
+  },
+  {
+    "id": "T3_FARM_WHEAT_SEED",
+    "name": "T3_FARM_WHEAT_SEED"
+  },
+  {
+    "id": "T4_FARM_TURNIP_SEED",
+    "name": "T4_FARM_TURNIP_SEED"
+  },
+  {
+    "id": "T5_FARM_CABBAGE_SEED",
+    "name": "T5_FARM_CABBAGE_SEED"
+  },
+  {
+    "id": "T6_FARM_POTATO_SEED",
+    "name": "T6_FARM_POTATO_SEED"
+  },
+  {
+    "id": "T7_FARM_CORN_SEED",
+    "name": "T7_FARM_CORN_SEED"
+  },
+  {
+    "id": "T8_FARM_PUMPKIN_SEED",
+    "name": "T8_FARM_PUMPKIN_SEED"
+  },
+  {
+    "id": "T2_FARM_AGARIC_SEED",
+    "name": "T2_FARM_AGARIC_SEED"
+  },
+  {
+    "id": "T3_FARM_COMFREY_SEED",
+    "name": "T3_FARM_COMFREY_SEED"
+  },
+  {
+    "id": "T4_FARM_BURDOCK_SEED",
+    "name": "T4_FARM_BURDOCK_SEED"
+  },
+  {
+    "id": "T5_FARM_TEASEL_SEED",
+    "name": "T5_FARM_TEASEL_SEED"
+  },
+  {
+    "id": "T6_FARM_FOXGLOVE_SEED",
+    "name": "T6_FARM_FOXGLOVE_SEED"
+  },
+  {
+    "id": "T7_FARM_MULLEIN_SEED",
+    "name": "T7_FARM_MULLEIN_SEED"
+  },
+  {
+    "id": "T8_FARM_YARROW_SEED",
+    "name": "T8_FARM_YARROW_SEED"
+  }
+]
