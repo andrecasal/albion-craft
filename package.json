@@ -4,11 +4,10 @@
 	"description": "Albion Online crafting profitability analyzer",
 	"main": "dist/index.js",
 	"scripts": {
-		"dev": "ts-node src/visualizer.ts",
+		"collector": "tsx src/collector.ts",
+		"visualizer": "tsx src/visualizer.ts",
 		"typecheck": "tsc --noEmit",
-		"collect": "ts-node src/collector.ts",
-		"format": "prettier --write .",
-		"format:check": "prettier --check ."
+		"format": "prettier --write ."
 	},
 	"keywords": [
 		"albion-online",
@@ -24,6 +23,7 @@
 		"@types/node": "^20.10.0",
 		"prettier": "^3.7.4",
 		"ts-node": "^10.9.2",
+		"tsx": "^4.21.0",
 		"typescript": "^5.3.3"
 	},
 	"dependencies": {

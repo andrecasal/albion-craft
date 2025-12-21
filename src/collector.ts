@@ -1,95 +1,39 @@
-// collector.ts
-// Background service that syncs daily price averages from AODP API
-// NATS subscription is mocked for now but architecture is preserved for future use
-
 import * as readline from 'readline'
 import * as https from 'https'
 import { closeDb, getDatabaseSize } from './db'
-import {
-	getDailyPriceCount,
-	getDailyPriceItemCount,
-	getDailyPriceDateCount,
-	getDailyPriceLocationCount,
-	clearAllDailyPrices,
-	getLatestDailyPriceDate,
-	getMissingDailyPriceDates,
-	insertDailyPrices,
-	cleanupOldDailyPrices,
-} from './db/daily-prices'
-import { saveSyncState, getSyncState, clearSyncState } from './db/sync-progress'
-import {
-	parseRateLimitHeaders,
-	calculateWaitTime,
-	DEFAULT_RATE_LIMIT_WAIT,
-	RateLimitInfo,
-} from './utils/rate-limiter'
+import { db } from './db'
 import { City } from './types'
+import { ALL_ITEM_IDS } from './constants/items'
 
 // ============================================================================
-// DAILY PRICE SYNC PROGRESS STATE
+// TYPES
 // ============================================================================
+
+type Region = 'europe' | 'americas' | 'asia'
+
+interface RateLimitInfo {
+	limit: number
+	remaining: number
+	resetTimestamp: number // Unix timestamp in seconds
+}
+
+interface CollectorState {
+	region: Region
+	natsConnected: boolean // Would be connected if not mocked
+	running: boolean
+	startTime: number
+	lastHistorySync: Date | null
+	historySyncInProgress: boolean
+	statsTimer: NodeJS.Timeout | null
+	historyTimer: NodeJS.Timeout | null
+	statusMessage: string | null
+	statusMessageExpiry: number | null
+}
 
 interface DailyPriceSyncProgress {
 	currentBatch: number
 	totalBatches: number
 	rateLimitWait: number // seconds remaining, 0 if not rate limited
-}
-
-let dailyPriceSyncProgress: DailyPriceSyncProgress = {
-	currentBatch: 0,
-	totalBatches: 0,
-	rateLimitWait: 0,
-}
-
-function getDailyPriceSyncProgress(): DailyPriceSyncProgress {
-	return { ...dailyPriceSyncProgress }
-}
-
-function updateDailyPriceSyncProgress(batch: number, total: number): void {
-	dailyPriceSyncProgress.currentBatch = batch
-	dailyPriceSyncProgress.totalBatches = total
-}
-
-function setDailyPriceRateLimitWait(seconds: number): void {
-	dailyPriceSyncProgress.rateLimitWait = seconds
-}
-
-async function waitWithCountdown(seconds: number): Promise<void> {
-	for (let remaining = seconds; remaining > 0; remaining--) {
-		setDailyPriceRateLimitWait(remaining)
-		await new Promise((resolve) => setTimeout(resolve, 1000))
-	}
-	setDailyPriceRateLimitWait(0)
-}
-
-// ============================================================================
-// DAILY PRICE CONFIGURATION
-// ============================================================================
-
-import { ALL_ITEM_IDS } from './constants/items'
-import { table } from 'console'
-
-const ITEMS = ALL_ITEM_IDS
-
-const CITIES: City[] = [
-	'Caerleon',
-	'Bridgewatch',
-	'Fort Sterling',
-	'Lymhurst',
-	'Martlock',
-	'Thetford',
-	'Brecilien',
-]
-
-// City name to location ID mapping (primary market only)
-const CITY_TO_PRIMARY_LOCATION: Record<City, number> = {
-	Thetford: 7,
-	Martlock: 301,
-	'Fort Sterling': 1002,
-	Lymhurst: 1006,
-	Bridgewatch: 3003,
-	Caerleon: 4002,
-	Brecilien: 5003,
 }
 
 interface DailyPriceFetchConfig {
@@ -101,22 +45,6 @@ interface DailyPriceFetchConfig {
 	requestTimeout: number
 	historyDays: number
 }
-
-const DAILY_PRICE_CONFIG: DailyPriceFetchConfig = {
-	maxRetries: 5,
-	initialRetryDelay: 2000,
-	maxRetryDelay: 60000,
-	backoffMultiplier: 2,
-	jitterRange: 0.3,
-	requestTimeout: 15000,
-	historyDays: 30,
-}
-
-const MAX_URL_LENGTH = 8000
-
-// ============================================================================
-// DAILY PRICE TYPES
-// ============================================================================
 
 interface DailyPriceFetchResult<T = any> {
 	success: boolean
@@ -147,207 +75,309 @@ interface DailyPriceRecord {
 }
 
 // ============================================================================
-// DAILY PRICE HELPER FUNCTIONS
+// CONFIGURATION
 // ============================================================================
 
-function addJitter(delay: number): number {
-	const jitter = delay * DAILY_PRICE_CONFIG.jitterRange
-	return delay + (Math.random() * 2 - 1) * jitter
+const ITEMS = ALL_ITEM_IDS
+
+const CITIES: City[] = [
+	'Caerleon',
+	'Bridgewatch',
+	'Fort Sterling',
+	'Lymhurst',
+	'Martlock',
+	'Thetford',
+	'Brecilien',
+]
+
+// City name to location ID mapping (primary market only)
+const CITY_TO_PRIMARY_LOCATION: Record<City, number> = {
+	Thetford: 7,
+	Martlock: 301,
+	'Fort Sterling': 1002,
+	Lymhurst: 1006,
+	Bridgewatch: 3003,
+	Caerleon: 4002,
+	Brecilien: 5003,
 }
 
-function createBatchesByUrlLength(
-	items: string[],
-	baseUrl: string,
-	queryParams: string,
-): string[][] {
-	const batches: string[][] = []
-	const baseLength = baseUrl.length + queryParams.length
+const DAILY_PRICE_CONFIG: DailyPriceFetchConfig = {
+	maxRetries: 5,
+	initialRetryDelay: 2000,
+	maxRetryDelay: 60000,
+	backoffMultiplier: 2,
+	jitterRange: 0.3,
+	requestTimeout: 15000,
+	historyDays: 30,
+}
 
-	let currentBatch: string[] = []
-	let currentLength = baseLength
+const MAX_URL_LENGTH = 8000
 
-	for (const itemId of items) {
-		const itemLength = itemId.length + (currentBatch.length > 0 ? 1 : 0)
-		const newLength = currentLength + itemLength
+// NATS configuration (preserved for future real-time order book integration)
+const NATS_SERVERS = {
+	europe: { host: 'nats.albion-online-data.com', port: 34222 },
+	americas: { host: 'nats.albion-online-data.com', port: 4222 },
+	asia: { host: 'nats.albion-online-data.com', port: 24222 },
+}
 
-		if (newLength > MAX_URL_LENGTH && currentBatch.length > 0) {
-			batches.push([...currentBatch])
-			currentBatch = [itemId]
-			currentLength = baseLength + itemId.length
-		} else {
-			currentBatch.push(itemId)
-			currentLength = newLength
+const NATS_USER = 'public'
+const NATS_PASS = 'thenewalbiondata'
+
+// Topic for real-time market orders (for future use)
+const MARKET_ORDERS_TOPIC = 'marketorders.ingest'
+
+// How often to log stats (in ms)
+const STATS_INTERVAL = 1000 // 1 second
+
+// How often to sync daily price averages (in ms)
+const DAILY_PRICE_SYNC_INTERVAL = 5 * 60 * 1000 // 5 minutes
+
+// Default fallback wait time when headers are missing (in seconds)
+const DEFAULT_RATE_LIMIT_WAIT = 10
+
+// ============================================================================
+// RATE LIMITER
+// ============================================================================
+
+/**
+ * Parse rate limit headers from a 429 response
+ */
+function parseRateLimitHeaders(
+	headers: Record<string, string | string[] | undefined>,
+): RateLimitInfo | null {
+	const limit = headers['ratelimit-limit']
+	const remaining = headers['ratelimit-remaining']
+	const reset = headers['ratelimit-reset']
+
+	if (limit === undefined || remaining === undefined || reset === undefined) {
+		return null
+	}
+
+	return {
+		limit: parseInt(String(limit), 10),
+		remaining: parseInt(String(remaining), 10),
+		resetTimestamp: parseInt(String(reset), 10),
+	}
+}
+
+/**
+ * Calculate how many seconds to wait based on rate limit info
+ */
+function calculateWaitTime(rateLimitInfo: RateLimitInfo): number {
+	const nowSeconds = Math.floor(Date.now() / 1000)
+	const waitSeconds = rateLimitInfo.resetTimestamp - nowSeconds
+	// Add 1 second buffer to be safe, minimum 1 second wait
+	return Math.max(1, waitSeconds + 1)
+}
+
+// ============================================================================
+// STATE
+// ============================================================================
+
+let dailyPriceSyncProgress: DailyPriceSyncProgress = {
+	currentBatch: 0,
+	totalBatches: 0,
+	rateLimitWait: 0,
+}
+
+// ============================================================================
+// ENTRY POINT
+// ============================================================================
+
+if (require.main === module) {
+	main()
+}
+
+// ============================================================================
+// MAIN
+// ============================================================================
+
+async function main(): Promise<void> {
+	const state: CollectorState = {
+		region: (process.env.ALBION_REGION as Region) || 'europe',
+		natsConnected: false,
+		running: false,
+		startTime: Date.now(),
+		lastHistorySync: null,
+		historySyncInProgress: false,
+		statsTimer: null,
+		historyTimer: null,
+		statusMessage: null,
+		statusMessageExpiry: null,
+	}
+
+	const shutdown = async () => {
+		await stopCollector(state)
+		closeDb()
+		process.exit(0)
+	}
+
+	process.on('SIGINT', shutdown)
+	process.on('SIGTERM', shutdown)
+
+	try {
+		setupKeyboardInput(state)
+		await startCollector(state)
+		await new Promise(() => {})
+	} catch (err) {
+		console.error('Failed to start collector:', err)
+		process.exit(1)
+	}
+}
+
+// ============================================================================
+// KEYBOARD INPUT (called first in main)
+// ============================================================================
+
+function setupKeyboardInput(state: CollectorState): void {
+	readline.emitKeypressEvents(process.stdin)
+	if (process.stdin.isTTY) {
+		process.stdin.setRawMode(true)
+	}
+
+	process.stdin.on('keypress', (_str, key) => {
+		if (!key) return
+
+		// Ctrl+C to quit
+		if (key.ctrl && key.name === 'c') {
+			process.emit('SIGINT')
+			return
 		}
-	}
 
-	if (currentBatch.length > 0) {
-		batches.push(currentBatch)
-	}
-
-	return batches
-}
-
-function makeDailyPriceRequest<T = any>(
-	url: string,
-): Promise<DailyPriceFetchResult<T>> {
-	return new Promise((resolve) => {
-		const request = https.get(url, (res) => {
-			let data = ''
-
-			res.on('data', (chunk) => {
-				data += chunk
-			})
-
-			res.on('end', () => {
-				if (res.statusCode === 200) {
-					try {
-						const json = JSON.parse(data) as T
-						resolve({
-							success: true,
-							data: json,
-							statusCode: 200,
-						})
-					} catch (e) {
-						const error = e as Error
-						resolve({
-							success: false,
-							error: `Parse error: ${error.message}`,
-							statusCode: 200,
-							retryable: false,
-						})
-					}
-				} else if (res.statusCode === 429) {
-					const rateLimitInfo = parseRateLimitHeaders(
-						res.headers as Record<string, string | string[] | undefined>,
-					)
-					resolve({
-						success: false,
-						error: 'Rate limited',
-						statusCode: 429,
-						retryable: true,
-						rateLimitInfo: rateLimitInfo || undefined,
-					})
-				} else if (res.statusCode && res.statusCode >= 500) {
-					resolve({
-						success: false,
-						error: `Server error ${res.statusCode}`,
-						statusCode: res.statusCode,
-						retryable: true,
-					})
-				} else {
-					resolve({
-						success: false,
-						error: `HTTP ${res.statusCode}`,
-						statusCode: res.statusCode,
-						retryable: false,
-					})
+		switch (key.name) {
+			case 's':
+				// Force sync daily prices
+				if (!state.historySyncInProgress) {
+					syncDailyPrices(state, true)
+					showDashboard(state)
 				}
-			})
-		})
-
-		request.on('error', (err) => {
-			resolve({
-				success: false,
-				error: err.message,
-				retryable: true,
-			})
-		})
-
-		request.setTimeout(DAILY_PRICE_CONFIG.requestTimeout, () => {
-			request.destroy()
-			resolve({
-				success: false,
-				error: 'Timeout',
-				retryable: true,
-			})
-		})
+				break
+			case 'd':
+				// Reset daily prices
+				if (state.historySyncInProgress) {
+					setStatusMessage(state, 'Cannot delete while sync is in progress')
+					showDashboard(state)
+				} else {
+					clearAllDailyPrices()
+					state.lastHistorySync = null
+					showDashboard(state)
+				}
+				break
+			case 'q':
+				// Quit
+				process.emit('SIGINT')
+				break
+		}
 	})
-}
 
-async function fetchDailyPriceWithRetry<T = any>(
-	url: string,
-	attempt: number = 1,
-): Promise<DailyPriceFetchResult<T>> {
-	const result = await makeDailyPriceRequest<T>(url)
-
-	if (result.success) {
-		return result
-	}
-
-	const isRateLimited = result.statusCode === 429
-
-	if (
-		!result.retryable ||
-		(!isRateLimited && attempt >= DAILY_PRICE_CONFIG.maxRetries)
-	) {
-		return result
-	}
-
-	if (isRateLimited) {
-		const waitSeconds = result.rateLimitInfo
-			? calculateWaitTime(result.rateLimitInfo)
-			: DEFAULT_RATE_LIMIT_WAIT
-
-		await waitWithCountdown(waitSeconds)
-	} else {
-		const baseDelay =
-			DAILY_PRICE_CONFIG.initialRetryDelay *
-			Math.pow(DAILY_PRICE_CONFIG.backoffMultiplier, attempt - 1)
-		const delayWithJitter = addJitter(
-			Math.min(baseDelay, DAILY_PRICE_CONFIG.maxRetryDelay),
-		)
-		const waitSeconds = Math.round(delayWithJitter / 1000)
-
-		await waitWithCountdown(waitSeconds)
-	}
-
-	const nextAttempt = isRateLimited ? attempt : attempt + 1
-	return fetchDailyPriceWithRetry<T>(url, nextAttempt)
-}
-
-function transformDailyPriceResponse(
-	rawData: AODPChartRawResponse[],
-): DailyPriceRecord[] {
-	const records: DailyPriceRecord[] = []
-
-	for (const response of rawData) {
-		const { item_id, location, quality, data } = response
-
-		// Only process Normal quality (1)
-		if (quality !== 1) continue
-
-		if (!data || !data.timestamps || data.timestamps.length === 0) {
-			continue
-		}
-
-		// Find the location ID for this city name
-		const locationId = CITY_TO_PRIMARY_LOCATION[location as City]
-		if (!locationId) continue
-
-		// Convert each timestamp to a record
-		for (let i = 0; i < data.timestamps.length; i++) {
-			const timestamp = data.timestamps[i]
-			const date = timestamp.split('T')[0] // Extract YYYY-MM-DD
-			const avgPrice = Math.round(data.prices_avg[i] || 0)
-			const itemCount = data.item_count[i] || 0
-
-			if (avgPrice > 0) {
-				records.push({
-					itemId: item_id,
-					locationId,
-					date,
-					avgPrice,
-					itemCount,
-				})
-			}
-		}
-	}
-
-	return records
+	process.stdin.resume()
 }
 
 // ============================================================================
-// DAILY PRICE STATUS AND SYNC
+// COLLECTOR LIFECYCLE (called second in main)
+// ============================================================================
+
+async function startCollector(state: CollectorState): Promise<void> {
+	if (state.running) {
+		console.log('Collector is already running')
+		return
+	}
+
+	state.running = true
+	state.startTime = Date.now()
+
+	mockNatsConnection(state)
+	startDailyPriceSyncTimer(state)
+	startDashboardTimer(state)
+}
+
+async function stopCollector(state: CollectorState): Promise<void> {
+	if (!state.running) {
+		return
+	}
+
+	console.log(`\n🛑 Stopping collector...`)
+	state.running = false
+	stopTimers(state)
+	console.log(`👋 Collector stopped\n`)
+}
+
+// ============================================================================
+// NATS CONNECTION (called by startCollector)
+// ============================================================================
+
+/**
+ * Mock NATS connection - preserves architecture for future real-time integration
+ * When ready to enable real orders, replace this with actual NATS connection
+ */
+function mockNatsConnection(state: CollectorState): void {
+	// Mark as "connected" for display purposes
+	state.natsConnected = true
+}
+
+// ============================================================================
+// TIMERS (called by startCollector)
+// ============================================================================
+
+function startDailyPriceSyncTimer(state: CollectorState): void {
+	// Initial sync after a short delay
+	setTimeout(() => {
+		syncDailyPrices(state)
+	}, 1000)
+
+	// Then sync periodically
+	state.historyTimer = setInterval(() => {
+		syncDailyPrices(state)
+	}, DAILY_PRICE_SYNC_INTERVAL)
+}
+
+function startDashboardTimer(state: CollectorState): void {
+	state.statsTimer = setInterval(() => {
+		showDashboard(state)
+	}, STATS_INTERVAL)
+}
+
+function stopTimers(state: CollectorState): void {
+	if (state.statsTimer) {
+		clearInterval(state.statsTimer)
+		state.statsTimer = null
+	}
+	if (state.historyTimer) {
+		clearInterval(state.historyTimer)
+		state.historyTimer = null
+	}
+}
+
+// ============================================================================
+// DAILY PRICE SYNC (called by timer and keyboard input)
+// ============================================================================
+
+async function syncDailyPrices(
+	state: CollectorState,
+	force: boolean = false,
+): Promise<void> {
+	if (state.historySyncInProgress) return
+
+	const historyStatus = getDailyPriceStatus()
+
+	if (!force && !historyStatus.needsFetch) return
+
+	state.historySyncInProgress = true
+
+	try {
+		const result = await fetchMissingDailyPrices()
+		if (!result.skipped && result.recordsAdded > 0) {
+			state.lastHistorySync = new Date()
+		}
+	} catch {
+		// Error handled silently - dashboard shows sync status
+	} finally {
+		state.historySyncInProgress = false
+	}
+}
+
+// ============================================================================
+// DAILY PRICE STATUS (called by syncDailyPrices and showDashboard)
 // ============================================================================
 
 /**
@@ -372,22 +402,9 @@ function getDailyPriceStatus(): {
 	}
 }
 
-/**
- * Compute the date range for syncing (last N days, ending yesterday)
- */
-function getDailyPriceDateRange(): { dateFrom: string; dateTo: string } {
-	const today = new Date()
-	const yesterday = new Date(today)
-	yesterday.setDate(yesterday.getDate() - 1)
-
-	const startDate = new Date(yesterday)
-	startDate.setDate(startDate.getDate() - DAILY_PRICE_CONFIG.historyDays + 1)
-
-	return {
-		dateFrom: startDate.toISOString().split('T')[0],
-		dateTo: yesterday.toISOString().split('T')[0],
-	}
-}
+// ============================================================================
+// FETCH MISSING DAILY PRICES (called by syncDailyPrices)
+// ============================================================================
 
 /**
  * Fetch and store missing daily price data
@@ -470,140 +487,322 @@ async function fetchMissingDailyPrices(): Promise<{
 }
 
 // ============================================================================
-// CONFIGURATION
+// BATCH CREATION (called by fetchMissingDailyPrices)
 // ============================================================================
 
-// NATS configuration (preserved for future real-time order book integration)
-const NATS_SERVERS = {
-	europe: { host: 'nats.albion-online-data.com', port: 34222 },
-	americas: { host: 'nats.albion-online-data.com', port: 4222 },
-	asia: { host: 'nats.albion-online-data.com', port: 24222 },
-}
+function createBatchesByUrlLength(
+	items: string[],
+	baseUrl: string,
+	queryParams: string,
+): string[][] {
+	const batches: string[][] = []
+	const baseLength = baseUrl.length + queryParams.length
 
-const NATS_USER = 'public'
-const NATS_PASS = 'thenewalbiondata'
+	let currentBatch: string[] = []
+	let currentLength = baseLength
 
-// Topic for real-time market orders (for future use)
-const MARKET_ORDERS_TOPIC = 'marketorders.ingest'
+	for (const itemId of items) {
+		const itemLength = itemId.length + (currentBatch.length > 0 ? 1 : 0)
+		const newLength = currentLength + itemLength
 
-// How often to log stats (in ms)
-const STATS_INTERVAL = 1000 // 1 second
+		if (newLength > MAX_URL_LENGTH && currentBatch.length > 0) {
+			batches.push([...currentBatch])
+			currentBatch = [itemId]
+			currentLength = baseLength + itemId.length
+		} else {
+			currentBatch.push(itemId)
+			currentLength = newLength
+		}
+	}
 
-// How often to sync daily price averages (in ms)
-const DAILY_PRICE_SYNC_INTERVAL = 5 * 60 * 1000 // 5 minutes
+	if (currentBatch.length > 0) {
+		batches.push(currentBatch)
+	}
 
-// ============================================================================
-// TYPES
-// ============================================================================
-
-type Region = 'europe' | 'americas' | 'asia'
-
-interface CollectorState {
-	region: Region
-	natsConnected: boolean // Would be connected if not mocked
-	running: boolean
-	startTime: number
-	lastHistorySync: Date | null
-	historySyncInProgress: boolean
-	statsTimer: NodeJS.Timeout | null
-	historyTimer: NodeJS.Timeout | null
-	statusMessage: string | null
-	statusMessageExpiry: number | null
+	return batches
 }
 
 // ============================================================================
-// MAIN
-// ============================================================================
-
-const main = async (): Promise<void> => {
-	const state: CollectorState = {
-		region: (process.env.ALBION_REGION as Region) || 'europe',
-		natsConnected: false,
-		running: false,
-		startTime: Date.now(),
-		lastHistorySync: null,
-		historySyncInProgress: false,
-		statsTimer: null,
-		historyTimer: null,
-		statusMessage: null,
-		statusMessageExpiry: null,
-	}
-
-	const shutdown = async () => {
-		await stopCollector(state)
-		closeDb()
-		process.exit(0)
-	}
-
-	process.on('SIGINT', shutdown)
-	process.on('SIGTERM', shutdown)
-
-	try {
-		setupKeyboardInput(state)
-		await startCollector(state)
-		await new Promise(() => {})
-	} catch (err) {
-		console.error('Failed to start collector:', err)
-		process.exit(1)
-	}
-}
-
-// ============================================================================
-// COLLECTOR LIFECYCLE
-// ============================================================================
-
-const startCollector = async (state: CollectorState): Promise<void> => {
-	if (state.running) {
-		console.log('Collector is already running')
-		return
-	}
-
-	state.running = true
-	state.startTime = Date.now()
-
-	mockNatsConnection(state)
-	startDailyPriceSyncTimer(state)
-	startDashboardTimer(state)
-}
-
-const stopCollector = async (state: CollectorState): Promise<void> => {
-	if (!state.running) {
-		return
-	}
-
-	console.log(`\n🛑 Stopping collector...`)
-	state.running = false
-	stopTimers(state)
-	console.log(`👋 Collector stopped\n`)
-}
-
-// ============================================================================
-// NATS CONNECTION (MOCKED)
+// DATE RANGE (called by fetchMissingDailyPrices)
 // ============================================================================
 
 /**
- * Mock NATS connection - preserves architecture for future real-time integration
- * When ready to enable real orders, replace this with actual NATS connection
+ * Compute the date range for syncing (last N days, ending yesterday)
  */
-const mockNatsConnection = (state: CollectorState): void => {
-	// Mark as "connected" for display purposes
-	state.natsConnected = true
+function getDailyPriceDateRange(): { dateFrom: string; dateTo: string } {
+	const today = new Date()
+	const yesterday = new Date(today)
+	yesterday.setDate(yesterday.getDate() - 1)
+
+	const startDate = new Date(yesterday)
+	startDate.setDate(startDate.getDate() - DAILY_PRICE_CONFIG.historyDays + 1)
+
+	return {
+		dateFrom: startDate.toISOString().split('T')[0],
+		dateTo: yesterday.toISOString().split('T')[0],
+	}
 }
 
 // ============================================================================
-// DASHBOARD DISPLAY
+// FETCH WITH RETRY (called by fetchMissingDailyPrices)
 // ============================================================================
 
-const setStatusMessage = (
+async function fetchDailyPriceWithRetry<T = any>(
+	url: string,
+	attempt: number = 1,
+): Promise<DailyPriceFetchResult<T>> {
+	const result = await makeDailyPriceRequest<T>(url)
+
+	if (result.success) {
+		return result
+	}
+
+	const isRateLimited = result.statusCode === 429
+
+	if (
+		!result.retryable ||
+		(!isRateLimited && attempt >= DAILY_PRICE_CONFIG.maxRetries)
+	) {
+		return result
+	}
+
+	if (isRateLimited) {
+		const waitSeconds = result.rateLimitInfo
+			? calculateWaitTime(result.rateLimitInfo)
+			: DEFAULT_RATE_LIMIT_WAIT
+
+		await waitWithCountdown(waitSeconds)
+	} else {
+		const baseDelay =
+			DAILY_PRICE_CONFIG.initialRetryDelay *
+			Math.pow(DAILY_PRICE_CONFIG.backoffMultiplier, attempt - 1)
+		const delayWithJitter = addJitter(
+			Math.min(baseDelay, DAILY_PRICE_CONFIG.maxRetryDelay),
+		)
+		const waitSeconds = Math.round(delayWithJitter / 1000)
+
+		await waitWithCountdown(waitSeconds)
+	}
+
+	const nextAttempt = isRateLimited ? attempt : attempt + 1
+	return fetchDailyPriceWithRetry<T>(url, nextAttempt)
+}
+
+// ============================================================================
+// HTTP REQUEST (called by fetchDailyPriceWithRetry)
+// ============================================================================
+
+function makeDailyPriceRequest<T = any>(
+	url: string,
+): Promise<DailyPriceFetchResult<T>> {
+	return new Promise((resolve) => {
+		const request = https.get(url, (res) => {
+			let data = ''
+
+			res.on('data', (chunk) => {
+				data += chunk
+			})
+
+			res.on('end', () => {
+				if (res.statusCode === 200) {
+					try {
+						const json = JSON.parse(data) as T
+						resolve({
+							success: true,
+							data: json,
+							statusCode: 200,
+						})
+					} catch (e) {
+						const error = e as Error
+						resolve({
+							success: false,
+							error: `Parse error: ${error.message}`,
+							statusCode: 200,
+							retryable: false,
+						})
+					}
+				} else if (res.statusCode === 429) {
+					const rateLimitInfo = parseRateLimitHeaders(
+						res.headers as Record<string, string | string[] | undefined>,
+					)
+					resolve({
+						success: false,
+						error: 'Rate limited',
+						statusCode: 429,
+						retryable: true,
+						rateLimitInfo: rateLimitInfo || undefined,
+					})
+				} else if (res.statusCode && res.statusCode >= 500) {
+					resolve({
+						success: false,
+						error: `Server error ${res.statusCode}`,
+						statusCode: res.statusCode,
+						retryable: true,
+					})
+				} else {
+					resolve({
+						success: false,
+						error: `HTTP ${res.statusCode}`,
+						statusCode: res.statusCode,
+						retryable: false,
+					})
+				}
+			})
+		})
+
+		request.on('error', (err) => {
+			resolve({
+				success: false,
+				error: err.message,
+				retryable: true,
+			})
+		})
+
+		request.setTimeout(DAILY_PRICE_CONFIG.requestTimeout, () => {
+			request.destroy()
+			resolve({
+				success: false,
+				error: 'Timeout',
+				retryable: true,
+			})
+		})
+	})
+}
+
+// ============================================================================
+// RESPONSE TRANSFORMATION (called by fetchMissingDailyPrices)
+// ============================================================================
+
+function transformDailyPriceResponse(
+	rawData: AODPChartRawResponse[],
+): DailyPriceRecord[] {
+	const records: DailyPriceRecord[] = []
+
+	for (const response of rawData) {
+		const { item_id, location, quality, data } = response
+
+		// Only process Normal quality (1)
+		if (quality !== 1) continue
+
+		if (!data || !data.timestamps || data.timestamps.length === 0) {
+			continue
+		}
+
+		// Find the location ID for this city name
+		const locationId = CITY_TO_PRIMARY_LOCATION[location as City]
+		if (!locationId) continue
+
+		// Convert each timestamp to a record
+		for (let i = 0; i < data.timestamps.length; i++) {
+			const timestamp = data.timestamps[i]
+			const date = timestamp.split('T')[0] // Extract YYYY-MM-DD
+			const avgPrice = Math.round(data.prices_avg[i] || 0)
+			const itemCount = data.item_count[i] || 0
+
+			if (avgPrice > 0) {
+				records.push({
+					itemId: item_id,
+					locationId,
+					date,
+					avgPrice,
+					itemCount,
+				})
+			}
+		}
+	}
+
+	return records
+}
+
+// ============================================================================
+// SYNC PROGRESS STATE (called by fetchMissingDailyPrices and showDashboard)
+// ============================================================================
+
+function getDailyPriceSyncProgress(): DailyPriceSyncProgress {
+	return { ...dailyPriceSyncProgress }
+}
+
+interface SyncState {
+	currentBatch: number
+	totalBatches: number
+	startedAt: number
+}
+
+function saveSyncState(state: SyncState): void {
+	db.prepare(
+		`
+		INSERT OR REPLACE INTO sync_progress (id, current_batch, total_batches, started_at)
+		VALUES (1, ?, ?, ?)
+	`,
+	).run(state.currentBatch, state.totalBatches, state.startedAt)
+}
+
+function getSyncState(): SyncState | null {
+	const row = db
+		.prepare(
+			'SELECT current_batch, total_batches, started_at FROM sync_progress WHERE id = 1',
+		)
+		.get() as
+		| { current_batch: number; total_batches: number; started_at: number }
+		| undefined
+
+	if (!row) return null
+
+	return {
+		currentBatch: row.current_batch,
+		totalBatches: row.total_batches,
+		startedAt: row.started_at,
+	}
+}
+
+function clearSyncState(): void {
+	db.prepare('DELETE FROM sync_progress WHERE id = 1').run()
+}
+
+function updateDailyPriceSyncProgress(batch: number, total: number): void {
+	dailyPriceSyncProgress.currentBatch = batch
+	dailyPriceSyncProgress.totalBatches = total
+}
+
+function setDailyPriceRateLimitWait(seconds: number): void {
+	dailyPriceSyncProgress.rateLimitWait = seconds
+}
+
+// ============================================================================
+// WAIT WITH COUNTDOWN (called by fetchDailyPriceWithRetry)
+// ============================================================================
+
+async function waitWithCountdown(seconds: number): Promise<void> {
+	for (let remaining = seconds; remaining > 0; remaining--) {
+		setDailyPriceRateLimitWait(remaining)
+		await new Promise((resolve) => setTimeout(resolve, 1000))
+	}
+	setDailyPriceRateLimitWait(0)
+}
+
+// ============================================================================
+// RETRY HELPERS (called by fetchDailyPriceWithRetry)
+// ============================================================================
+
+function addJitter(delay: number): number {
+	const jitter = delay * DAILY_PRICE_CONFIG.jitterRange
+	return delay + (Math.random() * 2 - 1) * jitter
+}
+
+// ============================================================================
+// DASHBOARD DISPLAY (called by timer and keyboard input)
+// ============================================================================
+
+function setStatusMessage(
 	state: CollectorState,
 	message: string,
 	durationMs: number = 3000,
-): void => {
+): void {
 	state.statusMessage = message
 	state.statusMessageExpiry = Date.now() + durationMs
 }
 
-const showDashboard = (state: CollectorState): void => {
+function showDashboard(state: CollectorState): void {
 	const now = Date.now()
 	const totalElapsed = now - state.startTime
 
@@ -705,125 +904,10 @@ const showDashboard = (state: CollectorState): void => {
 }
 
 // ============================================================================
-// TIMERS
+// FORMATTING HELPERS (called by showDashboard)
 // ============================================================================
 
-const startDailyPriceSyncTimer = (state: CollectorState): void => {
-	// Initial sync after a short delay
-	setTimeout(() => {
-		syncDailyPrices(state)
-	}, 1000)
-
-	// Then sync periodically
-	state.historyTimer = setInterval(() => {
-		syncDailyPrices(state)
-	}, DAILY_PRICE_SYNC_INTERVAL)
-}
-
-const startDashboardTimer = (state: CollectorState): void => {
-	state.statsTimer = setInterval(() => {
-		showDashboard(state)
-	}, STATS_INTERVAL)
-}
-
-const stopTimers = (state: CollectorState): void => {
-	if (state.statsTimer) {
-		clearInterval(state.statsTimer)
-		state.statsTimer = null
-	}
-	if (state.historyTimer) {
-		clearInterval(state.historyTimer)
-		state.historyTimer = null
-	}
-}
-
-// ============================================================================
-// KEYBOARD INPUT
-// ============================================================================
-
-const setupKeyboardInput = (state: CollectorState): void => {
-	readline.emitKeypressEvents(process.stdin)
-	if (process.stdin.isTTY) {
-		process.stdin.setRawMode(true)
-	}
-
-	process.stdin.on('keypress', (_str, key) => {
-		if (!key) return
-
-		// Ctrl+C to quit
-		if (key.ctrl && key.name === 'c') {
-			process.emit('SIGINT')
-			return
-		}
-
-		switch (key.name) {
-			case 's':
-				// Force sync daily prices
-				if (!state.historySyncInProgress) {
-					syncDailyPrices(state, true)
-					showDashboard(state)
-				}
-				break
-			case 'd':
-				// Reset daily prices
-				if (state.historySyncInProgress) {
-					setStatusMessage(state, 'Cannot delete while sync is in progress')
-					showDashboard(state)
-				} else {
-					clearAllDailyPrices()
-					state.lastHistorySync = null
-					showDashboard(state)
-				}
-				break
-			case 'q':
-				// Quit
-				process.emit('SIGINT')
-				break
-		}
-	})
-
-	process.stdin.resume()
-}
-
-// ============================================================================
-// DAILY PRICE SYNC
-// ============================================================================
-
-const syncDailyPrices = async (
-	state: CollectorState,
-	force: boolean = false,
-): Promise<void> => {
-	if (state.historySyncInProgress) return
-
-	const historyStatus = getDailyPriceStatus()
-
-	if (!force && !historyStatus.needsFetch) return
-
-	state.historySyncInProgress = true
-
-	try {
-		const result = await fetchMissingDailyPrices()
-		if (!result.skipped && result.recordsAdded > 0) {
-			state.lastHistorySync = new Date()
-		}
-	} catch {
-		// Error handled silently - dashboard shows sync status
-	} finally {
-		state.historySyncInProgress = false
-	}
-}
-
-// ============================================================================
-// EXPORTS (for programmatic use)
-// ============================================================================
-
-export { startCollector, stopCollector, CollectorState, getDailyPriceStatus }
-
-// ============================================================================
-// PURE HELPER FUNCTIONS
-// ============================================================================
-
-const formatNumber = (num: number, abbreviate: boolean = false): string => {
+function formatNumber(num: number, abbreviate: boolean = false): string {
 	if (abbreviate) {
 		if (num >= 1000000) {
 			return (num / 1000000).toFixed(1) + 'm'
@@ -835,7 +919,7 @@ const formatNumber = (num: number, abbreviate: boolean = false): string => {
 	return num.toString()
 }
 
-const formatUptime = (ms: number): string => {
+function formatUptime(ms: number): string {
 	const seconds = Math.floor(ms / 1000)
 	const minutes = Math.floor(seconds / 60)
 	const hours = Math.floor(minutes / 60)
@@ -849,7 +933,7 @@ const formatUptime = (ms: number): string => {
 	return `${seconds}s`
 }
 
-const formatBytes = (bytes: number): string => {
+function formatBytes(bytes: number): string {
 	if (bytes >= 1073741824) {
 		return (bytes / 1073741824).toFixed(1) + ' GB'
 	}
@@ -862,7 +946,7 @@ const formatBytes = (bytes: number): string => {
 	return bytes + ' B'
 }
 
-const formatTimeAgo = (date: Date | null): string => {
+function formatTimeAgo(date: Date | null): string {
 	if (!date) return 'never'
 	const ms = Date.now() - date.getTime()
 	const seconds = Math.floor(ms / 1000)
@@ -877,10 +961,183 @@ const formatTimeAgo = (date: Date | null): string => {
 	return `${hours}h ${minutes % 60}m ago`
 }
 
-// ============================================================================
-// ENTRY POINT
-// ============================================================================
+function getLatestDailyPriceDate(): string | null {
+	const row = db
+		.prepare('SELECT MAX(date) as latest FROM daily_price_averages')
+		.get() as { latest: string | null } | undefined
+	return row?.latest ?? null
+}
 
-if (require.main === module) {
-	main()
+function getMissingDailyPriceDates(daysToKeep: number = 30): string[] {
+	const missingDates: string[] = []
+	const yesterday = new Date()
+	yesterday.setDate(yesterday.getDate() - 1)
+
+	for (let i = 0; i < daysToKeep; i++) {
+		const date = new Date(yesterday)
+		date.setDate(date.getDate() - i)
+		const dateStr = date.toISOString().split('T')[0]
+
+		const row = db
+			.prepare('SELECT 1 FROM daily_price_averages WHERE date = ? LIMIT 1')
+			.get(dateStr)
+
+		if (!row) {
+			missingDates.push(dateStr)
+		}
+	}
+
+	return missingDates
+}
+
+function getDailyPriceCount(): number {
+	const row = db
+		.prepare('SELECT COUNT(*) as count FROM daily_price_averages')
+		.get() as { count: number }
+	return row.count
+}
+
+function getDailyPriceItemCount(): number {
+	const row = db
+		.prepare(
+			'SELECT COUNT(DISTINCT item_id) as count FROM daily_price_averages',
+		)
+		.get() as { count: number }
+	return row.count
+}
+
+function getDailyPriceDateCount(): number {
+	const row = db
+		.prepare('SELECT COUNT(DISTINCT date) as count FROM daily_price_averages')
+		.get() as { count: number }
+	return row.count
+}
+
+function getDailyPriceLocationCount(): number {
+	const row = db
+		.prepare(
+			'SELECT COUNT(DISTINCT location_id) as count FROM daily_price_averages',
+		)
+		.get() as { count: number }
+	return row.count
+}
+
+function insertDailyPrices(
+	records: Array<{
+		itemId: string
+		locationId: number
+		date: string
+		avgPrice: number
+		itemCount: number
+	}>,
+): void {
+	const insertStmt = db.prepare(`
+		INSERT OR REPLACE INTO daily_price_averages
+		(item_id, location_id, date, avg_price, item_count, fetched_at)
+		VALUES (?, ?, ?, ?, ?, ?)
+	`)
+
+	const now = Date.now()
+	const transaction = db.transaction((records: (typeof arguments)[0]) => {
+		for (const record of records) {
+			insertStmt.run(
+				record.itemId,
+				record.locationId,
+				record.date,
+				record.avgPrice,
+				record.itemCount,
+				now,
+			)
+		}
+	})
+
+	transaction(records)
+}
+
+function getDailyPrices(
+	itemId: string,
+	days: number = 30,
+): Array<{
+	locationId: number
+	date: string
+	avgPrice: number
+	itemCount: number
+}> {
+	const cutoffDate = new Date()
+	cutoffDate.setDate(cutoffDate.getDate() - days)
+	const cutoffStr = cutoffDate.toISOString().split('T')[0]
+
+	return db
+		.prepare(
+			`
+			SELECT location_id as locationId, date, avg_price as avgPrice, item_count as itemCount
+			FROM daily_price_averages
+			WHERE item_id = ? AND date >= ?
+			ORDER BY date DESC
+		`,
+		)
+		.all(itemId, cutoffStr) as Array<{
+		locationId: number
+		date: string
+		avgPrice: number
+		itemCount: number
+	}>
+}
+
+function get30DayAverage(
+	itemId: string,
+	locationIds: number[],
+): { avgPrice: number; totalVolume: number; dataPoints: number } | null {
+	const placeholders = locationIds.map(() => '?').join(',')
+	const cutoffDate = new Date()
+	cutoffDate.setDate(cutoffDate.getDate() - 30)
+	const cutoffStr = cutoffDate.toISOString().split('T')[0]
+
+	const rows = db
+		.prepare(
+			`
+			SELECT avg_price, item_count
+			FROM daily_price_averages
+			WHERE item_id = ? AND location_id IN (${placeholders}) AND date >= ?
+		`,
+		)
+		.all(itemId, ...locationIds, cutoffStr) as Array<{
+		avg_price: number
+		item_count: number
+	}>
+
+	if (rows.length === 0) {
+		return null
+	}
+
+	let totalPrice = 0
+	let totalVolume = 0
+
+	for (const row of rows) {
+		totalPrice += row.avg_price
+		totalVolume += row.item_count
+	}
+
+	return {
+		avgPrice: Math.round(totalPrice / rows.length),
+		totalVolume,
+		dataPoints: rows.length,
+	}
+}
+
+function cleanupOldDailyPrices(daysToKeep: number = 30): number {
+	const cutoffDate = new Date()
+	cutoffDate.setDate(cutoffDate.getDate() - daysToKeep)
+	const cutoffStr = cutoffDate.toISOString().split('T')[0]
+
+	const result = db
+		.prepare('DELETE FROM daily_price_averages WHERE date < ?')
+		.run(cutoffStr)
+
+	return result.changes
+}
+
+function clearAllDailyPrices(): number {
+	const result = db.prepare('DELETE FROM daily_price_averages').run()
+	return result.changes
 }
