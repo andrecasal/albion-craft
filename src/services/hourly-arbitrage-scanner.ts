@@ -2,7 +2,7 @@
 // Analyzes hourly price data to find arbitrage opportunities with trend analysis
 // Uses high-resolution data to identify short-term price patterns
 
-import { getOrderBookDb, LOCATION_TO_CITY, CITY_TO_LOCATION } from './order-book-db';
+import { LOCATION_TO_CITY, CITY_TO_LOCATION, getAllHourlyPriceHistory, getHourlyPriceHistoryCount, getHourlyHistoryItemCount } from '../db/db';
 import { City } from '../types';
 
 // ============================================================================
@@ -135,8 +135,7 @@ function getTrendEmoji(trend: 'rising' | 'stable' | 'falling'): string {
  * Analyze hourly price data for all items across all cities
  */
 export function analyzeHourlyPrices(): Map<string, Map<City, HourlyPriceStats>> {
-  const db = getOrderBookDb();
-  const allData = db.getAllHourlyPriceHistory(24);
+  const allData = getAllHourlyPriceHistory(24);
 
   if (allData.length === 0) {
     return new Map();
@@ -333,10 +332,9 @@ export function findHourlyArbitrageOpportunities(): HourlyArbitrageOpportunity[]
  * Display hourly arbitrage opportunities in the console
  */
 export function displayHourlyArbitrageOpportunities(): void {
-  const db = getOrderBookDb();
   const status = {
-    totalRecords: db.getHourlyPriceHistoryCount(),
-    uniqueItems: db.getHourlyHistoryItemCount(),
+    totalRecords: getHourlyPriceHistoryCount(),
+    uniqueItems: getHourlyHistoryItemCount(),
   };
 
   if (status.totalRecords === 0) {

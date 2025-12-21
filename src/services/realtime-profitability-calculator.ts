@@ -3,7 +3,7 @@
 // This replaces the JSON-based ProfitabilityCalculator for features that need live data
 
 import { Recipe, UserStats, City, CraftingCost } from '../types';
-import { getOrderBookDb, CITY_TO_LOCATION, MarketDepth } from './order-book-db';
+import { CITY_TO_LOCATION, MarketDepth, getMarketDepth, getStats } from '../db/db';
 
 // ============================================================================
 // TYPES
@@ -203,7 +203,6 @@ function isRefinedResource(materialId: string): boolean {
 // ============================================================================
 
 export class RealtimeProfitabilityCalculator {
-  private db = getOrderBookDb();
 
   /**
    * Calculate material costs from order book for a recipe in a city
@@ -241,7 +240,7 @@ export class RealtimeProfitabilityCalculator {
       let totalAvailable = 0;
 
       for (const locId of locationIds) {
-        const depth = this.db.getMarketDepth(materialId, locId);
+        const depth = getMarketDepth(materialId, locId);
         if (depth.bestSellPrice !== null) {
           // Prices in DB are in cents, convert to silver
           const priceInSilver = depth.bestSellPrice / 100;
@@ -294,7 +293,7 @@ export class RealtimeProfitabilityCalculator {
     let totalAmount = 0;
 
     for (const locId of locationIds) {
-      const depth = this.db.getMarketDepth(itemId, locId, quality);
+      const depth = getMarketDepth(itemId, locId, quality);
       if (depth.bestBuyPrice !== null) {
         // Prices in DB are in cents, convert to silver
         const priceInSilver = depth.bestBuyPrice / 100;
@@ -426,7 +425,7 @@ export class RealtimeProfitabilityCalculator {
    * Get database stats for display
    */
   getOrderBookStats() {
-    return this.db.getStats();
+    return getStats();
   }
 
   // ============================================================================
@@ -609,7 +608,7 @@ export class RealtimeProfitabilityCalculator {
     let totalAmount = 0;
 
     for (const locId of locationIds) {
-      const depth = this.db.getMarketDepth(materialId, locId);
+      const depth = getMarketDepth(materialId, locId);
       if (depth.bestSellPrice !== null) {
         // Prices in DB are in cents, convert to silver
         const priceInSilver = depth.bestSellPrice / 100;

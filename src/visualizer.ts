@@ -11,9 +11,9 @@ import { CraftingRecommender, MaterialInventory } from './services/crafting-reco
 import { trackMaterialPrices } from './services/material-buy-opportunities';
 import { scanCityArbitrage } from './services/city-arbitrage-scanner';
 import { getRealtimeCalculator, CraftFromMarketResult, CraftFromInventoryResult, MaterialInventory as RealtimeMaterialInventory, MaterialPriceComparison } from './services/realtime-profitability-calculator';
-import { getOrderBookDb } from './services/order-book-db';
-import { checkHistoryStatus, fetchMissingHistory } from './services/history-fetcher';
-import { checkHourlyHistoryStatus, fetchHourlyHistory } from './services/hourly-fetcher';
+import { CITY_TO_LOCATION, getRawDb, getStats, getPriceHistoryCount, get30DayAverage, getBestBuyPrices } from './db/db';
+import { checkHistoryStatus } from './services/history-fetcher';
+import { checkHourlyHistoryStatus } from './services/hourly-fetcher';
 import { scanHourlyArbitrage } from './services/hourly-arbitrage-scanner';
 import { UserStats, City, RefiningCategory, CraftingCategory, CraftingBonusEntry } from './types';
 
@@ -258,20 +258,15 @@ async function showMenu(): Promise<string> {
     console.log('\n========================================');
     console.log('ALBION CRAFT PROFITABILITY ANALYZER');
     console.log('========================================');
-    console.log(`1. View high demand / low supply items`);
-    console.log('2. Craft from inventory');
-    console.log('3. Craft from market (buy materials)');
-    console.log('4. Material buy opportunities');
-    console.log('5. City arbitrage scanner');
-    console.log('6. Hourly arbitrage (24h trends)');
-    console.log('7. Exit');
+    console.log('1. Below average sell orders');
+    console.log('0. Exit');
     console.log('----------------------------------------');
-    console.log(`8. Settings ${getSettingsSummary()}`);
+    console.log(`9. Settings ${getSettingsSummary()}`);
     console.log(`   Historical data: ${historyDataFreshness}`);
     console.log(`   Hourly data: ${hourlyDataFreshness}`);
     console.log('========================================');
 
-    rl.question('Choose an option (1-8): ', (answer) => {
+    rl.question('Choose an option: ', (answer) => {
       rl.close();
       resolve(answer.trim());
     });
@@ -415,8 +410,7 @@ async function craftFromInventory() {
   console.log('\n--- CRAFT FROM INVENTORY (Real-Time Order Book) ---\n');
 
   // Check order book database
-  const db = getOrderBookDb();
-  const stats = db.getStats();
+  const stats = getStats();
 
   if (stats.totalOrders === 0) {
     console.log('❌ No orders in the database.');
@@ -675,8 +669,7 @@ async function craftFromMarket() {
   console.log('Calculate profit when buying ALL materials from the market.\n');
 
   // Check order book database
-  const db = getOrderBookDb();
-  const stats = db.getStats();
+  const stats = getStats();
 
   if (stats.totalOrders === 0) {
     console.log('❌ No orders in the database.');
@@ -1041,8 +1034,7 @@ async function scanMaterialBuyOpportunities() {
   console.log('Compare material prices across all cities to find the best deals.\n');
 
   // Check order book database
-  const db = getOrderBookDb();
-  const stats = db.getStats();
+  const stats = getStats();
 
   if (stats.totalOrders === 0) {
     console.log('❌ No orders in the database.');
@@ -1138,36 +1130,219 @@ async function scanMaterialBuyOpportunities() {
 }
 
 
+// View items with sell orders significantly below their 30-day average price
+async function viewBelowAverageSellOrders() {
+  console.log('\n--- BELOW AVERAGE SELL ORDERS (30-Day Data) ---\n');
+  console.log('Find items currently priced below their 30-day average.\n');
+
+  // Check order book database
+  const stats = getStats();
+
+  if (stats.totalOrders === 0) {
+    console.log('❌ No orders in the database.');
+    console.log('Please ensure the NATS collector is running: npm run collect\n');
+    return;
+  }
+
+  // Check price history data
+  const historyCount = getPriceHistoryCount();
+  if (historyCount === 0) {
+    console.log('❌ No price history available.');
+    console.log('Run the history fetcher to collect 30-day price data.\n');
+    return;
+  }
+
+  console.log(`📊 Order book: ${stats.totalOrders.toLocaleString()} orders`);
+  console.log(`📊 Price history: ${historyCount.toLocaleString()} records\n`);
+
+  // Get all unique items from order book
+  const now = new Date().toISOString();
+  const staleThreshold = Date.now() - 5 * 60 * 1000; // 5 minutes
+
+  // Build item index from current orders
+  interface ItemCityData {
+    itemId: string;
+    city: City;
+    currentSellPrice: number;
+  }
+
+  const itemCityPrices: ItemCityData[] = [];
+
+  // Get all sell orders grouped by item and city
+  const rawDb = getRawDb();
+  for (const [city, locationIds] of Object.entries(CITY_TO_LOCATION) as [City, number[]][]) {
+    const placeholders = locationIds.map(() => '?').join(',');
+    const orders = rawDb.prepare(`
+      SELECT item_id, MIN(price_silver) as best_sell_price
+      FROM orders
+      WHERE location_id IN (${placeholders})
+        AND auction_type = 'offer'
+        AND expires > ?
+        AND last_seen > ?
+      GROUP BY item_id
+    `).all(...locationIds, now, staleThreshold) as Array<{ item_id: string; best_sell_price: number }>;
+
+    for (const order of orders) {
+      itemCityPrices.push({
+        itemId: order.item_id,
+        city,
+        currentSellPrice: order.best_sell_price,
+      });
+    }
+  }
+
+  if (itemCityPrices.length === 0) {
+    console.log('❌ No sell orders found in the order book.\n');
+    return;
+  }
+
+  // Load item names
+  const itemsPath = path.join(process.cwd(), 'src', 'constants', 'items.json');
+  let itemNames: Record<string, string> = {};
+  if (fs.existsSync(itemsPath)) {
+    const items = JSON.parse(fs.readFileSync(itemsPath, 'utf8')) as Array<{ id: string; name: string }>;
+    for (const item of items) {
+      itemNames[item.id] = item.name;
+    }
+  }
+
+  // Find items below their 30-day average and calculate best sell city
+  interface BelowAverageItem {
+    itemId: string;
+    itemName: string;
+    buyCity: City;
+    avg30Day: number;
+    currentPrice: number;
+    pctBelowAvg: number;
+    bestSellCity: City;
+    bestSellCityAvg30Day: number;
+    bestSellCityBuyPrice: number;
+    profitPerItem: number;
+  }
+
+  const belowAverageItems: BelowAverageItem[] = [];
+  const processedItems = new Set<string>(); // Track processed item+city combos
+
+  for (const { itemId, city, currentSellPrice } of itemCityPrices) {
+    const key = `${itemId}:${city}`;
+    if (processedItems.has(key)) continue;
+    processedItems.add(key);
+
+    // Get 30-day average for this item in this city
+    const locationIds = CITY_TO_LOCATION[city];
+    const avg30Data = get30DayAverage(itemId, locationIds);
+
+    if (!avg30Data || avg30Data.avgPrice <= 0) continue;
+
+    // Calculate how far below average
+    const pctBelowAvg = ((avg30Data.avgPrice - currentSellPrice) / avg30Data.avgPrice) * 100;
+
+    // Only include items at least 5% below average
+    if (pctBelowAvg < 5) continue;
+
+    // Find best city to sell (highest buy order price)
+    const buyPrices = getBestBuyPrices(itemId);
+    let bestSellCity: City | null = null;
+    let bestSellCityBuyPrice = 0;
+
+    for (const [sellCity, buyPrice] of Object.entries(buyPrices) as [City, number | null][]) {
+      if (buyPrice !== null && buyPrice > bestSellCityBuyPrice) {
+        bestSellCityBuyPrice = buyPrice;
+        bestSellCity = sellCity;
+      }
+    }
+
+    if (!bestSellCity || bestSellCityBuyPrice === 0) continue;
+
+    // Get 30-day average for the best sell city
+    const sellCityLocationIds = CITY_TO_LOCATION[bestSellCity];
+    const sellCityAvg30Data = get30DayAverage(itemId, sellCityLocationIds);
+    const bestSellCityAvg30Day = sellCityAvg30Data?.avgPrice || 0;
+
+    // Calculate profit (sell price after 4% tax - buy price)
+    const netSellPrice = bestSellCityBuyPrice * 0.96;
+    const profitPerItem = netSellPrice - currentSellPrice;
+
+    // Only include if there's positive profit
+    if (profitPerItem <= 0) continue;
+
+    const itemName = itemNames[itemId] || itemId;
+
+    belowAverageItems.push({
+      itemId,
+      itemName,
+      buyCity: city,
+      avg30Day: avg30Data.avgPrice,
+      currentPrice: currentSellPrice,
+      pctBelowAvg,
+      bestSellCity,
+      bestSellCityAvg30Day,
+      bestSellCityBuyPrice,
+      profitPerItem,
+    });
+  }
+
+  if (belowAverageItems.length === 0) {
+    console.log('No items found with prices significantly below their 30-day average (>5%).\n');
+    console.log('This could mean:');
+    console.log('  - Markets are fairly priced');
+    console.log('  - Not enough historical data');
+    console.log('  - Prices are currently at or above average\n');
+    return;
+  }
+
+  // Sort by percentage below average (biggest discount first)
+  belowAverageItems.sort((a, b) => b.pctBelowAvg - a.pctBelowAvg);
+
+  console.log(`Found ${belowAverageItems.length} items priced below their 30-day average.\n`);
+
+  // Display table
+  console.log('═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════');
+  console.log('                                                     ITEMS BELOW 30-DAY AVERAGE PRICE');
+  console.log('                                                     Potential buying opportunities');
+  console.log('═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════\n');
+
+  console.log('┌────┬─────────────────────────────────┬──────────────┬───────────┬───────────┬───────────┬──────────────┬───────────┬───────────┬───────────┐');
+  console.log('│ #  │ Item                            │ Buy City     │ 30d Avg   │ Current   │ % Below   │ Sell City    │ 30d Avg   │ Buy Order │ Profit/ea │');
+  console.log('├────┼─────────────────────────────────┼──────────────┼───────────┼───────────┼───────────┼──────────────┼───────────┼───────────┼───────────┤');
+
+  const displayCount = Math.min(50, belowAverageItems.length);
+  for (let i = 0; i < displayCount; i++) {
+    const item = belowAverageItems[i];
+    const rank = (i + 1).toString().padStart(2);
+    const tierEnchant = getTierEnchant(item.itemId);
+    const name = `${item.itemName} (${tierEnchant})`.substring(0, 31).padEnd(31);
+    const buyCity = item.buyCity.substring(0, 12).padEnd(12);
+    const avg30Day = formatNumber(item.avg30Day).padStart(9);
+    const current = formatNumber(item.currentPrice).padStart(9);
+    const pctBelow = `-${item.pctBelowAvg.toFixed(1)}%`.padStart(9);
+    const sellCity = item.bestSellCity.substring(0, 12).padEnd(12);
+    const sellCityAvg = formatNumber(item.bestSellCityAvg30Day).padStart(9);
+    const buyOrder = formatNumber(item.bestSellCityBuyPrice).padStart(9);
+    const profit = formatNumber(item.profitPerItem).padStart(9);
+
+    console.log(`│ ${rank} │ ${name} │ ${buyCity} │ ${avg30Day} │ ${current} │ ${pctBelow} │ ${sellCity} │ ${sellCityAvg} │ ${buyOrder} │ ${profit} │`);
+  }
+
+  console.log('└────┴─────────────────────────────────┴──────────────┴───────────┴───────────┴───────────┴──────────────┴───────────┴───────────┴───────────┘');
+
+  if (belowAverageItems.length > displayCount) {
+    console.log(`\n   (Showing top ${displayCount} of ${belowAverageItems.length} items)`);
+  }
+
+  console.log('\n   Legend:');
+  console.log('   • Buy City: City where the item is currently cheap');
+  console.log('   • 30d Avg: 30-day average price in that city');
+  console.log('   • Current: Current lowest sell order price');
+  console.log('   • % Below: How far below the 30-day average');
+  console.log('   • Sell City: City with the highest buy orders');
+  console.log('   • Buy Order: Highest buy order price (quick sell)');
+  console.log('   • Profit/ea: Profit per item after 4% tax');
+  console.log('\n   💡 Buy in "Buy City" and quick sell in "Sell City" for instant profit!\n');
+}
+
 async function main() {
   console.log('Welcome to the Albion Craft Profitability Analyzer!');
-
-  // Check and fetch historical data if needed (also done by collector on startup)
-  const historyStatus = checkHistoryStatus();
-  const hourlyStatus = checkHourlyHistoryStatus();
-
-  const needsSync = historyStatus.needsFetch || hourlyStatus.needsFetch;
-
-  if (needsSync) {
-    console.log('\n📊 Syncing price history data...');
-
-    if (historyStatus.needsFetch) {
-      console.log('   📅 Fetching daily history...');
-      const historyResult = await fetchMissingHistory();
-      if (!historyResult.skipped) {
-        console.log(`   ✅ Added ${historyResult.recordsAdded.toLocaleString()} daily records`);
-      }
-    }
-
-    if (hourlyStatus.needsFetch) {
-      console.log('   ⏰ Fetching hourly history...');
-      const hourlyResult = await fetchHourlyHistory();
-      if (!hourlyResult.skipped) {
-        console.log(`   ✅ Added ${hourlyResult.recordsAdded.toLocaleString()} hourly records`);
-      }
-    }
-
-    console.log('');
-  }
 
   let running = true;
 
@@ -1175,33 +1350,18 @@ async function main() {
     const choice = await showMenu();
 
     switch (choice) {
-      case '1':
-        await viewHighDemandLowSupply();
-        break;
-      case '2':
-        await craftFromInventory();
-        break;
-      case '3':
-        await craftFromMarket();
-        break;
-      case '4':
-        await scanMaterialBuyOpportunities();
-        break;
-      case '5':
-        await scanCityArbitrage();
-        break;
-      case '6':
-        await scanHourlyArbitrage();
-        break;
-      case '7':
+      case '0':
         console.log('\nGoodbye!\n');
         running = false;
         break;
-      case '8':
+      case '1':
+        await viewBelowAverageSellOrders();
+        break;
+      case '9':
         await configureSettings();
         break;
       default:
-        console.log('\n❌ Invalid option. Please choose 1-8.\n');
+        console.log('\n❌ Invalid option.\n');
     }
   }
 }

@@ -4,7 +4,7 @@
 
 import * as readline from 'readline';
 import { City } from '../types';
-import { getOrderBookDb } from './order-book-db';
+import { getStats, findOptimalArbitrageOpportunities } from '../db/db';
 
 // Travel times between cities (in minutes)
 const travelData = require('../constants/travel.json') as {
@@ -194,9 +194,8 @@ export async function scanCityArbitrage(): Promise<ArbitrageOpportunity[]> {
   console.log(`   Tax rate: Quick sell 4%`);
   console.log(`   Carry capacity: ${DEFAULT_CARRY_CAPACITY.toLocaleString()} kg (T8 Ox + T8 Bag + Base)\n`);
 
-  // Get order book database
-  const db = getOrderBookDb();
-  const stats = db.getStats();
+  // Get order book stats
+  const stats = getStats();
 
   if (stats.totalOrders === 0) {
     console.log('   ❌ No orders in the database.');
@@ -212,7 +211,7 @@ export async function scanCityArbitrage(): Promise<ArbitrageOpportunity[]> {
   };
 
   // Get optimal arbitrage opportunities using depth-aware calculation
-  const dbOpportunities = db.findOptimalArbitrageOpportunities(
+  const dbOpportunities = findOptimalArbitrageOpportunities(
     getItemWeight,
     DEFAULT_CARRY_CAPACITY,
     QUICK_SELL_TAX,

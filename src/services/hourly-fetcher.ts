@@ -3,7 +3,7 @@
 // Used for intraday arbitrage analysis
 
 import * as https from 'https';
-import { getOrderBookDb, CITY_TO_LOCATION } from './order-book-db';
+import { CITY_TO_LOCATION, getHourlyPriceHistoryCount, getLatestHourlyHistoryTimestamp, getHourlyHistoryItemCount, insertHourlyPriceHistory, cleanupOldHourlyHistory } from '../db/db';
 import {
   parseRateLimitHeaders,
   calculateWaitTime,
@@ -303,10 +303,9 @@ export function checkHourlyHistoryStatus(): {
   needsFetch: boolean;
   uniqueItems: number;
 } {
-  const db = getOrderBookDb();
-  const totalRecords = db.getHourlyPriceHistoryCount();
-  const latestTimestamp = db.getLatestHourlyHistoryTimestamp();
-  const uniqueItems = db.getHourlyHistoryItemCount();
+  const totalRecords = getHourlyPriceHistoryCount();
+  const latestTimestamp = getLatestHourlyHistoryTimestamp();
+  const uniqueItems = getHourlyHistoryItemCount();
 
   let hoursOld: number | null = null;
   let needsFetch = true;
@@ -344,8 +343,6 @@ export async function fetchHourlyHistory(): Promise<{
     };
   }
 
-  const db = getOrderBookDb();
-
   // Calculate date range for last 24 hours
   const now = new Date();
   const yesterday = new Date(now.getTime() - 24 * 60 * 60 * 1000);
@@ -378,7 +375,7 @@ export async function fetchHourlyHistory(): Promise<{
     if (result.success && result.data) {
       const records = transformChartsResponse(result.data);
       if (records.length > 0) {
-        db.insertHourlyPriceHistory(records);
+        insertHourlyPriceHistory(records);
         totalRecordsAdded += records.length;
       }
     }
@@ -387,7 +384,7 @@ export async function fetchHourlyHistory(): Promise<{
   process.stdout.write('\r   Done!                                            \n');
 
   // Clean up old data (keep 48 hours for trend analysis)
-  const cleaned = db.cleanupOldHourlyHistory(48);
+  const cleaned = cleanupOldHourlyHistory(48);
   if (cleaned > 0) {
     console.log(`   Cleaned up ${cleaned.toLocaleString()} old hourly records`);
   }

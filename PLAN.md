@@ -34,7 +34,7 @@ Build a system that ingests live market data and calculates in real-time the mos
 │                                                                              │
 │  ┌──────────────────────┐         ┌──────────────────────┐                  │
 │  │  NATS Collector      │         │  History Fetcher     │                  │
-│  │  (nats-collector.ts) │         │  (incremental)       │                  │
+│  │  (collector.ts)      │         │  (incremental)       │                  │
 │  │                      │         │                      │                  │
 │  │  - Runs 24/7         │         │  - Fetches missing   │                  │
 │  │  - Stores raw data   │         │    days only         │                  │
