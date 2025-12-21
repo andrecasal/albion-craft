@@ -2,7 +2,9 @@
 // Background service that ingests NATS market orders and stores them in SQLite
 
 import { connect, StringCodec, NatsConnection, Subscription } from 'nats';
-import { OrderBookDatabase, MarketOrder, getOrderBookDb, closeOrderBookDb, CITY_TO_LOCATION } from './order-book-db';
+import { OrderBookDatabase, MarketOrder, getOrderBookDb, closeOrderBookDb, CITY_TO_LOCATION, LOCATION_TO_CITY } from './order-book-db';
+import { checkHistoryStatus, fetchMissingHistory } from './history-fetcher';
+import { checkHourlyHistoryStatus, fetchHourlyHistory } from './hourly-fetcher';
 import { City } from '../types';
 
 // ============================================================================
@@ -26,6 +28,9 @@ const CLEANUP_INTERVAL = 5 * 60 * 1000; // 5 minutes
 
 // How often to log stats (in ms)
 const STATS_INTERVAL = 1000; // 1 second
+
+// How often to check for new historical/hourly data (in ms)
+const HISTORY_CHECK_INTERVAL = 5 * 60 * 1000; // 5 minutes
 
 // ============================================================================
 // TYPES
@@ -60,6 +65,7 @@ export class NatsCollector {
   private subscription: Subscription | null = null;
   private cleanupTimer: NodeJS.Timeout | null = null;
   private statsTimer: NodeJS.Timeout | null = null;
+  private historyTimer: NodeJS.Timeout | null = null;
   private running = false;
   private region: Region;
 
@@ -70,6 +76,12 @@ export class NatsCollector {
   private ordersExpiredCleaned = 0;
   private lastStatsTime = Date.now();
   private startTime = Date.now();
+  private cityLastUpdate: Map<City, number> = new Map();
+
+  // History sync status
+  private lastHistorySync: Date | null = null;
+  private lastHourlySync: Date | null = null;
+  private historySyncInProgress = false;
 
   constructor(region: Region = 'europe', db?: OrderBookDatabase) {
     this.region = region;
@@ -127,6 +139,9 @@ export class NatsCollector {
       // Start stats timer
       this.startStatsTimer();
 
+      // Start history check timer (checks every 5 min for new daily/hourly data)
+      this.startHistoryCheckTimer();
+
       // Show initial dashboard immediately
       this.logStats(false);
     } catch (err) {
@@ -155,6 +170,10 @@ export class NatsCollector {
     if (this.statsTimer) {
       clearInterval(this.statsTimer);
       this.statsTimer = null;
+    }
+    if (this.historyTimer) {
+      clearInterval(this.historyTimer);
+      this.historyTimer = null;
     }
 
     // Unsubscribe
@@ -210,6 +229,7 @@ export class NatsCollector {
    */
   private processOrders(rawOrders: RawMarketOrder[]): void {
     this.messagesReceived++;
+    const now = Date.now();
 
     const orders: MarketOrder[] = rawOrders.map((raw) => ({
       id: raw.Id,
@@ -218,11 +238,19 @@ export class NatsCollector {
       locationId: raw.LocationId,
       qualityLevel: raw.QualityLevel,
       enchantmentLevel: raw.EnchantmentLevel,
-      priceSilver: raw.UnitPriceSilver, // Stored as-is (cents); divide by 100 for display
+      priceSilver: raw.UnitPriceSilver, // Stored as-is (hundredths of silver); divide by 10000 for display
       amount: raw.Amount,
       auctionType: raw.AuctionType === 'offer' ? 'offer' : 'request',
       expires: raw.Expires,
     }));
+
+    // Track last update time per city
+    for (const order of orders) {
+      const city = LOCATION_TO_CITY[order.locationId];
+      if (city) {
+        this.cityLastUpdate.set(city, now);
+      }
+    }
 
     // Bulk insert for performance
     this.db.upsertOrders(orders);
@@ -250,6 +278,62 @@ export class NatsCollector {
     this.statsTimer = setInterval(() => {
       this.logStats(false);
     }, STATS_INTERVAL);
+  }
+
+  /**
+   * Start periodic check for new historical/hourly data
+   */
+  private startHistoryCheckTimer(): void {
+    this.historyTimer = setInterval(() => {
+      this.checkAndFetchHistory();
+    }, HISTORY_CHECK_INTERVAL);
+  }
+
+  /**
+   * Check if new historical or hourly data is available and fetch it
+   * This runs in the background without blocking the main collector
+   */
+  private async checkAndFetchHistory(): Promise<void> {
+    // Don't run if already syncing
+    if (this.historySyncInProgress) return;
+
+    const historyStatus = checkHistoryStatus();
+    const hourlyStatus = checkHourlyHistoryStatus();
+
+    // Nothing to do if both are up to date
+    if (!historyStatus.needsFetch && !hourlyStatus.needsFetch) return;
+
+    this.historySyncInProgress = true;
+
+    try {
+      // Check for new daily data (new day has passed)
+      if (historyStatus.needsFetch) {
+        const missingCount = historyStatus.missingDates.length;
+        console.log(`\n📅 New daily data available (${missingCount} day${missingCount > 1 ? 's' : ''} missing). Syncing...`);
+
+        const result = await fetchMissingHistory();
+        if (!result.skipped && result.recordsAdded > 0) {
+          this.lastHistorySync = new Date();
+          console.log(`   ✅ Added ${result.recordsAdded.toLocaleString()} daily records`);
+        }
+      }
+
+      // Check for new hourly data (data is stale)
+      if (hourlyStatus.needsFetch) {
+        const hoursOld = hourlyStatus.hoursOld || 0;
+        console.log(`\n⏰ Hourly data is ${hoursOld}h old. Refreshing...`);
+
+        const result = await fetchHourlyHistory();
+        if (!result.skipped && result.recordsAdded > 0) {
+          this.lastHourlySync = new Date();
+          console.log(`   ✅ Added ${result.recordsAdded.toLocaleString()} hourly records`);
+        }
+      }
+    } catch (err) {
+      console.error(`\n❌ Error fetching history:`, err);
+    } finally {
+      this.historySyncInProgress = false;
+    }
   }
 
   /**
@@ -283,6 +367,38 @@ export class NatsCollector {
   }
 
   /**
+   * Format bytes as human-readable string
+   */
+  private formatBytes(bytes: number): string {
+    if (bytes >= 1073741824) {
+      return (bytes / 1073741824).toFixed(1) + ' GB';
+    }
+    if (bytes >= 1048576) {
+      return (bytes / 1048576).toFixed(1) + ' MB';
+    }
+    if (bytes >= 1024) {
+      return (bytes / 1024).toFixed(1) + ' KB';
+    }
+    return bytes + ' B';
+  }
+
+  /**
+   * Format time ago as human-readable string
+   */
+  private formatTimeAgo(ms: number): string {
+    const seconds = Math.floor(ms / 1000);
+    if (seconds < 60) {
+      return `${seconds}s ago`;
+    }
+    const minutes = Math.floor(seconds / 60);
+    if (minutes < 60) {
+      return `${minutes}m ago`;
+    }
+    const hours = Math.floor(minutes / 60);
+    return `${hours}h ${minutes % 60}m ago`;
+  }
+
+  /**
    * Log current statistics as a rich dashboard
    */
   private logStats(final: boolean): void {
@@ -291,10 +407,10 @@ export class NatsCollector {
     const totalElapsed = now - this.startTime;
 
     const dbStats = this.db.getStats();
-    const freshness = this.db.getFreshness();
     const cityCounts = this.db.getOrderCountsByCity();
     const citiesWithData = this.db.getCitiesWithData();
     const totalCities = Object.keys(CITY_TO_LOCATION).length;
+    const dbSize = this.db.getDatabaseSize();
 
     const ordersPerSecond = elapsed > 0 ? (this.ordersProcessed / elapsed).toFixed(1) : '0';
 
@@ -339,33 +455,30 @@ export class NatsCollector {
 
       const r3c1 = `Cleaned: ${this.formatNumber(this.ordersExpiredCleaned)}`.padEnd(19);
       const r3c2 = `Buy: ${this.formatNumber(dbStats.buyOrders)}`.padEnd(18);
-      const r3c3 = `Fresh: ${freshness.freshPercent.toFixed(0)}%`.padEnd(20);
-      lines.push(`│  🧹 ${r3c1} 🛒 ${r3c2} ✨ ${r3c3}│`);
+      const r3c3 = `DB: ${this.formatBytes(dbSize)}`.padEnd(20);
+      lines.push(`│  🧹 ${r3c1} 🛒 ${r3c2} 💾 ${r3c3}│`);
 
       lines.push(`├${W}┤`);
       lines.push(`│  🗺️  ${'CITY BREAKDOWN'.padEnd(65)}│`);
 
-      // City data with emojis
-      const allCities = Object.keys(CITY_TO_LOCATION) as City[];
+      // City data with emojis - sorted by order count descending
+      const allCities = (Object.keys(CITY_TO_LOCATION) as City[]).sort(
+        (a, b) => (cityCounts[b] || 0) - (cityCounts[a] || 0)
+      );
       const cityEmojis: Record<City, string> = {
         'Thetford': '🌿', 'Martlock': '⛰️ ', 'Fort Sterling': '❄️ ',
         'Lymhurst': '🌲', 'Bridgewatch': '🏜️ ', 'Caerleon': '👑', 'Brecilien': '🌳',
       };
 
-      const fmtCity = (city: City, padLen: number): string => {
+      const now = Date.now();
+      for (const city of allCities) {
         const count = cityCounts[city] || 0;
-        const name = city;
-        const text = `${name}: ${this.formatNumber(count)}`.padEnd(padLen);
-        return `${cityEmojis[city]} ${text}`;
-      };
-
-      lines.push(`│  ${fmtCity(allCities[0], 19)} ${fmtCity(allCities[1], 18)} ${fmtCity(allCities[2], 20)}│`);
-      lines.push(`│  ${fmtCity(allCities[3], 19)} ${fmtCity(allCities[4], 18)} ${fmtCity(allCities[5], 20)}│`);
-      if (allCities[6]) {
-        const lastCity = allCities[6];
-        const count = cityCounts[lastCity] || 0;
-        const text = `${lastCity}: ${this.formatNumber(count)}`.padEnd(65);
-        lines.push(`│  ${cityEmojis[lastCity]} ${text}│`);
+        const lastUpdate = this.cityLastUpdate.get(city);
+        const timeAgo = lastUpdate ? this.formatTimeAgo(now - lastUpdate) : 'never';
+        const cityName = `${city}:`.padEnd(15);
+        const countStr = this.formatNumber(count).padEnd(10);
+        const text = `${cityName}${countStr}${timeAgo}`.padEnd(65);
+        lines.push(`│  ${cityEmojis[city]} ${text}│`);
       }
 
       lines.push(`└${W}┘`);
@@ -397,6 +510,59 @@ export class NatsCollector {
 // STANDALONE RUNNER
 // ============================================================================
 
+/**
+ * Fetch historical and hourly price data before starting the collector
+ */
+async function fetchPriceHistory(): Promise<void> {
+  console.log('\n┌──────────────────────────────────────────────────────────────────────┐');
+  console.log('│  📊 PRICE HISTORY SYNC                                               │');
+  console.log('└──────────────────────────────────────────────────────────────────────┘\n');
+
+  // Check and fetch daily historical data (30 days)
+  console.log('📅 Checking daily price history (30 days, time-scale=24)...');
+  const historyStatus = checkHistoryStatus();
+
+  if (historyStatus.totalRecords === 0) {
+    console.log('   ⚫ No daily data found. Fetching full 30-day history...');
+  } else if (historyStatus.missingDates.length === 0) {
+    console.log(`   🟢 Complete: ${historyStatus.totalRecords.toLocaleString()} records available`);
+  } else {
+    console.log(`   🟡 Missing ${historyStatus.missingDates.length} day(s): ${historyStatus.missingDates.slice(0, 3).join(', ')}${historyStatus.missingDates.length > 3 ? '...' : ''}`);
+  }
+
+  if (historyStatus.needsFetch) {
+    const historyResult = await fetchMissingHistory();
+    if (!historyResult.skipped) {
+      console.log(`   ✅ Synced ${historyResult.recordsAdded.toLocaleString()} daily records\n`);
+    }
+  } else {
+    console.log('');
+  }
+
+  // Check and fetch hourly data (24 hours)
+  console.log('⏰ Checking hourly price history (24h, time-scale=1)...');
+  const hourlyStatus = checkHourlyHistoryStatus();
+
+  if (hourlyStatus.totalRecords === 0) {
+    console.log('   ⚫ No hourly data found. Fetching last 24 hours...');
+  } else if (!hourlyStatus.needsFetch) {
+    console.log(`   🟢 Fresh: ${hourlyStatus.totalRecords.toLocaleString()} records (${hourlyStatus.uniqueItems.toLocaleString()} items), ${hourlyStatus.hoursOld || 0}h old`);
+  } else {
+    console.log(`   🟡 Stale: Data is ${hourlyStatus.hoursOld}h old. Refreshing...`);
+  }
+
+  if (hourlyStatus.needsFetch) {
+    const hourlyResult = await fetchHourlyHistory();
+    if (!hourlyResult.skipped) {
+      console.log(`   ✅ Synced ${hourlyResult.recordsAdded.toLocaleString()} hourly records\n`);
+    }
+  } else {
+    console.log('');
+  }
+
+  console.log('────────────────────────────────────────────────────────────────────────\n');
+}
+
 async function main(): Promise<void> {
   const region = (process.env.ALBION_REGION as Region) || 'europe';
   const collector = new NatsCollector(region);
@@ -412,6 +578,11 @@ async function main(): Promise<void> {
   process.on('SIGTERM', shutdown);
 
   try {
+    // Fetch historical and hourly data first
+    await fetchPriceHistory();
+
+    // Then start the real-time collector
+    console.log('🚀 Starting real-time order book collector...\n');
     await collector.start();
 
     // Keep running
