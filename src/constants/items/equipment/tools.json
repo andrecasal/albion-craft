@@ -1,354 +1,354 @@
 [
-  {
-    "id": "T1_2H_TOOL_PICK",
-    "name": "T1_2H_TOOL_PICK"
-  },
-  {
-    "id": "T2_2H_TOOL_PICK",
-    "name": "T2_2H_TOOL_PICK"
-  },
-  {
-    "id": "T3_2H_TOOL_PICK",
-    "name": "T3_2H_TOOL_PICK"
-  },
-  {
-    "id": "T4_2H_TOOL_PICK",
-    "name": "T4_2H_TOOL_PICK"
-  },
-  {
-    "id": "T5_2H_TOOL_PICK",
-    "name": "T5_2H_TOOL_PICK"
-  },
-  {
-    "id": "T6_2H_TOOL_PICK",
-    "name": "T6_2H_TOOL_PICK"
-  },
-  {
-    "id": "T7_2H_TOOL_PICK",
-    "name": "T7_2H_TOOL_PICK"
-  },
-  {
-    "id": "T8_2H_TOOL_PICK",
-    "name": "T8_2H_TOOL_PICK"
-  },
-  {
-    "id": "T4_2H_TOOL_PICK_AVALON",
-    "name": "T4_2H_TOOL_PICK_AVALON"
-  },
-  {
-    "id": "T5_2H_TOOL_PICK_AVALON",
-    "name": "T5_2H_TOOL_PICK_AVALON"
-  },
-  {
-    "id": "T6_2H_TOOL_PICK_AVALON",
-    "name": "T6_2H_TOOL_PICK_AVALON"
-  },
-  {
-    "id": "T7_2H_TOOL_PICK_AVALON",
-    "name": "T7_2H_TOOL_PICK_AVALON"
-  },
-  {
-    "id": "T8_2H_TOOL_PICK_AVALON",
-    "name": "T8_2H_TOOL_PICK_AVALON"
-  },
-  {
-    "id": "T1_2H_TOOL_HAMMER",
-    "name": "T1_2H_TOOL_HAMMER"
-  },
-  {
-    "id": "T2_2H_TOOL_HAMMER",
-    "name": "T2_2H_TOOL_HAMMER"
-  },
-  {
-    "id": "T3_2H_TOOL_HAMMER",
-    "name": "T3_2H_TOOL_HAMMER"
-  },
-  {
-    "id": "T4_2H_TOOL_HAMMER",
-    "name": "T4_2H_TOOL_HAMMER"
-  },
-  {
-    "id": "T5_2H_TOOL_HAMMER",
-    "name": "T5_2H_TOOL_HAMMER"
-  },
-  {
-    "id": "T6_2H_TOOL_HAMMER",
-    "name": "T6_2H_TOOL_HAMMER"
-  },
-  {
-    "id": "T7_2H_TOOL_HAMMER",
-    "name": "T7_2H_TOOL_HAMMER"
-  },
-  {
-    "id": "T8_2H_TOOL_HAMMER",
-    "name": "T8_2H_TOOL_HAMMER"
-  },
-  {
-    "id": "T4_2H_TOOL_HAMMER_AVALON",
-    "name": "T4_2H_TOOL_HAMMER_AVALON"
-  },
-  {
-    "id": "T5_2H_TOOL_HAMMER_AVALON",
-    "name": "T5_2H_TOOL_HAMMER_AVALON"
-  },
-  {
-    "id": "T6_2H_TOOL_HAMMER_AVALON",
-    "name": "T6_2H_TOOL_HAMMER_AVALON"
-  },
-  {
-    "id": "T7_2H_TOOL_HAMMER_AVALON",
-    "name": "T7_2H_TOOL_HAMMER_AVALON"
-  },
-  {
-    "id": "T8_2H_TOOL_HAMMER_AVALON",
-    "name": "T8_2H_TOOL_HAMMER_AVALON"
-  },
-  {
-    "id": "T1_2H_TOOL_AXE",
-    "name": "T1_2H_TOOL_AXE"
-  },
-  {
-    "id": "T2_2H_TOOL_AXE",
-    "name": "T2_2H_TOOL_AXE"
-  },
-  {
-    "id": "T3_2H_TOOL_AXE",
-    "name": "T3_2H_TOOL_AXE"
-  },
-  {
-    "id": "T4_2H_TOOL_AXE",
-    "name": "T4_2H_TOOL_AXE"
-  },
-  {
-    "id": "T5_2H_TOOL_AXE",
-    "name": "T5_2H_TOOL_AXE"
-  },
-  {
-    "id": "T6_2H_TOOL_AXE",
-    "name": "T6_2H_TOOL_AXE"
-  },
-  {
-    "id": "T7_2H_TOOL_AXE",
-    "name": "T7_2H_TOOL_AXE"
-  },
-  {
-    "id": "T8_2H_TOOL_AXE",
-    "name": "T8_2H_TOOL_AXE"
-  },
-  {
-    "id": "T4_2H_TOOL_AXE_AVALON",
-    "name": "T4_2H_TOOL_AXE_AVALON"
-  },
-  {
-    "id": "T5_2H_TOOL_AXE_AVALON",
-    "name": "T5_2H_TOOL_AXE_AVALON"
-  },
-  {
-    "id": "T6_2H_TOOL_AXE_AVALON",
-    "name": "T6_2H_TOOL_AXE_AVALON"
-  },
-  {
-    "id": "T7_2H_TOOL_AXE_AVALON",
-    "name": "T7_2H_TOOL_AXE_AVALON"
-  },
-  {
-    "id": "T8_2H_TOOL_AXE_AVALON",
-    "name": "T8_2H_TOOL_AXE_AVALON"
-  },
-  {
-    "id": "T1_2H_TOOL_SICKLE",
-    "name": "T1_2H_TOOL_SICKLE"
-  },
-  {
-    "id": "T2_2H_TOOL_SICKLE",
-    "name": "T2_2H_TOOL_SICKLE"
-  },
-  {
-    "id": "T3_2H_TOOL_SICKLE",
-    "name": "T3_2H_TOOL_SICKLE"
-  },
-  {
-    "id": "T4_2H_TOOL_SICKLE",
-    "name": "T4_2H_TOOL_SICKLE"
-  },
-  {
-    "id": "T5_2H_TOOL_SICKLE",
-    "name": "T5_2H_TOOL_SICKLE"
-  },
-  {
-    "id": "T6_2H_TOOL_SICKLE",
-    "name": "T6_2H_TOOL_SICKLE"
-  },
-  {
-    "id": "T7_2H_TOOL_SICKLE",
-    "name": "T7_2H_TOOL_SICKLE"
-  },
-  {
-    "id": "T8_2H_TOOL_SICKLE",
-    "name": "T8_2H_TOOL_SICKLE"
-  },
-  {
-    "id": "T4_2H_TOOL_SICKLE_AVALON",
-    "name": "T4_2H_TOOL_SICKLE_AVALON"
-  },
-  {
-    "id": "T5_2H_TOOL_SICKLE_AVALON",
-    "name": "T5_2H_TOOL_SICKLE_AVALON"
-  },
-  {
-    "id": "T6_2H_TOOL_SICKLE_AVALON",
-    "name": "T6_2H_TOOL_SICKLE_AVALON"
-  },
-  {
-    "id": "T7_2H_TOOL_SICKLE_AVALON",
-    "name": "T7_2H_TOOL_SICKLE_AVALON"
-  },
-  {
-    "id": "T8_2H_TOOL_SICKLE_AVALON",
-    "name": "T8_2H_TOOL_SICKLE_AVALON"
-  },
-  {
-    "id": "T1_2H_TOOL_KNIFE",
-    "name": "T1_2H_TOOL_KNIFE"
-  },
-  {
-    "id": "T2_2H_TOOL_KNIFE",
-    "name": "T2_2H_TOOL_KNIFE"
-  },
-  {
-    "id": "T3_2H_TOOL_KNIFE",
-    "name": "T3_2H_TOOL_KNIFE"
-  },
-  {
-    "id": "T4_2H_TOOL_KNIFE",
-    "name": "T4_2H_TOOL_KNIFE"
-  },
-  {
-    "id": "T5_2H_TOOL_KNIFE",
-    "name": "T5_2H_TOOL_KNIFE"
-  },
-  {
-    "id": "T6_2H_TOOL_KNIFE",
-    "name": "T6_2H_TOOL_KNIFE"
-  },
-  {
-    "id": "T7_2H_TOOL_KNIFE",
-    "name": "T7_2H_TOOL_KNIFE"
-  },
-  {
-    "id": "T8_2H_TOOL_KNIFE",
-    "name": "T8_2H_TOOL_KNIFE"
-  },
-  {
-    "id": "T4_2H_TOOL_KNIFE_AVALON",
-    "name": "T4_2H_TOOL_KNIFE_AVALON"
-  },
-  {
-    "id": "T5_2H_TOOL_KNIFE_AVALON",
-    "name": "T5_2H_TOOL_KNIFE_AVALON"
-  },
-  {
-    "id": "T6_2H_TOOL_KNIFE_AVALON",
-    "name": "T6_2H_TOOL_KNIFE_AVALON"
-  },
-  {
-    "id": "T7_2H_TOOL_KNIFE_AVALON",
-    "name": "T7_2H_TOOL_KNIFE_AVALON"
-  },
-  {
-    "id": "T8_2H_TOOL_KNIFE_AVALON",
-    "name": "T8_2H_TOOL_KNIFE_AVALON"
-  },
-  {
-    "id": "T2_2H_TOOL_SIEGEHAMMER",
-    "name": "T2_2H_TOOL_SIEGEHAMMER"
-  },
-  {
-    "id": "T3_2H_TOOL_SIEGEHAMMER",
-    "name": "T3_2H_TOOL_SIEGEHAMMER"
-  },
-  {
-    "id": "T4_2H_TOOL_SIEGEHAMMER",
-    "name": "T4_2H_TOOL_SIEGEHAMMER"
-  },
-  {
-    "id": "T5_2H_TOOL_SIEGEHAMMER",
-    "name": "T5_2H_TOOL_SIEGEHAMMER"
-  },
-  {
-    "id": "T6_2H_TOOL_SIEGEHAMMER",
-    "name": "T6_2H_TOOL_SIEGEHAMMER"
-  },
-  {
-    "id": "T7_2H_TOOL_SIEGEHAMMER",
-    "name": "T7_2H_TOOL_SIEGEHAMMER"
-  },
-  {
-    "id": "T8_2H_TOOL_SIEGEHAMMER",
-    "name": "T8_2H_TOOL_SIEGEHAMMER"
-  },
-  {
-    "id": "T4_2H_TOOL_SIEGEHAMMER_AVALON",
-    "name": "T4_2H_TOOL_SIEGEHAMMER_AVALON"
-  },
-  {
-    "id": "T5_2H_TOOL_SIEGEHAMMER_AVALON",
-    "name": "T5_2H_TOOL_SIEGEHAMMER_AVALON"
-  },
-  {
-    "id": "T6_2H_TOOL_SIEGEHAMMER_AVALON",
-    "name": "T6_2H_TOOL_SIEGEHAMMER_AVALON"
-  },
-  {
-    "id": "T7_2H_TOOL_SIEGEHAMMER_AVALON",
-    "name": "T7_2H_TOOL_SIEGEHAMMER_AVALON"
-  },
-  {
-    "id": "T8_2H_TOOL_SIEGEHAMMER_AVALON",
-    "name": "T8_2H_TOOL_SIEGEHAMMER_AVALON"
-  },
-  {
-    "id": "T3_2H_TOOL_FISHINGROD",
-    "name": "T3_2H_TOOL_FISHINGROD"
-  },
-  {
-    "id": "T4_2H_TOOL_FISHINGROD",
-    "name": "T4_2H_TOOL_FISHINGROD"
-  },
-  {
-    "id": "T5_2H_TOOL_FISHINGROD",
-    "name": "T5_2H_TOOL_FISHINGROD"
-  },
-  {
-    "id": "T6_2H_TOOL_FISHINGROD",
-    "name": "T6_2H_TOOL_FISHINGROD"
-  },
-  {
-    "id": "T7_2H_TOOL_FISHINGROD",
-    "name": "T7_2H_TOOL_FISHINGROD"
-  },
-  {
-    "id": "T8_2H_TOOL_FISHINGROD",
-    "name": "T8_2H_TOOL_FISHINGROD"
-  },
-  {
-    "id": "T4_2H_TOOL_FISHINGROD_AVALON",
-    "name": "T4_2H_TOOL_FISHINGROD_AVALON"
-  },
-  {
-    "id": "T5_2H_TOOL_FISHINGROD_AVALON",
-    "name": "T5_2H_TOOL_FISHINGROD_AVALON"
-  },
-  {
-    "id": "T6_2H_TOOL_FISHINGROD_AVALON",
-    "name": "T6_2H_TOOL_FISHINGROD_AVALON"
-  },
-  {
-    "id": "T7_2H_TOOL_FISHINGROD_AVALON",
-    "name": "T7_2H_TOOL_FISHINGROD_AVALON"
-  },
-  {
-    "id": "T8_2H_TOOL_FISHINGROD_AVALON",
-    "name": "T8_2H_TOOL_FISHINGROD_AVALON"
-  }
+	{
+		"id": "T1_2H_TOOL_PICK",
+		"name": "Beginner's Pickaxe"
+	},
+	{
+		"id": "T2_2H_TOOL_PICK",
+		"name": "Novice's Pickaxe"
+	},
+	{
+		"id": "T3_2H_TOOL_PICK",
+		"name": "Journeyman's Pickaxe"
+	},
+	{
+		"id": "T4_2H_TOOL_PICK",
+		"name": "Adept's Pickaxe"
+	},
+	{
+		"id": "T5_2H_TOOL_PICK",
+		"name": "Expert's Pickaxe"
+	},
+	{
+		"id": "T6_2H_TOOL_PICK",
+		"name": "Master's Pickaxe"
+	},
+	{
+		"id": "T7_2H_TOOL_PICK",
+		"name": "Grandmaster's Pickaxe"
+	},
+	{
+		"id": "T8_2H_TOOL_PICK",
+		"name": "Elder's Pickaxe"
+	},
+	{
+		"id": "T4_2H_TOOL_PICK_AVALON",
+		"name": "Adept's Avalonian Pickaxe"
+	},
+	{
+		"id": "T5_2H_TOOL_PICK_AVALON",
+		"name": "Expert's Avalonian Pickaxe"
+	},
+	{
+		"id": "T6_2H_TOOL_PICK_AVALON",
+		"name": "Master's Avalonian Pickaxe"
+	},
+	{
+		"id": "T7_2H_TOOL_PICK_AVALON",
+		"name": "Grandmaster's Avalonian Pickaxe"
+	},
+	{
+		"id": "T8_2H_TOOL_PICK_AVALON",
+		"name": "Elder's Avalonian Pickaxe"
+	},
+	{
+		"id": "T1_2H_TOOL_HAMMER",
+		"name": "Beginner's Stone Hammer"
+	},
+	{
+		"id": "T2_2H_TOOL_HAMMER",
+		"name": "Novice's Stone Hammer"
+	},
+	{
+		"id": "T3_2H_TOOL_HAMMER",
+		"name": "Journeyman's Stone Hammer"
+	},
+	{
+		"id": "T4_2H_TOOL_HAMMER",
+		"name": "Adept's Stone Hammer"
+	},
+	{
+		"id": "T5_2H_TOOL_HAMMER",
+		"name": "Expert's Stone Hammer"
+	},
+	{
+		"id": "T6_2H_TOOL_HAMMER",
+		"name": "Master's Stone Hammer"
+	},
+	{
+		"id": "T7_2H_TOOL_HAMMER",
+		"name": "Grandmaster's Stone Hammer"
+	},
+	{
+		"id": "T8_2H_TOOL_HAMMER",
+		"name": "Elder's Stone Hammer"
+	},
+	{
+		"id": "T4_2H_TOOL_HAMMER_AVALON",
+		"name": "Adept's Avalonian Stone Hammer"
+	},
+	{
+		"id": "T5_2H_TOOL_HAMMER_AVALON",
+		"name": "Expert's Avalonian Stone Hammer"
+	},
+	{
+		"id": "T6_2H_TOOL_HAMMER_AVALON",
+		"name": "Master's Avalonian Stone Hammer"
+	},
+	{
+		"id": "T7_2H_TOOL_HAMMER_AVALON",
+		"name": "Grandmaster's Avalonian Stone Hammer"
+	},
+	{
+		"id": "T8_2H_TOOL_HAMMER_AVALON",
+		"name": "Elder's Avalonian Stone Hammer"
+	},
+	{
+		"id": "T1_2H_TOOL_AXE",
+		"name": "Beginner's Axe"
+	},
+	{
+		"id": "T2_2H_TOOL_AXE",
+		"name": "Novice's Axe"
+	},
+	{
+		"id": "T3_2H_TOOL_AXE",
+		"name": "Journeyman's Axe"
+	},
+	{
+		"id": "T4_2H_TOOL_AXE",
+		"name": "Adept's Axe"
+	},
+	{
+		"id": "T5_2H_TOOL_AXE",
+		"name": "Expert's Axe"
+	},
+	{
+		"id": "T6_2H_TOOL_AXE",
+		"name": "Master's Axe"
+	},
+	{
+		"id": "T7_2H_TOOL_AXE",
+		"name": "Grandmaster's Axe"
+	},
+	{
+		"id": "T8_2H_TOOL_AXE",
+		"name": "Elder's Axe"
+	},
+	{
+		"id": "T4_2H_TOOL_AXE_AVALON",
+		"name": "Adept's Avalonian Axe"
+	},
+	{
+		"id": "T5_2H_TOOL_AXE_AVALON",
+		"name": "Expert's Avalonian Axe"
+	},
+	{
+		"id": "T6_2H_TOOL_AXE_AVALON",
+		"name": "Master's Avalonian Axe"
+	},
+	{
+		"id": "T7_2H_TOOL_AXE_AVALON",
+		"name": "Grandmaster's Avalonian Axe"
+	},
+	{
+		"id": "T8_2H_TOOL_AXE_AVALON",
+		"name": "Elder's Avalonian Axe"
+	},
+	{
+		"id": "T1_2H_TOOL_SICKLE",
+		"name": "Beginner's Sickle"
+	},
+	{
+		"id": "T2_2H_TOOL_SICKLE",
+		"name": "Novice's Sickle"
+	},
+	{
+		"id": "T3_2H_TOOL_SICKLE",
+		"name": "Journeyman's Sickle"
+	},
+	{
+		"id": "T4_2H_TOOL_SICKLE",
+		"name": "Adept's Sickle"
+	},
+	{
+		"id": "T5_2H_TOOL_SICKLE",
+		"name": "Expert's Sickle"
+	},
+	{
+		"id": "T6_2H_TOOL_SICKLE",
+		"name": "Master's Sickle"
+	},
+	{
+		"id": "T7_2H_TOOL_SICKLE",
+		"name": "Grandmaster's Sickle"
+	},
+	{
+		"id": "T8_2H_TOOL_SICKLE",
+		"name": "Elder's Sickle"
+	},
+	{
+		"id": "T4_2H_TOOL_SICKLE_AVALON",
+		"name": "Adept's Avalonian Sickle"
+	},
+	{
+		"id": "T5_2H_TOOL_SICKLE_AVALON",
+		"name": "Expert's Avalonian Sickle"
+	},
+	{
+		"id": "T6_2H_TOOL_SICKLE_AVALON",
+		"name": "Master's Avalonian Sickle"
+	},
+	{
+		"id": "T7_2H_TOOL_SICKLE_AVALON",
+		"name": "Grandmaster's Avalonian Sickle"
+	},
+	{
+		"id": "T8_2H_TOOL_SICKLE_AVALON",
+		"name": "Elder's Avalonian Sickle"
+	},
+	{
+		"id": "T1_2H_TOOL_KNIFE",
+		"name": "Beginner's Skinning Knife"
+	},
+	{
+		"id": "T2_2H_TOOL_KNIFE",
+		"name": "Novice's Skinning Knife"
+	},
+	{
+		"id": "T3_2H_TOOL_KNIFE",
+		"name": "Journeyman's Skinning Knife"
+	},
+	{
+		"id": "T4_2H_TOOL_KNIFE",
+		"name": "Adept's Skinning Knife"
+	},
+	{
+		"id": "T5_2H_TOOL_KNIFE",
+		"name": "Expert's Skinning Knife"
+	},
+	{
+		"id": "T6_2H_TOOL_KNIFE",
+		"name": "Master's Skinning Knife"
+	},
+	{
+		"id": "T7_2H_TOOL_KNIFE",
+		"name": "Grandmaster's Skinning Knife"
+	},
+	{
+		"id": "T8_2H_TOOL_KNIFE",
+		"name": "Elder's Skinning Knife"
+	},
+	{
+		"id": "T4_2H_TOOL_KNIFE_AVALON",
+		"name": "Adept's Avalonian Skinning Knife"
+	},
+	{
+		"id": "T5_2H_TOOL_KNIFE_AVALON",
+		"name": "Expert's Avalonian Skinning Knife"
+	},
+	{
+		"id": "T6_2H_TOOL_KNIFE_AVALON",
+		"name": "Master's Avalonian Skinning Knife"
+	},
+	{
+		"id": "T7_2H_TOOL_KNIFE_AVALON",
+		"name": "Grandmaster's Avalonian Skinning Knife"
+	},
+	{
+		"id": "T8_2H_TOOL_KNIFE_AVALON",
+		"name": "Elder's Avalonian Skinning Knife"
+	},
+	{
+		"id": "T2_2H_TOOL_SIEGEHAMMER",
+		"name": "Novice's Siege Hammer"
+	},
+	{
+		"id": "T3_2H_TOOL_SIEGEHAMMER",
+		"name": "Journeyman's Siege Hammer"
+	},
+	{
+		"id": "T4_2H_TOOL_SIEGEHAMMER",
+		"name": "Adept's Siege Hammer"
+	},
+	{
+		"id": "T5_2H_TOOL_SIEGEHAMMER",
+		"name": "Expert's Siege Hammer"
+	},
+	{
+		"id": "T6_2H_TOOL_SIEGEHAMMER",
+		"name": "Master's Siege Hammer"
+	},
+	{
+		"id": "T7_2H_TOOL_SIEGEHAMMER",
+		"name": "Grandmaster's Siege Hammer"
+	},
+	{
+		"id": "T8_2H_TOOL_SIEGEHAMMER",
+		"name": "Elder's Siege Hammer"
+	},
+	{
+		"id": "T4_2H_TOOL_SIEGEHAMMER_AVALON",
+		"name": "Adept's Avalonian Siege Hammer"
+	},
+	{
+		"id": "T5_2H_TOOL_SIEGEHAMMER_AVALON",
+		"name": "Expert's Avalonian Siege Hammer"
+	},
+	{
+		"id": "T6_2H_TOOL_SIEGEHAMMER_AVALON",
+		"name": "Master's Avalonian Siege Hammer"
+	},
+	{
+		"id": "T7_2H_TOOL_SIEGEHAMMER_AVALON",
+		"name": "Grandmaster's Avalonian Siege Hammer"
+	},
+	{
+		"id": "T8_2H_TOOL_SIEGEHAMMER_AVALON",
+		"name": "Elder's Avalonian Siege Hammer"
+	},
+	{
+		"id": "T3_2H_TOOL_FISHINGROD",
+		"name": "Journeyman's Fishing Rod"
+	},
+	{
+		"id": "T4_2H_TOOL_FISHINGROD",
+		"name": "Adept's Fishing Rod"
+	},
+	{
+		"id": "T5_2H_TOOL_FISHINGROD",
+		"name": "Expert's Fishing Rod"
+	},
+	{
+		"id": "T6_2H_TOOL_FISHINGROD",
+		"name": "Master's Fishing Rod"
+	},
+	{
+		"id": "T7_2H_TOOL_FISHINGROD",
+		"name": "Grandmaster's Fishing Rod"
+	},
+	{
+		"id": "T8_2H_TOOL_FISHINGROD",
+		"name": "Elder's Fishing Rod"
+	},
+	{
+		"id": "T4_2H_TOOL_FISHINGROD_AVALON",
+		"name": "Adept's Avalonian Fishing Rod"
+	},
+	{
+		"id": "T5_2H_TOOL_FISHINGROD_AVALON",
+		"name": "Expert's Avalonian Fishing Rod"
+	},
+	{
+		"id": "T6_2H_TOOL_FISHINGROD_AVALON",
+		"name": "Master's Avalonian Fishing Rod"
+	},
+	{
+		"id": "T7_2H_TOOL_FISHINGROD_AVALON",
+		"name": "Grandmaster's Avalonian Fishing Rod"
+	},
+	{
+		"id": "T8_2H_TOOL_FISHINGROD_AVALON",
+		"name": "Elder's Avalonian Fishing Rod"
+	}
 ]

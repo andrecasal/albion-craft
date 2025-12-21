@@ -1,646 +1,646 @@
 [
-  {
-    "id": "T2_POTION_HEAL",
-    "name": "T2_POTION_HEAL"
-  },
-  {
-    "id": "T2_POTION_HEAL@1",
-    "name": "T2_POTION_HEAL"
-  },
-  {
-    "id": "T2_POTION_HEAL@2",
-    "name": "T2_POTION_HEAL"
-  },
-  {
-    "id": "T2_POTION_HEAL@3",
-    "name": "T2_POTION_HEAL"
-  },
-  {
-    "id": "T4_POTION_HEAL",
-    "name": "T4_POTION_HEAL"
-  },
-  {
-    "id": "T4_POTION_HEAL@1",
-    "name": "T4_POTION_HEAL"
-  },
-  {
-    "id": "T4_POTION_HEAL@2",
-    "name": "T4_POTION_HEAL"
-  },
-  {
-    "id": "T4_POTION_HEAL@3",
-    "name": "T4_POTION_HEAL"
-  },
-  {
-    "id": "T6_POTION_HEAL",
-    "name": "T6_POTION_HEAL"
-  },
-  {
-    "id": "T6_POTION_HEAL@1",
-    "name": "T6_POTION_HEAL"
-  },
-  {
-    "id": "T6_POTION_HEAL@2",
-    "name": "T6_POTION_HEAL"
-  },
-  {
-    "id": "T6_POTION_HEAL@3",
-    "name": "T6_POTION_HEAL"
-  },
-  {
-    "id": "T2_POTION_ENERGY",
-    "name": "T2_POTION_ENERGY"
-  },
-  {
-    "id": "T2_POTION_ENERGY@1",
-    "name": "T2_POTION_ENERGY"
-  },
-  {
-    "id": "T2_POTION_ENERGY@2",
-    "name": "T2_POTION_ENERGY"
-  },
-  {
-    "id": "T2_POTION_ENERGY@3",
-    "name": "T2_POTION_ENERGY"
-  },
-  {
-    "id": "T4_POTION_ENERGY",
-    "name": "T4_POTION_ENERGY"
-  },
-  {
-    "id": "T4_POTION_ENERGY@1",
-    "name": "T4_POTION_ENERGY"
-  },
-  {
-    "id": "T4_POTION_ENERGY@2",
-    "name": "T4_POTION_ENERGY"
-  },
-  {
-    "id": "T4_POTION_ENERGY@3",
-    "name": "T4_POTION_ENERGY"
-  },
-  {
-    "id": "T6_POTION_ENERGY",
-    "name": "T6_POTION_ENERGY"
-  },
-  {
-    "id": "T6_POTION_ENERGY@1",
-    "name": "T6_POTION_ENERGY"
-  },
-  {
-    "id": "T6_POTION_ENERGY@2",
-    "name": "T6_POTION_ENERGY"
-  },
-  {
-    "id": "T6_POTION_ENERGY@3",
-    "name": "T6_POTION_ENERGY"
-  },
-  {
-    "id": "T3_POTION_REVIVE",
-    "name": "T3_POTION_REVIVE"
-  },
-  {
-    "id": "T3_POTION_REVIVE@1",
-    "name": "T3_POTION_REVIVE"
-  },
-  {
-    "id": "T3_POTION_REVIVE@2",
-    "name": "T3_POTION_REVIVE"
-  },
-  {
-    "id": "T3_POTION_REVIVE@3",
-    "name": "T3_POTION_REVIVE"
-  },
-  {
-    "id": "T5_POTION_REVIVE",
-    "name": "T5_POTION_REVIVE"
-  },
-  {
-    "id": "T5_POTION_REVIVE@1",
-    "name": "T5_POTION_REVIVE"
-  },
-  {
-    "id": "T5_POTION_REVIVE@2",
-    "name": "T5_POTION_REVIVE"
-  },
-  {
-    "id": "T5_POTION_REVIVE@3",
-    "name": "T5_POTION_REVIVE"
-  },
-  {
-    "id": "T7_POTION_REVIVE",
-    "name": "T7_POTION_REVIVE"
-  },
-  {
-    "id": "T7_POTION_REVIVE@1",
-    "name": "T7_POTION_REVIVE"
-  },
-  {
-    "id": "T7_POTION_REVIVE@2",
-    "name": "T7_POTION_REVIVE"
-  },
-  {
-    "id": "T7_POTION_REVIVE@3",
-    "name": "T7_POTION_REVIVE"
-  },
-  {
-    "id": "T3_POTION_STONESKIN",
-    "name": "T3_POTION_STONESKIN"
-  },
-  {
-    "id": "T3_POTION_STONESKIN@1",
-    "name": "T3_POTION_STONESKIN"
-  },
-  {
-    "id": "T3_POTION_STONESKIN@2",
-    "name": "T3_POTION_STONESKIN"
-  },
-  {
-    "id": "T3_POTION_STONESKIN@3",
-    "name": "T3_POTION_STONESKIN"
-  },
-  {
-    "id": "T5_POTION_STONESKIN",
-    "name": "T5_POTION_STONESKIN"
-  },
-  {
-    "id": "T5_POTION_STONESKIN@1",
-    "name": "T5_POTION_STONESKIN"
-  },
-  {
-    "id": "T5_POTION_STONESKIN@2",
-    "name": "T5_POTION_STONESKIN"
-  },
-  {
-    "id": "T5_POTION_STONESKIN@3",
-    "name": "T5_POTION_STONESKIN"
-  },
-  {
-    "id": "T7_POTION_STONESKIN",
-    "name": "T7_POTION_STONESKIN"
-  },
-  {
-    "id": "T7_POTION_STONESKIN@1",
-    "name": "T7_POTION_STONESKIN"
-  },
-  {
-    "id": "T7_POTION_STONESKIN@2",
-    "name": "T7_POTION_STONESKIN"
-  },
-  {
-    "id": "T7_POTION_STONESKIN@3",
-    "name": "T7_POTION_STONESKIN"
-  },
-  {
-    "id": "T3_POTION_SLOWFIELD",
-    "name": "T3_POTION_SLOWFIELD"
-  },
-  {
-    "id": "T3_POTION_SLOWFIELD@1",
-    "name": "T3_POTION_SLOWFIELD"
-  },
-  {
-    "id": "T3_POTION_SLOWFIELD@2",
-    "name": "T3_POTION_SLOWFIELD"
-  },
-  {
-    "id": "T3_POTION_SLOWFIELD@3",
-    "name": "T3_POTION_SLOWFIELD"
-  },
-  {
-    "id": "T5_POTION_SLOWFIELD",
-    "name": "T5_POTION_SLOWFIELD"
-  },
-  {
-    "id": "T5_POTION_SLOWFIELD@1",
-    "name": "T5_POTION_SLOWFIELD"
-  },
-  {
-    "id": "T5_POTION_SLOWFIELD@2",
-    "name": "T5_POTION_SLOWFIELD"
-  },
-  {
-    "id": "T5_POTION_SLOWFIELD@3",
-    "name": "T5_POTION_SLOWFIELD"
-  },
-  {
-    "id": "T7_POTION_SLOWFIELD",
-    "name": "T7_POTION_SLOWFIELD"
-  },
-  {
-    "id": "T7_POTION_SLOWFIELD@1",
-    "name": "T7_POTION_SLOWFIELD"
-  },
-  {
-    "id": "T7_POTION_SLOWFIELD@2",
-    "name": "T7_POTION_SLOWFIELD"
-  },
-  {
-    "id": "T7_POTION_SLOWFIELD@3",
-    "name": "T7_POTION_SLOWFIELD"
-  },
-  {
-    "id": "T4_POTION_COOLDOWN",
-    "name": "T4_POTION_COOLDOWN"
-  },
-  {
-    "id": "T4_POTION_COOLDOWN@1",
-    "name": "T4_POTION_COOLDOWN"
-  },
-  {
-    "id": "T4_POTION_COOLDOWN@2",
-    "name": "T4_POTION_COOLDOWN"
-  },
-  {
-    "id": "T4_POTION_COOLDOWN@3",
-    "name": "T4_POTION_COOLDOWN"
-  },
-  {
-    "id": "T6_POTION_COOLDOWN",
-    "name": "T6_POTION_COOLDOWN"
-  },
-  {
-    "id": "T6_POTION_COOLDOWN@1",
-    "name": "T6_POTION_COOLDOWN"
-  },
-  {
-    "id": "T6_POTION_COOLDOWN@2",
-    "name": "T6_POTION_COOLDOWN"
-  },
-  {
-    "id": "T6_POTION_COOLDOWN@3",
-    "name": "T6_POTION_COOLDOWN"
-  },
-  {
-    "id": "T8_POTION_COOLDOWN",
-    "name": "T8_POTION_COOLDOWN"
-  },
-  {
-    "id": "T8_POTION_COOLDOWN@1",
-    "name": "T8_POTION_COOLDOWN"
-  },
-  {
-    "id": "T8_POTION_COOLDOWN@2",
-    "name": "T8_POTION_COOLDOWN"
-  },
-  {
-    "id": "T8_POTION_COOLDOWN@3",
-    "name": "T8_POTION_COOLDOWN"
-  },
-  {
-    "id": "T8_POTION_CLEANSE",
-    "name": "T8_POTION_CLEANSE"
-  },
-  {
-    "id": "T8_POTION_CLEANSE@1",
-    "name": "T8_POTION_CLEANSE"
-  },
-  {
-    "id": "T8_POTION_CLEANSE@2",
-    "name": "T8_POTION_CLEANSE"
-  },
-  {
-    "id": "T8_POTION_CLEANSE@3",
-    "name": "T8_POTION_CLEANSE"
-  },
-  {
-    "id": "T3_POTION_MOB_RESET",
-    "name": "T3_POTION_MOB_RESET"
-  },
-  {
-    "id": "T3_POTION_MOB_RESET@1",
-    "name": "T3_POTION_MOB_RESET"
-  },
-  {
-    "id": "T3_POTION_MOB_RESET@2",
-    "name": "T3_POTION_MOB_RESET"
-  },
-  {
-    "id": "T3_POTION_MOB_RESET@3",
-    "name": "T3_POTION_MOB_RESET"
-  },
-  {
-    "id": "T5_POTION_MOB_RESET",
-    "name": "T5_POTION_MOB_RESET"
-  },
-  {
-    "id": "T5_POTION_MOB_RESET@1",
-    "name": "T5_POTION_MOB_RESET"
-  },
-  {
-    "id": "T5_POTION_MOB_RESET@2",
-    "name": "T5_POTION_MOB_RESET"
-  },
-  {
-    "id": "T5_POTION_MOB_RESET@3",
-    "name": "T5_POTION_MOB_RESET"
-  },
-  {
-    "id": "T7_POTION_MOB_RESET",
-    "name": "T7_POTION_MOB_RESET"
-  },
-  {
-    "id": "T7_POTION_MOB_RESET@1",
-    "name": "T7_POTION_MOB_RESET"
-  },
-  {
-    "id": "T7_POTION_MOB_RESET@2",
-    "name": "T7_POTION_MOB_RESET"
-  },
-  {
-    "id": "T7_POTION_MOB_RESET@3",
-    "name": "T7_POTION_MOB_RESET"
-  },
-  {
-    "id": "T3_POTION_CLEANSE2",
-    "name": "T3_POTION_CLEANSE2"
-  },
-  {
-    "id": "T3_POTION_CLEANSE2@1",
-    "name": "T3_POTION_CLEANSE2"
-  },
-  {
-    "id": "T3_POTION_CLEANSE2@2",
-    "name": "T3_POTION_CLEANSE2"
-  },
-  {
-    "id": "T3_POTION_CLEANSE2@3",
-    "name": "T3_POTION_CLEANSE2"
-  },
-  {
-    "id": "T5_POTION_CLEANSE2",
-    "name": "T5_POTION_CLEANSE2"
-  },
-  {
-    "id": "T5_POTION_CLEANSE2@1",
-    "name": "T5_POTION_CLEANSE2"
-  },
-  {
-    "id": "T5_POTION_CLEANSE2@2",
-    "name": "T5_POTION_CLEANSE2"
-  },
-  {
-    "id": "T5_POTION_CLEANSE2@3",
-    "name": "T5_POTION_CLEANSE2"
-  },
-  {
-    "id": "T7_POTION_CLEANSE2",
-    "name": "T7_POTION_CLEANSE2"
-  },
-  {
-    "id": "T7_POTION_CLEANSE2@1",
-    "name": "T7_POTION_CLEANSE2"
-  },
-  {
-    "id": "T7_POTION_CLEANSE2@2",
-    "name": "T7_POTION_CLEANSE2"
-  },
-  {
-    "id": "T7_POTION_CLEANSE2@3",
-    "name": "T7_POTION_CLEANSE2"
-  },
-  {
-    "id": "T3_POTION_ACID",
-    "name": "T3_POTION_ACID"
-  },
-  {
-    "id": "T3_POTION_ACID@1",
-    "name": "T3_POTION_ACID"
-  },
-  {
-    "id": "T3_POTION_ACID@2",
-    "name": "T3_POTION_ACID"
-  },
-  {
-    "id": "T3_POTION_ACID@3",
-    "name": "T3_POTION_ACID"
-  },
-  {
-    "id": "T5_POTION_ACID",
-    "name": "T5_POTION_ACID"
-  },
-  {
-    "id": "T5_POTION_ACID@1",
-    "name": "T5_POTION_ACID"
-  },
-  {
-    "id": "T5_POTION_ACID@2",
-    "name": "T5_POTION_ACID"
-  },
-  {
-    "id": "T5_POTION_ACID@3",
-    "name": "T5_POTION_ACID"
-  },
-  {
-    "id": "T7_POTION_ACID",
-    "name": "T7_POTION_ACID"
-  },
-  {
-    "id": "T7_POTION_ACID@1",
-    "name": "T7_POTION_ACID"
-  },
-  {
-    "id": "T7_POTION_ACID@2",
-    "name": "T7_POTION_ACID"
-  },
-  {
-    "id": "T7_POTION_ACID@3",
-    "name": "T7_POTION_ACID"
-  },
-  {
-    "id": "T4_POTION_BERSERK",
-    "name": "T4_POTION_BERSERK"
-  },
-  {
-    "id": "T4_POTION_BERSERK@1",
-    "name": "T4_POTION_BERSERK"
-  },
-  {
-    "id": "T4_POTION_BERSERK@2",
-    "name": "T4_POTION_BERSERK"
-  },
-  {
-    "id": "T4_POTION_BERSERK@3",
-    "name": "T4_POTION_BERSERK"
-  },
-  {
-    "id": "T6_POTION_BERSERK",
-    "name": "T6_POTION_BERSERK"
-  },
-  {
-    "id": "T6_POTION_BERSERK@1",
-    "name": "T6_POTION_BERSERK"
-  },
-  {
-    "id": "T6_POTION_BERSERK@2",
-    "name": "T6_POTION_BERSERK"
-  },
-  {
-    "id": "T6_POTION_BERSERK@3",
-    "name": "T6_POTION_BERSERK"
-  },
-  {
-    "id": "T8_POTION_BERSERK",
-    "name": "T8_POTION_BERSERK"
-  },
-  {
-    "id": "T8_POTION_BERSERK@1",
-    "name": "T8_POTION_BERSERK"
-  },
-  {
-    "id": "T8_POTION_BERSERK@2",
-    "name": "T8_POTION_BERSERK"
-  },
-  {
-    "id": "T8_POTION_BERSERK@3",
-    "name": "T8_POTION_BERSERK"
-  },
-  {
-    "id": "T4_POTION_LAVA",
-    "name": "T4_POTION_LAVA"
-  },
-  {
-    "id": "T4_POTION_LAVA@1",
-    "name": "T4_POTION_LAVA"
-  },
-  {
-    "id": "T4_POTION_LAVA@2",
-    "name": "T4_POTION_LAVA"
-  },
-  {
-    "id": "T4_POTION_LAVA@3",
-    "name": "T4_POTION_LAVA"
-  },
-  {
-    "id": "T6_POTION_LAVA",
-    "name": "T6_POTION_LAVA"
-  },
-  {
-    "id": "T6_POTION_LAVA@1",
-    "name": "T6_POTION_LAVA"
-  },
-  {
-    "id": "T6_POTION_LAVA@2",
-    "name": "T6_POTION_LAVA"
-  },
-  {
-    "id": "T6_POTION_LAVA@3",
-    "name": "T6_POTION_LAVA"
-  },
-  {
-    "id": "T8_POTION_LAVA",
-    "name": "T8_POTION_LAVA"
-  },
-  {
-    "id": "T8_POTION_LAVA@1",
-    "name": "T8_POTION_LAVA"
-  },
-  {
-    "id": "T8_POTION_LAVA@2",
-    "name": "T8_POTION_LAVA"
-  },
-  {
-    "id": "T8_POTION_LAVA@3",
-    "name": "T8_POTION_LAVA"
-  },
-  {
-    "id": "T4_POTION_GATHER",
-    "name": "T4_POTION_GATHER"
-  },
-  {
-    "id": "T4_POTION_GATHER@1",
-    "name": "T4_POTION_GATHER"
-  },
-  {
-    "id": "T4_POTION_GATHER@2",
-    "name": "T4_POTION_GATHER"
-  },
-  {
-    "id": "T4_POTION_GATHER@3",
-    "name": "T4_POTION_GATHER"
-  },
-  {
-    "id": "T6_POTION_GATHER",
-    "name": "T6_POTION_GATHER"
-  },
-  {
-    "id": "T6_POTION_GATHER@1",
-    "name": "T6_POTION_GATHER"
-  },
-  {
-    "id": "T6_POTION_GATHER@2",
-    "name": "T6_POTION_GATHER"
-  },
-  {
-    "id": "T6_POTION_GATHER@3",
-    "name": "T6_POTION_GATHER"
-  },
-  {
-    "id": "T8_POTION_GATHER",
-    "name": "T8_POTION_GATHER"
-  },
-  {
-    "id": "T8_POTION_GATHER@1",
-    "name": "T8_POTION_GATHER"
-  },
-  {
-    "id": "T8_POTION_GATHER@2",
-    "name": "T8_POTION_GATHER"
-  },
-  {
-    "id": "T8_POTION_GATHER@3",
-    "name": "T8_POTION_GATHER"
-  },
-  {
-    "id": "T4_POTION_TORNADO",
-    "name": "T4_POTION_TORNADO"
-  },
-  {
-    "id": "T4_POTION_TORNADO@1",
-    "name": "T4_POTION_TORNADO"
-  },
-  {
-    "id": "T4_POTION_TORNADO@2",
-    "name": "T4_POTION_TORNADO"
-  },
-  {
-    "id": "T4_POTION_TORNADO@3",
-    "name": "T4_POTION_TORNADO"
-  },
-  {
-    "id": "T6_POTION_TORNADO",
-    "name": "T6_POTION_TORNADO"
-  },
-  {
-    "id": "T6_POTION_TORNADO@1",
-    "name": "T6_POTION_TORNADO"
-  },
-  {
-    "id": "T6_POTION_TORNADO@2",
-    "name": "T6_POTION_TORNADO"
-  },
-  {
-    "id": "T6_POTION_TORNADO@3",
-    "name": "T6_POTION_TORNADO"
-  },
-  {
-    "id": "T8_POTION_TORNADO",
-    "name": "T8_POTION_TORNADO"
-  },
-  {
-    "id": "T8_POTION_TORNADO@1",
-    "name": "T8_POTION_TORNADO"
-  },
-  {
-    "id": "T8_POTION_TORNADO@2",
-    "name": "T8_POTION_TORNADO"
-  },
-  {
-    "id": "T8_POTION_TORNADO@3",
-    "name": "T8_POTION_TORNADO"
-  },
-  {
-    "id": "UNIQUE_WEAPONMASTER_POTION_PROTOTYPE",
-    "name": "UNIQUE_WEAPONMASTER_POTION_PROTOTYPE"
-  }
+	{
+		"id": "T2_POTION_HEAL",
+		"name": "Minor Healing Potion"
+	},
+	{
+		"id": "T2_POTION_HEAL@1",
+		"name": "Minor Healing Potion (Uncommon)"
+	},
+	{
+		"id": "T2_POTION_HEAL@2",
+		"name": "Minor Healing Potion (Rare)"
+	},
+	{
+		"id": "T2_POTION_HEAL@3",
+		"name": "Minor Healing Potion (Exceptional)"
+	},
+	{
+		"id": "T4_POTION_HEAL",
+		"name": "Healing Potion"
+	},
+	{
+		"id": "T4_POTION_HEAL@1",
+		"name": "Healing Potion (Uncommon)"
+	},
+	{
+		"id": "T4_POTION_HEAL@2",
+		"name": "Healing Potion (Rare)"
+	},
+	{
+		"id": "T4_POTION_HEAL@3",
+		"name": "Healing Potion (Exceptional)"
+	},
+	{
+		"id": "T6_POTION_HEAL",
+		"name": "Major Healing Potion"
+	},
+	{
+		"id": "T6_POTION_HEAL@1",
+		"name": "Major Healing Potion (Uncommon)"
+	},
+	{
+		"id": "T6_POTION_HEAL@2",
+		"name": "Major Healing Potion (Rare)"
+	},
+	{
+		"id": "T6_POTION_HEAL@3",
+		"name": "Major Healing Potion (Exceptional)"
+	},
+	{
+		"id": "T2_POTION_ENERGY",
+		"name": "Minor Energy Potion"
+	},
+	{
+		"id": "T2_POTION_ENERGY@1",
+		"name": "Minor Energy Potion (Uncommon)"
+	},
+	{
+		"id": "T2_POTION_ENERGY@2",
+		"name": "Minor Energy Potion (Rare)"
+	},
+	{
+		"id": "T2_POTION_ENERGY@3",
+		"name": "Minor Energy Potion (Exceptional)"
+	},
+	{
+		"id": "T4_POTION_ENERGY",
+		"name": "Energy Potion"
+	},
+	{
+		"id": "T4_POTION_ENERGY@1",
+		"name": "Energy Potion (Uncommon)"
+	},
+	{
+		"id": "T4_POTION_ENERGY@2",
+		"name": "Energy Potion (Rare)"
+	},
+	{
+		"id": "T4_POTION_ENERGY@3",
+		"name": "Energy Potion (Exceptional)"
+	},
+	{
+		"id": "T6_POTION_ENERGY",
+		"name": "Major Energy Potion"
+	},
+	{
+		"id": "T6_POTION_ENERGY@1",
+		"name": "Major Energy Potion (Uncommon)"
+	},
+	{
+		"id": "T6_POTION_ENERGY@2",
+		"name": "Major Energy Potion (Rare)"
+	},
+	{
+		"id": "T6_POTION_ENERGY@3",
+		"name": "Major Energy Potion (Exceptional)"
+	},
+	{
+		"id": "T3_POTION_REVIVE",
+		"name": "Minor Gigantify Potion"
+	},
+	{
+		"id": "T3_POTION_REVIVE@1",
+		"name": "Minor Gigantify Potion (Uncommon)"
+	},
+	{
+		"id": "T3_POTION_REVIVE@2",
+		"name": "Minor Gigantify Potion (Rare)"
+	},
+	{
+		"id": "T3_POTION_REVIVE@3",
+		"name": "Minor Gigantify Potion (Exceptional)"
+	},
+	{
+		"id": "T5_POTION_REVIVE",
+		"name": "Gigantify Potion"
+	},
+	{
+		"id": "T5_POTION_REVIVE@1",
+		"name": "Gigantify Potion (Uncommon)"
+	},
+	{
+		"id": "T5_POTION_REVIVE@2",
+		"name": "Gigantify Potion (Rare)"
+	},
+	{
+		"id": "T5_POTION_REVIVE@3",
+		"name": "Gigantify Potion (Exceptional)"
+	},
+	{
+		"id": "T7_POTION_REVIVE",
+		"name": "Major Gigantify Potion"
+	},
+	{
+		"id": "T7_POTION_REVIVE@1",
+		"name": "Major Gigantify Potion (Uncommon)"
+	},
+	{
+		"id": "T7_POTION_REVIVE@2",
+		"name": "Major Gigantify Potion (Rare)"
+	},
+	{
+		"id": "T7_POTION_REVIVE@3",
+		"name": "Major Gigantify Potion (Exceptional)"
+	},
+	{
+		"id": "T3_POTION_STONESKIN",
+		"name": "Minor Resistance Potion"
+	},
+	{
+		"id": "T3_POTION_STONESKIN@1",
+		"name": "Minor Resistance Potion (Uncommon)"
+	},
+	{
+		"id": "T3_POTION_STONESKIN@2",
+		"name": "Minor Resistance Potion (Rare)"
+	},
+	{
+		"id": "T3_POTION_STONESKIN@3",
+		"name": "Minor Resistance Potion (Exceptional)"
+	},
+	{
+		"id": "T5_POTION_STONESKIN",
+		"name": "Resistance Potion"
+	},
+	{
+		"id": "T5_POTION_STONESKIN@1",
+		"name": "Resistance Potion (Uncommon)"
+	},
+	{
+		"id": "T5_POTION_STONESKIN@2",
+		"name": "Resistance Potion (Rare)"
+	},
+	{
+		"id": "T5_POTION_STONESKIN@3",
+		"name": "Resistance Potion (Exceptional)"
+	},
+	{
+		"id": "T7_POTION_STONESKIN",
+		"name": "Major Resistance Potion"
+	},
+	{
+		"id": "T7_POTION_STONESKIN@1",
+		"name": "Major Resistance Potion (Uncommon)"
+	},
+	{
+		"id": "T7_POTION_STONESKIN@2",
+		"name": "Major Resistance Potion (Rare)"
+	},
+	{
+		"id": "T7_POTION_STONESKIN@3",
+		"name": "Major Resistance Potion (Exceptional)"
+	},
+	{
+		"id": "T3_POTION_SLOWFIELD",
+		"name": "Minor Sticky Potion"
+	},
+	{
+		"id": "T3_POTION_SLOWFIELD@1",
+		"name": "Minor Sticky Potion (Uncommon)"
+	},
+	{
+		"id": "T3_POTION_SLOWFIELD@2",
+		"name": "Minor Sticky Potion (Rare)"
+	},
+	{
+		"id": "T3_POTION_SLOWFIELD@3",
+		"name": "Minor Sticky Potion (Exceptional)"
+	},
+	{
+		"id": "T5_POTION_SLOWFIELD",
+		"name": "Sticky Potion"
+	},
+	{
+		"id": "T5_POTION_SLOWFIELD@1",
+		"name": "Sticky Potion (Uncommon)"
+	},
+	{
+		"id": "T5_POTION_SLOWFIELD@2",
+		"name": "Sticky Potion (Rare)"
+	},
+	{
+		"id": "T5_POTION_SLOWFIELD@3",
+		"name": "Sticky Potion (Exceptional)"
+	},
+	{
+		"id": "T7_POTION_SLOWFIELD",
+		"name": "Major Sticky Potion"
+	},
+	{
+		"id": "T7_POTION_SLOWFIELD@1",
+		"name": "Major Sticky Potion (Uncommon)"
+	},
+	{
+		"id": "T7_POTION_SLOWFIELD@2",
+		"name": "Major Sticky Potion (Rare)"
+	},
+	{
+		"id": "T7_POTION_SLOWFIELD@3",
+		"name": "Major Sticky Potion (Exceptional)"
+	},
+	{
+		"id": "T4_POTION_COOLDOWN",
+		"name": "Minor Poison Potion"
+	},
+	{
+		"id": "T4_POTION_COOLDOWN@1",
+		"name": "Minor Poison Potion (Uncommon)"
+	},
+	{
+		"id": "T4_POTION_COOLDOWN@2",
+		"name": "Minor Poison Potion (Rare)"
+	},
+	{
+		"id": "T4_POTION_COOLDOWN@3",
+		"name": "Minor Poison Potion (Exceptional)"
+	},
+	{
+		"id": "T6_POTION_COOLDOWN",
+		"name": "Poison Potion"
+	},
+	{
+		"id": "T6_POTION_COOLDOWN@1",
+		"name": "Poison Potion (Uncommon)"
+	},
+	{
+		"id": "T6_POTION_COOLDOWN@2",
+		"name": "Poison Potion (Rare)"
+	},
+	{
+		"id": "T6_POTION_COOLDOWN@3",
+		"name": "Poison Potion (Exceptional)"
+	},
+	{
+		"id": "T8_POTION_COOLDOWN",
+		"name": "Major Poison Potion"
+	},
+	{
+		"id": "T8_POTION_COOLDOWN@1",
+		"name": "Major Poison Potion (Uncommon)"
+	},
+	{
+		"id": "T8_POTION_COOLDOWN@2",
+		"name": "Major Poison Potion (Rare)"
+	},
+	{
+		"id": "T8_POTION_COOLDOWN@3",
+		"name": "Major Poison Potion (Exceptional)"
+	},
+	{
+		"id": "T8_POTION_CLEANSE",
+		"name": "Invisibility Potion"
+	},
+	{
+		"id": "T8_POTION_CLEANSE@1",
+		"name": "Invisibility Potion (Uncommon)"
+	},
+	{
+		"id": "T8_POTION_CLEANSE@2",
+		"name": "Invisibility Potion (Rare)"
+	},
+	{
+		"id": "T8_POTION_CLEANSE@3",
+		"name": "Invisibility Potion (Exceptional)"
+	},
+	{
+		"id": "T3_POTION_MOB_RESET",
+		"name": "Minor Calming Potion"
+	},
+	{
+		"id": "T3_POTION_MOB_RESET@1",
+		"name": "Minor Calming Potion (Uncommon)"
+	},
+	{
+		"id": "T3_POTION_MOB_RESET@2",
+		"name": "Minor Calming Potion (Rare)"
+	},
+	{
+		"id": "T3_POTION_MOB_RESET@3",
+		"name": "Minor Calming Potion (Exceptional)"
+	},
+	{
+		"id": "T5_POTION_MOB_RESET",
+		"name": "Calming Potion"
+	},
+	{
+		"id": "T5_POTION_MOB_RESET@1",
+		"name": "Calming Potion (Uncommon)"
+	},
+	{
+		"id": "T5_POTION_MOB_RESET@2",
+		"name": "Calming Potion (Rare)"
+	},
+	{
+		"id": "T5_POTION_MOB_RESET@3",
+		"name": "Calming Potion (Exceptional)"
+	},
+	{
+		"id": "T7_POTION_MOB_RESET",
+		"name": "Major Calming Potion"
+	},
+	{
+		"id": "T7_POTION_MOB_RESET@1",
+		"name": "Major Calming Potion (Uncommon)"
+	},
+	{
+		"id": "T7_POTION_MOB_RESET@2",
+		"name": "Major Calming Potion (Rare)"
+	},
+	{
+		"id": "T7_POTION_MOB_RESET@3",
+		"name": "Major Calming Potion (Exceptional)"
+	},
+	{
+		"id": "T3_POTION_CLEANSE2",
+		"name": "Minor Cleansing Potion"
+	},
+	{
+		"id": "T3_POTION_CLEANSE2@1",
+		"name": "Minor Cleansing Potion (Uncommon)"
+	},
+	{
+		"id": "T3_POTION_CLEANSE2@2",
+		"name": "Minor Cleansing Potion (Rare)"
+	},
+	{
+		"id": "T3_POTION_CLEANSE2@3",
+		"name": "Minor Cleansing Potion (Exceptional)"
+	},
+	{
+		"id": "T5_POTION_CLEANSE2",
+		"name": "Cleansing Potion"
+	},
+	{
+		"id": "T5_POTION_CLEANSE2@1",
+		"name": "Cleansing Potion (Uncommon)"
+	},
+	{
+		"id": "T5_POTION_CLEANSE2@2",
+		"name": "Cleansing Potion (Rare)"
+	},
+	{
+		"id": "T5_POTION_CLEANSE2@3",
+		"name": "Cleansing Potion (Exceptional)"
+	},
+	{
+		"id": "T7_POTION_CLEANSE2",
+		"name": "Major Cleansing Potion"
+	},
+	{
+		"id": "T7_POTION_CLEANSE2@1",
+		"name": "Major Cleansing Potion (Uncommon)"
+	},
+	{
+		"id": "T7_POTION_CLEANSE2@2",
+		"name": "Major Cleansing Potion (Rare)"
+	},
+	{
+		"id": "T7_POTION_CLEANSE2@3",
+		"name": "Major Cleansing Potion (Exceptional)"
+	},
+	{
+		"id": "T3_POTION_ACID",
+		"name": "Minor Acid Potion"
+	},
+	{
+		"id": "T3_POTION_ACID@1",
+		"name": "Minor Acid Potion (Uncommon)"
+	},
+	{
+		"id": "T3_POTION_ACID@2",
+		"name": "Minor Acid Potion (Rare)"
+	},
+	{
+		"id": "T3_POTION_ACID@3",
+		"name": "Minor Acid Potion (Exceptional)"
+	},
+	{
+		"id": "T5_POTION_ACID",
+		"name": "Acid Potion"
+	},
+	{
+		"id": "T5_POTION_ACID@1",
+		"name": "Acid Potion (Uncommon)"
+	},
+	{
+		"id": "T5_POTION_ACID@2",
+		"name": "Acid Potion (Rare)"
+	},
+	{
+		"id": "T5_POTION_ACID@3",
+		"name": "Acid Potion (Exceptional)"
+	},
+	{
+		"id": "T7_POTION_ACID",
+		"name": "Major Acid Potion"
+	},
+	{
+		"id": "T7_POTION_ACID@1",
+		"name": "Major Acid Potion (Uncommon)"
+	},
+	{
+		"id": "T7_POTION_ACID@2",
+		"name": "Major Acid Potion (Rare)"
+	},
+	{
+		"id": "T7_POTION_ACID@3",
+		"name": "Major Acid Potion (Exceptional)"
+	},
+	{
+		"id": "T4_POTION_BERSERK",
+		"name": "Minor Berserk Potion"
+	},
+	{
+		"id": "T4_POTION_BERSERK@1",
+		"name": "Minor Berserk Potion (Uncommon)"
+	},
+	{
+		"id": "T4_POTION_BERSERK@2",
+		"name": "Minor Berserk Potion (Rare)"
+	},
+	{
+		"id": "T4_POTION_BERSERK@3",
+		"name": "Minor Berserk Potion (Exceptional)"
+	},
+	{
+		"id": "T6_POTION_BERSERK",
+		"name": "Berserk Potion"
+	},
+	{
+		"id": "T6_POTION_BERSERK@1",
+		"name": "Berserk Potion (Uncommon)"
+	},
+	{
+		"id": "T6_POTION_BERSERK@2",
+		"name": "Berserk Potion (Rare)"
+	},
+	{
+		"id": "T6_POTION_BERSERK@3",
+		"name": "Berserk Potion (Exceptional)"
+	},
+	{
+		"id": "T8_POTION_BERSERK",
+		"name": "Major Berserk Potion"
+	},
+	{
+		"id": "T8_POTION_BERSERK@1",
+		"name": "Major Berserk Potion (Uncommon)"
+	},
+	{
+		"id": "T8_POTION_BERSERK@2",
+		"name": "Major Berserk Potion (Rare)"
+	},
+	{
+		"id": "T8_POTION_BERSERK@3",
+		"name": "Major Berserk Potion (Exceptional)"
+	},
+	{
+		"id": "T4_POTION_LAVA",
+		"name": "Minor Hellfire Potion"
+	},
+	{
+		"id": "T4_POTION_LAVA@1",
+		"name": "Minor Hellfire Potion (Uncommon)"
+	},
+	{
+		"id": "T4_POTION_LAVA@2",
+		"name": "Minor Hellfire Potion (Rare)"
+	},
+	{
+		"id": "T4_POTION_LAVA@3",
+		"name": "Minor Hellfire Potion (Exceptional)"
+	},
+	{
+		"id": "T6_POTION_LAVA",
+		"name": "Hellfire Potion"
+	},
+	{
+		"id": "T6_POTION_LAVA@1",
+		"name": "Hellfire Potion (Uncommon)"
+	},
+	{
+		"id": "T6_POTION_LAVA@2",
+		"name": "Hellfire Potion (Rare)"
+	},
+	{
+		"id": "T6_POTION_LAVA@3",
+		"name": "Hellfire Potion (Exceptional)"
+	},
+	{
+		"id": "T8_POTION_LAVA",
+		"name": "Major Hellfire Potion"
+	},
+	{
+		"id": "T8_POTION_LAVA@1",
+		"name": "Major Hellfire Potion (Uncommon)"
+	},
+	{
+		"id": "T8_POTION_LAVA@2",
+		"name": "Major Hellfire Potion (Rare)"
+	},
+	{
+		"id": "T8_POTION_LAVA@3",
+		"name": "Major Hellfire Potion (Exceptional)"
+	},
+	{
+		"id": "T4_POTION_GATHER",
+		"name": "Minor Gathering Potion"
+	},
+	{
+		"id": "T4_POTION_GATHER@1",
+		"name": "Minor Gathering Potion (Uncommon)"
+	},
+	{
+		"id": "T4_POTION_GATHER@2",
+		"name": "Minor Gathering Potion (Rare)"
+	},
+	{
+		"id": "T4_POTION_GATHER@3",
+		"name": "Minor Gathering Potion (Exceptional)"
+	},
+	{
+		"id": "T6_POTION_GATHER",
+		"name": "Gathering Potion"
+	},
+	{
+		"id": "T6_POTION_GATHER@1",
+		"name": "Gathering Potion (Uncommon)"
+	},
+	{
+		"id": "T6_POTION_GATHER@2",
+		"name": "Gathering Potion (Rare)"
+	},
+	{
+		"id": "T6_POTION_GATHER@3",
+		"name": "Gathering Potion (Exceptional)"
+	},
+	{
+		"id": "T8_POTION_GATHER",
+		"name": "Major Gathering Potion"
+	},
+	{
+		"id": "T8_POTION_GATHER@1",
+		"name": "Major Gathering Potion (Uncommon)"
+	},
+	{
+		"id": "T8_POTION_GATHER@2",
+		"name": "Major Gathering Potion (Rare)"
+	},
+	{
+		"id": "T8_POTION_GATHER@3",
+		"name": "Major Gathering Potion (Exceptional)"
+	},
+	{
+		"id": "T4_POTION_TORNADO",
+		"name": "Minor Tornado in a Bottle"
+	},
+	{
+		"id": "T4_POTION_TORNADO@1",
+		"name": "Minor Tornado in a Bottle (Uncommon)"
+	},
+	{
+		"id": "T4_POTION_TORNADO@2",
+		"name": "Minor Tornado in a Bottle (Rare)"
+	},
+	{
+		"id": "T4_POTION_TORNADO@3",
+		"name": "Minor Tornado in a Bottle (Exceptional)"
+	},
+	{
+		"id": "T6_POTION_TORNADO",
+		"name": "Tornado in a Bottle"
+	},
+	{
+		"id": "T6_POTION_TORNADO@1",
+		"name": "Tornado in a Bottle (Uncommon)"
+	},
+	{
+		"id": "T6_POTION_TORNADO@2",
+		"name": "Tornado in a Bottle (Rare)"
+	},
+	{
+		"id": "T6_POTION_TORNADO@3",
+		"name": "Tornado in a Bottle (Exceptional)"
+	},
+	{
+		"id": "T8_POTION_TORNADO",
+		"name": "Major Tornado in a Bottle"
+	},
+	{
+		"id": "T8_POTION_TORNADO@1",
+		"name": "Major Tornado in a Bottle (Uncommon)"
+	},
+	{
+		"id": "T8_POTION_TORNADO@2",
+		"name": "Major Tornado in a Bottle (Rare)"
+	},
+	{
+		"id": "T8_POTION_TORNADO@3",
+		"name": "Major Tornado in a Bottle (Exceptional)"
+	},
+	{
+		"id": "UNIQUE_WEAPONMASTER_POTION_PROTOTYPE",
+		"name": "UNIQUE_WEAPONMASTER_POTION_PROTOTYPE"
+	}
 ]

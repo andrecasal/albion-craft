@@ -1,174 +1,174 @@
 [
-  {
-    "id": "T1_FISH_FRESHWATER_ALL_COMMON",
-    "name": "T1_FISH_FRESHWATER_ALL_COMMON"
-  },
-  {
-    "id": "T2_FISH_FRESHWATER_ALL_COMMON",
-    "name": "T2_FISH_FRESHWATER_ALL_COMMON"
-  },
-  {
-    "id": "T3_FISH_FRESHWATER_ALL_COMMON",
-    "name": "T3_FISH_FRESHWATER_ALL_COMMON"
-  },
-  {
-    "id": "T4_FISH_FRESHWATER_ALL_COMMON",
-    "name": "T4_FISH_FRESHWATER_ALL_COMMON"
-  },
-  {
-    "id": "T5_FISH_FRESHWATER_ALL_COMMON",
-    "name": "T5_FISH_FRESHWATER_ALL_COMMON"
-  },
-  {
-    "id": "T6_FISH_FRESHWATER_ALL_COMMON",
-    "name": "T6_FISH_FRESHWATER_ALL_COMMON"
-  },
-  {
-    "id": "T7_FISH_FRESHWATER_ALL_COMMON",
-    "name": "T7_FISH_FRESHWATER_ALL_COMMON"
-  },
-  {
-    "id": "T8_FISH_FRESHWATER_ALL_COMMON",
-    "name": "T8_FISH_FRESHWATER_ALL_COMMON"
-  },
-  {
-    "id": "T1_FISH_SALTWATER_ALL_COMMON",
-    "name": "T1_FISH_SALTWATER_ALL_COMMON"
-  },
-  {
-    "id": "T2_FISH_SALTWATER_ALL_COMMON",
-    "name": "T2_FISH_SALTWATER_ALL_COMMON"
-  },
-  {
-    "id": "T3_FISH_SALTWATER_ALL_COMMON",
-    "name": "T3_FISH_SALTWATER_ALL_COMMON"
-  },
-  {
-    "id": "T4_FISH_SALTWATER_ALL_COMMON",
-    "name": "T4_FISH_SALTWATER_ALL_COMMON"
-  },
-  {
-    "id": "T5_FISH_SALTWATER_ALL_COMMON",
-    "name": "T5_FISH_SALTWATER_ALL_COMMON"
-  },
-  {
-    "id": "T6_FISH_SALTWATER_ALL_COMMON",
-    "name": "T6_FISH_SALTWATER_ALL_COMMON"
-  },
-  {
-    "id": "T7_FISH_SALTWATER_ALL_COMMON",
-    "name": "T7_FISH_SALTWATER_ALL_COMMON"
-  },
-  {
-    "id": "T8_FISH_SALTWATER_ALL_COMMON",
-    "name": "T8_FISH_SALTWATER_ALL_COMMON"
-  },
-  {
-    "id": "T3_FISH_FRESHWATER_FOREST_RARE",
-    "name": "T3_FISH_FRESHWATER_FOREST_RARE"
-  },
-  {
-    "id": "T5_FISH_FRESHWATER_FOREST_RARE",
-    "name": "T5_FISH_FRESHWATER_FOREST_RARE"
-  },
-  {
-    "id": "T7_FISH_FRESHWATER_FOREST_RARE",
-    "name": "T7_FISH_FRESHWATER_FOREST_RARE"
-  },
-  {
-    "id": "T3_FISH_FRESHWATER_MOUNTAIN_RARE",
-    "name": "T3_FISH_FRESHWATER_MOUNTAIN_RARE"
-  },
-  {
-    "id": "T5_FISH_FRESHWATER_MOUNTAIN_RARE",
-    "name": "T5_FISH_FRESHWATER_MOUNTAIN_RARE"
-  },
-  {
-    "id": "T7_FISH_FRESHWATER_MOUNTAIN_RARE",
-    "name": "T7_FISH_FRESHWATER_MOUNTAIN_RARE"
-  },
-  {
-    "id": "T3_FISH_FRESHWATER_HIGHLANDS_RARE",
-    "name": "T3_FISH_FRESHWATER_HIGHLANDS_RARE"
-  },
-  {
-    "id": "T5_FISH_FRESHWATER_HIGHLANDS_RARE",
-    "name": "T5_FISH_FRESHWATER_HIGHLANDS_RARE"
-  },
-  {
-    "id": "T7_FISH_FRESHWATER_HIGHLANDS_RARE",
-    "name": "T7_FISH_FRESHWATER_HIGHLANDS_RARE"
-  },
-  {
-    "id": "T3_FISH_FRESHWATER_STEPPE_RARE",
-    "name": "T3_FISH_FRESHWATER_STEPPE_RARE"
-  },
-  {
-    "id": "T5_FISH_FRESHWATER_STEPPE_RARE",
-    "name": "T5_FISH_FRESHWATER_STEPPE_RARE"
-  },
-  {
-    "id": "T7_FISH_FRESHWATER_STEPPE_RARE",
-    "name": "T7_FISH_FRESHWATER_STEPPE_RARE"
-  },
-  {
-    "id": "T3_FISH_FRESHWATER_SWAMP_RARE",
-    "name": "T3_FISH_FRESHWATER_SWAMP_RARE"
-  },
-  {
-    "id": "T5_FISH_FRESHWATER_SWAMP_RARE",
-    "name": "T5_FISH_FRESHWATER_SWAMP_RARE"
-  },
-  {
-    "id": "T7_FISH_FRESHWATER_SWAMP_RARE",
-    "name": "T7_FISH_FRESHWATER_SWAMP_RARE"
-  },
-  {
-    "id": "T3_FISH_SALTWATER_ALL_RARE",
-    "name": "T3_FISH_SALTWATER_ALL_RARE"
-  },
-  {
-    "id": "T5_FISH_SALTWATER_ALL_RARE",
-    "name": "T5_FISH_SALTWATER_ALL_RARE"
-  },
-  {
-    "id": "T7_FISH_SALTWATER_ALL_RARE",
-    "name": "T7_FISH_SALTWATER_ALL_RARE"
-  },
-  {
-    "id": "T3_FISH_FRESHWATER_AVALON_RARE",
-    "name": "T3_FISH_FRESHWATER_AVALON_RARE"
-  },
-  {
-    "id": "T5_FISH_FRESHWATER_AVALON_RARE",
-    "name": "T5_FISH_FRESHWATER_AVALON_RARE"
-  },
-  {
-    "id": "T7_FISH_FRESHWATER_AVALON_RARE",
-    "name": "T7_FISH_FRESHWATER_AVALON_RARE"
-  },
-  {
-    "id": "T1_SEAWEED",
-    "name": "T1_SEAWEED"
-  },
-  {
-    "id": "T8_FISH_SALTWATER_ALL_BOSS_SHARK",
-    "name": "T8_FISH_SALTWATER_ALL_BOSS_SHARK"
-  },
-  {
-    "id": "T1_FISHCHOPS",
-    "name": "T1_FISHCHOPS"
-  },
-  {
-    "id": "T1_FISHSAUCE_LEVEL1",
-    "name": "T1_FISHSAUCE_LEVEL1"
-  },
-  {
-    "id": "T1_FISHSAUCE_LEVEL2",
-    "name": "T1_FISHSAUCE_LEVEL2"
-  },
-  {
-    "id": "T1_FISHSAUCE_LEVEL3",
-    "name": "T1_FISHSAUCE_LEVEL3"
-  }
+	{
+		"id": "T1_FISH_FRESHWATER_ALL_COMMON",
+		"name": "Common Rudd"
+	},
+	{
+		"id": "T2_FISH_FRESHWATER_ALL_COMMON",
+		"name": "Striped Carp"
+	},
+	{
+		"id": "T3_FISH_FRESHWATER_ALL_COMMON",
+		"name": "Albion Perch"
+	},
+	{
+		"id": "T4_FISH_FRESHWATER_ALL_COMMON",
+		"name": "Bluescale Pike"
+	},
+	{
+		"id": "T5_FISH_FRESHWATER_ALL_COMMON",
+		"name": "Spotted Trout"
+	},
+	{
+		"id": "T6_FISH_FRESHWATER_ALL_COMMON",
+		"name": "Brightscale Zander"
+	},
+	{
+		"id": "T7_FISH_FRESHWATER_ALL_COMMON",
+		"name": "Danglemouth Catfish"
+	},
+	{
+		"id": "T8_FISH_FRESHWATER_ALL_COMMON",
+		"name": "River Sturgeon"
+	},
+	{
+		"id": "T1_FISH_SALTWATER_ALL_COMMON",
+		"name": "Common Herring"
+	},
+	{
+		"id": "T2_FISH_SALTWATER_ALL_COMMON",
+		"name": "Striped Mackerel"
+	},
+	{
+		"id": "T3_FISH_SALTWATER_ALL_COMMON",
+		"name": "Flatshore Plaice"
+	},
+	{
+		"id": "T4_FISH_SALTWATER_ALL_COMMON",
+		"name": "Bluescale Cod"
+	},
+	{
+		"id": "T5_FISH_SALTWATER_ALL_COMMON",
+		"name": "Spotted Wolffish"
+	},
+	{
+		"id": "T6_FISH_SALTWATER_ALL_COMMON",
+		"name": "Strongfin Salmon"
+	},
+	{
+		"id": "T7_FISH_SALTWATER_ALL_COMMON",
+		"name": "Bluefin Tuna"
+	},
+	{
+		"id": "T8_FISH_SALTWATER_ALL_COMMON",
+		"name": "Steelscale Swordfish"
+	},
+	{
+		"id": "T3_FISH_FRESHWATER_FOREST_RARE",
+		"name": "Greenriver Eel"
+	},
+	{
+		"id": "T5_FISH_FRESHWATER_FOREST_RARE",
+		"name": "Redspring Eel"
+	},
+	{
+		"id": "T7_FISH_FRESHWATER_FOREST_RARE",
+		"name": "Deadwater Eel"
+	},
+	{
+		"id": "T3_FISH_FRESHWATER_MOUNTAIN_RARE",
+		"name": "Upland Coldeye"
+	},
+	{
+		"id": "T5_FISH_FRESHWATER_MOUNTAIN_RARE",
+		"name": "Mountain Blindeye"
+	},
+	{
+		"id": "T7_FISH_FRESHWATER_MOUNTAIN_RARE",
+		"name": "Frostpeak Deadeye"
+	},
+	{
+		"id": "T3_FISH_FRESHWATER_HIGHLANDS_RARE",
+		"name": "Stonestream Lurcher"
+	},
+	{
+		"id": "T5_FISH_FRESHWATER_HIGHLANDS_RARE",
+		"name": "Rushwater Lurcher"
+	},
+	{
+		"id": "T7_FISH_FRESHWATER_HIGHLANDS_RARE",
+		"name": "Thunderfall Lurcher"
+	},
+	{
+		"id": "T3_FISH_FRESHWATER_STEPPE_RARE",
+		"name": "Lowriver Crab"
+	},
+	{
+		"id": "T5_FISH_FRESHWATER_STEPPE_RARE",
+		"name": "Drybrook Crab"
+	},
+	{
+		"id": "T7_FISH_FRESHWATER_STEPPE_RARE",
+		"name": "Dusthole Crab"
+	},
+	{
+		"id": "T3_FISH_FRESHWATER_SWAMP_RARE",
+		"name": "Greenmoor Clam"
+	},
+	{
+		"id": "T5_FISH_FRESHWATER_SWAMP_RARE",
+		"name": "Murkwater Clam"
+	},
+	{
+		"id": "T7_FISH_FRESHWATER_SWAMP_RARE",
+		"name": "Blackbog Clam"
+	},
+	{
+		"id": "T3_FISH_SALTWATER_ALL_RARE",
+		"name": "Shallowshore Squid"
+	},
+	{
+		"id": "T5_FISH_SALTWATER_ALL_RARE",
+		"name": "Midwater Octopus"
+	},
+	{
+		"id": "T7_FISH_SALTWATER_ALL_RARE",
+		"name": "Deepwater Kraken"
+	},
+	{
+		"id": "T3_FISH_FRESHWATER_AVALON_RARE",
+		"name": "Whitefog Snapper"
+	},
+	{
+		"id": "T5_FISH_FRESHWATER_AVALON_RARE",
+		"name": "Clearhaze Snapper"
+	},
+	{
+		"id": "T7_FISH_FRESHWATER_AVALON_RARE",
+		"name": "Puremist Snapper"
+	},
+	{
+		"id": "T1_SEAWEED",
+		"name": "Seaweed"
+	},
+	{
+		"id": "T8_FISH_SALTWATER_ALL_BOSS_SHARK",
+		"name": "Shark"
+	},
+	{
+		"id": "T1_FISHCHOPS",
+		"name": "Chopped Fish"
+	},
+	{
+		"id": "T1_FISHSAUCE_LEVEL1",
+		"name": "Basic Fish Sauce"
+	},
+	{
+		"id": "T1_FISHSAUCE_LEVEL2",
+		"name": "Fancy Fish Sauce"
+	},
+	{
+		"id": "T1_FISHSAUCE_LEVEL3",
+		"name": "Special Fish Sauce"
+	}
 ]

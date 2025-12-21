@@ -1,1882 +1,1882 @@
 [
-  {
-    "id": "T1_OFF_SHIELD",
-    "name": "T1_OFF_SHIELD"
-  },
-  {
-    "id": "T2_OFF_SHIELD",
-    "name": "T2_OFF_SHIELD"
-  },
-  {
-    "id": "T3_OFF_SHIELD",
-    "name": "T3_OFF_SHIELD"
-  },
-  {
-    "id": "T4_OFF_SHIELD",
-    "name": "T4_OFF_SHIELD"
-  },
-  {
-    "id": "T4_OFF_SHIELD@1",
-    "name": "T4_OFF_SHIELD"
-  },
-  {
-    "id": "T4_OFF_SHIELD@2",
-    "name": "T4_OFF_SHIELD"
-  },
-  {
-    "id": "T4_OFF_SHIELD@3",
-    "name": "T4_OFF_SHIELD"
-  },
-  {
-    "id": "T4_OFF_SHIELD@4",
-    "name": "T4_OFF_SHIELD"
-  },
-  {
-    "id": "T5_OFF_SHIELD",
-    "name": "T5_OFF_SHIELD"
-  },
-  {
-    "id": "T5_OFF_SHIELD@1",
-    "name": "T5_OFF_SHIELD"
-  },
-  {
-    "id": "T5_OFF_SHIELD@2",
-    "name": "T5_OFF_SHIELD"
-  },
-  {
-    "id": "T5_OFF_SHIELD@3",
-    "name": "T5_OFF_SHIELD"
-  },
-  {
-    "id": "T5_OFF_SHIELD@4",
-    "name": "T5_OFF_SHIELD"
-  },
-  {
-    "id": "T6_OFF_SHIELD",
-    "name": "T6_OFF_SHIELD"
-  },
-  {
-    "id": "T6_OFF_SHIELD@1",
-    "name": "T6_OFF_SHIELD"
-  },
-  {
-    "id": "T6_OFF_SHIELD@2",
-    "name": "T6_OFF_SHIELD"
-  },
-  {
-    "id": "T6_OFF_SHIELD@3",
-    "name": "T6_OFF_SHIELD"
-  },
-  {
-    "id": "T6_OFF_SHIELD@4",
-    "name": "T6_OFF_SHIELD"
-  },
-  {
-    "id": "T7_OFF_SHIELD",
-    "name": "T7_OFF_SHIELD"
-  },
-  {
-    "id": "T7_OFF_SHIELD@1",
-    "name": "T7_OFF_SHIELD"
-  },
-  {
-    "id": "T7_OFF_SHIELD@2",
-    "name": "T7_OFF_SHIELD"
-  },
-  {
-    "id": "T7_OFF_SHIELD@3",
-    "name": "T7_OFF_SHIELD"
-  },
-  {
-    "id": "T7_OFF_SHIELD@4",
-    "name": "T7_OFF_SHIELD"
-  },
-  {
-    "id": "T8_OFF_SHIELD",
-    "name": "T8_OFF_SHIELD"
-  },
-  {
-    "id": "T8_OFF_SHIELD@1",
-    "name": "T8_OFF_SHIELD"
-  },
-  {
-    "id": "T8_OFF_SHIELD@2",
-    "name": "T8_OFF_SHIELD"
-  },
-  {
-    "id": "T8_OFF_SHIELD@3",
-    "name": "T8_OFF_SHIELD"
-  },
-  {
-    "id": "T8_OFF_SHIELD@4",
-    "name": "T8_OFF_SHIELD"
-  },
-  {
-    "id": "T4_OFF_TOWERSHIELD_UNDEAD",
-    "name": "T4_OFF_TOWERSHIELD_UNDEAD"
-  },
-  {
-    "id": "T4_OFF_TOWERSHIELD_UNDEAD@1",
-    "name": "T4_OFF_TOWERSHIELD_UNDEAD"
-  },
-  {
-    "id": "T4_OFF_TOWERSHIELD_UNDEAD@2",
-    "name": "T4_OFF_TOWERSHIELD_UNDEAD"
-  },
-  {
-    "id": "T4_OFF_TOWERSHIELD_UNDEAD@3",
-    "name": "T4_OFF_TOWERSHIELD_UNDEAD"
-  },
-  {
-    "id": "T4_OFF_TOWERSHIELD_UNDEAD@4",
-    "name": "T4_OFF_TOWERSHIELD_UNDEAD"
-  },
-  {
-    "id": "T5_OFF_TOWERSHIELD_UNDEAD",
-    "name": "T5_OFF_TOWERSHIELD_UNDEAD"
-  },
-  {
-    "id": "T5_OFF_TOWERSHIELD_UNDEAD@1",
-    "name": "T5_OFF_TOWERSHIELD_UNDEAD"
-  },
-  {
-    "id": "T5_OFF_TOWERSHIELD_UNDEAD@2",
-    "name": "T5_OFF_TOWERSHIELD_UNDEAD"
-  },
-  {
-    "id": "T5_OFF_TOWERSHIELD_UNDEAD@3",
-    "name": "T5_OFF_TOWERSHIELD_UNDEAD"
-  },
-  {
-    "id": "T5_OFF_TOWERSHIELD_UNDEAD@4",
-    "name": "T5_OFF_TOWERSHIELD_UNDEAD"
-  },
-  {
-    "id": "T6_OFF_TOWERSHIELD_UNDEAD",
-    "name": "T6_OFF_TOWERSHIELD_UNDEAD"
-  },
-  {
-    "id": "T6_OFF_TOWERSHIELD_UNDEAD@1",
-    "name": "T6_OFF_TOWERSHIELD_UNDEAD"
-  },
-  {
-    "id": "T6_OFF_TOWERSHIELD_UNDEAD@2",
-    "name": "T6_OFF_TOWERSHIELD_UNDEAD"
-  },
-  {
-    "id": "T6_OFF_TOWERSHIELD_UNDEAD@3",
-    "name": "T6_OFF_TOWERSHIELD_UNDEAD"
-  },
-  {
-    "id": "T6_OFF_TOWERSHIELD_UNDEAD@4",
-    "name": "T6_OFF_TOWERSHIELD_UNDEAD"
-  },
-  {
-    "id": "T7_OFF_TOWERSHIELD_UNDEAD",
-    "name": "T7_OFF_TOWERSHIELD_UNDEAD"
-  },
-  {
-    "id": "T7_OFF_TOWERSHIELD_UNDEAD@1",
-    "name": "T7_OFF_TOWERSHIELD_UNDEAD"
-  },
-  {
-    "id": "T7_OFF_TOWERSHIELD_UNDEAD@2",
-    "name": "T7_OFF_TOWERSHIELD_UNDEAD"
-  },
-  {
-    "id": "T7_OFF_TOWERSHIELD_UNDEAD@3",
-    "name": "T7_OFF_TOWERSHIELD_UNDEAD"
-  },
-  {
-    "id": "T7_OFF_TOWERSHIELD_UNDEAD@4",
-    "name": "T7_OFF_TOWERSHIELD_UNDEAD"
-  },
-  {
-    "id": "T8_OFF_TOWERSHIELD_UNDEAD",
-    "name": "T8_OFF_TOWERSHIELD_UNDEAD"
-  },
-  {
-    "id": "T8_OFF_TOWERSHIELD_UNDEAD@1",
-    "name": "T8_OFF_TOWERSHIELD_UNDEAD"
-  },
-  {
-    "id": "T8_OFF_TOWERSHIELD_UNDEAD@2",
-    "name": "T8_OFF_TOWERSHIELD_UNDEAD"
-  },
-  {
-    "id": "T8_OFF_TOWERSHIELD_UNDEAD@3",
-    "name": "T8_OFF_TOWERSHIELD_UNDEAD"
-  },
-  {
-    "id": "T8_OFF_TOWERSHIELD_UNDEAD@4",
-    "name": "T8_OFF_TOWERSHIELD_UNDEAD"
-  },
-  {
-    "id": "T4_OFF_SHIELD_HELL",
-    "name": "T4_OFF_SHIELD_HELL"
-  },
-  {
-    "id": "T4_OFF_SHIELD_HELL@1",
-    "name": "T4_OFF_SHIELD_HELL"
-  },
-  {
-    "id": "T4_OFF_SHIELD_HELL@2",
-    "name": "T4_OFF_SHIELD_HELL"
-  },
-  {
-    "id": "T4_OFF_SHIELD_HELL@3",
-    "name": "T4_OFF_SHIELD_HELL"
-  },
-  {
-    "id": "T4_OFF_SHIELD_HELL@4",
-    "name": "T4_OFF_SHIELD_HELL"
-  },
-  {
-    "id": "T5_OFF_SHIELD_HELL",
-    "name": "T5_OFF_SHIELD_HELL"
-  },
-  {
-    "id": "T5_OFF_SHIELD_HELL@1",
-    "name": "T5_OFF_SHIELD_HELL"
-  },
-  {
-    "id": "T5_OFF_SHIELD_HELL@2",
-    "name": "T5_OFF_SHIELD_HELL"
-  },
-  {
-    "id": "T5_OFF_SHIELD_HELL@3",
-    "name": "T5_OFF_SHIELD_HELL"
-  },
-  {
-    "id": "T5_OFF_SHIELD_HELL@4",
-    "name": "T5_OFF_SHIELD_HELL"
-  },
-  {
-    "id": "T6_OFF_SHIELD_HELL",
-    "name": "T6_OFF_SHIELD_HELL"
-  },
-  {
-    "id": "T6_OFF_SHIELD_HELL@1",
-    "name": "T6_OFF_SHIELD_HELL"
-  },
-  {
-    "id": "T6_OFF_SHIELD_HELL@2",
-    "name": "T6_OFF_SHIELD_HELL"
-  },
-  {
-    "id": "T6_OFF_SHIELD_HELL@3",
-    "name": "T6_OFF_SHIELD_HELL"
-  },
-  {
-    "id": "T6_OFF_SHIELD_HELL@4",
-    "name": "T6_OFF_SHIELD_HELL"
-  },
-  {
-    "id": "T7_OFF_SHIELD_HELL",
-    "name": "T7_OFF_SHIELD_HELL"
-  },
-  {
-    "id": "T7_OFF_SHIELD_HELL@1",
-    "name": "T7_OFF_SHIELD_HELL"
-  },
-  {
-    "id": "T7_OFF_SHIELD_HELL@2",
-    "name": "T7_OFF_SHIELD_HELL"
-  },
-  {
-    "id": "T7_OFF_SHIELD_HELL@3",
-    "name": "T7_OFF_SHIELD_HELL"
-  },
-  {
-    "id": "T7_OFF_SHIELD_HELL@4",
-    "name": "T7_OFF_SHIELD_HELL"
-  },
-  {
-    "id": "T8_OFF_SHIELD_HELL",
-    "name": "T8_OFF_SHIELD_HELL"
-  },
-  {
-    "id": "T8_OFF_SHIELD_HELL@1",
-    "name": "T8_OFF_SHIELD_HELL"
-  },
-  {
-    "id": "T8_OFF_SHIELD_HELL@2",
-    "name": "T8_OFF_SHIELD_HELL"
-  },
-  {
-    "id": "T8_OFF_SHIELD_HELL@3",
-    "name": "T8_OFF_SHIELD_HELL"
-  },
-  {
-    "id": "T8_OFF_SHIELD_HELL@4",
-    "name": "T8_OFF_SHIELD_HELL"
-  },
-  {
-    "id": "T4_OFF_SPIKEDSHIELD_MORGANA",
-    "name": "T4_OFF_SPIKEDSHIELD_MORGANA"
-  },
-  {
-    "id": "T4_OFF_SPIKEDSHIELD_MORGANA@1",
-    "name": "T4_OFF_SPIKEDSHIELD_MORGANA"
-  },
-  {
-    "id": "T4_OFF_SPIKEDSHIELD_MORGANA@2",
-    "name": "T4_OFF_SPIKEDSHIELD_MORGANA"
-  },
-  {
-    "id": "T4_OFF_SPIKEDSHIELD_MORGANA@3",
-    "name": "T4_OFF_SPIKEDSHIELD_MORGANA"
-  },
-  {
-    "id": "T4_OFF_SPIKEDSHIELD_MORGANA@4",
-    "name": "T4_OFF_SPIKEDSHIELD_MORGANA"
-  },
-  {
-    "id": "T5_OFF_SPIKEDSHIELD_MORGANA",
-    "name": "T5_OFF_SPIKEDSHIELD_MORGANA"
-  },
-  {
-    "id": "T5_OFF_SPIKEDSHIELD_MORGANA@1",
-    "name": "T5_OFF_SPIKEDSHIELD_MORGANA"
-  },
-  {
-    "id": "T5_OFF_SPIKEDSHIELD_MORGANA@2",
-    "name": "T5_OFF_SPIKEDSHIELD_MORGANA"
-  },
-  {
-    "id": "T5_OFF_SPIKEDSHIELD_MORGANA@3",
-    "name": "T5_OFF_SPIKEDSHIELD_MORGANA"
-  },
-  {
-    "id": "T5_OFF_SPIKEDSHIELD_MORGANA@4",
-    "name": "T5_OFF_SPIKEDSHIELD_MORGANA"
-  },
-  {
-    "id": "T6_OFF_SPIKEDSHIELD_MORGANA",
-    "name": "T6_OFF_SPIKEDSHIELD_MORGANA"
-  },
-  {
-    "id": "T6_OFF_SPIKEDSHIELD_MORGANA@1",
-    "name": "T6_OFF_SPIKEDSHIELD_MORGANA"
-  },
-  {
-    "id": "T6_OFF_SPIKEDSHIELD_MORGANA@2",
-    "name": "T6_OFF_SPIKEDSHIELD_MORGANA"
-  },
-  {
-    "id": "T6_OFF_SPIKEDSHIELD_MORGANA@3",
-    "name": "T6_OFF_SPIKEDSHIELD_MORGANA"
-  },
-  {
-    "id": "T6_OFF_SPIKEDSHIELD_MORGANA@4",
-    "name": "T6_OFF_SPIKEDSHIELD_MORGANA"
-  },
-  {
-    "id": "T7_OFF_SPIKEDSHIELD_MORGANA",
-    "name": "T7_OFF_SPIKEDSHIELD_MORGANA"
-  },
-  {
-    "id": "T7_OFF_SPIKEDSHIELD_MORGANA@1",
-    "name": "T7_OFF_SPIKEDSHIELD_MORGANA"
-  },
-  {
-    "id": "T7_OFF_SPIKEDSHIELD_MORGANA@2",
-    "name": "T7_OFF_SPIKEDSHIELD_MORGANA"
-  },
-  {
-    "id": "T7_OFF_SPIKEDSHIELD_MORGANA@3",
-    "name": "T7_OFF_SPIKEDSHIELD_MORGANA"
-  },
-  {
-    "id": "T7_OFF_SPIKEDSHIELD_MORGANA@4",
-    "name": "T7_OFF_SPIKEDSHIELD_MORGANA"
-  },
-  {
-    "id": "T8_OFF_SPIKEDSHIELD_MORGANA",
-    "name": "T8_OFF_SPIKEDSHIELD_MORGANA"
-  },
-  {
-    "id": "T8_OFF_SPIKEDSHIELD_MORGANA@1",
-    "name": "T8_OFF_SPIKEDSHIELD_MORGANA"
-  },
-  {
-    "id": "T8_OFF_SPIKEDSHIELD_MORGANA@2",
-    "name": "T8_OFF_SPIKEDSHIELD_MORGANA"
-  },
-  {
-    "id": "T8_OFF_SPIKEDSHIELD_MORGANA@3",
-    "name": "T8_OFF_SPIKEDSHIELD_MORGANA"
-  },
-  {
-    "id": "T8_OFF_SPIKEDSHIELD_MORGANA@4",
-    "name": "T8_OFF_SPIKEDSHIELD_MORGANA"
-  },
-  {
-    "id": "T4_OFF_SHIELD_AVALON",
-    "name": "T4_OFF_SHIELD_AVALON"
-  },
-  {
-    "id": "T4_OFF_SHIELD_AVALON@1",
-    "name": "T4_OFF_SHIELD_AVALON"
-  },
-  {
-    "id": "T4_OFF_SHIELD_AVALON@2",
-    "name": "T4_OFF_SHIELD_AVALON"
-  },
-  {
-    "id": "T4_OFF_SHIELD_AVALON@3",
-    "name": "T4_OFF_SHIELD_AVALON"
-  },
-  {
-    "id": "T4_OFF_SHIELD_AVALON@4",
-    "name": "T4_OFF_SHIELD_AVALON"
-  },
-  {
-    "id": "T5_OFF_SHIELD_AVALON",
-    "name": "T5_OFF_SHIELD_AVALON"
-  },
-  {
-    "id": "T5_OFF_SHIELD_AVALON@1",
-    "name": "T5_OFF_SHIELD_AVALON"
-  },
-  {
-    "id": "T5_OFF_SHIELD_AVALON@2",
-    "name": "T5_OFF_SHIELD_AVALON"
-  },
-  {
-    "id": "T5_OFF_SHIELD_AVALON@3",
-    "name": "T5_OFF_SHIELD_AVALON"
-  },
-  {
-    "id": "T5_OFF_SHIELD_AVALON@4",
-    "name": "T5_OFF_SHIELD_AVALON"
-  },
-  {
-    "id": "T6_OFF_SHIELD_AVALON",
-    "name": "T6_OFF_SHIELD_AVALON"
-  },
-  {
-    "id": "T6_OFF_SHIELD_AVALON@1",
-    "name": "T6_OFF_SHIELD_AVALON"
-  },
-  {
-    "id": "T6_OFF_SHIELD_AVALON@2",
-    "name": "T6_OFF_SHIELD_AVALON"
-  },
-  {
-    "id": "T6_OFF_SHIELD_AVALON@3",
-    "name": "T6_OFF_SHIELD_AVALON"
-  },
-  {
-    "id": "T6_OFF_SHIELD_AVALON@4",
-    "name": "T6_OFF_SHIELD_AVALON"
-  },
-  {
-    "id": "T7_OFF_SHIELD_AVALON",
-    "name": "T7_OFF_SHIELD_AVALON"
-  },
-  {
-    "id": "T7_OFF_SHIELD_AVALON@1",
-    "name": "T7_OFF_SHIELD_AVALON"
-  },
-  {
-    "id": "T7_OFF_SHIELD_AVALON@2",
-    "name": "T7_OFF_SHIELD_AVALON"
-  },
-  {
-    "id": "T7_OFF_SHIELD_AVALON@3",
-    "name": "T7_OFF_SHIELD_AVALON"
-  },
-  {
-    "id": "T7_OFF_SHIELD_AVALON@4",
-    "name": "T7_OFF_SHIELD_AVALON"
-  },
-  {
-    "id": "T8_OFF_SHIELD_AVALON",
-    "name": "T8_OFF_SHIELD_AVALON"
-  },
-  {
-    "id": "T8_OFF_SHIELD_AVALON@1",
-    "name": "T8_OFF_SHIELD_AVALON"
-  },
-  {
-    "id": "T8_OFF_SHIELD_AVALON@2",
-    "name": "T8_OFF_SHIELD_AVALON"
-  },
-  {
-    "id": "T8_OFF_SHIELD_AVALON@3",
-    "name": "T8_OFF_SHIELD_AVALON"
-  },
-  {
-    "id": "T8_OFF_SHIELD_AVALON@4",
-    "name": "T8_OFF_SHIELD_AVALON"
-  },
-  {
-    "id": "T4_OFF_SHIELD_CRYSTAL",
-    "name": "T4_OFF_SHIELD_CRYSTAL"
-  },
-  {
-    "id": "T4_OFF_SHIELD_CRYSTAL@1",
-    "name": "T4_OFF_SHIELD_CRYSTAL"
-  },
-  {
-    "id": "T4_OFF_SHIELD_CRYSTAL@2",
-    "name": "T4_OFF_SHIELD_CRYSTAL"
-  },
-  {
-    "id": "T4_OFF_SHIELD_CRYSTAL@3",
-    "name": "T4_OFF_SHIELD_CRYSTAL"
-  },
-  {
-    "id": "T4_OFF_SHIELD_CRYSTAL@4",
-    "name": "T4_OFF_SHIELD_CRYSTAL"
-  },
-  {
-    "id": "T5_OFF_SHIELD_CRYSTAL",
-    "name": "T5_OFF_SHIELD_CRYSTAL"
-  },
-  {
-    "id": "T5_OFF_SHIELD_CRYSTAL@1",
-    "name": "T5_OFF_SHIELD_CRYSTAL"
-  },
-  {
-    "id": "T5_OFF_SHIELD_CRYSTAL@2",
-    "name": "T5_OFF_SHIELD_CRYSTAL"
-  },
-  {
-    "id": "T5_OFF_SHIELD_CRYSTAL@3",
-    "name": "T5_OFF_SHIELD_CRYSTAL"
-  },
-  {
-    "id": "T5_OFF_SHIELD_CRYSTAL@4",
-    "name": "T5_OFF_SHIELD_CRYSTAL"
-  },
-  {
-    "id": "T6_OFF_SHIELD_CRYSTAL",
-    "name": "T6_OFF_SHIELD_CRYSTAL"
-  },
-  {
-    "id": "T6_OFF_SHIELD_CRYSTAL@1",
-    "name": "T6_OFF_SHIELD_CRYSTAL"
-  },
-  {
-    "id": "T6_OFF_SHIELD_CRYSTAL@2",
-    "name": "T6_OFF_SHIELD_CRYSTAL"
-  },
-  {
-    "id": "T6_OFF_SHIELD_CRYSTAL@3",
-    "name": "T6_OFF_SHIELD_CRYSTAL"
-  },
-  {
-    "id": "T6_OFF_SHIELD_CRYSTAL@4",
-    "name": "T6_OFF_SHIELD_CRYSTAL"
-  },
-  {
-    "id": "T7_OFF_SHIELD_CRYSTAL",
-    "name": "T7_OFF_SHIELD_CRYSTAL"
-  },
-  {
-    "id": "T7_OFF_SHIELD_CRYSTAL@1",
-    "name": "T7_OFF_SHIELD_CRYSTAL"
-  },
-  {
-    "id": "T7_OFF_SHIELD_CRYSTAL@2",
-    "name": "T7_OFF_SHIELD_CRYSTAL"
-  },
-  {
-    "id": "T7_OFF_SHIELD_CRYSTAL@3",
-    "name": "T7_OFF_SHIELD_CRYSTAL"
-  },
-  {
-    "id": "T7_OFF_SHIELD_CRYSTAL@4",
-    "name": "T7_OFF_SHIELD_CRYSTAL"
-  },
-  {
-    "id": "T8_OFF_SHIELD_CRYSTAL",
-    "name": "T8_OFF_SHIELD_CRYSTAL"
-  },
-  {
-    "id": "T8_OFF_SHIELD_CRYSTAL@1",
-    "name": "T8_OFF_SHIELD_CRYSTAL"
-  },
-  {
-    "id": "T8_OFF_SHIELD_CRYSTAL@2",
-    "name": "T8_OFF_SHIELD_CRYSTAL"
-  },
-  {
-    "id": "T8_OFF_SHIELD_CRYSTAL@3",
-    "name": "T8_OFF_SHIELD_CRYSTAL"
-  },
-  {
-    "id": "T8_OFF_SHIELD_CRYSTAL@4",
-    "name": "T8_OFF_SHIELD_CRYSTAL"
-  },
-  {
-    "id": "T2_OFF_BOOK",
-    "name": "T2_OFF_BOOK"
-  },
-  {
-    "id": "T3_OFF_BOOK",
-    "name": "T3_OFF_BOOK"
-  },
-  {
-    "id": "T4_OFF_BOOK",
-    "name": "T4_OFF_BOOK"
-  },
-  {
-    "id": "T4_OFF_BOOK@1",
-    "name": "T4_OFF_BOOK"
-  },
-  {
-    "id": "T4_OFF_BOOK@2",
-    "name": "T4_OFF_BOOK"
-  },
-  {
-    "id": "T4_OFF_BOOK@3",
-    "name": "T4_OFF_BOOK"
-  },
-  {
-    "id": "T4_OFF_BOOK@4",
-    "name": "T4_OFF_BOOK"
-  },
-  {
-    "id": "T5_OFF_BOOK",
-    "name": "T5_OFF_BOOK"
-  },
-  {
-    "id": "T5_OFF_BOOK@1",
-    "name": "T5_OFF_BOOK"
-  },
-  {
-    "id": "T5_OFF_BOOK@2",
-    "name": "T5_OFF_BOOK"
-  },
-  {
-    "id": "T5_OFF_BOOK@3",
-    "name": "T5_OFF_BOOK"
-  },
-  {
-    "id": "T5_OFF_BOOK@4",
-    "name": "T5_OFF_BOOK"
-  },
-  {
-    "id": "T6_OFF_BOOK",
-    "name": "T6_OFF_BOOK"
-  },
-  {
-    "id": "T6_OFF_BOOK@1",
-    "name": "T6_OFF_BOOK"
-  },
-  {
-    "id": "T6_OFF_BOOK@2",
-    "name": "T6_OFF_BOOK"
-  },
-  {
-    "id": "T6_OFF_BOOK@3",
-    "name": "T6_OFF_BOOK"
-  },
-  {
-    "id": "T6_OFF_BOOK@4",
-    "name": "T6_OFF_BOOK"
-  },
-  {
-    "id": "T7_OFF_BOOK",
-    "name": "T7_OFF_BOOK"
-  },
-  {
-    "id": "T7_OFF_BOOK@1",
-    "name": "T7_OFF_BOOK"
-  },
-  {
-    "id": "T7_OFF_BOOK@2",
-    "name": "T7_OFF_BOOK"
-  },
-  {
-    "id": "T7_OFF_BOOK@3",
-    "name": "T7_OFF_BOOK"
-  },
-  {
-    "id": "T7_OFF_BOOK@4",
-    "name": "T7_OFF_BOOK"
-  },
-  {
-    "id": "T8_OFF_BOOK",
-    "name": "T8_OFF_BOOK"
-  },
-  {
-    "id": "T8_OFF_BOOK@1",
-    "name": "T8_OFF_BOOK"
-  },
-  {
-    "id": "T8_OFF_BOOK@2",
-    "name": "T8_OFF_BOOK"
-  },
-  {
-    "id": "T8_OFF_BOOK@3",
-    "name": "T8_OFF_BOOK"
-  },
-  {
-    "id": "T8_OFF_BOOK@4",
-    "name": "T8_OFF_BOOK"
-  },
-  {
-    "id": "T4_OFF_ORB_MORGANA",
-    "name": "T4_OFF_ORB_MORGANA"
-  },
-  {
-    "id": "T4_OFF_ORB_MORGANA@1",
-    "name": "T4_OFF_ORB_MORGANA"
-  },
-  {
-    "id": "T4_OFF_ORB_MORGANA@2",
-    "name": "T4_OFF_ORB_MORGANA"
-  },
-  {
-    "id": "T4_OFF_ORB_MORGANA@3",
-    "name": "T4_OFF_ORB_MORGANA"
-  },
-  {
-    "id": "T4_OFF_ORB_MORGANA@4",
-    "name": "T4_OFF_ORB_MORGANA"
-  },
-  {
-    "id": "T5_OFF_ORB_MORGANA",
-    "name": "T5_OFF_ORB_MORGANA"
-  },
-  {
-    "id": "T5_OFF_ORB_MORGANA@1",
-    "name": "T5_OFF_ORB_MORGANA"
-  },
-  {
-    "id": "T5_OFF_ORB_MORGANA@2",
-    "name": "T5_OFF_ORB_MORGANA"
-  },
-  {
-    "id": "T5_OFF_ORB_MORGANA@3",
-    "name": "T5_OFF_ORB_MORGANA"
-  },
-  {
-    "id": "T5_OFF_ORB_MORGANA@4",
-    "name": "T5_OFF_ORB_MORGANA"
-  },
-  {
-    "id": "T6_OFF_ORB_MORGANA",
-    "name": "T6_OFF_ORB_MORGANA"
-  },
-  {
-    "id": "T6_OFF_ORB_MORGANA@1",
-    "name": "T6_OFF_ORB_MORGANA"
-  },
-  {
-    "id": "T6_OFF_ORB_MORGANA@2",
-    "name": "T6_OFF_ORB_MORGANA"
-  },
-  {
-    "id": "T6_OFF_ORB_MORGANA@3",
-    "name": "T6_OFF_ORB_MORGANA"
-  },
-  {
-    "id": "T6_OFF_ORB_MORGANA@4",
-    "name": "T6_OFF_ORB_MORGANA"
-  },
-  {
-    "id": "T7_OFF_ORB_MORGANA",
-    "name": "T7_OFF_ORB_MORGANA"
-  },
-  {
-    "id": "T7_OFF_ORB_MORGANA@1",
-    "name": "T7_OFF_ORB_MORGANA"
-  },
-  {
-    "id": "T7_OFF_ORB_MORGANA@2",
-    "name": "T7_OFF_ORB_MORGANA"
-  },
-  {
-    "id": "T7_OFF_ORB_MORGANA@3",
-    "name": "T7_OFF_ORB_MORGANA"
-  },
-  {
-    "id": "T7_OFF_ORB_MORGANA@4",
-    "name": "T7_OFF_ORB_MORGANA"
-  },
-  {
-    "id": "T8_OFF_ORB_MORGANA",
-    "name": "T8_OFF_ORB_MORGANA"
-  },
-  {
-    "id": "T8_OFF_ORB_MORGANA@1",
-    "name": "T8_OFF_ORB_MORGANA"
-  },
-  {
-    "id": "T8_OFF_ORB_MORGANA@2",
-    "name": "T8_OFF_ORB_MORGANA"
-  },
-  {
-    "id": "T8_OFF_ORB_MORGANA@3",
-    "name": "T8_OFF_ORB_MORGANA"
-  },
-  {
-    "id": "T8_OFF_ORB_MORGANA@4",
-    "name": "T8_OFF_ORB_MORGANA"
-  },
-  {
-    "id": "T4_OFF_DEMONSKULL_HELL",
-    "name": "T4_OFF_DEMONSKULL_HELL"
-  },
-  {
-    "id": "T4_OFF_DEMONSKULL_HELL@1",
-    "name": "T4_OFF_DEMONSKULL_HELL"
-  },
-  {
-    "id": "T4_OFF_DEMONSKULL_HELL@2",
-    "name": "T4_OFF_DEMONSKULL_HELL"
-  },
-  {
-    "id": "T4_OFF_DEMONSKULL_HELL@3",
-    "name": "T4_OFF_DEMONSKULL_HELL"
-  },
-  {
-    "id": "T4_OFF_DEMONSKULL_HELL@4",
-    "name": "T4_OFF_DEMONSKULL_HELL"
-  },
-  {
-    "id": "T5_OFF_DEMONSKULL_HELL",
-    "name": "T5_OFF_DEMONSKULL_HELL"
-  },
-  {
-    "id": "T5_OFF_DEMONSKULL_HELL@1",
-    "name": "T5_OFF_DEMONSKULL_HELL"
-  },
-  {
-    "id": "T5_OFF_DEMONSKULL_HELL@2",
-    "name": "T5_OFF_DEMONSKULL_HELL"
-  },
-  {
-    "id": "T5_OFF_DEMONSKULL_HELL@3",
-    "name": "T5_OFF_DEMONSKULL_HELL"
-  },
-  {
-    "id": "T5_OFF_DEMONSKULL_HELL@4",
-    "name": "T5_OFF_DEMONSKULL_HELL"
-  },
-  {
-    "id": "T6_OFF_DEMONSKULL_HELL",
-    "name": "T6_OFF_DEMONSKULL_HELL"
-  },
-  {
-    "id": "T6_OFF_DEMONSKULL_HELL@1",
-    "name": "T6_OFF_DEMONSKULL_HELL"
-  },
-  {
-    "id": "T6_OFF_DEMONSKULL_HELL@2",
-    "name": "T6_OFF_DEMONSKULL_HELL"
-  },
-  {
-    "id": "T6_OFF_DEMONSKULL_HELL@3",
-    "name": "T6_OFF_DEMONSKULL_HELL"
-  },
-  {
-    "id": "T6_OFF_DEMONSKULL_HELL@4",
-    "name": "T6_OFF_DEMONSKULL_HELL"
-  },
-  {
-    "id": "T7_OFF_DEMONSKULL_HELL",
-    "name": "T7_OFF_DEMONSKULL_HELL"
-  },
-  {
-    "id": "T7_OFF_DEMONSKULL_HELL@1",
-    "name": "T7_OFF_DEMONSKULL_HELL"
-  },
-  {
-    "id": "T7_OFF_DEMONSKULL_HELL@2",
-    "name": "T7_OFF_DEMONSKULL_HELL"
-  },
-  {
-    "id": "T7_OFF_DEMONSKULL_HELL@3",
-    "name": "T7_OFF_DEMONSKULL_HELL"
-  },
-  {
-    "id": "T7_OFF_DEMONSKULL_HELL@4",
-    "name": "T7_OFF_DEMONSKULL_HELL"
-  },
-  {
-    "id": "T8_OFF_DEMONSKULL_HELL",
-    "name": "T8_OFF_DEMONSKULL_HELL"
-  },
-  {
-    "id": "T8_OFF_DEMONSKULL_HELL@1",
-    "name": "T8_OFF_DEMONSKULL_HELL"
-  },
-  {
-    "id": "T8_OFF_DEMONSKULL_HELL@2",
-    "name": "T8_OFF_DEMONSKULL_HELL"
-  },
-  {
-    "id": "T8_OFF_DEMONSKULL_HELL@3",
-    "name": "T8_OFF_DEMONSKULL_HELL"
-  },
-  {
-    "id": "T8_OFF_DEMONSKULL_HELL@4",
-    "name": "T8_OFF_DEMONSKULL_HELL"
-  },
-  {
-    "id": "T4_OFF_TOTEM_KEEPER",
-    "name": "T4_OFF_TOTEM_KEEPER"
-  },
-  {
-    "id": "T4_OFF_TOTEM_KEEPER@1",
-    "name": "T4_OFF_TOTEM_KEEPER"
-  },
-  {
-    "id": "T4_OFF_TOTEM_KEEPER@2",
-    "name": "T4_OFF_TOTEM_KEEPER"
-  },
-  {
-    "id": "T4_OFF_TOTEM_KEEPER@3",
-    "name": "T4_OFF_TOTEM_KEEPER"
-  },
-  {
-    "id": "T4_OFF_TOTEM_KEEPER@4",
-    "name": "T4_OFF_TOTEM_KEEPER"
-  },
-  {
-    "id": "T5_OFF_TOTEM_KEEPER",
-    "name": "T5_OFF_TOTEM_KEEPER"
-  },
-  {
-    "id": "T5_OFF_TOTEM_KEEPER@1",
-    "name": "T5_OFF_TOTEM_KEEPER"
-  },
-  {
-    "id": "T5_OFF_TOTEM_KEEPER@2",
-    "name": "T5_OFF_TOTEM_KEEPER"
-  },
-  {
-    "id": "T5_OFF_TOTEM_KEEPER@3",
-    "name": "T5_OFF_TOTEM_KEEPER"
-  },
-  {
-    "id": "T5_OFF_TOTEM_KEEPER@4",
-    "name": "T5_OFF_TOTEM_KEEPER"
-  },
-  {
-    "id": "T6_OFF_TOTEM_KEEPER",
-    "name": "T6_OFF_TOTEM_KEEPER"
-  },
-  {
-    "id": "T6_OFF_TOTEM_KEEPER@1",
-    "name": "T6_OFF_TOTEM_KEEPER"
-  },
-  {
-    "id": "T6_OFF_TOTEM_KEEPER@2",
-    "name": "T6_OFF_TOTEM_KEEPER"
-  },
-  {
-    "id": "T6_OFF_TOTEM_KEEPER@3",
-    "name": "T6_OFF_TOTEM_KEEPER"
-  },
-  {
-    "id": "T6_OFF_TOTEM_KEEPER@4",
-    "name": "T6_OFF_TOTEM_KEEPER"
-  },
-  {
-    "id": "T7_OFF_TOTEM_KEEPER",
-    "name": "T7_OFF_TOTEM_KEEPER"
-  },
-  {
-    "id": "T7_OFF_TOTEM_KEEPER@1",
-    "name": "T7_OFF_TOTEM_KEEPER"
-  },
-  {
-    "id": "T7_OFF_TOTEM_KEEPER@2",
-    "name": "T7_OFF_TOTEM_KEEPER"
-  },
-  {
-    "id": "T7_OFF_TOTEM_KEEPER@3",
-    "name": "T7_OFF_TOTEM_KEEPER"
-  },
-  {
-    "id": "T7_OFF_TOTEM_KEEPER@4",
-    "name": "T7_OFF_TOTEM_KEEPER"
-  },
-  {
-    "id": "T8_OFF_TOTEM_KEEPER",
-    "name": "T8_OFF_TOTEM_KEEPER"
-  },
-  {
-    "id": "T8_OFF_TOTEM_KEEPER@1",
-    "name": "T8_OFF_TOTEM_KEEPER"
-  },
-  {
-    "id": "T8_OFF_TOTEM_KEEPER@2",
-    "name": "T8_OFF_TOTEM_KEEPER"
-  },
-  {
-    "id": "T8_OFF_TOTEM_KEEPER@3",
-    "name": "T8_OFF_TOTEM_KEEPER"
-  },
-  {
-    "id": "T8_OFF_TOTEM_KEEPER@4",
-    "name": "T8_OFF_TOTEM_KEEPER"
-  },
-  {
-    "id": "T4_OFF_CENSER_AVALON",
-    "name": "T4_OFF_CENSER_AVALON"
-  },
-  {
-    "id": "T4_OFF_CENSER_AVALON@1",
-    "name": "T4_OFF_CENSER_AVALON"
-  },
-  {
-    "id": "T4_OFF_CENSER_AVALON@2",
-    "name": "T4_OFF_CENSER_AVALON"
-  },
-  {
-    "id": "T4_OFF_CENSER_AVALON@3",
-    "name": "T4_OFF_CENSER_AVALON"
-  },
-  {
-    "id": "T4_OFF_CENSER_AVALON@4",
-    "name": "T4_OFF_CENSER_AVALON"
-  },
-  {
-    "id": "T5_OFF_CENSER_AVALON",
-    "name": "T5_OFF_CENSER_AVALON"
-  },
-  {
-    "id": "T5_OFF_CENSER_AVALON@1",
-    "name": "T5_OFF_CENSER_AVALON"
-  },
-  {
-    "id": "T5_OFF_CENSER_AVALON@2",
-    "name": "T5_OFF_CENSER_AVALON"
-  },
-  {
-    "id": "T5_OFF_CENSER_AVALON@3",
-    "name": "T5_OFF_CENSER_AVALON"
-  },
-  {
-    "id": "T5_OFF_CENSER_AVALON@4",
-    "name": "T5_OFF_CENSER_AVALON"
-  },
-  {
-    "id": "T6_OFF_CENSER_AVALON",
-    "name": "T6_OFF_CENSER_AVALON"
-  },
-  {
-    "id": "T6_OFF_CENSER_AVALON@1",
-    "name": "T6_OFF_CENSER_AVALON"
-  },
-  {
-    "id": "T6_OFF_CENSER_AVALON@2",
-    "name": "T6_OFF_CENSER_AVALON"
-  },
-  {
-    "id": "T6_OFF_CENSER_AVALON@3",
-    "name": "T6_OFF_CENSER_AVALON"
-  },
-  {
-    "id": "T6_OFF_CENSER_AVALON@4",
-    "name": "T6_OFF_CENSER_AVALON"
-  },
-  {
-    "id": "T7_OFF_CENSER_AVALON",
-    "name": "T7_OFF_CENSER_AVALON"
-  },
-  {
-    "id": "T7_OFF_CENSER_AVALON@1",
-    "name": "T7_OFF_CENSER_AVALON"
-  },
-  {
-    "id": "T7_OFF_CENSER_AVALON@2",
-    "name": "T7_OFF_CENSER_AVALON"
-  },
-  {
-    "id": "T7_OFF_CENSER_AVALON@3",
-    "name": "T7_OFF_CENSER_AVALON"
-  },
-  {
-    "id": "T7_OFF_CENSER_AVALON@4",
-    "name": "T7_OFF_CENSER_AVALON"
-  },
-  {
-    "id": "T8_OFF_CENSER_AVALON",
-    "name": "T8_OFF_CENSER_AVALON"
-  },
-  {
-    "id": "T8_OFF_CENSER_AVALON@1",
-    "name": "T8_OFF_CENSER_AVALON"
-  },
-  {
-    "id": "T8_OFF_CENSER_AVALON@2",
-    "name": "T8_OFF_CENSER_AVALON"
-  },
-  {
-    "id": "T8_OFF_CENSER_AVALON@3",
-    "name": "T8_OFF_CENSER_AVALON"
-  },
-  {
-    "id": "T8_OFF_CENSER_AVALON@4",
-    "name": "T8_OFF_CENSER_AVALON"
-  },
-  {
-    "id": "T4_OFF_TOME_CRYSTAL",
-    "name": "T4_OFF_TOME_CRYSTAL"
-  },
-  {
-    "id": "T4_OFF_TOME_CRYSTAL@1",
-    "name": "T4_OFF_TOME_CRYSTAL"
-  },
-  {
-    "id": "T4_OFF_TOME_CRYSTAL@2",
-    "name": "T4_OFF_TOME_CRYSTAL"
-  },
-  {
-    "id": "T4_OFF_TOME_CRYSTAL@3",
-    "name": "T4_OFF_TOME_CRYSTAL"
-  },
-  {
-    "id": "T4_OFF_TOME_CRYSTAL@4",
-    "name": "T4_OFF_TOME_CRYSTAL"
-  },
-  {
-    "id": "T5_OFF_TOME_CRYSTAL",
-    "name": "T5_OFF_TOME_CRYSTAL"
-  },
-  {
-    "id": "T5_OFF_TOME_CRYSTAL@1",
-    "name": "T5_OFF_TOME_CRYSTAL"
-  },
-  {
-    "id": "T5_OFF_TOME_CRYSTAL@2",
-    "name": "T5_OFF_TOME_CRYSTAL"
-  },
-  {
-    "id": "T5_OFF_TOME_CRYSTAL@3",
-    "name": "T5_OFF_TOME_CRYSTAL"
-  },
-  {
-    "id": "T5_OFF_TOME_CRYSTAL@4",
-    "name": "T5_OFF_TOME_CRYSTAL"
-  },
-  {
-    "id": "T6_OFF_TOME_CRYSTAL",
-    "name": "T6_OFF_TOME_CRYSTAL"
-  },
-  {
-    "id": "T6_OFF_TOME_CRYSTAL@1",
-    "name": "T6_OFF_TOME_CRYSTAL"
-  },
-  {
-    "id": "T6_OFF_TOME_CRYSTAL@2",
-    "name": "T6_OFF_TOME_CRYSTAL"
-  },
-  {
-    "id": "T6_OFF_TOME_CRYSTAL@3",
-    "name": "T6_OFF_TOME_CRYSTAL"
-  },
-  {
-    "id": "T6_OFF_TOME_CRYSTAL@4",
-    "name": "T6_OFF_TOME_CRYSTAL"
-  },
-  {
-    "id": "T7_OFF_TOME_CRYSTAL",
-    "name": "T7_OFF_TOME_CRYSTAL"
-  },
-  {
-    "id": "T7_OFF_TOME_CRYSTAL@1",
-    "name": "T7_OFF_TOME_CRYSTAL"
-  },
-  {
-    "id": "T7_OFF_TOME_CRYSTAL@2",
-    "name": "T7_OFF_TOME_CRYSTAL"
-  },
-  {
-    "id": "T7_OFF_TOME_CRYSTAL@3",
-    "name": "T7_OFF_TOME_CRYSTAL"
-  },
-  {
-    "id": "T7_OFF_TOME_CRYSTAL@4",
-    "name": "T7_OFF_TOME_CRYSTAL"
-  },
-  {
-    "id": "T8_OFF_TOME_CRYSTAL",
-    "name": "T8_OFF_TOME_CRYSTAL"
-  },
-  {
-    "id": "T8_OFF_TOME_CRYSTAL@1",
-    "name": "T8_OFF_TOME_CRYSTAL"
-  },
-  {
-    "id": "T8_OFF_TOME_CRYSTAL@2",
-    "name": "T8_OFF_TOME_CRYSTAL"
-  },
-  {
-    "id": "T8_OFF_TOME_CRYSTAL@3",
-    "name": "T8_OFF_TOME_CRYSTAL"
-  },
-  {
-    "id": "T8_OFF_TOME_CRYSTAL@4",
-    "name": "T8_OFF_TOME_CRYSTAL"
-  },
-  {
-    "id": "T3_OFF_TORCH",
-    "name": "T3_OFF_TORCH"
-  },
-  {
-    "id": "T4_OFF_TORCH",
-    "name": "T4_OFF_TORCH"
-  },
-  {
-    "id": "T4_OFF_TORCH@1",
-    "name": "T4_OFF_TORCH"
-  },
-  {
-    "id": "T4_OFF_TORCH@2",
-    "name": "T4_OFF_TORCH"
-  },
-  {
-    "id": "T4_OFF_TORCH@3",
-    "name": "T4_OFF_TORCH"
-  },
-  {
-    "id": "T4_OFF_TORCH@4",
-    "name": "T4_OFF_TORCH"
-  },
-  {
-    "id": "T5_OFF_TORCH",
-    "name": "T5_OFF_TORCH"
-  },
-  {
-    "id": "T5_OFF_TORCH@1",
-    "name": "T5_OFF_TORCH"
-  },
-  {
-    "id": "T5_OFF_TORCH@2",
-    "name": "T5_OFF_TORCH"
-  },
-  {
-    "id": "T5_OFF_TORCH@3",
-    "name": "T5_OFF_TORCH"
-  },
-  {
-    "id": "T5_OFF_TORCH@4",
-    "name": "T5_OFF_TORCH"
-  },
-  {
-    "id": "T6_OFF_TORCH",
-    "name": "T6_OFF_TORCH"
-  },
-  {
-    "id": "T6_OFF_TORCH@1",
-    "name": "T6_OFF_TORCH"
-  },
-  {
-    "id": "T6_OFF_TORCH@2",
-    "name": "T6_OFF_TORCH"
-  },
-  {
-    "id": "T6_OFF_TORCH@3",
-    "name": "T6_OFF_TORCH"
-  },
-  {
-    "id": "T6_OFF_TORCH@4",
-    "name": "T6_OFF_TORCH"
-  },
-  {
-    "id": "T7_OFF_TORCH",
-    "name": "T7_OFF_TORCH"
-  },
-  {
-    "id": "T7_OFF_TORCH@1",
-    "name": "T7_OFF_TORCH"
-  },
-  {
-    "id": "T7_OFF_TORCH@2",
-    "name": "T7_OFF_TORCH"
-  },
-  {
-    "id": "T7_OFF_TORCH@3",
-    "name": "T7_OFF_TORCH"
-  },
-  {
-    "id": "T7_OFF_TORCH@4",
-    "name": "T7_OFF_TORCH"
-  },
-  {
-    "id": "T8_OFF_TORCH",
-    "name": "T8_OFF_TORCH"
-  },
-  {
-    "id": "T8_OFF_TORCH@1",
-    "name": "T8_OFF_TORCH"
-  },
-  {
-    "id": "T8_OFF_TORCH@2",
-    "name": "T8_OFF_TORCH"
-  },
-  {
-    "id": "T8_OFF_TORCH@3",
-    "name": "T8_OFF_TORCH"
-  },
-  {
-    "id": "T8_OFF_TORCH@4",
-    "name": "T8_OFF_TORCH"
-  },
-  {
-    "id": "T4_OFF_HORN_KEEPER",
-    "name": "T4_OFF_HORN_KEEPER"
-  },
-  {
-    "id": "T4_OFF_HORN_KEEPER@1",
-    "name": "T4_OFF_HORN_KEEPER"
-  },
-  {
-    "id": "T4_OFF_HORN_KEEPER@2",
-    "name": "T4_OFF_HORN_KEEPER"
-  },
-  {
-    "id": "T4_OFF_HORN_KEEPER@3",
-    "name": "T4_OFF_HORN_KEEPER"
-  },
-  {
-    "id": "T4_OFF_HORN_KEEPER@4",
-    "name": "T4_OFF_HORN_KEEPER"
-  },
-  {
-    "id": "T5_OFF_HORN_KEEPER",
-    "name": "T5_OFF_HORN_KEEPER"
-  },
-  {
-    "id": "T5_OFF_HORN_KEEPER@1",
-    "name": "T5_OFF_HORN_KEEPER"
-  },
-  {
-    "id": "T5_OFF_HORN_KEEPER@2",
-    "name": "T5_OFF_HORN_KEEPER"
-  },
-  {
-    "id": "T5_OFF_HORN_KEEPER@3",
-    "name": "T5_OFF_HORN_KEEPER"
-  },
-  {
-    "id": "T5_OFF_HORN_KEEPER@4",
-    "name": "T5_OFF_HORN_KEEPER"
-  },
-  {
-    "id": "T6_OFF_HORN_KEEPER",
-    "name": "T6_OFF_HORN_KEEPER"
-  },
-  {
-    "id": "T6_OFF_HORN_KEEPER@1",
-    "name": "T6_OFF_HORN_KEEPER"
-  },
-  {
-    "id": "T6_OFF_HORN_KEEPER@2",
-    "name": "T6_OFF_HORN_KEEPER"
-  },
-  {
-    "id": "T6_OFF_HORN_KEEPER@3",
-    "name": "T6_OFF_HORN_KEEPER"
-  },
-  {
-    "id": "T6_OFF_HORN_KEEPER@4",
-    "name": "T6_OFF_HORN_KEEPER"
-  },
-  {
-    "id": "T7_OFF_HORN_KEEPER",
-    "name": "T7_OFF_HORN_KEEPER"
-  },
-  {
-    "id": "T7_OFF_HORN_KEEPER@1",
-    "name": "T7_OFF_HORN_KEEPER"
-  },
-  {
-    "id": "T7_OFF_HORN_KEEPER@2",
-    "name": "T7_OFF_HORN_KEEPER"
-  },
-  {
-    "id": "T7_OFF_HORN_KEEPER@3",
-    "name": "T7_OFF_HORN_KEEPER"
-  },
-  {
-    "id": "T7_OFF_HORN_KEEPER@4",
-    "name": "T7_OFF_HORN_KEEPER"
-  },
-  {
-    "id": "T8_OFF_HORN_KEEPER",
-    "name": "T8_OFF_HORN_KEEPER"
-  },
-  {
-    "id": "T8_OFF_HORN_KEEPER@1",
-    "name": "T8_OFF_HORN_KEEPER"
-  },
-  {
-    "id": "T8_OFF_HORN_KEEPER@2",
-    "name": "T8_OFF_HORN_KEEPER"
-  },
-  {
-    "id": "T8_OFF_HORN_KEEPER@3",
-    "name": "T8_OFF_HORN_KEEPER"
-  },
-  {
-    "id": "T8_OFF_HORN_KEEPER@4",
-    "name": "T8_OFF_HORN_KEEPER"
-  },
-  {
-    "id": "T4_OFF_TALISMAN_AVALON",
-    "name": "T4_OFF_TALISMAN_AVALON"
-  },
-  {
-    "id": "T4_OFF_TALISMAN_AVALON@1",
-    "name": "T4_OFF_TALISMAN_AVALON"
-  },
-  {
-    "id": "T4_OFF_TALISMAN_AVALON@2",
-    "name": "T4_OFF_TALISMAN_AVALON"
-  },
-  {
-    "id": "T4_OFF_TALISMAN_AVALON@3",
-    "name": "T4_OFF_TALISMAN_AVALON"
-  },
-  {
-    "id": "T4_OFF_TALISMAN_AVALON@4",
-    "name": "T4_OFF_TALISMAN_AVALON"
-  },
-  {
-    "id": "T5_OFF_TALISMAN_AVALON",
-    "name": "T5_OFF_TALISMAN_AVALON"
-  },
-  {
-    "id": "T5_OFF_TALISMAN_AVALON@1",
-    "name": "T5_OFF_TALISMAN_AVALON"
-  },
-  {
-    "id": "T5_OFF_TALISMAN_AVALON@2",
-    "name": "T5_OFF_TALISMAN_AVALON"
-  },
-  {
-    "id": "T5_OFF_TALISMAN_AVALON@3",
-    "name": "T5_OFF_TALISMAN_AVALON"
-  },
-  {
-    "id": "T5_OFF_TALISMAN_AVALON@4",
-    "name": "T5_OFF_TALISMAN_AVALON"
-  },
-  {
-    "id": "T6_OFF_TALISMAN_AVALON",
-    "name": "T6_OFF_TALISMAN_AVALON"
-  },
-  {
-    "id": "T6_OFF_TALISMAN_AVALON@1",
-    "name": "T6_OFF_TALISMAN_AVALON"
-  },
-  {
-    "id": "T6_OFF_TALISMAN_AVALON@2",
-    "name": "T6_OFF_TALISMAN_AVALON"
-  },
-  {
-    "id": "T6_OFF_TALISMAN_AVALON@3",
-    "name": "T6_OFF_TALISMAN_AVALON"
-  },
-  {
-    "id": "T6_OFF_TALISMAN_AVALON@4",
-    "name": "T6_OFF_TALISMAN_AVALON"
-  },
-  {
-    "id": "T7_OFF_TALISMAN_AVALON",
-    "name": "T7_OFF_TALISMAN_AVALON"
-  },
-  {
-    "id": "T7_OFF_TALISMAN_AVALON@1",
-    "name": "T7_OFF_TALISMAN_AVALON"
-  },
-  {
-    "id": "T7_OFF_TALISMAN_AVALON@2",
-    "name": "T7_OFF_TALISMAN_AVALON"
-  },
-  {
-    "id": "T7_OFF_TALISMAN_AVALON@3",
-    "name": "T7_OFF_TALISMAN_AVALON"
-  },
-  {
-    "id": "T7_OFF_TALISMAN_AVALON@4",
-    "name": "T7_OFF_TALISMAN_AVALON"
-  },
-  {
-    "id": "T8_OFF_TALISMAN_AVALON",
-    "name": "T8_OFF_TALISMAN_AVALON"
-  },
-  {
-    "id": "T8_OFF_TALISMAN_AVALON@1",
-    "name": "T8_OFF_TALISMAN_AVALON"
-  },
-  {
-    "id": "T8_OFF_TALISMAN_AVALON@2",
-    "name": "T8_OFF_TALISMAN_AVALON"
-  },
-  {
-    "id": "T8_OFF_TALISMAN_AVALON@3",
-    "name": "T8_OFF_TALISMAN_AVALON"
-  },
-  {
-    "id": "T8_OFF_TALISMAN_AVALON@4",
-    "name": "T8_OFF_TALISMAN_AVALON"
-  },
-  {
-    "id": "T4_OFF_LAMP_UNDEAD",
-    "name": "T4_OFF_LAMP_UNDEAD"
-  },
-  {
-    "id": "T4_OFF_LAMP_UNDEAD@1",
-    "name": "T4_OFF_LAMP_UNDEAD"
-  },
-  {
-    "id": "T4_OFF_LAMP_UNDEAD@2",
-    "name": "T4_OFF_LAMP_UNDEAD"
-  },
-  {
-    "id": "T4_OFF_LAMP_UNDEAD@3",
-    "name": "T4_OFF_LAMP_UNDEAD"
-  },
-  {
-    "id": "T4_OFF_LAMP_UNDEAD@4",
-    "name": "T4_OFF_LAMP_UNDEAD"
-  },
-  {
-    "id": "T5_OFF_LAMP_UNDEAD",
-    "name": "T5_OFF_LAMP_UNDEAD"
-  },
-  {
-    "id": "T5_OFF_LAMP_UNDEAD@1",
-    "name": "T5_OFF_LAMP_UNDEAD"
-  },
-  {
-    "id": "T5_OFF_LAMP_UNDEAD@2",
-    "name": "T5_OFF_LAMP_UNDEAD"
-  },
-  {
-    "id": "T5_OFF_LAMP_UNDEAD@3",
-    "name": "T5_OFF_LAMP_UNDEAD"
-  },
-  {
-    "id": "T5_OFF_LAMP_UNDEAD@4",
-    "name": "T5_OFF_LAMP_UNDEAD"
-  },
-  {
-    "id": "T6_OFF_LAMP_UNDEAD",
-    "name": "T6_OFF_LAMP_UNDEAD"
-  },
-  {
-    "id": "T6_OFF_LAMP_UNDEAD@1",
-    "name": "T6_OFF_LAMP_UNDEAD"
-  },
-  {
-    "id": "T6_OFF_LAMP_UNDEAD@2",
-    "name": "T6_OFF_LAMP_UNDEAD"
-  },
-  {
-    "id": "T6_OFF_LAMP_UNDEAD@3",
-    "name": "T6_OFF_LAMP_UNDEAD"
-  },
-  {
-    "id": "T6_OFF_LAMP_UNDEAD@4",
-    "name": "T6_OFF_LAMP_UNDEAD"
-  },
-  {
-    "id": "T7_OFF_LAMP_UNDEAD",
-    "name": "T7_OFF_LAMP_UNDEAD"
-  },
-  {
-    "id": "T7_OFF_LAMP_UNDEAD@1",
-    "name": "T7_OFF_LAMP_UNDEAD"
-  },
-  {
-    "id": "T7_OFF_LAMP_UNDEAD@2",
-    "name": "T7_OFF_LAMP_UNDEAD"
-  },
-  {
-    "id": "T7_OFF_LAMP_UNDEAD@3",
-    "name": "T7_OFF_LAMP_UNDEAD"
-  },
-  {
-    "id": "T7_OFF_LAMP_UNDEAD@4",
-    "name": "T7_OFF_LAMP_UNDEAD"
-  },
-  {
-    "id": "T8_OFF_LAMP_UNDEAD",
-    "name": "T8_OFF_LAMP_UNDEAD"
-  },
-  {
-    "id": "T8_OFF_LAMP_UNDEAD@1",
-    "name": "T8_OFF_LAMP_UNDEAD"
-  },
-  {
-    "id": "T8_OFF_LAMP_UNDEAD@2",
-    "name": "T8_OFF_LAMP_UNDEAD"
-  },
-  {
-    "id": "T8_OFF_LAMP_UNDEAD@3",
-    "name": "T8_OFF_LAMP_UNDEAD"
-  },
-  {
-    "id": "T8_OFF_LAMP_UNDEAD@4",
-    "name": "T8_OFF_LAMP_UNDEAD"
-  },
-  {
-    "id": "T4_OFF_JESTERCANE_HELL",
-    "name": "T4_OFF_JESTERCANE_HELL"
-  },
-  {
-    "id": "T4_OFF_JESTERCANE_HELL@1",
-    "name": "T4_OFF_JESTERCANE_HELL"
-  },
-  {
-    "id": "T4_OFF_JESTERCANE_HELL@2",
-    "name": "T4_OFF_JESTERCANE_HELL"
-  },
-  {
-    "id": "T4_OFF_JESTERCANE_HELL@3",
-    "name": "T4_OFF_JESTERCANE_HELL"
-  },
-  {
-    "id": "T4_OFF_JESTERCANE_HELL@4",
-    "name": "T4_OFF_JESTERCANE_HELL"
-  },
-  {
-    "id": "T5_OFF_JESTERCANE_HELL",
-    "name": "T5_OFF_JESTERCANE_HELL"
-  },
-  {
-    "id": "T5_OFF_JESTERCANE_HELL@1",
-    "name": "T5_OFF_JESTERCANE_HELL"
-  },
-  {
-    "id": "T5_OFF_JESTERCANE_HELL@2",
-    "name": "T5_OFF_JESTERCANE_HELL"
-  },
-  {
-    "id": "T5_OFF_JESTERCANE_HELL@3",
-    "name": "T5_OFF_JESTERCANE_HELL"
-  },
-  {
-    "id": "T5_OFF_JESTERCANE_HELL@4",
-    "name": "T5_OFF_JESTERCANE_HELL"
-  },
-  {
-    "id": "T6_OFF_JESTERCANE_HELL",
-    "name": "T6_OFF_JESTERCANE_HELL"
-  },
-  {
-    "id": "T6_OFF_JESTERCANE_HELL@1",
-    "name": "T6_OFF_JESTERCANE_HELL"
-  },
-  {
-    "id": "T6_OFF_JESTERCANE_HELL@2",
-    "name": "T6_OFF_JESTERCANE_HELL"
-  },
-  {
-    "id": "T6_OFF_JESTERCANE_HELL@3",
-    "name": "T6_OFF_JESTERCANE_HELL"
-  },
-  {
-    "id": "T6_OFF_JESTERCANE_HELL@4",
-    "name": "T6_OFF_JESTERCANE_HELL"
-  },
-  {
-    "id": "T7_OFF_JESTERCANE_HELL",
-    "name": "T7_OFF_JESTERCANE_HELL"
-  },
-  {
-    "id": "T7_OFF_JESTERCANE_HELL@1",
-    "name": "T7_OFF_JESTERCANE_HELL"
-  },
-  {
-    "id": "T7_OFF_JESTERCANE_HELL@2",
-    "name": "T7_OFF_JESTERCANE_HELL"
-  },
-  {
-    "id": "T7_OFF_JESTERCANE_HELL@3",
-    "name": "T7_OFF_JESTERCANE_HELL"
-  },
-  {
-    "id": "T7_OFF_JESTERCANE_HELL@4",
-    "name": "T7_OFF_JESTERCANE_HELL"
-  },
-  {
-    "id": "T8_OFF_JESTERCANE_HELL",
-    "name": "T8_OFF_JESTERCANE_HELL"
-  },
-  {
-    "id": "T8_OFF_JESTERCANE_HELL@1",
-    "name": "T8_OFF_JESTERCANE_HELL"
-  },
-  {
-    "id": "T8_OFF_JESTERCANE_HELL@2",
-    "name": "T8_OFF_JESTERCANE_HELL"
-  },
-  {
-    "id": "T8_OFF_JESTERCANE_HELL@3",
-    "name": "T8_OFF_JESTERCANE_HELL"
-  },
-  {
-    "id": "T8_OFF_JESTERCANE_HELL@4",
-    "name": "T8_OFF_JESTERCANE_HELL"
-  },
-  {
-    "id": "T4_OFF_TORCH_CRYSTAL",
-    "name": "T4_OFF_TORCH_CRYSTAL"
-  },
-  {
-    "id": "T4_OFF_TORCH_CRYSTAL@1",
-    "name": "T4_OFF_TORCH_CRYSTAL"
-  },
-  {
-    "id": "T4_OFF_TORCH_CRYSTAL@2",
-    "name": "T4_OFF_TORCH_CRYSTAL"
-  },
-  {
-    "id": "T4_OFF_TORCH_CRYSTAL@3",
-    "name": "T4_OFF_TORCH_CRYSTAL"
-  },
-  {
-    "id": "T4_OFF_TORCH_CRYSTAL@4",
-    "name": "T4_OFF_TORCH_CRYSTAL"
-  },
-  {
-    "id": "T5_OFF_TORCH_CRYSTAL",
-    "name": "T5_OFF_TORCH_CRYSTAL"
-  },
-  {
-    "id": "T5_OFF_TORCH_CRYSTAL@1",
-    "name": "T5_OFF_TORCH_CRYSTAL"
-  },
-  {
-    "id": "T5_OFF_TORCH_CRYSTAL@2",
-    "name": "T5_OFF_TORCH_CRYSTAL"
-  },
-  {
-    "id": "T5_OFF_TORCH_CRYSTAL@3",
-    "name": "T5_OFF_TORCH_CRYSTAL"
-  },
-  {
-    "id": "T5_OFF_TORCH_CRYSTAL@4",
-    "name": "T5_OFF_TORCH_CRYSTAL"
-  },
-  {
-    "id": "T6_OFF_TORCH_CRYSTAL",
-    "name": "T6_OFF_TORCH_CRYSTAL"
-  },
-  {
-    "id": "T6_OFF_TORCH_CRYSTAL@1",
-    "name": "T6_OFF_TORCH_CRYSTAL"
-  },
-  {
-    "id": "T6_OFF_TORCH_CRYSTAL@2",
-    "name": "T6_OFF_TORCH_CRYSTAL"
-  },
-  {
-    "id": "T6_OFF_TORCH_CRYSTAL@3",
-    "name": "T6_OFF_TORCH_CRYSTAL"
-  },
-  {
-    "id": "T6_OFF_TORCH_CRYSTAL@4",
-    "name": "T6_OFF_TORCH_CRYSTAL"
-  },
-  {
-    "id": "T7_OFF_TORCH_CRYSTAL",
-    "name": "T7_OFF_TORCH_CRYSTAL"
-  },
-  {
-    "id": "T7_OFF_TORCH_CRYSTAL@1",
-    "name": "T7_OFF_TORCH_CRYSTAL"
-  },
-  {
-    "id": "T7_OFF_TORCH_CRYSTAL@2",
-    "name": "T7_OFF_TORCH_CRYSTAL"
-  },
-  {
-    "id": "T7_OFF_TORCH_CRYSTAL@3",
-    "name": "T7_OFF_TORCH_CRYSTAL"
-  },
-  {
-    "id": "T7_OFF_TORCH_CRYSTAL@4",
-    "name": "T7_OFF_TORCH_CRYSTAL"
-  },
-  {
-    "id": "T8_OFF_TORCH_CRYSTAL",
-    "name": "T8_OFF_TORCH_CRYSTAL"
-  },
-  {
-    "id": "T8_OFF_TORCH_CRYSTAL@1",
-    "name": "T8_OFF_TORCH_CRYSTAL"
-  },
-  {
-    "id": "T8_OFF_TORCH_CRYSTAL@2",
-    "name": "T8_OFF_TORCH_CRYSTAL"
-  },
-  {
-    "id": "T8_OFF_TORCH_CRYSTAL@3",
-    "name": "T8_OFF_TORCH_CRYSTAL"
-  },
-  {
-    "id": "T8_OFF_TORCH_CRYSTAL@4",
-    "name": "T8_OFF_TORCH_CRYSTAL"
-  },
-  {
-    "id": "UNIQUE_INTERNAL_OFF_SCROLL_GAMEMASTER",
-    "name": "UNIQUE_INTERNAL_OFF_SCROLL_GAMEMASTER"
-  },
-  {
-    "id": "UNIQUE_OFF_VANITY_WEDDING_DRESS",
-    "name": "UNIQUE_OFF_VANITY_WEDDING_DRESS"
-  },
-  {
-    "id": "UNIQUE_OFF_VANITY_WEDDING_TUXEDO",
-    "name": "UNIQUE_OFF_VANITY_WEDDING_TUXEDO"
-  },
-  {
-    "id": "UNIQUE_OFF_VANITY_PRIEST",
-    "name": "UNIQUE_OFF_VANITY_PRIEST"
-  },
-  {
-    "id": "UNIQUE_OFF_VANITY_INNKEEPER",
-    "name": "UNIQUE_OFF_VANITY_INNKEEPER"
-  },
-  {
-    "id": "UNIQUE_OFF_VANITY_PIRATE",
-    "name": "UNIQUE_OFF_VANITY_PIRATE"
-  },
-  {
-    "id": "UNIQUE_OFF_VANITY_CHARITY_MARCH2020",
-    "name": "UNIQUE_OFF_VANITY_CHARITY_MARCH2020"
-  },
-  {
-    "id": "UNIQUE_OFF_VANITY_PUMPKIN_HAPPY",
-    "name": "UNIQUE_OFF_VANITY_PUMPKIN_HAPPY"
-  },
-  {
-    "id": "UNIQUE_OFF_VANITY_PUMPKIN_SAD",
-    "name": "UNIQUE_OFF_VANITY_PUMPKIN_SAD"
-  },
-  {
-    "id": "UNIQUE_OFF_VANITY_PUMPKIN_ANGRY",
-    "name": "UNIQUE_OFF_VANITY_PUMPKIN_ANGRY"
-  },
-  {
-    "id": "UNIQUE_OFF_VANITY_PIRATE_RED",
-    "name": "UNIQUE_OFF_VANITY_PIRATE_RED"
-  },
-  {
-    "id": "UNIQUE_OFF_VANITY_PIRATE_GREEN",
-    "name": "UNIQUE_OFF_VANITY_PIRATE_GREEN"
-  },
-  {
-    "id": "UNIQUE_OFF_VANITY_PIRATE_COCKATOO",
-    "name": "UNIQUE_OFF_VANITY_PIRATE_COCKATOO"
-  },
-  {
-    "id": "UNIQUE_OFF_VANITY_PRIEST_RED",
-    "name": "UNIQUE_OFF_VANITY_PRIEST_RED"
-  }
+	{
+		"id": "T1_OFF_SHIELD",
+		"name": "Beginner's Shield"
+	},
+	{
+		"id": "T2_OFF_SHIELD",
+		"name": "Novice's Shield"
+	},
+	{
+		"id": "T3_OFF_SHIELD",
+		"name": "Journeyman's Shield"
+	},
+	{
+		"id": "T4_OFF_SHIELD",
+		"name": "Adept's Shield"
+	},
+	{
+		"id": "T4_OFF_SHIELD@1",
+		"name": "Adept's Shield (Uncommon)"
+	},
+	{
+		"id": "T4_OFF_SHIELD@2",
+		"name": "Adept's Shield (Rare)"
+	},
+	{
+		"id": "T4_OFF_SHIELD@3",
+		"name": "Adept's Shield (Exceptional)"
+	},
+	{
+		"id": "T4_OFF_SHIELD@4",
+		"name": "Adept's Shield (Pristine)"
+	},
+	{
+		"id": "T5_OFF_SHIELD",
+		"name": "Expert's Shield"
+	},
+	{
+		"id": "T5_OFF_SHIELD@1",
+		"name": "Expert's Shield (Uncommon)"
+	},
+	{
+		"id": "T5_OFF_SHIELD@2",
+		"name": "Expert's Shield (Rare)"
+	},
+	{
+		"id": "T5_OFF_SHIELD@3",
+		"name": "Expert's Shield (Exceptional)"
+	},
+	{
+		"id": "T5_OFF_SHIELD@4",
+		"name": "Expert's Shield (Pristine)"
+	},
+	{
+		"id": "T6_OFF_SHIELD",
+		"name": "Master's Shield"
+	},
+	{
+		"id": "T6_OFF_SHIELD@1",
+		"name": "Master's Shield (Uncommon)"
+	},
+	{
+		"id": "T6_OFF_SHIELD@2",
+		"name": "Master's Shield (Rare)"
+	},
+	{
+		"id": "T6_OFF_SHIELD@3",
+		"name": "Master's Shield (Exceptional)"
+	},
+	{
+		"id": "T6_OFF_SHIELD@4",
+		"name": "Master's Shield (Pristine)"
+	},
+	{
+		"id": "T7_OFF_SHIELD",
+		"name": "Grandmaster's Shield"
+	},
+	{
+		"id": "T7_OFF_SHIELD@1",
+		"name": "Grandmaster's Shield (Uncommon)"
+	},
+	{
+		"id": "T7_OFF_SHIELD@2",
+		"name": "Grandmaster's Shield (Rare)"
+	},
+	{
+		"id": "T7_OFF_SHIELD@3",
+		"name": "Grandmaster's Shield (Exceptional)"
+	},
+	{
+		"id": "T7_OFF_SHIELD@4",
+		"name": "Grandmaster's Shield (Pristine)"
+	},
+	{
+		"id": "T8_OFF_SHIELD",
+		"name": "Elder's Shield"
+	},
+	{
+		"id": "T8_OFF_SHIELD@1",
+		"name": "Elder's Shield (Uncommon)"
+	},
+	{
+		"id": "T8_OFF_SHIELD@2",
+		"name": "Elder's Shield (Rare)"
+	},
+	{
+		"id": "T8_OFF_SHIELD@3",
+		"name": "Elder's Shield (Exceptional)"
+	},
+	{
+		"id": "T8_OFF_SHIELD@4",
+		"name": "Elder's Shield (Pristine)"
+	},
+	{
+		"id": "T4_OFF_TOWERSHIELD_UNDEAD",
+		"name": "Adept's Sarcophagus"
+	},
+	{
+		"id": "T4_OFF_TOWERSHIELD_UNDEAD@1",
+		"name": "Adept's Sarcophagus (Uncommon)"
+	},
+	{
+		"id": "T4_OFF_TOWERSHIELD_UNDEAD@2",
+		"name": "Adept's Sarcophagus (Rare)"
+	},
+	{
+		"id": "T4_OFF_TOWERSHIELD_UNDEAD@3",
+		"name": "Adept's Sarcophagus (Exceptional)"
+	},
+	{
+		"id": "T4_OFF_TOWERSHIELD_UNDEAD@4",
+		"name": "Adept's Sarcophagus (Pristine)"
+	},
+	{
+		"id": "T5_OFF_TOWERSHIELD_UNDEAD",
+		"name": "Expert's Sarcophagus"
+	},
+	{
+		"id": "T5_OFF_TOWERSHIELD_UNDEAD@1",
+		"name": "Expert's Sarcophagus (Uncommon)"
+	},
+	{
+		"id": "T5_OFF_TOWERSHIELD_UNDEAD@2",
+		"name": "Expert's Sarcophagus (Rare)"
+	},
+	{
+		"id": "T5_OFF_TOWERSHIELD_UNDEAD@3",
+		"name": "Expert's Sarcophagus (Exceptional)"
+	},
+	{
+		"id": "T5_OFF_TOWERSHIELD_UNDEAD@4",
+		"name": "Expert's Sarcophagus (Pristine)"
+	},
+	{
+		"id": "T6_OFF_TOWERSHIELD_UNDEAD",
+		"name": "Master's Sarcophagus"
+	},
+	{
+		"id": "T6_OFF_TOWERSHIELD_UNDEAD@1",
+		"name": "Master's Sarcophagus (Uncommon)"
+	},
+	{
+		"id": "T6_OFF_TOWERSHIELD_UNDEAD@2",
+		"name": "Master's Sarcophagus (Rare)"
+	},
+	{
+		"id": "T6_OFF_TOWERSHIELD_UNDEAD@3",
+		"name": "Master's Sarcophagus (Exceptional)"
+	},
+	{
+		"id": "T6_OFF_TOWERSHIELD_UNDEAD@4",
+		"name": "Master's Sarcophagus (Pristine)"
+	},
+	{
+		"id": "T7_OFF_TOWERSHIELD_UNDEAD",
+		"name": "Grandmaster's Sarcophagus"
+	},
+	{
+		"id": "T7_OFF_TOWERSHIELD_UNDEAD@1",
+		"name": "Grandmaster's Sarcophagus (Uncommon)"
+	},
+	{
+		"id": "T7_OFF_TOWERSHIELD_UNDEAD@2",
+		"name": "Grandmaster's Sarcophagus (Rare)"
+	},
+	{
+		"id": "T7_OFF_TOWERSHIELD_UNDEAD@3",
+		"name": "Grandmaster's Sarcophagus (Exceptional)"
+	},
+	{
+		"id": "T7_OFF_TOWERSHIELD_UNDEAD@4",
+		"name": "Grandmaster's Sarcophagus (Pristine)"
+	},
+	{
+		"id": "T8_OFF_TOWERSHIELD_UNDEAD",
+		"name": "Elder's Sarcophagus"
+	},
+	{
+		"id": "T8_OFF_TOWERSHIELD_UNDEAD@1",
+		"name": "Elder's Sarcophagus (Uncommon)"
+	},
+	{
+		"id": "T8_OFF_TOWERSHIELD_UNDEAD@2",
+		"name": "Elder's Sarcophagus (Rare)"
+	},
+	{
+		"id": "T8_OFF_TOWERSHIELD_UNDEAD@3",
+		"name": "Elder's Sarcophagus (Exceptional)"
+	},
+	{
+		"id": "T8_OFF_TOWERSHIELD_UNDEAD@4",
+		"name": "Elder's Sarcophagus (Pristine)"
+	},
+	{
+		"id": "T4_OFF_SHIELD_HELL",
+		"name": "Adept's Caitiff Shield"
+	},
+	{
+		"id": "T4_OFF_SHIELD_HELL@1",
+		"name": "Adept's Caitiff Shield (Uncommon)"
+	},
+	{
+		"id": "T4_OFF_SHIELD_HELL@2",
+		"name": "Adept's Caitiff Shield (Rare)"
+	},
+	{
+		"id": "T4_OFF_SHIELD_HELL@3",
+		"name": "Adept's Caitiff Shield (Exceptional)"
+	},
+	{
+		"id": "T4_OFF_SHIELD_HELL@4",
+		"name": "Adept's Caitiff Shield (Pristine)"
+	},
+	{
+		"id": "T5_OFF_SHIELD_HELL",
+		"name": "Expert's Caitiff Shield"
+	},
+	{
+		"id": "T5_OFF_SHIELD_HELL@1",
+		"name": "Expert's Caitiff Shield (Uncommon)"
+	},
+	{
+		"id": "T5_OFF_SHIELD_HELL@2",
+		"name": "Expert's Caitiff Shield (Rare)"
+	},
+	{
+		"id": "T5_OFF_SHIELD_HELL@3",
+		"name": "Expert's Caitiff Shield (Exceptional)"
+	},
+	{
+		"id": "T5_OFF_SHIELD_HELL@4",
+		"name": "Expert's Caitiff Shield (Pristine)"
+	},
+	{
+		"id": "T6_OFF_SHIELD_HELL",
+		"name": "Master's Caitiff Shield"
+	},
+	{
+		"id": "T6_OFF_SHIELD_HELL@1",
+		"name": "Master's Caitiff Shield (Uncommon)"
+	},
+	{
+		"id": "T6_OFF_SHIELD_HELL@2",
+		"name": "Master's Caitiff Shield (Rare)"
+	},
+	{
+		"id": "T6_OFF_SHIELD_HELL@3",
+		"name": "Master's Caitiff Shield (Exceptional)"
+	},
+	{
+		"id": "T6_OFF_SHIELD_HELL@4",
+		"name": "Master's Caitiff Shield (Pristine)"
+	},
+	{
+		"id": "T7_OFF_SHIELD_HELL",
+		"name": "Grandmaster's Caitiff Shield"
+	},
+	{
+		"id": "T7_OFF_SHIELD_HELL@1",
+		"name": "Grandmaster's Caitiff Shield (Uncommon)"
+	},
+	{
+		"id": "T7_OFF_SHIELD_HELL@2",
+		"name": "Grandmaster's Caitiff Shield (Rare)"
+	},
+	{
+		"id": "T7_OFF_SHIELD_HELL@3",
+		"name": "Grandmaster's Caitiff Shield (Exceptional)"
+	},
+	{
+		"id": "T7_OFF_SHIELD_HELL@4",
+		"name": "Grandmaster's Caitiff Shield (Pristine)"
+	},
+	{
+		"id": "T8_OFF_SHIELD_HELL",
+		"name": "Elder's Caitiff Shield"
+	},
+	{
+		"id": "T8_OFF_SHIELD_HELL@1",
+		"name": "Elder's Caitiff Shield (Uncommon)"
+	},
+	{
+		"id": "T8_OFF_SHIELD_HELL@2",
+		"name": "Elder's Caitiff Shield (Rare)"
+	},
+	{
+		"id": "T8_OFF_SHIELD_HELL@3",
+		"name": "Elder's Caitiff Shield (Exceptional)"
+	},
+	{
+		"id": "T8_OFF_SHIELD_HELL@4",
+		"name": "Elder's Caitiff Shield (Pristine)"
+	},
+	{
+		"id": "T4_OFF_SPIKEDSHIELD_MORGANA",
+		"name": "Adept's Facebreaker"
+	},
+	{
+		"id": "T4_OFF_SPIKEDSHIELD_MORGANA@1",
+		"name": "Adept's Facebreaker (Uncommon)"
+	},
+	{
+		"id": "T4_OFF_SPIKEDSHIELD_MORGANA@2",
+		"name": "Adept's Facebreaker (Rare)"
+	},
+	{
+		"id": "T4_OFF_SPIKEDSHIELD_MORGANA@3",
+		"name": "Adept's Facebreaker (Exceptional)"
+	},
+	{
+		"id": "T4_OFF_SPIKEDSHIELD_MORGANA@4",
+		"name": "Adept's Facebreaker (Pristine)"
+	},
+	{
+		"id": "T5_OFF_SPIKEDSHIELD_MORGANA",
+		"name": "Expert's Facebreaker"
+	},
+	{
+		"id": "T5_OFF_SPIKEDSHIELD_MORGANA@1",
+		"name": "Expert's Facebreaker (Uncommon)"
+	},
+	{
+		"id": "T5_OFF_SPIKEDSHIELD_MORGANA@2",
+		"name": "Expert's Facebreaker (Rare)"
+	},
+	{
+		"id": "T5_OFF_SPIKEDSHIELD_MORGANA@3",
+		"name": "Expert's Facebreaker (Exceptional)"
+	},
+	{
+		"id": "T5_OFF_SPIKEDSHIELD_MORGANA@4",
+		"name": "Expert's Facebreaker (Pristine)"
+	},
+	{
+		"id": "T6_OFF_SPIKEDSHIELD_MORGANA",
+		"name": "Master's Facebreaker"
+	},
+	{
+		"id": "T6_OFF_SPIKEDSHIELD_MORGANA@1",
+		"name": "Master's Facebreaker (Uncommon)"
+	},
+	{
+		"id": "T6_OFF_SPIKEDSHIELD_MORGANA@2",
+		"name": "Master's Facebreaker (Rare)"
+	},
+	{
+		"id": "T6_OFF_SPIKEDSHIELD_MORGANA@3",
+		"name": "Master's Facebreaker (Exceptional)"
+	},
+	{
+		"id": "T6_OFF_SPIKEDSHIELD_MORGANA@4",
+		"name": "Master's Facebreaker (Pristine)"
+	},
+	{
+		"id": "T7_OFF_SPIKEDSHIELD_MORGANA",
+		"name": "Grandmaster's Facebreaker"
+	},
+	{
+		"id": "T7_OFF_SPIKEDSHIELD_MORGANA@1",
+		"name": "Grandmaster's Facebreaker (Uncommon)"
+	},
+	{
+		"id": "T7_OFF_SPIKEDSHIELD_MORGANA@2",
+		"name": "Grandmaster's Facebreaker (Rare)"
+	},
+	{
+		"id": "T7_OFF_SPIKEDSHIELD_MORGANA@3",
+		"name": "Grandmaster's Facebreaker (Exceptional)"
+	},
+	{
+		"id": "T7_OFF_SPIKEDSHIELD_MORGANA@4",
+		"name": "Grandmaster's Facebreaker (Pristine)"
+	},
+	{
+		"id": "T8_OFF_SPIKEDSHIELD_MORGANA",
+		"name": "Elder's Facebreaker"
+	},
+	{
+		"id": "T8_OFF_SPIKEDSHIELD_MORGANA@1",
+		"name": "Elder's Facebreaker (Uncommon)"
+	},
+	{
+		"id": "T8_OFF_SPIKEDSHIELD_MORGANA@2",
+		"name": "Elder's Facebreaker (Rare)"
+	},
+	{
+		"id": "T8_OFF_SPIKEDSHIELD_MORGANA@3",
+		"name": "Elder's Facebreaker (Exceptional)"
+	},
+	{
+		"id": "T8_OFF_SPIKEDSHIELD_MORGANA@4",
+		"name": "Elder's Facebreaker (Pristine)"
+	},
+	{
+		"id": "T4_OFF_SHIELD_AVALON",
+		"name": "Adept's Astral Aegis"
+	},
+	{
+		"id": "T4_OFF_SHIELD_AVALON@1",
+		"name": "Adept's Astral Aegis (Uncommon)"
+	},
+	{
+		"id": "T4_OFF_SHIELD_AVALON@2",
+		"name": "Adept's Astral Aegis (Rare)"
+	},
+	{
+		"id": "T4_OFF_SHIELD_AVALON@3",
+		"name": "Adept's Astral Aegis (Exceptional)"
+	},
+	{
+		"id": "T4_OFF_SHIELD_AVALON@4",
+		"name": "Adept's Astral Aegis (Pristine)"
+	},
+	{
+		"id": "T5_OFF_SHIELD_AVALON",
+		"name": "Expert's Astral Aegis"
+	},
+	{
+		"id": "T5_OFF_SHIELD_AVALON@1",
+		"name": "Expert's Astral Aegis (Uncommon)"
+	},
+	{
+		"id": "T5_OFF_SHIELD_AVALON@2",
+		"name": "Expert's Astral Aegis (Rare)"
+	},
+	{
+		"id": "T5_OFF_SHIELD_AVALON@3",
+		"name": "Expert's Astral Aegis (Exceptional)"
+	},
+	{
+		"id": "T5_OFF_SHIELD_AVALON@4",
+		"name": "Expert's Astral Aegis (Pristine)"
+	},
+	{
+		"id": "T6_OFF_SHIELD_AVALON",
+		"name": "Master's Astral Aegis"
+	},
+	{
+		"id": "T6_OFF_SHIELD_AVALON@1",
+		"name": "Master's Astral Aegis (Uncommon)"
+	},
+	{
+		"id": "T6_OFF_SHIELD_AVALON@2",
+		"name": "Master's Astral Aegis (Rare)"
+	},
+	{
+		"id": "T6_OFF_SHIELD_AVALON@3",
+		"name": "Master's Astral Aegis (Exceptional)"
+	},
+	{
+		"id": "T6_OFF_SHIELD_AVALON@4",
+		"name": "Master's Astral Aegis (Pristine)"
+	},
+	{
+		"id": "T7_OFF_SHIELD_AVALON",
+		"name": "Grandmaster's Astral Aegis"
+	},
+	{
+		"id": "T7_OFF_SHIELD_AVALON@1",
+		"name": "Grandmaster's Astral Aegis (Uncommon)"
+	},
+	{
+		"id": "T7_OFF_SHIELD_AVALON@2",
+		"name": "Grandmaster's Astral Aegis (Rare)"
+	},
+	{
+		"id": "T7_OFF_SHIELD_AVALON@3",
+		"name": "Grandmaster's Astral Aegis (Exceptional)"
+	},
+	{
+		"id": "T7_OFF_SHIELD_AVALON@4",
+		"name": "Grandmaster's Astral Aegis (Pristine)"
+	},
+	{
+		"id": "T8_OFF_SHIELD_AVALON",
+		"name": "Elder's Astral Aegis"
+	},
+	{
+		"id": "T8_OFF_SHIELD_AVALON@1",
+		"name": "Elder's Astral Aegis (Uncommon)"
+	},
+	{
+		"id": "T8_OFF_SHIELD_AVALON@2",
+		"name": "Elder's Astral Aegis (Rare)"
+	},
+	{
+		"id": "T8_OFF_SHIELD_AVALON@3",
+		"name": "Elder's Astral Aegis (Exceptional)"
+	},
+	{
+		"id": "T8_OFF_SHIELD_AVALON@4",
+		"name": "Elder's Astral Aegis (Pristine)"
+	},
+	{
+		"id": "T4_OFF_SHIELD_CRYSTAL",
+		"name": "Adept's Unbreakable Ward"
+	},
+	{
+		"id": "T4_OFF_SHIELD_CRYSTAL@1",
+		"name": "Adept's Unbreakable Ward (Uncommon)"
+	},
+	{
+		"id": "T4_OFF_SHIELD_CRYSTAL@2",
+		"name": "Adept's Unbreakable Ward (Rare)"
+	},
+	{
+		"id": "T4_OFF_SHIELD_CRYSTAL@3",
+		"name": "Adept's Unbreakable Ward (Exceptional)"
+	},
+	{
+		"id": "T4_OFF_SHIELD_CRYSTAL@4",
+		"name": "Adept's Unbreakable Ward (Pristine)"
+	},
+	{
+		"id": "T5_OFF_SHIELD_CRYSTAL",
+		"name": "Expert's Unbreakable Ward"
+	},
+	{
+		"id": "T5_OFF_SHIELD_CRYSTAL@1",
+		"name": "Expert's Unbreakable Ward (Uncommon)"
+	},
+	{
+		"id": "T5_OFF_SHIELD_CRYSTAL@2",
+		"name": "Expert's Unbreakable Ward (Rare)"
+	},
+	{
+		"id": "T5_OFF_SHIELD_CRYSTAL@3",
+		"name": "Expert's Unbreakable Ward (Exceptional)"
+	},
+	{
+		"id": "T5_OFF_SHIELD_CRYSTAL@4",
+		"name": "Expert's Unbreakable Ward (Pristine)"
+	},
+	{
+		"id": "T6_OFF_SHIELD_CRYSTAL",
+		"name": "Master's Unbreakable Ward"
+	},
+	{
+		"id": "T6_OFF_SHIELD_CRYSTAL@1",
+		"name": "Master's Unbreakable Ward (Uncommon)"
+	},
+	{
+		"id": "T6_OFF_SHIELD_CRYSTAL@2",
+		"name": "Master's Unbreakable Ward (Rare)"
+	},
+	{
+		"id": "T6_OFF_SHIELD_CRYSTAL@3",
+		"name": "Master's Unbreakable Ward (Exceptional)"
+	},
+	{
+		"id": "T6_OFF_SHIELD_CRYSTAL@4",
+		"name": "Master's Unbreakable Ward (Pristine)"
+	},
+	{
+		"id": "T7_OFF_SHIELD_CRYSTAL",
+		"name": "Grandmaster's Unbreakable Ward"
+	},
+	{
+		"id": "T7_OFF_SHIELD_CRYSTAL@1",
+		"name": "Grandmaster's Unbreakable Ward (Uncommon)"
+	},
+	{
+		"id": "T7_OFF_SHIELD_CRYSTAL@2",
+		"name": "Grandmaster's Unbreakable Ward (Rare)"
+	},
+	{
+		"id": "T7_OFF_SHIELD_CRYSTAL@3",
+		"name": "Grandmaster's Unbreakable Ward (Exceptional)"
+	},
+	{
+		"id": "T7_OFF_SHIELD_CRYSTAL@4",
+		"name": "Grandmaster's Unbreakable Ward (Pristine)"
+	},
+	{
+		"id": "T8_OFF_SHIELD_CRYSTAL",
+		"name": "Elder's Unbreakable Ward"
+	},
+	{
+		"id": "T8_OFF_SHIELD_CRYSTAL@1",
+		"name": "Elder's Unbreakable Ward (Uncommon)"
+	},
+	{
+		"id": "T8_OFF_SHIELD_CRYSTAL@2",
+		"name": "Elder's Unbreakable Ward (Rare)"
+	},
+	{
+		"id": "T8_OFF_SHIELD_CRYSTAL@3",
+		"name": "Elder's Unbreakable Ward (Exceptional)"
+	},
+	{
+		"id": "T8_OFF_SHIELD_CRYSTAL@4",
+		"name": "Elder's Unbreakable Ward (Pristine)"
+	},
+	{
+		"id": "T2_OFF_BOOK",
+		"name": "Novice's Tome of Spells"
+	},
+	{
+		"id": "T3_OFF_BOOK",
+		"name": "Journeyman's Tome of Spells"
+	},
+	{
+		"id": "T4_OFF_BOOK",
+		"name": "Adept's Tome of Spells"
+	},
+	{
+		"id": "T4_OFF_BOOK@1",
+		"name": "Adept's Tome of Spells (Uncommon)"
+	},
+	{
+		"id": "T4_OFF_BOOK@2",
+		"name": "Adept's Tome of Spells (Rare)"
+	},
+	{
+		"id": "T4_OFF_BOOK@3",
+		"name": "Adept's Tome of Spells (Exceptional)"
+	},
+	{
+		"id": "T4_OFF_BOOK@4",
+		"name": "Adept's Tome of Spells (Pristine)"
+	},
+	{
+		"id": "T5_OFF_BOOK",
+		"name": "Expert's Tome of Spells"
+	},
+	{
+		"id": "T5_OFF_BOOK@1",
+		"name": "Expert's Tome of Spells (Uncommon)"
+	},
+	{
+		"id": "T5_OFF_BOOK@2",
+		"name": "Expert's Tome of Spells (Rare)"
+	},
+	{
+		"id": "T5_OFF_BOOK@3",
+		"name": "Expert's Tome of Spells (Exceptional)"
+	},
+	{
+		"id": "T5_OFF_BOOK@4",
+		"name": "Expert's Tome of Spells (Pristine)"
+	},
+	{
+		"id": "T6_OFF_BOOK",
+		"name": "Master's Tome of Spells"
+	},
+	{
+		"id": "T6_OFF_BOOK@1",
+		"name": "Master's Tome of Spells (Uncommon)"
+	},
+	{
+		"id": "T6_OFF_BOOK@2",
+		"name": "Master's Tome of Spells (Rare)"
+	},
+	{
+		"id": "T6_OFF_BOOK@3",
+		"name": "Master's Tome of Spells (Exceptional)"
+	},
+	{
+		"id": "T6_OFF_BOOK@4",
+		"name": "Master's Tome of Spells (Pristine)"
+	},
+	{
+		"id": "T7_OFF_BOOK",
+		"name": "Grandmaster's Tome of Spells"
+	},
+	{
+		"id": "T7_OFF_BOOK@1",
+		"name": "Grandmaster's Tome of Spells (Uncommon)"
+	},
+	{
+		"id": "T7_OFF_BOOK@2",
+		"name": "Grandmaster's Tome of Spells (Rare)"
+	},
+	{
+		"id": "T7_OFF_BOOK@3",
+		"name": "Grandmaster's Tome of Spells (Exceptional)"
+	},
+	{
+		"id": "T7_OFF_BOOK@4",
+		"name": "Grandmaster's Tome of Spells (Pristine)"
+	},
+	{
+		"id": "T8_OFF_BOOK",
+		"name": "Rosalia's Diary"
+	},
+	{
+		"id": "T8_OFF_BOOK@1",
+		"name": "Rosalia's Diary (Uncommon)"
+	},
+	{
+		"id": "T8_OFF_BOOK@2",
+		"name": "Rosalia's Diary (Rare)"
+	},
+	{
+		"id": "T8_OFF_BOOK@3",
+		"name": "Rosalia's Diary (Exceptional)"
+	},
+	{
+		"id": "T8_OFF_BOOK@4",
+		"name": "Rosalia's Diary (Pristine)"
+	},
+	{
+		"id": "T4_OFF_ORB_MORGANA",
+		"name": "Adept's Eye of Secrets"
+	},
+	{
+		"id": "T4_OFF_ORB_MORGANA@1",
+		"name": "Adept's Eye of Secrets (Uncommon)"
+	},
+	{
+		"id": "T4_OFF_ORB_MORGANA@2",
+		"name": "Adept's Eye of Secrets (Rare)"
+	},
+	{
+		"id": "T4_OFF_ORB_MORGANA@3",
+		"name": "Adept's Eye of Secrets (Exceptional)"
+	},
+	{
+		"id": "T4_OFF_ORB_MORGANA@4",
+		"name": "Adept's Eye of Secrets (Pristine)"
+	},
+	{
+		"id": "T5_OFF_ORB_MORGANA",
+		"name": "Expert's Eye of Secrets"
+	},
+	{
+		"id": "T5_OFF_ORB_MORGANA@1",
+		"name": "Expert's Eye of Secrets (Uncommon)"
+	},
+	{
+		"id": "T5_OFF_ORB_MORGANA@2",
+		"name": "Expert's Eye of Secrets (Rare)"
+	},
+	{
+		"id": "T5_OFF_ORB_MORGANA@3",
+		"name": "Expert's Eye of Secrets (Exceptional)"
+	},
+	{
+		"id": "T5_OFF_ORB_MORGANA@4",
+		"name": "Expert's Eye of Secrets (Pristine)"
+	},
+	{
+		"id": "T6_OFF_ORB_MORGANA",
+		"name": "Master's Eye of Secrets"
+	},
+	{
+		"id": "T6_OFF_ORB_MORGANA@1",
+		"name": "Master's Eye of Secrets (Uncommon)"
+	},
+	{
+		"id": "T6_OFF_ORB_MORGANA@2",
+		"name": "Master's Eye of Secrets (Rare)"
+	},
+	{
+		"id": "T6_OFF_ORB_MORGANA@3",
+		"name": "Master's Eye of Secrets (Exceptional)"
+	},
+	{
+		"id": "T6_OFF_ORB_MORGANA@4",
+		"name": "Master's Eye of Secrets (Pristine)"
+	},
+	{
+		"id": "T7_OFF_ORB_MORGANA",
+		"name": "Grandmaster's Eye of Secrets"
+	},
+	{
+		"id": "T7_OFF_ORB_MORGANA@1",
+		"name": "Grandmaster's Eye of Secrets (Uncommon)"
+	},
+	{
+		"id": "T7_OFF_ORB_MORGANA@2",
+		"name": "Grandmaster's Eye of Secrets (Rare)"
+	},
+	{
+		"id": "T7_OFF_ORB_MORGANA@3",
+		"name": "Grandmaster's Eye of Secrets (Exceptional)"
+	},
+	{
+		"id": "T7_OFF_ORB_MORGANA@4",
+		"name": "Grandmaster's Eye of Secrets (Pristine)"
+	},
+	{
+		"id": "T8_OFF_ORB_MORGANA",
+		"name": "Elder's Eye of Secrets"
+	},
+	{
+		"id": "T8_OFF_ORB_MORGANA@1",
+		"name": "Elder's Eye of Secrets (Uncommon)"
+	},
+	{
+		"id": "T8_OFF_ORB_MORGANA@2",
+		"name": "Elder's Eye of Secrets (Rare)"
+	},
+	{
+		"id": "T8_OFF_ORB_MORGANA@3",
+		"name": "Elder's Eye of Secrets (Exceptional)"
+	},
+	{
+		"id": "T8_OFF_ORB_MORGANA@4",
+		"name": "Elder's Eye of Secrets (Pristine)"
+	},
+	{
+		"id": "T4_OFF_DEMONSKULL_HELL",
+		"name": "Adept's Muisak"
+	},
+	{
+		"id": "T4_OFF_DEMONSKULL_HELL@1",
+		"name": "Adept's Muisak (Uncommon)"
+	},
+	{
+		"id": "T4_OFF_DEMONSKULL_HELL@2",
+		"name": "Adept's Muisak (Rare)"
+	},
+	{
+		"id": "T4_OFF_DEMONSKULL_HELL@3",
+		"name": "Adept's Muisak (Exceptional)"
+	},
+	{
+		"id": "T4_OFF_DEMONSKULL_HELL@4",
+		"name": "Adept's Muisak (Pristine)"
+	},
+	{
+		"id": "T5_OFF_DEMONSKULL_HELL",
+		"name": "Expert's Muisak"
+	},
+	{
+		"id": "T5_OFF_DEMONSKULL_HELL@1",
+		"name": "Expert's Muisak (Uncommon)"
+	},
+	{
+		"id": "T5_OFF_DEMONSKULL_HELL@2",
+		"name": "Expert's Muisak (Rare)"
+	},
+	{
+		"id": "T5_OFF_DEMONSKULL_HELL@3",
+		"name": "Expert's Muisak (Exceptional)"
+	},
+	{
+		"id": "T5_OFF_DEMONSKULL_HELL@4",
+		"name": "Expert's Muisak (Pristine)"
+	},
+	{
+		"id": "T6_OFF_DEMONSKULL_HELL",
+		"name": "Master's Muisak"
+	},
+	{
+		"id": "T6_OFF_DEMONSKULL_HELL@1",
+		"name": "Master's Muisak (Uncommon)"
+	},
+	{
+		"id": "T6_OFF_DEMONSKULL_HELL@2",
+		"name": "Master's Muisak (Rare)"
+	},
+	{
+		"id": "T6_OFF_DEMONSKULL_HELL@3",
+		"name": "Master's Muisak (Exceptional)"
+	},
+	{
+		"id": "T6_OFF_DEMONSKULL_HELL@4",
+		"name": "Master's Muisak (Pristine)"
+	},
+	{
+		"id": "T7_OFF_DEMONSKULL_HELL",
+		"name": "Grandmaster's Muisak"
+	},
+	{
+		"id": "T7_OFF_DEMONSKULL_HELL@1",
+		"name": "Grandmaster's Muisak (Uncommon)"
+	},
+	{
+		"id": "T7_OFF_DEMONSKULL_HELL@2",
+		"name": "Grandmaster's Muisak (Rare)"
+	},
+	{
+		"id": "T7_OFF_DEMONSKULL_HELL@3",
+		"name": "Grandmaster's Muisak (Exceptional)"
+	},
+	{
+		"id": "T7_OFF_DEMONSKULL_HELL@4",
+		"name": "Grandmaster's Muisak (Pristine)"
+	},
+	{
+		"id": "T8_OFF_DEMONSKULL_HELL",
+		"name": "Elder's Muisak"
+	},
+	{
+		"id": "T8_OFF_DEMONSKULL_HELL@1",
+		"name": "Elder's Muisak (Uncommon)"
+	},
+	{
+		"id": "T8_OFF_DEMONSKULL_HELL@2",
+		"name": "Elder's Muisak (Rare)"
+	},
+	{
+		"id": "T8_OFF_DEMONSKULL_HELL@3",
+		"name": "Elder's Muisak (Exceptional)"
+	},
+	{
+		"id": "T8_OFF_DEMONSKULL_HELL@4",
+		"name": "Elder's Muisak (Pristine)"
+	},
+	{
+		"id": "T4_OFF_TOTEM_KEEPER",
+		"name": "Adept's Taproot"
+	},
+	{
+		"id": "T4_OFF_TOTEM_KEEPER@1",
+		"name": "Adept's Taproot (Uncommon)"
+	},
+	{
+		"id": "T4_OFF_TOTEM_KEEPER@2",
+		"name": "Adept's Taproot (Rare)"
+	},
+	{
+		"id": "T4_OFF_TOTEM_KEEPER@3",
+		"name": "Adept's Taproot (Exceptional)"
+	},
+	{
+		"id": "T4_OFF_TOTEM_KEEPER@4",
+		"name": "Adept's Taproot (Pristine)"
+	},
+	{
+		"id": "T5_OFF_TOTEM_KEEPER",
+		"name": "Expert's Taproot"
+	},
+	{
+		"id": "T5_OFF_TOTEM_KEEPER@1",
+		"name": "Expert's Taproot (Uncommon)"
+	},
+	{
+		"id": "T5_OFF_TOTEM_KEEPER@2",
+		"name": "Expert's Taproot (Rare)"
+	},
+	{
+		"id": "T5_OFF_TOTEM_KEEPER@3",
+		"name": "Expert's Taproot (Exceptional)"
+	},
+	{
+		"id": "T5_OFF_TOTEM_KEEPER@4",
+		"name": "Expert's Taproot (Pristine)"
+	},
+	{
+		"id": "T6_OFF_TOTEM_KEEPER",
+		"name": "Master's Taproot"
+	},
+	{
+		"id": "T6_OFF_TOTEM_KEEPER@1",
+		"name": "Master's Taproot (Uncommon)"
+	},
+	{
+		"id": "T6_OFF_TOTEM_KEEPER@2",
+		"name": "Master's Taproot (Rare)"
+	},
+	{
+		"id": "T6_OFF_TOTEM_KEEPER@3",
+		"name": "Master's Taproot (Exceptional)"
+	},
+	{
+		"id": "T6_OFF_TOTEM_KEEPER@4",
+		"name": "Master's Taproot (Pristine)"
+	},
+	{
+		"id": "T7_OFF_TOTEM_KEEPER",
+		"name": "Grandmaster's Taproot"
+	},
+	{
+		"id": "T7_OFF_TOTEM_KEEPER@1",
+		"name": "Grandmaster's Taproot (Uncommon)"
+	},
+	{
+		"id": "T7_OFF_TOTEM_KEEPER@2",
+		"name": "Grandmaster's Taproot (Rare)"
+	},
+	{
+		"id": "T7_OFF_TOTEM_KEEPER@3",
+		"name": "Grandmaster's Taproot (Exceptional)"
+	},
+	{
+		"id": "T7_OFF_TOTEM_KEEPER@4",
+		"name": "Grandmaster's Taproot (Pristine)"
+	},
+	{
+		"id": "T8_OFF_TOTEM_KEEPER",
+		"name": "Elder's Taproot"
+	},
+	{
+		"id": "T8_OFF_TOTEM_KEEPER@1",
+		"name": "Elder's Taproot (Uncommon)"
+	},
+	{
+		"id": "T8_OFF_TOTEM_KEEPER@2",
+		"name": "Elder's Taproot (Rare)"
+	},
+	{
+		"id": "T8_OFF_TOTEM_KEEPER@3",
+		"name": "Elder's Taproot (Exceptional)"
+	},
+	{
+		"id": "T8_OFF_TOTEM_KEEPER@4",
+		"name": "Elder's Taproot (Pristine)"
+	},
+	{
+		"id": "T4_OFF_CENSER_AVALON",
+		"name": "Adept's Celestial Censer"
+	},
+	{
+		"id": "T4_OFF_CENSER_AVALON@1",
+		"name": "Adept's Celestial Censer (Uncommon)"
+	},
+	{
+		"id": "T4_OFF_CENSER_AVALON@2",
+		"name": "Adept's Celestial Censer (Rare)"
+	},
+	{
+		"id": "T4_OFF_CENSER_AVALON@3",
+		"name": "Adept's Celestial Censer (Exceptional)"
+	},
+	{
+		"id": "T4_OFF_CENSER_AVALON@4",
+		"name": "Adept's Celestial Censer (Pristine)"
+	},
+	{
+		"id": "T5_OFF_CENSER_AVALON",
+		"name": "Expert's Celestial Censer"
+	},
+	{
+		"id": "T5_OFF_CENSER_AVALON@1",
+		"name": "Expert's Celestial Censer (Uncommon)"
+	},
+	{
+		"id": "T5_OFF_CENSER_AVALON@2",
+		"name": "Expert's Celestial Censer (Rare)"
+	},
+	{
+		"id": "T5_OFF_CENSER_AVALON@3",
+		"name": "Expert's Celestial Censer (Exceptional)"
+	},
+	{
+		"id": "T5_OFF_CENSER_AVALON@4",
+		"name": "Expert's Celestial Censer (Pristine)"
+	},
+	{
+		"id": "T6_OFF_CENSER_AVALON",
+		"name": "Master's Celestial Censer"
+	},
+	{
+		"id": "T6_OFF_CENSER_AVALON@1",
+		"name": "Master's Celestial Censer (Uncommon)"
+	},
+	{
+		"id": "T6_OFF_CENSER_AVALON@2",
+		"name": "Master's Celestial Censer (Rare)"
+	},
+	{
+		"id": "T6_OFF_CENSER_AVALON@3",
+		"name": "Master's Celestial Censer (Exceptional)"
+	},
+	{
+		"id": "T6_OFF_CENSER_AVALON@4",
+		"name": "Master's Celestial Censer (Pristine)"
+	},
+	{
+		"id": "T7_OFF_CENSER_AVALON",
+		"name": "Grandmaster's Celestial Censer"
+	},
+	{
+		"id": "T7_OFF_CENSER_AVALON@1",
+		"name": "Grandmaster's Celestial Censer (Uncommon)"
+	},
+	{
+		"id": "T7_OFF_CENSER_AVALON@2",
+		"name": "Grandmaster's Celestial Censer (Rare)"
+	},
+	{
+		"id": "T7_OFF_CENSER_AVALON@3",
+		"name": "Grandmaster's Celestial Censer (Exceptional)"
+	},
+	{
+		"id": "T7_OFF_CENSER_AVALON@4",
+		"name": "Grandmaster's Celestial Censer (Pristine)"
+	},
+	{
+		"id": "T8_OFF_CENSER_AVALON",
+		"name": "Elder's Celestial Censer"
+	},
+	{
+		"id": "T8_OFF_CENSER_AVALON@1",
+		"name": "Elder's Celestial Censer (Uncommon)"
+	},
+	{
+		"id": "T8_OFF_CENSER_AVALON@2",
+		"name": "Elder's Celestial Censer (Rare)"
+	},
+	{
+		"id": "T8_OFF_CENSER_AVALON@3",
+		"name": "Elder's Celestial Censer (Exceptional)"
+	},
+	{
+		"id": "T8_OFF_CENSER_AVALON@4",
+		"name": "Elder's Celestial Censer (Pristine)"
+	},
+	{
+		"id": "T4_OFF_TOME_CRYSTAL",
+		"name": "Adept's Timelocked Grimoire"
+	},
+	{
+		"id": "T4_OFF_TOME_CRYSTAL@1",
+		"name": "Adept's Timelocked Grimoire (Uncommon)"
+	},
+	{
+		"id": "T4_OFF_TOME_CRYSTAL@2",
+		"name": "Adept's Timelocked Grimoire (Rare)"
+	},
+	{
+		"id": "T4_OFF_TOME_CRYSTAL@3",
+		"name": "Adept's Timelocked Grimoire (Exceptional)"
+	},
+	{
+		"id": "T4_OFF_TOME_CRYSTAL@4",
+		"name": "Adept's Timelocked Grimoire (Pristine)"
+	},
+	{
+		"id": "T5_OFF_TOME_CRYSTAL",
+		"name": "Expert's Timelocked Grimoire"
+	},
+	{
+		"id": "T5_OFF_TOME_CRYSTAL@1",
+		"name": "Expert's Timelocked Grimoire (Uncommon)"
+	},
+	{
+		"id": "T5_OFF_TOME_CRYSTAL@2",
+		"name": "Expert's Timelocked Grimoire (Rare)"
+	},
+	{
+		"id": "T5_OFF_TOME_CRYSTAL@3",
+		"name": "Expert's Timelocked Grimoire (Exceptional)"
+	},
+	{
+		"id": "T5_OFF_TOME_CRYSTAL@4",
+		"name": "Expert's Timelocked Grimoire (Pristine)"
+	},
+	{
+		"id": "T6_OFF_TOME_CRYSTAL",
+		"name": "Master's Timelocked Grimoire"
+	},
+	{
+		"id": "T6_OFF_TOME_CRYSTAL@1",
+		"name": "Master's Timelocked Grimoire (Uncommon)"
+	},
+	{
+		"id": "T6_OFF_TOME_CRYSTAL@2",
+		"name": "Master's Timelocked Grimoire (Rare)"
+	},
+	{
+		"id": "T6_OFF_TOME_CRYSTAL@3",
+		"name": "Master's Timelocked Grimoire (Exceptional)"
+	},
+	{
+		"id": "T6_OFF_TOME_CRYSTAL@4",
+		"name": "Master's Timelocked Grimoire (Pristine)"
+	},
+	{
+		"id": "T7_OFF_TOME_CRYSTAL",
+		"name": "Grandmaster's Timelocked Grimoire"
+	},
+	{
+		"id": "T7_OFF_TOME_CRYSTAL@1",
+		"name": "Grandmaster's Timelocked Grimoire (Uncommon)"
+	},
+	{
+		"id": "T7_OFF_TOME_CRYSTAL@2",
+		"name": "Grandmaster's Timelocked Grimoire (Rare)"
+	},
+	{
+		"id": "T7_OFF_TOME_CRYSTAL@3",
+		"name": "Grandmaster's Timelocked Grimoire (Exceptional)"
+	},
+	{
+		"id": "T7_OFF_TOME_CRYSTAL@4",
+		"name": "Grandmaster's Timelocked Grimoire (Pristine)"
+	},
+	{
+		"id": "T8_OFF_TOME_CRYSTAL",
+		"name": "Elder's Timelocked Grimoire"
+	},
+	{
+		"id": "T8_OFF_TOME_CRYSTAL@1",
+		"name": "Elder's Timelocked Grimoire (Uncommon)"
+	},
+	{
+		"id": "T8_OFF_TOME_CRYSTAL@2",
+		"name": "Elder's Timelocked Grimoire (Rare)"
+	},
+	{
+		"id": "T8_OFF_TOME_CRYSTAL@3",
+		"name": "Elder's Timelocked Grimoire (Exceptional)"
+	},
+	{
+		"id": "T8_OFF_TOME_CRYSTAL@4",
+		"name": "Elder's Timelocked Grimoire (Pristine)"
+	},
+	{
+		"id": "T3_OFF_TORCH",
+		"name": "Journeyman's Torch"
+	},
+	{
+		"id": "T4_OFF_TORCH",
+		"name": "Adept's Torch"
+	},
+	{
+		"id": "T4_OFF_TORCH@1",
+		"name": "Adept's Torch (Uncommon)"
+	},
+	{
+		"id": "T4_OFF_TORCH@2",
+		"name": "Adept's Torch (Rare)"
+	},
+	{
+		"id": "T4_OFF_TORCH@3",
+		"name": "Adept's Torch (Exceptional)"
+	},
+	{
+		"id": "T4_OFF_TORCH@4",
+		"name": "Adept's Torch (Pristine)"
+	},
+	{
+		"id": "T5_OFF_TORCH",
+		"name": "Expert's Torch"
+	},
+	{
+		"id": "T5_OFF_TORCH@1",
+		"name": "Expert's Torch (Uncommon)"
+	},
+	{
+		"id": "T5_OFF_TORCH@2",
+		"name": "Expert's Torch (Rare)"
+	},
+	{
+		"id": "T5_OFF_TORCH@3",
+		"name": "Expert's Torch (Exceptional)"
+	},
+	{
+		"id": "T5_OFF_TORCH@4",
+		"name": "Expert's Torch (Pristine)"
+	},
+	{
+		"id": "T6_OFF_TORCH",
+		"name": "Master's Torch"
+	},
+	{
+		"id": "T6_OFF_TORCH@1",
+		"name": "Master's Torch (Uncommon)"
+	},
+	{
+		"id": "T6_OFF_TORCH@2",
+		"name": "Master's Torch (Rare)"
+	},
+	{
+		"id": "T6_OFF_TORCH@3",
+		"name": "Master's Torch (Exceptional)"
+	},
+	{
+		"id": "T6_OFF_TORCH@4",
+		"name": "Master's Torch (Pristine)"
+	},
+	{
+		"id": "T7_OFF_TORCH",
+		"name": "Grandmaster's Torch"
+	},
+	{
+		"id": "T7_OFF_TORCH@1",
+		"name": "Grandmaster's Torch (Uncommon)"
+	},
+	{
+		"id": "T7_OFF_TORCH@2",
+		"name": "Grandmaster's Torch (Rare)"
+	},
+	{
+		"id": "T7_OFF_TORCH@3",
+		"name": "Grandmaster's Torch (Exceptional)"
+	},
+	{
+		"id": "T7_OFF_TORCH@4",
+		"name": "Grandmaster's Torch (Pristine)"
+	},
+	{
+		"id": "T8_OFF_TORCH",
+		"name": "Elder's Torch"
+	},
+	{
+		"id": "T8_OFF_TORCH@1",
+		"name": "Elder's Torch (Uncommon)"
+	},
+	{
+		"id": "T8_OFF_TORCH@2",
+		"name": "Elder's Torch (Rare)"
+	},
+	{
+		"id": "T8_OFF_TORCH@3",
+		"name": "Elder's Torch (Exceptional)"
+	},
+	{
+		"id": "T8_OFF_TORCH@4",
+		"name": "Elder's Torch (Pristine)"
+	},
+	{
+		"id": "T4_OFF_HORN_KEEPER",
+		"name": "Adept's Mistcaller"
+	},
+	{
+		"id": "T4_OFF_HORN_KEEPER@1",
+		"name": "Adept's Mistcaller (Uncommon)"
+	},
+	{
+		"id": "T4_OFF_HORN_KEEPER@2",
+		"name": "Adept's Mistcaller (Rare)"
+	},
+	{
+		"id": "T4_OFF_HORN_KEEPER@3",
+		"name": "Adept's Mistcaller (Exceptional)"
+	},
+	{
+		"id": "T4_OFF_HORN_KEEPER@4",
+		"name": "Adept's Mistcaller (Pristine)"
+	},
+	{
+		"id": "T5_OFF_HORN_KEEPER",
+		"name": "Expert's Mistcaller"
+	},
+	{
+		"id": "T5_OFF_HORN_KEEPER@1",
+		"name": "Expert's Mistcaller (Uncommon)"
+	},
+	{
+		"id": "T5_OFF_HORN_KEEPER@2",
+		"name": "Expert's Mistcaller (Rare)"
+	},
+	{
+		"id": "T5_OFF_HORN_KEEPER@3",
+		"name": "Expert's Mistcaller (Exceptional)"
+	},
+	{
+		"id": "T5_OFF_HORN_KEEPER@4",
+		"name": "Expert's Mistcaller (Pristine)"
+	},
+	{
+		"id": "T6_OFF_HORN_KEEPER",
+		"name": "Master's Mistcaller"
+	},
+	{
+		"id": "T6_OFF_HORN_KEEPER@1",
+		"name": "Master's Mistcaller (Uncommon)"
+	},
+	{
+		"id": "T6_OFF_HORN_KEEPER@2",
+		"name": "Master's Mistcaller (Rare)"
+	},
+	{
+		"id": "T6_OFF_HORN_KEEPER@3",
+		"name": "Master's Mistcaller (Exceptional)"
+	},
+	{
+		"id": "T6_OFF_HORN_KEEPER@4",
+		"name": "Master's Mistcaller (Pristine)"
+	},
+	{
+		"id": "T7_OFF_HORN_KEEPER",
+		"name": "Grandmaster's Mistcaller"
+	},
+	{
+		"id": "T7_OFF_HORN_KEEPER@1",
+		"name": "Grandmaster's Mistcaller (Uncommon)"
+	},
+	{
+		"id": "T7_OFF_HORN_KEEPER@2",
+		"name": "Grandmaster's Mistcaller (Rare)"
+	},
+	{
+		"id": "T7_OFF_HORN_KEEPER@3",
+		"name": "Grandmaster's Mistcaller (Exceptional)"
+	},
+	{
+		"id": "T7_OFF_HORN_KEEPER@4",
+		"name": "Grandmaster's Mistcaller (Pristine)"
+	},
+	{
+		"id": "T8_OFF_HORN_KEEPER",
+		"name": "Elder's Mistcaller"
+	},
+	{
+		"id": "T8_OFF_HORN_KEEPER@1",
+		"name": "Elder's Mistcaller (Uncommon)"
+	},
+	{
+		"id": "T8_OFF_HORN_KEEPER@2",
+		"name": "Elder's Mistcaller (Rare)"
+	},
+	{
+		"id": "T8_OFF_HORN_KEEPER@3",
+		"name": "Elder's Mistcaller (Exceptional)"
+	},
+	{
+		"id": "T8_OFF_HORN_KEEPER@4",
+		"name": "Elder's Mistcaller (Pristine)"
+	},
+	{
+		"id": "T4_OFF_TALISMAN_AVALON",
+		"name": "Adept's Sacred Scepter"
+	},
+	{
+		"id": "T4_OFF_TALISMAN_AVALON@1",
+		"name": "Adept's Sacred Scepter (Uncommon)"
+	},
+	{
+		"id": "T4_OFF_TALISMAN_AVALON@2",
+		"name": "Adept's Sacred Scepter (Rare)"
+	},
+	{
+		"id": "T4_OFF_TALISMAN_AVALON@3",
+		"name": "Adept's Sacred Scepter (Exceptional)"
+	},
+	{
+		"id": "T4_OFF_TALISMAN_AVALON@4",
+		"name": "Adept's Sacred Scepter (Pristine)"
+	},
+	{
+		"id": "T5_OFF_TALISMAN_AVALON",
+		"name": "Expert's Sacred Scepter"
+	},
+	{
+		"id": "T5_OFF_TALISMAN_AVALON@1",
+		"name": "Expert's Sacred Scepter (Uncommon)"
+	},
+	{
+		"id": "T5_OFF_TALISMAN_AVALON@2",
+		"name": "Expert's Sacred Scepter (Rare)"
+	},
+	{
+		"id": "T5_OFF_TALISMAN_AVALON@3",
+		"name": "Expert's Sacred Scepter (Exceptional)"
+	},
+	{
+		"id": "T5_OFF_TALISMAN_AVALON@4",
+		"name": "Expert's Sacred Scepter (Pristine)"
+	},
+	{
+		"id": "T6_OFF_TALISMAN_AVALON",
+		"name": "Master's Sacred Scepter"
+	},
+	{
+		"id": "T6_OFF_TALISMAN_AVALON@1",
+		"name": "Master's Sacred Scepter (Uncommon)"
+	},
+	{
+		"id": "T6_OFF_TALISMAN_AVALON@2",
+		"name": "Master's Sacred Scepter (Rare)"
+	},
+	{
+		"id": "T6_OFF_TALISMAN_AVALON@3",
+		"name": "Master's Sacred Scepter (Exceptional)"
+	},
+	{
+		"id": "T6_OFF_TALISMAN_AVALON@4",
+		"name": "Master's Sacred Scepter (Pristine)"
+	},
+	{
+		"id": "T7_OFF_TALISMAN_AVALON",
+		"name": "Grandmaster's Sacred Scepter"
+	},
+	{
+		"id": "T7_OFF_TALISMAN_AVALON@1",
+		"name": "Grandmaster's Sacred Scepter (Uncommon)"
+	},
+	{
+		"id": "T7_OFF_TALISMAN_AVALON@2",
+		"name": "Grandmaster's Sacred Scepter (Rare)"
+	},
+	{
+		"id": "T7_OFF_TALISMAN_AVALON@3",
+		"name": "Grandmaster's Sacred Scepter (Exceptional)"
+	},
+	{
+		"id": "T7_OFF_TALISMAN_AVALON@4",
+		"name": "Grandmaster's Sacred Scepter (Pristine)"
+	},
+	{
+		"id": "T8_OFF_TALISMAN_AVALON",
+		"name": "Elder's Sacred Scepter"
+	},
+	{
+		"id": "T8_OFF_TALISMAN_AVALON@1",
+		"name": "Elder's Sacred Scepter (Uncommon)"
+	},
+	{
+		"id": "T8_OFF_TALISMAN_AVALON@2",
+		"name": "Elder's Sacred Scepter (Rare)"
+	},
+	{
+		"id": "T8_OFF_TALISMAN_AVALON@3",
+		"name": "Elder's Sacred Scepter (Exceptional)"
+	},
+	{
+		"id": "T8_OFF_TALISMAN_AVALON@4",
+		"name": "Elder's Sacred Scepter (Pristine)"
+	},
+	{
+		"id": "T4_OFF_LAMP_UNDEAD",
+		"name": "Adept's Cryptcandle"
+	},
+	{
+		"id": "T4_OFF_LAMP_UNDEAD@1",
+		"name": "Adept's Cryptcandle (Uncommon)"
+	},
+	{
+		"id": "T4_OFF_LAMP_UNDEAD@2",
+		"name": "Adept's Cryptcandle (Rare)"
+	},
+	{
+		"id": "T4_OFF_LAMP_UNDEAD@3",
+		"name": "Adept's Cryptcandle (Exceptional)"
+	},
+	{
+		"id": "T4_OFF_LAMP_UNDEAD@4",
+		"name": "Adept's Cryptcandle (Pristine)"
+	},
+	{
+		"id": "T5_OFF_LAMP_UNDEAD",
+		"name": "Expert's Cryptcandle"
+	},
+	{
+		"id": "T5_OFF_LAMP_UNDEAD@1",
+		"name": "Expert's Cryptcandle (Uncommon)"
+	},
+	{
+		"id": "T5_OFF_LAMP_UNDEAD@2",
+		"name": "Expert's Cryptcandle (Rare)"
+	},
+	{
+		"id": "T5_OFF_LAMP_UNDEAD@3",
+		"name": "Expert's Cryptcandle (Exceptional)"
+	},
+	{
+		"id": "T5_OFF_LAMP_UNDEAD@4",
+		"name": "Expert's Cryptcandle (Pristine)"
+	},
+	{
+		"id": "T6_OFF_LAMP_UNDEAD",
+		"name": "Master's Cryptcandle"
+	},
+	{
+		"id": "T6_OFF_LAMP_UNDEAD@1",
+		"name": "Master's Cryptcandle (Uncommon)"
+	},
+	{
+		"id": "T6_OFF_LAMP_UNDEAD@2",
+		"name": "Master's Cryptcandle (Rare)"
+	},
+	{
+		"id": "T6_OFF_LAMP_UNDEAD@3",
+		"name": "Master's Cryptcandle (Exceptional)"
+	},
+	{
+		"id": "T6_OFF_LAMP_UNDEAD@4",
+		"name": "Master's Cryptcandle (Pristine)"
+	},
+	{
+		"id": "T7_OFF_LAMP_UNDEAD",
+		"name": "Grandmaster's Cryptcandle"
+	},
+	{
+		"id": "T7_OFF_LAMP_UNDEAD@1",
+		"name": "Grandmaster's Cryptcandle (Uncommon)"
+	},
+	{
+		"id": "T7_OFF_LAMP_UNDEAD@2",
+		"name": "Grandmaster's Cryptcandle (Rare)"
+	},
+	{
+		"id": "T7_OFF_LAMP_UNDEAD@3",
+		"name": "Grandmaster's Cryptcandle (Exceptional)"
+	},
+	{
+		"id": "T7_OFF_LAMP_UNDEAD@4",
+		"name": "Grandmaster's Cryptcandle (Pristine)"
+	},
+	{
+		"id": "T8_OFF_LAMP_UNDEAD",
+		"name": "Elder's Cryptcandle"
+	},
+	{
+		"id": "T8_OFF_LAMP_UNDEAD@1",
+		"name": "Elder's Cryptcandle (Uncommon)"
+	},
+	{
+		"id": "T8_OFF_LAMP_UNDEAD@2",
+		"name": "Elder's Cryptcandle (Rare)"
+	},
+	{
+		"id": "T8_OFF_LAMP_UNDEAD@3",
+		"name": "Elder's Cryptcandle (Exceptional)"
+	},
+	{
+		"id": "T8_OFF_LAMP_UNDEAD@4",
+		"name": "Elder's Cryptcandle (Pristine)"
+	},
+	{
+		"id": "T4_OFF_JESTERCANE_HELL",
+		"name": "Adept's Leering Cane"
+	},
+	{
+		"id": "T4_OFF_JESTERCANE_HELL@1",
+		"name": "Adept's Leering Cane (Uncommon)"
+	},
+	{
+		"id": "T4_OFF_JESTERCANE_HELL@2",
+		"name": "Adept's Leering Cane (Rare)"
+	},
+	{
+		"id": "T4_OFF_JESTERCANE_HELL@3",
+		"name": "Adept's Leering Cane (Exceptional)"
+	},
+	{
+		"id": "T4_OFF_JESTERCANE_HELL@4",
+		"name": "Adept's Leering Cane (Pristine)"
+	},
+	{
+		"id": "T5_OFF_JESTERCANE_HELL",
+		"name": "Expert's Leering Cane"
+	},
+	{
+		"id": "T5_OFF_JESTERCANE_HELL@1",
+		"name": "Expert's Leering Cane (Uncommon)"
+	},
+	{
+		"id": "T5_OFF_JESTERCANE_HELL@2",
+		"name": "Expert's Leering Cane (Rare)"
+	},
+	{
+		"id": "T5_OFF_JESTERCANE_HELL@3",
+		"name": "Expert's Leering Cane (Exceptional)"
+	},
+	{
+		"id": "T5_OFF_JESTERCANE_HELL@4",
+		"name": "Expert's Leering Cane (Pristine)"
+	},
+	{
+		"id": "T6_OFF_JESTERCANE_HELL",
+		"name": "Master's Leering Cane"
+	},
+	{
+		"id": "T6_OFF_JESTERCANE_HELL@1",
+		"name": "Master's Leering Cane (Uncommon)"
+	},
+	{
+		"id": "T6_OFF_JESTERCANE_HELL@2",
+		"name": "Master's Leering Cane (Rare)"
+	},
+	{
+		"id": "T6_OFF_JESTERCANE_HELL@3",
+		"name": "Master's Leering Cane (Exceptional)"
+	},
+	{
+		"id": "T6_OFF_JESTERCANE_HELL@4",
+		"name": "Master's Leering Cane (Pristine)"
+	},
+	{
+		"id": "T7_OFF_JESTERCANE_HELL",
+		"name": "Grandmaster's Leering Cane"
+	},
+	{
+		"id": "T7_OFF_JESTERCANE_HELL@1",
+		"name": "Grandmaster's Leering Cane (Uncommon)"
+	},
+	{
+		"id": "T7_OFF_JESTERCANE_HELL@2",
+		"name": "Grandmaster's Leering Cane (Rare)"
+	},
+	{
+		"id": "T7_OFF_JESTERCANE_HELL@3",
+		"name": "Grandmaster's Leering Cane (Exceptional)"
+	},
+	{
+		"id": "T7_OFF_JESTERCANE_HELL@4",
+		"name": "Grandmaster's Leering Cane (Pristine)"
+	},
+	{
+		"id": "T8_OFF_JESTERCANE_HELL",
+		"name": "Elder's Leering Cane"
+	},
+	{
+		"id": "T8_OFF_JESTERCANE_HELL@1",
+		"name": "Elder's Leering Cane (Uncommon)"
+	},
+	{
+		"id": "T8_OFF_JESTERCANE_HELL@2",
+		"name": "Elder's Leering Cane (Rare)"
+	},
+	{
+		"id": "T8_OFF_JESTERCANE_HELL@3",
+		"name": "Elder's Leering Cane (Exceptional)"
+	},
+	{
+		"id": "T8_OFF_JESTERCANE_HELL@4",
+		"name": "Elder's Leering Cane (Pristine)"
+	},
+	{
+		"id": "T4_OFF_TORCH_CRYSTAL",
+		"name": "Adept's Blueflame Torch"
+	},
+	{
+		"id": "T4_OFF_TORCH_CRYSTAL@1",
+		"name": "Adept's Blueflame Torch (Uncommon)"
+	},
+	{
+		"id": "T4_OFF_TORCH_CRYSTAL@2",
+		"name": "Adept's Blueflame Torch (Rare)"
+	},
+	{
+		"id": "T4_OFF_TORCH_CRYSTAL@3",
+		"name": "Adept's Blueflame Torch (Exceptional)"
+	},
+	{
+		"id": "T4_OFF_TORCH_CRYSTAL@4",
+		"name": "Adept's Blueflame Torch (Pristine)"
+	},
+	{
+		"id": "T5_OFF_TORCH_CRYSTAL",
+		"name": "Expert's Blueflame Torch"
+	},
+	{
+		"id": "T5_OFF_TORCH_CRYSTAL@1",
+		"name": "Expert's Blueflame Torch (Uncommon)"
+	},
+	{
+		"id": "T5_OFF_TORCH_CRYSTAL@2",
+		"name": "Expert's Blueflame Torch (Rare)"
+	},
+	{
+		"id": "T5_OFF_TORCH_CRYSTAL@3",
+		"name": "Expert's Blueflame Torch (Exceptional)"
+	},
+	{
+		"id": "T5_OFF_TORCH_CRYSTAL@4",
+		"name": "Expert's Blueflame Torch (Pristine)"
+	},
+	{
+		"id": "T6_OFF_TORCH_CRYSTAL",
+		"name": "Master's Blueflame Torch"
+	},
+	{
+		"id": "T6_OFF_TORCH_CRYSTAL@1",
+		"name": "Master's Blueflame Torch (Uncommon)"
+	},
+	{
+		"id": "T6_OFF_TORCH_CRYSTAL@2",
+		"name": "Master's Blueflame Torch (Rare)"
+	},
+	{
+		"id": "T6_OFF_TORCH_CRYSTAL@3",
+		"name": "Master's Blueflame Torch (Exceptional)"
+	},
+	{
+		"id": "T6_OFF_TORCH_CRYSTAL@4",
+		"name": "Master's Blueflame Torch (Pristine)"
+	},
+	{
+		"id": "T7_OFF_TORCH_CRYSTAL",
+		"name": "Grandmaster's Blueflame Torch"
+	},
+	{
+		"id": "T7_OFF_TORCH_CRYSTAL@1",
+		"name": "Grandmaster's Blueflame Torch (Uncommon)"
+	},
+	{
+		"id": "T7_OFF_TORCH_CRYSTAL@2",
+		"name": "Grandmaster's Blueflame Torch (Rare)"
+	},
+	{
+		"id": "T7_OFF_TORCH_CRYSTAL@3",
+		"name": "Grandmaster's Blueflame Torch (Exceptional)"
+	},
+	{
+		"id": "T7_OFF_TORCH_CRYSTAL@4",
+		"name": "Grandmaster's Blueflame Torch (Pristine)"
+	},
+	{
+		"id": "T8_OFF_TORCH_CRYSTAL",
+		"name": "Elder's Blueflame Torch"
+	},
+	{
+		"id": "T8_OFF_TORCH_CRYSTAL@1",
+		"name": "Elder's Blueflame Torch (Uncommon)"
+	},
+	{
+		"id": "T8_OFF_TORCH_CRYSTAL@2",
+		"name": "Elder's Blueflame Torch (Rare)"
+	},
+	{
+		"id": "T8_OFF_TORCH_CRYSTAL@3",
+		"name": "Elder's Blueflame Torch (Exceptional)"
+	},
+	{
+		"id": "T8_OFF_TORCH_CRYSTAL@4",
+		"name": "Elder's Blueflame Torch (Pristine)"
+	},
+	{
+		"id": "UNIQUE_INTERNAL_OFF_SCROLL_GAMEMASTER",
+		"name": "Scroll of the Law"
+	},
+	{
+		"id": "UNIQUE_OFF_VANITY_WEDDING_DRESS",
+		"name": "Bridal Bouquet"
+	},
+	{
+		"id": "UNIQUE_OFF_VANITY_WEDDING_TUXEDO",
+		"name": "Wedding Ring"
+	},
+	{
+		"id": "UNIQUE_OFF_VANITY_PRIEST",
+		"name": "Monk's Walking Staff"
+	},
+	{
+		"id": "UNIQUE_OFF_VANITY_INNKEEPER",
+		"name": "Innkeeper's Beer Mug"
+	},
+	{
+		"id": "UNIQUE_OFF_VANITY_PIRATE",
+		"name": "Navigator's Parrot Cage"
+	},
+	{
+		"id": "UNIQUE_OFF_VANITY_CHARITY_MARCH2020",
+		"name": "Staff of Hermes"
+	},
+	{
+		"id": "UNIQUE_OFF_VANITY_PUMPKIN_HAPPY",
+		"name": "Snack-O'-Lantern"
+	},
+	{
+		"id": "UNIQUE_OFF_VANITY_PUMPKIN_SAD",
+		"name": "Burp-O'-Lantern"
+	},
+	{
+		"id": "UNIQUE_OFF_VANITY_PUMPKIN_ANGRY",
+		"name": "Grump-O'-Lantern"
+	},
+	{
+		"id": "UNIQUE_OFF_VANITY_PIRATE_RED",
+		"name": "Navigator's Red Parrot Cage"
+	},
+	{
+		"id": "UNIQUE_OFF_VANITY_PIRATE_GREEN",
+		"name": "Navigator's Green Parrot Cage"
+	},
+	{
+		"id": "UNIQUE_OFF_VANITY_PIRATE_COCKATOO",
+		"name": "Navigator's Cockatoo Cage"
+	},
+	{
+		"id": "UNIQUE_OFF_VANITY_PRIEST_RED",
+		"name": "Exiled Monk's Walking Staff"
+	}
 ]

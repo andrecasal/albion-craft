@@ -1,4 +1,5 @@
 import { db } from './db'
+import { ITEMS_BY_ID } from './constants/items'
 
 // ============================================================================
 // TYPES
@@ -132,37 +133,42 @@ function showDashboard(): void {
 	}
 
 	// Table header
-	const colItem = 52
-	const colAvg = 15
-	const colMin = 15
-	const colMax = 15
+	const colItem = 40
+	const colAvg = 10
+	const colMin = 10
+	const colMax = 10
 
-	const headerRow =
-		'│ ' +
+	const headerContent =
 		'Item'.padEnd(colItem) +
 		'Avg Price'.padStart(colAvg) +
 		'Min %'.padStart(colMin) +
-		'Max %'.padStart(colMax) +
-		' │'
+		'Max %'.padStart(colMax)
+	const headerRow = '│ ' + headerContent.padEnd(tableWidth - 2) + ' │'
 	lines.push(headerRow)
 	lines.push('├' + '─'.repeat(tableWidth) + '┤')
 
 	// Data rows
 	for (const stat of stats) {
-		const itemName = truncateText(stat.itemId, colItem - 1)
+		const itemEntry = ITEMS_BY_ID.get(stat.itemId)
+		const itemName = truncateText(itemEntry?.name ?? stat.itemId, colItem - 1)
 		const avgPrice = formatNumber(stat.avgPrice)
-		const minPct = stat.avgPrice > 0 ? ((stat.minPrice - stat.avgPrice) / stat.avgPrice) * 100 : 0
-		const maxPct = stat.avgPrice > 0 ? ((stat.maxPrice - stat.avgPrice) / stat.avgPrice) * 100 : 0
+		const minPct =
+			stat.avgPrice > 0
+				? ((stat.minPrice - stat.avgPrice) / stat.avgPrice) * 100
+				: 0
+		const maxPct =
+			stat.avgPrice > 0
+				? ((stat.maxPrice - stat.avgPrice) / stat.avgPrice) * 100
+				: 0
 		const minPrice = formatPercent(minPct)
 		const maxPrice = formatPercent(maxPct)
 
-		const row =
-			'│ ' +
+		const rowContent =
 			itemName.padEnd(colItem) +
 			avgPrice.padStart(colAvg) +
 			minPrice.padStart(colMin) +
-			maxPrice.padStart(colMax) +
-			' │'
+			maxPrice.padStart(colMax)
+		const row = '│ ' + rowContent.padEnd(tableWidth - 2) + ' │'
 		lines.push(row)
 	}
 

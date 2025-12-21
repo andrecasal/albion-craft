@@ -1,822 +1,822 @@
 [
-  {
-    "id": "T2_BAG",
-    "name": "T2_BAG"
-  },
-  {
-    "id": "T3_BAG",
-    "name": "T3_BAG"
-  },
-  {
-    "id": "T4_BAG",
-    "name": "T4_BAG"
-  },
-  {
-    "id": "T4_BAG@1",
-    "name": "T4_BAG"
-  },
-  {
-    "id": "T4_BAG@2",
-    "name": "T4_BAG"
-  },
-  {
-    "id": "T4_BAG@3",
-    "name": "T4_BAG"
-  },
-  {
-    "id": "T4_BAG@4",
-    "name": "T4_BAG"
-  },
-  {
-    "id": "T5_BAG",
-    "name": "T5_BAG"
-  },
-  {
-    "id": "T5_BAG@1",
-    "name": "T5_BAG"
-  },
-  {
-    "id": "T5_BAG@2",
-    "name": "T5_BAG"
-  },
-  {
-    "id": "T5_BAG@3",
-    "name": "T5_BAG"
-  },
-  {
-    "id": "T5_BAG@4",
-    "name": "T5_BAG"
-  },
-  {
-    "id": "T6_BAG",
-    "name": "T6_BAG"
-  },
-  {
-    "id": "T6_BAG@1",
-    "name": "T6_BAG"
-  },
-  {
-    "id": "T6_BAG@2",
-    "name": "T6_BAG"
-  },
-  {
-    "id": "T6_BAG@3",
-    "name": "T6_BAG"
-  },
-  {
-    "id": "T6_BAG@4",
-    "name": "T6_BAG"
-  },
-  {
-    "id": "T7_BAG",
-    "name": "T7_BAG"
-  },
-  {
-    "id": "T7_BAG@1",
-    "name": "T7_BAG"
-  },
-  {
-    "id": "T7_BAG@2",
-    "name": "T7_BAG"
-  },
-  {
-    "id": "T7_BAG@3",
-    "name": "T7_BAG"
-  },
-  {
-    "id": "T7_BAG@4",
-    "name": "T7_BAG"
-  },
-  {
-    "id": "T8_BAG",
-    "name": "T8_BAG"
-  },
-  {
-    "id": "T8_BAG@1",
-    "name": "T8_BAG"
-  },
-  {
-    "id": "T8_BAG@2",
-    "name": "T8_BAG"
-  },
-  {
-    "id": "T8_BAG@3",
-    "name": "T8_BAG"
-  },
-  {
-    "id": "T8_BAG@4",
-    "name": "T8_BAG"
-  },
-  {
-    "id": "T4_BAG_INSIGHT",
-    "name": "T4_BAG_INSIGHT"
-  },
-  {
-    "id": "T4_BAG_INSIGHT@1",
-    "name": "T4_BAG_INSIGHT"
-  },
-  {
-    "id": "T4_BAG_INSIGHT@2",
-    "name": "T4_BAG_INSIGHT"
-  },
-  {
-    "id": "T4_BAG_INSIGHT@3",
-    "name": "T4_BAG_INSIGHT"
-  },
-  {
-    "id": "T4_BAG_INSIGHT@4",
-    "name": "T4_BAG_INSIGHT"
-  },
-  {
-    "id": "T5_BAG_INSIGHT",
-    "name": "T5_BAG_INSIGHT"
-  },
-  {
-    "id": "T5_BAG_INSIGHT@1",
-    "name": "T5_BAG_INSIGHT"
-  },
-  {
-    "id": "T5_BAG_INSIGHT@2",
-    "name": "T5_BAG_INSIGHT"
-  },
-  {
-    "id": "T5_BAG_INSIGHT@3",
-    "name": "T5_BAG_INSIGHT"
-  },
-  {
-    "id": "T5_BAG_INSIGHT@4",
-    "name": "T5_BAG_INSIGHT"
-  },
-  {
-    "id": "T6_BAG_INSIGHT",
-    "name": "T6_BAG_INSIGHT"
-  },
-  {
-    "id": "T6_BAG_INSIGHT@1",
-    "name": "T6_BAG_INSIGHT"
-  },
-  {
-    "id": "T6_BAG_INSIGHT@2",
-    "name": "T6_BAG_INSIGHT"
-  },
-  {
-    "id": "T6_BAG_INSIGHT@3",
-    "name": "T6_BAG_INSIGHT"
-  },
-  {
-    "id": "T6_BAG_INSIGHT@4",
-    "name": "T6_BAG_INSIGHT"
-  },
-  {
-    "id": "T7_BAG_INSIGHT",
-    "name": "T7_BAG_INSIGHT"
-  },
-  {
-    "id": "T7_BAG_INSIGHT@1",
-    "name": "T7_BAG_INSIGHT"
-  },
-  {
-    "id": "T7_BAG_INSIGHT@2",
-    "name": "T7_BAG_INSIGHT"
-  },
-  {
-    "id": "T7_BAG_INSIGHT@3",
-    "name": "T7_BAG_INSIGHT"
-  },
-  {
-    "id": "T7_BAG_INSIGHT@4",
-    "name": "T7_BAG_INSIGHT"
-  },
-  {
-    "id": "T8_BAG_INSIGHT",
-    "name": "T8_BAG_INSIGHT"
-  },
-  {
-    "id": "T8_BAG_INSIGHT@1",
-    "name": "T8_BAG_INSIGHT"
-  },
-  {
-    "id": "T8_BAG_INSIGHT@2",
-    "name": "T8_BAG_INSIGHT"
-  },
-  {
-    "id": "T8_BAG_INSIGHT@3",
-    "name": "T8_BAG_INSIGHT"
-  },
-  {
-    "id": "T8_BAG_INSIGHT@4",
-    "name": "T8_BAG_INSIGHT"
-  },
-  {
-    "id": "T4_BACKPACK_GATHERER_FIBER",
-    "name": "T4_BACKPACK_GATHERER_FIBER"
-  },
-  {
-    "id": "T4_BACKPACK_GATHERER_FIBER@1",
-    "name": "T4_BACKPACK_GATHERER_FIBER"
-  },
-  {
-    "id": "T4_BACKPACK_GATHERER_FIBER@2",
-    "name": "T4_BACKPACK_GATHERER_FIBER"
-  },
-  {
-    "id": "T4_BACKPACK_GATHERER_FIBER@3",
-    "name": "T4_BACKPACK_GATHERER_FIBER"
-  },
-  {
-    "id": "T4_BACKPACK_GATHERER_FIBER@4",
-    "name": "T4_BACKPACK_GATHERER_FIBER"
-  },
-  {
-    "id": "T5_BACKPACK_GATHERER_FIBER",
-    "name": "T5_BACKPACK_GATHERER_FIBER"
-  },
-  {
-    "id": "T5_BACKPACK_GATHERER_FIBER@1",
-    "name": "T5_BACKPACK_GATHERER_FIBER"
-  },
-  {
-    "id": "T5_BACKPACK_GATHERER_FIBER@2",
-    "name": "T5_BACKPACK_GATHERER_FIBER"
-  },
-  {
-    "id": "T5_BACKPACK_GATHERER_FIBER@3",
-    "name": "T5_BACKPACK_GATHERER_FIBER"
-  },
-  {
-    "id": "T5_BACKPACK_GATHERER_FIBER@4",
-    "name": "T5_BACKPACK_GATHERER_FIBER"
-  },
-  {
-    "id": "T6_BACKPACK_GATHERER_FIBER",
-    "name": "T6_BACKPACK_GATHERER_FIBER"
-  },
-  {
-    "id": "T6_BACKPACK_GATHERER_FIBER@1",
-    "name": "T6_BACKPACK_GATHERER_FIBER"
-  },
-  {
-    "id": "T6_BACKPACK_GATHERER_FIBER@2",
-    "name": "T6_BACKPACK_GATHERER_FIBER"
-  },
-  {
-    "id": "T6_BACKPACK_GATHERER_FIBER@3",
-    "name": "T6_BACKPACK_GATHERER_FIBER"
-  },
-  {
-    "id": "T6_BACKPACK_GATHERER_FIBER@4",
-    "name": "T6_BACKPACK_GATHERER_FIBER"
-  },
-  {
-    "id": "T7_BACKPACK_GATHERER_FIBER",
-    "name": "T7_BACKPACK_GATHERER_FIBER"
-  },
-  {
-    "id": "T7_BACKPACK_GATHERER_FIBER@1",
-    "name": "T7_BACKPACK_GATHERER_FIBER"
-  },
-  {
-    "id": "T7_BACKPACK_GATHERER_FIBER@2",
-    "name": "T7_BACKPACK_GATHERER_FIBER"
-  },
-  {
-    "id": "T7_BACKPACK_GATHERER_FIBER@3",
-    "name": "T7_BACKPACK_GATHERER_FIBER"
-  },
-  {
-    "id": "T7_BACKPACK_GATHERER_FIBER@4",
-    "name": "T7_BACKPACK_GATHERER_FIBER"
-  },
-  {
-    "id": "T8_BACKPACK_GATHERER_FIBER",
-    "name": "T8_BACKPACK_GATHERER_FIBER"
-  },
-  {
-    "id": "T8_BACKPACK_GATHERER_FIBER@1",
-    "name": "T8_BACKPACK_GATHERER_FIBER"
-  },
-  {
-    "id": "T8_BACKPACK_GATHERER_FIBER@2",
-    "name": "T8_BACKPACK_GATHERER_FIBER"
-  },
-  {
-    "id": "T8_BACKPACK_GATHERER_FIBER@3",
-    "name": "T8_BACKPACK_GATHERER_FIBER"
-  },
-  {
-    "id": "T8_BACKPACK_GATHERER_FIBER@4",
-    "name": "T8_BACKPACK_GATHERER_FIBER"
-  },
-  {
-    "id": "T4_BACKPACK_GATHERER_HIDE",
-    "name": "T4_BACKPACK_GATHERER_HIDE"
-  },
-  {
-    "id": "T4_BACKPACK_GATHERER_HIDE@1",
-    "name": "T4_BACKPACK_GATHERER_HIDE"
-  },
-  {
-    "id": "T4_BACKPACK_GATHERER_HIDE@2",
-    "name": "T4_BACKPACK_GATHERER_HIDE"
-  },
-  {
-    "id": "T4_BACKPACK_GATHERER_HIDE@3",
-    "name": "T4_BACKPACK_GATHERER_HIDE"
-  },
-  {
-    "id": "T4_BACKPACK_GATHERER_HIDE@4",
-    "name": "T4_BACKPACK_GATHERER_HIDE"
-  },
-  {
-    "id": "T5_BACKPACK_GATHERER_HIDE",
-    "name": "T5_BACKPACK_GATHERER_HIDE"
-  },
-  {
-    "id": "T5_BACKPACK_GATHERER_HIDE@1",
-    "name": "T5_BACKPACK_GATHERER_HIDE"
-  },
-  {
-    "id": "T5_BACKPACK_GATHERER_HIDE@2",
-    "name": "T5_BACKPACK_GATHERER_HIDE"
-  },
-  {
-    "id": "T5_BACKPACK_GATHERER_HIDE@3",
-    "name": "T5_BACKPACK_GATHERER_HIDE"
-  },
-  {
-    "id": "T5_BACKPACK_GATHERER_HIDE@4",
-    "name": "T5_BACKPACK_GATHERER_HIDE"
-  },
-  {
-    "id": "T6_BACKPACK_GATHERER_HIDE",
-    "name": "T6_BACKPACK_GATHERER_HIDE"
-  },
-  {
-    "id": "T6_BACKPACK_GATHERER_HIDE@1",
-    "name": "T6_BACKPACK_GATHERER_HIDE"
-  },
-  {
-    "id": "T6_BACKPACK_GATHERER_HIDE@2",
-    "name": "T6_BACKPACK_GATHERER_HIDE"
-  },
-  {
-    "id": "T6_BACKPACK_GATHERER_HIDE@3",
-    "name": "T6_BACKPACK_GATHERER_HIDE"
-  },
-  {
-    "id": "T6_BACKPACK_GATHERER_HIDE@4",
-    "name": "T6_BACKPACK_GATHERER_HIDE"
-  },
-  {
-    "id": "T7_BACKPACK_GATHERER_HIDE",
-    "name": "T7_BACKPACK_GATHERER_HIDE"
-  },
-  {
-    "id": "T7_BACKPACK_GATHERER_HIDE@1",
-    "name": "T7_BACKPACK_GATHERER_HIDE"
-  },
-  {
-    "id": "T7_BACKPACK_GATHERER_HIDE@2",
-    "name": "T7_BACKPACK_GATHERER_HIDE"
-  },
-  {
-    "id": "T7_BACKPACK_GATHERER_HIDE@3",
-    "name": "T7_BACKPACK_GATHERER_HIDE"
-  },
-  {
-    "id": "T7_BACKPACK_GATHERER_HIDE@4",
-    "name": "T7_BACKPACK_GATHERER_HIDE"
-  },
-  {
-    "id": "T8_BACKPACK_GATHERER_HIDE",
-    "name": "T8_BACKPACK_GATHERER_HIDE"
-  },
-  {
-    "id": "T8_BACKPACK_GATHERER_HIDE@1",
-    "name": "T8_BACKPACK_GATHERER_HIDE"
-  },
-  {
-    "id": "T8_BACKPACK_GATHERER_HIDE@2",
-    "name": "T8_BACKPACK_GATHERER_HIDE"
-  },
-  {
-    "id": "T8_BACKPACK_GATHERER_HIDE@3",
-    "name": "T8_BACKPACK_GATHERER_HIDE"
-  },
-  {
-    "id": "T8_BACKPACK_GATHERER_HIDE@4",
-    "name": "T8_BACKPACK_GATHERER_HIDE"
-  },
-  {
-    "id": "T4_BACKPACK_GATHERER_ORE",
-    "name": "T4_BACKPACK_GATHERER_ORE"
-  },
-  {
-    "id": "T4_BACKPACK_GATHERER_ORE@1",
-    "name": "T4_BACKPACK_GATHERER_ORE"
-  },
-  {
-    "id": "T4_BACKPACK_GATHERER_ORE@2",
-    "name": "T4_BACKPACK_GATHERER_ORE"
-  },
-  {
-    "id": "T4_BACKPACK_GATHERER_ORE@3",
-    "name": "T4_BACKPACK_GATHERER_ORE"
-  },
-  {
-    "id": "T4_BACKPACK_GATHERER_ORE@4",
-    "name": "T4_BACKPACK_GATHERER_ORE"
-  },
-  {
-    "id": "T5_BACKPACK_GATHERER_ORE",
-    "name": "T5_BACKPACK_GATHERER_ORE"
-  },
-  {
-    "id": "T5_BACKPACK_GATHERER_ORE@1",
-    "name": "T5_BACKPACK_GATHERER_ORE"
-  },
-  {
-    "id": "T5_BACKPACK_GATHERER_ORE@2",
-    "name": "T5_BACKPACK_GATHERER_ORE"
-  },
-  {
-    "id": "T5_BACKPACK_GATHERER_ORE@3",
-    "name": "T5_BACKPACK_GATHERER_ORE"
-  },
-  {
-    "id": "T5_BACKPACK_GATHERER_ORE@4",
-    "name": "T5_BACKPACK_GATHERER_ORE"
-  },
-  {
-    "id": "T6_BACKPACK_GATHERER_ORE",
-    "name": "T6_BACKPACK_GATHERER_ORE"
-  },
-  {
-    "id": "T6_BACKPACK_GATHERER_ORE@1",
-    "name": "T6_BACKPACK_GATHERER_ORE"
-  },
-  {
-    "id": "T6_BACKPACK_GATHERER_ORE@2",
-    "name": "T6_BACKPACK_GATHERER_ORE"
-  },
-  {
-    "id": "T6_BACKPACK_GATHERER_ORE@3",
-    "name": "T6_BACKPACK_GATHERER_ORE"
-  },
-  {
-    "id": "T6_BACKPACK_GATHERER_ORE@4",
-    "name": "T6_BACKPACK_GATHERER_ORE"
-  },
-  {
-    "id": "T7_BACKPACK_GATHERER_ORE",
-    "name": "T7_BACKPACK_GATHERER_ORE"
-  },
-  {
-    "id": "T7_BACKPACK_GATHERER_ORE@1",
-    "name": "T7_BACKPACK_GATHERER_ORE"
-  },
-  {
-    "id": "T7_BACKPACK_GATHERER_ORE@2",
-    "name": "T7_BACKPACK_GATHERER_ORE"
-  },
-  {
-    "id": "T7_BACKPACK_GATHERER_ORE@3",
-    "name": "T7_BACKPACK_GATHERER_ORE"
-  },
-  {
-    "id": "T7_BACKPACK_GATHERER_ORE@4",
-    "name": "T7_BACKPACK_GATHERER_ORE"
-  },
-  {
-    "id": "T8_BACKPACK_GATHERER_ORE",
-    "name": "T8_BACKPACK_GATHERER_ORE"
-  },
-  {
-    "id": "T8_BACKPACK_GATHERER_ORE@1",
-    "name": "T8_BACKPACK_GATHERER_ORE"
-  },
-  {
-    "id": "T8_BACKPACK_GATHERER_ORE@2",
-    "name": "T8_BACKPACK_GATHERER_ORE"
-  },
-  {
-    "id": "T8_BACKPACK_GATHERER_ORE@3",
-    "name": "T8_BACKPACK_GATHERER_ORE"
-  },
-  {
-    "id": "T8_BACKPACK_GATHERER_ORE@4",
-    "name": "T8_BACKPACK_GATHERER_ORE"
-  },
-  {
-    "id": "T4_BACKPACK_GATHERER_ROCK",
-    "name": "T4_BACKPACK_GATHERER_ROCK"
-  },
-  {
-    "id": "T4_BACKPACK_GATHERER_ROCK@1",
-    "name": "T4_BACKPACK_GATHERER_ROCK"
-  },
-  {
-    "id": "T4_BACKPACK_GATHERER_ROCK@2",
-    "name": "T4_BACKPACK_GATHERER_ROCK"
-  },
-  {
-    "id": "T4_BACKPACK_GATHERER_ROCK@3",
-    "name": "T4_BACKPACK_GATHERER_ROCK"
-  },
-  {
-    "id": "T4_BACKPACK_GATHERER_ROCK@4",
-    "name": "T4_BACKPACK_GATHERER_ROCK"
-  },
-  {
-    "id": "T5_BACKPACK_GATHERER_ROCK",
-    "name": "T5_BACKPACK_GATHERER_ROCK"
-  },
-  {
-    "id": "T5_BACKPACK_GATHERER_ROCK@1",
-    "name": "T5_BACKPACK_GATHERER_ROCK"
-  },
-  {
-    "id": "T5_BACKPACK_GATHERER_ROCK@2",
-    "name": "T5_BACKPACK_GATHERER_ROCK"
-  },
-  {
-    "id": "T5_BACKPACK_GATHERER_ROCK@3",
-    "name": "T5_BACKPACK_GATHERER_ROCK"
-  },
-  {
-    "id": "T5_BACKPACK_GATHERER_ROCK@4",
-    "name": "T5_BACKPACK_GATHERER_ROCK"
-  },
-  {
-    "id": "T6_BACKPACK_GATHERER_ROCK",
-    "name": "T6_BACKPACK_GATHERER_ROCK"
-  },
-  {
-    "id": "T6_BACKPACK_GATHERER_ROCK@1",
-    "name": "T6_BACKPACK_GATHERER_ROCK"
-  },
-  {
-    "id": "T6_BACKPACK_GATHERER_ROCK@2",
-    "name": "T6_BACKPACK_GATHERER_ROCK"
-  },
-  {
-    "id": "T6_BACKPACK_GATHERER_ROCK@3",
-    "name": "T6_BACKPACK_GATHERER_ROCK"
-  },
-  {
-    "id": "T6_BACKPACK_GATHERER_ROCK@4",
-    "name": "T6_BACKPACK_GATHERER_ROCK"
-  },
-  {
-    "id": "T7_BACKPACK_GATHERER_ROCK",
-    "name": "T7_BACKPACK_GATHERER_ROCK"
-  },
-  {
-    "id": "T7_BACKPACK_GATHERER_ROCK@1",
-    "name": "T7_BACKPACK_GATHERER_ROCK"
-  },
-  {
-    "id": "T7_BACKPACK_GATHERER_ROCK@2",
-    "name": "T7_BACKPACK_GATHERER_ROCK"
-  },
-  {
-    "id": "T7_BACKPACK_GATHERER_ROCK@3",
-    "name": "T7_BACKPACK_GATHERER_ROCK"
-  },
-  {
-    "id": "T7_BACKPACK_GATHERER_ROCK@4",
-    "name": "T7_BACKPACK_GATHERER_ROCK"
-  },
-  {
-    "id": "T8_BACKPACK_GATHERER_ROCK",
-    "name": "T8_BACKPACK_GATHERER_ROCK"
-  },
-  {
-    "id": "T8_BACKPACK_GATHERER_ROCK@1",
-    "name": "T8_BACKPACK_GATHERER_ROCK"
-  },
-  {
-    "id": "T8_BACKPACK_GATHERER_ROCK@2",
-    "name": "T8_BACKPACK_GATHERER_ROCK"
-  },
-  {
-    "id": "T8_BACKPACK_GATHERER_ROCK@3",
-    "name": "T8_BACKPACK_GATHERER_ROCK"
-  },
-  {
-    "id": "T8_BACKPACK_GATHERER_ROCK@4",
-    "name": "T8_BACKPACK_GATHERER_ROCK"
-  },
-  {
-    "id": "T4_BACKPACK_GATHERER_WOOD",
-    "name": "T4_BACKPACK_GATHERER_WOOD"
-  },
-  {
-    "id": "T4_BACKPACK_GATHERER_WOOD@1",
-    "name": "T4_BACKPACK_GATHERER_WOOD"
-  },
-  {
-    "id": "T4_BACKPACK_GATHERER_WOOD@2",
-    "name": "T4_BACKPACK_GATHERER_WOOD"
-  },
-  {
-    "id": "T4_BACKPACK_GATHERER_WOOD@3",
-    "name": "T4_BACKPACK_GATHERER_WOOD"
-  },
-  {
-    "id": "T4_BACKPACK_GATHERER_WOOD@4",
-    "name": "T4_BACKPACK_GATHERER_WOOD"
-  },
-  {
-    "id": "T5_BACKPACK_GATHERER_WOOD",
-    "name": "T5_BACKPACK_GATHERER_WOOD"
-  },
-  {
-    "id": "T5_BACKPACK_GATHERER_WOOD@1",
-    "name": "T5_BACKPACK_GATHERER_WOOD"
-  },
-  {
-    "id": "T5_BACKPACK_GATHERER_WOOD@2",
-    "name": "T5_BACKPACK_GATHERER_WOOD"
-  },
-  {
-    "id": "T5_BACKPACK_GATHERER_WOOD@3",
-    "name": "T5_BACKPACK_GATHERER_WOOD"
-  },
-  {
-    "id": "T5_BACKPACK_GATHERER_WOOD@4",
-    "name": "T5_BACKPACK_GATHERER_WOOD"
-  },
-  {
-    "id": "T6_BACKPACK_GATHERER_WOOD",
-    "name": "T6_BACKPACK_GATHERER_WOOD"
-  },
-  {
-    "id": "T6_BACKPACK_GATHERER_WOOD@1",
-    "name": "T6_BACKPACK_GATHERER_WOOD"
-  },
-  {
-    "id": "T6_BACKPACK_GATHERER_WOOD@2",
-    "name": "T6_BACKPACK_GATHERER_WOOD"
-  },
-  {
-    "id": "T6_BACKPACK_GATHERER_WOOD@3",
-    "name": "T6_BACKPACK_GATHERER_WOOD"
-  },
-  {
-    "id": "T6_BACKPACK_GATHERER_WOOD@4",
-    "name": "T6_BACKPACK_GATHERER_WOOD"
-  },
-  {
-    "id": "T7_BACKPACK_GATHERER_WOOD",
-    "name": "T7_BACKPACK_GATHERER_WOOD"
-  },
-  {
-    "id": "T7_BACKPACK_GATHERER_WOOD@1",
-    "name": "T7_BACKPACK_GATHERER_WOOD"
-  },
-  {
-    "id": "T7_BACKPACK_GATHERER_WOOD@2",
-    "name": "T7_BACKPACK_GATHERER_WOOD"
-  },
-  {
-    "id": "T7_BACKPACK_GATHERER_WOOD@3",
-    "name": "T7_BACKPACK_GATHERER_WOOD"
-  },
-  {
-    "id": "T7_BACKPACK_GATHERER_WOOD@4",
-    "name": "T7_BACKPACK_GATHERER_WOOD"
-  },
-  {
-    "id": "T8_BACKPACK_GATHERER_WOOD",
-    "name": "T8_BACKPACK_GATHERER_WOOD"
-  },
-  {
-    "id": "T8_BACKPACK_GATHERER_WOOD@1",
-    "name": "T8_BACKPACK_GATHERER_WOOD"
-  },
-  {
-    "id": "T8_BACKPACK_GATHERER_WOOD@2",
-    "name": "T8_BACKPACK_GATHERER_WOOD"
-  },
-  {
-    "id": "T8_BACKPACK_GATHERER_WOOD@3",
-    "name": "T8_BACKPACK_GATHERER_WOOD"
-  },
-  {
-    "id": "T8_BACKPACK_GATHERER_WOOD@4",
-    "name": "T8_BACKPACK_GATHERER_WOOD"
-  },
-  {
-    "id": "T4_BACKPACK_GATHERER_FISH",
-    "name": "T4_BACKPACK_GATHERER_FISH"
-  },
-  {
-    "id": "T4_BACKPACK_GATHERER_FISH@1",
-    "name": "T4_BACKPACK_GATHERER_FISH"
-  },
-  {
-    "id": "T4_BACKPACK_GATHERER_FISH@2",
-    "name": "T4_BACKPACK_GATHERER_FISH"
-  },
-  {
-    "id": "T4_BACKPACK_GATHERER_FISH@3",
-    "name": "T4_BACKPACK_GATHERER_FISH"
-  },
-  {
-    "id": "T4_BACKPACK_GATHERER_FISH@4",
-    "name": "T4_BACKPACK_GATHERER_FISH"
-  },
-  {
-    "id": "T5_BACKPACK_GATHERER_FISH",
-    "name": "T5_BACKPACK_GATHERER_FISH"
-  },
-  {
-    "id": "T5_BACKPACK_GATHERER_FISH@1",
-    "name": "T5_BACKPACK_GATHERER_FISH"
-  },
-  {
-    "id": "T5_BACKPACK_GATHERER_FISH@2",
-    "name": "T5_BACKPACK_GATHERER_FISH"
-  },
-  {
-    "id": "T5_BACKPACK_GATHERER_FISH@3",
-    "name": "T5_BACKPACK_GATHERER_FISH"
-  },
-  {
-    "id": "T5_BACKPACK_GATHERER_FISH@4",
-    "name": "T5_BACKPACK_GATHERER_FISH"
-  },
-  {
-    "id": "T6_BACKPACK_GATHERER_FISH",
-    "name": "T6_BACKPACK_GATHERER_FISH"
-  },
-  {
-    "id": "T6_BACKPACK_GATHERER_FISH@1",
-    "name": "T6_BACKPACK_GATHERER_FISH"
-  },
-  {
-    "id": "T6_BACKPACK_GATHERER_FISH@2",
-    "name": "T6_BACKPACK_GATHERER_FISH"
-  },
-  {
-    "id": "T6_BACKPACK_GATHERER_FISH@3",
-    "name": "T6_BACKPACK_GATHERER_FISH"
-  },
-  {
-    "id": "T6_BACKPACK_GATHERER_FISH@4",
-    "name": "T6_BACKPACK_GATHERER_FISH"
-  },
-  {
-    "id": "T7_BACKPACK_GATHERER_FISH",
-    "name": "T7_BACKPACK_GATHERER_FISH"
-  },
-  {
-    "id": "T7_BACKPACK_GATHERER_FISH@1",
-    "name": "T7_BACKPACK_GATHERER_FISH"
-  },
-  {
-    "id": "T7_BACKPACK_GATHERER_FISH@2",
-    "name": "T7_BACKPACK_GATHERER_FISH"
-  },
-  {
-    "id": "T7_BACKPACK_GATHERER_FISH@3",
-    "name": "T7_BACKPACK_GATHERER_FISH"
-  },
-  {
-    "id": "T7_BACKPACK_GATHERER_FISH@4",
-    "name": "T7_BACKPACK_GATHERER_FISH"
-  },
-  {
-    "id": "T8_BACKPACK_GATHERER_FISH",
-    "name": "T8_BACKPACK_GATHERER_FISH"
-  },
-  {
-    "id": "T8_BACKPACK_GATHERER_FISH@1",
-    "name": "T8_BACKPACK_GATHERER_FISH"
-  },
-  {
-    "id": "T8_BACKPACK_GATHERER_FISH@2",
-    "name": "T8_BACKPACK_GATHERER_FISH"
-  },
-  {
-    "id": "T8_BACKPACK_GATHERER_FISH@3",
-    "name": "T8_BACKPACK_GATHERER_FISH"
-  },
-  {
-    "id": "T8_BACKPACK_GATHERER_FISH@4",
-    "name": "T8_BACKPACK_GATHERER_FISH"
-  },
-  {
-    "id": "UNIQUE_BACKPACK_VANITY_SANTACLAUS",
-    "name": "UNIQUE_BACKPACK_VANITY_SANTACLAUS"
-  },
-  {
-    "id": "UNIQUE_BACKPACK_VANITY_EASTER",
-    "name": "UNIQUE_BACKPACK_VANITY_EASTER"
-  },
-  {
-    "id": "UNIQUE_BACKPACK_VANITY_KICKSTART",
-    "name": "UNIQUE_BACKPACK_VANITY_KICKSTART"
-  }
+	{
+		"id": "T2_BAG",
+		"name": "Novice's Bag"
+	},
+	{
+		"id": "T3_BAG",
+		"name": "Journeyman's Bag"
+	},
+	{
+		"id": "T4_BAG",
+		"name": "Adept's Bag"
+	},
+	{
+		"id": "T4_BAG@1",
+		"name": "Adept's Bag (Uncommon)"
+	},
+	{
+		"id": "T4_BAG@2",
+		"name": "Adept's Bag (Rare)"
+	},
+	{
+		"id": "T4_BAG@3",
+		"name": "Adept's Bag (Exceptional)"
+	},
+	{
+		"id": "T4_BAG@4",
+		"name": "Adept's Bag (Pristine)"
+	},
+	{
+		"id": "T5_BAG",
+		"name": "Expert's Bag"
+	},
+	{
+		"id": "T5_BAG@1",
+		"name": "Expert's Bag (Uncommon)"
+	},
+	{
+		"id": "T5_BAG@2",
+		"name": "Expert's Bag (Rare)"
+	},
+	{
+		"id": "T5_BAG@3",
+		"name": "Expert's Bag (Exceptional)"
+	},
+	{
+		"id": "T5_BAG@4",
+		"name": "Expert's Bag (Pristine)"
+	},
+	{
+		"id": "T6_BAG",
+		"name": "Master's Bag"
+	},
+	{
+		"id": "T6_BAG@1",
+		"name": "Master's Bag (Uncommon)"
+	},
+	{
+		"id": "T6_BAG@2",
+		"name": "Master's Bag (Rare)"
+	},
+	{
+		"id": "T6_BAG@3",
+		"name": "Master's Bag (Exceptional)"
+	},
+	{
+		"id": "T6_BAG@4",
+		"name": "Master's Bag (Pristine)"
+	},
+	{
+		"id": "T7_BAG",
+		"name": "Grandmaster's Bag"
+	},
+	{
+		"id": "T7_BAG@1",
+		"name": "Grandmaster's Bag (Uncommon)"
+	},
+	{
+		"id": "T7_BAG@2",
+		"name": "Grandmaster's Bag (Rare)"
+	},
+	{
+		"id": "T7_BAG@3",
+		"name": "Grandmaster's Bag (Exceptional)"
+	},
+	{
+		"id": "T7_BAG@4",
+		"name": "Grandmaster's Bag (Pristine)"
+	},
+	{
+		"id": "T8_BAG",
+		"name": "Elder's Bag"
+	},
+	{
+		"id": "T8_BAG@1",
+		"name": "Elder's Bag (Uncommon)"
+	},
+	{
+		"id": "T8_BAG@2",
+		"name": "Elder's Bag (Rare)"
+	},
+	{
+		"id": "T8_BAG@3",
+		"name": "Elder's Bag (Exceptional)"
+	},
+	{
+		"id": "T8_BAG@4",
+		"name": "Elder's Bag (Pristine)"
+	},
+	{
+		"id": "T4_BAG_INSIGHT",
+		"name": "Adept's Satchel of Insight"
+	},
+	{
+		"id": "T4_BAG_INSIGHT@1",
+		"name": "Adept's Satchel of Insight (Uncommon)"
+	},
+	{
+		"id": "T4_BAG_INSIGHT@2",
+		"name": "Adept's Satchel of Insight (Rare)"
+	},
+	{
+		"id": "T4_BAG_INSIGHT@3",
+		"name": "Adept's Satchel of Insight (Exceptional)"
+	},
+	{
+		"id": "T4_BAG_INSIGHT@4",
+		"name": "Adept's Satchel of Insight (Pristine)"
+	},
+	{
+		"id": "T5_BAG_INSIGHT",
+		"name": "Expert's Satchel of Insight"
+	},
+	{
+		"id": "T5_BAG_INSIGHT@1",
+		"name": "Expert's Satchel of Insight (Uncommon)"
+	},
+	{
+		"id": "T5_BAG_INSIGHT@2",
+		"name": "Expert's Satchel of Insight (Rare)"
+	},
+	{
+		"id": "T5_BAG_INSIGHT@3",
+		"name": "Expert's Satchel of Insight (Exceptional)"
+	},
+	{
+		"id": "T5_BAG_INSIGHT@4",
+		"name": "Expert's Satchel of Insight (Pristine)"
+	},
+	{
+		"id": "T6_BAG_INSIGHT",
+		"name": "Master's Satchel of Insight"
+	},
+	{
+		"id": "T6_BAG_INSIGHT@1",
+		"name": "Master's Satchel of Insight (Uncommon)"
+	},
+	{
+		"id": "T6_BAG_INSIGHT@2",
+		"name": "Master's Satchel of Insight (Rare)"
+	},
+	{
+		"id": "T6_BAG_INSIGHT@3",
+		"name": "Master's Satchel of Insight (Exceptional)"
+	},
+	{
+		"id": "T6_BAG_INSIGHT@4",
+		"name": "Master's Satchel of Insight (Pristine)"
+	},
+	{
+		"id": "T7_BAG_INSIGHT",
+		"name": "Grandmaster's Satchel of Insight"
+	},
+	{
+		"id": "T7_BAG_INSIGHT@1",
+		"name": "Grandmaster's Satchel of Insight (Uncommon)"
+	},
+	{
+		"id": "T7_BAG_INSIGHT@2",
+		"name": "Grandmaster's Satchel of Insight (Rare)"
+	},
+	{
+		"id": "T7_BAG_INSIGHT@3",
+		"name": "Grandmaster's Satchel of Insight (Exceptional)"
+	},
+	{
+		"id": "T7_BAG_INSIGHT@4",
+		"name": "Grandmaster's Satchel of Insight (Pristine)"
+	},
+	{
+		"id": "T8_BAG_INSIGHT",
+		"name": "Elder's Satchel of Insight"
+	},
+	{
+		"id": "T8_BAG_INSIGHT@1",
+		"name": "Elder's Satchel of Insight (Uncommon)"
+	},
+	{
+		"id": "T8_BAG_INSIGHT@2",
+		"name": "Elder's Satchel of Insight (Rare)"
+	},
+	{
+		"id": "T8_BAG_INSIGHT@3",
+		"name": "Elder's Satchel of Insight (Exceptional)"
+	},
+	{
+		"id": "T8_BAG_INSIGHT@4",
+		"name": "Elder's Satchel of Insight (Pristine)"
+	},
+	{
+		"id": "T4_BACKPACK_GATHERER_FIBER",
+		"name": "Adept's Harvester Backpack"
+	},
+	{
+		"id": "T4_BACKPACK_GATHERER_FIBER@1",
+		"name": "Adept's Harvester Backpack (Uncommon)"
+	},
+	{
+		"id": "T4_BACKPACK_GATHERER_FIBER@2",
+		"name": "Adept's Harvester Backpack (Rare)"
+	},
+	{
+		"id": "T4_BACKPACK_GATHERER_FIBER@3",
+		"name": "Adept's Harvester Backpack (Exceptional)"
+	},
+	{
+		"id": "T4_BACKPACK_GATHERER_FIBER@4",
+		"name": "Adept's Harvester Backpack (Pristine)"
+	},
+	{
+		"id": "T5_BACKPACK_GATHERER_FIBER",
+		"name": "Expert's Harvester Backpack"
+	},
+	{
+		"id": "T5_BACKPACK_GATHERER_FIBER@1",
+		"name": "Expert's Harvester Backpack (Uncommon)"
+	},
+	{
+		"id": "T5_BACKPACK_GATHERER_FIBER@2",
+		"name": "Expert's Harvester Backpack (Rare)"
+	},
+	{
+		"id": "T5_BACKPACK_GATHERER_FIBER@3",
+		"name": "Expert's Harvester Backpack (Exceptional)"
+	},
+	{
+		"id": "T5_BACKPACK_GATHERER_FIBER@4",
+		"name": "Expert's Harvester Backpack (Pristine)"
+	},
+	{
+		"id": "T6_BACKPACK_GATHERER_FIBER",
+		"name": "Master's Harvester Backpack"
+	},
+	{
+		"id": "T6_BACKPACK_GATHERER_FIBER@1",
+		"name": "Master's Harvester Backpack (Uncommon)"
+	},
+	{
+		"id": "T6_BACKPACK_GATHERER_FIBER@2",
+		"name": "Master's Harvester Backpack (Rare)"
+	},
+	{
+		"id": "T6_BACKPACK_GATHERER_FIBER@3",
+		"name": "Master's Harvester Backpack (Exceptional)"
+	},
+	{
+		"id": "T6_BACKPACK_GATHERER_FIBER@4",
+		"name": "Master's Harvester Backpack (Pristine)"
+	},
+	{
+		"id": "T7_BACKPACK_GATHERER_FIBER",
+		"name": "Grandmaster's Harvester Backpack"
+	},
+	{
+		"id": "T7_BACKPACK_GATHERER_FIBER@1",
+		"name": "Grandmaster's Harvester Backpack (Uncommon)"
+	},
+	{
+		"id": "T7_BACKPACK_GATHERER_FIBER@2",
+		"name": "Grandmaster's Harvester Backpack (Rare)"
+	},
+	{
+		"id": "T7_BACKPACK_GATHERER_FIBER@3",
+		"name": "Grandmaster's Harvester Backpack (Exceptional)"
+	},
+	{
+		"id": "T7_BACKPACK_GATHERER_FIBER@4",
+		"name": "Grandmaster's Harvester Backpack (Pristine)"
+	},
+	{
+		"id": "T8_BACKPACK_GATHERER_FIBER",
+		"name": "Elder's Harvester Backpack"
+	},
+	{
+		"id": "T8_BACKPACK_GATHERER_FIBER@1",
+		"name": "Elder's Harvester Backpack (Uncommon)"
+	},
+	{
+		"id": "T8_BACKPACK_GATHERER_FIBER@2",
+		"name": "Elder's Harvester Backpack (Rare)"
+	},
+	{
+		"id": "T8_BACKPACK_GATHERER_FIBER@3",
+		"name": "Elder's Harvester Backpack (Exceptional)"
+	},
+	{
+		"id": "T8_BACKPACK_GATHERER_FIBER@4",
+		"name": "Elder's Harvester Backpack (Pristine)"
+	},
+	{
+		"id": "T4_BACKPACK_GATHERER_HIDE",
+		"name": "Adept's Skinner Backpack"
+	},
+	{
+		"id": "T4_BACKPACK_GATHERER_HIDE@1",
+		"name": "Adept's Skinner Backpack (Uncommon)"
+	},
+	{
+		"id": "T4_BACKPACK_GATHERER_HIDE@2",
+		"name": "Adept's Skinner Backpack (Rare)"
+	},
+	{
+		"id": "T4_BACKPACK_GATHERER_HIDE@3",
+		"name": "Adept's Skinner Backpack (Exceptional)"
+	},
+	{
+		"id": "T4_BACKPACK_GATHERER_HIDE@4",
+		"name": "Adept's Skinner Backpack (Pristine)"
+	},
+	{
+		"id": "T5_BACKPACK_GATHERER_HIDE",
+		"name": "Expert's Skinner Backpack"
+	},
+	{
+		"id": "T5_BACKPACK_GATHERER_HIDE@1",
+		"name": "Expert's Skinner Backpack (Uncommon)"
+	},
+	{
+		"id": "T5_BACKPACK_GATHERER_HIDE@2",
+		"name": "Expert's Skinner Backpack (Rare)"
+	},
+	{
+		"id": "T5_BACKPACK_GATHERER_HIDE@3",
+		"name": "Expert's Skinner Backpack (Exceptional)"
+	},
+	{
+		"id": "T5_BACKPACK_GATHERER_HIDE@4",
+		"name": "Expert's Skinner Backpack (Pristine)"
+	},
+	{
+		"id": "T6_BACKPACK_GATHERER_HIDE",
+		"name": "Master's Skinner Backpack"
+	},
+	{
+		"id": "T6_BACKPACK_GATHERER_HIDE@1",
+		"name": "Master's Skinner Backpack (Uncommon)"
+	},
+	{
+		"id": "T6_BACKPACK_GATHERER_HIDE@2",
+		"name": "Master's Skinner Backpack (Rare)"
+	},
+	{
+		"id": "T6_BACKPACK_GATHERER_HIDE@3",
+		"name": "Master's Skinner Backpack (Exceptional)"
+	},
+	{
+		"id": "T6_BACKPACK_GATHERER_HIDE@4",
+		"name": "Master's Skinner Backpack (Pristine)"
+	},
+	{
+		"id": "T7_BACKPACK_GATHERER_HIDE",
+		"name": "Grandmaster's Skinner Backpack"
+	},
+	{
+		"id": "T7_BACKPACK_GATHERER_HIDE@1",
+		"name": "Grandmaster's Skinner Backpack (Uncommon)"
+	},
+	{
+		"id": "T7_BACKPACK_GATHERER_HIDE@2",
+		"name": "Grandmaster's Skinner Backpack (Rare)"
+	},
+	{
+		"id": "T7_BACKPACK_GATHERER_HIDE@3",
+		"name": "Grandmaster's Skinner Backpack (Exceptional)"
+	},
+	{
+		"id": "T7_BACKPACK_GATHERER_HIDE@4",
+		"name": "Grandmaster's Skinner Backpack (Pristine)"
+	},
+	{
+		"id": "T8_BACKPACK_GATHERER_HIDE",
+		"name": "Elder's Skinner Backpack"
+	},
+	{
+		"id": "T8_BACKPACK_GATHERER_HIDE@1",
+		"name": "Elder's Skinner Backpack (Uncommon)"
+	},
+	{
+		"id": "T8_BACKPACK_GATHERER_HIDE@2",
+		"name": "Elder's Skinner Backpack (Rare)"
+	},
+	{
+		"id": "T8_BACKPACK_GATHERER_HIDE@3",
+		"name": "Elder's Skinner Backpack (Exceptional)"
+	},
+	{
+		"id": "T8_BACKPACK_GATHERER_HIDE@4",
+		"name": "Elder's Skinner Backpack (Pristine)"
+	},
+	{
+		"id": "T4_BACKPACK_GATHERER_ORE",
+		"name": "Adept's Miner Backpack"
+	},
+	{
+		"id": "T4_BACKPACK_GATHERER_ORE@1",
+		"name": "Adept's Miner Backpack (Uncommon)"
+	},
+	{
+		"id": "T4_BACKPACK_GATHERER_ORE@2",
+		"name": "Adept's Miner Backpack (Rare)"
+	},
+	{
+		"id": "T4_BACKPACK_GATHERER_ORE@3",
+		"name": "Adept's Miner Backpack (Exceptional)"
+	},
+	{
+		"id": "T4_BACKPACK_GATHERER_ORE@4",
+		"name": "Adept's Miner Backpack (Pristine)"
+	},
+	{
+		"id": "T5_BACKPACK_GATHERER_ORE",
+		"name": "Expert's Miner Backpack"
+	},
+	{
+		"id": "T5_BACKPACK_GATHERER_ORE@1",
+		"name": "Expert's Miner Backpack (Uncommon)"
+	},
+	{
+		"id": "T5_BACKPACK_GATHERER_ORE@2",
+		"name": "Expert's Miner Backpack (Rare)"
+	},
+	{
+		"id": "T5_BACKPACK_GATHERER_ORE@3",
+		"name": "Expert's Miner Backpack (Exceptional)"
+	},
+	{
+		"id": "T5_BACKPACK_GATHERER_ORE@4",
+		"name": "Expert's Miner Backpack (Pristine)"
+	},
+	{
+		"id": "T6_BACKPACK_GATHERER_ORE",
+		"name": "Master's Miner Backpack"
+	},
+	{
+		"id": "T6_BACKPACK_GATHERER_ORE@1",
+		"name": "Master's Miner Backpack (Uncommon)"
+	},
+	{
+		"id": "T6_BACKPACK_GATHERER_ORE@2",
+		"name": "Master's Miner Backpack (Rare)"
+	},
+	{
+		"id": "T6_BACKPACK_GATHERER_ORE@3",
+		"name": "Master's Miner Backpack (Exceptional)"
+	},
+	{
+		"id": "T6_BACKPACK_GATHERER_ORE@4",
+		"name": "Master's Miner Backpack (Pristine)"
+	},
+	{
+		"id": "T7_BACKPACK_GATHERER_ORE",
+		"name": "Grandmaster's Miner Backpack"
+	},
+	{
+		"id": "T7_BACKPACK_GATHERER_ORE@1",
+		"name": "Grandmaster's Miner Backpack (Uncommon)"
+	},
+	{
+		"id": "T7_BACKPACK_GATHERER_ORE@2",
+		"name": "Grandmaster's Miner Backpack (Rare)"
+	},
+	{
+		"id": "T7_BACKPACK_GATHERER_ORE@3",
+		"name": "Grandmaster's Miner Backpack (Exceptional)"
+	},
+	{
+		"id": "T7_BACKPACK_GATHERER_ORE@4",
+		"name": "Grandmaster's Miner Backpack (Pristine)"
+	},
+	{
+		"id": "T8_BACKPACK_GATHERER_ORE",
+		"name": "Elder's Miner Backpack"
+	},
+	{
+		"id": "T8_BACKPACK_GATHERER_ORE@1",
+		"name": "Elder's Miner Backpack (Uncommon)"
+	},
+	{
+		"id": "T8_BACKPACK_GATHERER_ORE@2",
+		"name": "Elder's Miner Backpack (Rare)"
+	},
+	{
+		"id": "T8_BACKPACK_GATHERER_ORE@3",
+		"name": "Elder's Miner Backpack (Exceptional)"
+	},
+	{
+		"id": "T8_BACKPACK_GATHERER_ORE@4",
+		"name": "Elder's Miner Backpack (Pristine)"
+	},
+	{
+		"id": "T4_BACKPACK_GATHERER_ROCK",
+		"name": "Adept's Quarrier Backpack"
+	},
+	{
+		"id": "T4_BACKPACK_GATHERER_ROCK@1",
+		"name": "Adept's Quarrier Backpack (Uncommon)"
+	},
+	{
+		"id": "T4_BACKPACK_GATHERER_ROCK@2",
+		"name": "Adept's Quarrier Backpack (Rare)"
+	},
+	{
+		"id": "T4_BACKPACK_GATHERER_ROCK@3",
+		"name": "Adept's Quarrier Backpack (Exceptional)"
+	},
+	{
+		"id": "T4_BACKPACK_GATHERER_ROCK@4",
+		"name": "Adept's Quarrier Backpack (Pristine)"
+	},
+	{
+		"id": "T5_BACKPACK_GATHERER_ROCK",
+		"name": "Expert's Quarrier Backpack"
+	},
+	{
+		"id": "T5_BACKPACK_GATHERER_ROCK@1",
+		"name": "Expert's Quarrier Backpack (Uncommon)"
+	},
+	{
+		"id": "T5_BACKPACK_GATHERER_ROCK@2",
+		"name": "Expert's Quarrier Backpack (Rare)"
+	},
+	{
+		"id": "T5_BACKPACK_GATHERER_ROCK@3",
+		"name": "Expert's Quarrier Backpack (Exceptional)"
+	},
+	{
+		"id": "T5_BACKPACK_GATHERER_ROCK@4",
+		"name": "Expert's Quarrier Backpack (Pristine)"
+	},
+	{
+		"id": "T6_BACKPACK_GATHERER_ROCK",
+		"name": "Master's Quarrier Backpack"
+	},
+	{
+		"id": "T6_BACKPACK_GATHERER_ROCK@1",
+		"name": "Master's Quarrier Backpack (Uncommon)"
+	},
+	{
+		"id": "T6_BACKPACK_GATHERER_ROCK@2",
+		"name": "Master's Quarrier Backpack (Rare)"
+	},
+	{
+		"id": "T6_BACKPACK_GATHERER_ROCK@3",
+		"name": "Master's Quarrier Backpack (Exceptional)"
+	},
+	{
+		"id": "T6_BACKPACK_GATHERER_ROCK@4",
+		"name": "Master's Quarrier Backpack (Pristine)"
+	},
+	{
+		"id": "T7_BACKPACK_GATHERER_ROCK",
+		"name": "Grandmaster's Quarrier Backpack"
+	},
+	{
+		"id": "T7_BACKPACK_GATHERER_ROCK@1",
+		"name": "Grandmaster's Quarrier Backpack (Uncommon)"
+	},
+	{
+		"id": "T7_BACKPACK_GATHERER_ROCK@2",
+		"name": "Grandmaster's Quarrier Backpack (Rare)"
+	},
+	{
+		"id": "T7_BACKPACK_GATHERER_ROCK@3",
+		"name": "Grandmaster's Quarrier Backpack (Exceptional)"
+	},
+	{
+		"id": "T7_BACKPACK_GATHERER_ROCK@4",
+		"name": "Grandmaster's Quarrier Backpack (Pristine)"
+	},
+	{
+		"id": "T8_BACKPACK_GATHERER_ROCK",
+		"name": "Elder's Quarrier Backpack"
+	},
+	{
+		"id": "T8_BACKPACK_GATHERER_ROCK@1",
+		"name": "Elder's Quarrier Backpack (Uncommon)"
+	},
+	{
+		"id": "T8_BACKPACK_GATHERER_ROCK@2",
+		"name": "Elder's Quarrier Backpack (Rare)"
+	},
+	{
+		"id": "T8_BACKPACK_GATHERER_ROCK@3",
+		"name": "Elder's Quarrier Backpack (Exceptional)"
+	},
+	{
+		"id": "T8_BACKPACK_GATHERER_ROCK@4",
+		"name": "Elder's Quarrier Backpack (Pristine)"
+	},
+	{
+		"id": "T4_BACKPACK_GATHERER_WOOD",
+		"name": "Adept's Lumberjack Backpack"
+	},
+	{
+		"id": "T4_BACKPACK_GATHERER_WOOD@1",
+		"name": "Adept's Lumberjack Backpack (Uncommon)"
+	},
+	{
+		"id": "T4_BACKPACK_GATHERER_WOOD@2",
+		"name": "Adept's Lumberjack Backpack (Rare)"
+	},
+	{
+		"id": "T4_BACKPACK_GATHERER_WOOD@3",
+		"name": "Adept's Lumberjack Backpack (Exceptional)"
+	},
+	{
+		"id": "T4_BACKPACK_GATHERER_WOOD@4",
+		"name": "Adept's Lumberjack Backpack (Pristine)"
+	},
+	{
+		"id": "T5_BACKPACK_GATHERER_WOOD",
+		"name": "Expert's Lumberjack Backpack"
+	},
+	{
+		"id": "T5_BACKPACK_GATHERER_WOOD@1",
+		"name": "Expert's Lumberjack Backpack (Uncommon)"
+	},
+	{
+		"id": "T5_BACKPACK_GATHERER_WOOD@2",
+		"name": "Expert's Lumberjack Backpack (Rare)"
+	},
+	{
+		"id": "T5_BACKPACK_GATHERER_WOOD@3",
+		"name": "Expert's Lumberjack Backpack (Exceptional)"
+	},
+	{
+		"id": "T5_BACKPACK_GATHERER_WOOD@4",
+		"name": "Expert's Lumberjack Backpack (Pristine)"
+	},
+	{
+		"id": "T6_BACKPACK_GATHERER_WOOD",
+		"name": "Master's Lumberjack Backpack"
+	},
+	{
+		"id": "T6_BACKPACK_GATHERER_WOOD@1",
+		"name": "Master's Lumberjack Backpack (Uncommon)"
+	},
+	{
+		"id": "T6_BACKPACK_GATHERER_WOOD@2",
+		"name": "Master's Lumberjack Backpack (Rare)"
+	},
+	{
+		"id": "T6_BACKPACK_GATHERER_WOOD@3",
+		"name": "Master's Lumberjack Backpack (Exceptional)"
+	},
+	{
+		"id": "T6_BACKPACK_GATHERER_WOOD@4",
+		"name": "Master's Lumberjack Backpack (Pristine)"
+	},
+	{
+		"id": "T7_BACKPACK_GATHERER_WOOD",
+		"name": "Grandmaster's Lumberjack Backpack"
+	},
+	{
+		"id": "T7_BACKPACK_GATHERER_WOOD@1",
+		"name": "Grandmaster's Lumberjack Backpack (Uncommon)"
+	},
+	{
+		"id": "T7_BACKPACK_GATHERER_WOOD@2",
+		"name": "Grandmaster's Lumberjack Backpack (Rare)"
+	},
+	{
+		"id": "T7_BACKPACK_GATHERER_WOOD@3",
+		"name": "Grandmaster's Lumberjack Backpack (Exceptional)"
+	},
+	{
+		"id": "T7_BACKPACK_GATHERER_WOOD@4",
+		"name": "Grandmaster's Lumberjack Backpack (Pristine)"
+	},
+	{
+		"id": "T8_BACKPACK_GATHERER_WOOD",
+		"name": "Elder's Lumberjack Backpack"
+	},
+	{
+		"id": "T8_BACKPACK_GATHERER_WOOD@1",
+		"name": "Elder's Lumberjack Backpack (Uncommon)"
+	},
+	{
+		"id": "T8_BACKPACK_GATHERER_WOOD@2",
+		"name": "Elder's Lumberjack Backpack (Rare)"
+	},
+	{
+		"id": "T8_BACKPACK_GATHERER_WOOD@3",
+		"name": "Elder's Lumberjack Backpack (Exceptional)"
+	},
+	{
+		"id": "T8_BACKPACK_GATHERER_WOOD@4",
+		"name": "Elder's Lumberjack Backpack (Pristine)"
+	},
+	{
+		"id": "T4_BACKPACK_GATHERER_FISH",
+		"name": "Adept's Fisherman Backpack"
+	},
+	{
+		"id": "T4_BACKPACK_GATHERER_FISH@1",
+		"name": "Adept's Fisherman Backpack (Uncommon)"
+	},
+	{
+		"id": "T4_BACKPACK_GATHERER_FISH@2",
+		"name": "Adept's Fisherman Backpack (Rare)"
+	},
+	{
+		"id": "T4_BACKPACK_GATHERER_FISH@3",
+		"name": "Adept's Fisherman Backpack (Exceptional)"
+	},
+	{
+		"id": "T4_BACKPACK_GATHERER_FISH@4",
+		"name": "Adept's Fisherman Backpack (Pristine)"
+	},
+	{
+		"id": "T5_BACKPACK_GATHERER_FISH",
+		"name": "Expert's Fisherman Backpack"
+	},
+	{
+		"id": "T5_BACKPACK_GATHERER_FISH@1",
+		"name": "Expert's Fisherman Backpack (Uncommon)"
+	},
+	{
+		"id": "T5_BACKPACK_GATHERER_FISH@2",
+		"name": "Expert's Fisherman Backpack (Rare)"
+	},
+	{
+		"id": "T5_BACKPACK_GATHERER_FISH@3",
+		"name": "Expert's Fisherman Backpack (Exceptional)"
+	},
+	{
+		"id": "T5_BACKPACK_GATHERER_FISH@4",
+		"name": "Expert's Fisherman Backpack (Pristine)"
+	},
+	{
+		"id": "T6_BACKPACK_GATHERER_FISH",
+		"name": "Master's Fisherman Backpack"
+	},
+	{
+		"id": "T6_BACKPACK_GATHERER_FISH@1",
+		"name": "Master's Fisherman Backpack (Uncommon)"
+	},
+	{
+		"id": "T6_BACKPACK_GATHERER_FISH@2",
+		"name": "Master's Fisherman Backpack (Rare)"
+	},
+	{
+		"id": "T6_BACKPACK_GATHERER_FISH@3",
+		"name": "Master's Fisherman Backpack (Exceptional)"
+	},
+	{
+		"id": "T6_BACKPACK_GATHERER_FISH@4",
+		"name": "Master's Fisherman Backpack (Pristine)"
+	},
+	{
+		"id": "T7_BACKPACK_GATHERER_FISH",
+		"name": "Grandmaster's Fisherman Backpack"
+	},
+	{
+		"id": "T7_BACKPACK_GATHERER_FISH@1",
+		"name": "Grandmaster's Fisherman Backpack (Uncommon)"
+	},
+	{
+		"id": "T7_BACKPACK_GATHERER_FISH@2",
+		"name": "Grandmaster's Fisherman Backpack (Rare)"
+	},
+	{
+		"id": "T7_BACKPACK_GATHERER_FISH@3",
+		"name": "Grandmaster's Fisherman Backpack (Exceptional)"
+	},
+	{
+		"id": "T7_BACKPACK_GATHERER_FISH@4",
+		"name": "Grandmaster's Fisherman Backpack (Pristine)"
+	},
+	{
+		"id": "T8_BACKPACK_GATHERER_FISH",
+		"name": "Elder's Fisherman Backpack"
+	},
+	{
+		"id": "T8_BACKPACK_GATHERER_FISH@1",
+		"name": "Elder's Fisherman Backpack (Uncommon)"
+	},
+	{
+		"id": "T8_BACKPACK_GATHERER_FISH@2",
+		"name": "Elder's Fisherman Backpack (Rare)"
+	},
+	{
+		"id": "T8_BACKPACK_GATHERER_FISH@3",
+		"name": "Elder's Fisherman Backpack (Exceptional)"
+	},
+	{
+		"id": "T8_BACKPACK_GATHERER_FISH@4",
+		"name": "Elder's Fisherman Backpack (Pristine)"
+	},
+	{
+		"id": "UNIQUE_BACKPACK_VANITY_SANTACLAUS",
+		"name": "Yule Backpack"
+	},
+	{
+		"id": "UNIQUE_BACKPACK_VANITY_EASTER",
+		"name": "Bunny Stalker Basket"
+	},
+	{
+		"id": "UNIQUE_BACKPACK_VANITY_KICKSTART",
+		"name": "Warden's Backpack"
+	}
 ]

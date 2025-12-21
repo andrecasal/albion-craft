@@ -1,370 +1,370 @@
 [
-  {
-    "id": "T3_FARM_OX_BABY",
-    "name": "T3_FARM_OX_BABY"
-  },
-  {
-    "id": "T4_FARM_OX_BABY",
-    "name": "T4_FARM_OX_BABY"
-  },
-  {
-    "id": "T5_FARM_OX_BABY",
-    "name": "T5_FARM_OX_BABY"
-  },
-  {
-    "id": "T6_FARM_OX_BABY",
-    "name": "T6_FARM_OX_BABY"
-  },
-  {
-    "id": "T7_FARM_OX_BABY",
-    "name": "T7_FARM_OX_BABY"
-  },
-  {
-    "id": "T8_FARM_OX_BABY",
-    "name": "T8_FARM_OX_BABY"
-  },
-  {
-    "id": "T3_FARM_OX_GROWN",
-    "name": "T3_FARM_OX_GROWN"
-  },
-  {
-    "id": "T4_FARM_OX_GROWN",
-    "name": "T4_FARM_OX_GROWN"
-  },
-  {
-    "id": "T5_FARM_OX_GROWN",
-    "name": "T5_FARM_OX_GROWN"
-  },
-  {
-    "id": "T6_FARM_OX_GROWN",
-    "name": "T6_FARM_OX_GROWN"
-  },
-  {
-    "id": "T7_FARM_OX_GROWN",
-    "name": "T7_FARM_OX_GROWN"
-  },
-  {
-    "id": "T8_FARM_OX_GROWN",
-    "name": "T8_FARM_OX_GROWN"
-  },
-  {
-    "id": "T3_FARM_HORSE_BABY",
-    "name": "T3_FARM_HORSE_BABY"
-  },
-  {
-    "id": "T4_FARM_HORSE_BABY",
-    "name": "T4_FARM_HORSE_BABY"
-  },
-  {
-    "id": "T5_FARM_HORSE_BABY",
-    "name": "T5_FARM_HORSE_BABY"
-  },
-  {
-    "id": "T6_FARM_HORSE_BABY",
-    "name": "T6_FARM_HORSE_BABY"
-  },
-  {
-    "id": "T7_FARM_HORSE_BABY",
-    "name": "T7_FARM_HORSE_BABY"
-  },
-  {
-    "id": "T8_FARM_HORSE_BABY",
-    "name": "T8_FARM_HORSE_BABY"
-  },
-  {
-    "id": "T3_FARM_HORSE_GROWN",
-    "name": "T3_FARM_HORSE_GROWN"
-  },
-  {
-    "id": "T4_FARM_HORSE_GROWN",
-    "name": "T4_FARM_HORSE_GROWN"
-  },
-  {
-    "id": "T5_FARM_HORSE_GROWN",
-    "name": "T5_FARM_HORSE_GROWN"
-  },
-  {
-    "id": "T6_FARM_HORSE_GROWN",
-    "name": "T6_FARM_HORSE_GROWN"
-  },
-  {
-    "id": "T7_FARM_HORSE_GROWN",
-    "name": "T7_FARM_HORSE_GROWN"
-  },
-  {
-    "id": "T8_FARM_HORSE_GROWN",
-    "name": "T8_FARM_HORSE_GROWN"
-  },
-  {
-    "id": "T6_FARM_DIREWOLF_BABY",
-    "name": "T6_FARM_DIREWOLF_BABY"
-  },
-  {
-    "id": "T7_FARM_DIREBOAR_BABY",
-    "name": "T7_FARM_DIREBOAR_BABY"
-  },
-  {
-    "id": "T8_FARM_DIREBEAR_BABY",
-    "name": "T8_FARM_DIREBEAR_BABY"
-  },
-  {
-    "id": "T7_FARM_SWAMPDRAGON_BABY",
-    "name": "T7_FARM_SWAMPDRAGON_BABY"
-  },
-  {
-    "id": "T8_FARM_MAMMOTH_BABY",
-    "name": "T8_FARM_MAMMOTH_BABY"
-  },
-  {
-    "id": "T5_FARM_COUGAR_BABY",
-    "name": "T5_FARM_COUGAR_BABY"
-  },
-  {
-    "id": "T8_FARM_DIREWOLF_BABY",
-    "name": "T8_FARM_DIREWOLF_BABY"
-  },
-  {
-    "id": "T4_FARM_GIANTSTAG_BABY",
-    "name": "T4_FARM_GIANTSTAG_BABY"
-  },
-  {
-    "id": "T6_FARM_GIANTSTAG_BABY",
-    "name": "T6_FARM_GIANTSTAG_BABY"
-  },
-  {
-    "id": "T6_FARM_GIANTSTAG_MOOSE_BABY",
-    "name": "T6_FARM_GIANTSTAG_MOOSE_BABY"
-  },
-  {
-    "id": "T8_FARM_RABBIT_EASTER_BABY",
-    "name": "T8_FARM_RABBIT_EASTER_BABY"
-  },
-  {
-    "id": "T8_FARM_RABBIT_EASTER_BABY_DARK",
-    "name": "T8_FARM_RABBIT_EASTER_BABY_DARK"
-  },
-  {
-    "id": "T8_FARM_RABBIT_EASTER_GROWN",
-    "name": "T8_FARM_RABBIT_EASTER_GROWN"
-  },
-  {
-    "id": "T8_FARM_RABBIT_EASTER_GROWN_DARK",
-    "name": "T8_FARM_RABBIT_EASTER_GROWN_DARK"
-  },
-  {
-    "id": "T5_FARM_MOABIRD_FW_BRIDGEWATCH_BABY",
-    "name": "T5_FARM_MOABIRD_FW_BRIDGEWATCH_BABY"
-  },
-  {
-    "id": "T5_FARM_DIREBEAR_FW_FORTSTERLING_BABY",
-    "name": "T5_FARM_DIREBEAR_FW_FORTSTERLING_BABY"
-  },
-  {
-    "id": "T5_FARM_DIREBOAR_FW_LYMHURST_BABY",
-    "name": "T5_FARM_DIREBOAR_FW_LYMHURST_BABY"
-  },
-  {
-    "id": "T5_FARM_RAM_FW_MARTLOCK_BABY",
-    "name": "T5_FARM_RAM_FW_MARTLOCK_BABY"
-  },
-  {
-    "id": "T5_FARM_SWAMPDRAGON_FW_THETFORD_BABY",
-    "name": "T5_FARM_SWAMPDRAGON_FW_THETFORD_BABY"
-  },
-  {
-    "id": "T5_FARM_GREYWOLF_FW_CAERLEON_BABY",
-    "name": "T5_FARM_GREYWOLF_FW_CAERLEON_BABY"
-  },
-  {
-    "id": "T5_FARM_OWL_FW_BRECILIEN_BABY",
-    "name": "T5_FARM_OWL_FW_BRECILIEN_BABY"
-  },
-  {
-    "id": "T5_FARM_SPIDER_HELL_BABY",
-    "name": "T5_FARM_SPIDER_HELL_BABY"
-  },
-  {
-    "id": "T8_FARM_MOABIRD_FW_BRIDGEWATCH_BABY",
-    "name": "T8_FARM_MOABIRD_FW_BRIDGEWATCH_BABY"
-  },
-  {
-    "id": "T8_FARM_DIREBEAR_FW_FORTSTERLING_BABY",
-    "name": "T8_FARM_DIREBEAR_FW_FORTSTERLING_BABY"
-  },
-  {
-    "id": "T8_FARM_DIREBOAR_FW_LYMHURST_BABY",
-    "name": "T8_FARM_DIREBOAR_FW_LYMHURST_BABY"
-  },
-  {
-    "id": "T8_FARM_RAM_FW_MARTLOCK_BABY",
-    "name": "T8_FARM_RAM_FW_MARTLOCK_BABY"
-  },
-  {
-    "id": "T8_FARM_SWAMPDRAGON_FW_THETFORD_BABY",
-    "name": "T8_FARM_SWAMPDRAGON_FW_THETFORD_BABY"
-  },
-  {
-    "id": "T8_FARM_GREYWOLF_FW_CAERLEON_BABY",
-    "name": "T8_FARM_GREYWOLF_FW_CAERLEON_BABY"
-  },
-  {
-    "id": "T8_FARM_OWL_FW_BRECILIEN_BABY",
-    "name": "T8_FARM_OWL_FW_BRECILIEN_BABY"
-  },
-  {
-    "id": "T8_FARM_SPIDER_HELL_BABY",
-    "name": "T8_FARM_SPIDER_HELL_BABY"
-  },
-  {
-    "id": "T6_FARM_DIREWOLF_GROWN",
-    "name": "T6_FARM_DIREWOLF_GROWN"
-  },
-  {
-    "id": "T7_FARM_DIREBOAR_GROWN",
-    "name": "T7_FARM_DIREBOAR_GROWN"
-  },
-  {
-    "id": "T8_FARM_DIREBEAR_GROWN",
-    "name": "T8_FARM_DIREBEAR_GROWN"
-  },
-  {
-    "id": "T7_FARM_SWAMPDRAGON_GROWN",
-    "name": "T7_FARM_SWAMPDRAGON_GROWN"
-  },
-  {
-    "id": "T8_FARM_MAMMOTH_GROWN",
-    "name": "T8_FARM_MAMMOTH_GROWN"
-  },
-  {
-    "id": "T5_FARM_COUGAR_GROWN",
-    "name": "T5_FARM_COUGAR_GROWN"
-  },
-  {
-    "id": "T8_FARM_DIREWOLF_GROWN",
-    "name": "T8_FARM_DIREWOLF_GROWN"
-  },
-  {
-    "id": "T4_FARM_GIANTSTAG_GROWN",
-    "name": "T4_FARM_GIANTSTAG_GROWN"
-  },
-  {
-    "id": "T6_FARM_GIANTSTAG_GROWN",
-    "name": "T6_FARM_GIANTSTAG_GROWN"
-  },
-  {
-    "id": "T6_FARM_GIANTSTAG_MOOSE_GROWN",
-    "name": "T6_FARM_GIANTSTAG_MOOSE_GROWN"
-  },
-  {
-    "id": "T5_FARM_MOABIRD_FW_BRIDGEWATCH_GROWN",
-    "name": "T5_FARM_MOABIRD_FW_BRIDGEWATCH_GROWN"
-  },
-  {
-    "id": "T5_FARM_DIREBEAR_FW_FORTSTERLING_GROWN",
-    "name": "T5_FARM_DIREBEAR_FW_FORTSTERLING_GROWN"
-  },
-  {
-    "id": "T5_FARM_DIREBOAR_FW_LYMHURST_GROWN",
-    "name": "T5_FARM_DIREBOAR_FW_LYMHURST_GROWN"
-  },
-  {
-    "id": "T5_FARM_RAM_FW_MARTLOCK_GROWN",
-    "name": "T5_FARM_RAM_FW_MARTLOCK_GROWN"
-  },
-  {
-    "id": "T5_FARM_SWAMPDRAGON_FW_THETFORD_GROWN",
-    "name": "T5_FARM_SWAMPDRAGON_FW_THETFORD_GROWN"
-  },
-  {
-    "id": "T5_FARM_GREYWOLF_FW_CAERLEON_GROWN",
-    "name": "T5_FARM_GREYWOLF_FW_CAERLEON_GROWN"
-  },
-  {
-    "id": "T5_FARM_OWL_FW_BRECILIEN_GROWN",
-    "name": "T5_FARM_OWL_FW_BRECILIEN_GROWN"
-  },
-  {
-    "id": "T5_FARM_SPIDER_HELL_GROWN",
-    "name": "T5_FARM_SPIDER_HELL_GROWN"
-  },
-  {
-    "id": "T8_FARM_MOABIRD_FW_BRIDGEWATCH_GROWN",
-    "name": "T8_FARM_MOABIRD_FW_BRIDGEWATCH_GROWN"
-  },
-  {
-    "id": "T8_FARM_DIREBEAR_FW_FORTSTERLING_GROWN",
-    "name": "T8_FARM_DIREBEAR_FW_FORTSTERLING_GROWN"
-  },
-  {
-    "id": "T8_FARM_DIREBOAR_FW_LYMHURST_GROWN",
-    "name": "T8_FARM_DIREBOAR_FW_LYMHURST_GROWN"
-  },
-  {
-    "id": "T8_FARM_RAM_FW_MARTLOCK_GROWN",
-    "name": "T8_FARM_RAM_FW_MARTLOCK_GROWN"
-  },
-  {
-    "id": "T8_FARM_SWAMPDRAGON_FW_THETFORD_GROWN",
-    "name": "T8_FARM_SWAMPDRAGON_FW_THETFORD_GROWN"
-  },
-  {
-    "id": "T8_FARM_GREYWOLF_FW_CAERLEON_GROWN",
-    "name": "T8_FARM_GREYWOLF_FW_CAERLEON_GROWN"
-  },
-  {
-    "id": "T8_FARM_OWL_FW_BRECILIEN_GROWN",
-    "name": "T8_FARM_OWL_FW_BRECILIEN_GROWN"
-  },
-  {
-    "id": "T8_FARM_SPIDER_HELL_GROWN",
-    "name": "T8_FARM_SPIDER_HELL_GROWN"
-  },
-  {
-    "id": "T3_FARM_CHICKEN_BABY",
-    "name": "T3_FARM_CHICKEN_BABY"
-  },
-  {
-    "id": "T4_FARM_GOAT_BABY",
-    "name": "T4_FARM_GOAT_BABY"
-  },
-  {
-    "id": "T5_FARM_GOOSE_BABY",
-    "name": "T5_FARM_GOOSE_BABY"
-  },
-  {
-    "id": "T6_FARM_SHEEP_BABY",
-    "name": "T6_FARM_SHEEP_BABY"
-  },
-  {
-    "id": "T7_FARM_PIG_BABY",
-    "name": "T7_FARM_PIG_BABY"
-  },
-  {
-    "id": "T8_FARM_COW_BABY",
-    "name": "T8_FARM_COW_BABY"
-  },
-  {
-    "id": "T3_FARM_CHICKEN_GROWN",
-    "name": "T3_FARM_CHICKEN_GROWN"
-  },
-  {
-    "id": "T4_FARM_GOAT_GROWN",
-    "name": "T4_FARM_GOAT_GROWN"
-  },
-  {
-    "id": "T5_FARM_GOOSE_GROWN",
-    "name": "T5_FARM_GOOSE_GROWN"
-  },
-  {
-    "id": "T6_FARM_SHEEP_GROWN",
-    "name": "T6_FARM_SHEEP_GROWN"
-  },
-  {
-    "id": "T7_FARM_PIG_GROWN",
-    "name": "T7_FARM_PIG_GROWN"
-  },
-  {
-    "id": "T8_FARM_COW_GROWN",
-    "name": "T8_FARM_COW_GROWN"
-  }
+	{
+		"id": "T3_FARM_OX_BABY",
+		"name": "Journeyman's Ox Calf"
+	},
+	{
+		"id": "T4_FARM_OX_BABY",
+		"name": "Adept's Ox Calf"
+	},
+	{
+		"id": "T5_FARM_OX_BABY",
+		"name": "Expert's Ox Calf"
+	},
+	{
+		"id": "T6_FARM_OX_BABY",
+		"name": "Master's Ox Calf"
+	},
+	{
+		"id": "T7_FARM_OX_BABY",
+		"name": "Grandmaster's Ox Calf"
+	},
+	{
+		"id": "T8_FARM_OX_BABY",
+		"name": "Elder's Ox Calf"
+	},
+	{
+		"id": "T3_FARM_OX_GROWN",
+		"name": "Journeyman's Ox"
+	},
+	{
+		"id": "T4_FARM_OX_GROWN",
+		"name": "Adept's Ox"
+	},
+	{
+		"id": "T5_FARM_OX_GROWN",
+		"name": "Expert's Ox"
+	},
+	{
+		"id": "T6_FARM_OX_GROWN",
+		"name": "Master's Ox"
+	},
+	{
+		"id": "T7_FARM_OX_GROWN",
+		"name": "Grandmaster's Ox"
+	},
+	{
+		"id": "T8_FARM_OX_GROWN",
+		"name": "Elder's Ox"
+	},
+	{
+		"id": "T3_FARM_HORSE_BABY",
+		"name": "Journeyman's Foal"
+	},
+	{
+		"id": "T4_FARM_HORSE_BABY",
+		"name": "Adept's Foal"
+	},
+	{
+		"id": "T5_FARM_HORSE_BABY",
+		"name": "Expert's Foal"
+	},
+	{
+		"id": "T6_FARM_HORSE_BABY",
+		"name": "Master's Foal"
+	},
+	{
+		"id": "T7_FARM_HORSE_BABY",
+		"name": "Grandmaster's Foal"
+	},
+	{
+		"id": "T8_FARM_HORSE_BABY",
+		"name": "Elder's Foal"
+	},
+	{
+		"id": "T3_FARM_HORSE_GROWN",
+		"name": "Journeyman's Horse"
+	},
+	{
+		"id": "T4_FARM_HORSE_GROWN",
+		"name": "Adept's Horse"
+	},
+	{
+		"id": "T5_FARM_HORSE_GROWN",
+		"name": "Expert's Horse"
+	},
+	{
+		"id": "T6_FARM_HORSE_GROWN",
+		"name": "Master's Horse"
+	},
+	{
+		"id": "T7_FARM_HORSE_GROWN",
+		"name": "Grandmaster's Horse"
+	},
+	{
+		"id": "T8_FARM_HORSE_GROWN",
+		"name": "Elder's Horse"
+	},
+	{
+		"id": "T6_FARM_DIREWOLF_BABY",
+		"name": "Direwolf Pup"
+	},
+	{
+		"id": "T7_FARM_DIREBOAR_BABY",
+		"name": "Direboar Piglet"
+	},
+	{
+		"id": "T8_FARM_DIREBEAR_BABY",
+		"name": "Direbear Cub"
+	},
+	{
+		"id": "T7_FARM_SWAMPDRAGON_BABY",
+		"name": "Swamp Dragon Pup"
+	},
+	{
+		"id": "T8_FARM_MAMMOTH_BABY",
+		"name": "Mammoth Calf"
+	},
+	{
+		"id": "T5_FARM_COUGAR_BABY",
+		"name": "Swiftclaw Cub"
+	},
+	{
+		"id": "T8_FARM_DIREWOLF_BABY",
+		"name": "Ghostwolf Pup"
+	},
+	{
+		"id": "T4_FARM_GIANTSTAG_BABY",
+		"name": "Adept's Fawn"
+	},
+	{
+		"id": "T6_FARM_GIANTSTAG_BABY",
+		"name": "Master's Fawn"
+	},
+	{
+		"id": "T6_FARM_GIANTSTAG_MOOSE_BABY",
+		"name": "Moose Calf"
+	},
+	{
+		"id": "T8_FARM_RABBIT_EASTER_BABY",
+		"name": "Vibrant Spring Cottontail Egg"
+	},
+	{
+		"id": "T8_FARM_RABBIT_EASTER_BABY_DARK",
+		"name": "Eerie Cottontail Egg"
+	},
+	{
+		"id": "T8_FARM_RABBIT_EASTER_GROWN",
+		"name": "Tame Spring Cottontail"
+	},
+	{
+		"id": "T8_FARM_RABBIT_EASTER_GROWN_DARK",
+		"name": "\"Tame\" Caerleon Cottontail"
+	},
+	{
+		"id": "T5_FARM_MOABIRD_FW_BRIDGEWATCH_BABY",
+		"name": "Baby Moabird"
+	},
+	{
+		"id": "T5_FARM_DIREBEAR_FW_FORTSTERLING_BABY",
+		"name": "Winter Bear Cub"
+	},
+	{
+		"id": "T5_FARM_DIREBOAR_FW_LYMHURST_BABY",
+		"name": "Wild Boarlet"
+	},
+	{
+		"id": "T5_FARM_RAM_FW_MARTLOCK_BABY",
+		"name": "Bighorn Ram Lamb"
+	},
+	{
+		"id": "T5_FARM_SWAMPDRAGON_FW_THETFORD_BABY",
+		"name": "Baby Swamp Salamander"
+	},
+	{
+		"id": "T5_FARM_GREYWOLF_FW_CAERLEON_BABY",
+		"name": "Caerleon Greywolf Pup"
+	},
+	{
+		"id": "T5_FARM_OWL_FW_BRECILIEN_BABY",
+		"name": "Mystic Owlet"
+	},
+	{
+		"id": "T5_FARM_SPIDER_HELL_BABY",
+		"name": "Hellspinner Baby"
+	},
+	{
+		"id": "T8_FARM_MOABIRD_FW_BRIDGEWATCH_BABY",
+		"name": "Baby Elite Terrorbird"
+	},
+	{
+		"id": "T8_FARM_DIREBEAR_FW_FORTSTERLING_BABY",
+		"name": "Elite Winter Bear Cub"
+	},
+	{
+		"id": "T8_FARM_DIREBOAR_FW_LYMHURST_BABY",
+		"name": "Elite Wild Boarlet"
+	},
+	{
+		"id": "T8_FARM_RAM_FW_MARTLOCK_BABY",
+		"name": "Elite Bighorn Ram Lamb"
+	},
+	{
+		"id": "T8_FARM_SWAMPDRAGON_FW_THETFORD_BABY",
+		"name": "Baby Elite Swamp Salamander"
+	},
+	{
+		"id": "T8_FARM_GREYWOLF_FW_CAERLEON_BABY",
+		"name": "Elite Greywolf Pup"
+	},
+	{
+		"id": "T8_FARM_OWL_FW_BRECILIEN_BABY",
+		"name": "Elite Mystic Owlet"
+	},
+	{
+		"id": "T8_FARM_SPIDER_HELL_BABY",
+		"name": "Soulspinner Baby"
+	},
+	{
+		"id": "T6_FARM_DIREWOLF_GROWN",
+		"name": "Tame Direwolf"
+	},
+	{
+		"id": "T7_FARM_DIREBOAR_GROWN",
+		"name": "Tame Direboar"
+	},
+	{
+		"id": "T8_FARM_DIREBEAR_GROWN",
+		"name": "Tame Direbear"
+	},
+	{
+		"id": "T7_FARM_SWAMPDRAGON_GROWN",
+		"name": "Tame Swamp Dragon"
+	},
+	{
+		"id": "T8_FARM_MAMMOTH_GROWN",
+		"name": "Tame Mammoth"
+	},
+	{
+		"id": "T5_FARM_COUGAR_GROWN",
+		"name": "Tame Swiftclaw"
+	},
+	{
+		"id": "T8_FARM_DIREWOLF_GROWN",
+		"name": "Tame Ghostwolf"
+	},
+	{
+		"id": "T4_FARM_GIANTSTAG_GROWN",
+		"name": "Adept's Tame Giant Stag"
+	},
+	{
+		"id": "T6_FARM_GIANTSTAG_GROWN",
+		"name": "Master's Tame Giant Stag"
+	},
+	{
+		"id": "T6_FARM_GIANTSTAG_MOOSE_GROWN",
+		"name": "Tame Moose"
+	},
+	{
+		"id": "T5_FARM_MOABIRD_FW_BRIDGEWATCH_GROWN",
+		"name": "Tame Moabird"
+	},
+	{
+		"id": "T5_FARM_DIREBEAR_FW_FORTSTERLING_GROWN",
+		"name": "Tame Winter Bear"
+	},
+	{
+		"id": "T5_FARM_DIREBOAR_FW_LYMHURST_GROWN",
+		"name": "Tame Wild Boar"
+	},
+	{
+		"id": "T5_FARM_RAM_FW_MARTLOCK_GROWN",
+		"name": "Tame Bighorn Ram"
+	},
+	{
+		"id": "T5_FARM_SWAMPDRAGON_FW_THETFORD_GROWN",
+		"name": "Tame Swamp Salamander"
+	},
+	{
+		"id": "T5_FARM_GREYWOLF_FW_CAERLEON_GROWN",
+		"name": "Tame Greywolf"
+	},
+	{
+		"id": "T5_FARM_OWL_FW_BRECILIEN_GROWN",
+		"name": "Tame Mystic Owl"
+	},
+	{
+		"id": "T5_FARM_SPIDER_HELL_GROWN",
+		"name": "Tame Hellspinner"
+	},
+	{
+		"id": "T8_FARM_MOABIRD_FW_BRIDGEWATCH_GROWN",
+		"name": "Tame Elite Terrorbird"
+	},
+	{
+		"id": "T8_FARM_DIREBEAR_FW_FORTSTERLING_GROWN",
+		"name": "Tame Elite Winter Bear"
+	},
+	{
+		"id": "T8_FARM_DIREBOAR_FW_LYMHURST_GROWN",
+		"name": "Tame Elite Wild Boar"
+	},
+	{
+		"id": "T8_FARM_RAM_FW_MARTLOCK_GROWN",
+		"name": "Tame Elite Bighorn Ram"
+	},
+	{
+		"id": "T8_FARM_SWAMPDRAGON_FW_THETFORD_GROWN",
+		"name": "Tame Elite Swamp Salamander"
+	},
+	{
+		"id": "T8_FARM_GREYWOLF_FW_CAERLEON_GROWN",
+		"name": "Tame Elite Greywolf"
+	},
+	{
+		"id": "T8_FARM_OWL_FW_BRECILIEN_GROWN",
+		"name": "Tame Elite Mystic Owl"
+	},
+	{
+		"id": "T8_FARM_SPIDER_HELL_GROWN",
+		"name": "Tame Soulspinner"
+	},
+	{
+		"id": "T3_FARM_CHICKEN_BABY",
+		"name": "Baby Chickens"
+	},
+	{
+		"id": "T4_FARM_GOAT_BABY",
+		"name": "Kid"
+	},
+	{
+		"id": "T5_FARM_GOOSE_BABY",
+		"name": "Gosling"
+	},
+	{
+		"id": "T6_FARM_SHEEP_BABY",
+		"name": "Lamb"
+	},
+	{
+		"id": "T7_FARM_PIG_BABY",
+		"name": "Piglet"
+	},
+	{
+		"id": "T8_FARM_COW_BABY",
+		"name": "Calf"
+	},
+	{
+		"id": "T3_FARM_CHICKEN_GROWN",
+		"name": "Chicken"
+	},
+	{
+		"id": "T4_FARM_GOAT_GROWN",
+		"name": "Goat"
+	},
+	{
+		"id": "T5_FARM_GOOSE_GROWN",
+		"name": "Goose"
+	},
+	{
+		"id": "T6_FARM_SHEEP_GROWN",
+		"name": "Sheep"
+	},
+	{
+		"id": "T7_FARM_PIG_GROWN",
+		"name": "Pig"
+	},
+	{
+		"id": "T8_FARM_COW_GROWN",
+		"name": "Cow"
+	}
 ]

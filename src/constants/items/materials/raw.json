@@ -1,602 +1,602 @@
 [
-  {
-    "id": "T1_WOOD",
-    "name": "T1_WOOD"
-  },
-  {
-    "id": "T2_WOOD",
-    "name": "T2_WOOD"
-  },
-  {
-    "id": "T3_WOOD",
-    "name": "T3_WOOD"
-  },
-  {
-    "id": "T4_WOOD",
-    "name": "T4_WOOD"
-  },
-  {
-    "id": "T5_WOOD",
-    "name": "T5_WOOD"
-  },
-  {
-    "id": "T6_WOOD",
-    "name": "T6_WOOD"
-  },
-  {
-    "id": "T7_WOOD",
-    "name": "T7_WOOD"
-  },
-  {
-    "id": "T8_WOOD",
-    "name": "T8_WOOD"
-  },
-  {
-    "id": "T4_WOOD_LEVEL1",
-    "name": "T4_WOOD_LEVEL1"
-  },
-  {
-    "id": "T5_WOOD_LEVEL1",
-    "name": "T5_WOOD_LEVEL1"
-  },
-  {
-    "id": "T6_WOOD_LEVEL1",
-    "name": "T6_WOOD_LEVEL1"
-  },
-  {
-    "id": "T7_WOOD_LEVEL1",
-    "name": "T7_WOOD_LEVEL1"
-  },
-  {
-    "id": "T8_WOOD_LEVEL1",
-    "name": "T8_WOOD_LEVEL1"
-  },
-  {
-    "id": "T4_WOOD_LEVEL2",
-    "name": "T4_WOOD_LEVEL2"
-  },
-  {
-    "id": "T5_WOOD_LEVEL2",
-    "name": "T5_WOOD_LEVEL2"
-  },
-  {
-    "id": "T6_WOOD_LEVEL2",
-    "name": "T6_WOOD_LEVEL2"
-  },
-  {
-    "id": "T7_WOOD_LEVEL2",
-    "name": "T7_WOOD_LEVEL2"
-  },
-  {
-    "id": "T8_WOOD_LEVEL2",
-    "name": "T8_WOOD_LEVEL2"
-  },
-  {
-    "id": "T4_WOOD_LEVEL3",
-    "name": "T4_WOOD_LEVEL3"
-  },
-  {
-    "id": "T5_WOOD_LEVEL3",
-    "name": "T5_WOOD_LEVEL3"
-  },
-  {
-    "id": "T6_WOOD_LEVEL3",
-    "name": "T6_WOOD_LEVEL3"
-  },
-  {
-    "id": "T7_WOOD_LEVEL3",
-    "name": "T7_WOOD_LEVEL3"
-  },
-  {
-    "id": "T8_WOOD_LEVEL3",
-    "name": "T8_WOOD_LEVEL3"
-  },
-  {
-    "id": "T4_WOOD_LEVEL4",
-    "name": "T4_WOOD_LEVEL4"
-  },
-  {
-    "id": "T5_WOOD_LEVEL4",
-    "name": "T5_WOOD_LEVEL4"
-  },
-  {
-    "id": "T6_WOOD_LEVEL4",
-    "name": "T6_WOOD_LEVEL4"
-  },
-  {
-    "id": "T7_WOOD_LEVEL4",
-    "name": "T7_WOOD_LEVEL4"
-  },
-  {
-    "id": "T8_WOOD_LEVEL4",
-    "name": "T8_WOOD_LEVEL4"
-  },
-  {
-    "id": "T1_ROCK",
-    "name": "T1_ROCK"
-  },
-  {
-    "id": "T2_ROCK",
-    "name": "T2_ROCK"
-  },
-  {
-    "id": "T3_ROCK",
-    "name": "T3_ROCK"
-  },
-  {
-    "id": "T4_ROCK",
-    "name": "T4_ROCK"
-  },
-  {
-    "id": "T5_ROCK",
-    "name": "T5_ROCK"
-  },
-  {
-    "id": "T6_ROCK",
-    "name": "T6_ROCK"
-  },
-  {
-    "id": "T7_ROCK",
-    "name": "T7_ROCK"
-  },
-  {
-    "id": "T8_ROCK",
-    "name": "T8_ROCK"
-  },
-  {
-    "id": "T4_ROCK_LEVEL1",
-    "name": "T4_ROCK_LEVEL1"
-  },
-  {
-    "id": "T5_ROCK_LEVEL1",
-    "name": "T5_ROCK_LEVEL1"
-  },
-  {
-    "id": "T6_ROCK_LEVEL1",
-    "name": "T6_ROCK_LEVEL1"
-  },
-  {
-    "id": "T7_ROCK_LEVEL1",
-    "name": "T7_ROCK_LEVEL1"
-  },
-  {
-    "id": "T8_ROCK_LEVEL1",
-    "name": "T8_ROCK_LEVEL1"
-  },
-  {
-    "id": "T4_ROCK_LEVEL2",
-    "name": "T4_ROCK_LEVEL2"
-  },
-  {
-    "id": "T5_ROCK_LEVEL2",
-    "name": "T5_ROCK_LEVEL2"
-  },
-  {
-    "id": "T6_ROCK_LEVEL2",
-    "name": "T6_ROCK_LEVEL2"
-  },
-  {
-    "id": "T7_ROCK_LEVEL2",
-    "name": "T7_ROCK_LEVEL2"
-  },
-  {
-    "id": "T8_ROCK_LEVEL2",
-    "name": "T8_ROCK_LEVEL2"
-  },
-  {
-    "id": "T4_ROCK_LEVEL3",
-    "name": "T4_ROCK_LEVEL3"
-  },
-  {
-    "id": "T5_ROCK_LEVEL3",
-    "name": "T5_ROCK_LEVEL3"
-  },
-  {
-    "id": "T6_ROCK_LEVEL3",
-    "name": "T6_ROCK_LEVEL3"
-  },
-  {
-    "id": "T7_ROCK_LEVEL3",
-    "name": "T7_ROCK_LEVEL3"
-  },
-  {
-    "id": "T8_ROCK_LEVEL3",
-    "name": "T8_ROCK_LEVEL3"
-  },
-  {
-    "id": "T2_ORE",
-    "name": "T2_ORE"
-  },
-  {
-    "id": "T3_ORE",
-    "name": "T3_ORE"
-  },
-  {
-    "id": "T4_ORE",
-    "name": "T4_ORE"
-  },
-  {
-    "id": "T5_ORE",
-    "name": "T5_ORE"
-  },
-  {
-    "id": "T6_ORE",
-    "name": "T6_ORE"
-  },
-  {
-    "id": "T7_ORE",
-    "name": "T7_ORE"
-  },
-  {
-    "id": "T8_ORE",
-    "name": "T8_ORE"
-  },
-  {
-    "id": "T4_ORE_LEVEL1",
-    "name": "T4_ORE_LEVEL1"
-  },
-  {
-    "id": "T5_ORE_LEVEL1",
-    "name": "T5_ORE_LEVEL1"
-  },
-  {
-    "id": "T6_ORE_LEVEL1",
-    "name": "T6_ORE_LEVEL1"
-  },
-  {
-    "id": "T7_ORE_LEVEL1",
-    "name": "T7_ORE_LEVEL1"
-  },
-  {
-    "id": "T8_ORE_LEVEL1",
-    "name": "T8_ORE_LEVEL1"
-  },
-  {
-    "id": "T4_ORE_LEVEL2",
-    "name": "T4_ORE_LEVEL2"
-  },
-  {
-    "id": "T5_ORE_LEVEL2",
-    "name": "T5_ORE_LEVEL2"
-  },
-  {
-    "id": "T6_ORE_LEVEL2",
-    "name": "T6_ORE_LEVEL2"
-  },
-  {
-    "id": "T7_ORE_LEVEL2",
-    "name": "T7_ORE_LEVEL2"
-  },
-  {
-    "id": "T8_ORE_LEVEL2",
-    "name": "T8_ORE_LEVEL2"
-  },
-  {
-    "id": "T4_ORE_LEVEL3",
-    "name": "T4_ORE_LEVEL3"
-  },
-  {
-    "id": "T5_ORE_LEVEL3",
-    "name": "T5_ORE_LEVEL3"
-  },
-  {
-    "id": "T6_ORE_LEVEL3",
-    "name": "T6_ORE_LEVEL3"
-  },
-  {
-    "id": "T7_ORE_LEVEL3",
-    "name": "T7_ORE_LEVEL3"
-  },
-  {
-    "id": "T8_ORE_LEVEL3",
-    "name": "T8_ORE_LEVEL3"
-  },
-  {
-    "id": "T4_ORE_LEVEL4",
-    "name": "T4_ORE_LEVEL4"
-  },
-  {
-    "id": "T5_ORE_LEVEL4",
-    "name": "T5_ORE_LEVEL4"
-  },
-  {
-    "id": "T6_ORE_LEVEL4",
-    "name": "T6_ORE_LEVEL4"
-  },
-  {
-    "id": "T7_ORE_LEVEL4",
-    "name": "T7_ORE_LEVEL4"
-  },
-  {
-    "id": "T8_ORE_LEVEL4",
-    "name": "T8_ORE_LEVEL4"
-  },
-  {
-    "id": "T1_HIDE",
-    "name": "T1_HIDE"
-  },
-  {
-    "id": "T2_HIDE",
-    "name": "T2_HIDE"
-  },
-  {
-    "id": "T3_HIDE",
-    "name": "T3_HIDE"
-  },
-  {
-    "id": "T4_HIDE",
-    "name": "T4_HIDE"
-  },
-  {
-    "id": "T5_HIDE",
-    "name": "T5_HIDE"
-  },
-  {
-    "id": "T6_HIDE",
-    "name": "T6_HIDE"
-  },
-  {
-    "id": "T7_HIDE",
-    "name": "T7_HIDE"
-  },
-  {
-    "id": "T8_HIDE",
-    "name": "T8_HIDE"
-  },
-  {
-    "id": "T4_HIDE_LEVEL1",
-    "name": "T4_HIDE_LEVEL1"
-  },
-  {
-    "id": "T5_HIDE_LEVEL1",
-    "name": "T5_HIDE_LEVEL1"
-  },
-  {
-    "id": "T6_HIDE_LEVEL1",
-    "name": "T6_HIDE_LEVEL1"
-  },
-  {
-    "id": "T7_HIDE_LEVEL1",
-    "name": "T7_HIDE_LEVEL1"
-  },
-  {
-    "id": "T8_HIDE_LEVEL1",
-    "name": "T8_HIDE_LEVEL1"
-  },
-  {
-    "id": "T4_HIDE_LEVEL2",
-    "name": "T4_HIDE_LEVEL2"
-  },
-  {
-    "id": "T5_HIDE_LEVEL2",
-    "name": "T5_HIDE_LEVEL2"
-  },
-  {
-    "id": "T6_HIDE_LEVEL2",
-    "name": "T6_HIDE_LEVEL2"
-  },
-  {
-    "id": "T7_HIDE_LEVEL2",
-    "name": "T7_HIDE_LEVEL2"
-  },
-  {
-    "id": "T8_HIDE_LEVEL2",
-    "name": "T8_HIDE_LEVEL2"
-  },
-  {
-    "id": "T4_HIDE_LEVEL3",
-    "name": "T4_HIDE_LEVEL3"
-  },
-  {
-    "id": "T5_HIDE_LEVEL3",
-    "name": "T5_HIDE_LEVEL3"
-  },
-  {
-    "id": "T6_HIDE_LEVEL3",
-    "name": "T6_HIDE_LEVEL3"
-  },
-  {
-    "id": "T7_HIDE_LEVEL3",
-    "name": "T7_HIDE_LEVEL3"
-  },
-  {
-    "id": "T8_HIDE_LEVEL3",
-    "name": "T8_HIDE_LEVEL3"
-  },
-  {
-    "id": "T4_HIDE_LEVEL4",
-    "name": "T4_HIDE_LEVEL4"
-  },
-  {
-    "id": "T5_HIDE_LEVEL4",
-    "name": "T5_HIDE_LEVEL4"
-  },
-  {
-    "id": "T6_HIDE_LEVEL4",
-    "name": "T6_HIDE_LEVEL4"
-  },
-  {
-    "id": "T7_HIDE_LEVEL4",
-    "name": "T7_HIDE_LEVEL4"
-  },
-  {
-    "id": "T8_HIDE_LEVEL4",
-    "name": "T8_HIDE_LEVEL4"
-  },
-  {
-    "id": "T2_FIBER",
-    "name": "T2_FIBER"
-  },
-  {
-    "id": "T3_FIBER",
-    "name": "T3_FIBER"
-  },
-  {
-    "id": "T4_FIBER",
-    "name": "T4_FIBER"
-  },
-  {
-    "id": "T5_FIBER",
-    "name": "T5_FIBER"
-  },
-  {
-    "id": "T6_FIBER",
-    "name": "T6_FIBER"
-  },
-  {
-    "id": "T7_FIBER",
-    "name": "T7_FIBER"
-  },
-  {
-    "id": "T8_FIBER",
-    "name": "T8_FIBER"
-  },
-  {
-    "id": "T4_FIBER_LEVEL1",
-    "name": "T4_FIBER_LEVEL1"
-  },
-  {
-    "id": "T5_FIBER_LEVEL1",
-    "name": "T5_FIBER_LEVEL1"
-  },
-  {
-    "id": "T6_FIBER_LEVEL1",
-    "name": "T6_FIBER_LEVEL1"
-  },
-  {
-    "id": "T7_FIBER_LEVEL1",
-    "name": "T7_FIBER_LEVEL1"
-  },
-  {
-    "id": "T8_FIBER_LEVEL1",
-    "name": "T8_FIBER_LEVEL1"
-  },
-  {
-    "id": "T4_FIBER_LEVEL2",
-    "name": "T4_FIBER_LEVEL2"
-  },
-  {
-    "id": "T5_FIBER_LEVEL2",
-    "name": "T5_FIBER_LEVEL2"
-  },
-  {
-    "id": "T6_FIBER_LEVEL2",
-    "name": "T6_FIBER_LEVEL2"
-  },
-  {
-    "id": "T7_FIBER_LEVEL2",
-    "name": "T7_FIBER_LEVEL2"
-  },
-  {
-    "id": "T8_FIBER_LEVEL2",
-    "name": "T8_FIBER_LEVEL2"
-  },
-  {
-    "id": "T4_FIBER_LEVEL3",
-    "name": "T4_FIBER_LEVEL3"
-  },
-  {
-    "id": "T5_FIBER_LEVEL3",
-    "name": "T5_FIBER_LEVEL3"
-  },
-  {
-    "id": "T6_FIBER_LEVEL3",
-    "name": "T6_FIBER_LEVEL3"
-  },
-  {
-    "id": "T7_FIBER_LEVEL3",
-    "name": "T7_FIBER_LEVEL3"
-  },
-  {
-    "id": "T8_FIBER_LEVEL3",
-    "name": "T8_FIBER_LEVEL3"
-  },
-  {
-    "id": "T4_FIBER_LEVEL4",
-    "name": "T4_FIBER_LEVEL4"
-  },
-  {
-    "id": "T5_FIBER_LEVEL4",
-    "name": "T5_FIBER_LEVEL4"
-  },
-  {
-    "id": "T6_FIBER_LEVEL4",
-    "name": "T6_FIBER_LEVEL4"
-  },
-  {
-    "id": "T7_FIBER_LEVEL4",
-    "name": "T7_FIBER_LEVEL4"
-  },
-  {
-    "id": "T8_FIBER_LEVEL4",
-    "name": "T8_FIBER_LEVEL4"
-  },
-  {
-    "id": "T2_STONEBLOCK",
-    "name": "T2_STONEBLOCK"
-  },
-  {
-    "id": "T3_STONEBLOCK",
-    "name": "T3_STONEBLOCK"
-  },
-  {
-    "id": "T4_STONEBLOCK",
-    "name": "T4_STONEBLOCK"
-  },
-  {
-    "id": "T5_STONEBLOCK",
-    "name": "T5_STONEBLOCK"
-  },
-  {
-    "id": "T6_STONEBLOCK",
-    "name": "T6_STONEBLOCK"
-  },
-  {
-    "id": "T7_STONEBLOCK",
-    "name": "T7_STONEBLOCK"
-  },
-  {
-    "id": "T8_STONEBLOCK",
-    "name": "T8_STONEBLOCK"
-  },
-  {
-    "id": "T4_ARTEFACT_2H_ROCKSTAFF_KEEPER",
-    "name": "T4_ARTEFACT_2H_ROCKSTAFF_KEEPER"
-  },
-  {
-    "id": "T4_ARTEFACT_MAIN_ROCKMACE_KEEPER",
-    "name": "T4_ARTEFACT_MAIN_ROCKMACE_KEEPER"
-  },
-  {
-    "id": "T5_ARTEFACT_2H_ROCKSTAFF_KEEPER",
-    "name": "T5_ARTEFACT_2H_ROCKSTAFF_KEEPER"
-  },
-  {
-    "id": "T5_ARTEFACT_MAIN_ROCKMACE_KEEPER",
-    "name": "T5_ARTEFACT_MAIN_ROCKMACE_KEEPER"
-  },
-  {
-    "id": "T6_ARTEFACT_2H_ROCKSTAFF_KEEPER",
-    "name": "T6_ARTEFACT_2H_ROCKSTAFF_KEEPER"
-  },
-  {
-    "id": "T6_ARTEFACT_MAIN_ROCKMACE_KEEPER",
-    "name": "T6_ARTEFACT_MAIN_ROCKMACE_KEEPER"
-  },
-  {
-    "id": "T7_ARTEFACT_2H_ROCKSTAFF_KEEPER",
-    "name": "T7_ARTEFACT_2H_ROCKSTAFF_KEEPER"
-  },
-  {
-    "id": "T7_ARTEFACT_MAIN_ROCKMACE_KEEPER",
-    "name": "T7_ARTEFACT_MAIN_ROCKMACE_KEEPER"
-  },
-  {
-    "id": "T8_ARTEFACT_2H_ROCKSTAFF_KEEPER",
-    "name": "T8_ARTEFACT_2H_ROCKSTAFF_KEEPER"
-  },
-  {
-    "id": "T8_ARTEFACT_MAIN_ROCKMACE_KEEPER",
-    "name": "T8_ARTEFACT_MAIN_ROCKMACE_KEEPER"
-  }
+	{
+		"id": "T1_WOOD",
+		"name": "Rough Logs"
+	},
+	{
+		"id": "T2_WOOD",
+		"name": "Birch Logs"
+	},
+	{
+		"id": "T3_WOOD",
+		"name": "Chestnut Logs"
+	},
+	{
+		"id": "T4_WOOD",
+		"name": "Pine Logs"
+	},
+	{
+		"id": "T5_WOOD",
+		"name": "Cedar Logs"
+	},
+	{
+		"id": "T6_WOOD",
+		"name": "Bloodoak Logs"
+	},
+	{
+		"id": "T7_WOOD",
+		"name": "Ashenbark Logs"
+	},
+	{
+		"id": "T8_WOOD",
+		"name": "Whitewood Logs"
+	},
+	{
+		"id": "T4_WOOD_LEVEL1",
+		"name": "T4_WOOD_LEVEL1"
+	},
+	{
+		"id": "T5_WOOD_LEVEL1",
+		"name": "T5_WOOD_LEVEL1"
+	},
+	{
+		"id": "T6_WOOD_LEVEL1",
+		"name": "T6_WOOD_LEVEL1"
+	},
+	{
+		"id": "T7_WOOD_LEVEL1",
+		"name": "T7_WOOD_LEVEL1"
+	},
+	{
+		"id": "T8_WOOD_LEVEL1",
+		"name": "T8_WOOD_LEVEL1"
+	},
+	{
+		"id": "T4_WOOD_LEVEL2",
+		"name": "T4_WOOD_LEVEL2"
+	},
+	{
+		"id": "T5_WOOD_LEVEL2",
+		"name": "T5_WOOD_LEVEL2"
+	},
+	{
+		"id": "T6_WOOD_LEVEL2",
+		"name": "T6_WOOD_LEVEL2"
+	},
+	{
+		"id": "T7_WOOD_LEVEL2",
+		"name": "T7_WOOD_LEVEL2"
+	},
+	{
+		"id": "T8_WOOD_LEVEL2",
+		"name": "T8_WOOD_LEVEL2"
+	},
+	{
+		"id": "T4_WOOD_LEVEL3",
+		"name": "T4_WOOD_LEVEL3"
+	},
+	{
+		"id": "T5_WOOD_LEVEL3",
+		"name": "T5_WOOD_LEVEL3"
+	},
+	{
+		"id": "T6_WOOD_LEVEL3",
+		"name": "T6_WOOD_LEVEL3"
+	},
+	{
+		"id": "T7_WOOD_LEVEL3",
+		"name": "T7_WOOD_LEVEL3"
+	},
+	{
+		"id": "T8_WOOD_LEVEL3",
+		"name": "T8_WOOD_LEVEL3"
+	},
+	{
+		"id": "T4_WOOD_LEVEL4",
+		"name": "T4_WOOD_LEVEL4"
+	},
+	{
+		"id": "T5_WOOD_LEVEL4",
+		"name": "T5_WOOD_LEVEL4"
+	},
+	{
+		"id": "T6_WOOD_LEVEL4",
+		"name": "T6_WOOD_LEVEL4"
+	},
+	{
+		"id": "T7_WOOD_LEVEL4",
+		"name": "T7_WOOD_LEVEL4"
+	},
+	{
+		"id": "T8_WOOD_LEVEL4",
+		"name": "T8_WOOD_LEVEL4"
+	},
+	{
+		"id": "T1_ROCK",
+		"name": "Rough Stone"
+	},
+	{
+		"id": "T2_ROCK",
+		"name": "Limestone"
+	},
+	{
+		"id": "T3_ROCK",
+		"name": "Sandstone"
+	},
+	{
+		"id": "T4_ROCK",
+		"name": "Travertine"
+	},
+	{
+		"id": "T5_ROCK",
+		"name": "Granite"
+	},
+	{
+		"id": "T6_ROCK",
+		"name": "Slate"
+	},
+	{
+		"id": "T7_ROCK",
+		"name": "Basalt"
+	},
+	{
+		"id": "T8_ROCK",
+		"name": "Marble"
+	},
+	{
+		"id": "T4_ROCK_LEVEL1",
+		"name": "T4_ROCK_LEVEL1"
+	},
+	{
+		"id": "T5_ROCK_LEVEL1",
+		"name": "T5_ROCK_LEVEL1"
+	},
+	{
+		"id": "T6_ROCK_LEVEL1",
+		"name": "T6_ROCK_LEVEL1"
+	},
+	{
+		"id": "T7_ROCK_LEVEL1",
+		"name": "T7_ROCK_LEVEL1"
+	},
+	{
+		"id": "T8_ROCK_LEVEL1",
+		"name": "T8_ROCK_LEVEL1"
+	},
+	{
+		"id": "T4_ROCK_LEVEL2",
+		"name": "T4_ROCK_LEVEL2"
+	},
+	{
+		"id": "T5_ROCK_LEVEL2",
+		"name": "T5_ROCK_LEVEL2"
+	},
+	{
+		"id": "T6_ROCK_LEVEL2",
+		"name": "T6_ROCK_LEVEL2"
+	},
+	{
+		"id": "T7_ROCK_LEVEL2",
+		"name": "T7_ROCK_LEVEL2"
+	},
+	{
+		"id": "T8_ROCK_LEVEL2",
+		"name": "T8_ROCK_LEVEL2"
+	},
+	{
+		"id": "T4_ROCK_LEVEL3",
+		"name": "T4_ROCK_LEVEL3"
+	},
+	{
+		"id": "T5_ROCK_LEVEL3",
+		"name": "T5_ROCK_LEVEL3"
+	},
+	{
+		"id": "T6_ROCK_LEVEL3",
+		"name": "T6_ROCK_LEVEL3"
+	},
+	{
+		"id": "T7_ROCK_LEVEL3",
+		"name": "T7_ROCK_LEVEL3"
+	},
+	{
+		"id": "T8_ROCK_LEVEL3",
+		"name": "T8_ROCK_LEVEL3"
+	},
+	{
+		"id": "T2_ORE",
+		"name": "Copper Ore"
+	},
+	{
+		"id": "T3_ORE",
+		"name": "Tin Ore"
+	},
+	{
+		"id": "T4_ORE",
+		"name": "Iron Ore"
+	},
+	{
+		"id": "T5_ORE",
+		"name": "Titanium Ore"
+	},
+	{
+		"id": "T6_ORE",
+		"name": "Runite Ore"
+	},
+	{
+		"id": "T7_ORE",
+		"name": "Meteorite Ore"
+	},
+	{
+		"id": "T8_ORE",
+		"name": "Adamantium Ore"
+	},
+	{
+		"id": "T4_ORE_LEVEL1",
+		"name": "T4_ORE_LEVEL1"
+	},
+	{
+		"id": "T5_ORE_LEVEL1",
+		"name": "T5_ORE_LEVEL1"
+	},
+	{
+		"id": "T6_ORE_LEVEL1",
+		"name": "T6_ORE_LEVEL1"
+	},
+	{
+		"id": "T7_ORE_LEVEL1",
+		"name": "T7_ORE_LEVEL1"
+	},
+	{
+		"id": "T8_ORE_LEVEL1",
+		"name": "T8_ORE_LEVEL1"
+	},
+	{
+		"id": "T4_ORE_LEVEL2",
+		"name": "T4_ORE_LEVEL2"
+	},
+	{
+		"id": "T5_ORE_LEVEL2",
+		"name": "T5_ORE_LEVEL2"
+	},
+	{
+		"id": "T6_ORE_LEVEL2",
+		"name": "T6_ORE_LEVEL2"
+	},
+	{
+		"id": "T7_ORE_LEVEL2",
+		"name": "T7_ORE_LEVEL2"
+	},
+	{
+		"id": "T8_ORE_LEVEL2",
+		"name": "T8_ORE_LEVEL2"
+	},
+	{
+		"id": "T4_ORE_LEVEL3",
+		"name": "T4_ORE_LEVEL3"
+	},
+	{
+		"id": "T5_ORE_LEVEL3",
+		"name": "T5_ORE_LEVEL3"
+	},
+	{
+		"id": "T6_ORE_LEVEL3",
+		"name": "T6_ORE_LEVEL3"
+	},
+	{
+		"id": "T7_ORE_LEVEL3",
+		"name": "T7_ORE_LEVEL3"
+	},
+	{
+		"id": "T8_ORE_LEVEL3",
+		"name": "T8_ORE_LEVEL3"
+	},
+	{
+		"id": "T4_ORE_LEVEL4",
+		"name": "T4_ORE_LEVEL4"
+	},
+	{
+		"id": "T5_ORE_LEVEL4",
+		"name": "T5_ORE_LEVEL4"
+	},
+	{
+		"id": "T6_ORE_LEVEL4",
+		"name": "T6_ORE_LEVEL4"
+	},
+	{
+		"id": "T7_ORE_LEVEL4",
+		"name": "T7_ORE_LEVEL4"
+	},
+	{
+		"id": "T8_ORE_LEVEL4",
+		"name": "T8_ORE_LEVEL4"
+	},
+	{
+		"id": "T1_HIDE",
+		"name": "Scraps of Hide"
+	},
+	{
+		"id": "T2_HIDE",
+		"name": "Rugged Hide"
+	},
+	{
+		"id": "T3_HIDE",
+		"name": "Thin Hide"
+	},
+	{
+		"id": "T4_HIDE",
+		"name": "Medium Hide"
+	},
+	{
+		"id": "T5_HIDE",
+		"name": "Heavy Hide"
+	},
+	{
+		"id": "T6_HIDE",
+		"name": "Robust Hide"
+	},
+	{
+		"id": "T7_HIDE",
+		"name": "Thick Hide"
+	},
+	{
+		"id": "T8_HIDE",
+		"name": "Resilient Hide"
+	},
+	{
+		"id": "T4_HIDE_LEVEL1",
+		"name": "T4_HIDE_LEVEL1"
+	},
+	{
+		"id": "T5_HIDE_LEVEL1",
+		"name": "T5_HIDE_LEVEL1"
+	},
+	{
+		"id": "T6_HIDE_LEVEL1",
+		"name": "T6_HIDE_LEVEL1"
+	},
+	{
+		"id": "T7_HIDE_LEVEL1",
+		"name": "T7_HIDE_LEVEL1"
+	},
+	{
+		"id": "T8_HIDE_LEVEL1",
+		"name": "T8_HIDE_LEVEL1"
+	},
+	{
+		"id": "T4_HIDE_LEVEL2",
+		"name": "T4_HIDE_LEVEL2"
+	},
+	{
+		"id": "T5_HIDE_LEVEL2",
+		"name": "T5_HIDE_LEVEL2"
+	},
+	{
+		"id": "T6_HIDE_LEVEL2",
+		"name": "T6_HIDE_LEVEL2"
+	},
+	{
+		"id": "T7_HIDE_LEVEL2",
+		"name": "T7_HIDE_LEVEL2"
+	},
+	{
+		"id": "T8_HIDE_LEVEL2",
+		"name": "T8_HIDE_LEVEL2"
+	},
+	{
+		"id": "T4_HIDE_LEVEL3",
+		"name": "T4_HIDE_LEVEL3"
+	},
+	{
+		"id": "T5_HIDE_LEVEL3",
+		"name": "T5_HIDE_LEVEL3"
+	},
+	{
+		"id": "T6_HIDE_LEVEL3",
+		"name": "T6_HIDE_LEVEL3"
+	},
+	{
+		"id": "T7_HIDE_LEVEL3",
+		"name": "T7_HIDE_LEVEL3"
+	},
+	{
+		"id": "T8_HIDE_LEVEL3",
+		"name": "T8_HIDE_LEVEL3"
+	},
+	{
+		"id": "T4_HIDE_LEVEL4",
+		"name": "T4_HIDE_LEVEL4"
+	},
+	{
+		"id": "T5_HIDE_LEVEL4",
+		"name": "T5_HIDE_LEVEL4"
+	},
+	{
+		"id": "T6_HIDE_LEVEL4",
+		"name": "T6_HIDE_LEVEL4"
+	},
+	{
+		"id": "T7_HIDE_LEVEL4",
+		"name": "T7_HIDE_LEVEL4"
+	},
+	{
+		"id": "T8_HIDE_LEVEL4",
+		"name": "T8_HIDE_LEVEL4"
+	},
+	{
+		"id": "T2_FIBER",
+		"name": "Cotton"
+	},
+	{
+		"id": "T3_FIBER",
+		"name": "Flax"
+	},
+	{
+		"id": "T4_FIBER",
+		"name": "Hemp"
+	},
+	{
+		"id": "T5_FIBER",
+		"name": "Skyflower"
+	},
+	{
+		"id": "T6_FIBER",
+		"name": "Amberleaf Cotton"
+	},
+	{
+		"id": "T7_FIBER",
+		"name": "Sunflax"
+	},
+	{
+		"id": "T8_FIBER",
+		"name": "Ghost Hemp"
+	},
+	{
+		"id": "T4_FIBER_LEVEL1",
+		"name": "T4_FIBER_LEVEL1"
+	},
+	{
+		"id": "T5_FIBER_LEVEL1",
+		"name": "T5_FIBER_LEVEL1"
+	},
+	{
+		"id": "T6_FIBER_LEVEL1",
+		"name": "T6_FIBER_LEVEL1"
+	},
+	{
+		"id": "T7_FIBER_LEVEL1",
+		"name": "T7_FIBER_LEVEL1"
+	},
+	{
+		"id": "T8_FIBER_LEVEL1",
+		"name": "T8_FIBER_LEVEL1"
+	},
+	{
+		"id": "T4_FIBER_LEVEL2",
+		"name": "T4_FIBER_LEVEL2"
+	},
+	{
+		"id": "T5_FIBER_LEVEL2",
+		"name": "T5_FIBER_LEVEL2"
+	},
+	{
+		"id": "T6_FIBER_LEVEL2",
+		"name": "T6_FIBER_LEVEL2"
+	},
+	{
+		"id": "T7_FIBER_LEVEL2",
+		"name": "T7_FIBER_LEVEL2"
+	},
+	{
+		"id": "T8_FIBER_LEVEL2",
+		"name": "T8_FIBER_LEVEL2"
+	},
+	{
+		"id": "T4_FIBER_LEVEL3",
+		"name": "T4_FIBER_LEVEL3"
+	},
+	{
+		"id": "T5_FIBER_LEVEL3",
+		"name": "T5_FIBER_LEVEL3"
+	},
+	{
+		"id": "T6_FIBER_LEVEL3",
+		"name": "T6_FIBER_LEVEL3"
+	},
+	{
+		"id": "T7_FIBER_LEVEL3",
+		"name": "T7_FIBER_LEVEL3"
+	},
+	{
+		"id": "T8_FIBER_LEVEL3",
+		"name": "T8_FIBER_LEVEL3"
+	},
+	{
+		"id": "T4_FIBER_LEVEL4",
+		"name": "T4_FIBER_LEVEL4"
+	},
+	{
+		"id": "T5_FIBER_LEVEL4",
+		"name": "T5_FIBER_LEVEL4"
+	},
+	{
+		"id": "T6_FIBER_LEVEL4",
+		"name": "T6_FIBER_LEVEL4"
+	},
+	{
+		"id": "T7_FIBER_LEVEL4",
+		"name": "T7_FIBER_LEVEL4"
+	},
+	{
+		"id": "T8_FIBER_LEVEL4",
+		"name": "T8_FIBER_LEVEL4"
+	},
+	{
+		"id": "T2_STONEBLOCK",
+		"name": "Limestone Block"
+	},
+	{
+		"id": "T3_STONEBLOCK",
+		"name": "Sandstone Block"
+	},
+	{
+		"id": "T4_STONEBLOCK",
+		"name": "Travertine Block"
+	},
+	{
+		"id": "T5_STONEBLOCK",
+		"name": "Granite Block"
+	},
+	{
+		"id": "T6_STONEBLOCK",
+		"name": "Slate Block"
+	},
+	{
+		"id": "T7_STONEBLOCK",
+		"name": "Basalt Block"
+	},
+	{
+		"id": "T8_STONEBLOCK",
+		"name": "Marble Block"
+	},
+	{
+		"id": "T4_ARTEFACT_2H_ROCKSTAFF_KEEPER",
+		"name": "Adept's Preserved Rocks"
+	},
+	{
+		"id": "T4_ARTEFACT_MAIN_ROCKMACE_KEEPER",
+		"name": "Adept's Runed Rock"
+	},
+	{
+		"id": "T5_ARTEFACT_2H_ROCKSTAFF_KEEPER",
+		"name": "Expert's Preserved Rocks"
+	},
+	{
+		"id": "T5_ARTEFACT_MAIN_ROCKMACE_KEEPER",
+		"name": "Expert's Runed Rock"
+	},
+	{
+		"id": "T6_ARTEFACT_2H_ROCKSTAFF_KEEPER",
+		"name": "Master's Preserved Rocks"
+	},
+	{
+		"id": "T6_ARTEFACT_MAIN_ROCKMACE_KEEPER",
+		"name": "Master's Runed Rock"
+	},
+	{
+		"id": "T7_ARTEFACT_2H_ROCKSTAFF_KEEPER",
+		"name": "Grandmaster's Preserved Rocks"
+	},
+	{
+		"id": "T7_ARTEFACT_MAIN_ROCKMACE_KEEPER",
+		"name": "Grandmaster's Runed Rock"
+	},
+	{
+		"id": "T8_ARTEFACT_2H_ROCKSTAFF_KEEPER",
+		"name": "Elder's Preserved Rocks"
+	},
+	{
+		"id": "T8_ARTEFACT_MAIN_ROCKMACE_KEEPER",
+		"name": "Elder's Runed Rock"
+	}
 ]

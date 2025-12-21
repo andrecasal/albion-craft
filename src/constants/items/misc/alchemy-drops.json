@@ -1,98 +1,98 @@
 [
-  {
-    "id": "T3_ALCHEMY_RARE_PANTHER",
-    "name": "T3_ALCHEMY_RARE_PANTHER"
-  },
-  {
-    "id": "T5_ALCHEMY_RARE_PANTHER",
-    "name": "T5_ALCHEMY_RARE_PANTHER"
-  },
-  {
-    "id": "T7_ALCHEMY_RARE_PANTHER",
-    "name": "T7_ALCHEMY_RARE_PANTHER"
-  },
-  {
-    "id": "T3_ALCHEMY_RARE_ENT",
-    "name": "T3_ALCHEMY_RARE_ENT"
-  },
-  {
-    "id": "T5_ALCHEMY_RARE_ENT",
-    "name": "T5_ALCHEMY_RARE_ENT"
-  },
-  {
-    "id": "T7_ALCHEMY_RARE_ENT",
-    "name": "T7_ALCHEMY_RARE_ENT"
-  },
-  {
-    "id": "T3_ALCHEMY_RARE_DIREBEAR",
-    "name": "T3_ALCHEMY_RARE_DIREBEAR"
-  },
-  {
-    "id": "T5_ALCHEMY_RARE_DIREBEAR",
-    "name": "T5_ALCHEMY_RARE_DIREBEAR"
-  },
-  {
-    "id": "T7_ALCHEMY_RARE_DIREBEAR",
-    "name": "T7_ALCHEMY_RARE_DIREBEAR"
-  },
-  {
-    "id": "T3_ALCHEMY_RARE_WEREWOLF",
-    "name": "T3_ALCHEMY_RARE_WEREWOLF"
-  },
-  {
-    "id": "T5_ALCHEMY_RARE_WEREWOLF",
-    "name": "T5_ALCHEMY_RARE_WEREWOLF"
-  },
-  {
-    "id": "T7_ALCHEMY_RARE_WEREWOLF",
-    "name": "T7_ALCHEMY_RARE_WEREWOLF"
-  },
-  {
-    "id": "T3_ALCHEMY_RARE_IMP",
-    "name": "T3_ALCHEMY_RARE_IMP"
-  },
-  {
-    "id": "T5_ALCHEMY_RARE_IMP",
-    "name": "T5_ALCHEMY_RARE_IMP"
-  },
-  {
-    "id": "T7_ALCHEMY_RARE_IMP",
-    "name": "T7_ALCHEMY_RARE_IMP"
-  },
-  {
-    "id": "T3_ALCHEMY_RARE_ELEMENTAL",
-    "name": "T3_ALCHEMY_RARE_ELEMENTAL"
-  },
-  {
-    "id": "T5_ALCHEMY_RARE_ELEMENTAL",
-    "name": "T5_ALCHEMY_RARE_ELEMENTAL"
-  },
-  {
-    "id": "T7_ALCHEMY_RARE_ELEMENTAL",
-    "name": "T7_ALCHEMY_RARE_ELEMENTAL"
-  },
-  {
-    "id": "T3_ALCHEMY_RARE_EAGLE",
-    "name": "T3_ALCHEMY_RARE_EAGLE"
-  },
-  {
-    "id": "T5_ALCHEMY_RARE_EAGLE",
-    "name": "T5_ALCHEMY_RARE_EAGLE"
-  },
-  {
-    "id": "T7_ALCHEMY_RARE_EAGLE",
-    "name": "T7_ALCHEMY_RARE_EAGLE"
-  },
-  {
-    "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
-    "name": "T1_ALCHEMY_EXTRACT_LEVEL1"
-  },
-  {
-    "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
-    "name": "T1_ALCHEMY_EXTRACT_LEVEL2"
-  },
-  {
-    "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
-    "name": "T1_ALCHEMY_EXTRACT_LEVEL3"
-  }
+	{
+		"id": "T3_ALCHEMY_RARE_PANTHER",
+		"name": "Rugged Shadow Claws"
+	},
+	{
+		"id": "T5_ALCHEMY_RARE_PANTHER",
+		"name": "Fine Shadow Claws"
+	},
+	{
+		"id": "T7_ALCHEMY_RARE_PANTHER",
+		"name": "Excellent Shadow Claws"
+	},
+	{
+		"id": "T3_ALCHEMY_RARE_ENT",
+		"name": "Rugged Sylvian Root"
+	},
+	{
+		"id": "T5_ALCHEMY_RARE_ENT",
+		"name": "Fine Sylvian Root"
+	},
+	{
+		"id": "T7_ALCHEMY_RARE_ENT",
+		"name": "Excellent Sylvian Root"
+	},
+	{
+		"id": "T3_ALCHEMY_RARE_DIREBEAR",
+		"name": "Rugged Spirit Paws"
+	},
+	{
+		"id": "T5_ALCHEMY_RARE_DIREBEAR",
+		"name": "Fine Spirit Paws"
+	},
+	{
+		"id": "T7_ALCHEMY_RARE_DIREBEAR",
+		"name": "Excellent Spirit Paws"
+	},
+	{
+		"id": "T3_ALCHEMY_RARE_WEREWOLF",
+		"name": "Rugged Werewolf Fangs"
+	},
+	{
+		"id": "T5_ALCHEMY_RARE_WEREWOLF",
+		"name": "Fine Werewolf Fangs"
+	},
+	{
+		"id": "T7_ALCHEMY_RARE_WEREWOLF",
+		"name": "Excellent Werewolf Fangs"
+	},
+	{
+		"id": "T3_ALCHEMY_RARE_IMP",
+		"name": "Rugged Imp's Horn"
+	},
+	{
+		"id": "T5_ALCHEMY_RARE_IMP",
+		"name": "Fine Imp's Horn"
+	},
+	{
+		"id": "T7_ALCHEMY_RARE_IMP",
+		"name": "Excellent Imp's Horn"
+	},
+	{
+		"id": "T3_ALCHEMY_RARE_ELEMENTAL",
+		"name": "Rugged Runestone Tooth"
+	},
+	{
+		"id": "T5_ALCHEMY_RARE_ELEMENTAL",
+		"name": "Fine Runestone Tooth"
+	},
+	{
+		"id": "T7_ALCHEMY_RARE_ELEMENTAL",
+		"name": "Excellent Runestone Tooth"
+	},
+	{
+		"id": "T3_ALCHEMY_RARE_EAGLE",
+		"name": "Rugged Dawnfeather"
+	},
+	{
+		"id": "T5_ALCHEMY_RARE_EAGLE",
+		"name": "Fine Dawnfeather"
+	},
+	{
+		"id": "T7_ALCHEMY_RARE_EAGLE",
+		"name": "Excellent Dawnfeather"
+	},
+	{
+		"id": "T1_ALCHEMY_EXTRACT_LEVEL1",
+		"name": "Basic Arcane Extract"
+	},
+	{
+		"id": "T1_ALCHEMY_EXTRACT_LEVEL2",
+		"name": "Refined Arcane Extract"
+	},
+	{
+		"id": "T1_ALCHEMY_EXTRACT_LEVEL3",
+		"name": "Pure Arcane Extract"
+	}
 ]

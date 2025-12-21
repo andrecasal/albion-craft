@@ -1,86 +1,86 @@
 [
-  {
-    "id": "TREASURE_KNOWLEDGE_RARITY1",
-    "name": "TREASURE_KNOWLEDGE_RARITY1"
-  },
-  {
-    "id": "TREASURE_KNOWLEDGE_RARITY2",
-    "name": "TREASURE_KNOWLEDGE_RARITY2"
-  },
-  {
-    "id": "TREASURE_KNOWLEDGE_RARITY3",
-    "name": "TREASURE_KNOWLEDGE_RARITY3"
-  },
-  {
-    "id": "TREASURE_SILVERWARE_RARITY1",
-    "name": "TREASURE_SILVERWARE_RARITY1"
-  },
-  {
-    "id": "TREASURE_SILVERWARE_RARITY2",
-    "name": "TREASURE_SILVERWARE_RARITY2"
-  },
-  {
-    "id": "TREASURE_SILVERWARE_RARITY3",
-    "name": "TREASURE_SILVERWARE_RARITY3"
-  },
-  {
-    "id": "TREASURE_DECORATIVE_RARITY1",
-    "name": "TREASURE_DECORATIVE_RARITY1"
-  },
-  {
-    "id": "TREASURE_DECORATIVE_RARITY2",
-    "name": "TREASURE_DECORATIVE_RARITY2"
-  },
-  {
-    "id": "TREASURE_DECORATIVE_RARITY3",
-    "name": "TREASURE_DECORATIVE_RARITY3"
-  },
-  {
-    "id": "TREASURE_CEREMONIAL_RARITY1",
-    "name": "TREASURE_CEREMONIAL_RARITY1"
-  },
-  {
-    "id": "TREASURE_CEREMONIAL_RARITY2",
-    "name": "TREASURE_CEREMONIAL_RARITY2"
-  },
-  {
-    "id": "TREASURE_CEREMONIAL_RARITY3",
-    "name": "TREASURE_CEREMONIAL_RARITY3"
-  },
-  {
-    "id": "TREASURE_TRIBAL_RARITY1",
-    "name": "TREASURE_TRIBAL_RARITY1"
-  },
-  {
-    "id": "TREASURE_TRIBAL_RARITY2",
-    "name": "TREASURE_TRIBAL_RARITY2"
-  },
-  {
-    "id": "TREASURE_TRIBAL_RARITY3",
-    "name": "TREASURE_TRIBAL_RARITY3"
-  },
-  {
-    "id": "TREASURE_RITUAL_RARITY1",
-    "name": "TREASURE_RITUAL_RARITY1"
-  },
-  {
-    "id": "TREASURE_RITUAL_RARITY2",
-    "name": "TREASURE_RITUAL_RARITY2"
-  },
-  {
-    "id": "TREASURE_RITUAL_RARITY3",
-    "name": "TREASURE_RITUAL_RARITY3"
-  },
-  {
-    "id": "TREASURE_AVALON_RARITY1",
-    "name": "TREASURE_AVALON_RARITY1"
-  },
-  {
-    "id": "TREASURE_AVALON_RARITY2",
-    "name": "TREASURE_AVALON_RARITY2"
-  },
-  {
-    "id": "TREASURE_AVALON_RARITY3",
-    "name": "TREASURE_AVALON_RARITY3"
-  }
+	{
+		"id": "TREASURE_KNOWLEDGE_RARITY1",
+		"name": "Corrupted Scroll"
+	},
+	{
+		"id": "TREASURE_KNOWLEDGE_RARITY2",
+		"name": "Thin Booklet"
+	},
+	{
+		"id": "TREASURE_KNOWLEDGE_RARITY3",
+		"name": "Ancient Tome"
+	},
+	{
+		"id": "TREASURE_SILVERWARE_RARITY1",
+		"name": "Silver Cup"
+	},
+	{
+		"id": "TREASURE_SILVERWARE_RARITY2",
+		"name": "Silver Mirror"
+	},
+	{
+		"id": "TREASURE_SILVERWARE_RARITY3",
+		"name": "Silver Candelabrum"
+	},
+	{
+		"id": "TREASURE_DECORATIVE_RARITY1",
+		"name": "Simple Stone Toy"
+	},
+	{
+		"id": "TREASURE_DECORATIVE_RARITY2",
+		"name": "Stone Mask"
+	},
+	{
+		"id": "TREASURE_DECORATIVE_RARITY3",
+		"name": "Stone Idol"
+	},
+	{
+		"id": "TREASURE_CEREMONIAL_RARITY1",
+		"name": "Ornamental Scepter"
+	},
+	{
+		"id": "TREASURE_CEREMONIAL_RARITY2",
+		"name": "Globus Cruciger"
+	},
+	{
+		"id": "TREASURE_CEREMONIAL_RARITY3",
+		"name": "Golden Crown"
+	},
+	{
+		"id": "TREASURE_TRIBAL_RARITY1",
+		"name": "Feather Talisman"
+	},
+	{
+		"id": "TREASURE_TRIBAL_RARITY2",
+		"name": "Dreamcatcher"
+	},
+	{
+		"id": "TREASURE_TRIBAL_RARITY3",
+		"name": "Holy Fetish"
+	},
+	{
+		"id": "TREASURE_RITUAL_RARITY1",
+		"name": "Ritual Candles"
+	},
+	{
+		"id": "TREASURE_RITUAL_RARITY2",
+		"name": "Blood Chalice"
+	},
+	{
+		"id": "TREASURE_RITUAL_RARITY3",
+		"name": "Sacrificial Dagger"
+	},
+	{
+		"id": "TREASURE_AVALON_RARITY1",
+		"name": "Golden Frame"
+	},
+	{
+		"id": "TREASURE_AVALON_RARITY2",
+		"name": "Golden Gyroscope"
+	},
+	{
+		"id": "TREASURE_AVALON_RARITY3",
+		"name": "Golden Sextant"
+	}
 ]
