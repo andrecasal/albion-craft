@@ -8,7 +8,7 @@
 
 // DISABLED: Hourly price history functions removed from db.ts
 // import { LOCATION_TO_CITY, CITY_TO_LOCATION, getAllHourlyPriceHistory, getHourlyPriceHistoryCount, getHourlyHistoryItemCount } from '../db/db';
-import { LOCATION_TO_CITY, CITY_TO_LOCATION } from '../db/db';
+import { LOCATION_TO_CITY, CITY_TO_LOCATION } from '../db/locations';
 import { City } from '../types';
 
 // ============================================================================

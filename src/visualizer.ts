@@ -18,7 +18,9 @@ import { scanCityArbitrage } from './services/city-arbitrage-scanner';
 import { getRealtimeCalculator, CraftFromMarketResult, CraftFromInventoryResult, MaterialInventory as RealtimeMaterialInventory, MaterialPriceComparison } from './services/realtime-profitability-calculator';
 // DISABLED: Order book functions removed from db.ts
 // import { CITY_TO_LOCATION, getRawDb, getStats, getPriceHistoryCount, get30DayAverage, getBestBuyPrices } from './db/db';
-import { CITY_TO_LOCATION, getRawDb, getDailyPriceCount, get30DayAverage } from './db/db';
+import { CITY_TO_LOCATION } from './db/locations';
+import { db } from './db';
+import { getDailyPriceCount, get30DayAverage } from './db/daily-prices';
 import { getDailyPriceStatus } from './collector';
 // DISABLED: Hourly fetcher has been deleted
 // import { checkHourlyHistoryStatus } from './services/hourly-fetcher';
@@ -1194,10 +1196,9 @@ async function viewBelowAverageSellOrders() {
   const itemCityPrices: ItemCityData[] = [];
 
   // Get all sell orders grouped by item and city
-  const rawDb = getRawDb();
   for (const [city, locationIds] of Object.entries(CITY_TO_LOCATION) as [City, number[]][]) {
     const placeholders = locationIds.map(() => '?').join(',');
-    const orders = rawDb.prepare(`
+    const orders = db.prepare(`
       SELECT item_id, MIN(price_silver) as best_sell_price
       FROM orders
       WHERE location_id IN (${placeholders})

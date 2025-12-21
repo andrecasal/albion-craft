@@ -4,22 +4,19 @@
 
 import * as readline from 'readline'
 import * as https from 'https'
+import { closeDb, getDatabaseSize } from './db'
 import {
-	closeDb,
 	getDailyPriceCount,
 	getDailyPriceItemCount,
 	getDailyPriceDateCount,
 	getDailyPriceLocationCount,
-	getDatabaseSize,
 	clearAllDailyPrices,
 	getLatestDailyPriceDate,
 	getMissingDailyPriceDates,
 	insertDailyPrices,
 	cleanupOldDailyPrices,
-	saveSyncState,
-	getSyncState,
-	clearSyncState,
-} from './db/db'
+} from './db/daily-prices'
+import { saveSyncState, getSyncState, clearSyncState } from './db/sync-progress'
 import {
 	parseRateLimitHeaders,
 	calculateWaitTime,

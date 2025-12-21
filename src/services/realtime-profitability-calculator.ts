@@ -9,7 +9,7 @@
 import { Recipe, UserStats, City, CraftingCost } from '../types';
 // DISABLED: Order book functions removed from db.ts
 // import { CITY_TO_LOCATION, MarketDepth, getMarketDepth, getStats } from '../db/db';
-import { CITY_TO_LOCATION } from '../db/db';
+import { CITY_TO_LOCATION } from '../db/locations';
 
 // Placeholder type for disabled MarketDepth
 interface MarketDepth {
