@@ -1,10 +1,15 @@
 // city-arbitrage-scanner.ts
 // Scans for profitable city-to-city arbitrage opportunities across all items
 // Uses real-time order book data from SQLite (populated by NATS collector)
+//
+// NOTE: This file is temporarily disabled. The order book functionality
+// has been removed from the database in favor of daily price averages only.
+// The NATS real-time order book will be re-enabled in a future update.
 
 import * as readline from 'readline';
 import { City } from '../types';
-import { getStats, findOptimalArbitrageOpportunities } from '../db/db';
+// DISABLED: Order book functions removed from db.ts
+// import { getStats, findOptimalArbitrageOpportunities } from '../db/db';
 
 // Travel times between cities (in minutes)
 const travelData = require('../constants/travel.json') as {
@@ -189,7 +194,17 @@ function formatPct(pct: number): string {
 // MAIN SCANNER FUNCTION
 // ============================================================================
 
+// DISABLED: This function requires order book data which has been removed.
+// The NATS real-time order book will be re-enabled in a future update.
 export async function scanCityArbitrage(): Promise<ArbitrageOpportunity[]> {
+  console.log('\n⚠️  City Arbitrage Scanner is temporarily disabled.');
+  console.log('   The order book functionality has been removed in favor of daily price averages.');
+  console.log('   This feature will be re-enabled when NATS real-time data is integrated.\n');
+  return [];
+}
+
+/* DISABLED: Original implementation requires order book functions
+export async function _scanCityArbitrage_DISABLED(): Promise<ArbitrageOpportunity[]> {
   console.log(`\n🔍 City Arbitrage Scanner (Depth-Aware Order Book)`);
   console.log(`   Tax rate: Quick sell 4%`);
   console.log(`   Carry capacity: ${DEFAULT_CARRY_CAPACITY.toLocaleString()} kg (T8 Ox + T8 Bag + Base)\n`);
@@ -299,6 +314,7 @@ export async function scanCityArbitrage(): Promise<ArbitrageOpportunity[]> {
 
   return opportunities;
 }
+*/
 
 // ============================================================================
 // DISPLAY FUNCTIONS

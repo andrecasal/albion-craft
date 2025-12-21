@@ -1,8 +1,14 @@
 // hourly-arbitrage-scanner.ts
 // Analyzes hourly price data to find arbitrage opportunities with trend analysis
 // Uses high-resolution data to identify short-term price patterns
+//
+// NOTE: This file is temporarily disabled. The hourly price history functionality
+// has been removed from the database in favor of daily price averages only.
+// This feature will be re-enabled in a future update.
 
-import { LOCATION_TO_CITY, CITY_TO_LOCATION, getAllHourlyPriceHistory, getHourlyPriceHistoryCount, getHourlyHistoryItemCount } from '../db/db';
+// DISABLED: Hourly price history functions removed from db.ts
+// import { LOCATION_TO_CITY, CITY_TO_LOCATION, getAllHourlyPriceHistory, getHourlyPriceHistoryCount, getHourlyHistoryItemCount } from '../db/db';
+import { LOCATION_TO_CITY, CITY_TO_LOCATION } from '../db/db';
 import { City } from '../types';
 
 // ============================================================================
@@ -133,8 +139,16 @@ function getTrendEmoji(trend: 'rising' | 'stable' | 'falling'): string {
 
 /**
  * Analyze hourly price data for all items across all cities
+ * DISABLED: Hourly price history has been removed from the database.
  */
 export function analyzeHourlyPrices(): Map<string, Map<City, HourlyPriceStats>> {
+  // DISABLED: Return empty map since hourly data functions are removed
+  console.warn('analyzeHourlyPrices is disabled - hourly price history has been removed');
+  return new Map();
+}
+
+/* DISABLED: Original implementation requires hourly price history functions
+function _analyzeHourlyPrices_DISABLED(): Map<string, Map<City, HourlyPriceStats>> {
   const allData = getAllHourlyPriceHistory(24);
 
   if (allData.length === 0) {
@@ -237,6 +251,7 @@ export function analyzeHourlyPrices(): Map<string, Map<City, HourlyPriceStats>> 
 
   return results;
 }
+*/
 
 /**
  * Find arbitrage opportunities using hourly price trends
@@ -330,8 +345,17 @@ export function findHourlyArbitrageOpportunities(): HourlyArbitrageOpportunity[]
 
 /**
  * Display hourly arbitrage opportunities in the console
+ * DISABLED: Hourly price history has been removed from the database.
  */
 export function displayHourlyArbitrageOpportunities(): void {
+  console.log('\n⚠️  Hourly Arbitrage Scanner is temporarily disabled.');
+  console.log('   The hourly price history functionality has been removed in favor of daily price averages.');
+  console.log('   This feature will be re-enabled in a future update.\n');
+  return;
+}
+
+/* DISABLED: Original implementation requires hourly price history functions
+function _displayHourlyArbitrageOpportunities_DISABLED(): void {
   const status = {
     totalRecords: getHourlyPriceHistoryCount(),
     uniqueItems: getHourlyHistoryItemCount(),
@@ -385,6 +409,7 @@ export function displayHourlyArbitrageOpportunities(): void {
   console.log('   • Net Profit: After 4% quick sell tax');
   console.log('   • Timing signals based on trend convergence/divergence\n');
 }
+*/
 
 function displayOpportunityTable(opportunities: HourlyArbitrageOpportunity[]): void {
   console.log('   ┌─────────────────────────────────┬──────────────┬─────────────────┬──────────────┬─────────────────┬────────────┬────────────┐');
@@ -410,8 +435,9 @@ function displayOpportunityTable(opportunities: HourlyArbitrageOpportunity[]): v
 
 /**
  * Main entry point for scanning hourly arbitrage
+ * DISABLED: Hourly price history has been removed from the database.
  */
 export async function scanHourlyArbitrage(): Promise<HourlyArbitrageOpportunity[]> {
   displayHourlyArbitrageOpportunities();
-  return findHourlyArbitrageOpportunities();
+  return [];  // Return empty array since hourly data is disabled
 }

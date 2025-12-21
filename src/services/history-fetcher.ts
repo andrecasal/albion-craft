@@ -1,9 +1,15 @@
 // history-fetcher.ts
-// Incremental fetcher for historical price data from AODP /charts endpoint
+// Incremental fetcher for daily price averages from AODP /charts endpoint (time-scale=24)
 // Only fetches missing days, stores in SQLite for fast access
 
 import * as https from 'https'
-import { CITY_TO_LOCATION, getPriceHistoryCount, getLatestHistoryDate, getMissingHistoryDates, insertPriceHistory, cleanupOldHistory } from '../db/db'
+import {
+	getDailyPriceCount,
+	getLatestDailyPriceDate,
+	getMissingDailyPriceDates,
+	insertDailyPrices,
+	cleanupOldDailyPrices,
+} from '../db/db'
 import {
 	parseRateLimitHeaders,
 	calculateWaitTime,
@@ -119,7 +125,7 @@ interface AODPChartRawResponse {
 	}
 }
 
-interface PriceHistoryRecord {
+interface DailyPriceRecord {
 	itemId: string
 	locationId: number
 	date: string
@@ -281,8 +287,8 @@ async function fetchWithRetry<T = any>(
 
 function transformChartsResponse(
 	rawData: AODPChartRawResponse[],
-): PriceHistoryRecord[] {
-	const records: PriceHistoryRecord[] = []
+): DailyPriceRecord[] {
+	const records: DailyPriceRecord[] = []
 
 	for (const response of rawData) {
 		const { item_id, location, quality, data } = response
@@ -334,9 +340,9 @@ export function checkHistoryStatus(): {
 	missingDates: string[]
 	needsFetch: boolean
 } {
-	const totalRecords = getPriceHistoryCount()
-	const latestDate = getLatestHistoryDate()
-	const missingDates = getMissingHistoryDates(CONFIG.historyDays)
+	const totalRecords = getDailyPriceCount()
+	const latestDate = getLatestDailyPriceDate()
+	const missingDates = getMissingDailyPriceDates(CONFIG.historyDays)
 
 	return {
 		totalRecords,
@@ -355,9 +361,9 @@ async function fetchHistoricalData(
 	batchIndex: number,
 	totalBatches: number,
 	itemBatches: string[][],
-): Promise<PriceHistoryRecord[]> {
+): Promise<DailyPriceRecord[]> {
 	const locationsParam = CITIES.join(',')
-	const allRecords: PriceHistoryRecord[] = []
+	const allRecords: DailyPriceRecord[] = []
 	const totalRequests = totalBatches * itemBatches.length
 
 	for (let i = 0; i < itemBatches.length; i++) {
@@ -460,7 +466,7 @@ export async function fetchMissingHistory(): Promise<{
 		)
 
 		if (records.length > 0) {
-			insertPriceHistory(records)
+			insertDailyPrices(records)
 			totalRecordsAdded += records.length
 
 			// Track which dates were fetched
@@ -476,7 +482,7 @@ export async function fetchMissingHistory(): Promise<{
 	)
 
 	// Clean up old data
-	const cleaned = cleanupOldHistory(CONFIG.historyDays)
+	const cleaned = cleanupOldDailyPrices(CONFIG.historyDays)
 	if (cleaned > 0) {
 		console.log(`   Cleaned up ${cleaned.toLocaleString()} old records`)
 	}
@@ -494,7 +500,7 @@ export async function fetchMissingHistory(): Promise<{
 export function displayHistoryStatus(): void {
 	const status = checkHistoryStatus()
 
-	console.log('\n--- HISTORICAL DATA STATUS ---')
+	console.log('\n--- DAILY PRICE DATA STATUS ---')
 	console.log(`   Total records: ${status.totalRecords.toLocaleString()}`)
 	console.log(`   Latest date: ${status.latestDate || 'None'}`)
 	console.log(`   Missing dates: ${status.missingDates.length}`)

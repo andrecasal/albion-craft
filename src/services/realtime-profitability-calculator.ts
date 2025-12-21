@@ -1,9 +1,32 @@
 // realtime-profitability-calculator.ts
 // Calculates crafting profitability using real-time order book data from SQLite
 // This replaces the JSON-based ProfitabilityCalculator for features that need live data
+//
+// NOTE: This file is temporarily disabled. The order book functionality
+// has been removed from the database in favor of daily price averages only.
+// The NATS real-time order book will be re-enabled in a future update.
 
 import { Recipe, UserStats, City, CraftingCost } from '../types';
-import { CITY_TO_LOCATION, MarketDepth, getMarketDepth, getStats } from '../db/db';
+// DISABLED: Order book functions removed from db.ts
+// import { CITY_TO_LOCATION, MarketDepth, getMarketDepth, getStats } from '../db/db';
+import { CITY_TO_LOCATION } from '../db/db';
+
+// Placeholder type for disabled MarketDepth
+interface MarketDepth {
+  bestSellPrice: number | null;
+  bestBuyPrice: number | null;
+  totalSellAmount: number;
+  totalBuyAmount: number;
+}
+
+// DISABLED: Stub functions since order book is removed
+function getMarketDepth(_itemId: string, _locationId: number, _quality?: number): MarketDepth {
+  return { bestSellPrice: null, bestBuyPrice: null, totalSellAmount: 0, totalBuyAmount: 0 };
+}
+
+function getStats(): { totalOrders: number; uniqueItems: number } {
+  return { totalOrders: 0, uniqueItems: 0 };
+}
 
 // ============================================================================
 // TYPES

@@ -1,5 +1,10 @@
 #!/usr/bin/env node
 // CLI Application for Albion Craft Profitability Analysis
+//
+// NOTE: Some features in this file are temporarily disabled.
+// The order book and hourly price history functionality has been removed
+// in favor of daily price averages only. These features will be re-enabled
+// when NATS real-time data is integrated.
 
 import * as readline from 'readline';
 import * as fs from 'fs';
@@ -11,11 +16,31 @@ import { CraftingRecommender, MaterialInventory } from './services/crafting-reco
 import { trackMaterialPrices } from './services/material-buy-opportunities';
 import { scanCityArbitrage } from './services/city-arbitrage-scanner';
 import { getRealtimeCalculator, CraftFromMarketResult, CraftFromInventoryResult, MaterialInventory as RealtimeMaterialInventory, MaterialPriceComparison } from './services/realtime-profitability-calculator';
-import { CITY_TO_LOCATION, getRawDb, getStats, getPriceHistoryCount, get30DayAverage, getBestBuyPrices } from './db/db';
+// DISABLED: Order book functions removed from db.ts
+// import { CITY_TO_LOCATION, getRawDb, getStats, getPriceHistoryCount, get30DayAverage, getBestBuyPrices } from './db/db';
+import { CITY_TO_LOCATION, getRawDb, getDailyPriceCount, get30DayAverage } from './db/db';
 import { checkHistoryStatus } from './services/history-fetcher';
-import { checkHourlyHistoryStatus } from './services/hourly-fetcher';
+// DISABLED: Hourly fetcher has been deleted
+// import { checkHourlyHistoryStatus } from './services/hourly-fetcher';
 import { scanHourlyArbitrage } from './services/hourly-arbitrage-scanner';
 import { UserStats, City, RefiningCategory, CraftingCategory, CraftingBonusEntry } from './types';
+
+// DISABLED: Stub functions for removed functionality
+function getStats(): { totalOrders: number; uniqueItems: number } {
+  return { totalOrders: 0, uniqueItems: 0 };
+}
+function getPriceHistoryCount(): number {
+  return getDailyPriceCount();
+}
+function getBestBuyPrices(_itemId: string): Record<City, number | null> {
+  return {
+    'Caerleon': null, 'Bridgewatch': null, 'Fort Sterling': null,
+    'Lymhurst': null, 'Martlock': null, 'Thetford': null, 'Brecilien': null
+  };
+}
+function checkHourlyHistoryStatus(): { totalRecords: number; uniqueItems: number; hoursOld: number | null } {
+  return { totalRecords: 0, uniqueItems: 0, hoursOld: null };
+}
 
 // Material info for display
 interface MaterialInfo {
