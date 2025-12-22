@@ -143,7 +143,7 @@ interface MarketStatResponsev2 {
 
 **GET** `/api/v2/stats/Prices/{itemList}.{format}`
 
-Retrieves market sell and buy prices for items, and the last time we saw them.
+Retrieves market's latest sell and buy prices for items, and the last time we saw them.
 This is useful to check for items being sold at below market value and bought
 above market value for arbitrage opportunities.
 

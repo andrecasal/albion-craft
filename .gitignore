@@ -2,7 +2,9 @@
 node_modules/
 
 # Generated data files (fetch locally)
-src/db/
+src/data/*.sqlite
+src/data/*.sqlite-shm
+src/data/*.sqlite-wal
 
 # Error logs
 material-prices-errors.json
