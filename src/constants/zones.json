@@ -505,7 +505,8 @@
 	},
 	{
 		"id": "3005",
-		"name": "Caerleon Market"
+		"name": "Caerleon Market",
+		"market": "Caerleon"
 	},
 	{
 		"id": "3006",
@@ -541,7 +542,8 @@
 	},
 	{
 		"id": "0007",
-		"name": "Thetford Market"
+		"name": "Thetford Market",
+		"market": "Thetford"
 	},
 	{
 		"id": "1001",
@@ -549,7 +551,8 @@
 	},
 	{
 		"id": "1002",
-		"name": "Lymhurst Market"
+		"name": "Lymhurst Market",
+		"market": "Lymhurst"
 	},
 	{
 		"id": "2003",
@@ -557,7 +560,8 @@
 	},
 	{
 		"id": "2004",
-		"name": "Bridgewatch Market"
+		"name": "Bridgewatch Market",
+		"market": "Bridgewatch"
 	},
 	{
 		"id": "3007",
@@ -565,7 +569,8 @@
 	},
 	{
 		"id": "3008",
-		"name": "Martlock Market"
+		"name": "Martlock Market",
+		"market": "Martlock"
 	},
 	{
 		"id": "4001",
@@ -573,7 +578,8 @@
 	},
 	{
 		"id": "4002",
-		"name": "Fort Sterling Market"
+		"name": "Fort Sterling Market",
+		"market": "Fort Sterling"
 	},
 	{
 		"id": "EternalBattle-HRD",
@@ -713,7 +719,8 @@
 	},
 	{
 		"id": "0307",
-		"name": "Meltwater Bog"
+		"name": "Meltwater Bog",
+		"market": "Smuggler's Den"
 	},
 	{
 		"id": "4305",
@@ -777,7 +784,8 @@
 	},
 	{
 		"id": "0353",
-		"name": "Scuttlesink Marsh"
+		"name": "Scuttlesink Marsh",
+		"market": "Smuggler's Den"
 	},
 	{
 		"id": "1305",
@@ -793,7 +801,8 @@
 	},
 	{
 		"id": "4322",
-		"name": "Everwinter Peak"
+		"name": "Everwinter Peak",
+		"market": "Smuggler's Den"
 	},
 	{
 		"id": "4337",
@@ -853,7 +862,8 @@
 	},
 	{
 		"id": "1339",
-		"name": "Timberslope Grove"
+		"name": "Timberslope Grove",
+		"market": "Smuggler's Den"
 	},
 	{
 		"id": "1354",
@@ -865,7 +875,8 @@
 	},
 	{
 		"id": "2308",
-		"name": "Drybasin Riverbed"
+		"name": "Drybasin Riverbed",
+		"market": "Smuggler's Den"
 	},
 	{
 		"id": "2339",
@@ -937,7 +948,8 @@
 	},
 	{
 		"id": "2342",
-		"name": "Slakesands Mesa"
+		"name": "Slakesands Mesa",
+		"market": "Smuggler's Den"
 	},
 	{
 		"id": "3328",
@@ -953,7 +965,8 @@
 	},
 	{
 		"id": "4345",
-		"name": "Munten Fell"
+		"name": "Munten Fell",
+		"market": "Smuggler's Den"
 	},
 	{
 		"id": "1313",
@@ -1045,7 +1058,8 @@
 	},
 	{
 		"id": "0344",
-		"name": "Willowshade Hills"
+		"name": "Willowshade Hills",
+		"market": "Smuggler's Den"
 	},
 	{
 		"id": "1309",
@@ -1053,7 +1067,8 @@
 	},
 	{
 		"id": "1342",
-		"name": "Timberscar Copse"
+		"name": "Timberscar Copse",
+		"market": "Smuggler's Den"
 	},
 	{
 		"id": "2327",
@@ -1097,7 +1112,8 @@
 	},
 	{
 		"id": "1312",
-		"name": "Deadpine Forest"
+		"name": "Deadpine Forest",
+		"market": "Smuggler's Den"
 	},
 	{
 		"id": "2340",
@@ -1141,11 +1157,13 @@
 	},
 	{
 		"id": "4357",
-		"name": "Whitepeak Tundra"
+		"name": "Whitepeak Tundra",
+		"market": "Smuggler's Den"
 	},
 	{
 		"id": "0321",
-		"name": "Springsump Basin"
+		"name": "Springsump Basin",
+		"market": "Smuggler's Den"
 	},
 	{
 		"id": "0335",
@@ -1197,11 +1215,13 @@
 	},
 	{
 		"id": "2336",
-		"name": "Farshore Heath"
+		"name": "Farshore Heath",
+		"market": "Smuggler's Den"
 	},
 	{
 		"id": "2348",
-		"name": "Sunstrand Quicksands"
+		"name": "Sunstrand Quicksands",
+		"market": "Smuggler's Den"
 	},
 	{
 		"id": "3317",
@@ -1225,7 +1245,8 @@
 	},
 	{
 		"id": "4351",
-		"name": "Frostspring Volcano"
+		"name": "Frostspring Volcano",
+		"market": "Smuggler's Den"
 	},
 	{
 		"id": "4352",
@@ -1245,7 +1266,8 @@
 	},
 	{
 		"id": "0341",
-		"name": "Runnelvein Sink"
+		"name": "Runnelvein Sink",
+		"market": "Smuggler's Den"
 	},
 	{
 		"id": "1310",
@@ -1261,7 +1283,8 @@
 	},
 	{
 		"id": "1343",
-		"name": "Deepwood Copse"
+		"name": "Deepwood Copse",
+		"market": "Smuggler's Den"
 	},
 	{
 		"id": "1344",
@@ -1285,11 +1308,13 @@
 	},
 	{
 		"id": "4313",
-		"name": "Floatshoal Floe"
+		"name": "Floatshoal Floe",
+		"market": "Smuggler's Den"
 	},
 	{
 		"id": "4318",
-		"name": "Iceburn Firth"
+		"name": "Iceburn Firth",
+		"market": "Smuggler's Den"
 	},
 	{
 		"id": "4319",
@@ -1349,7 +1374,8 @@
 	},
 	{
 		"id": "0320",
-		"name": "Willowshade Icemarsh"
+		"name": "Willowshade Icemarsh",
+		"market": "Smuggler's Den"
 	},
 	{
 		"id": "0334",
@@ -1373,7 +1399,8 @@
 	},
 	{
 		"id": "1323",
-		"name": "Westweald Thicket"
+		"name": "Westweald Thicket",
+		"market": "Smuggler's Den"
 	},
 	{
 		"id": "1334",
@@ -1417,7 +1444,8 @@
 	},
 	{
 		"id": "2333",
-		"name": "Bleachskull Desert"
+		"name": "Bleachskull Desert",
+		"market": "Smuggler's Den"
 	},
 	{
 		"id": "2337",
@@ -1569,7 +1597,8 @@
 	},
 	{
 		"id": "3351",
-		"name": "Gravemound Knoll"
+		"name": "Gravemound Knoll",
+		"market": "Smuggler's Den"
 	},
 	{
 		"id": "3352",
@@ -1577,7 +1606,8 @@
 	},
 	{
 		"id": "3357",
-		"name": "Highstone Loch"
+		"name": "Highstone Loch",
+		"market": "Smuggler's Den"
 	},
 	{
 		"id": "3359",
@@ -1613,7 +1643,8 @@
 	},
 	{
 		"id": "0349",
-		"name": "Sunkenbough Woods"
+		"name": "Sunkenbough Woods",
+		"market": "Smuggler's Den"
 	},
 	{
 		"id": "0356",
@@ -1641,7 +1672,8 @@
 	},
 	{
 		"id": "1348",
-		"name": "Driftwood Hollow"
+		"name": "Driftwood Hollow",
+		"market": "Smuggler's Den"
 	},
 	{
 		"id": "1349",
@@ -1653,11 +1685,13 @@
 	},
 	{
 		"id": "1359",
-		"name": "Rivercopse Fount"
+		"name": "Rivercopse Fount",
+		"market": "Smuggler's Den"
 	},
 	{
 		"id": "2310",
-		"name": "Sunfang Ravine"
+		"name": "Sunfang Ravine",
+		"market": "Smuggler's Den"
 	},
 	{
 		"id": "2330",
@@ -1673,7 +1707,8 @@
 	},
 	{
 		"id": "2344",
-		"name": "Sunfang Wasteland"
+		"name": "Sunfang Wasteland",
+		"market": "Smuggler's Den"
 	},
 	{
 		"id": "2356",
@@ -1689,7 +1724,8 @@
 	},
 	{
 		"id": "3306",
-		"name": "Murdergulch Cross"
+		"name": "Murdergulch Cross",
+		"market": "Smuggler's Den"
 	},
 	{
 		"id": "3307",
@@ -1753,11 +1789,13 @@
 	},
 	{
 		"id": "3344",
-		"name": "Razorrock Verge"
+		"name": "Razorrock Verge",
+		"market": "Smuggler's Den"
 	},
 	{
 		"id": "3345",
-		"name": "Razorrock Bank"
+		"name": "Razorrock Bank",
+		"market": "Smuggler's Den"
 	},
 	{
 		"id": "3347",
@@ -1773,7 +1811,8 @@
 	},
 	{
 		"id": "3355",
-		"name": "Murdergulch Ravine"
+		"name": "Murdergulch Ravine",
+		"market": "Smuggler's Den"
 	},
 	{
 		"id": "3356",
@@ -1813,7 +1852,8 @@
 	},
 	{
 		"id": "2311",
-		"name": "Thirstwater Steppe"
+		"name": "Thirstwater Steppe",
+		"market": "Smuggler's Den"
 	},
 	{
 		"id": "2313",
@@ -1837,7 +1877,8 @@
 	},
 	{
 		"id": "2347",
-		"name": "Dryvein Confluence"
+		"name": "Dryvein Confluence",
+		"market": "Smuggler's Den"
 	},
 	{
 		"id": "2360",
@@ -1857,11 +1898,13 @@
 	},
 	{
 		"id": "4300",
-		"name": "Arthur's Rest"
+		"name": "Arthur's Rest",
+		"market": "Smuggler's Den"
 	},
 	{
 		"id": "1012",
-		"name": "Merlyn's Rest"
+		"name": "Merlyn's Rest",
+		"market": "Smuggler's Den"
 	},
 	{
 		"id": "0360-HALL-01",
@@ -1905,7 +1948,8 @@
 	},
 	{
 		"id": "0008",
-		"name": "Morgana's Rest"
+		"name": "Morgana's Rest",
+		"market": "Smuggler's Den"
 	},
 	{
 		"id": "TNL-001",
@@ -4957,7 +5001,8 @@
 	},
 	{
 		"id": "5003",
-		"name": "Brecilien Market"
+		"name": "Brecilien Market",
+		"market": "Brecilien"
 	},
 	{
 		"id": "ISLAND-PLAYER-MISTS-0001f",

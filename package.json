@@ -1,6 +1,7 @@
 {
 	"name": "albion-craft",
 	"version": "1.0.0",
+	"type": "module",
 	"description": "Albion Online crafting profitability analyzer",
 	"main": "dist/index.js",
 	"scripts": {

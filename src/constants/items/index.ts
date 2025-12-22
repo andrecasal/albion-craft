@@ -3,62 +3,87 @@
  * Re-run scripts/extract-items.js to update these files from ao-bin-dumps
  */
 
-export type ItemEntry = { id: string; name: string }
-
 // Equipment
-export const weapons = require('./equipment/weapons.json') as ItemEntry[]
-export const armor = require('./equipment/armor.json') as ItemEntry[]
-export const offhands = require('./equipment/offhands.json') as ItemEntry[]
-export const tools = require('./equipment/tools.json') as ItemEntry[]
+import weapons from './equipment/weapons.json' with { type: 'json' }
+import armor from './equipment/armor.json' with { type: 'json' }
+import offhands from './equipment/offhands.json' with { type: 'json' }
+import tools from './equipment/tools.json' with { type: 'json' }
 
 // Consumables
-export const potions = require('./consumables/potions.json') as ItemEntry[]
-export const food = require('./consumables/food.json') as ItemEntry[]
+import potions from './consumables/potions.json' with { type: 'json' }
+import food from './consumables/food.json' with { type: 'json' }
 
 // Accessories
-export const capes = require('./accessories/capes.json') as ItemEntry[]
-export const bags = require('./accessories/bags.json') as ItemEntry[]
+import capes from './accessories/capes.json' with { type: 'json' }
+import bags from './accessories/bags.json' with { type: 'json' }
 
 // Materials
-export const rawMaterials = require('./materials/raw.json') as ItemEntry[]
-export const refinedMaterials = require('./materials/refined.json') as ItemEntry[]
-export const artifacts = require('./materials/artifacts.json') as ItemEntry[]
-export const runesSoulsRelics = require('./materials/runes-souls-relics.json') as ItemEntry[]
+import rawMaterials from './materials/raw.json' with { type: 'json' }
+import refinedMaterials from './materials/refined.json' with { type: 'json' }
+import artifacts from './materials/artifacts.json' with { type: 'json' }
+import runesSoulsRelics from './materials/runes-souls-relics.json' with { type: 'json' }
 
 // Farming
-export const seeds = require('./farming/seeds.json') as ItemEntry[]
-export const animals = require('./farming/animals.json') as ItemEntry[]
+import seeds from './farming/seeds.json' with { type: 'json' }
+import animals from './farming/animals.json' with { type: 'json' }
 
 // Misc
-export const tomes = require('./misc/tomes.json') as ItemEntry[]
-export const furniture = require('./misc/furniture.json') as ItemEntry[]
-export const treasure = require('./misc/treasure.json') as ItemEntry[]
-export const alchemyDrops = require('./misc/alchemy-drops.json') as ItemEntry[]
+import tomes from './misc/tomes.json' with { type: 'json' }
+import furniture from './misc/furniture.json' with { type: 'json' }
+import treasure from './misc/treasure.json' with { type: 'json' }
+import alchemyDrops from './misc/alchemy-drops.json' with { type: 'json' }
 
 // Top-level categories
-export const mounts = require('./mounts.json') as ItemEntry[]
-export const journals = require('./journals.json') as ItemEntry[]
-export const fish = require('./fish.json') as ItemEntry[]
+import mounts from './mounts.json' with { type: 'json' }
+import journals from './journals.json' with { type: 'json' }
+import fish from './fish.json' with { type: 'json' }
+
+export type ItemEntry = { id: string; name: string }
+
+// Re-export individual arrays
+export {
+	weapons,
+	armor,
+	offhands,
+	tools,
+	potions,
+	food,
+	capes,
+	bags,
+	rawMaterials,
+	refinedMaterials,
+	artifacts,
+	runesSoulsRelics,
+	seeds,
+	animals,
+	tomes,
+	furniture,
+	treasure,
+	alchemyDrops,
+	mounts,
+	journals,
+	fish,
+}
 
 // Grouped by category type
-export const equipment = [...weapons, ...armor, ...offhands, ...tools]
-export const consumables = [...potions, ...food]
-export const accessories = [...capes, ...bags]
-export const materials = [...rawMaterials, ...refinedMaterials, ...artifacts, ...runesSoulsRelics]
-export const farming = [...seeds, ...animals]
-export const misc = [...tomes, ...furniture, ...treasure, ...alchemyDrops]
+export const equipment = [...weapons, ...armor, ...offhands, ...tools] as ItemEntry[]
+export const consumables = [...potions, ...food] as ItemEntry[]
+export const accessories = [...capes, ...bags] as ItemEntry[]
+export const materials = [...rawMaterials, ...refinedMaterials, ...artifacts, ...runesSoulsRelics] as ItemEntry[]
+export const farming = [...seeds, ...animals] as ItemEntry[]
+export const misc = [...tomes, ...furniture, ...treasure, ...alchemyDrops] as ItemEntry[]
 
 // All items combined
-export const ALL_ITEMS = [
+export const ALL_ITEMS: ItemEntry[] = [
 	...equipment,
 	...consumables,
 	...accessories,
 	...materials,
 	...farming,
 	...misc,
-	...mounts,
-	...journals,
-	...fish,
+	...(mounts as ItemEntry[]),
+	...(journals as ItemEntry[]),
+	...(fish as ItemEntry[]),
 ]
 
 // Array of all item IDs
