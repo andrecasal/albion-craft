@@ -1,6 +1,5 @@
 import 'dotenv/config'
 import { closeDb, db } from './db'
-import { CITIES } from './types'
 import { ALL_ITEM_IDS } from './constants/items'
 
 const MAX_URL_LENGTH = 4096
@@ -60,7 +59,7 @@ interface MarketHistoriesResponse {
 async function fetchDailyAveragePrices(): Promise<void> {
 	db.prepare('DELETE FROM daily_average_prices').run()
 
-	const queryParams = `time-scale=24&locations=${CITIES.join(',')}`
+	const queryParams = `time-scale=24`
 	const baseUrl = `https://europe.albion-online-data.com/api/v2/stats/history/`
 
 	// Build batched URLs, maximizing item IDs per URL while staying under MAX_URL_LENGTH

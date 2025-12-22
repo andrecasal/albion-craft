@@ -5,7 +5,7 @@ const itemId = 'T4_BAG'
 const locations = 'Caerleon,Bridgewatch'
 
 // Test the prices endpoint
-const url = `https://europe.albion-online-data.com/api/v2/stats/prices/${itemId}?locations=${locations}`
+const url = `https://europe.albion-online-data.com/api/v2/stats/prices/${itemId}`
 
 console.log('Fetching:', url)
 console.log()
