@@ -24,13 +24,22 @@ interface CollectorState {
 	startTime: number
 	lastHistorySync: Date | null
 	historySyncInProgress: boolean
+	lastLatestSync: Date | null
+	latestSyncInProgress: boolean
 	statsTimer: NodeJS.Timeout | null
 	historyTimer: NodeJS.Timeout | null
+	latestTimer: NodeJS.Timeout | null
 	statusMessage: string | null
 	statusMessageExpiry: number | null
 }
 
 interface DailyPriceSyncProgress {
+	currentBatch: number
+	totalBatches: number
+	rateLimitWait: number // seconds remaining, 0 if not rate limited
+}
+
+interface LatestPriceSyncProgress {
 	currentBatch: number
 	totalBatches: number
 	rateLimitWait: number // seconds remaining, 0 if not rate limited
@@ -132,6 +141,9 @@ const STATS_INTERVAL = 1000 // 1 second
 // How often to sync daily price averages (in ms)
 const DAILY_PRICE_SYNC_INTERVAL = 5 * 60 * 1000 // 5 minutes
 
+// How often to sync latest prices (in ms)
+const LATEST_PRICE_SYNC_INTERVAL = 5 * 60 * 1000 // 5 minutes
+
 // Default fallback wait time when headers are missing (in seconds)
 const DEFAULT_RATE_LIMIT_WAIT = 10
 
@@ -180,6 +192,12 @@ let dailyPriceSyncProgress: DailyPriceSyncProgress = {
 	rateLimitWait: 0,
 }
 
+let latestPriceSyncProgress: LatestPriceSyncProgress = {
+	currentBatch: 0,
+	totalBatches: 0,
+	rateLimitWait: 0,
+}
+
 // ============================================================================
 // ENTRY POINT
 // ============================================================================
@@ -200,8 +218,11 @@ async function main(): Promise<void> {
 		startTime: Date.now(),
 		lastHistorySync: null,
 		historySyncInProgress: false,
+		lastLatestSync: null,
+		latestSyncInProgress: false,
 		statsTimer: null,
 		historyTimer: null,
+		latestTimer: null,
 		statusMessage: null,
 		statusMessageExpiry: null,
 	}
@@ -288,6 +309,7 @@ async function startCollector(state: CollectorState): Promise<void> {
 
 	mockNatsConnection(state)
 	startDailyPriceSyncTimer(state)
+	startLatestPriceSyncTimer(state)
 	startDashboardTimer(state)
 }
 
@@ -320,15 +342,27 @@ function mockNatsConnection(state: CollectorState): void {
 // ============================================================================
 
 function startDailyPriceSyncTimer(state: CollectorState): void {
-	// Initial sync after a short delay
+	// Initial sync after latest has a chance to start first
 	setTimeout(() => {
 		syncDailyPrices(state)
-	}, 1000)
+	}, 2000)
 
 	// Then sync periodically
 	state.historyTimer = setInterval(() => {
 		syncDailyPrices(state)
 	}, DAILY_PRICE_SYNC_INTERVAL)
+}
+
+function startLatestPriceSyncTimer(state: CollectorState): void {
+	// Initial sync first - latest data has priority for fresh prices
+	setTimeout(() => {
+		syncLatestPrices(state)
+	}, 1000)
+
+	// Then sync periodically
+	state.latestTimer = setInterval(() => {
+		syncLatestPrices(state)
+	}, LATEST_PRICE_SYNC_INTERVAL)
 }
 
 function startDashboardTimer(state: CollectorState): void {
@@ -346,6 +380,10 @@ function stopTimers(state: CollectorState): void {
 		clearInterval(state.historyTimer)
 		state.historyTimer = null
 	}
+	if (state.latestTimer) {
+		clearInterval(state.latestTimer)
+		state.latestTimer = null
+	}
 }
 
 // ============================================================================
@@ -356,7 +394,8 @@ async function syncDailyPrices(
 	state: CollectorState,
 	force: boolean = false,
 ): Promise<void> {
-	if (state.historySyncInProgress) return
+	// Don't run if already syncing or if latest sync is in progress
+	if (state.historySyncInProgress || state.latestSyncInProgress) return
 
 	const historyStatus = getDailyPriceStatus()
 
@@ -374,6 +413,357 @@ async function syncDailyPrices(
 	} finally {
 		state.historySyncInProgress = false
 	}
+}
+
+// ============================================================================
+// LATEST PRICE SYNC (called by timer)
+// ============================================================================
+
+async function syncLatestPrices(state: CollectorState): Promise<void> {
+	// Don't run if already syncing or if daily sync is in progress
+	if (state.latestSyncInProgress || state.historySyncInProgress) return
+
+	const latestStatus = getLatestPriceStatus()
+
+	// Always sync latest - we want fresh data
+	if (!latestStatus.needsFetch) return
+
+	state.latestSyncInProgress = true
+
+	try {
+		const result = await fetchLatestPrices()
+		if (!result.skipped && result.recordsAdded > 0) {
+			state.lastLatestSync = new Date()
+		}
+	} catch {
+		// Error handled silently - dashboard shows sync status
+	} finally {
+		state.latestSyncInProgress = false
+	}
+}
+
+// ============================================================================
+// LATEST PRICE STATUS (called by syncLatestPrices and showDashboard)
+// ============================================================================
+
+/**
+ * Check if we need to fetch latest price data
+ * We need to fetch if data is older than 1 hour
+ */
+function getLatestPriceStatus(): {
+	totalRecords: number
+	latestTimestamp: string | null
+	needsFetch: boolean
+} {
+	const totalRecords = getLatestPriceCount()
+	const latestTimestamp = getLatestPriceTimestamp()
+
+	// Need to fetch if no data or data is older than 1 hour
+	let needsFetch = true
+	if (latestTimestamp) {
+		const latestDate = new Date(latestTimestamp)
+		const now = new Date()
+		const hourAgo = new Date(now.getTime() - 60 * 60 * 1000)
+		needsFetch = latestDate < hourAgo
+	}
+
+	return {
+		totalRecords,
+		latestTimestamp,
+		needsFetch,
+	}
+}
+
+// ============================================================================
+// FETCH LATEST PRICES (called by syncLatestPrices)
+// ============================================================================
+
+interface LatestPriceRecord {
+	itemId: string
+	locationId: number
+	timestamp: string
+	avgPrice: number
+	itemCount: number
+}
+
+/**
+ * Fetch and store latest price data (most recent data point only)
+ */
+async function fetchLatestPrices(): Promise<{
+	recordsAdded: number
+	skipped: boolean
+}> {
+	// Check for interrupted sync to resume
+	const savedState = getLatestSyncState()
+
+	// Create item batches (ordered list - same order every time)
+	const locationsParam = CITIES.join(',')
+	const latestBaseUrl =
+		'https://europe.albion-online-data.com/api/v2/stats/charts/'
+	const latestQueryParams = `?time-scale=1&locations=${locationsParam}`
+	const itemBatches = createBatchesByUrlLength(
+		ITEMS,
+		latestBaseUrl,
+		latestQueryParams,
+	)
+
+	const totalBatches = itemBatches.length
+
+	// Resume from saved batch or start from 0
+	const startBatch = savedState?.currentBatch ?? 0
+
+	// Get the date range for the last hour
+	const now = new Date()
+	const oneHourAgo = new Date(now.getTime() - 60 * 60 * 1000)
+	const dateFrom = oneHourAgo.toISOString().split('T')[0]
+	const dateTo = now.toISOString().split('T')[0]
+
+	let totalRecordsAdded = 0
+
+	for (let i = startBatch; i < totalBatches; i++) {
+		updateLatestPriceSyncProgress(i + 1, totalBatches)
+
+		// Save state before fetching so we can resume from this batch
+		saveLatestSyncState({
+			currentBatch: i,
+			totalBatches,
+			startedAt: Date.now(),
+		})
+
+		const batch = itemBatches[i]
+		const itemsParam = batch.join(',')
+		const url = `https://europe.albion-online-data.com/api/v2/stats/charts/${itemsParam}?time-scale=1&locations=${locationsParam}&date=${dateFrom}&end_date=${dateTo}`
+
+		const result =
+			await fetchLatestPriceWithRetry<AODPChartRawResponse[]>(url)
+
+		if (result.success && result.data) {
+			const records = transformLatestPriceResponse(result.data)
+			if (records.length > 0) {
+				insertLatestPrices(records)
+				totalRecordsAdded += records.length
+			}
+		}
+	}
+
+	// Reset progress and clear state on successful completion
+	updateLatestPriceSyncProgress(0, 0)
+	clearLatestSyncState()
+
+	return {
+		recordsAdded: totalRecordsAdded,
+		skipped: false,
+	}
+}
+
+/**
+ * Transform raw API response to latest price records
+ * Only keeps the most recent data point for each item/location
+ */
+function transformLatestPriceResponse(
+	rawData: AODPChartRawResponse[],
+): LatestPriceRecord[] {
+	const records: LatestPriceRecord[] = []
+
+	for (const response of rawData) {
+		const { item_id, location, quality, data } = response
+
+		// Only process Normal quality (1)
+		if (quality !== 1) continue
+
+		if (!data || !data.timestamps || data.timestamps.length === 0) {
+			continue
+		}
+
+		// Find the location ID for this city name
+		const locationId = CITY_TO_PRIMARY_LOCATION[location as City]
+		if (!locationId) continue
+
+		// Get the most recent data point (last in the array)
+		const lastIndex = data.timestamps.length - 1
+		const timestamp = data.timestamps[lastIndex]
+		const avgPrice = Math.round(data.prices_avg[lastIndex] || 0)
+		const itemCount = data.item_count[lastIndex] || 0
+
+		if (avgPrice > 0) {
+			records.push({
+				itemId: item_id,
+				locationId,
+				timestamp,
+				avgPrice,
+				itemCount,
+			})
+		}
+	}
+
+	return records
+}
+
+// ============================================================================
+// LATEST PRICE DATABASE OPERATIONS
+// ============================================================================
+
+function getLatestPriceCount(): number {
+	const row = db
+		.prepare('SELECT COUNT(*) as count FROM latest_prices')
+		.get() as { count: number }
+	return row.count
+}
+
+function getLatestPriceTimestamp(): string | null {
+	const row = db
+		.prepare('SELECT MAX(timestamp) as latest FROM latest_prices')
+		.get() as { latest: string | null } | undefined
+	return row?.latest ?? null
+}
+
+function insertLatestPrices(records: LatestPriceRecord[]): void {
+	const insertStmt = db.prepare(`
+		INSERT OR REPLACE INTO latest_prices
+		(item_id, location_id, timestamp, avg_price, item_count, fetched_at)
+		VALUES (?, ?, ?, ?, ?, ?)
+	`)
+
+	const now = Date.now()
+	const transaction = db.transaction((records: LatestPriceRecord[]) => {
+		for (const record of records) {
+			insertStmt.run(
+				record.itemId,
+				record.locationId,
+				record.timestamp,
+				record.avgPrice,
+				record.itemCount,
+				now,
+			)
+		}
+	})
+
+	transaction(records)
+}
+
+function getLatestPriceItemCount(): number {
+	const row = db
+		.prepare(
+			'SELECT COUNT(DISTINCT item_id) as count FROM latest_prices',
+		)
+		.get() as { count: number }
+	return row.count
+}
+
+function getLatestPriceLocationCount(): number {
+	const row = db
+		.prepare(
+			'SELECT COUNT(DISTINCT location_id) as count FROM latest_prices',
+		)
+		.get() as { count: number }
+	return row.count
+}
+
+// ============================================================================
+// LATEST SYNC PROGRESS STATE
+// ============================================================================
+
+interface LatestSyncState {
+	currentBatch: number
+	totalBatches: number
+	startedAt: number
+}
+
+function saveLatestSyncState(state: LatestSyncState): void {
+	db.prepare(
+		`
+		INSERT OR REPLACE INTO latest_prices_sync_progress (id, current_batch, total_batches, started_at)
+		VALUES (1, ?, ?, ?)
+	`,
+	).run(state.currentBatch, state.totalBatches, state.startedAt)
+}
+
+function getLatestSyncState(): LatestSyncState | null {
+	const row = db
+		.prepare(
+			'SELECT current_batch, total_batches, started_at FROM latest_prices_sync_progress WHERE id = 1',
+		)
+		.get() as
+		| { current_batch: number; total_batches: number; started_at: number }
+		| undefined
+
+	if (!row) return null
+
+	return {
+		currentBatch: row.current_batch,
+		totalBatches: row.total_batches,
+		startedAt: row.started_at,
+	}
+}
+
+function clearLatestSyncState(): void {
+	db.prepare('DELETE FROM latest_prices_sync_progress WHERE id = 1').run()
+}
+
+function getLatestPriceSyncProgress(): LatestPriceSyncProgress {
+	return { ...latestPriceSyncProgress }
+}
+
+function updateLatestPriceSyncProgress(batch: number, total: number): void {
+	latestPriceSyncProgress.currentBatch = batch
+	latestPriceSyncProgress.totalBatches = total
+}
+
+function setLatestPriceRateLimitWait(seconds: number): void {
+	latestPriceSyncProgress.rateLimitWait = seconds
+}
+
+// ============================================================================
+// FETCH LATEST WITH RETRY
+// ============================================================================
+
+async function fetchLatestPriceWithRetry<T = any>(
+	url: string,
+	attempt: number = 1,
+): Promise<DailyPriceFetchResult<T>> {
+	const result = await makeDailyPriceRequest<T>(url)
+
+	if (result.success) {
+		return result
+	}
+
+	const isRateLimited = result.statusCode === 429
+
+	if (
+		!result.retryable ||
+		(!isRateLimited && attempt >= DAILY_PRICE_CONFIG.maxRetries)
+	) {
+		return result
+	}
+
+	if (isRateLimited) {
+		const waitSeconds = result.rateLimitInfo
+			? calculateWaitTime(result.rateLimitInfo)
+			: DEFAULT_RATE_LIMIT_WAIT
+
+		await waitWithCountdownLatest(waitSeconds)
+	} else {
+		const baseDelay =
+			DAILY_PRICE_CONFIG.initialRetryDelay *
+			Math.pow(DAILY_PRICE_CONFIG.backoffMultiplier, attempt - 1)
+		const delayWithJitter = addJitter(
+			Math.min(baseDelay, DAILY_PRICE_CONFIG.maxRetryDelay),
+		)
+		const waitSeconds = Math.round(delayWithJitter / 1000)
+
+		await waitWithCountdownLatest(waitSeconds)
+	}
+
+	const nextAttempt = isRateLimited ? attempt : attempt + 1
+	return fetchLatestPriceWithRetry<T>(url, nextAttempt)
+}
+
+async function waitWithCountdownLatest(seconds: number): Promise<void> {
+	for (let remaining = seconds; remaining > 0; remaining--) {
+		setLatestPriceRateLimitWait(remaining)
+		await new Promise((resolve) => setTimeout(resolve, 1000))
+	}
+	setLatestPriceRateLimitWait(0)
 }
 
 // ============================================================================
@@ -731,7 +1121,7 @@ interface SyncState {
 function saveSyncState(state: SyncState): void {
 	db.prepare(
 		`
-		INSERT OR REPLACE INTO sync_progress (id, current_batch, total_batches, started_at)
+		INSERT OR REPLACE INTO daily_prices_averages_sync_progress (id, current_batch, total_batches, started_at)
 		VALUES (1, ?, ?, ?)
 	`,
 	).run(state.currentBatch, state.totalBatches, state.startedAt)
@@ -740,7 +1130,7 @@ function saveSyncState(state: SyncState): void {
 function getSyncState(): SyncState | null {
 	const row = db
 		.prepare(
-			'SELECT current_batch, total_batches, started_at FROM sync_progress WHERE id = 1',
+			'SELECT current_batch, total_batches, started_at FROM daily_prices_averages_sync_progress WHERE id = 1',
 		)
 		.get() as
 		| { current_batch: number; total_batches: number; started_at: number }
@@ -756,7 +1146,7 @@ function getSyncState(): SyncState | null {
 }
 
 function clearSyncState(): void {
-	db.prepare('DELETE FROM sync_progress WHERE id = 1').run()
+	db.prepare('DELETE FROM daily_prices_averages_sync_progress WHERE id = 1').run()
 }
 
 function updateDailyPriceSyncProgress(batch: number, total: number): void {
@@ -871,9 +1261,49 @@ function showDashboard(state: CollectorState): void {
 	lines.push(`│${padding}${records}${latest}${sync}${padding}│`)
 	lines.push(`├${W}┤`)
 
-	// Section 2: Hourly Price Averages (1h) - placeholder
-	lines.push(`│  ${'⏰ HOURLY AVERAGES (1h scale)'.padEnd(68)}│`)
-	lines.push(`│     ${'Not implemented yet'.padEnd(64)}│`)
+	// Section 2: Latest Prices
+	const latestStatus = getLatestPriceStatus()
+	const latestUniqueItems = getLatestPriceItemCount()
+	const latestUniqueLocations = getLatestPriceLocationCount()
+	lines.push(`│${padding}${`💰 Latest Prices`.padEnd(tableWidth)}${padding}│`)
+	const latestItemsPercent =
+		ITEMS.length > 0
+			? ((latestUniqueItems / ITEMS.length) * 100).toFixed(1)
+			: '0.0'
+	const latestItems =
+		`Items: ${formatNumber(latestUniqueItems)}/${formatNumber(ITEMS.length)} (${latestItemsPercent}%)`.padEnd(
+			tableWidth / 3,
+		)
+	const latestCities = `Cities: ${latestUniqueLocations}`.padEnd(tableWidth / 3)
+	const latestLabel = ``.padEnd(tableWidth / 3 + 1)
+	lines.push(`│${padding}${latestItems}${latestCities}${latestLabel}${padding}│`)
+	const latestExpectedRecords = ITEMS.length * CITIES.length
+	const latestRecordsPercent =
+		latestExpectedRecords > 0
+			? ((latestStatus.totalRecords / latestExpectedRecords) * 100).toFixed(1)
+			: '0.0'
+	const latestRecords =
+		`Records: ${formatNumber(latestStatus.totalRecords, true)}/${formatNumber(latestExpectedRecords, true)} (${latestRecordsPercent}%)`.padEnd(
+			tableWidth / 3,
+		)
+	const latestTimestampDisplay = `Latest: ${latestStatus.latestTimestamp ? formatHourAgo(latestStatus.latestTimestamp) : 'None'}`.padEnd(
+		tableWidth / 3,
+	)
+	const latestProgress = getLatestPriceSyncProgress()
+	let latestSyncStatus: string
+	if (state.latestSyncInProgress) {
+		if (latestProgress.rateLimitWait > 0) {
+			latestSyncStatus = `${latestProgress.currentBatch}/${latestProgress.totalBatches} (${latestProgress.rateLimitWait}s)`
+		} else if (latestProgress.totalBatches > 0) {
+			latestSyncStatus = `${latestProgress.currentBatch}/${latestProgress.totalBatches}`
+		} else {
+			latestSyncStatus = 'Starting...'
+		}
+	} else {
+		latestSyncStatus = formatTimeAgo(state.lastLatestSync)
+	}
+	const latestSync = `Sync: ${latestSyncStatus}`.padEnd(tableWidth / 3 + 1)
+	lines.push(`│${padding}${latestRecords}${latestTimestampDisplay}${latestSync}${padding}│`)
 	lines.push(`├${W}┤`)
 
 	// Section 3: Real-time Stream - placeholder
@@ -959,6 +1389,21 @@ function formatTimeAgo(date: Date | null): string {
 	}
 	const hours = Math.floor(minutes / 60)
 	return `${hours}h ${minutes % 60}m ago`
+}
+
+function formatHourAgo(isoTimestamp: string): string {
+	const date = new Date(isoTimestamp)
+	const ms = Date.now() - date.getTime()
+	const minutes = Math.floor(ms / 1000 / 60)
+	if (minutes < 60) {
+		return `${minutes}m ago`
+	}
+	const hours = Math.floor(minutes / 60)
+	if (hours < 24) {
+		return `${hours}h ago`
+	}
+	const days = Math.floor(hours / 24)
+	return `${days}d ago`
 }
 
 function getLatestDailyPriceDate(): string | null {

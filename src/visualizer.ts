@@ -1,4 +1,4 @@
-import { db } from './db'
+import { db, getDbVersion } from './db'
 import { ITEMS_BY_ID } from './constants/items'
 
 // ============================================================================
@@ -17,7 +17,7 @@ interface ItemStats {
 // CONFIGURATION
 // ============================================================================
 
-const REFRESH_INTERVAL = 1000 // 1 second
+const POLL_INTERVAL = 1000 // How often to check for changes (1 second)
 const ITEMS_TO_DISPLAY = 20
 
 // ============================================================================
@@ -45,8 +45,17 @@ async function main(): Promise<void> {
 	// Initial render
 	showDashboard()
 
-	// Update every second
-	setInterval(showDashboard, REFRESH_INTERVAL)
+	// Track last known version
+	let lastVersion = getDbVersion()
+
+	// Poll for changes - only refresh when data actually changed
+	setInterval(() => {
+		const currentVersion = getDbVersion()
+		if (currentVersion !== lastVersion) {
+			lastVersion = currentVersion
+			showDashboard()
+		}
+	}, POLL_INTERVAL)
 
 	// Keep process alive
 	await new Promise(() => {})
