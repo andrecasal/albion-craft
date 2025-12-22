@@ -57,7 +57,19 @@ interface MarketHistoriesResponse {
 }
 
 async function fetchDailyAveragePrices(): Promise<void> {
-	db.prepare('DELETE FROM daily_average_prices').run()
+	// Check if we already have yesterday's data (if so, data is complete)
+	const yesterday = new Date()
+	yesterday.setDate(yesterday.getDate() - 1)
+	const yesterdayDateStr = yesterday.toISOString().split('T')[0]
+
+	const existingData = db
+		.prepare(`SELECT 1 FROM daily_average_prices WHERE timestamp LIKE ? LIMIT 1`)
+		.get(`${yesterdayDateStr}%`)
+
+	if (existingData) {
+		console.log(`Daily average prices already up to date (have data for ${yesterdayDateStr})`)
+		return
+	}
 
 	const queryParams = `time-scale=24`
 	const baseUrl = `https://europe.albion-online-data.com/api/v2/stats/history/`
