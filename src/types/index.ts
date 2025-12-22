@@ -1,13 +1,16 @@
 // Type definitions for Albion Craft
 
-export type City =
-  | 'Caerleon'
-  | 'Bridgewatch'
-  | 'Fort Sterling'
-  | 'Lymhurst'
-  | 'Martlock'
-  | 'Thetford'
-  | 'Brecilien';
+export const CITIES = [
+  'Caerleon',
+  'Bridgewatch',
+  'Fort Sterling',
+  'Lymhurst',
+  'Martlock',
+  'Thetford',
+  'Brecilien',
+] as const;
+
+export type City = (typeof CITIES)[number];
 
 export type SupplySignal = '🟢 Rising' | '🟡 Stable' | '🔴 Falling';
 

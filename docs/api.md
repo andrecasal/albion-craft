@@ -55,6 +55,35 @@ interface MarketHistoryResponse {
 }
 ```
 
+#### Example Response:
+
+```json
+[
+	{
+		"location": "Lymhurst",
+		"item_id": "T4_BAG",
+		"quality": 1,
+		"data": [
+			{
+				"item_count": 911,
+				"avg_price": 3731,
+				"timestamp": "2025-11-22T00:00:00"
+			},
+			{
+				"item_count": 1914,
+				"avg_price": 4604,
+				"timestamp": "2025-11-23T00:00:00"
+			},
+			{
+				"item_count": 1198,
+				"avg_price": 5192,
+				"timestamp": "2025-11-24T00:00:00"
+			}
+		]
+	}
+]
+```
+
 ---
 
 ### Charts

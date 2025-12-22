@@ -1,5 +1,6 @@
 import * as readline from 'readline'
 import * as https from 'https'
+import * as zlib from 'zlib'
 import { closeDb, getDatabaseSize } from './db'
 import { db } from './db'
 import { City } from './types'
@@ -308,8 +309,8 @@ async function startCollector(state: CollectorState): Promise<void> {
 	state.startTime = Date.now()
 
 	mockNatsConnection(state)
-	startDailyPriceSyncTimer(state)
-	startLatestPriceSyncTimer(state)
+	startDailyPriceSync(state)
+	//startLatestPriceSyncTimer(state)
 	startDashboardTimer(state)
 }
 
@@ -341,7 +342,7 @@ function mockNatsConnection(state: CollectorState): void {
 // TIMERS (called by startCollector)
 // ============================================================================
 
-function startDailyPriceSyncTimer(state: CollectorState): void {
+function startDailyPriceSync(state: CollectorState): void {
 	// Initial sync after latest has a chance to start first
 	setTimeout(() => {
 		syncDailyPrices(state)
@@ -986,57 +987,102 @@ function makeDailyPriceRequest<T = any>(
 	url: string,
 ): Promise<DailyPriceFetchResult<T>> {
 	return new Promise((resolve) => {
-		const request = https.get(url, (res) => {
-			let data = ''
+		const parsedUrl = new URL(url)
+		const options: https.RequestOptions = {
+			hostname: parsedUrl.hostname,
+			path: parsedUrl.pathname + parsedUrl.search,
+			headers: {
+				'Accept-Encoding': 'gzip, deflate',
+			},
+		}
 
-			res.on('data', (chunk) => {
-				data += chunk
+		const request = https.get(options, (res) => {
+			const chunks: Buffer[] = []
+
+			res.on('data', (chunk: Buffer) => {
+				chunks.push(chunk)
 			})
 
 			res.on('end', () => {
-				if (res.statusCode === 200) {
-					try {
-						const json = JSON.parse(data) as T
-						resolve({
-							success: true,
-							data: json,
-							statusCode: 200,
+				const buffer = Buffer.concat(chunks)
+				const contentEncoding = res.headers['content-encoding']
+
+				// Decompress based on content-encoding
+				let decompress: Promise<Buffer>
+				if (contentEncoding === 'gzip') {
+					decompress = new Promise((resolve, reject) => {
+						zlib.gunzip(buffer, (err, result) => {
+							if (err) reject(err)
+							else resolve(result)
 						})
-					} catch (e) {
-						const error = e as Error
-						resolve({
-							success: false,
-							error: `Parse error: ${error.message}`,
-							statusCode: 200,
-							retryable: false,
-						})
-					}
-				} else if (res.statusCode === 429) {
-					const rateLimitInfo = parseRateLimitHeaders(
-						res.headers as Record<string, string | string[] | undefined>,
-					)
-					resolve({
-						success: false,
-						error: 'Rate limited',
-						statusCode: 429,
-						retryable: true,
-						rateLimitInfo: rateLimitInfo || undefined,
 					})
-				} else if (res.statusCode && res.statusCode >= 500) {
-					resolve({
-						success: false,
-						error: `Server error ${res.statusCode}`,
-						statusCode: res.statusCode,
-						retryable: true,
+				} else if (contentEncoding === 'deflate') {
+					decompress = new Promise((resolve, reject) => {
+						zlib.inflate(buffer, (err, result) => {
+							if (err) reject(err)
+							else resolve(result)
+						})
 					})
 				} else {
-					resolve({
-						success: false,
-						error: `HTTP ${res.statusCode}`,
-						statusCode: res.statusCode,
-						retryable: false,
-					})
+					decompress = Promise.resolve(buffer)
 				}
+
+				decompress
+					.then((decompressed) => {
+						const data = decompressed.toString('utf-8')
+
+						if (res.statusCode === 200) {
+							try {
+								const json = JSON.parse(data) as T
+								resolve({
+									success: true,
+									data: json,
+									statusCode: 200,
+								})
+							} catch (e) {
+								const error = e as Error
+								resolve({
+									success: false,
+									error: `Parse error: ${error.message}`,
+									statusCode: 200,
+									retryable: false,
+								})
+							}
+						} else if (res.statusCode === 429) {
+							const rateLimitInfo = parseRateLimitHeaders(
+								res.headers as Record<string, string | string[] | undefined>,
+							)
+							resolve({
+								success: false,
+								error: 'Rate limited',
+								statusCode: 429,
+								retryable: true,
+								rateLimitInfo: rateLimitInfo || undefined,
+							})
+						} else if (res.statusCode && res.statusCode >= 500) {
+							resolve({
+								success: false,
+								error: `Server error ${res.statusCode}`,
+								statusCode: res.statusCode,
+								retryable: true,
+							})
+						} else {
+							resolve({
+								success: false,
+								error: `HTTP ${res.statusCode}`,
+								statusCode: res.statusCode,
+								retryable: false,
+							})
+						}
+					})
+					.catch((err) => {
+						resolve({
+							success: false,
+							error: `Decompression error: ${err.message}`,
+							statusCode: res.statusCode,
+							retryable: false,
+						})
+					})
 			})
 		})
 
