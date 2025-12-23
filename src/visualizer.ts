@@ -1,226 +1,143 @@
-import { db, getDbVersion } from './db'
-import { ITEMS_BY_ID } from './constants/items'
+import { db } from './db'
 
 // ============================================================================
 // TYPES
 // ============================================================================
 
-interface ItemStats {
-	itemId: string
-	avgPrice: number
-	minPrice: number
-	maxPrice: number
-	dataPoints: number
+type VisualizerState = {
+	startTime: number
+	tick: number
+	dashboardTimer: NodeJS.Timeout | null
+	topProducts: TopProduct[]
+}
+
+type TopProduct = {
+	item_id: string
+	avg_price: number
 }
 
 // ============================================================================
 // CONFIGURATION
 // ============================================================================
 
-const POLL_INTERVAL = 1000 // How often to check for changes (1 second)
-const ITEMS_TO_DISPLAY = 20
+const DASHBOARD_REFRESH_MS = 1000
+const DATA_REFRESH_MS = 10000
 
 // ============================================================================
 // ENTRY POINT
 // ============================================================================
 
-if (require.main === module) {
-	main()
-}
+main()
 
-// ============================================================================
-// MAIN
-// ============================================================================
-
-async function main(): Promise<void> {
-	const shutdown = () => {
-		console.clear()
-		console.log('Visualizer stopped.')
-		process.exit(0)
+function main(): void {
+	const state: VisualizerState = {
+		startTime: Date.now(),
+		tick: 0,
+		dashboardTimer: null,
+		topProducts: [],
 	}
 
-	process.on('SIGINT', shutdown)
-	process.on('SIGTERM', shutdown)
+	process.on('SIGINT', () => shutdown(state))
+	process.on('SIGTERM', () => shutdown(state))
 
-	// Initial render
-	showDashboard()
+	startVisualizer(state)
+}
 
-	// Track last known version
-	let lastVersion = getDbVersion()
-
-	// Poll for changes - only refresh when data actually changed
-	setInterval(() => {
-		const currentVersion = getDbVersion()
-		if (currentVersion !== lastVersion) {
-			lastVersion = currentVersion
-			showDashboard()
-		}
-	}, POLL_INTERVAL)
-
-	// Keep process alive
-	await new Promise(() => {})
+function shutdown(state: VisualizerState): void {
+	if (state.dashboardTimer) clearInterval(state.dashboardTimer)
+	console.log('\nVisualizer stopped.')
+	process.exit(0)
 }
 
 // ============================================================================
-// DATA QUERIES
+// VISUALIZER LIFECYCLE
 // ============================================================================
 
-/**
- * Get all items with their 30-day average, min, and max price
- */
-function getItemStats(): ItemStats[] {
-	const rows = db
+function startVisualizer(state: VisualizerState): void {
+	refreshData(state)
+	setInterval(() => refreshData(state), DATA_REFRESH_MS)
+	
+	showDashboard(state)
+	state.dashboardTimer = setInterval(() => showDashboard(state), DASHBOARD_REFRESH_MS)
+}
+
+// ============================================================================
+// DATA REFRESH
+// ============================================================================
+
+function refreshData(state: VisualizerState): void {
+	state.topProducts = getTopProductsByAvgPrice()
+}
+
+function getTopProductsByAvgPrice(): TopProduct[] {
+	const thirtyDaysAgo = new Date()
+	thirtyDaysAgo.setDate(thirtyDaysAgo.getDate() - 30)
+	const cutoff = thirtyDaysAgo.toISOString().split('T')[0]
+
+	return db
 		.prepare(
 			`
-			SELECT
-				item_id,
-				AVG(avg_price) as mean_price,
-				MIN(avg_price) as min_price,
-				MAX(avg_price) as max_price,
-				COUNT(*) as data_points
-			FROM daily_price_averages
-			WHERE date >= date('now', '-30 days')
+			SELECT item_id, CAST(AVG(avg_price) AS INTEGER) as avg_price
+			FROM daily_average_prices
+			WHERE timestamp >= ?
 			GROUP BY item_id
-			HAVING data_points >= 5
-			ORDER BY mean_price DESC
+			ORDER BY avg_price DESC
+			LIMIT 10
 		`,
 		)
-		.all() as Array<{
-		item_id: string
-		mean_price: number
-		min_price: number
-		max_price: number
-		data_points: number
-	}>
-
-	return rows.slice(0, ITEMS_TO_DISPLAY).map((row) => ({
-		itemId: row.item_id,
-		avgPrice: Math.round(row.mean_price),
-		minPrice: Math.round(row.min_price),
-		maxPrice: Math.round(row.max_price),
-		dataPoints: row.data_points,
-	}))
+		.all(cutoff) as TopProduct[]
 }
 
 // ============================================================================
-// RENDERING
+// DASHBOARD
 // ============================================================================
 
-function showDashboard(): void {
-	const stats = getItemStats()
+function showDashboard(state: VisualizerState): void {
+	state.tick++
+	console.clear()
 
-	// Clear screen and move cursor to top
-	process.stdout.write('\x1B[H\x1B[J')
-
+	const W = 60
+	const spinner = ['⠋', '⠙', '⠹', '⠸', '⠼', '⠴', '⠦', '⠧', '⠇', '⠏'][state.tick % 10]
 	const lines: string[] = []
-	const tableWidth = 100
 
-	// Header
-	lines.push('┌' + '─'.repeat(tableWidth) + '┐')
-	lines.push(
-		'│' + centerText('📈 PROFIT OPPORTUNITY VISUALIZER', tableWidth) + '│',
-	)
-	lines.push(
-		'│' +
-			centerText(
-				`Updated: ${new Date().toLocaleTimeString()} | Items: ${stats.length}`,
-				tableWidth,
-			) +
-			'│',
-	)
-	lines.push('├' + '─'.repeat(tableWidth) + '┤')
+	const uptime = formatDuration(Date.now() - state.startTime)
 
-	if (stats.length === 0) {
-		lines.push(
-			'│' +
-				centerText('No data available. Run the collector first.', tableWidth) +
-				'│',
-		)
-		lines.push('└' + '─'.repeat(tableWidth) + '┘')
-		console.log(lines.join('\n'))
-		return
+	lines.push(`┌${'─'.repeat(W)}┐`)
+	lines.push(`│ ${spinner} TOP 10 PRODUCTS BY AVG PRICE (30 days)${`⏱ ${uptime}`.padStart(W - 43)}│`)
+	lines.push(`├${'─'.repeat(W)}┤`)
+	lines.push(`│${'#'.padStart(4)}  ${'ITEM'.padEnd(35)}  ${'AVG PRICE'.padStart(15)} │`)
+	lines.push(`├${'─'.repeat(W)}┤`)
+
+	for (let i = 0; i < state.topProducts.length; i++) {
+		const p = state.topProducts[i]
+		const rank = String(i + 1).padStart(4)
+		const name = p.item_id.slice(0, 35).padEnd(35)
+		const price = formatPrice(p.avg_price).padStart(15)
+		lines.push(`│${rank}  ${name}  ${price} │`)
 	}
 
-	// Table header
-	const colItem = 40
-	const colAvg = 10
-	const colMin = 10
-	const colMax = 10
-
-	const headerContent =
-		'Item'.padEnd(colItem) +
-		'Avg Price'.padStart(colAvg) +
-		'Min %'.padStart(colMin) +
-		'Max %'.padStart(colMax)
-	const headerRow = '│ ' + headerContent.padEnd(tableWidth - 2) + ' │'
-	lines.push(headerRow)
-	lines.push('├' + '─'.repeat(tableWidth) + '┤')
-
-	// Data rows
-	for (const stat of stats) {
-		const itemEntry = ITEMS_BY_ID.get(stat.itemId)
-		const itemName = truncateText(itemEntry?.name ?? stat.itemId, colItem - 1)
-		const avgPrice = formatNumber(stat.avgPrice)
-		const minPct =
-			stat.avgPrice > 0
-				? ((stat.minPrice - stat.avgPrice) / stat.avgPrice) * 100
-				: 0
-		const maxPct =
-			stat.avgPrice > 0
-				? ((stat.maxPrice - stat.avgPrice) / stat.avgPrice) * 100
-				: 0
-		const minPrice = formatPercent(minPct)
-		const maxPrice = formatPercent(maxPct)
-
-		const rowContent =
-			itemName.padEnd(colItem) +
-			avgPrice.padStart(colAvg) +
-			minPrice.padStart(colMin) +
-			maxPrice.padStart(colMax)
-		const row = '│ ' + rowContent.padEnd(tableWidth - 2) + ' │'
-		lines.push(row)
+	if (state.topProducts.length === 0) {
+		lines.push(`│${'No data available'.padStart((W + 17) / 2).padEnd(W)}│`)
 	}
 
-	// Footer
-	lines.push('├' + '─'.repeat(tableWidth) + '┤')
-	lines.push(
-		'│' +
-			centerText('Sorted by average price (highest first)', tableWidth) +
-			'│',
-	)
-	lines.push('│' + centerText('[Ctrl+C] Quit', tableWidth) + '│')
-	lines.push('└' + '─'.repeat(tableWidth) + '┘')
+	lines.push(`└${'─'.repeat(W)}┘`)
 
 	console.log(lines.join('\n'))
 }
 
 // ============================================================================
-// FORMATTING HELPERS
+// FORMATTING
 // ============================================================================
 
-function centerText(text: string, width: number): string {
-	const padding = Math.max(0, width - text.length)
-	const leftPad = Math.floor(padding / 2)
-	const rightPad = padding - leftPad
-	return ' '.repeat(leftPad) + text + ' '.repeat(rightPad)
+function formatPrice(price: number): string {
+	return price.toLocaleString() + ' silver'
 }
 
-function truncateText(text: string, maxLength: number): string {
-	if (text.length <= maxLength) return text
-	return text.slice(0, maxLength - 3) + '...'
-}
-
-function formatNumber(num: number): string {
-	if (num >= 1000000) {
-		return (num / 1000000).toFixed(1) + 'M'
-	}
-	if (num >= 1000) {
-		return (num / 1000).toFixed(1) + 'K'
-	}
-	return num.toLocaleString()
-}
-
-function formatPercent(pct: number): string {
-	const sign = pct >= 0 ? '+' : ''
-	return sign + pct.toFixed(1) + '%'
+function formatDuration(ms: number): string {
+	const s = Math.floor(ms / 1000)
+	const m = Math.floor(s / 60)
+	const h = Math.floor(m / 60)
+	if (h > 0) return `${h}h ${m % 60}m`
+	if (m > 0) return `${m}m ${s % 60}s`
+	return `${s}s`
 }

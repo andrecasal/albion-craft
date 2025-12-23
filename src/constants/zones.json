@@ -53,7 +53,8 @@
 	},
 	{
 		"id": "0004",
-		"name": "Swamp Cross"
+		"name": "Swamp Cross",
+		"market": "Thetford"
 	},
 	{
 		"id": "4206",
@@ -381,11 +382,13 @@
 	},
 	{
 		"id": "2002",
-		"name": "Steppe Cross"
+		"name": "Steppe Cross",
+		"market": "Bridgewatch"
 	},
 	{
 		"id": "3002",
-		"name": "Highland Cross"
+		"name": "Highland Cross",
+		"market": "Martlock"
 	},
 	{
 		"id": "3214",
@@ -405,11 +408,13 @@
 	},
 	{
 		"id": "1006",
-		"name": "Forest Cross"
+		"name": "Forest Cross",
+		"market": "Lymhurst"
 	},
 	{
 		"id": "4006",
-		"name": "Mountain Cross"
+		"name": "Mountain Cross",
+		"market": "Fort Sterling"
 	},
 	{
 		"id": "0000",
@@ -469,7 +474,8 @@
 	},
 	{
 		"id": "3003",
-		"name": "Caerleon"
+		"name": "Caerleon",
+		"market": "Caerleon"
 	},
 	{
 		"id": "3245",
@@ -4893,7 +4899,8 @@
 	},
 	{
 		"id": "4301",
-		"name": "Fort Sterling Portal"
+		"name": "Fort Sterling Portal",
+		"market": "Fort Sterling"
 	},
 	{
 		"id": "0302",

@@ -20,6 +20,7 @@ type CollectorState = {
 	dashboardTimer: NodeJS.Timeout | null
 	dailySyncTimer: NodeJS.Timeout | null
 	latestSyncTimer: NodeJS.Timeout | null
+	orderBookCleanupTimer: NodeJS.Timeout | null
 
 	// Daily Average Prices (hourly sync)
 	dailySyncInProgress: boolean
@@ -91,6 +92,7 @@ const DAILY_SYNC_INTERVAL_MS = 60 * 60 * 1000 // 1 hour
 const LATEST_SYNC_INTERVAL_MS = 5 * 60 * 1000 // 5 minutes
 const DASHBOARD_REFRESH_MS = 1000 // 1 second
 const LATEST_STALENESS_MS = 5 * 60 * 1000 // 5 minutes
+const ORDER_BOOK_CLEANUP_INTERVAL_MS = 5 * 60 * 1000 // 5 minutes
 
 const NATS_SERVERS: Record<Region, { host: string; port: number }> = {
 	europe: { host: 'nats.albion-online-data.com', port: 34222 },
@@ -121,6 +123,7 @@ async function main(): Promise<void> {
 		dashboardTimer: null,
 		dailySyncTimer: null,
 		latestSyncTimer: null,
+		orderBookCleanupTimer: null,
 
 		// Daily Average Prices (hourly sync)
 		dailySyncInProgress: false,
@@ -169,6 +172,7 @@ async function shutdown(state: CollectorState): Promise<void> {
 	if (state.dashboardTimer) clearInterval(state.dashboardTimer)
 	if (state.dailySyncTimer) clearInterval(state.dailySyncTimer)
 	if (state.latestSyncTimer) clearInterval(state.latestSyncTimer)
+	if (state.orderBookCleanupTimer) clearInterval(state.orderBookCleanupTimer)
 	if (state.natsSubscription) state.natsSubscription.unsubscribe()
 	if (state.natsConnection) await state.natsConnection.close()
 
@@ -204,6 +208,18 @@ async function startCollector(state: CollectorState): Promise<void> {
 		() => syncLatestPrices(state),
 		LATEST_SYNC_INTERVAL_MS,
 	)
+
+	// Clean up expired orders periodically
+	setTimeout(() => cleanupExpiredOrders(), 3000)
+	state.orderBookCleanupTimer = setInterval(
+		() => cleanupExpiredOrders(),
+		ORDER_BOOK_CLEANUP_INTERVAL_MS,
+	)
+}
+
+function cleanupExpiredOrders(): void {
+	const now = new Date().toISOString()
+	db.prepare('DELETE FROM order_book WHERE expires < ?').run(now)
 }
 
 // ============================================================================
@@ -257,36 +273,31 @@ function handleMarketOrder(
 		return
 	}
 
-	const now = new Date().toISOString()
 	const price = Math.round(order.UnitPriceSilver / 10000)
+	const orderType = order.AuctionType === 'offer' ? 'sell' : 'buy'
 
-	if (order.AuctionType === 'offer') {
-		db.prepare(
-			`
-			INSERT INTO latest_prices (item_id, city, quality, sell_price_min, sell_price_min_date,
-				sell_price_max, sell_price_max_date, buy_price_min, buy_price_min_date,
-				buy_price_max, buy_price_max_date, fetched_at)
-			VALUES (?, ?, ?, ?, ?, ?, ?, 0, ?, 0, ?, ?)
-			ON CONFLICT(item_id, city, quality) DO UPDATE SET
-				sell_price_min = CASE WHEN excluded.sell_price_min < sell_price_min OR sell_price_min = 0
-					THEN excluded.sell_price_min ELSE sell_price_min END,
-				sell_price_min_date = CASE WHEN excluded.sell_price_min < sell_price_min OR sell_price_min = 0
-					THEN excluded.sell_price_min_date ELSE sell_price_min_date END,
-				fetched_at = excluded.fetched_at
-		`,
-		).run(
-			order.ItemTypeId,
-			market,
-			order.QualityLevel,
-			price,
-			now,
-			price,
-			now,
-			now,
-			now,
-			Date.now(),
-		)
-	}
+	// Store/update the order in the order book
+	db.prepare(
+		`
+		INSERT INTO order_book (order_id, item_id, city, quality, price, amount, order_type, expires, updated_at)
+		VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+		ON CONFLICT(order_id) DO UPDATE SET
+			price = excluded.price,
+			amount = excluded.amount,
+			expires = excluded.expires,
+			updated_at = excluded.updated_at
+	`,
+	).run(
+		order.Id,
+		order.ItemTypeId,
+		market,
+		order.QualityLevel,
+		price,
+		order.Amount,
+		orderType,
+		order.Expires,
+		Date.now(),
+	)
 }
 
 // ============================================================================
@@ -294,7 +305,12 @@ function handleMarketOrder(
 // ============================================================================
 
 async function syncDailyPrices(state: CollectorState): Promise<void> {
-	if (state.dailySyncInProgress || !needsDailySync()) return
+	if (state.dailySyncInProgress) return
+	if (!needsDailySync()) {
+		// Data is already up-to-date, just update the last sync time
+		if (!state.lastDailySync) state.lastDailySync = new Date()
+		return
+	}
 
 	state.dailySyncInProgress = true
 	state.dailySyncBatch = 0

@@ -50,6 +50,22 @@ export const db = remember('sqlite-db', () => {
 
 		CREATE INDEX IF NOT EXISTS idx_latest_prices_item_id ON latest_prices(item_id);
 		CREATE INDEX IF NOT EXISTS idx_latest_prices_city ON latest_prices(city);
+
+		CREATE TABLE IF NOT EXISTS order_book (
+			order_id INTEGER PRIMARY KEY,
+			item_id TEXT NOT NULL,
+			city TEXT NOT NULL,
+			quality INTEGER NOT NULL,
+			price INTEGER NOT NULL,
+			amount INTEGER NOT NULL,
+			order_type TEXT NOT NULL,
+			expires TEXT NOT NULL,
+			updated_at INTEGER NOT NULL
+		);
+
+		CREATE INDEX IF NOT EXISTS idx_order_book_item_city ON order_book(item_id, city);
+		CREATE INDEX IF NOT EXISTS idx_order_book_type ON order_book(order_type);
+		CREATE INDEX IF NOT EXISTS idx_order_book_expires ON order_book(expires);
 	`)
 
 	return instance

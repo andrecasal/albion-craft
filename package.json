@@ -7,6 +7,9 @@
 	"scripts": {
 		"collector": "tsx src/collector.ts",
 		"visualizer": "tsx src/visualizer.ts",
+		"price-checker": "tsx src/visualizers/price-checker.ts",
+		"shopping-tracker": "tsx src/visualizers/shopping-tracker.ts",
+		"crafting-planner": "tsx src/visualizers/crafting-planner.ts",
 		"typecheck": "tsc --noEmit",
 		"format": "prettier --write ."
 	},
