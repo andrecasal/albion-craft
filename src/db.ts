@@ -18,20 +18,6 @@ export const db = remember('sqlite-db', () => {
 
 	// Initialize tables
 	instance.exec(`
-		CREATE TABLE IF NOT EXISTS daily_average_prices (
-			item_id TEXT NOT NULL,
-			location TEXT NOT NULL,
-			quality INTEGER NOT NULL,
-			timestamp TEXT NOT NULL,
-			item_count INTEGER NOT NULL,
-			avg_price INTEGER NOT NULL,
-			PRIMARY KEY (item_id, location, quality, timestamp)
-		);
-
-		CREATE INDEX IF NOT EXISTS idx_daily_average_prices_item_id ON daily_average_prices(item_id);
-		CREATE INDEX IF NOT EXISTS idx_daily_average_prices_location ON daily_average_prices(location);
-		CREATE INDEX IF NOT EXISTS idx_daily_average_prices_timestamp ON daily_average_prices(timestamp);
-
 		CREATE TABLE IF NOT EXISTS latest_prices (
 			item_id TEXT NOT NULL,
 			city TEXT NOT NULL,
@@ -50,6 +36,48 @@ export const db = remember('sqlite-db', () => {
 
 		CREATE INDEX IF NOT EXISTS idx_latest_prices_item_id ON latest_prices(item_id);
 		CREATE INDEX IF NOT EXISTS idx_latest_prices_city ON latest_prices(city);
+
+		CREATE TABLE IF NOT EXISTS daily_average_prices (
+			item_id TEXT NOT NULL,
+			city TEXT NOT NULL,
+			quality INTEGER NOT NULL,
+			timestamp TEXT NOT NULL,
+			item_count INTEGER NOT NULL,
+			avg_price INTEGER NOT NULL,
+			PRIMARY KEY (item_id, city, quality, timestamp)
+		);
+
+		CREATE INDEX IF NOT EXISTS idx_daily_average_prices_item_id ON daily_average_prices(item_id);
+		CREATE INDEX IF NOT EXISTS idx_daily_average_prices_city ON daily_average_prices(city);
+		CREATE INDEX IF NOT EXISTS idx_daily_average_prices_timestamp ON daily_average_prices(timestamp);
+
+		CREATE TABLE IF NOT EXISTS six_hour_average_prices (
+			item_id TEXT NOT NULL,
+			city TEXT NOT NULL,
+			quality INTEGER NOT NULL,
+			timestamp TEXT NOT NULL,
+			item_count INTEGER NOT NULL,
+			avg_price INTEGER NOT NULL,
+			PRIMARY KEY (item_id, city, quality, timestamp)
+		);
+
+		CREATE INDEX IF NOT EXISTS idx_six_hour_average_prices_item_id ON six_hour_average_prices(item_id);
+		CREATE INDEX IF NOT EXISTS idx_six_hour_average_prices_city ON six_hour_average_prices(city);
+		CREATE INDEX IF NOT EXISTS idx_six_hour_average_prices_timestamp ON six_hour_average_prices(timestamp);
+
+		CREATE TABLE IF NOT EXISTS hourly_average_prices (
+			item_id TEXT NOT NULL,
+			city TEXT NOT NULL,
+			quality INTEGER NOT NULL,
+			timestamp TEXT NOT NULL,
+			item_count INTEGER NOT NULL,
+			avg_price INTEGER NOT NULL,
+			PRIMARY KEY (item_id, city, quality, timestamp)
+		);
+
+		CREATE INDEX IF NOT EXISTS idx_hourly_average_prices_item_id ON hourly_average_prices(item_id);
+		CREATE INDEX IF NOT EXISTS idx_hourly_average_prices_city ON hourly_average_prices(city);
+		CREATE INDEX IF NOT EXISTS idx_hourly_average_prices_timestamp ON hourly_average_prices(timestamp);
 
 		CREATE TABLE IF NOT EXISTS order_book (
 			order_id INTEGER PRIMARY KEY,

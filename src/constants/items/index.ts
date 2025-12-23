@@ -93,3 +93,15 @@ export const ALL_ITEM_IDS = ALL_ITEMS.map((item) => item.id)
 export const ITEMS_BY_ID = new Map<string, ItemEntry>(
 	ALL_ITEMS.map((item) => [item.id, item])
 )
+
+// Items that have quality levels (craftable equipment/consumables/accessories)
+export const ITEMS_WITH_QUALITY = new Set([
+	...equipment,
+	...consumables,
+	...accessories,
+].map(item => item.id))
+
+// Items sold on the Black Market (equipment only)
+export const BLACK_MARKET_ITEMS = new Set(
+	equipment.map(item => item.id)
+)

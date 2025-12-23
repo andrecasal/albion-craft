@@ -1,0 +1,619 @@
+import 'dotenv/config'
+import { search, select } from '@inquirer/prompts'
+import { readdirSync, readFileSync } from 'fs'
+import { join } from 'path'
+import { db } from './db'
+import { ITEMS_WITH_QUALITY, BLACK_MARKET_ITEMS, equipment } from './constants/items'
+
+// ============================================================================
+// TYPES
+// ============================================================================
+
+type Item = {
+	id: string
+	name: string
+}
+
+type PriceCheckerState = {
+	startTime: number
+	running: boolean
+
+	// Search
+	searchItemIds: string[] // Multiple item IDs for tier equivalence
+	searchItemName: string | null
+	tierEquivalent: number | null // null means show all
+	searchResults: CityPrice[]
+	orderBookResults: OrderBookPrice[]
+	lastRefresh: Date | null
+}
+
+type CityPrice = {
+	itemId: string
+	city: string
+	sellPrice: number
+	sellDate: string
+	buyPrice: number
+	buyDate: string
+	quality: number
+}
+
+type OrderBookPrice = {
+	itemId: string
+	city: string
+	quality: number
+	sellPrice: number | null
+	sellUpdated: number | null
+	buyPrice: number | null
+	buyUpdated: number | null
+}
+
+// ============================================================================
+// CONFIGURATION
+// ============================================================================
+
+// Set of base item IDs (without tier/enchant) that are equipment
+const EQUIPMENT_BASE_IDS = new Set(
+	equipment.map((item) => {
+		const parsed = parseItemId(item.id)
+		return parsed ? parsed.baseId : null
+	}).filter((id): id is string => id !== null)
+)
+
+// ============================================================================
+// ITEM ID PARSING
+// ============================================================================
+
+type ParsedItemId = {
+	baseId: string // e.g., "2H_BOW"
+	tier: number // e.g., 4
+	enchant: number // e.g., 0, 1, 2, 3, 4
+	fullId: string // e.g., "T4_2H_BOW@1"
+}
+
+/**
+ * Parse an item ID into its components
+ * e.g., "T4_2H_BOW@1" -> { baseId: "2H_BOW", tier: 4, enchant: 1 }
+ */
+function parseItemId(itemId: string): ParsedItemId | null {
+	const match = itemId.match(/^T(\d+)_(.+?)(?:@(\d+))?$/)
+	if (!match) return null
+
+	return {
+		baseId: match[2],
+		tier: parseInt(match[1], 10),
+		enchant: match[3] ? parseInt(match[3], 10) : 0,
+		fullId: itemId,
+	}
+}
+
+/**
+ * Build an item ID from components
+ */
+function buildItemId(baseId: string, tier: number, enchant: number): string {
+	return enchant > 0 ? `T${tier}_${baseId}@${enchant}` : `T${tier}_${baseId}`
+}
+
+/**
+ * Check if an item has enchantment variants (is equipment)
+ */
+function hasEnchantmentVariants(itemId: string): boolean {
+	const parsed = parseItemId(itemId)
+	if (!parsed) return false
+	return EQUIPMENT_BASE_IDS.has(parsed.baseId)
+}
+
+/**
+ * Get all item IDs that match a tier equivalence
+ * Tier equivalence = tier + enchant
+ * e.g., tier equiv 8 = T4@4, T5@3, T6@2, T7@1, T8@0
+ */
+function getTierEquivalentIds(itemId: string, tierEquiv: number): string[] {
+	const parsed = parseItemId(itemId)
+	if (!parsed) return [itemId]
+
+	const ids: string[] = []
+
+	// For each possible tier (4-8), calculate the enchant needed
+	for (let tier = 4; tier <= 8; tier++) {
+		const enchant = tierEquiv - tier
+		if (enchant >= 0 && enchant <= 4) {
+			ids.push(buildItemId(parsed.baseId, tier, enchant))
+		}
+	}
+
+	return ids
+}
+
+/**
+ * Get all possible item IDs for an equipment item (all tier/enchant combos)
+ */
+function getAllVariantIds(itemId: string): string[] {
+	const parsed = parseItemId(itemId)
+	if (!parsed) return [itemId]
+
+	const ids: string[] = []
+
+	for (let tier = 4; tier <= 8; tier++) {
+		for (let enchant = 0; enchant <= 4; enchant++) {
+			ids.push(buildItemId(parsed.baseId, tier, enchant))
+		}
+	}
+
+	return ids
+}
+
+// ============================================================================
+// ITEM LOADING
+// ============================================================================
+
+function loadAllItems(): Item[] {
+	const items: Item[] = []
+	const itemsDir = join(import.meta.dirname, 'constants/items')
+
+	function scanDirectory(dir: string): void {
+		const entries = readdirSync(dir, { withFileTypes: true })
+		for (const entry of entries) {
+			const fullPath = join(dir, entry.name)
+			if (entry.isDirectory()) {
+				scanDirectory(fullPath)
+			} else if (entry.name.endsWith('.json')) {
+				const content = readFileSync(fullPath, 'utf-8')
+				const parsed = JSON.parse(content) as Item[]
+				items.push(...parsed)
+			}
+		}
+	}
+
+	scanDirectory(itemsDir)
+	return items
+}
+
+// ============================================================================
+// ENTRY POINT
+// ============================================================================
+
+main()
+
+async function main(): Promise<void> {
+	// Load all items for autocomplete
+	const allItems = loadAllItems()
+
+	const state: PriceCheckerState = {
+		startTime: Date.now(),
+		running: false,
+
+		// Search
+		searchItemIds: [],
+		searchItemName: null,
+		tierEquivalent: null,
+		searchResults: [],
+		orderBookResults: [],
+		lastRefresh: null,
+	}
+
+	process.on('SIGINT', () => shutdown(state))
+	process.on('SIGTERM', () => shutdown(state))
+
+	// Main loop - allows returning to search
+	while (true) {
+		const selectedItem = await promptForItem(allItems)
+
+		// Check if this item has enchantment variants (equipment)
+		if (hasEnchantmentVariants(selectedItem.id)) {
+			const tierEquiv = await promptForTierEquivalence(selectedItem.id)
+			state.tierEquivalent = tierEquiv
+
+			if (tierEquiv === null) {
+				// Show all variants
+				state.searchItemIds = getAllVariantIds(selectedItem.id)
+			} else {
+				// Show only tier-equivalent items
+				state.searchItemIds = getTierEquivalentIds(selectedItem.id, tierEquiv)
+			}
+		} else {
+			// Non-equipment item, just search for it directly
+			state.searchItemIds = [selectedItem.id]
+			state.tierEquivalent = null
+		}
+
+		state.searchItemName = selectedItem.name
+		state.searchResults = []
+		state.orderBookResults = []
+		state.lastRefresh = null
+
+		await startPriceChecker(state)
+	}
+}
+
+async function promptForItem(allItems: Item[]): Promise<Item> {
+	return search<Item>({
+		message: 'Search for an item:',
+		source: async (input) => {
+			if (!input) {
+				return allItems.slice(0, 10).map((item) => ({
+					name: item.name,
+					value: item,
+					description: item.id,
+				}))
+			}
+			const lowerInput = input.toLowerCase()
+			return allItems
+				.filter((item) => item.name.toLowerCase().includes(lowerInput))
+				.slice(0, 10)
+				.map((item) => ({
+					name: item.name,
+					value: item,
+					description: item.id,
+				}))
+		},
+	})
+}
+
+async function promptForTierEquivalence(itemId: string): Promise<number | null> {
+	const parsed = parseItemId(itemId)
+	if (!parsed) return null
+
+	// Build choices for tier equivalence (4-12)
+	// 4 = T4.0, 5 = T4.1 or T5.0, ..., 12 = T8.4
+	const choices: { name: string; value: number | null; description: string }[] = [
+		{
+			name: 'All tiers & enchantments',
+			value: null,
+			description: 'Show all combinations',
+		},
+	]
+
+	for (let tierEquiv = 4; tierEquiv <= 12; tierEquiv++) {
+		const variants: string[] = []
+		for (let tier = 4; tier <= 8; tier++) {
+			const enchant = tierEquiv - tier
+			if (enchant >= 0 && enchant <= 4) {
+				variants.push(`T${tier}.${enchant}`)
+			}
+		}
+		choices.push({
+			name: `Tier ${tierEquiv} equivalent`,
+			value: tierEquiv,
+			description: variants.join(', '),
+		})
+	}
+
+	return select<number | null>({
+		message: 'Select tier equivalence:',
+		choices,
+	})
+}
+
+function shutdown(state: PriceCheckerState): void {
+	if (!state.running) return
+	state.running = false
+
+	console.log('\nPrice checker stopped.')
+	process.exit(0)
+}
+
+// ============================================================================
+// PRICE CHECKER LIFECYCLE
+// ============================================================================
+
+async function startPriceChecker(state: PriceCheckerState): Promise<void> {
+	state.running = true
+	state.startTime = Date.now()
+
+	// Initial data fetch and display
+	refreshPrices(state)
+	showDashboard(state)
+
+	// Wait for user keypresses (r to refresh, s to search, q to quit)
+	await waitForKeypress(state)
+}
+
+function waitForKeypress(state: PriceCheckerState): Promise<void> {
+	return new Promise((resolve) => {
+		process.stdin.setRawMode(true)
+		process.stdin.resume()
+
+		const onKeypress = (key: Buffer) => {
+			const char = key.toString()
+
+			// Ctrl+C
+			if (char === '\u0003') {
+				cleanup()
+				shutdown(state)
+				return
+			}
+
+			// 'r' for refresh
+			if (char === 'r' || char === 'R') {
+				refreshPrices(state)
+				showDashboard(state)
+				return
+			}
+
+			// 's' for new search
+			if (char === 's' || char === 'S') {
+				cleanup()
+				stopPriceChecker(state)
+				resolve()
+				return
+			}
+
+			// 'q' for quit
+			if (char === 'q' || char === 'Q') {
+				cleanup()
+				shutdown(state)
+				return
+			}
+		}
+
+		const cleanup = () => {
+			process.stdin.removeListener('data', onKeypress)
+			process.stdin.setRawMode(false)
+			process.stdin.pause()
+		}
+
+		process.stdin.on('data', onKeypress)
+	})
+}
+
+function stopPriceChecker(state: PriceCheckerState): void {
+	state.running = false
+}
+
+// ============================================================================
+// DATA FUNCTIONS
+// ============================================================================
+
+function refreshPrices(state: PriceCheckerState): void {
+	if (state.searchItemIds.length === 0) return
+
+	// Build placeholders for IN clause
+	const placeholders = state.searchItemIds.map(() => '?').join(',')
+
+	// Fetch from latest_prices (API data)
+	const results = db
+		.prepare(
+			`
+			SELECT
+				item_id as itemId,
+				city,
+				quality,
+				sell_price_min as sellPrice,
+				sell_price_min_date as sellDate,
+				buy_price_max as buyPrice,
+				buy_price_max_date as buyDate
+			FROM latest_prices
+			WHERE item_id IN (${placeholders})
+			ORDER BY sell_price_min ASC
+		`,
+		)
+		.all(...state.searchItemIds) as CityPrice[]
+
+	// Fetch from order_book (real-time stream data)
+	// Get best sell (lowest offer) and best buy (highest request) per item/city/quality
+	const orderBookResults = db
+		.prepare(
+			`
+			SELECT
+				item_id as itemId,
+				city,
+				quality,
+				MIN(CASE WHEN order_type = 'sell' THEN price END) as sellPrice,
+				MAX(CASE WHEN order_type = 'sell' THEN updated_at END) as sellUpdated,
+				MAX(CASE WHEN order_type = 'buy' THEN price END) as buyPrice,
+				MAX(CASE WHEN order_type = 'buy' THEN updated_at END) as buyUpdated
+			FROM order_book
+			WHERE item_id IN (${placeholders}) AND expires > datetime('now')
+			GROUP BY item_id, city, quality
+			ORDER BY sellPrice ASC
+		`,
+		)
+		.all(...state.searchItemIds) as OrderBookPrice[]
+
+	state.searchResults = results
+	state.orderBookResults = orderBookResults
+	state.lastRefresh = new Date()
+}
+
+// ============================================================================
+// DASHBOARD
+// ============================================================================
+
+function showDashboard(state: PriceCheckerState): void {
+	console.clear()
+
+	const uptime = formatDuration(Date.now() - state.startTime)
+
+	const W = 140
+	const lines: string[] = []
+
+	// Build item display with tier equivalence info
+	let itemDisplay = state.searchItemName || 'None'
+	if (state.tierEquivalent !== null) {
+		itemDisplay += ` (Tier ${state.tierEquivalent} equiv)`
+	} else if (state.searchItemIds.length > 1) {
+		itemDisplay += ` (All tiers)`
+	}
+
+	lines.push(`┌${'─'.repeat(W)}┐`)
+	lines.push(`│ ${`ALBION PRICE CHECKER`.padEnd(W - 2)} │`)
+	lines.push(
+		`│ ${`🔍 Item: ${itemDisplay}`.padEnd(W / 2)}${`⚡ Uptime: ${uptime}`.padEnd(W / 2 - 2)} │`,
+	)
+	lines.push(`├${'─'.repeat(W)}┤`)
+
+	// Check if items have quality levels (equipment always does)
+	const hasQuality = state.searchItemIds.some((id) => ITEMS_WITH_QUALITY.has(id))
+	const isBlackMarketItem = state.searchItemIds.some((id) => BLACK_MARKET_ITEMS.has(id))
+	// Show tier column if we have multiple item variants
+	const showTier = state.searchItemIds.length > 1
+
+	// Build a merged view of both data sources
+	type MergedRow = {
+		itemId: string
+		tier: number
+		enchant: number
+		city: string
+		quality: number
+		// API data
+		apiSellPrice: number
+		apiSellDate: string
+		apiBuyPrice: number
+		apiBuyDate: string
+		// Real-time data
+		rtSellPrice: number | null
+		rtSellUpdated: number | null
+		rtBuyPrice: number | null
+		rtBuyUpdated: number | null
+	}
+
+	const mergedMap = new Map<string, MergedRow>()
+
+	// Add API results
+	for (const r of state.searchResults) {
+		if (!hasQuality && r.quality !== 1) continue
+		if (!isBlackMarketItem && r.city === 'Black Market') continue
+
+		const parsed = parseItemId(r.itemId)
+		const key = `${r.itemId}-${r.city}-${r.quality}`
+		mergedMap.set(key, {
+			itemId: r.itemId,
+			tier: parsed?.tier ?? 0,
+			enchant: parsed?.enchant ?? 0,
+			city: r.city,
+			quality: r.quality,
+			apiSellPrice: r.sellPrice,
+			apiSellDate: r.sellDate,
+			apiBuyPrice: r.buyPrice,
+			apiBuyDate: r.buyDate,
+			rtSellPrice: null,
+			rtSellUpdated: null,
+			rtBuyPrice: null,
+			rtBuyUpdated: null,
+		})
+	}
+
+	// Merge real-time results
+	for (const r of state.orderBookResults) {
+		if (!hasQuality && r.quality !== 1) continue
+		if (!isBlackMarketItem && r.city === 'Black Market') continue
+
+		const parsed = parseItemId(r.itemId)
+		const key = `${r.itemId}-${r.city}-${r.quality}`
+		const existing = mergedMap.get(key)
+		if (existing) {
+			existing.rtSellPrice = r.sellPrice
+			existing.rtSellUpdated = r.sellUpdated
+			existing.rtBuyPrice = r.buyPrice
+			existing.rtBuyUpdated = r.buyUpdated
+		} else {
+			mergedMap.set(key, {
+				itemId: r.itemId,
+				tier: parsed?.tier ?? 0,
+				enchant: parsed?.enchant ?? 0,
+				city: r.city,
+				quality: r.quality,
+				apiSellPrice: 0,
+				apiSellDate: '',
+				apiBuyPrice: 0,
+				apiBuyDate: '',
+				rtSellPrice: r.sellPrice,
+				rtSellUpdated: r.sellUpdated,
+				rtBuyPrice: r.buyPrice,
+				rtBuyUpdated: r.buyUpdated,
+			})
+		}
+	}
+
+	const mergedRows = Array.from(mergedMap.values()).sort((a, b) => {
+		// Sort by best available sell price
+		const aPrice = a.rtSellPrice ?? a.apiSellPrice ?? Infinity
+		const bPrice = b.rtSellPrice ?? b.apiSellPrice ?? Infinity
+		return aPrice - bPrice
+	})
+
+	if (mergedRows.length === 0) {
+		lines.push(`│ ${`No prices found for this item`.padEnd(W - 2)} │`)
+	} else {
+		// Header - show both API and Real-Time columns
+		const tierW = showTier ? 7 : 0
+		const cityW = 15
+		const qualW = hasQuality ? 5 : 0
+		const priceW = 10
+		const dateW = 12
+
+		// Column headers
+		const apiHeader = `API Sell`.padEnd(priceW) + `Updated`.padEnd(dateW) + `API Buy`.padEnd(priceW) + `Updated`.padEnd(dateW)
+		const rtHeader = `RT Sell`.padEnd(priceW) + `Updated`.padEnd(dateW) + `RT Buy`.padEnd(priceW) + `Updated`.padEnd(dateW)
+
+		const tierHeader = showTier ? `Tier`.padEnd(tierW) : ''
+		const qualHeader = hasQuality ? `Qual`.padEnd(qualW) : ''
+
+		lines.push(
+			`│ ${tierHeader}${`City`.padEnd(cityW)}${qualHeader}│ ${apiHeader}│ ${rtHeader}│`,
+		)
+		lines.push(`├${'─'.repeat(W)}┤`)
+
+		// Data rows
+		for (const row of mergedRows) {
+			const tierStr = showTier ? `T${row.tier}.${row.enchant}`.padEnd(tierW) : ''
+			const qualStr = hasQuality ? `Q${row.quality}`.padEnd(qualW) : ''
+
+			const apiSellStr = row.apiSellPrice > 0 ? formatSilver(row.apiSellPrice) : '-'
+			const apiSellDateStr = row.apiSellDate && row.apiSellDate !== '0001-01-01T00:00:00' ? formatTimeAgo(new Date(row.apiSellDate)) : '-'
+			const apiBuyStr = row.apiBuyPrice > 0 ? formatSilver(row.apiBuyPrice) : '-'
+			const apiBuyDateStr = row.apiBuyDate && row.apiBuyDate !== '0001-01-01T00:00:00' ? formatTimeAgo(new Date(row.apiBuyDate)) : '-'
+
+			const rtSellStr = row.rtSellPrice ? formatSilver(row.rtSellPrice) : '-'
+			const rtSellDateStr = row.rtSellUpdated && row.rtSellUpdated > 0 ? formatTimeAgo(new Date(row.rtSellUpdated)) : '-'
+			const rtBuyStr = row.rtBuyPrice ? formatSilver(row.rtBuyPrice) : '-'
+			const rtBuyDateStr = row.rtBuyUpdated && row.rtBuyUpdated > 0 ? formatTimeAgo(new Date(row.rtBuyUpdated)) : '-'
+
+			const apiCols = `${apiSellStr.padEnd(priceW)}${apiSellDateStr.padEnd(dateW)}${apiBuyStr.padEnd(priceW)}${apiBuyDateStr.padEnd(dateW)}`
+			const rtCols = `${rtSellStr.padEnd(priceW)}${rtSellDateStr.padEnd(dateW)}${rtBuyStr.padEnd(priceW)}${rtBuyDateStr.padEnd(dateW)}`
+
+			lines.push(
+				`│ ${tierStr}${row.city.padEnd(cityW)}${qualStr}│ ${apiCols}│ ${rtCols}│`,
+			)
+		}
+	}
+
+	lines.push(`├${'─'.repeat(W)}┤`)
+	lines.push(
+		`│ ${`Last refresh: ${state.lastRefresh ? formatTimeAgo(state.lastRefresh) : 'Never'}`.padEnd(W - 2)} │`,
+	)
+	lines.push(`├${'─'.repeat(W)}┤`)
+	lines.push(
+		`│ ${`Press [r] to refresh | [s] to search another item | [q] to quit`.padEnd(W - 2)} │`,
+	)
+	lines.push(`└${'─'.repeat(W)}┘`)
+
+	console.log(lines.join('\n'))
+}
+
+// ============================================================================
+// FORMATTING
+// ============================================================================
+
+function formatDuration(ms: number): string {
+	const s = Math.floor(ms / 1000),
+		m = Math.floor(s / 60),
+		h = Math.floor(m / 60)
+	if (h > 0) return `${h}h ${m % 60}m`
+	if (m > 0) return `${m}m ${s % 60}s`
+	return `${s}s`
+}
+
+function formatSilver(amount: number): string {
+	if (amount >= 1_000_000) return (amount / 1_000_000).toFixed(1) + 'M'
+	if (amount >= 1_000) return (amount / 1_000).toFixed(1) + 'K'
+	return String(amount)
+}
+
+function formatTimeAgo(date: Date): string {
+	const s = Math.floor((Date.now() - date.getTime()) / 1000)
+	if (s < 60) return `${s}s ago`
+	const m = Math.floor(s / 60)
+	if (m < 60) return `${m}m ago`
+	return `${Math.floor(m / 60)}h ${m % 60}m ago`
+}
