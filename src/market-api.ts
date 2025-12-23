@@ -157,7 +157,7 @@ export function getInstantBuyPrice(
 
 	query += ' ORDER BY sell_price_min ASC LIMIT 1'
 
-	const row = db.prepare(query).get(...params) as
+	const row = db.query(query).get(...params) as
 		| {
 				city: string
 				quality: number
@@ -205,7 +205,7 @@ export function getInstantSellPrice(
 
 	query += ' ORDER BY buy_price_max DESC LIMIT 1'
 
-	const row = db.prepare(query).get(...params) as
+	const row = db.query(query).get(...params) as
 		| {
 				city: string
 				quality: number
@@ -344,7 +344,7 @@ export function getBaselinePrice(
 		params.push(options.city)
 	}
 
-	const row = db.prepare(query).get(...params) as {
+	const row = db.query(query).get(...params) as {
 		avg_price: number | null
 		total_volume: number | null
 	}
@@ -376,7 +376,7 @@ export function getRecentPrice(
 
 	query += ' ORDER BY timestamp DESC LIMIT 1'
 
-	const row = db.prepare(query).get(...params) as
+	const row = db.query(query).get(...params) as
 		| { avg_price: number; timestamp: string }
 		| undefined
 
@@ -411,7 +411,7 @@ export function getHourlyPrices(
 
 	query += ' ORDER BY timestamp ASC'
 
-	const rows = db.prepare(query).all(...params) as {
+	const rows = db.query(query).all(...params) as {
 		timestamp: string
 		avg_price: number
 		item_count: number
@@ -448,7 +448,7 @@ export function getPriceTrend(
 
 	query += ' ORDER BY timestamp DESC LIMIT 28'
 
-	const rows = db.prepare(query).all(...params) as {
+	const rows = db.query(query).all(...params) as {
 		avg_price: number
 		timestamp: string
 	}[]
@@ -510,7 +510,7 @@ export function getDailyVolume(
 		params.push(options.city)
 	}
 
-	const row = db.prepare(query).get(...params) as { avg_volume: number | null }
+	const row = db.query(query).get(...params) as { avg_volume: number | null }
 
 	return Math.round(row?.avg_volume ?? 0)
 }
@@ -543,7 +543,7 @@ export function getVolumeHistory(
 
 	query += ' ORDER BY timestamp ASC'
 
-	const rows = db.prepare(query).all(...params) as {
+	const rows = db.query(query).all(...params) as {
 		timestamp: string
 		item_count: number
 	}[]
@@ -741,7 +741,7 @@ export function getOrderBookDepth(
 
 	query += ' GROUP BY price ORDER BY price ASC'
 
-	const rows = db.prepare(query).all(...params) as {
+	const rows = db.query(query).all(...params) as {
 		price: number
 		quantity: number
 		updated_at: number
@@ -814,7 +814,7 @@ export function getDataAge(
 		params.unshift(options.city)
 	}
 
-	const row = db.prepare(query).get(...params) as {
+	const row = db.query(query).get(...params) as {
 		last_updated: number | string | null
 	}
 

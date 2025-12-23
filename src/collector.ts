@@ -280,7 +280,7 @@ async function startCollector(state: CollectorState): Promise<void> {
 
 function cleanupExpiredOrders(): void {
 	const now = new Date().toISOString()
-	db.prepare('DELETE FROM order_book WHERE expires < ?').run(now)
+	db.query('DELETE FROM order_book WHERE expires < ?').run(now)
 }
 
 // ============================================================================
@@ -339,7 +339,7 @@ function handleMarketOrder(
 	const orderType = order.AuctionType === 'offer' ? 'sell' : 'buy'
 
 	// Store/update the order in the order book
-	db.prepare(
+	db.query(
 		`
 		INSERT INTO order_book (order_id, item_id, city, quality, price, amount, order_type, expires, updated_at)
 		VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
@@ -387,7 +387,7 @@ async function syncDailyPrices(state: CollectorState): Promise<void> {
 		)
 		state.dailySyncTotal = urls.length
 
-		const insertStmt = db.prepare(`
+		const insertStmt = db.query(`
 			INSERT OR REPLACE INTO daily_average_prices
 			(item_id, city, quality, timestamp, item_count, avg_price)
 			VALUES (?, ?, ?, ?, ?, ?)
@@ -463,7 +463,7 @@ async function syncLatestPrices(state: CollectorState): Promise<void> {
 		const urls = buildBatchedUrls(itemsToFetch, `${API_BASE_URL}/prices/`, '')
 		state.latestSyncTotal = urls.length
 
-		const insertStmt = db.prepare(`
+		const insertStmt = db.query(`
 			INSERT OR REPLACE INTO latest_prices
 			(item_id, city, quality, sell_price_min, sell_price_min_date, sell_price_max, sell_price_max_date,
 			 buy_price_min, buy_price_min_date, buy_price_max, buy_price_max_date, fetched_at)
@@ -534,7 +534,7 @@ async function syncSixHourPrices(state: CollectorState): Promise<void> {
 		)
 		state.sixHourSyncTotal = urls.length
 
-		const insertStmt = db.prepare(`
+		const insertStmt = db.query(`
 			INSERT OR REPLACE INTO six_hour_average_prices
 			(item_id, city, quality, timestamp, item_count, avg_price)
 			VALUES (?, ?, ?, ?, ?, ?)
@@ -603,7 +603,7 @@ async function syncHourlyPrices(state: CollectorState): Promise<void> {
 		)
 		state.hourlySyncTotal = urls.length
 
-		const insertStmt = db.prepare(`
+		const insertStmt = db.query(`
 			INSERT OR REPLACE INTO hourly_average_prices
 			(item_id, city, quality, timestamp, item_count, avg_price)
 			VALUES (?, ?, ?, ?, ?, ?)
@@ -869,7 +869,7 @@ function showDashboard(state: CollectorState): void {
 function getDailyStats(): { records: number; items: number; days: number } {
 	return {
 		records: (
-			db.prepare('SELECT COUNT(*) as c FROM daily_average_prices').get() as {
+			db.query('SELECT COUNT(*) as c FROM daily_average_prices').get() as {
 				c: number
 			}
 		).c,
@@ -893,7 +893,7 @@ function getDailyStats(): { records: number; items: number; days: number } {
 function getLatestStats(): { records: number; items: number; cities: number } {
 	return {
 		records: (
-			db.prepare('SELECT COUNT(*) as c FROM latest_prices').get() as {
+			db.query('SELECT COUNT(*) as c FROM latest_prices').get() as {
 				c: number
 			}
 		).c,
@@ -917,7 +917,7 @@ function getSixHourStats(): {
 } {
 	return {
 		records: (
-			db.prepare('SELECT COUNT(*) as c FROM six_hour_average_prices').get() as {
+			db.query('SELECT COUNT(*) as c FROM six_hour_average_prices').get() as {
 				c: number
 			}
 		).c,
@@ -941,7 +941,7 @@ function getSixHourStats(): {
 function getHourlyStats(): { records: number; items: number; hours: number } {
 	return {
 		records: (
-			db.prepare('SELECT COUNT(*) as c FROM hourly_average_prices').get() as {
+			db.query('SELECT COUNT(*) as c FROM hourly_average_prices').get() as {
 				c: number
 			}
 		).c,
@@ -965,7 +965,7 @@ function getHourlyStats(): { records: number; items: number; hours: number } {
 function getOrderBookStats(): { orders: number } {
 	return {
 		orders: (
-			db.prepare('SELECT COUNT(*) as c FROM order_book').get() as {
+			db.query('SELECT COUNT(*) as c FROM order_book').get() as {
 				c: number
 			}
 		).c,

@@ -272,7 +272,7 @@ function getBestPrice(
 		: `SELECT city, sell_price_min as price FROM latest_prices WHERE item_id = ? AND sell_price_min > 0 ORDER BY sell_price_min ASC LIMIT 1`
 
 	const params = preferredCity ? [itemId, preferredCity] : [itemId]
-	const result = db.prepare(query).get(...params) as
+	const result = db.query(query).get(...params) as
 		| { price: number; city: string }
 		| undefined
 

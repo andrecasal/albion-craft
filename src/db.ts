@@ -1,23 +1,19 @@
 import { remember } from '@epic-web/remember'
-import Database from 'better-sqlite3'
+import { Database } from 'bun:sqlite'
 import * as path from 'path'
 import * as fs from 'fs'
 
 const DB_PATH = path.join(process.cwd(), 'src', 'data', 'database.sqlite')
 
-export const db = remember('sqlite-db', () => {
-	// Ensure directory exists
-	const dir = path.dirname(DB_PATH)
-	if (!fs.existsSync(dir)) {
-		fs.mkdirSync(dir, { recursive: true })
-	}
+// Allow tests to override the database
+let testDb: Database | null = null
 
-	const instance = new Database(DB_PATH)
-	instance.pragma('journal_mode = WAL')
-	instance.pragma('synchronous = NORMAL')
+export function setTestDatabase(database: Database | null): void {
+	testDb = database
+}
 
-	// Initialize tables
-	instance.exec(`
+export function initializeSchema(instance: Database): void {
+	instance.run(`
 		CREATE TABLE IF NOT EXISTS latest_prices (
 			item_id TEXT NOT NULL,
 			city TEXT NOT NULL,
@@ -95,8 +91,32 @@ export const db = remember('sqlite-db', () => {
 		CREATE INDEX IF NOT EXISTS idx_order_book_type ON order_book(order_type);
 		CREATE INDEX IF NOT EXISTS idx_order_book_expires ON order_book(expires);
 	`)
+}
 
+const productionDb = remember('sqlite-db', () => {
+	// Ensure directory exists
+	const dir = path.dirname(DB_PATH)
+	if (!fs.existsSync(dir)) {
+		fs.mkdirSync(dir, { recursive: true })
+	}
+
+	const instance = new Database(DB_PATH)
+	instance.run('PRAGMA journal_mode = WAL')
+	instance.run('PRAGMA synchronous = NORMAL')
+	initializeSchema(instance)
 	return instance
+})
+
+// Export a getter that returns test db if set, otherwise production db
+export const db = new Proxy({} as Database, {
+	get(_target, prop) {
+		const activeDb = testDb ?? productionDb
+		const value = (activeDb as any)[prop]
+		if (typeof value === 'function') {
+			return value.bind(activeDb)
+		}
+		return value
+	},
 })
 
 export function getDatabaseSize(): number {

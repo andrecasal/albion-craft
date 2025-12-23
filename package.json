@@ -6,12 +6,14 @@
 	"main": "dist/index.js",
 	"scripts": {
 		"sniffer": "sudo ./client/sniffer-darwin-amd64",
-		"collector": "tsx src/collector.ts",
-		"price-checker": "tsx src/price-checker.ts",
-		"shopping-tracker": "tsx src/shopping-tracker.ts",
-		"crafting-planner": "tsx src/crafting-planner.ts",
-		"typecheck": "tsc --noEmit",
-		"format": "prettier --write ."
+		"collector": "bun src/collector.ts",
+		"price-checker": "bun src/price-checker.ts",
+		"shopping-tracker": "bun src/shopping-tracker.ts",
+		"crafting-planner": "bun src/crafting-planner.ts",
+		"typecheck": "bun x tsc --noEmit",
+		"format": "bun x prettier --write .",
+		"test": "bun test",
+		"test:watch": "bun test --watch"
 	},
 	"keywords": [
 		"albion-online",
@@ -23,17 +25,14 @@
 	"license": "MIT",
 	"devDependencies": {
 		"@epic-web/config": "^1.21.3",
-		"@types/better-sqlite3": "^7.6.13",
+		"@types/bun": "^1.1.14",
 		"@types/node": "^20.10.0",
 		"prettier": "^3.7.4",
-		"ts-node": "^10.9.2",
-		"tsx": "^4.21.0",
 		"typescript": "^5.3.3"
 	},
 	"dependencies": {
 		"@epic-web/remember": "^1.1.0",
 		"@inquirer/prompts": "^7.10.1",
-		"better-sqlite3": "^9.2.2",
 		"csv-parser": "^3.0.0",
 		"csv-writer": "^1.6.0",
 		"dotenv": "^17.2.3",

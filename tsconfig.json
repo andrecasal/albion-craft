@@ -14,11 +14,8 @@
 		"resolveJsonModule": true,
 		"moduleResolution": "bundler",
 		"types": [
-			"node"
+			"bun"
 		]
-	},
-	"ts-node": {
-		"esm": true
 	},
 	"include": [
 		"src/**/*"
