@@ -23,7 +23,6 @@ type PriceCheckerState = {
 	searchItemName: string | null
 	tierEquivalent: number | null // null means show all
 	searchResults: CityPrice[]
-	orderBookResults: OrderBookPrice[]
 	lastRefresh: Date | null
 }
 
@@ -37,15 +36,6 @@ type CityPrice = {
 	quality: number
 }
 
-type OrderBookPrice = {
-	itemId: string
-	city: string
-	quality: number
-	sellPrice: number | null
-	sellUpdated: number | null
-	buyPrice: number | null
-	buyUpdated: number | null
-}
 
 // ============================================================================
 // CONFIGURATION
@@ -187,7 +177,6 @@ async function main(): Promise<void> {
 		searchItemName: null,
 		tierEquivalent: null,
 		searchResults: [],
-		orderBookResults: [],
 		lastRefresh: null,
 	}
 
@@ -218,7 +207,6 @@ async function main(): Promise<void> {
 
 		state.searchItemName = selectedItem.name
 		state.searchResults = []
-		state.orderBookResults = []
 		state.lastRefresh = null
 
 		await startPriceChecker(state)
@@ -389,30 +377,7 @@ function refreshPrices(state: PriceCheckerState): void {
 		)
 		.all(...state.searchItemIds) as CityPrice[]
 
-	// Fetch from order_book (real-time stream data)
-	// Get best sell (lowest offer) and best buy (highest request) per item/city/quality
-	// Prices are stored in raw units (10000 = 1 silver), converted at display time
-	const orderBookResults = db
-		.prepare(
-			`
-			SELECT
-				item_id as itemId,
-				city,
-				quality,
-				MIN(CASE WHEN order_type = 'sell' THEN price END) as sellPrice,
-				MAX(CASE WHEN order_type = 'sell' THEN updated_at END) as sellUpdated,
-				MAX(CASE WHEN order_type = 'buy' THEN price END) as buyPrice,
-				MAX(CASE WHEN order_type = 'buy' THEN updated_at END) as buyUpdated
-			FROM order_book
-			WHERE item_id IN (${placeholders}) AND expires > datetime('now')
-			GROUP BY item_id, city, quality
-			ORDER BY sellPrice ASC
-		`,
-		)
-		.all(...state.searchItemIds) as OrderBookPrice[]
-
 	state.searchResults = results
-	state.orderBookResults = orderBookResults
 	state.lastRefresh = new Date()
 }
 
@@ -449,132 +414,68 @@ function showDashboard(state: PriceCheckerState): void {
 	// Show tier column if we have multiple item variants
 	const showTier = state.searchItemIds.length > 1
 
-	// Build a merged view of both data sources
-	type MergedRow = {
+	type PriceRow = {
 		itemId: string
 		tier: number
 		enchant: number
 		city: string
 		quality: number
-		// API data
-		apiSellPrice: number
-		apiSellDate: string
-		apiBuyPrice: number
-		apiBuyDate: string
-		// Real-time data
-		rtSellPrice: number | null
-		rtSellUpdated: number | null
-		rtBuyPrice: number | null
-		rtBuyUpdated: number | null
+		sellPrice: number
+		sellDate: string
+		buyPrice: number
+		buyDate: string
 	}
 
-	const mergedMap = new Map<string, MergedRow>()
-
-	// Add API results
-	for (const r of state.searchResults) {
-		if (!hasQuality && r.quality !== 1) continue
-		if (!isBlackMarketItem && r.city === 'Black Market') continue
-
-		const parsed = parseItemId(r.itemId)
-		const key = `${r.itemId}-${r.city}-${r.quality}`
-		mergedMap.set(key, {
-			itemId: r.itemId,
-			tier: parsed?.tier ?? 0,
-			enchant: parsed?.enchant ?? 0,
-			city: r.city,
-			quality: r.quality,
-			apiSellPrice: r.sellPrice,
-			apiSellDate: r.sellDate,
-			apiBuyPrice: r.buyPrice,
-			apiBuyDate: r.buyDate,
-			rtSellPrice: null,
-			rtSellUpdated: null,
-			rtBuyPrice: null,
-			rtBuyUpdated: null,
+	const rows: PriceRow[] = state.searchResults
+		.filter((r) => {
+			if (!hasQuality && r.quality !== 1) return false
+			if (!isBlackMarketItem && r.city === 'Black Market') return false
+			return true
 		})
-	}
-
-	// Merge real-time results
-	for (const r of state.orderBookResults) {
-		if (!hasQuality && r.quality !== 1) continue
-		if (!isBlackMarketItem && r.city === 'Black Market') continue
-
-		const parsed = parseItemId(r.itemId)
-		const key = `${r.itemId}-${r.city}-${r.quality}`
-		const existing = mergedMap.get(key)
-		if (existing) {
-			existing.rtSellPrice = r.sellPrice
-			existing.rtSellUpdated = r.sellUpdated
-			existing.rtBuyPrice = r.buyPrice
-			existing.rtBuyUpdated = r.buyUpdated
-		} else {
-			mergedMap.set(key, {
+		.map((r) => {
+			const parsed = parseItemId(r.itemId)
+			return {
 				itemId: r.itemId,
 				tier: parsed?.tier ?? 0,
 				enchant: parsed?.enchant ?? 0,
 				city: r.city,
 				quality: r.quality,
-				apiSellPrice: 0,
-				apiSellDate: '',
-				apiBuyPrice: 0,
-				apiBuyDate: '',
-				rtSellPrice: r.sellPrice,
-				rtSellUpdated: r.sellUpdated,
-				rtBuyPrice: r.buyPrice,
-				rtBuyUpdated: r.buyUpdated,
-			})
-		}
-	}
+				sellPrice: r.sellPrice,
+				sellDate: r.sellDate,
+				buyPrice: r.buyPrice,
+				buyDate: r.buyDate,
+			}
+		})
+		.sort((a, b) => a.sellPrice - b.sellPrice)
 
-	const mergedRows = Array.from(mergedMap.values()).sort((a, b) => {
-		// Sort by best available sell price
-		const aPrice = a.rtSellPrice ?? a.apiSellPrice ?? Infinity
-		const bPrice = b.rtSellPrice ?? b.apiSellPrice ?? Infinity
-		return aPrice - bPrice
-	})
-
-	if (mergedRows.length === 0) {
+	if (rows.length === 0) {
 		lines.push(`│ ${`No prices found for this item`.padEnd(W - 2)} │`)
 	} else {
-		// Header - show both API and Real-Time columns
 		const tierW = showTier ? 7 : 0
 		const cityW = 15
 		const qualW = hasQuality ? 5 : 0
-		const priceW = 10
-		const dateW = 12
-
-		// Column headers
-		const apiHeader = `API Sell`.padEnd(priceW) + `Updated`.padEnd(dateW) + `API Buy`.padEnd(priceW) + `Updated`.padEnd(dateW)
-		const rtHeader = `RT Sell`.padEnd(priceW) + `Updated`.padEnd(dateW) + `RT Buy`.padEnd(priceW) + `Updated`.padEnd(dateW)
+		const priceW = 12
+		const dateW = 14
 
 		const tierHeader = showTier ? `Tier`.padEnd(tierW) : ''
 		const qualHeader = hasQuality ? `Qual`.padEnd(qualW) : ''
 
 		lines.push(
-			`│ ${tierHeader}${`City`.padEnd(cityW)}${qualHeader}│ ${apiHeader}│ ${rtHeader}│`,
+			`│ ${tierHeader}${`City`.padEnd(cityW)}${qualHeader}│ ${`Sell Price`.padEnd(priceW)}${`Updated`.padEnd(dateW)}│ ${`Buy Price`.padEnd(priceW)}${`Updated`.padEnd(dateW)}│`,
 		)
 		lines.push(`├${'─'.repeat(W)}┤`)
 
-		// Data rows
-		for (const row of mergedRows) {
+		for (const row of rows) {
 			const tierStr = showTier ? `T${row.tier}.${row.enchant}`.padEnd(tierW) : ''
 			const qualStr = hasQuality ? `Q${row.quality}`.padEnd(qualW) : ''
 
-			const apiSellStr = row.apiSellPrice > 0 ? formatSilver(row.apiSellPrice) : '-'
-			const apiSellDateStr = row.apiSellDate && row.apiSellDate !== '0001-01-01T00:00:00' ? formatTimeAgo(new Date(row.apiSellDate)) : '-'
-			const apiBuyStr = row.apiBuyPrice > 0 ? formatSilver(row.apiBuyPrice) : '-'
-			const apiBuyDateStr = row.apiBuyDate && row.apiBuyDate !== '0001-01-01T00:00:00' ? formatTimeAgo(new Date(row.apiBuyDate)) : '-'
-
-			const rtSellStr = row.rtSellPrice ? formatSilver(rawToSilver(row.rtSellPrice)) : '-'
-			const rtSellDateStr = row.rtSellUpdated && row.rtSellUpdated > 0 ? formatTimeAgo(new Date(row.rtSellUpdated)) : '-'
-			const rtBuyStr = row.rtBuyPrice ? formatSilver(rawToSilver(row.rtBuyPrice)) : '-'
-			const rtBuyDateStr = row.rtBuyUpdated && row.rtBuyUpdated > 0 ? formatTimeAgo(new Date(row.rtBuyUpdated)) : '-'
-
-			const apiCols = `${apiSellStr.padEnd(priceW)}${apiSellDateStr.padEnd(dateW)}${apiBuyStr.padEnd(priceW)}${apiBuyDateStr.padEnd(dateW)}`
-			const rtCols = `${rtSellStr.padEnd(priceW)}${rtSellDateStr.padEnd(dateW)}${rtBuyStr.padEnd(priceW)}${rtBuyDateStr.padEnd(dateW)}`
+			const sellStr = row.sellPrice > 0 ? formatSilver(row.sellPrice) : '-'
+			const sellDateStr = row.sellDate && row.sellDate !== '0001-01-01T00:00:00' ? formatTimeAgo(new Date(row.sellDate)) : '-'
+			const buyStr = row.buyPrice > 0 ? formatSilver(row.buyPrice) : '-'
+			const buyDateStr = row.buyDate && row.buyDate !== '0001-01-01T00:00:00' ? formatTimeAgo(new Date(row.buyDate)) : '-'
 
 			lines.push(
-				`│ ${tierStr}${row.city.padEnd(cityW)}${qualStr}│ ${apiCols}│ ${rtCols}│`,
+				`│ ${tierStr}${row.city.padEnd(cityW)}${qualStr}│ ${sellStr.padEnd(priceW)}${sellDateStr.padEnd(dateW)}│ ${buyStr.padEnd(priceW)}${buyDateStr.padEnd(dateW)}│`,
 			)
 		}
 	}
@@ -609,11 +510,6 @@ function formatSilver(amount: number): string {
 	if (amount >= 1_000_000) return (amount / 1_000_000).toFixed(1) + 'M'
 	if (amount >= 1_000) return (amount / 1_000).toFixed(1) + 'K'
 	return String(amount)
-}
-
-/** Convert raw price units (from NATS stream) to silver. 10000 units = 1 silver. */
-function rawToSilver(rawPrice: number): number {
-	return Math.round(rawPrice / 10000)
 }
 
 function formatTimeAgo(date: Date): string {
