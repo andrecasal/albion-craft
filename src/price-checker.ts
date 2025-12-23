@@ -391,6 +391,7 @@ function refreshPrices(state: PriceCheckerState): void {
 
 	// Fetch from order_book (real-time stream data)
 	// Get best sell (lowest offer) and best buy (highest request) per item/city/quality
+	// Prices are stored in raw units (10000 = 1 silver), converted at display time
 	const orderBookResults = db
 		.prepare(
 			`
@@ -564,9 +565,9 @@ function showDashboard(state: PriceCheckerState): void {
 			const apiBuyStr = row.apiBuyPrice > 0 ? formatSilver(row.apiBuyPrice) : '-'
 			const apiBuyDateStr = row.apiBuyDate && row.apiBuyDate !== '0001-01-01T00:00:00' ? formatTimeAgo(new Date(row.apiBuyDate)) : '-'
 
-			const rtSellStr = row.rtSellPrice ? formatSilver(row.rtSellPrice) : '-'
+			const rtSellStr = row.rtSellPrice ? formatSilver(rawToSilver(row.rtSellPrice)) : '-'
 			const rtSellDateStr = row.rtSellUpdated && row.rtSellUpdated > 0 ? formatTimeAgo(new Date(row.rtSellUpdated)) : '-'
-			const rtBuyStr = row.rtBuyPrice ? formatSilver(row.rtBuyPrice) : '-'
+			const rtBuyStr = row.rtBuyPrice ? formatSilver(rawToSilver(row.rtBuyPrice)) : '-'
 			const rtBuyDateStr = row.rtBuyUpdated && row.rtBuyUpdated > 0 ? formatTimeAgo(new Date(row.rtBuyUpdated)) : '-'
 
 			const apiCols = `${apiSellStr.padEnd(priceW)}${apiSellDateStr.padEnd(dateW)}${apiBuyStr.padEnd(priceW)}${apiBuyDateStr.padEnd(dateW)}`
@@ -608,6 +609,11 @@ function formatSilver(amount: number): string {
 	if (amount >= 1_000_000) return (amount / 1_000_000).toFixed(1) + 'M'
 	if (amount >= 1_000) return (amount / 1_000).toFixed(1) + 'K'
 	return String(amount)
+}
+
+/** Convert raw price units (from NATS stream) to silver. 10000 units = 1 silver. */
+function rawToSilver(rawPrice: number): number {
+	return Math.round(rawPrice / 10000)
 }
 
 function formatTimeAgo(date: Date): string {

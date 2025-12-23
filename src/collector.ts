@@ -334,7 +334,8 @@ function handleMarketOrder(
 		return
 	}
 
-	const price = Math.round(order.UnitPriceSilver / 10000)
+	// Store raw UnitPriceSilver (10000 units = 1 silver) to preserve precision for cheap items
+	const price = order.UnitPriceSilver
 	const orderType = order.AuctionType === 'offer' ? 'sell' : 'buy'
 
 	// Store/update the order in the order book
