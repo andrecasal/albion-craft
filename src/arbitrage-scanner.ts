@@ -14,7 +14,10 @@ import {
 	fish,
 	type ItemEntry,
 } from './constants/items'
-import { findArbitrageOpportunities, type ArbitrageOpportunity } from './market-api'
+import {
+	findArbitrageOpportunities,
+	type ArbitrageOpportunity,
+} from './market-api'
 
 // ============================================================================
 // TYPES
@@ -130,7 +133,9 @@ function shutdown(state: ArbitrageScannerState): void {
 // PROMPTS
 // ============================================================================
 
-async function promptForScanConfig(state: ArbitrageScannerState): Promise<void> {
+async function promptForScanConfig(
+	state: ArbitrageScannerState,
+): Promise<void> {
 	// Step 1: Select scan mode
 	const mode = await select<ScanMode>({
 		message: 'Select scan mode:',
@@ -280,8 +285,14 @@ function sortOpportunities(
 	sortBy: SortBy,
 ): ExtendedArbitrageOpportunity[] {
 	return [...opps].sort((a, b) => {
-		const aProfit = sortBy === 'instant' ? (a.instantProfit ?? -Infinity) : (a.undercutProfit ?? -Infinity)
-		const bProfit = sortBy === 'instant' ? (b.instantProfit ?? -Infinity) : (b.undercutProfit ?? -Infinity)
+		const aProfit =
+			sortBy === 'instant'
+				? (a.instantProfit ?? -Infinity)
+				: (a.undercutProfit ?? -Infinity)
+		const bProfit =
+			sortBy === 'instant'
+				? (b.instantProfit ?? -Infinity)
+				: (b.undercutProfit ?? -Infinity)
 		return bProfit - aProfit
 	})
 }
@@ -295,7 +306,7 @@ function showDashboard(state: ArbitrageScannerState): void {
 
 	const uptime = formatDuration(Date.now() - state.startTime)
 
-	const W = 156
+	const W = 160
 	const lines: string[] = []
 
 	// Header
@@ -319,15 +330,16 @@ function showDashboard(state: ArbitrageScannerState): void {
 	}
 
 	// Column headers
-	const itemW = 22
-	const qualW = 3
-	const cityW = 14
-	const priceW = 9
-	const sellW = 9
-	const profitW = 9
-	const pctW = 7
-	const avgW = 9
+	const itemW = 30
+	const qualW = 4
+	const cityW = 16
+	const priceW = 11
+	const avgW = 11
+	const discW = 10
 	const volW = 7
+	const sellW = 11
+	const profitW = 11
+	const pctW = 7
 	const ageW = 5
 
 	// Build header with sort indicators
@@ -335,22 +347,21 @@ function showDashboard(state: ArbitrageScannerState): void {
 	const undercutHdr = state.sortBy === 'undercut' ? '▼Undercut' : 'Undercut'
 
 	lines.push(
-		`│ ${'Item'.padEnd(itemW)}${'Q'.padEnd(qualW)}${'Buy City'.padEnd(cityW)}${'Buy'.padEnd(priceW)}${'Sell City'.padEnd(cityW - 1)}│ ${instantHdr.padEnd(sellW)}${'Profit'.padEnd(profitW)}${'%'.padEnd(pctW - 1)}│ ${undercutHdr.padEnd(sellW)}${'Profit'.padEnd(profitW)}${'%'.padEnd(pctW - 1)}│ ${'Avg30d'.padEnd(avgW)}${'Vol/d'.padEnd(volW)}${'Age'.padEnd(ageW - 1)}│`,
+		`│ ${'Item'.padEnd(itemW)}${'Q'.padEnd(qualW)}${'Buy City'.padEnd(cityW)}${'Buy'.padEnd(priceW)}${'Avg30d'.padEnd(avgW)}${'%'.padEnd(discW)}${'Vol/d'.padEnd(volW)}│ ${'Sell City'.padEnd(cityW - 1)}${instantHdr.padEnd(sellW)}${'Profit'.padEnd(profitW)}${'%'.padEnd(pctW - 1)}│ ${undercutHdr.padEnd(sellW)}${'Profit'.padEnd(profitW)}${'%'.padEnd(pctW - 1)}│ ${'Age'.padEnd(ageW - 1)}│`,
 	)
 	lines.push(`├${'─'.repeat(W)}┤`)
 
 	// Filter opportunities based on Black Market toggle
 	const filteredOpps = state.excludeBlackMarket
 		? state.opportunities.filter(
-				(opp) => opp.buyCity !== 'Black Market' && opp.sellCity !== 'Black Market',
+				(opp) =>
+					opp.buyCity !== 'Black Market' && opp.sellCity !== 'Black Market',
 			)
 		: state.opportunities
 
 	// Results
 	if (filteredOpps.length === 0 && !state.isScanning) {
-		lines.push(
-			`│ ${`No arbitrage opportunities found.`.padEnd(W - 2)} │`,
-		)
+		lines.push(`│ ${`No arbitrage opportunities found.`.padEnd(W - 2)} │`)
 	} else {
 		// Show top 40 opportunities
 		const displayOpps = filteredOpps.slice(0, 40)
@@ -361,18 +372,38 @@ function showDashboard(state: ArbitrageScannerState): void {
 			const avgStr = opp.avgPrice !== null ? formatSilver(opp.avgPrice) : '-'
 			const volStr = formatVolume(opp.dailyVolume)
 
+			// Calculate discount percentage (negative = discounted, positive = inflated)
+			let discStr = '-'
+			if (opp.avgPrice !== null && opp.avgPrice > 0) {
+				const discountPct = ((opp.buyPrice - opp.avgPrice) / opp.avgPrice) * 100
+				const emoji = discountPct <= 0 ? '✅' : '❌'
+				discStr = `${emoji} ${Math.abs(discountPct).toFixed(0)}%`
+			}
+
 			// Instant sell columns
-			const instantSell = opp.instantSellPrice !== null ? formatSilver(opp.instantSellPrice) : '-'
-			const instantProfit = opp.instantProfit !== null ? formatSilver(opp.instantProfit) : '-'
-			const instantPct = opp.instantProfitPercent !== null ? `${opp.instantProfitPercent.toFixed(1)}%` : '-'
+			const instantSell =
+				opp.instantSellPrice !== null ? formatSilver(opp.instantSellPrice) : '-'
+			const instantProfit =
+				opp.instantProfit !== null ? formatSilver(opp.instantProfit) : '-'
+			const instantPct =
+				opp.instantProfitPercent !== null
+					? `${opp.instantProfitPercent.toFixed(1)}%`
+					: '-'
 
 			// Undercut sell columns
-			const undercutSell = opp.undercutSellPrice !== null ? formatSilver(opp.undercutSellPrice) : '-'
-			const undercutProfit = opp.undercutProfit !== null ? formatSilver(opp.undercutProfit) : '-'
-			const undercutPct = opp.undercutProfitPercent !== null ? `${opp.undercutProfitPercent.toFixed(1)}%` : '-'
+			const undercutSell =
+				opp.undercutSellPrice !== null
+					? formatSilver(opp.undercutSellPrice)
+					: '-'
+			const undercutProfit =
+				opp.undercutProfit !== null ? formatSilver(opp.undercutProfit) : '-'
+			const undercutPct =
+				opp.undercutProfitPercent !== null
+					? `${opp.undercutProfitPercent.toFixed(1)}%`
+					: '-'
 
 			lines.push(
-				`│ ${itemDisplay.padEnd(itemW)}${qualStr.padEnd(qualW)}${opp.buyCity.padEnd(cityW)}${formatSilver(opp.buyPrice).padEnd(priceW)}${opp.sellCity.padEnd(cityW - 1)}│ ${instantSell.padEnd(sellW)}${instantProfit.padEnd(profitW)}${instantPct.padEnd(pctW - 1)}│ ${undercutSell.padEnd(sellW)}${undercutProfit.padEnd(profitW)}${undercutPct.padEnd(pctW - 1)}│ ${avgStr.padEnd(avgW)}${volStr.padEnd(volW)}${ageStr.padEnd(ageW - 1)}│`,
+				`│ ${itemDisplay.padEnd(itemW)}${qualStr.padEnd(qualW)}${opp.buyCity.padEnd(cityW)}${formatSilver(opp.buyPrice).padEnd(priceW)}${avgStr.padEnd(avgW)}${discStr.padEnd(opp.avgPrice !== null && opp.avgPrice > 0 ? discW - 1 : discW)}${volStr.padEnd(volW)}| ${opp.sellCity.padEnd(cityW - 1)}${instantSell.padEnd(sellW)}${instantProfit.padEnd(profitW)}${instantPct.padEnd(pctW - 1)}│ ${undercutSell.padEnd(sellW)}${undercutProfit.padEnd(profitW)}${undercutPct.padEnd(pctW - 1)}│ ${ageStr.padEnd(ageW - 1)}│`,
 			)
 		}
 
@@ -388,11 +419,14 @@ function showDashboard(state: ArbitrageScannerState): void {
 	const lastScanStr = state.lastScan
 		? `Last scan: ${formatTimeAgo(state.lastScan)}`
 		: 'Last scan: Never'
-	const blackMarketStr = state.excludeBlackMarket ? 'Black Market: OFF' : 'Black Market: ON'
+	const blackMarketStr = state.excludeBlackMarket
+		? 'Black Market: OFF'
+		: 'Black Market: ON'
 	const sortByStr = `Sort: ${state.sortBy}`
-	const maxAgeStr = state.maxAgeMinutes >= 60
-		? `Max age: ${Math.round(state.maxAgeMinutes / 60)}h`
-		: `Max age: ${state.maxAgeMinutes}min`
+	const maxAgeStr =
+		state.maxAgeMinutes >= 60
+			? `Max age: ${Math.round(state.maxAgeMinutes / 60)}h`
+			: `Max age: ${state.maxAgeMinutes}min`
 	lines.push(
 		`│ ${lastScanStr.padEnd(W / 4)}${blackMarketStr.padEnd(W / 4)}${sortByStr.padEnd(W / 4)}${maxAgeStr.padEnd(W / 4 - 2)} │`,
 	)
@@ -441,7 +475,10 @@ function waitForKeypress(state: ArbitrageScannerState): Promise<void> {
 			// 't' to toggle sort
 			if (char === 't' || char === 'T') {
 				state.sortBy = state.sortBy === 'instant' ? 'undercut' : 'instant'
-				state.opportunities = sortOpportunities(state.opportunities, state.sortBy)
+				state.opportunities = sortOpportunities(
+					state.opportunities,
+					state.sortBy,
+				)
 				showDashboard(state)
 				return
 			}

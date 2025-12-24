@@ -681,12 +681,14 @@ export function getRevenueFromSelling(
 	const maxAge = options?.maxAgeMinutes ?? DEFAULT_MAX_AGE_MINUTES.orderBook
 	const minUpdatedAt = Date.now() - maxAge * 60000
 
+	// Buy orders for quality N accept items of quality N or higher.
+	// So when selling a quality 3 item, we can fill buy orders for quality 1, 2, or 3.
 	const orders = db
 		.prepare(
 			`
 		SELECT price, amount
 		FROM order_book
-		WHERE item_id = ? AND city = ? AND quality = ?
+		WHERE item_id = ? AND city = ? AND quality <= ?
 			AND order_type = 'buy'
 			AND updated_at > ? AND expires > datetime('now')
 		ORDER BY price DESC
