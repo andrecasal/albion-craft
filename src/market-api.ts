@@ -740,10 +740,15 @@ export function getOrderBookDepth(
 	const maxAge = options?.maxAgeMinutes ?? DEFAULT_MAX_AGE_MINUTES.orderBook
 	const minUpdatedAt = Date.now() - maxAge * 60000
 
+	// Buy orders for quality N accept items of quality N or higher.
+	// So when selling a quality 3 item, we can fill buy orders for quality 1, 2, or 3.
+	// Sell orders require exact quality match.
+	const qualityOperator = options?.orderType === 'buy' ? '<=' : '='
+
 	let query = `
 		SELECT price, SUM(amount) as quantity, MAX(updated_at) as updated_at
 		FROM order_book
-		WHERE item_id = ? AND city = ? AND quality = ?
+		WHERE item_id = ? AND city = ? AND quality ${qualityOperator} ?
 			AND updated_at > ? AND expires > datetime('now')
 	`
 	const params: (string | number)[] = [itemId, city, quality, minUpdatedAt]
