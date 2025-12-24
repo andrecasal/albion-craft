@@ -28,6 +28,7 @@ export type CityPriceComparison = {
 	buyPrice: number | null
 	sellPrice: number | null
 	spread: number | null
+	fetchedAt: number // timestamp in ms
 }
 
 export type PricePoint = {
@@ -72,9 +73,16 @@ export type ArbitrageOpportunity = {
 	buyCity: string
 	sellCity: string
 	buyPrice: number
-	sellPrice: number
-	profit: number
-	profitPercent: number
+	// Instant sell (to highest buy order in destination)
+	instantSellPrice: number | null
+	instantProfit: number | null
+	instantProfitPercent: number | null
+	// Undercut sell (1 silver below lowest sell order in destination)
+	undercutSellPrice: number | null
+	undercutProfit: number | null
+	undercutProfitPercent: number | null
+	dataAgeMinutes: number // Age of the oldest price data used
+	quality: number
 }
 
 export type CraftingCostResult = {
@@ -290,7 +298,7 @@ export function getBestPrices(
 	const rows = db
 		.prepare(
 			`
-		SELECT city, sell_price_min, buy_price_max
+		SELECT city, sell_price_min, buy_price_max, fetched_at
 		FROM latest_prices
 		WHERE item_id = ? AND quality = ? AND fetched_at > ?
 		ORDER BY sell_price_min ASC
@@ -300,6 +308,7 @@ export function getBestPrices(
 		city: string
 		sell_price_min: number
 		buy_price_max: number
+		fetched_at: number
 	}[]
 
 	return rows.map((row) => ({
@@ -310,6 +319,7 @@ export function getBestPrices(
 			row.sell_price_min > 0 && row.buy_price_max > 0
 				? row.sell_price_min - row.buy_price_max
 				: null,
+		fetchedAt: row.fetched_at,
 	}))
 }
 
@@ -841,13 +851,18 @@ export function getDataAge(
 /**
  * Find cross-city arbitrage opportunities for an item.
  * Returns pairs of cities where you can buy low and sell high.
+ * Each opportunity includes both instant sell and undercut options.
  */
 export function findArbitrageOpportunities(
 	itemId: string,
-	options?: { minProfitPercent?: number; quality?: number },
+	options?: { minProfitPercent?: number; quality?: number; maxAgeMinutes?: number },
 ): ArbitrageOpportunity[] {
 	const minProfit = options?.minProfitPercent ?? 5
-	const prices = getBestPrices(itemId, options)
+	const quality = options?.quality ?? 1
+	const prices = getBestPrices(itemId, {
+		quality,
+		maxAgeMinutes: options?.maxAgeMinutes,
+	})
 
 	const opportunities: ArbitrageOpportunity[] = []
 
@@ -856,27 +871,63 @@ export function findArbitrageOpportunities(
 		if (buyCity.buyPrice === null) continue
 
 		for (const sellCity of prices) {
-			if (sellCity.sellPrice === null) continue
 			if (buyCity.city === sellCity.city) continue
 
-			const profit = sellCity.sellPrice - buyCity.buyPrice
-			const profitPercent = (profit / buyCity.buyPrice) * 100
+			// Use the older of the two timestamps to show worst-case data age
+			const oldestFetchedAt = Math.min(buyCity.fetchedAt, sellCity.fetchedAt)
+			const dataAgeMinutes = Math.round((Date.now() - oldestFetchedAt) / 60000)
 
-			if (profitPercent >= minProfit) {
+			// Calculate instant sell profit (sell to highest buy order)
+			let instantSellPrice: number | null = null
+			let instantProfit: number | null = null
+			let instantProfitPercent: number | null = null
+
+			if (sellCity.sellPrice !== null) {
+				instantSellPrice = sellCity.sellPrice
+				instantProfit = instantSellPrice - buyCity.buyPrice
+				instantProfitPercent = Math.round((instantProfit / buyCity.buyPrice) * 1000) / 10
+			}
+
+			// Calculate undercut profit (place sell order 1 silver below lowest sell order in sell city)
+			let undercutSellPrice: number | null = null
+			let undercutProfit: number | null = null
+			let undercutProfitPercent: number | null = null
+
+			const lowestSellInDestination = sellCity.buyPrice // buyPrice in CityPriceComparison is the lowest sell order
+			if (lowestSellInDestination !== null) {
+				undercutSellPrice = lowestSellInDestination - 1
+				undercutProfit = undercutSellPrice - buyCity.buyPrice
+				undercutProfitPercent = Math.round((undercutProfit / buyCity.buyPrice) * 1000) / 10
+			}
+
+			// Include if either strategy meets the minimum profit threshold
+			const instantMeetsThreshold = instantProfitPercent !== null && instantProfitPercent >= minProfit
+			const undercutMeetsThreshold = undercutProfitPercent !== null && undercutProfitPercent >= minProfit
+
+			if (instantMeetsThreshold || undercutMeetsThreshold) {
 				opportunities.push({
 					buyCity: buyCity.city,
 					sellCity: sellCity.city,
 					buyPrice: buyCity.buyPrice,
-					sellPrice: sellCity.sellPrice,
-					profit,
-					profitPercent: Math.round(profitPercent * 10) / 10,
+					instantSellPrice,
+					instantProfit,
+					instantProfitPercent,
+					undercutSellPrice,
+					undercutProfit,
+					undercutProfitPercent,
+					dataAgeMinutes,
+					quality,
 				})
 			}
 		}
 	}
 
-	// Sort by profit percentage descending
-	return opportunities.sort((a, b) => b.profitPercent - a.profitPercent)
+	// Sort by best available profit percentage descending
+	return opportunities.sort((a, b) => {
+		const aMax = Math.max(a.instantProfitPercent ?? -Infinity, a.undercutProfitPercent ?? -Infinity)
+		const bMax = Math.max(b.instantProfitPercent ?? -Infinity, b.undercutProfitPercent ?? -Infinity)
+		return bMax - aMax
+	})
 }
 
 /**
