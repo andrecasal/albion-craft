@@ -74,7 +74,6 @@ const CATEGORIES: Category[] = [
 	{ name: 'Fish', items: fish as ItemEntry[] },
 ]
 
-const SCAN_INTERVAL_MS = 60_000 // 1 minute
 const DEFAULT_MAX_AGE_MINUTES = 60 * 24 // Accept prices up to 24 hours old
 
 // ============================================================================
@@ -97,8 +96,8 @@ async function main(): Promise<void> {
 		selectedLabel: '',
 		minProfitPercent: 1,
 		maxAgeMinutes: DEFAULT_MAX_AGE_MINUTES,
-		excludeBlackMarket: false,
-		sortBy: 'undercut',
+		excludeBlackMarket: true,
+		sortBy: 'instant',
 
 		// Results
 		opportunities: [],
@@ -213,13 +212,7 @@ async function startScanner(state: ArbitrageScannerState): Promise<void> {
 	await scanForArbitrage(state)
 	showDashboard(state)
 
-	// Periodic scans
-	state.scanTimer = setInterval(async () => {
-		await scanForArbitrage(state)
-		showDashboard(state)
-	}, SCAN_INTERVAL_MS)
-
-	// Wait for keypresses
+	// Wait for keypresses (manual refresh only)
 	await waitForKeypress(state)
 }
 
@@ -302,7 +295,7 @@ function showDashboard(state: ArbitrageScannerState): void {
 
 	const uptime = formatDuration(Date.now() - state.startTime)
 
-	const W = 140
+	const W = 156
 	const lines: string[] = []
 
 	// Header
@@ -333,6 +326,8 @@ function showDashboard(state: ArbitrageScannerState): void {
 	const sellW = 9
 	const profitW = 9
 	const pctW = 7
+	const avgW = 9
+	const volW = 7
 	const ageW = 5
 
 	// Build header with sort indicators
@@ -340,7 +335,7 @@ function showDashboard(state: ArbitrageScannerState): void {
 	const undercutHdr = state.sortBy === 'undercut' ? '▼Undercut' : 'Undercut'
 
 	lines.push(
-		`│ ${'Item'.padEnd(itemW)}${'Q'.padEnd(qualW)}${'Buy City'.padEnd(cityW)}${'Buy'.padEnd(priceW)}${'Sell City'.padEnd(cityW)}${instantHdr.padEnd(sellW)}${'Profit'.padEnd(profitW)}${'%'.padEnd(pctW)}${undercutHdr.padEnd(sellW)}${'Profit'.padEnd(profitW)}${'%'.padEnd(pctW)}${'Age'.padEnd(ageW)}│`,
+		`│ ${'Item'.padEnd(itemW)}${'Q'.padEnd(qualW)}${'Buy City'.padEnd(cityW)}${'Buy'.padEnd(priceW)}${'Sell City'.padEnd(cityW - 1)}│ ${instantHdr.padEnd(sellW)}${'Profit'.padEnd(profitW)}${'%'.padEnd(pctW - 1)}│ ${undercutHdr.padEnd(sellW)}${'Profit'.padEnd(profitW)}${'%'.padEnd(pctW - 1)}│ ${'Avg30d'.padEnd(avgW)}${'Vol/d'.padEnd(volW)}${'Age'.padEnd(ageW - 1)}│`,
 	)
 	lines.push(`├${'─'.repeat(W)}┤`)
 
@@ -363,6 +358,8 @@ function showDashboard(state: ArbitrageScannerState): void {
 			const itemDisplay = truncate(opp.displayName, itemW - 1)
 			const qualStr = `${opp.quality}`
 			const ageStr = formatDataAge(opp.dataAgeMinutes)
+			const avgStr = opp.avgPrice !== null ? formatSilver(opp.avgPrice) : '-'
+			const volStr = formatVolume(opp.dailyVolume)
 
 			// Instant sell columns
 			const instantSell = opp.instantSellPrice !== null ? formatSilver(opp.instantSellPrice) : '-'
@@ -375,7 +372,7 @@ function showDashboard(state: ArbitrageScannerState): void {
 			const undercutPct = opp.undercutProfitPercent !== null ? `${opp.undercutProfitPercent.toFixed(1)}%` : '-'
 
 			lines.push(
-				`│ ${itemDisplay.padEnd(itemW)}${qualStr.padEnd(qualW)}${opp.buyCity.padEnd(cityW)}${formatSilver(opp.buyPrice).padEnd(priceW)}${opp.sellCity.padEnd(cityW)}${instantSell.padEnd(sellW)}${instantProfit.padEnd(profitW)}${instantPct.padEnd(pctW)}${undercutSell.padEnd(sellW)}${undercutProfit.padEnd(profitW)}${undercutPct.padEnd(pctW)}${ageStr.padEnd(ageW)}│`,
+				`│ ${itemDisplay.padEnd(itemW)}${qualStr.padEnd(qualW)}${opp.buyCity.padEnd(cityW)}${formatSilver(opp.buyPrice).padEnd(priceW)}${opp.sellCity.padEnd(cityW - 1)}│ ${instantSell.padEnd(sellW)}${instantProfit.padEnd(profitW)}${instantPct.padEnd(pctW - 1)}│ ${undercutSell.padEnd(sellW)}${undercutProfit.padEnd(profitW)}${undercutPct.padEnd(pctW - 1)}│ ${avgStr.padEnd(avgW)}${volStr.padEnd(volW)}${ageStr.padEnd(ageW - 1)}│`,
 			)
 		}
 
@@ -492,6 +489,12 @@ function formatSilver(amount: number): string {
 	if (amount >= 1_000_000) return (amount / 1_000_000).toFixed(1) + 'M'
 	if (amount >= 1_000) return (amount / 1_000).toFixed(1) + 'K'
 	return String(amount)
+}
+
+function formatVolume(volume: number): string {
+	if (volume === 0) return '-'
+	if (volume >= 1_000) return (volume / 1_000).toFixed(1) + 'K'
+	return String(volume)
 }
 
 function formatTimeAgo(date: Date): string {

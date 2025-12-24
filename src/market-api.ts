@@ -83,6 +83,8 @@ export type ArbitrageOpportunity = {
 	undercutProfitPercent: number | null
 	dataAgeMinutes: number // Age of the oldest price data used
 	quality: number
+	dailyVolume: number // Average items sold per day in the sell city
+	avgPrice: number | null // 30-day average price in the sell city
 }
 
 export type CraftingCostResult = {
@@ -905,6 +907,19 @@ export function findArbitrageOpportunities(
 			const undercutMeetsThreshold = undercutProfitPercent !== null && undercutProfitPercent >= minProfit
 
 			if (instantMeetsThreshold || undercutMeetsThreshold) {
+				// Get daily volume in the sell city for this item
+				const dailyVolume = getDailyVolume(itemId, {
+					city: sellCity.city,
+					quality,
+				})
+
+				// Get 30-day average price in the sell city
+				const avgPrice = getBaselinePrice(itemId, {
+					city: sellCity.city,
+					quality,
+					days: 30,
+				})
+
 				opportunities.push({
 					buyCity: buyCity.city,
 					sellCity: sellCity.city,
@@ -917,6 +932,8 @@ export function findArbitrageOpportunities(
 					undercutProfitPercent,
 					dataAgeMinutes,
 					quality,
+					dailyVolume,
+					avgPrice,
 				})
 			}
 		}

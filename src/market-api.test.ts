@@ -574,16 +574,20 @@ describe('findArbitrageOpportunities', () => {
 		expect(opportunity.buyCity).toBe('Bridgewatch')
 		expect(opportunity.sellCity).toBe('Caerleon')
 		expect(opportunity.buyPrice).toBe(800)
-		expect(opportunity.sellPrice).toBe(950)
-		expect(opportunity.profit).toBe(150)
-		expect(opportunity.profitPercent).toBeCloseTo(18.8, 0)
+		expect(opportunity.instantSellPrice).toBe(950)
+		expect(opportunity.instantProfit).toBe(150)
+		expect(opportunity.instantProfitPercent).toBeCloseTo(18.8, 0)
+		expect(opportunity.dailyVolume).toBe(0) // No historical data in test
+		expect(opportunity.avgPrice).toBeNull() // No historical data in test
 	})
 
 	test('filters out low profit opportunities', () => {
 		insertLatestPrice({ itemId: 'T4_BAG', city: 'Bridgewatch', sellPriceMin: 950, buyPriceMax: 900 })
-		insertLatestPrice({ itemId: 'T4_BAG', city: 'Caerleon', sellPriceMin: 1000, buyPriceMax: 960 })
+		insertLatestPrice({ itemId: 'T4_BAG', city: 'Caerleon', sellPriceMin: 990, buyPriceMax: 960 })
 
-		// Profit is only 1% (960-950)/950
+		// Instant profit: (960-950)/950 = 1.05%
+		// Undercut profit: (989-950)/950 = 4.1% (undercut = 990-1 = 989)
+		// Both below 5% threshold
 		const result = findArbitrageOpportunities('T4_BAG', { minProfitPercent: 5 })
 
 		expect(result).toHaveLength(0)
