@@ -1,2422 +1,3027 @@
 [
 	{
 		"id": "T4_ARTEFACT_2H_ARCANESTAFF_HELL",
-		"name": "Adept's Occult Orb"
+		"name": "Adept's Occult Orb",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_2H_BOW_HELL",
-		"name": "Adept's Demonic Arrowheads"
+		"name": "Adept's Demonic Arrowheads",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_2H_BOW_KEEPER",
-		"name": "Adept's Carved Bone"
+		"name": "Adept's Carved Bone",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_2H_CLEAVER_HELL",
-		"name": "Adept's Demonic Blade"
+		"name": "Adept's Demonic Blade",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_2H_COMBATSTAFF_MORGANA",
-		"name": "Adept's Reinforced Morgana Pole"
+		"name": "Adept's Reinforced Morgana Pole",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_2H_CROSSBOWLARGE_MORGANA",
-		"name": "Adept's Alluring Bolts"
+		"name": "Adept's Alluring Bolts",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_2H_CURSEDSTAFF_MORGANA",
-		"name": "Adept's Bloodforged Catalyst"
+		"name": "Adept's Bloodforged Catalyst",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_2H_CURSEDSTAFF_MORGANA",
-		"name": "Expert's Bloodforged Catalyst"
+		"name": "Expert's Bloodforged Catalyst",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_2H_CURSEDSTAFF_MORGANA",
-		"name": "Master's Bloodforged Catalyst"
+		"name": "Master's Bloodforged Catalyst",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_2H_CURSEDSTAFF_MORGANA",
-		"name": "Grandmaster's Bloodforged Catalyst"
+		"name": "Grandmaster's Bloodforged Catalyst",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_2H_CURSEDSTAFF_MORGANA",
-		"name": "Elder's Bloodforged Catalyst"
+		"name": "Elder's Bloodforged Catalyst",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_2H_DUALAXE_KEEPER",
-		"name": "Adept's Keeper Axeheads"
+		"name": "Adept's Keeper Axeheads",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_2H_DUALCROSSBOW_HELL",
-		"name": "Adept's Hellish Bolts"
+		"name": "Adept's Hellish Bolts",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_2H_DUALHAMMER_HELL",
-		"name": "Adept's Hellish Hammer Heads"
+		"name": "Adept's Hellish Hammer Heads",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_2H_DUALSCIMITAR_UNDEAD",
-		"name": "Adept's Cursed Blades"
+		"name": "Adept's Cursed Blades",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_2H_DUALSICKLE_UNDEAD",
-		"name": "Adept's Ghastly Blades"
+		"name": "Adept's Ghastly Blades",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_2H_ENIGMATICORB_MORGANA",
-		"name": "Adept's Possessed Catalyst"
+		"name": "Adept's Possessed Catalyst",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_2H_FIRESTAFF_HELL",
-		"name": "Adept's Burning Orb"
+		"name": "Adept's Burning Orb",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_2H_HALBERD_MORGANA",
-		"name": "Adept's Morgana Halberd Head"
+		"name": "Adept's Morgana Halberd Head",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_2H_HAMMER_UNDEAD",
-		"name": "Adept's Ancient Hammer Head"
+		"name": "Adept's Ancient Hammer Head",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_2H_HARPOON_HELL",
-		"name": "Adept's Infernal Harpoon Tip"
+		"name": "Adept's Infernal Harpoon Tip",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_MAIN_HOLYSTAFF_MORGANA",
-		"name": "Adept's Possessed Scroll"
+		"name": "Adept's Possessed Scroll",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_2H_HOLYSTAFF_HELL",
-		"name": "Adept's Infernal Scroll"
+		"name": "Adept's Infernal Scroll",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_2H_HOLYSTAFF_UNDEAD",
-		"name": "Adept's Ghastly Scroll"
+		"name": "Adept's Ghastly Scroll",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_2H_ICECRYSTAL_UNDEAD",
-		"name": "Adept's Cursed Frozen Crystal"
+		"name": "Adept's Cursed Frozen Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_2H_ICEGAUNTLETS_HELL",
-		"name": "Adept's Icicle Orb"
+		"name": "Adept's Icicle Orb",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_2H_INFERNOSTAFF_MORGANA",
-		"name": "Adept's Unholy Scroll"
+		"name": "Adept's Unholy Scroll",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_2H_IRONGAUNTLETS_HELL",
-		"name": "Adept's Black Leather"
+		"name": "Adept's Black Leather",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_2H_LONGBOW_UNDEAD",
-		"name": "Adept's Ghastly Arrows"
+		"name": "Adept's Ghastly Arrows",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_2H_MACE_MORGANA",
-		"name": "Adept's Imbued Mace Head"
+		"name": "Adept's Imbued Mace Head",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_2H_NATURESTAFF_HELL",
-		"name": "Adept's Symbol of Blight"
+		"name": "Adept's Symbol of Blight",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_2H_NATURESTAFF_KEEPER",
-		"name": "Adept's Preserved Log"
+		"name": "Adept's Preserved Log",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_2H_RAM_KEEPER",
-		"name": "Adept's Engraved Log"
+		"name": "Adept's Engraved Log",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_2H_REPEATINGCROSSBOW_UNDEAD",
-		"name": "Adept's Lost Crossbow Mechanism"
+		"name": "Adept's Lost Crossbow Mechanism",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_2H_SKULLORB_HELL",
-		"name": "Adept's Cursed Jawbone"
+		"name": "Adept's Cursed Jawbone",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_2H_TRIDENT_UNDEAD",
-		"name": "Adept's Cursed Barbs"
+		"name": "Adept's Cursed Barbs",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_2H_TWINSCYTHE_HELL",
-		"name": "Adept's Hellish Sicklehead Pair"
+		"name": "Adept's Hellish Sicklehead Pair",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_MAIN_ARCANESTAFF_UNDEAD",
-		"name": "Adept's Lost Arcane Crystal"
+		"name": "Adept's Lost Arcane Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_MAIN_CURSEDSTAFF_UNDEAD",
-		"name": "Adept's Lost Cursed Crystal"
+		"name": "Adept's Lost Cursed Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_MAIN_FIRESTAFF_KEEPER",
-		"name": "Adept's Wildfire Orb"
+		"name": "Adept's Wildfire Orb",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_MAIN_FROSTSTAFF_KEEPER",
-		"name": "Adept's Hoarfrost Orb"
+		"name": "Adept's Hoarfrost Orb",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_MAIN_MACE_HELL",
-		"name": "Adept's Infernal Mace Head"
+		"name": "Adept's Infernal Mace Head",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_MAIN_NATURESTAFF_KEEPER",
-		"name": "Adept's Druidic Inscriptions"
+		"name": "Adept's Druidic Inscriptions",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_MAIN_RAPIER_MORGANA",
-		"name": "Adept's Hardened Debole"
+		"name": "Adept's Hardened Debole",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_MAIN_SCIMITAR_MORGANA",
-		"name": "Adept's Bloodforged Blade"
+		"name": "Adept's Bloodforged Blade",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_MAIN_SPEAR_KEEPER",
-		"name": "Adept's Keeper Spearhead"
+		"name": "Adept's Keeper Spearhead",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_2H_ARCANESTAFF_HELL",
-		"name": "Expert's Occult Orb"
+		"name": "Expert's Occult Orb",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_2H_BOW_HELL",
-		"name": "Expert's Demonic Arrowheads"
+		"name": "Expert's Demonic Arrowheads",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_2H_BOW_KEEPER",
-		"name": "Expert's Carved Bone"
+		"name": "Expert's Carved Bone",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_2H_CLEAVER_HELL",
-		"name": "Expert's Demonic Blade"
+		"name": "Expert's Demonic Blade",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_2H_COMBATSTAFF_MORGANA",
-		"name": "Expert's Reinforced Morgana Pole"
+		"name": "Expert's Reinforced Morgana Pole",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_2H_CROSSBOWLARGE_MORGANA",
-		"name": "Expert's Alluring Bolts"
+		"name": "Expert's Alluring Bolts",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_2H_DUALAXE_KEEPER",
-		"name": "Expert's Keeper Axeheads"
+		"name": "Expert's Keeper Axeheads",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_2H_DUALCROSSBOW_HELL",
-		"name": "Expert's Hellish Bolts"
+		"name": "Expert's Hellish Bolts",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_2H_DUALHAMMER_HELL",
-		"name": "Expert's Hellish Hammer Heads"
+		"name": "Expert's Hellish Hammer Heads",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_2H_DUALSCIMITAR_UNDEAD",
-		"name": "Expert's Cursed Blades"
+		"name": "Expert's Cursed Blades",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_2H_DUALSICKLE_UNDEAD",
-		"name": "Expert's Ghastly Blades"
+		"name": "Expert's Ghastly Blades",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_2H_ENIGMATICORB_MORGANA",
-		"name": "Expert's Possessed Catalyst"
+		"name": "Expert's Possessed Catalyst",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_2H_FIRESTAFF_HELL",
-		"name": "Expert's Burning Orb"
+		"name": "Expert's Burning Orb",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_2H_HALBERD_MORGANA",
-		"name": "Expert's Morgana Halberd Head"
+		"name": "Expert's Morgana Halberd Head",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_2H_HAMMER_UNDEAD",
-		"name": "Expert's Ancient Hammer Head"
+		"name": "Expert's Ancient Hammer Head",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_2H_HARPOON_HELL",
-		"name": "Expert's Infernal Harpoon Tip"
+		"name": "Expert's Infernal Harpoon Tip",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_MAIN_HOLYSTAFF_MORGANA",
-		"name": "Expert's Possessed Scroll"
+		"name": "Expert's Possessed Scroll",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_2H_HOLYSTAFF_HELL",
-		"name": "Expert's Infernal Scroll"
+		"name": "Expert's Infernal Scroll",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_2H_HOLYSTAFF_UNDEAD",
-		"name": "Expert's Ghastly Scroll"
+		"name": "Expert's Ghastly Scroll",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_2H_ICECRYSTAL_UNDEAD",
-		"name": "Expert's Cursed Frozen Crystal"
+		"name": "Expert's Cursed Frozen Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_2H_ICEGAUNTLETS_HELL",
-		"name": "Expert's Icicle Orb"
+		"name": "Expert's Icicle Orb",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_2H_INFERNOSTAFF_MORGANA",
-		"name": "Expert's Unholy Scroll"
+		"name": "Expert's Unholy Scroll",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_2H_IRONGAUNTLETS_HELL",
-		"name": "Expert's Black Leather"
+		"name": "Expert's Black Leather",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_2H_LONGBOW_UNDEAD",
-		"name": "Expert's Ghastly Arrows"
+		"name": "Expert's Ghastly Arrows",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_2H_MACE_MORGANA",
-		"name": "Expert's Imbued Mace Head"
+		"name": "Expert's Imbued Mace Head",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_2H_NATURESTAFF_HELL",
-		"name": "Expert's Symbol of Blight"
+		"name": "Expert's Symbol of Blight",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_2H_NATURESTAFF_KEEPER",
-		"name": "Expert's Preserved Log"
+		"name": "Expert's Preserved Log",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_2H_RAM_KEEPER",
-		"name": "Expert's Engraved Log"
+		"name": "Expert's Engraved Log",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_2H_REPEATINGCROSSBOW_UNDEAD",
-		"name": "Expert's Lost Crossbow Mechanism"
+		"name": "Expert's Lost Crossbow Mechanism",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_2H_SCYTHE_HELL",
-		"name": "Adept's Hellish Sicklehead"
+		"name": "Adept's Hellish Sicklehead",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_2H_SCYTHE_HELL",
-		"name": "Expert's Hellish Sicklehead"
+		"name": "Expert's Hellish Sicklehead",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_2H_SCYTHE_HELL",
-		"name": "Master's Hellish Sicklehead"
+		"name": "Master's Hellish Sicklehead",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_2H_SCYTHE_HELL",
-		"name": "Grandmaster's Hellish Sicklehead"
+		"name": "Grandmaster's Hellish Sicklehead",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_2H_SCYTHE_HELL",
-		"name": "Elder's Hellish Sicklehead"
+		"name": "Elder's Hellish Sicklehead",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_2H_SKULLORB_HELL",
-		"name": "Expert's Cursed Jawbone"
+		"name": "Expert's Cursed Jawbone",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_2H_TRIDENT_UNDEAD",
-		"name": "Expert's Cursed Barbs"
+		"name": "Expert's Cursed Barbs",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_2H_TWINSCYTHE_HELL",
-		"name": "Expert's Hellish Sicklehead Pair"
+		"name": "Expert's Hellish Sicklehead Pair",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_MAIN_ARCANESTAFF_UNDEAD",
-		"name": "Expert's Lost Arcane Crystal"
+		"name": "Expert's Lost Arcane Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_MAIN_CURSEDSTAFF_UNDEAD",
-		"name": "Expert's Lost Cursed Crystal"
+		"name": "Expert's Lost Cursed Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_MAIN_FIRESTAFF_KEEPER",
-		"name": "Expert's Wildfire Orb"
+		"name": "Expert's Wildfire Orb",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_MAIN_FROSTSTAFF_KEEPER",
-		"name": "Expert's Hoarfrost Orb"
+		"name": "Expert's Hoarfrost Orb",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_MAIN_MACE_HELL",
-		"name": "Expert's Infernal Mace Head"
+		"name": "Expert's Infernal Mace Head",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_MAIN_NATURESTAFF_KEEPER",
-		"name": "Expert's Druidic Inscriptions"
+		"name": "Expert's Druidic Inscriptions",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_MAIN_RAPIER_MORGANA",
-		"name": "Expert's Hardened Debole"
+		"name": "Expert's Hardened Debole",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_MAIN_SCIMITAR_MORGANA",
-		"name": "Expert's Bloodforged Blade"
+		"name": "Expert's Bloodforged Blade",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_MAIN_SPEAR_KEEPER",
-		"name": "Expert's Keeper Spearhead"
+		"name": "Expert's Keeper Spearhead",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_2H_ARCANESTAFF_HELL",
-		"name": "Master's Occult Orb"
+		"name": "Master's Occult Orb",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_2H_BOW_HELL",
-		"name": "Master's Demonic Arrowheads"
+		"name": "Master's Demonic Arrowheads",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_2H_BOW_KEEPER",
-		"name": "Master's Carved Bone"
+		"name": "Master's Carved Bone",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_2H_CLEAVER_HELL",
-		"name": "Master's Demonic Blade"
+		"name": "Master's Demonic Blade",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_2H_COMBATSTAFF_MORGANA",
-		"name": "Master's Reinforced Morgana Pole"
+		"name": "Master's Reinforced Morgana Pole",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_2H_CROSSBOWLARGE_MORGANA",
-		"name": "Master's Alluring Bolts"
+		"name": "Master's Alluring Bolts",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_2H_DUALAXE_KEEPER",
-		"name": "Master's Keeper Axeheads"
+		"name": "Master's Keeper Axeheads",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_2H_DUALCROSSBOW_HELL",
-		"name": "Master's Hellish Bolts"
+		"name": "Master's Hellish Bolts",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_2H_DUALHAMMER_HELL",
-		"name": "Master's Hellish Hammer Heads"
+		"name": "Master's Hellish Hammer Heads",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_2H_DUALSCIMITAR_UNDEAD",
-		"name": "Master's Cursed Blades"
+		"name": "Master's Cursed Blades",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_2H_DUALSICKLE_UNDEAD",
-		"name": "Master's Ghastly Blades"
+		"name": "Master's Ghastly Blades",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_2H_ENIGMATICORB_MORGANA",
-		"name": "Master's Possessed Catalyst"
+		"name": "Master's Possessed Catalyst",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_2H_FIRESTAFF_HELL",
-		"name": "Master's Burning Orb"
+		"name": "Master's Burning Orb",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_2H_HALBERD_MORGANA",
-		"name": "Master's Morgana Halberd Head"
+		"name": "Master's Morgana Halberd Head",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_2H_HAMMER_UNDEAD",
-		"name": "Master's Ancient Hammer Head"
+		"name": "Master's Ancient Hammer Head",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_2H_HARPOON_HELL",
-		"name": "Master's Infernal Harpoon Tip"
+		"name": "Master's Infernal Harpoon Tip",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_MAIN_HOLYSTAFF_MORGANA",
-		"name": "Master's Possessed Scroll"
+		"name": "Master's Possessed Scroll",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_2H_HOLYSTAFF_HELL",
-		"name": "Master's Infernal Scroll"
+		"name": "Master's Infernal Scroll",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_2H_HOLYSTAFF_UNDEAD",
-		"name": "Master's Ghastly Scroll"
+		"name": "Master's Ghastly Scroll",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_2H_ICECRYSTAL_UNDEAD",
-		"name": "Master's Cursed Frozen Crystal"
+		"name": "Master's Cursed Frozen Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_2H_ICEGAUNTLETS_HELL",
-		"name": "Master's Icicle Orb"
+		"name": "Master's Icicle Orb",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_2H_INFERNOSTAFF_MORGANA",
-		"name": "Master's Unholy Scroll"
+		"name": "Master's Unholy Scroll",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_2H_IRONGAUNTLETS_HELL",
-		"name": "Master's Black Leather"
+		"name": "Master's Black Leather",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_2H_LONGBOW_UNDEAD",
-		"name": "Master's Ghastly Arrows"
+		"name": "Master's Ghastly Arrows",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_2H_MACE_MORGANA",
-		"name": "Master's Imbued Mace Head"
+		"name": "Master's Imbued Mace Head",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_2H_NATURESTAFF_HELL",
-		"name": "Master's Symbol of Blight"
+		"name": "Master's Symbol of Blight",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_2H_NATURESTAFF_KEEPER",
-		"name": "Master's Preserved Log"
+		"name": "Master's Preserved Log",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_2H_RAM_KEEPER",
-		"name": "Master's Engraved Log"
+		"name": "Master's Engraved Log",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_2H_REPEATINGCROSSBOW_UNDEAD",
-		"name": "Master's Lost Crossbow Mechanism"
+		"name": "Master's Lost Crossbow Mechanism",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_2H_SKULLORB_HELL",
-		"name": "Master's Cursed Jawbone"
+		"name": "Master's Cursed Jawbone",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_2H_TRIDENT_UNDEAD",
-		"name": "Master's Cursed Barbs"
+		"name": "Master's Cursed Barbs",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_2H_TWINSCYTHE_HELL",
-		"name": "Master's Hellish Sicklehead Pair"
+		"name": "Master's Hellish Sicklehead Pair",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_MAIN_ARCANESTAFF_UNDEAD",
-		"name": "Master's Lost Arcane Crystal"
+		"name": "Master's Lost Arcane Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_MAIN_CURSEDSTAFF_UNDEAD",
-		"name": "Master's Lost Cursed Crystal"
+		"name": "Master's Lost Cursed Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_MAIN_FIRESTAFF_KEEPER",
-		"name": "Master's Wildfire Orb"
+		"name": "Master's Wildfire Orb",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_MAIN_FROSTSTAFF_KEEPER",
-		"name": "Master's Hoarfrost Orb"
+		"name": "Master's Hoarfrost Orb",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_MAIN_MACE_HELL",
-		"name": "Master's Infernal Mace Head"
+		"name": "Master's Infernal Mace Head",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_MAIN_NATURESTAFF_KEEPER",
-		"name": "Master's Druidic Inscriptions"
+		"name": "Master's Druidic Inscriptions",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_MAIN_RAPIER_MORGANA",
-		"name": "Master's Hardened Debole"
+		"name": "Master's Hardened Debole",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_MAIN_SCIMITAR_MORGANA",
-		"name": "Master's Bloodforged Blade"
+		"name": "Master's Bloodforged Blade",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_MAIN_SPEAR_KEEPER",
-		"name": "Master's Keeper Spearhead"
+		"name": "Master's Keeper Spearhead",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_2H_ARCANESTAFF_HELL",
-		"name": "Grandmaster's Occult Orb"
+		"name": "Grandmaster's Occult Orb",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_2H_BOW_HELL",
-		"name": "Grandmaster's Demonic Arrowheads"
+		"name": "Grandmaster's Demonic Arrowheads",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_2H_BOW_KEEPER",
-		"name": "Grandmaster's Carved Bone"
+		"name": "Grandmaster's Carved Bone",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_2H_CLEAVER_HELL",
-		"name": "Grandmaster's Demonic Blade"
+		"name": "Grandmaster's Demonic Blade",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_2H_COMBATSTAFF_MORGANA",
-		"name": "Grandmaster's Reinforced Morgana Pole"
+		"name": "Grandmaster's Reinforced Morgana Pole",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_2H_CROSSBOWLARGE_MORGANA",
-		"name": "Grandmaster's Alluring Bolts"
+		"name": "Grandmaster's Alluring Bolts",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_2H_DUALAXE_KEEPER",
-		"name": "Grandmaster's Keeper Axeheads"
+		"name": "Grandmaster's Keeper Axeheads",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_2H_DUALCROSSBOW_HELL",
-		"name": "Grandmaster's Hellish Bolts"
+		"name": "Grandmaster's Hellish Bolts",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_2H_DUALHAMMER_HELL",
-		"name": "Grandmaster's Hellish Hammer Heads"
+		"name": "Grandmaster's Hellish Hammer Heads",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_2H_DUALSCIMITAR_UNDEAD",
-		"name": "Grandmaster's Cursed Blades"
+		"name": "Grandmaster's Cursed Blades",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_2H_DUALSICKLE_UNDEAD",
-		"name": "Grandmaster's Ghastly Blades"
+		"name": "Grandmaster's Ghastly Blades",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_2H_ENIGMATICORB_MORGANA",
-		"name": "Grandmaster's Possessed Catalyst"
+		"name": "Grandmaster's Possessed Catalyst",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_2H_FIRESTAFF_HELL",
-		"name": "Grandmaster's Burning Orb"
+		"name": "Grandmaster's Burning Orb",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_2H_HALBERD_MORGANA",
-		"name": "Grandmaster's Morgana Halberd Head"
+		"name": "Grandmaster's Morgana Halberd Head",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_2H_HAMMER_UNDEAD",
-		"name": "Grandmaster's Ancient Hammer Head"
+		"name": "Grandmaster's Ancient Hammer Head",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_2H_HARPOON_HELL",
-		"name": "Grandmaster's Infernal Harpoon Tip"
+		"name": "Grandmaster's Infernal Harpoon Tip",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_MAIN_HOLYSTAFF_MORGANA",
-		"name": "Grandmaster's Possessed Scroll"
+		"name": "Grandmaster's Possessed Scroll",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_2H_HOLYSTAFF_HELL",
-		"name": "Grandmaster's Infernal Scroll"
+		"name": "Grandmaster's Infernal Scroll",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_2H_HOLYSTAFF_UNDEAD",
-		"name": "Grandmaster's Ghastly Scroll"
+		"name": "Grandmaster's Ghastly Scroll",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_2H_ICECRYSTAL_UNDEAD",
-		"name": "Grandmaster's Cursed Frozen Crystal"
+		"name": "Grandmaster's Cursed Frozen Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_2H_ICEGAUNTLETS_HELL",
-		"name": "Grandmaster's Icicle Orb"
+		"name": "Grandmaster's Icicle Orb",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_2H_INFERNOSTAFF_MORGANA",
-		"name": "Grandmaster's Unholy Scroll"
+		"name": "Grandmaster's Unholy Scroll",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_2H_IRONGAUNTLETS_HELL",
-		"name": "Grandmaster's Black Leather"
+		"name": "Grandmaster's Black Leather",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_2H_LONGBOW_UNDEAD",
-		"name": "Grandmaster's Ghastly Arrows"
+		"name": "Grandmaster's Ghastly Arrows",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_2H_MACE_MORGANA",
-		"name": "Grandmaster's Imbued Mace Head"
+		"name": "Grandmaster's Imbued Mace Head",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_2H_NATURESTAFF_HELL",
-		"name": "Grandmaster's Symbol of Blight"
+		"name": "Grandmaster's Symbol of Blight",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_2H_NATURESTAFF_KEEPER",
-		"name": "Grandmaster's Preserved Log"
+		"name": "Grandmaster's Preserved Log",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_2H_RAM_KEEPER",
-		"name": "Grandmaster's Engraved Log"
+		"name": "Grandmaster's Engraved Log",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_2H_REPEATINGCROSSBOW_UNDEAD",
-		"name": "Grandmaster's Lost Crossbow Mechanism"
+		"name": "Grandmaster's Lost Crossbow Mechanism",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_2H_SKULLORB_HELL",
-		"name": "Grandmaster's Cursed Jawbone"
+		"name": "Grandmaster's Cursed Jawbone",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_2H_TRIDENT_UNDEAD",
-		"name": "Grandmaster's Cursed Barbs"
+		"name": "Grandmaster's Cursed Barbs",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_2H_TWINSCYTHE_HELL",
-		"name": "Grandmaster's Hellish Sicklehead Pair"
+		"name": "Grandmaster's Hellish Sicklehead Pair",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_MAIN_ARCANESTAFF_UNDEAD",
-		"name": "Grandmaster's Lost Arcane Crystal"
+		"name": "Grandmaster's Lost Arcane Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_MAIN_CURSEDSTAFF_UNDEAD",
-		"name": "Grandmaster's Lost Cursed Crystal"
+		"name": "Grandmaster's Lost Cursed Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_MAIN_FIRESTAFF_KEEPER",
-		"name": "Grandmaster's Wildfire Orb"
+		"name": "Grandmaster's Wildfire Orb",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_MAIN_FROSTSTAFF_KEEPER",
-		"name": "Grandmaster's Hoarfrost Orb"
+		"name": "Grandmaster's Hoarfrost Orb",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_MAIN_MACE_HELL",
-		"name": "Grandmaster's Infernal Mace Head"
+		"name": "Grandmaster's Infernal Mace Head",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_MAIN_NATURESTAFF_KEEPER",
-		"name": "Grandmaster's Druidic Inscriptions"
+		"name": "Grandmaster's Druidic Inscriptions",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_MAIN_RAPIER_MORGANA",
-		"name": "Grandmaster's Hardened Debole"
+		"name": "Grandmaster's Hardened Debole",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_MAIN_SCIMITAR_MORGANA",
-		"name": "Grandmaster's Bloodforged Blade"
+		"name": "Grandmaster's Bloodforged Blade",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_MAIN_SPEAR_KEEPER",
-		"name": "Grandmaster's Keeper Spearhead"
+		"name": "Grandmaster's Keeper Spearhead",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_2H_ARCANESTAFF_HELL",
-		"name": "Elder's Occult Orb"
+		"name": "Elder's Occult Orb",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_2H_BOW_HELL",
-		"name": "Elder's Demonic Arrowheads"
+		"name": "Elder's Demonic Arrowheads",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_2H_BOW_KEEPER",
-		"name": "Elder's Carved Bone"
+		"name": "Elder's Carved Bone",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_2H_CLEAVER_HELL",
-		"name": "Elder's Demonic Blade"
+		"name": "Elder's Demonic Blade",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_2H_COMBATSTAFF_MORGANA",
-		"name": "Elder's Reinforced Morgana Pole"
+		"name": "Elder's Reinforced Morgana Pole",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_2H_CROSSBOWLARGE_MORGANA",
-		"name": "Elder's Alluring Bolts"
+		"name": "Elder's Alluring Bolts",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_2H_DUALAXE_KEEPER",
-		"name": "Elder's Keeper Axeheads"
+		"name": "Elder's Keeper Axeheads",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_2H_DUALCROSSBOW_HELL",
-		"name": "Elder's Hellish Bolts"
+		"name": "Elder's Hellish Bolts",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_2H_DUALHAMMER_HELL",
-		"name": "Elder's Hellish Hammer Heads"
+		"name": "Elder's Hellish Hammer Heads",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_2H_DUALSCIMITAR_UNDEAD",
-		"name": "Elder's Cursed Blades"
+		"name": "Elder's Cursed Blades",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_2H_DUALSICKLE_UNDEAD",
-		"name": "Elder's Ghastly Blades"
+		"name": "Elder's Ghastly Blades",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_2H_ENIGMATICORB_MORGANA",
-		"name": "Elder's Possessed Catalyst"
+		"name": "Elder's Possessed Catalyst",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_2H_FIRESTAFF_HELL",
-		"name": "Elder's Burning Orb"
+		"name": "Elder's Burning Orb",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_2H_HALBERD_MORGANA",
-		"name": "Elder's Morgana Halberd Head"
+		"name": "Elder's Morgana Halberd Head",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_2H_HAMMER_UNDEAD",
-		"name": "Elder's Ancient Hammer Head"
+		"name": "Elder's Ancient Hammer Head",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_2H_HARPOON_HELL",
-		"name": "Elder's Infernal Harpoon Tip"
+		"name": "Elder's Infernal Harpoon Tip",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_MAIN_HOLYSTAFF_MORGANA",
-		"name": "Elder's Possessed Scroll"
+		"name": "Elder's Possessed Scroll",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_2H_HOLYSTAFF_HELL",
-		"name": "Elder's Infernal Scroll"
+		"name": "Elder's Infernal Scroll",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_2H_HOLYSTAFF_UNDEAD",
-		"name": "Elder's Ghastly Scroll"
+		"name": "Elder's Ghastly Scroll",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_2H_ICECRYSTAL_UNDEAD",
-		"name": "Elder's Cursed Frozen Crystal"
+		"name": "Elder's Cursed Frozen Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_2H_ICEGAUNTLETS_HELL",
-		"name": "Elder's Icicle Orb"
+		"name": "Elder's Icicle Orb",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_2H_INFERNOSTAFF_MORGANA",
-		"name": "Elder's Unholy Scroll"
+		"name": "Elder's Unholy Scroll",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_2H_IRONGAUNTLETS_HELL",
-		"name": "Elder's Black Leather"
+		"name": "Elder's Black Leather",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_2H_LONGBOW_UNDEAD",
-		"name": "Elder's Ghastly Arrows"
+		"name": "Elder's Ghastly Arrows",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_2H_MACE_MORGANA",
-		"name": "Elder's Imbued Mace Head"
+		"name": "Elder's Imbued Mace Head",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_2H_NATURESTAFF_HELL",
-		"name": "Elder's Symbol of Blight"
+		"name": "Elder's Symbol of Blight",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_2H_NATURESTAFF_KEEPER",
-		"name": "Elder's Preserved Log"
+		"name": "Elder's Preserved Log",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_2H_RAM_KEEPER",
-		"name": "Elder's Engraved Log"
+		"name": "Elder's Engraved Log",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_2H_REPEATINGCROSSBOW_UNDEAD",
-		"name": "Elder's Lost Crossbow Mechanism"
+		"name": "Elder's Lost Crossbow Mechanism",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_2H_SKULLORB_HELL",
-		"name": "Elder's Cursed Jawbone"
+		"name": "Elder's Cursed Jawbone",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_2H_TRIDENT_UNDEAD",
-		"name": "Elder's Cursed Barbs"
+		"name": "Elder's Cursed Barbs",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_2H_TWINSCYTHE_HELL",
-		"name": "Elder's Hellish Sicklehead Pair"
+		"name": "Elder's Hellish Sicklehead Pair",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_MAIN_ARCANESTAFF_UNDEAD",
-		"name": "Elder's Lost Arcane Crystal"
+		"name": "Elder's Lost Arcane Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_MAIN_CURSEDSTAFF_UNDEAD",
-		"name": "Elder's Lost Cursed Crystal"
+		"name": "Elder's Lost Cursed Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_MAIN_FIRESTAFF_KEEPER",
-		"name": "Elder's Wildfire Orb"
+		"name": "Elder's Wildfire Orb",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_MAIN_FROSTSTAFF_KEEPER",
-		"name": "Elder's Hoarfrost Orb"
+		"name": "Elder's Hoarfrost Orb",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_MAIN_MACE_HELL",
-		"name": "Elder's Infernal Mace Head"
+		"name": "Elder's Infernal Mace Head",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_MAIN_NATURESTAFF_KEEPER",
-		"name": "Elder's Druidic Inscriptions"
+		"name": "Elder's Druidic Inscriptions",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_MAIN_RAPIER_MORGANA",
-		"name": "Elder's Hardened Debole"
+		"name": "Elder's Hardened Debole",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_MAIN_SCIMITAR_MORGANA",
-		"name": "Elder's Bloodforged Blade"
+		"name": "Elder's Bloodforged Blade",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_MAIN_SPEAR_KEEPER",
-		"name": "Elder's Keeper Spearhead"
+		"name": "Elder's Keeper Spearhead",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_2H_DAGGER_KATAR_AVALON",
-		"name": "Adept's Bloodstained Antiquities"
+		"name": "Adept's Bloodstained Antiquities",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_MAIN_SPEAR_LANCE_AVALON",
-		"name": "Adept's Ruined Ancestral Vamplate"
+		"name": "Adept's Ruined Ancestral Vamplate",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_2H_AXE_AVALON",
-		"name": "Adept's Avalonian Battle Memoir"
+		"name": "Adept's Avalonian Battle Memoir",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_2H_CLAYMORE_AVALON",
-		"name": "Adept's Remnants of the Old King"
+		"name": "Adept's Remnants of the Old King",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_2H_QUARTERSTAFF_AVALON",
-		"name": "Adept's Timeworn Walking Staff"
+		"name": "Adept's Timeworn Walking Staff",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_2H_HAMMER_AVALON",
-		"name": "Adept's Massive Metallic Hand"
+		"name": "Adept's Massive Metallic Hand",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_2H_DUALMACE_AVALON",
-		"name": "Adept's Broken Oaths"
+		"name": "Adept's Broken Oaths",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_2H_BOW_AVALON",
-		"name": "Adept's Immaculately Crafted Riser"
+		"name": "Adept's Immaculately Crafted Riser",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_2H_CROSSBOW_CANNON_AVALON",
-		"name": "Adept's Humming Avalonian Whirligig"
+		"name": "Adept's Humming Avalonian Whirligig",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
-		"name": "Adept's Fractured Opaque Orb"
+		"name": "Adept's Fractured Opaque Orb",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_2H_FIRE_RINGPAIR_AVALON",
-		"name": "Adept's Glowing Harmonic Ring"
+		"name": "Adept's Glowing Harmonic Ring",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_MAIN_FROSTSTAFF_AVALON",
-		"name": "Adept's Chilled Crystalline Shard"
+		"name": "Adept's Chilled Crystalline Shard",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_2H_ARCANE_RINGPAIR_AVALON",
-		"name": "Adept's Hypnotic Harmonic Ring"
+		"name": "Adept's Hypnotic Harmonic Ring",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_MAIN_HOLYSTAFF_AVALON",
-		"name": "Adept's Messianic Curio"
+		"name": "Adept's Messianic Curio",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_MAIN_NATURESTAFF_AVALON",
-		"name": "Adept's Uprooted Perennial Sapling"
+		"name": "Adept's Uprooted Perennial Sapling",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_2H_DAGGER_KATAR_AVALON",
-		"name": "Expert's Bloodstained Antiquities"
+		"name": "Expert's Bloodstained Antiquities",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_MAIN_SPEAR_LANCE_AVALON",
-		"name": "Expert's Ruined Ancestral Vamplate"
+		"name": "Expert's Ruined Ancestral Vamplate",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_2H_AXE_AVALON",
-		"name": "Expert's Avalonian Battle Memoir"
+		"name": "Expert's Avalonian Battle Memoir",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_2H_CLAYMORE_AVALON",
-		"name": "Expert's Remnants of the Old King"
+		"name": "Expert's Remnants of the Old King",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_2H_QUARTERSTAFF_AVALON",
-		"name": "Expert's Timeworn Walking Staff"
+		"name": "Expert's Timeworn Walking Staff",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_2H_HAMMER_AVALON",
-		"name": "Expert's Massive Metallic Hand"
+		"name": "Expert's Massive Metallic Hand",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_2H_DUALMACE_AVALON",
-		"name": "Expert's Broken Oaths"
+		"name": "Expert's Broken Oaths",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_2H_BOW_AVALON",
-		"name": "Expert's Immaculately Crafted Riser"
+		"name": "Expert's Immaculately Crafted Riser",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_2H_CROSSBOW_CANNON_AVALON",
-		"name": "Expert's Humming Avalonian Whirligig"
+		"name": "Expert's Humming Avalonian Whirligig",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
-		"name": "Expert's Fractured Opaque Orb"
+		"name": "Expert's Fractured Opaque Orb",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_2H_FIRE_RINGPAIR_AVALON",
-		"name": "Expert's Glowing Harmonic Ring"
+		"name": "Expert's Glowing Harmonic Ring",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_MAIN_FROSTSTAFF_AVALON",
-		"name": "Expert's Chilled Crystalline Shard"
+		"name": "Expert's Chilled Crystalline Shard",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_2H_ARCANE_RINGPAIR_AVALON",
-		"name": "Expert's Hypnotic Harmonic Ring"
+		"name": "Expert's Hypnotic Harmonic Ring",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_MAIN_HOLYSTAFF_AVALON",
-		"name": "Expert's Messianic Curio"
+		"name": "Expert's Messianic Curio",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_MAIN_NATURESTAFF_AVALON",
-		"name": "Expert's Uprooted Perennial Sapling"
+		"name": "Expert's Uprooted Perennial Sapling",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_2H_DAGGER_KATAR_AVALON",
-		"name": "Master's Bloodstained Antiquities"
+		"name": "Master's Bloodstained Antiquities",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_MAIN_SPEAR_LANCE_AVALON",
-		"name": "Master's Ruined Ancestral Vamplate"
+		"name": "Master's Ruined Ancestral Vamplate",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_2H_AXE_AVALON",
-		"name": "Master's Avalonian Battle Memoir"
+		"name": "Master's Avalonian Battle Memoir",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_2H_CLAYMORE_AVALON",
-		"name": "Master's Remnants of the Old King"
+		"name": "Master's Remnants of the Old King",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_2H_QUARTERSTAFF_AVALON",
-		"name": "Master's Timeworn Walking Staff"
+		"name": "Master's Timeworn Walking Staff",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_2H_HAMMER_AVALON",
-		"name": "Master's Massive Metallic Hand"
+		"name": "Master's Massive Metallic Hand",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_2H_DUALMACE_AVALON",
-		"name": "Master's Broken Oaths"
+		"name": "Master's Broken Oaths",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_2H_BOW_AVALON",
-		"name": "Master's Immaculately Crafted Riser"
+		"name": "Master's Immaculately Crafted Riser",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_2H_CROSSBOW_CANNON_AVALON",
-		"name": "Master's Humming Avalonian Whirligig"
+		"name": "Master's Humming Avalonian Whirligig",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
-		"name": "Master's Fractured Opaque Orb"
+		"name": "Master's Fractured Opaque Orb",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_2H_FIRE_RINGPAIR_AVALON",
-		"name": "Master's Glowing Harmonic Ring"
+		"name": "Master's Glowing Harmonic Ring",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_MAIN_FROSTSTAFF_AVALON",
-		"name": "Master's Chilled Crystalline Shard"
+		"name": "Master's Chilled Crystalline Shard",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_2H_ARCANE_RINGPAIR_AVALON",
-		"name": "Master's Hypnotic Harmonic Ring"
+		"name": "Master's Hypnotic Harmonic Ring",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_MAIN_HOLYSTAFF_AVALON",
-		"name": "Master's Messianic Curio"
+		"name": "Master's Messianic Curio",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_MAIN_NATURESTAFF_AVALON",
-		"name": "Master's Uprooted Perennial Sapling"
+		"name": "Master's Uprooted Perennial Sapling",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_2H_DAGGER_KATAR_AVALON",
-		"name": "Grandmaster's Bloodstained Antiquities"
+		"name": "Grandmaster's Bloodstained Antiquities",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_MAIN_SPEAR_LANCE_AVALON",
-		"name": "Grandmaster's Ruined Ancestral Vamplate"
+		"name": "Grandmaster's Ruined Ancestral Vamplate",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_2H_AXE_AVALON",
-		"name": "Grandmaster's Avalonian Battle Memoir"
+		"name": "Grandmaster's Avalonian Battle Memoir",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_2H_CLAYMORE_AVALON",
-		"name": "Grandmaster's Remnants of the Old King"
+		"name": "Grandmaster's Remnants of the Old King",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_2H_QUARTERSTAFF_AVALON",
-		"name": "Grandmaster's Timeworn Walking Staff"
+		"name": "Grandmaster's Timeworn Walking Staff",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_2H_HAMMER_AVALON",
-		"name": "Grandmaster's Massive Metallic Hand"
+		"name": "Grandmaster's Massive Metallic Hand",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_2H_DUALMACE_AVALON",
-		"name": "Grandmaster's Broken Oaths"
+		"name": "Grandmaster's Broken Oaths",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_2H_BOW_AVALON",
-		"name": "Grandmaster's Immaculately Crafted Riser"
+		"name": "Grandmaster's Immaculately Crafted Riser",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_2H_CROSSBOW_CANNON_AVALON",
-		"name": "Grandmaster's Humming Avalonian Whirligig"
+		"name": "Grandmaster's Humming Avalonian Whirligig",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
-		"name": "Grandmaster's Fractured Opaque Orb"
+		"name": "Grandmaster's Fractured Opaque Orb",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_2H_FIRE_RINGPAIR_AVALON",
-		"name": "Grandmaster's Glowing Harmonic Ring"
+		"name": "Grandmaster's Glowing Harmonic Ring",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_MAIN_FROSTSTAFF_AVALON",
-		"name": "Grandmaster's Chilled Crystalline Shard"
+		"name": "Grandmaster's Chilled Crystalline Shard",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_2H_ARCANE_RINGPAIR_AVALON",
-		"name": "Grandmaster's Hypnotic Harmonic Ring"
+		"name": "Grandmaster's Hypnotic Harmonic Ring",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_MAIN_HOLYSTAFF_AVALON",
-		"name": "Grandmaster's Messianic Curio"
+		"name": "Grandmaster's Messianic Curio",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_MAIN_NATURESTAFF_AVALON",
-		"name": "Grandmaster's Uprooted Perennial Sapling"
+		"name": "Grandmaster's Uprooted Perennial Sapling",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_2H_DAGGER_KATAR_AVALON",
-		"name": "Elder's Bloodstained Antiquities"
+		"name": "Elder's Bloodstained Antiquities",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_MAIN_SPEAR_LANCE_AVALON",
-		"name": "Elder's Ruined Ancestral Vamplate"
+		"name": "Elder's Ruined Ancestral Vamplate",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_2H_AXE_AVALON",
-		"name": "Elder's Avalonian Battle Memoir"
+		"name": "Elder's Avalonian Battle Memoir",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_2H_CLAYMORE_AVALON",
-		"name": "Elder's Remnants of the Old King"
+		"name": "Elder's Remnants of the Old King",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_2H_QUARTERSTAFF_AVALON",
-		"name": "Elder's Timeworn Walking Staff"
+		"name": "Elder's Timeworn Walking Staff",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_2H_HAMMER_AVALON",
-		"name": "Elder's Massive Metallic Hand"
+		"name": "Elder's Massive Metallic Hand",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_2H_DUALMACE_AVALON",
-		"name": "Elder's Broken Oaths"
+		"name": "Elder's Broken Oaths",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_2H_BOW_AVALON",
-		"name": "Elder's Immaculately Crafted Riser"
+		"name": "Elder's Immaculately Crafted Riser",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_2H_CROSSBOW_CANNON_AVALON",
-		"name": "Elder's Humming Avalonian Whirligig"
+		"name": "Elder's Humming Avalonian Whirligig",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_MAIN_CURSEDSTAFF_AVALON",
-		"name": "Elder's Fractured Opaque Orb"
+		"name": "Elder's Fractured Opaque Orb",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_2H_FIRE_RINGPAIR_AVALON",
-		"name": "Elder's Glowing Harmonic Ring"
+		"name": "Elder's Glowing Harmonic Ring",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_MAIN_FROSTSTAFF_AVALON",
-		"name": "Elder's Chilled Crystalline Shard"
+		"name": "Elder's Chilled Crystalline Shard",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_2H_ARCANE_RINGPAIR_AVALON",
-		"name": "Elder's Hypnotic Harmonic Ring"
+		"name": "Elder's Hypnotic Harmonic Ring",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_MAIN_HOLYSTAFF_AVALON",
-		"name": "Elder's Messianic Curio"
+		"name": "Elder's Messianic Curio",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_MAIN_NATURESTAFF_AVALON",
-		"name": "Elder's Uprooted Perennial Sapling"
+		"name": "Elder's Uprooted Perennial Sapling",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_2H_KNUCKLES_KEEPER",
-		"name": "Adept's Ursine Guardian Remains"
+		"name": "Adept's Ursine Guardian Remains",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_2H_KNUCKLES_KEEPER",
-		"name": "Expert's Ursine Guardian Remains"
+		"name": "Expert's Ursine Guardian Remains",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_2H_KNUCKLES_KEEPER",
-		"name": "Master's Ursine Guardian Remains"
+		"name": "Master's Ursine Guardian Remains",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_2H_KNUCKLES_KEEPER",
-		"name": "Grandmaster's Ursine Guardian Remains"
+		"name": "Grandmaster's Ursine Guardian Remains",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_2H_KNUCKLES_KEEPER",
-		"name": "Elder's Ursine Guardian Remains"
+		"name": "Elder's Ursine Guardian Remains",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_2H_KNUCKLES_HELL",
-		"name": "Adept's Severed Demonic Horns"
+		"name": "Adept's Severed Demonic Horns",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_2H_KNUCKLES_HELL",
-		"name": "Expert's Severed Demonic Horns"
+		"name": "Expert's Severed Demonic Horns",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_2H_KNUCKLES_HELL",
-		"name": "Master's Severed Demonic Horns"
+		"name": "Master's Severed Demonic Horns",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_2H_KNUCKLES_HELL",
-		"name": "Grandmaster's Severed Demonic Horns"
+		"name": "Grandmaster's Severed Demonic Horns",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_2H_KNUCKLES_HELL",
-		"name": "Elder's Severed Demonic Horns"
+		"name": "Elder's Severed Demonic Horns",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_2H_KNUCKLES_MORGANA",
-		"name": "Adept's Warped Raven Plate"
+		"name": "Adept's Warped Raven Plate",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_2H_KNUCKLES_MORGANA",
-		"name": "Expert's Warped Raven Plate"
+		"name": "Expert's Warped Raven Plate",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_2H_KNUCKLES_MORGANA",
-		"name": "Master's Warped Raven Plate"
+		"name": "Master's Warped Raven Plate",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_2H_KNUCKLES_MORGANA",
-		"name": "Grandmaster's Warped Raven Plate"
+		"name": "Grandmaster's Warped Raven Plate",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_2H_KNUCKLES_MORGANA",
-		"name": "Elder's Warped Raven Plate"
+		"name": "Elder's Warped Raven Plate",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_2H_KNUCKLES_AVALON",
-		"name": "Adept's Damaged Avalonian Gauntlet"
+		"name": "Adept's Damaged Avalonian Gauntlet",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_2H_KNUCKLES_AVALON",
-		"name": "Expert's Damaged Avalonian Gauntlet"
+		"name": "Expert's Damaged Avalonian Gauntlet",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_2H_KNUCKLES_AVALON",
-		"name": "Master's Damaged Avalonian Gauntlet"
+		"name": "Master's Damaged Avalonian Gauntlet",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_2H_KNUCKLES_AVALON",
-		"name": "Grandmaster's Damaged Avalonian Gauntlet"
+		"name": "Grandmaster's Damaged Avalonian Gauntlet",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_2H_KNUCKLES_AVALON",
-		"name": "Elder's Damaged Avalonian Gauntlet"
+		"name": "Elder's Damaged Avalonian Gauntlet",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_MAIN_DAGGER_HELL",
-		"name": "Adept's Broken Demonic Fang"
+		"name": "Adept's Broken Demonic Fang",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_MAIN_DAGGER_HELL",
-		"name": "Expert's Broken Demonic Fang"
+		"name": "Expert's Broken Demonic Fang",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_MAIN_DAGGER_HELL",
-		"name": "Master's Broken Demonic Fang"
+		"name": "Master's Broken Demonic Fang",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_MAIN_DAGGER_HELL",
-		"name": "Grandmaster's Broken Demonic Fang"
+		"name": "Grandmaster's Broken Demonic Fang",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_MAIN_DAGGER_HELL",
-		"name": "Elder's Broken Demonic Fang"
+		"name": "Elder's Broken Demonic Fang",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_2H_SHAPESHIFTER_MORGANA",
-		"name": "Adept's Werewolf Remnant"
+		"name": "Adept's Werewolf Remnant",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_2H_SHAPESHIFTER_MORGANA",
-		"name": "Expert's Werewolf Remnant"
+		"name": "Expert's Werewolf Remnant",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_2H_SHAPESHIFTER_MORGANA",
-		"name": "Master's Werewolf Remnant"
+		"name": "Master's Werewolf Remnant",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_2H_SHAPESHIFTER_MORGANA",
-		"name": "Grandmaster's Werewolf Remnant"
+		"name": "Grandmaster's Werewolf Remnant",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_2H_SHAPESHIFTER_MORGANA",
-		"name": "Elder's Werewolf Remnant"
+		"name": "Elder's Werewolf Remnant",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_2H_SHAPESHIFTER_HELL",
-		"name": "Adept's Hellfire Imp Remnant"
+		"name": "Adept's Hellfire Imp Remnant",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_2H_SHAPESHIFTER_HELL",
-		"name": "Expert's Hellfire Imp Remnant"
+		"name": "Expert's Hellfire Imp Remnant",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_2H_SHAPESHIFTER_HELL",
-		"name": "Master's Hellfire Imp Remnant"
+		"name": "Master's Hellfire Imp Remnant",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_2H_SHAPESHIFTER_HELL",
-		"name": "Grandmaster's Hellfire Imp Remnant"
+		"name": "Grandmaster's Hellfire Imp Remnant",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_2H_SHAPESHIFTER_HELL",
-		"name": "Elder's Hellfire Imp Remnant"
+		"name": "Elder's Hellfire Imp Remnant",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_2H_SHAPESHIFTER_KEEPER",
-		"name": "Adept's Runestone Golem Remnant"
+		"name": "Adept's Runestone Golem Remnant",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_2H_SHAPESHIFTER_KEEPER",
-		"name": "Expert's Runestone Golem Remnant"
+		"name": "Expert's Runestone Golem Remnant",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_2H_SHAPESHIFTER_KEEPER",
-		"name": "Master's Runestone Golem Remnant"
+		"name": "Master's Runestone Golem Remnant",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_2H_SHAPESHIFTER_KEEPER",
-		"name": "Grandmaster's Runestone Golem Remnant"
+		"name": "Grandmaster's Runestone Golem Remnant",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_2H_SHAPESHIFTER_KEEPER",
-		"name": "Elder's Runestone Golem Remnant"
+		"name": "Elder's Runestone Golem Remnant",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_2H_SHAPESHIFTER_AVALON",
-		"name": "Adept's Dawnbird Remnant"
+		"name": "Adept's Dawnbird Remnant",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_2H_SHAPESHIFTER_AVALON",
-		"name": "Expert's Dawnbird Remnant"
+		"name": "Expert's Dawnbird Remnant",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_2H_SHAPESHIFTER_AVALON",
-		"name": "Master's Dawnbird Remnant"
+		"name": "Master's Dawnbird Remnant",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_2H_SHAPESHIFTER_AVALON",
-		"name": "Grandmaster's Dawnbird Remnant"
+		"name": "Grandmaster's Dawnbird Remnant",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_2H_SHAPESHIFTER_AVALON",
-		"name": "Elder's Dawnbird Remnant"
+		"name": "Elder's Dawnbird Remnant",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_2H_GLAIVE_CRYSTAL",
-		"name": "Adept's Rift Crystal"
+		"name": "Adept's Rift Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_2H_GLAIVE_CRYSTAL",
-		"name": "Expert's Rift Crystal"
+		"name": "Expert's Rift Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_2H_GLAIVE_CRYSTAL",
-		"name": "Master's Rift Crystal"
+		"name": "Master's Rift Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_2H_GLAIVE_CRYSTAL",
-		"name": "Grandmaster's Rift Crystal"
+		"name": "Grandmaster's Rift Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_2H_GLAIVE_CRYSTAL",
-		"name": "Elder's Rift Crystal"
+		"name": "Elder's Rift Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_2H_ARCANESTAFF_CRYSTAL",
-		"name": "Adept's Startouched Crystal"
+		"name": "Adept's Startouched Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_2H_ARCANESTAFF_CRYSTAL",
-		"name": "Expert's Startouched Crystal"
+		"name": "Expert's Startouched Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_2H_ARCANESTAFF_CRYSTAL",
-		"name": "Master's Startouched Crystal"
+		"name": "Master's Startouched Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_2H_ARCANESTAFF_CRYSTAL",
-		"name": "Grandmaster's Startouched Crystal"
+		"name": "Grandmaster's Startouched Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_2H_ARCANESTAFF_CRYSTAL",
-		"name": "Elder's Startouched Crystal"
+		"name": "Elder's Startouched Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_MAIN_SWORD_CRYSTAL",
-		"name": "Adept's Infinite Crystal"
+		"name": "Adept's Infinite Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_MAIN_SWORD_CRYSTAL",
-		"name": "Expert's Infinite Crystal"
+		"name": "Expert's Infinite Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_MAIN_SWORD_CRYSTAL",
-		"name": "Master's Infinite Crystal"
+		"name": "Master's Infinite Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_MAIN_SWORD_CRYSTAL",
-		"name": "Grandmaster's Infinite Crystal"
+		"name": "Grandmaster's Infinite Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_MAIN_SWORD_CRYSTAL",
-		"name": "Elder's Infinite Crystal"
+		"name": "Elder's Infinite Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_2H_DOUBLEBLADEDSTAFF_CRYSTAL",
-		"name": "Adept's Mirage Crystal"
+		"name": "Adept's Mirage Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_2H_DOUBLEBLADEDSTAFF_CRYSTAL",
-		"name": "Expert's Mirage Crystal"
+		"name": "Expert's Mirage Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_2H_DOUBLEBLADEDSTAFF_CRYSTAL",
-		"name": "Master's Mirage Crystal"
+		"name": "Master's Mirage Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_2H_DOUBLEBLADEDSTAFF_CRYSTAL",
-		"name": "Grandmaster's Mirage Crystal"
+		"name": "Grandmaster's Mirage Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_2H_DOUBLEBLADEDSTAFF_CRYSTAL",
-		"name": "Elder's Mirage Crystal"
+		"name": "Elder's Mirage Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_2H_FROSTSTAFF_CRYSTAL",
-		"name": "Adept's Icy Crystal"
+		"name": "Adept's Icy Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_2H_FROSTSTAFF_CRYSTAL",
-		"name": "Expert's Icy Crystal"
+		"name": "Expert's Icy Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_2H_FROSTSTAFF_CRYSTAL",
-		"name": "Master's Icy Crystal"
+		"name": "Master's Icy Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_2H_FROSTSTAFF_CRYSTAL",
-		"name": "Grandmaster's Icy Crystal"
+		"name": "Grandmaster's Icy Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_2H_FROSTSTAFF_CRYSTAL",
-		"name": "Elder's Icy Crystal"
+		"name": "Elder's Icy Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_2H_SCYTHE_CRYSTAL",
-		"name": "Adept's Edged Crystal"
+		"name": "Adept's Edged Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_2H_SCYTHE_CRYSTAL",
-		"name": "Expert's Edged Crystal"
+		"name": "Expert's Edged Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_2H_SCYTHE_CRYSTAL",
-		"name": "Master's Edged Crystal"
+		"name": "Master's Edged Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_2H_SCYTHE_CRYSTAL",
-		"name": "Grandmaster's Edged Crystal"
+		"name": "Grandmaster's Edged Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_2H_SCYTHE_CRYSTAL",
-		"name": "Elder's Edged Crystal"
+		"name": "Elder's Edged Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_MAIN_MACE_CRYSTAL",
-		"name": "Adept's Dreadstorm Crystal"
+		"name": "Adept's Dreadstorm Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_MAIN_MACE_CRYSTAL",
-		"name": "Expert's Dreadstorm Crystal"
+		"name": "Expert's Dreadstorm Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_MAIN_MACE_CRYSTAL",
-		"name": "Master's Dreadstorm Crystal"
+		"name": "Master's Dreadstorm Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_MAIN_MACE_CRYSTAL",
-		"name": "Grandmaster's Dreadstorm Crystal"
+		"name": "Grandmaster's Dreadstorm Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_MAIN_MACE_CRYSTAL",
-		"name": "Elder's Dreadstorm Crystal"
+		"name": "Elder's Dreadstorm Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_2H_HOLYSTAFF_CRYSTAL",
-		"name": "Adept's Exalted Crystal"
+		"name": "Adept's Exalted Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_2H_HOLYSTAFF_CRYSTAL",
-		"name": "Expert's Exalted Crystal"
+		"name": "Expert's Exalted Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_2H_HOLYSTAFF_CRYSTAL",
-		"name": "Master's Exalted Crystal"
+		"name": "Master's Exalted Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_2H_HOLYSTAFF_CRYSTAL",
-		"name": "Grandmaster's Exalted Crystal"
+		"name": "Grandmaster's Exalted Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_2H_HOLYSTAFF_CRYSTAL",
-		"name": "Elder's Exalted Crystal"
+		"name": "Elder's Exalted Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_2H_DAGGERPAIR_CRYSTAL",
-		"name": "Adept's Death-Touched Crystal"
+		"name": "Adept's Death-Touched Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_2H_DAGGERPAIR_CRYSTAL",
-		"name": "Expert's Death-Touched Crystal"
+		"name": "Expert's Death-Touched Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_2H_DAGGERPAIR_CRYSTAL",
-		"name": "Master's Death-Touched Crystal"
+		"name": "Master's Death-Touched Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_2H_DAGGERPAIR_CRYSTAL",
-		"name": "Grandmaster's Death-Touched Crystal"
+		"name": "Grandmaster's Death-Touched Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_2H_DAGGERPAIR_CRYSTAL",
-		"name": "Elder's Death-Touched Crystal"
+		"name": "Elder's Death-Touched Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_MAIN_CURSEDSTAFF_CRYSTAL",
-		"name": "Adept's Rotten Crystal"
+		"name": "Adept's Rotten Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_MAIN_CURSEDSTAFF_CRYSTAL",
-		"name": "Expert's Rotten Crystal"
+		"name": "Expert's Rotten Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_MAIN_CURSEDSTAFF_CRYSTAL",
-		"name": "Master's Rotten Crystal"
+		"name": "Master's Rotten Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_MAIN_CURSEDSTAFF_CRYSTAL",
-		"name": "Grandmaster's Rotten Crystal"
+		"name": "Grandmaster's Rotten Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_MAIN_CURSEDSTAFF_CRYSTAL",
-		"name": "Elder's Rotten Crystal"
+		"name": "Elder's Rotten Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_2H_KNUCKLES_CRYSTAL",
-		"name": "Adept's Pulsating Crystal"
+		"name": "Adept's Pulsating Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_2H_KNUCKLES_CRYSTAL",
-		"name": "Expert's Pulsating Crystal"
+		"name": "Expert's Pulsating Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_2H_KNUCKLES_CRYSTAL",
-		"name": "Master's Pulsating Crystal"
+		"name": "Master's Pulsating Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_2H_KNUCKLES_CRYSTAL",
-		"name": "Grandmaster's Pulsating Crystal"
+		"name": "Grandmaster's Pulsating Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_2H_KNUCKLES_CRYSTAL",
-		"name": "Elder's Pulsating Crystal"
+		"name": "Elder's Pulsating Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_2H_BOW_CRYSTAL",
-		"name": "Adept's Windborne Crystal"
+		"name": "Adept's Windborne Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_2H_BOW_CRYSTAL",
-		"name": "Expert's Windborne Crystal"
+		"name": "Expert's Windborne Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_2H_BOW_CRYSTAL",
-		"name": "Master's Windborne Crystal"
+		"name": "Master's Windborne Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_2H_BOW_CRYSTAL",
-		"name": "Grandmaster's Windborne Crystal"
+		"name": "Grandmaster's Windborne Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_2H_BOW_CRYSTAL",
-		"name": "Elder's Windborne Crystal"
+		"name": "Elder's Windborne Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_MAIN_FIRESTAFF_CRYSTAL",
-		"name": "Adept's Pyreheart Crystal"
+		"name": "Adept's Pyreheart Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_MAIN_FIRESTAFF_CRYSTAL",
-		"name": "Expert's Pyreheart Crystal"
+		"name": "Expert's Pyreheart Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_MAIN_FIRESTAFF_CRYSTAL",
-		"name": "Master's Pyreheart Crystal"
+		"name": "Master's Pyreheart Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_MAIN_FIRESTAFF_CRYSTAL",
-		"name": "Grandmaster's Pyreheart Crystal"
+		"name": "Grandmaster's Pyreheart Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_MAIN_FIRESTAFF_CRYSTAL",
-		"name": "Elder's Pyreheart Crystal"
+		"name": "Elder's Pyreheart Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_MAIN_NATURESTAFF_CRYSTAL",
-		"name": "Adept's Forged Crystal"
+		"name": "Adept's Forged Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_MAIN_NATURESTAFF_CRYSTAL",
-		"name": "Expert's Forged Crystal"
+		"name": "Expert's Forged Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_MAIN_NATURESTAFF_CRYSTAL",
-		"name": "Master's Forged Crystal"
+		"name": "Master's Forged Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_MAIN_NATURESTAFF_CRYSTAL",
-		"name": "Grandmaster's Forged Crystal"
+		"name": "Grandmaster's Forged Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_MAIN_NATURESTAFF_CRYSTAL",
-		"name": "Elder's Forged Crystal"
+		"name": "Elder's Forged Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_2H_DUALCROSSBOW_CRYSTAL",
-		"name": "Adept's Arclight Crystal"
+		"name": "Adept's Arclight Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_2H_DUALCROSSBOW_CRYSTAL",
-		"name": "Expert's Arclight Crystal"
+		"name": "Expert's Arclight Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_2H_DUALCROSSBOW_CRYSTAL",
-		"name": "Master's Arclight Crystal"
+		"name": "Master's Arclight Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_2H_DUALCROSSBOW_CRYSTAL",
-		"name": "Grandmaster's Arclight Crystal"
+		"name": "Grandmaster's Arclight Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_2H_DUALCROSSBOW_CRYSTAL",
-		"name": "Elder's Arclight Crystal"
+		"name": "Elder's Arclight Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_2H_HAMMER_CRYSTAL",
-		"name": "Adept's Crackling Crystal"
+		"name": "Adept's Crackling Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_2H_HAMMER_CRYSTAL",
-		"name": "Expert's Crackling Crystal"
+		"name": "Expert's Crackling Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_2H_HAMMER_CRYSTAL",
-		"name": "Master's Crackling Crystal"
+		"name": "Master's Crackling Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_2H_HAMMER_CRYSTAL",
-		"name": "Grandmaster's Crackling Crystal"
+		"name": "Grandmaster's Crackling Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_2H_HAMMER_CRYSTAL",
-		"name": "Elder's Crackling Crystal"
+		"name": "Elder's Crackling Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_2H_SHAPESHIFTER_CRYSTAL",
-		"name": "Adept's Serpent Crystal"
+		"name": "Adept's Serpent Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_2H_SHAPESHIFTER_CRYSTAL",
-		"name": "Expert's Serpent Crystal"
+		"name": "Expert's Serpent Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_2H_SHAPESHIFTER_CRYSTAL",
-		"name": "Master's Serpent Crystal"
+		"name": "Master's Serpent Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_2H_SHAPESHIFTER_CRYSTAL",
-		"name": "Grandmaster's Serpent Crystal"
+		"name": "Grandmaster's Serpent Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_2H_SHAPESHIFTER_CRYSTAL",
-		"name": "Elder's Serpent Crystal"
+		"name": "Elder's Serpent Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_OFF_SHIELD_CRYSTAL",
-		"name": "Adept's Unbreakable Crystal"
+		"name": "Adept's Unbreakable Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_OFF_SHIELD_CRYSTAL",
-		"name": "Expert's Unbreakable Crystal"
+		"name": "Expert's Unbreakable Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_OFF_SHIELD_CRYSTAL",
-		"name": "Master's Unbreakable Crystal"
+		"name": "Master's Unbreakable Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_OFF_SHIELD_CRYSTAL",
-		"name": "Grandmaster's Unbreakable Crystal"
+		"name": "Grandmaster's Unbreakable Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_OFF_SHIELD_CRYSTAL",
-		"name": "Elder's Unbreakable Crystal"
+		"name": "Elder's Unbreakable Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_OFF_TORCH_CRYSTAL",
-		"name": "Adept's Blueflame Crystal"
+		"name": "Adept's Blueflame Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_OFF_TORCH_CRYSTAL",
-		"name": "Expert's Blueflame Crystal"
+		"name": "Expert's Blueflame Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_OFF_TORCH_CRYSTAL",
-		"name": "Master's Blueflame Crystal"
+		"name": "Master's Blueflame Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_OFF_TORCH_CRYSTAL",
-		"name": "Grandmaster's Blueflame Crystal"
+		"name": "Grandmaster's Blueflame Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_OFF_TORCH_CRYSTAL",
-		"name": "Elder's Blueflame Crystal"
+		"name": "Elder's Blueflame Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_OFF_TOME_CRYSTAL",
-		"name": "Adept's Timelocked Crystal"
+		"name": "Adept's Timelocked Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_OFF_TOME_CRYSTAL",
-		"name": "Expert's Timelocked Crystal"
+		"name": "Expert's Timelocked Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_OFF_TOME_CRYSTAL",
-		"name": "Master's Timelocked Crystal"
+		"name": "Master's Timelocked Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_OFF_TOME_CRYSTAL",
-		"name": "Grandmaster's Timelocked Crystal"
+		"name": "Grandmaster's Timelocked Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_OFF_TOME_CRYSTAL",
-		"name": "Elder's Timelocked Crystal"
+		"name": "Elder's Timelocked Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_2H_BOW_CRYSTAL_DECAY",
-		"name": "T4_ARTEFACT_2H_BOW_CRYSTAL_DECAY"
+		"name": "T4_ARTEFACT_2H_BOW_CRYSTAL_DECAY",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_2H_BOW_CRYSTAL_DECAY",
-		"name": "T5_ARTEFACT_2H_BOW_CRYSTAL_DECAY"
+		"name": "T5_ARTEFACT_2H_BOW_CRYSTAL_DECAY",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_2H_BOW_CRYSTAL_DECAY",
-		"name": "T6_ARTEFACT_2H_BOW_CRYSTAL_DECAY"
+		"name": "T6_ARTEFACT_2H_BOW_CRYSTAL_DECAY",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_2H_BOW_CRYSTAL_DECAY",
-		"name": "T7_ARTEFACT_2H_BOW_CRYSTAL_DECAY"
+		"name": "T7_ARTEFACT_2H_BOW_CRYSTAL_DECAY",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_2H_BOW_CRYSTAL_DECAY",
-		"name": "T8_ARTEFACT_2H_BOW_CRYSTAL_DECAY"
+		"name": "T8_ARTEFACT_2H_BOW_CRYSTAL_DECAY",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_2H_KNUCKLES_CRYSTAL_DECAY",
-		"name": "T4_ARTEFACT_2H_KNUCKLES_CRYSTAL_DECAY"
+		"name": "T4_ARTEFACT_2H_KNUCKLES_CRYSTAL_DECAY",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_2H_KNUCKLES_CRYSTAL_DECAY",
-		"name": "T5_ARTEFACT_2H_KNUCKLES_CRYSTAL_DECAY"
+		"name": "T5_ARTEFACT_2H_KNUCKLES_CRYSTAL_DECAY",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_2H_KNUCKLES_CRYSTAL_DECAY",
-		"name": "T6_ARTEFACT_2H_KNUCKLES_CRYSTAL_DECAY"
+		"name": "T6_ARTEFACT_2H_KNUCKLES_CRYSTAL_DECAY",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_2H_KNUCKLES_CRYSTAL_DECAY",
-		"name": "T7_ARTEFACT_2H_KNUCKLES_CRYSTAL_DECAY"
+		"name": "T7_ARTEFACT_2H_KNUCKLES_CRYSTAL_DECAY",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_2H_KNUCKLES_CRYSTAL_DECAY",
-		"name": "T8_ARTEFACT_2H_KNUCKLES_CRYSTAL_DECAY"
+		"name": "T8_ARTEFACT_2H_KNUCKLES_CRYSTAL_DECAY",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_MAIN_CURSEDSTAFF_CRYSTAL_DECAY",
-		"name": "T4_ARTEFACT_MAIN_CURSEDSTAFF_CRYSTAL_DECAY"
+		"name": "T4_ARTEFACT_MAIN_CURSEDSTAFF_CRYSTAL_DECAY",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_MAIN_CURSEDSTAFF_CRYSTAL_DECAY",
-		"name": "T5_ARTEFACT_MAIN_CURSEDSTAFF_CRYSTAL_DECAY"
+		"name": "T5_ARTEFACT_MAIN_CURSEDSTAFF_CRYSTAL_DECAY",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_MAIN_CURSEDSTAFF_CRYSTAL_DECAY",
-		"name": "T6_ARTEFACT_MAIN_CURSEDSTAFF_CRYSTAL_DECAY"
+		"name": "T6_ARTEFACT_MAIN_CURSEDSTAFF_CRYSTAL_DECAY",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_MAIN_CURSEDSTAFF_CRYSTAL_DECAY",
-		"name": "T7_ARTEFACT_MAIN_CURSEDSTAFF_CRYSTAL_DECAY"
+		"name": "T7_ARTEFACT_MAIN_CURSEDSTAFF_CRYSTAL_DECAY",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_MAIN_CURSEDSTAFF_CRYSTAL_DECAY",
-		"name": "T8_ARTEFACT_MAIN_CURSEDSTAFF_CRYSTAL_DECAY"
+		"name": "T8_ARTEFACT_MAIN_CURSEDSTAFF_CRYSTAL_DECAY",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_OFF_TOWERSHIELD_UNDEAD",
-		"name": "Adept's Ancient Shield Core"
+		"name": "Adept's Ancient Shield Core",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_OFF_TOWERSHIELD_UNDEAD",
-		"name": "Expert's Ancient Shield Core"
+		"name": "Expert's Ancient Shield Core",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_OFF_TOWERSHIELD_UNDEAD",
-		"name": "Master's Ancient Shield Core"
+		"name": "Master's Ancient Shield Core",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_OFF_TOWERSHIELD_UNDEAD",
-		"name": "Grandmaster's Ancient Shield Core"
+		"name": "Grandmaster's Ancient Shield Core",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_OFF_TOWERSHIELD_UNDEAD",
-		"name": "Elder's Ancient Shield Core"
+		"name": "Elder's Ancient Shield Core",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_OFF_SHIELD_HELL",
-		"name": "Adept's Infernal Shield Core"
+		"name": "Adept's Infernal Shield Core",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_OFF_SHIELD_HELL",
-		"name": "Expert's Infernal Shield Core"
+		"name": "Expert's Infernal Shield Core",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_OFF_SHIELD_HELL",
-		"name": "Master's Infernal Shield Core"
+		"name": "Master's Infernal Shield Core",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_OFF_SHIELD_HELL",
-		"name": "Grandmaster's Infernal Shield Core"
+		"name": "Grandmaster's Infernal Shield Core",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_OFF_SHIELD_HELL",
-		"name": "Elder's Infernal Shield Core"
+		"name": "Elder's Infernal Shield Core",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_OFF_SPIKEDSHIELD_MORGANA",
-		"name": "Adept's Bloodforged Spikes"
+		"name": "Adept's Bloodforged Spikes",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_OFF_SPIKEDSHIELD_MORGANA",
-		"name": "Expert's Bloodforged Spikes"
+		"name": "Expert's Bloodforged Spikes",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_OFF_SPIKEDSHIELD_MORGANA",
-		"name": "Master's Bloodforged Spikes"
+		"name": "Master's Bloodforged Spikes",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_OFF_SPIKEDSHIELD_MORGANA",
-		"name": "Grandmaster's Bloodforged Spikes"
+		"name": "Grandmaster's Bloodforged Spikes",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_OFF_SPIKEDSHIELD_MORGANA",
-		"name": "Elder's Bloodforged Spikes"
+		"name": "Elder's Bloodforged Spikes",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_OFF_SHIELD_AVALON",
-		"name": "Adept's Crushed Avalonian Heirloom"
+		"name": "Adept's Crushed Avalonian Heirloom",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_OFF_SHIELD_AVALON",
-		"name": "Expert's Crushed Avalonian Heirloom"
+		"name": "Expert's Crushed Avalonian Heirloom",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_OFF_SHIELD_AVALON",
-		"name": "Master's Crushed Avalonian Heirloom"
+		"name": "Master's Crushed Avalonian Heirloom",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_OFF_SHIELD_AVALON",
-		"name": "Grandmaster's Crushed Avalonian Heirloom"
+		"name": "Grandmaster's Crushed Avalonian Heirloom",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_OFF_SHIELD_AVALON",
-		"name": "Elder's Crushed Avalonian Heirloom"
+		"name": "Elder's Crushed Avalonian Heirloom",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_OFF_ORB_MORGANA",
-		"name": "Adept's Alluring Crystal"
+		"name": "Adept's Alluring Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_OFF_ORB_MORGANA",
-		"name": "Expert's Alluring Crystal"
+		"name": "Expert's Alluring Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_OFF_ORB_MORGANA",
-		"name": "Master's Alluring Crystal"
+		"name": "Master's Alluring Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_OFF_ORB_MORGANA",
-		"name": "Grandmaster's Alluring Crystal"
+		"name": "Grandmaster's Alluring Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_OFF_ORB_MORGANA",
-		"name": "Elder's Alluring Crystal"
+		"name": "Elder's Alluring Crystal",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_OFF_DEMONSKULL_HELL",
-		"name": "Adept's Demonic Jawbone"
+		"name": "Adept's Demonic Jawbone",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_OFF_DEMONSKULL_HELL",
-		"name": "Expert's Demonic Jawbone"
+		"name": "Expert's Demonic Jawbone",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_OFF_DEMONSKULL_HELL",
-		"name": "Master's Demonic Jawbone"
+		"name": "Master's Demonic Jawbone",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_OFF_DEMONSKULL_HELL",
-		"name": "Grandmaster's Demonic Jawbone"
+		"name": "Grandmaster's Demonic Jawbone",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_OFF_DEMONSKULL_HELL",
-		"name": "Elder's Demonic Jawbone"
+		"name": "Elder's Demonic Jawbone",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_OFF_TOTEM_KEEPER",
-		"name": "Adept's Inscribed Stone"
+		"name": "Adept's Inscribed Stone",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_OFF_TOTEM_KEEPER",
-		"name": "Expert's Inscribed Stone"
+		"name": "Expert's Inscribed Stone",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_OFF_TOTEM_KEEPER",
-		"name": "Master's Inscribed Stone"
+		"name": "Master's Inscribed Stone",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_OFF_TOTEM_KEEPER",
-		"name": "Grandmaster's Inscribed Stone"
+		"name": "Grandmaster's Inscribed Stone",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_OFF_TOTEM_KEEPER",
-		"name": "Elder's Inscribed Stone"
+		"name": "Elder's Inscribed Stone",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_OFF_CENSER_AVALON",
-		"name": "Adept's Severed Celestial Keepsake"
+		"name": "Adept's Severed Celestial Keepsake",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_OFF_CENSER_AVALON",
-		"name": "Expert's Severed Celestial Keepsake"
+		"name": "Expert's Severed Celestial Keepsake",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_OFF_CENSER_AVALON",
-		"name": "Master's Severed Celestial Keepsake"
+		"name": "Master's Severed Celestial Keepsake",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_OFF_CENSER_AVALON",
-		"name": "Grandmaster's Severed Celestial Keepsake"
+		"name": "Grandmaster's Severed Celestial Keepsake",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_OFF_CENSER_AVALON",
-		"name": "Elder's Severed Celestial Keepsake"
+		"name": "Elder's Severed Celestial Keepsake",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_OFF_HORN_KEEPER",
-		"name": "Adept's Runed Horn"
+		"name": "Adept's Runed Horn",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_OFF_HORN_KEEPER",
-		"name": "Expert's Runed Horn"
+		"name": "Expert's Runed Horn",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_OFF_HORN_KEEPER",
-		"name": "Master's Runed Horn"
+		"name": "Master's Runed Horn",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_OFF_HORN_KEEPER",
-		"name": "Grandmaster's Runed Horn"
+		"name": "Grandmaster's Runed Horn",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_OFF_HORN_KEEPER",
-		"name": "Elder's Runed Horn"
+		"name": "Elder's Runed Horn",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_OFF_JESTERCANE_HELL",
-		"name": "Adept's Hellish Handle"
+		"name": "Adept's Hellish Handle",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_OFF_JESTERCANE_HELL",
-		"name": "Expert's Hellish Handle"
+		"name": "Expert's Hellish Handle",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_OFF_JESTERCANE_HELL",
-		"name": "Master's Hellish Handle"
+		"name": "Master's Hellish Handle",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_OFF_JESTERCANE_HELL",
-		"name": "Grandmaster's Hellish Handle"
+		"name": "Grandmaster's Hellish Handle",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_OFF_JESTERCANE_HELL",
-		"name": "Elder's Hellish Handle"
+		"name": "Elder's Hellish Handle",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_OFF_LAMP_UNDEAD",
-		"name": "Adept's Ghastly Candle"
+		"name": "Adept's Ghastly Candle",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_OFF_LAMP_UNDEAD",
-		"name": "Expert's Ghastly Candle"
+		"name": "Expert's Ghastly Candle",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_OFF_LAMP_UNDEAD",
-		"name": "Master's Ghastly Candle"
+		"name": "Master's Ghastly Candle",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_OFF_LAMP_UNDEAD",
-		"name": "Grandmaster's Ghastly Candle"
+		"name": "Grandmaster's Ghastly Candle",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_OFF_LAMP_UNDEAD",
-		"name": "Elder's Ghastly Candle"
+		"name": "Elder's Ghastly Candle",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_OFF_TALISMAN_AVALON",
-		"name": "Adept's Shattered Avalonian Memento"
+		"name": "Adept's Shattered Avalonian Memento",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_OFF_TALISMAN_AVALON",
-		"name": "Expert's Shattered Avalonian Memento"
+		"name": "Expert's Shattered Avalonian Memento",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_OFF_TALISMAN_AVALON",
-		"name": "Master's Shattered Avalonian Memento"
+		"name": "Master's Shattered Avalonian Memento",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_OFF_TALISMAN_AVALON",
-		"name": "Grandmaster's Shattered Avalonian Memento"
+		"name": "Grandmaster's Shattered Avalonian Memento",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_OFF_TALISMAN_AVALON",
-		"name": "Elder's Shattered Avalonian Memento"
+		"name": "Elder's Shattered Avalonian Memento",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_HEAD_PLATE_UNDEAD",
-		"name": "Adept's Ancient Padding"
+		"name": "Adept's Ancient Padding",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_HEAD_PLATE_UNDEAD",
-		"name": "Expert's Ancient Padding"
+		"name": "Expert's Ancient Padding",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_HEAD_PLATE_UNDEAD",
-		"name": "Master's Ancient Padding"
+		"name": "Master's Ancient Padding",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_HEAD_PLATE_UNDEAD",
-		"name": "Grandmaster's Ancient Padding"
+		"name": "Grandmaster's Ancient Padding",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_HEAD_PLATE_UNDEAD",
-		"name": "Elder's Ancient Padding"
+		"name": "Elder's Ancient Padding",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_ARMOR_PLATE_UNDEAD",
-		"name": "Adept's Ancient Chain Rings"
+		"name": "Adept's Ancient Chain Rings",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_ARMOR_PLATE_UNDEAD",
-		"name": "Expert's Ancient Chain Rings"
+		"name": "Expert's Ancient Chain Rings",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_ARMOR_PLATE_UNDEAD",
-		"name": "Master's Ancient Chain Rings"
+		"name": "Master's Ancient Chain Rings",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_ARMOR_PLATE_UNDEAD",
-		"name": "Grandmaster's Ancient Chain Rings"
+		"name": "Grandmaster's Ancient Chain Rings",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_ARMOR_PLATE_UNDEAD",
-		"name": "Elder's Ancient Chain Rings"
+		"name": "Elder's Ancient Chain Rings",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_SHOES_PLATE_UNDEAD",
-		"name": "Adept's Ancient Bindings"
+		"name": "Adept's Ancient Bindings",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_SHOES_PLATE_UNDEAD",
-		"name": "Expert's Ancient Bindings"
+		"name": "Expert's Ancient Bindings",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_SHOES_PLATE_UNDEAD",
-		"name": "Master's Ancient Bindings"
+		"name": "Master's Ancient Bindings",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_SHOES_PLATE_UNDEAD",
-		"name": "Grandmaster's Ancient Bindings"
+		"name": "Grandmaster's Ancient Bindings",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_SHOES_PLATE_UNDEAD",
-		"name": "Elder's Ancient Bindings"
+		"name": "Elder's Ancient Bindings",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_HEAD_PLATE_HELL",
-		"name": "Adept's Demonic Scraps"
+		"name": "Adept's Demonic Scraps",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_HEAD_PLATE_HELL",
-		"name": "Expert's Demonic Scraps"
+		"name": "Expert's Demonic Scraps",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_HEAD_PLATE_HELL",
-		"name": "Master's Demonic Scraps"
+		"name": "Master's Demonic Scraps",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_HEAD_PLATE_HELL",
-		"name": "Grandmaster's Demonic Scraps"
+		"name": "Grandmaster's Demonic Scraps",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_HEAD_PLATE_HELL",
-		"name": "Elder's Demonic Scraps"
+		"name": "Elder's Demonic Scraps",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_ARMOR_PLATE_HELL",
-		"name": "Adept's Demonic Plates"
+		"name": "Adept's Demonic Plates",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_ARMOR_PLATE_HELL",
-		"name": "Expert's Demonic Plates"
+		"name": "Expert's Demonic Plates",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_ARMOR_PLATE_HELL",
-		"name": "Master's Demonic Plates"
+		"name": "Master's Demonic Plates",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_ARMOR_PLATE_HELL",
-		"name": "Grandmaster's Demonic Plates"
+		"name": "Grandmaster's Demonic Plates",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_ARMOR_PLATE_HELL",
-		"name": "Elder's Demonic Plates"
+		"name": "Elder's Demonic Plates",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_SHOES_PLATE_HELL",
-		"name": "Adept's Demonic Filling"
+		"name": "Adept's Demonic Filling",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_SHOES_PLATE_HELL",
-		"name": "Expert's Demonic Filling"
+		"name": "Expert's Demonic Filling",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_SHOES_PLATE_HELL",
-		"name": "Master's Demonic Filling"
+		"name": "Master's Demonic Filling",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_SHOES_PLATE_HELL",
-		"name": "Grandmaster's Demonic Filling"
+		"name": "Grandmaster's Demonic Filling",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_SHOES_PLATE_HELL",
-		"name": "Elder's Demonic Filling"
+		"name": "Elder's Demonic Filling",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_HEAD_PLATE_KEEPER",
-		"name": "Adept's Carved Skull Padding"
+		"name": "Adept's Carved Skull Padding",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_HEAD_PLATE_KEEPER",
-		"name": "Expert's Carved Skull Padding"
+		"name": "Expert's Carved Skull Padding",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_HEAD_PLATE_KEEPER",
-		"name": "Master's Carved Skull Padding"
+		"name": "Master's Carved Skull Padding",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_HEAD_PLATE_KEEPER",
-		"name": "Grandmaster's Carved Skull Padding"
+		"name": "Grandmaster's Carved Skull Padding",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_HEAD_PLATE_KEEPER",
-		"name": "Elder's Carved Skull Padding"
+		"name": "Elder's Carved Skull Padding",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_ARMOR_PLATE_KEEPER",
-		"name": "Adept's Preserved Animal Fur"
+		"name": "Adept's Preserved Animal Fur",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_ARMOR_PLATE_KEEPER",
-		"name": "Expert's Preserved Animal Fur"
+		"name": "Expert's Preserved Animal Fur",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_ARMOR_PLATE_KEEPER",
-		"name": "Master's Preserved Animal Fur"
+		"name": "Master's Preserved Animal Fur",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_ARMOR_PLATE_KEEPER",
-		"name": "Grandmaster's Preserved Animal Fur"
+		"name": "Grandmaster's Preserved Animal Fur",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_ARMOR_PLATE_KEEPER",
-		"name": "Elder's Preserved Animal Fur"
+		"name": "Elder's Preserved Animal Fur",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_SHOES_PLATE_KEEPER",
-		"name": "Adept's Inscribed Bindings"
+		"name": "Adept's Inscribed Bindings",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_SHOES_PLATE_KEEPER",
-		"name": "Expert's Inscribed Bindings"
+		"name": "Expert's Inscribed Bindings",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_SHOES_PLATE_KEEPER",
-		"name": "Master's Inscribed Bindings"
+		"name": "Master's Inscribed Bindings",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_SHOES_PLATE_KEEPER",
-		"name": "Grandmaster's Inscribed Bindings"
+		"name": "Grandmaster's Inscribed Bindings",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_SHOES_PLATE_KEEPER",
-		"name": "Elder's Inscribed Bindings"
+		"name": "Elder's Inscribed Bindings",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_HEAD_PLATE_AVALON",
-		"name": "Adept's Exalted Visor"
+		"name": "Adept's Exalted Visor",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_HEAD_PLATE_AVALON",
-		"name": "Expert's Exalted Visor"
+		"name": "Expert's Exalted Visor",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_HEAD_PLATE_AVALON",
-		"name": "Master's Exalted Visor"
+		"name": "Master's Exalted Visor",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_HEAD_PLATE_AVALON",
-		"name": "Grandmaster's Exalted Visor"
+		"name": "Grandmaster's Exalted Visor",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_HEAD_PLATE_AVALON",
-		"name": "Elder's Exalted Visor"
+		"name": "Elder's Exalted Visor",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_ARMOR_PLATE_AVALON",
-		"name": "Adept's Exalted Plating"
+		"name": "Adept's Exalted Plating",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_ARMOR_PLATE_AVALON",
-		"name": "Expert's Exalted Plating"
+		"name": "Expert's Exalted Plating",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_ARMOR_PLATE_AVALON",
-		"name": "Master's Exalted Plating"
+		"name": "Master's Exalted Plating",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_ARMOR_PLATE_AVALON",
-		"name": "Grandmaster's Exalted Plating"
+		"name": "Grandmaster's Exalted Plating",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_ARMOR_PLATE_AVALON",
-		"name": "Elder's Exalted Plating"
+		"name": "Elder's Exalted Plating",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_SHOES_PLATE_AVALON",
-		"name": "Adept's Exalted Greave"
+		"name": "Adept's Exalted Greave",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_SHOES_PLATE_AVALON",
-		"name": "Expert's Exalted Greave"
+		"name": "Expert's Exalted Greave",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_SHOES_PLATE_AVALON",
-		"name": "Master's Exalted Greave"
+		"name": "Master's Exalted Greave",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_SHOES_PLATE_AVALON",
-		"name": "Grandmaster's Exalted Greave"
+		"name": "Grandmaster's Exalted Greave",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_SHOES_PLATE_AVALON",
-		"name": "Elder's Exalted Greave"
+		"name": "Elder's Exalted Greave",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_ARMOR_PLATE_FEY",
-		"name": "Adept's Veilweaver Carapace"
+		"name": "Adept's Veilweaver Carapace",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_ARMOR_PLATE_FEY",
-		"name": "Expert's Veilweaver Carapace"
+		"name": "Expert's Veilweaver Carapace",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_ARMOR_PLATE_FEY",
-		"name": "Master's Veilweaver Carapace"
+		"name": "Master's Veilweaver Carapace",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_ARMOR_PLATE_FEY",
-		"name": "Grandmaster's Veilweaver Carapace"
+		"name": "Grandmaster's Veilweaver Carapace",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_ARMOR_PLATE_FEY",
-		"name": "Elder's Veilweaver Carapace"
+		"name": "Elder's Veilweaver Carapace",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_HEAD_PLATE_FEY",
-		"name": "Adept's Veilweaver Mandibles"
+		"name": "Adept's Veilweaver Mandibles",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_HEAD_PLATE_FEY",
-		"name": "Expert's Veilweaver Mandibles"
+		"name": "Expert's Veilweaver Mandibles",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_HEAD_PLATE_FEY",
-		"name": "Master's Veilweaver Mandibles"
+		"name": "Master's Veilweaver Mandibles",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_HEAD_PLATE_FEY",
-		"name": "Grandmaster's Veilweaver Mandibles"
+		"name": "Grandmaster's Veilweaver Mandibles",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_HEAD_PLATE_FEY",
-		"name": "Elder's Veilweaver Mandibles"
+		"name": "Elder's Veilweaver Mandibles",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_SHOES_PLATE_FEY",
-		"name": "Adept's Veilweaver Claws"
+		"name": "Adept's Veilweaver Claws",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_SHOES_PLATE_FEY",
-		"name": "Expert's Veilweaver Claws"
+		"name": "Expert's Veilweaver Claws",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_SHOES_PLATE_FEY",
-		"name": "Master's Veilweaver Claws"
+		"name": "Master's Veilweaver Claws",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_SHOES_PLATE_FEY",
-		"name": "Grandmaster's Veilweaver Claws"
+		"name": "Grandmaster's Veilweaver Claws",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_SHOES_PLATE_FEY",
-		"name": "Elder's Veilweaver Claws"
+		"name": "Elder's Veilweaver Claws",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_TOKEN_FAVOR_1",
-		"name": "Adept's Crystallized Spirit"
+		"name": "Adept's Crystallized Spirit",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_TOKEN_FAVOR_1",
-		"name": "Expert's Crystallized Spirit"
+		"name": "Expert's Crystallized Spirit",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_TOKEN_FAVOR_1",
-		"name": "Master's Crystallized Spirit"
+		"name": "Master's Crystallized Spirit",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_TOKEN_FAVOR_1",
-		"name": "Grandmaster's Crystallized Spirit"
+		"name": "Grandmaster's Crystallized Spirit",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_TOKEN_FAVOR_1",
-		"name": "Elder's Crystallized Spirit"
+		"name": "Elder's Crystallized Spirit",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_TOKEN_FAVOR_2",
-		"name": "Adept's Crystallized Dread"
+		"name": "Adept's Crystallized Dread",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_TOKEN_FAVOR_2",
-		"name": "Expert's Crystallized Dread"
+		"name": "Expert's Crystallized Dread",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_TOKEN_FAVOR_2",
-		"name": "Master's Crystallized Dread"
+		"name": "Master's Crystallized Dread",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_TOKEN_FAVOR_2",
-		"name": "Grandmaster's Crystallized Dread"
+		"name": "Grandmaster's Crystallized Dread",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_TOKEN_FAVOR_2",
-		"name": "Elder's Crystallized Dread"
+		"name": "Elder's Crystallized Dread",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_TOKEN_FAVOR_3",
-		"name": "Adept's Crystallized Magic"
+		"name": "Adept's Crystallized Magic",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_TOKEN_FAVOR_3",
-		"name": "Expert's Crystallized Magic"
+		"name": "Expert's Crystallized Magic",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_TOKEN_FAVOR_3",
-		"name": "Master's Crystallized Magic"
+		"name": "Master's Crystallized Magic",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_TOKEN_FAVOR_3",
-		"name": "Grandmaster's Crystallized Magic"
+		"name": "Grandmaster's Crystallized Magic",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_TOKEN_FAVOR_3",
-		"name": "Elder's Crystallized Magic"
+		"name": "Elder's Crystallized Magic",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_TOKEN_FAVOR_4",
-		"name": "Adept's Crystallized Divinity"
+		"name": "Adept's Crystallized Divinity",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_TOKEN_FAVOR_4",
-		"name": "Expert's Crystallized Divinity"
+		"name": "Expert's Crystallized Divinity",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_TOKEN_FAVOR_4",
-		"name": "Master's Crystallized Divinity"
+		"name": "Master's Crystallized Divinity",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_TOKEN_FAVOR_4",
-		"name": "Grandmaster's Crystallized Divinity"
+		"name": "Grandmaster's Crystallized Divinity",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_TOKEN_FAVOR_4",
-		"name": "Elder's Crystallized Divinity"
+		"name": "Elder's Crystallized Divinity",
+		"weight": 2
 	}
 ]

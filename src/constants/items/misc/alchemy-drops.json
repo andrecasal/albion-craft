@@ -1,98 +1,122 @@
 [
 	{
 		"id": "T3_ALCHEMY_RARE_PANTHER",
-		"name": "Rugged Shadow Claws"
+		"name": "Rugged Shadow Claws",
+		"weight": 0.05
 	},
 	{
 		"id": "T5_ALCHEMY_RARE_PANTHER",
-		"name": "Fine Shadow Claws"
+		"name": "Fine Shadow Claws",
+		"weight": 0.05
 	},
 	{
 		"id": "T7_ALCHEMY_RARE_PANTHER",
-		"name": "Excellent Shadow Claws"
+		"name": "Excellent Shadow Claws",
+		"weight": 0.05
 	},
 	{
 		"id": "T3_ALCHEMY_RARE_ENT",
-		"name": "Rugged Sylvian Root"
+		"name": "Rugged Sylvian Root",
+		"weight": 0.05
 	},
 	{
 		"id": "T5_ALCHEMY_RARE_ENT",
-		"name": "Fine Sylvian Root"
+		"name": "Fine Sylvian Root",
+		"weight": 0.05
 	},
 	{
 		"id": "T7_ALCHEMY_RARE_ENT",
-		"name": "Excellent Sylvian Root"
+		"name": "Excellent Sylvian Root",
+		"weight": 0.05
 	},
 	{
 		"id": "T3_ALCHEMY_RARE_DIREBEAR",
-		"name": "Rugged Spirit Paws"
+		"name": "Rugged Spirit Paws",
+		"weight": 0.05
 	},
 	{
 		"id": "T5_ALCHEMY_RARE_DIREBEAR",
-		"name": "Fine Spirit Paws"
+		"name": "Fine Spirit Paws",
+		"weight": 0.05
 	},
 	{
 		"id": "T7_ALCHEMY_RARE_DIREBEAR",
-		"name": "Excellent Spirit Paws"
+		"name": "Excellent Spirit Paws",
+		"weight": 0.05
 	},
 	{
 		"id": "T3_ALCHEMY_RARE_WEREWOLF",
-		"name": "Rugged Werewolf Fangs"
+		"name": "Rugged Werewolf Fangs",
+		"weight": 0.05
 	},
 	{
 		"id": "T5_ALCHEMY_RARE_WEREWOLF",
-		"name": "Fine Werewolf Fangs"
+		"name": "Fine Werewolf Fangs",
+		"weight": 0.05
 	},
 	{
 		"id": "T7_ALCHEMY_RARE_WEREWOLF",
-		"name": "Excellent Werewolf Fangs"
+		"name": "Excellent Werewolf Fangs",
+		"weight": 0.05
 	},
 	{
 		"id": "T3_ALCHEMY_RARE_IMP",
-		"name": "Rugged Imp's Horn"
+		"name": "Rugged Imp's Horn",
+		"weight": 0.05
 	},
 	{
 		"id": "T5_ALCHEMY_RARE_IMP",
-		"name": "Fine Imp's Horn"
+		"name": "Fine Imp's Horn",
+		"weight": 0.05
 	},
 	{
 		"id": "T7_ALCHEMY_RARE_IMP",
-		"name": "Excellent Imp's Horn"
+		"name": "Excellent Imp's Horn",
+		"weight": 0.05
 	},
 	{
 		"id": "T3_ALCHEMY_RARE_ELEMENTAL",
-		"name": "Rugged Runestone Tooth"
+		"name": "Rugged Runestone Tooth",
+		"weight": 0.05
 	},
 	{
 		"id": "T5_ALCHEMY_RARE_ELEMENTAL",
-		"name": "Fine Runestone Tooth"
+		"name": "Fine Runestone Tooth",
+		"weight": 0.05
 	},
 	{
 		"id": "T7_ALCHEMY_RARE_ELEMENTAL",
-		"name": "Excellent Runestone Tooth"
+		"name": "Excellent Runestone Tooth",
+		"weight": 0.05
 	},
 	{
 		"id": "T3_ALCHEMY_RARE_EAGLE",
-		"name": "Rugged Dawnfeather"
+		"name": "Rugged Dawnfeather",
+		"weight": 0.05
 	},
 	{
 		"id": "T5_ALCHEMY_RARE_EAGLE",
-		"name": "Fine Dawnfeather"
+		"name": "Fine Dawnfeather",
+		"weight": 0.05
 	},
 	{
 		"id": "T7_ALCHEMY_RARE_EAGLE",
-		"name": "Excellent Dawnfeather"
+		"name": "Excellent Dawnfeather",
+		"weight": 0.05
 	},
 	{
 		"id": "T1_ALCHEMY_EXTRACT_LEVEL1",
-		"name": "Basic Arcane Extract"
+		"name": "Basic Arcane Extract",
+		"weight": 1
 	},
 	{
 		"id": "T1_ALCHEMY_EXTRACT_LEVEL2",
-		"name": "Refined Arcane Extract"
+		"name": "Refined Arcane Extract",
+		"weight": 1.5
 	},
 	{
 		"id": "T1_ALCHEMY_EXTRACT_LEVEL3",
-		"name": "Pure Arcane Extract"
+		"name": "Pure Arcane Extract",
+		"weight": 2
 	}
 ]

@@ -1,354 +1,442 @@
 [
 	{
 		"id": "T1_2H_TOOL_PICK",
-		"name": "Beginner's Pickaxe"
+		"name": "Beginner's Pickaxe",
+		"weight": 0.5
 	},
 	{
 		"id": "T2_2H_TOOL_PICK",
-		"name": "Novice's Pickaxe"
+		"name": "Novice's Pickaxe",
+		"weight": 0.75
 	},
 	{
 		"id": "T3_2H_TOOL_PICK",
-		"name": "Journeyman's Pickaxe"
+		"name": "Journeyman's Pickaxe",
+		"weight": 1.13
 	},
 	{
 		"id": "T4_2H_TOOL_PICK",
-		"name": "Adept's Pickaxe"
+		"name": "Adept's Pickaxe",
+		"weight": 1.69
 	},
 	{
 		"id": "T5_2H_TOOL_PICK",
-		"name": "Expert's Pickaxe"
+		"name": "Expert's Pickaxe",
+		"weight": 2.53
 	},
 	{
 		"id": "T6_2H_TOOL_PICK",
-		"name": "Master's Pickaxe"
+		"name": "Master's Pickaxe",
+		"weight": 3.8
 	},
 	{
 		"id": "T7_2H_TOOL_PICK",
-		"name": "Grandmaster's Pickaxe"
+		"name": "Grandmaster's Pickaxe",
+		"weight": 5.7
 	},
 	{
 		"id": "T8_2H_TOOL_PICK",
-		"name": "Elder's Pickaxe"
+		"name": "Elder's Pickaxe",
+		"weight": 8.54
 	},
 	{
 		"id": "T4_2H_TOOL_PICK_AVALON",
-		"name": "Adept's Avalonian Pickaxe"
+		"name": "Adept's Avalonian Pickaxe",
+		"weight": 1.69
 	},
 	{
 		"id": "T5_2H_TOOL_PICK_AVALON",
-		"name": "Expert's Avalonian Pickaxe"
+		"name": "Expert's Avalonian Pickaxe",
+		"weight": 2.53
 	},
 	{
 		"id": "T6_2H_TOOL_PICK_AVALON",
-		"name": "Master's Avalonian Pickaxe"
+		"name": "Master's Avalonian Pickaxe",
+		"weight": 3.8
 	},
 	{
 		"id": "T7_2H_TOOL_PICK_AVALON",
-		"name": "Grandmaster's Avalonian Pickaxe"
+		"name": "Grandmaster's Avalonian Pickaxe",
+		"weight": 5.7
 	},
 	{
 		"id": "T8_2H_TOOL_PICK_AVALON",
-		"name": "Elder's Avalonian Pickaxe"
+		"name": "Elder's Avalonian Pickaxe",
+		"weight": 8.54
 	},
 	{
 		"id": "T1_2H_TOOL_HAMMER",
-		"name": "Beginner's Stone Hammer"
+		"name": "Beginner's Stone Hammer",
+		"weight": 0.5
 	},
 	{
 		"id": "T2_2H_TOOL_HAMMER",
-		"name": "Novice's Stone Hammer"
+		"name": "Novice's Stone Hammer",
+		"weight": 0.75
 	},
 	{
 		"id": "T3_2H_TOOL_HAMMER",
-		"name": "Journeyman's Stone Hammer"
+		"name": "Journeyman's Stone Hammer",
+		"weight": 1.13
 	},
 	{
 		"id": "T4_2H_TOOL_HAMMER",
-		"name": "Adept's Stone Hammer"
+		"name": "Adept's Stone Hammer",
+		"weight": 1.69
 	},
 	{
 		"id": "T5_2H_TOOL_HAMMER",
-		"name": "Expert's Stone Hammer"
+		"name": "Expert's Stone Hammer",
+		"weight": 2.53
 	},
 	{
 		"id": "T6_2H_TOOL_HAMMER",
-		"name": "Master's Stone Hammer"
+		"name": "Master's Stone Hammer",
+		"weight": 3.8
 	},
 	{
 		"id": "T7_2H_TOOL_HAMMER",
-		"name": "Grandmaster's Stone Hammer"
+		"name": "Grandmaster's Stone Hammer",
+		"weight": 5.7
 	},
 	{
 		"id": "T8_2H_TOOL_HAMMER",
-		"name": "Elder's Stone Hammer"
+		"name": "Elder's Stone Hammer",
+		"weight": 8.54
 	},
 	{
 		"id": "T4_2H_TOOL_HAMMER_AVALON",
-		"name": "Adept's Avalonian Stone Hammer"
+		"name": "Adept's Avalonian Stone Hammer",
+		"weight": 1.69
 	},
 	{
 		"id": "T5_2H_TOOL_HAMMER_AVALON",
-		"name": "Expert's Avalonian Stone Hammer"
+		"name": "Expert's Avalonian Stone Hammer",
+		"weight": 2.53
 	},
 	{
 		"id": "T6_2H_TOOL_HAMMER_AVALON",
-		"name": "Master's Avalonian Stone Hammer"
+		"name": "Master's Avalonian Stone Hammer",
+		"weight": 3.8
 	},
 	{
 		"id": "T7_2H_TOOL_HAMMER_AVALON",
-		"name": "Grandmaster's Avalonian Stone Hammer"
+		"name": "Grandmaster's Avalonian Stone Hammer",
+		"weight": 5.7
 	},
 	{
 		"id": "T8_2H_TOOL_HAMMER_AVALON",
-		"name": "Elder's Avalonian Stone Hammer"
+		"name": "Elder's Avalonian Stone Hammer",
+		"weight": 8.54
 	},
 	{
 		"id": "T1_2H_TOOL_AXE",
-		"name": "Beginner's Axe"
+		"name": "Beginner's Axe",
+		"weight": 0.5
 	},
 	{
 		"id": "T2_2H_TOOL_AXE",
-		"name": "Novice's Axe"
+		"name": "Novice's Axe",
+		"weight": 0.75
 	},
 	{
 		"id": "T3_2H_TOOL_AXE",
-		"name": "Journeyman's Axe"
+		"name": "Journeyman's Axe",
+		"weight": 1.13
 	},
 	{
 		"id": "T4_2H_TOOL_AXE",
-		"name": "Adept's Axe"
+		"name": "Adept's Axe",
+		"weight": 1.69
 	},
 	{
 		"id": "T5_2H_TOOL_AXE",
-		"name": "Expert's Axe"
+		"name": "Expert's Axe",
+		"weight": 2.53
 	},
 	{
 		"id": "T6_2H_TOOL_AXE",
-		"name": "Master's Axe"
+		"name": "Master's Axe",
+		"weight": 3.8
 	},
 	{
 		"id": "T7_2H_TOOL_AXE",
-		"name": "Grandmaster's Axe"
+		"name": "Grandmaster's Axe",
+		"weight": 5.7
 	},
 	{
 		"id": "T8_2H_TOOL_AXE",
-		"name": "Elder's Axe"
+		"name": "Elder's Axe",
+		"weight": 8.54
 	},
 	{
 		"id": "T4_2H_TOOL_AXE_AVALON",
-		"name": "Adept's Avalonian Axe"
+		"name": "Adept's Avalonian Axe",
+		"weight": 1.69
 	},
 	{
 		"id": "T5_2H_TOOL_AXE_AVALON",
-		"name": "Expert's Avalonian Axe"
+		"name": "Expert's Avalonian Axe",
+		"weight": 2.53
 	},
 	{
 		"id": "T6_2H_TOOL_AXE_AVALON",
-		"name": "Master's Avalonian Axe"
+		"name": "Master's Avalonian Axe",
+		"weight": 3.8
 	},
 	{
 		"id": "T7_2H_TOOL_AXE_AVALON",
-		"name": "Grandmaster's Avalonian Axe"
+		"name": "Grandmaster's Avalonian Axe",
+		"weight": 5.7
 	},
 	{
 		"id": "T8_2H_TOOL_AXE_AVALON",
-		"name": "Elder's Avalonian Axe"
+		"name": "Elder's Avalonian Axe",
+		"weight": 8.54
 	},
 	{
 		"id": "T1_2H_TOOL_SICKLE",
-		"name": "Beginner's Sickle"
+		"name": "Beginner's Sickle",
+		"weight": 0.5
 	},
 	{
 		"id": "T2_2H_TOOL_SICKLE",
-		"name": "Novice's Sickle"
+		"name": "Novice's Sickle",
+		"weight": 0.75
 	},
 	{
 		"id": "T3_2H_TOOL_SICKLE",
-		"name": "Journeyman's Sickle"
+		"name": "Journeyman's Sickle",
+		"weight": 1.13
 	},
 	{
 		"id": "T4_2H_TOOL_SICKLE",
-		"name": "Adept's Sickle"
+		"name": "Adept's Sickle",
+		"weight": 1.69
 	},
 	{
 		"id": "T5_2H_TOOL_SICKLE",
-		"name": "Expert's Sickle"
+		"name": "Expert's Sickle",
+		"weight": 2.53
 	},
 	{
 		"id": "T6_2H_TOOL_SICKLE",
-		"name": "Master's Sickle"
+		"name": "Master's Sickle",
+		"weight": 3.8
 	},
 	{
 		"id": "T7_2H_TOOL_SICKLE",
-		"name": "Grandmaster's Sickle"
+		"name": "Grandmaster's Sickle",
+		"weight": 5.7
 	},
 	{
 		"id": "T8_2H_TOOL_SICKLE",
-		"name": "Elder's Sickle"
+		"name": "Elder's Sickle",
+		"weight": 8.54
 	},
 	{
 		"id": "T4_2H_TOOL_SICKLE_AVALON",
-		"name": "Adept's Avalonian Sickle"
+		"name": "Adept's Avalonian Sickle",
+		"weight": 1.69
 	},
 	{
 		"id": "T5_2H_TOOL_SICKLE_AVALON",
-		"name": "Expert's Avalonian Sickle"
+		"name": "Expert's Avalonian Sickle",
+		"weight": 2.53
 	},
 	{
 		"id": "T6_2H_TOOL_SICKLE_AVALON",
-		"name": "Master's Avalonian Sickle"
+		"name": "Master's Avalonian Sickle",
+		"weight": 3.8
 	},
 	{
 		"id": "T7_2H_TOOL_SICKLE_AVALON",
-		"name": "Grandmaster's Avalonian Sickle"
+		"name": "Grandmaster's Avalonian Sickle",
+		"weight": 5.7
 	},
 	{
 		"id": "T8_2H_TOOL_SICKLE_AVALON",
-		"name": "Elder's Avalonian Sickle"
+		"name": "Elder's Avalonian Sickle",
+		"weight": 8.54
 	},
 	{
 		"id": "T1_2H_TOOL_KNIFE",
-		"name": "Beginner's Skinning Knife"
+		"name": "Beginner's Skinning Knife",
+		"weight": 0.5
 	},
 	{
 		"id": "T2_2H_TOOL_KNIFE",
-		"name": "Novice's Skinning Knife"
+		"name": "Novice's Skinning Knife",
+		"weight": 0.75
 	},
 	{
 		"id": "T3_2H_TOOL_KNIFE",
-		"name": "Journeyman's Skinning Knife"
+		"name": "Journeyman's Skinning Knife",
+		"weight": 1.13
 	},
 	{
 		"id": "T4_2H_TOOL_KNIFE",
-		"name": "Adept's Skinning Knife"
+		"name": "Adept's Skinning Knife",
+		"weight": 1.69
 	},
 	{
 		"id": "T5_2H_TOOL_KNIFE",
-		"name": "Expert's Skinning Knife"
+		"name": "Expert's Skinning Knife",
+		"weight": 2.53
 	},
 	{
 		"id": "T6_2H_TOOL_KNIFE",
-		"name": "Master's Skinning Knife"
+		"name": "Master's Skinning Knife",
+		"weight": 3.8
 	},
 	{
 		"id": "T7_2H_TOOL_KNIFE",
-		"name": "Grandmaster's Skinning Knife"
+		"name": "Grandmaster's Skinning Knife",
+		"weight": 5.7
 	},
 	{
 		"id": "T8_2H_TOOL_KNIFE",
-		"name": "Elder's Skinning Knife"
+		"name": "Elder's Skinning Knife",
+		"weight": 8.54
 	},
 	{
 		"id": "T4_2H_TOOL_KNIFE_AVALON",
-		"name": "Adept's Avalonian Skinning Knife"
+		"name": "Adept's Avalonian Skinning Knife",
+		"weight": 1.69
 	},
 	{
 		"id": "T5_2H_TOOL_KNIFE_AVALON",
-		"name": "Expert's Avalonian Skinning Knife"
+		"name": "Expert's Avalonian Skinning Knife",
+		"weight": 2.53
 	},
 	{
 		"id": "T6_2H_TOOL_KNIFE_AVALON",
-		"name": "Master's Avalonian Skinning Knife"
+		"name": "Master's Avalonian Skinning Knife",
+		"weight": 3.8
 	},
 	{
 		"id": "T7_2H_TOOL_KNIFE_AVALON",
-		"name": "Grandmaster's Avalonian Skinning Knife"
+		"name": "Grandmaster's Avalonian Skinning Knife",
+		"weight": 5.7
 	},
 	{
 		"id": "T8_2H_TOOL_KNIFE_AVALON",
-		"name": "Elder's Avalonian Skinning Knife"
+		"name": "Elder's Avalonian Skinning Knife",
+		"weight": 8.54
 	},
 	{
 		"id": "T2_2H_TOOL_SIEGEHAMMER",
-		"name": "Novice's Siege Hammer"
+		"name": "Novice's Siege Hammer",
+		"weight": 0.75
 	},
 	{
 		"id": "T3_2H_TOOL_SIEGEHAMMER",
-		"name": "Journeyman's Siege Hammer"
+		"name": "Journeyman's Siege Hammer",
+		"weight": 1.13
 	},
 	{
 		"id": "T4_2H_TOOL_SIEGEHAMMER",
-		"name": "Adept's Siege Hammer"
+		"name": "Adept's Siege Hammer",
+		"weight": 1.69
 	},
 	{
 		"id": "T5_2H_TOOL_SIEGEHAMMER",
-		"name": "Expert's Siege Hammer"
+		"name": "Expert's Siege Hammer",
+		"weight": 2.53
 	},
 	{
 		"id": "T6_2H_TOOL_SIEGEHAMMER",
-		"name": "Master's Siege Hammer"
+		"name": "Master's Siege Hammer",
+		"weight": 3.8
 	},
 	{
 		"id": "T7_2H_TOOL_SIEGEHAMMER",
-		"name": "Grandmaster's Siege Hammer"
+		"name": "Grandmaster's Siege Hammer",
+		"weight": 5.7
 	},
 	{
 		"id": "T8_2H_TOOL_SIEGEHAMMER",
-		"name": "Elder's Siege Hammer"
+		"name": "Elder's Siege Hammer",
+		"weight": 8.54
 	},
 	{
 		"id": "T4_2H_TOOL_SIEGEHAMMER_AVALON",
-		"name": "Adept's Avalonian Siege Hammer"
+		"name": "Adept's Avalonian Siege Hammer",
+		"weight": 1.69
 	},
 	{
 		"id": "T5_2H_TOOL_SIEGEHAMMER_AVALON",
-		"name": "Expert's Avalonian Siege Hammer"
+		"name": "Expert's Avalonian Siege Hammer",
+		"weight": 2.53
 	},
 	{
 		"id": "T6_2H_TOOL_SIEGEHAMMER_AVALON",
-		"name": "Master's Avalonian Siege Hammer"
+		"name": "Master's Avalonian Siege Hammer",
+		"weight": 3.8
 	},
 	{
 		"id": "T7_2H_TOOL_SIEGEHAMMER_AVALON",
-		"name": "Grandmaster's Avalonian Siege Hammer"
+		"name": "Grandmaster's Avalonian Siege Hammer",
+		"weight": 5.7
 	},
 	{
 		"id": "T8_2H_TOOL_SIEGEHAMMER_AVALON",
-		"name": "Elder's Avalonian Siege Hammer"
+		"name": "Elder's Avalonian Siege Hammer",
+		"weight": 8.54
 	},
 	{
 		"id": "T3_2H_TOOL_FISHINGROD",
-		"name": "Journeyman's Fishing Rod"
+		"name": "Journeyman's Fishing Rod",
+		"weight": 1.13
 	},
 	{
 		"id": "T4_2H_TOOL_FISHINGROD",
-		"name": "Adept's Fishing Rod"
+		"name": "Adept's Fishing Rod",
+		"weight": 1.69
 	},
 	{
 		"id": "T5_2H_TOOL_FISHINGROD",
-		"name": "Expert's Fishing Rod"
+		"name": "Expert's Fishing Rod",
+		"weight": 2.53
 	},
 	{
 		"id": "T6_2H_TOOL_FISHINGROD",
-		"name": "Master's Fishing Rod"
+		"name": "Master's Fishing Rod",
+		"weight": 3.8
 	},
 	{
 		"id": "T7_2H_TOOL_FISHINGROD",
-		"name": "Grandmaster's Fishing Rod"
+		"name": "Grandmaster's Fishing Rod",
+		"weight": 5.7
 	},
 	{
 		"id": "T8_2H_TOOL_FISHINGROD",
-		"name": "Elder's Fishing Rod"
+		"name": "Elder's Fishing Rod",
+		"weight": 8.54
 	},
 	{
 		"id": "T4_2H_TOOL_FISHINGROD_AVALON",
-		"name": "Adept's Avalonian Fishing Rod"
+		"name": "Adept's Avalonian Fishing Rod",
+		"weight": 1.69
 	},
 	{
 		"id": "T5_2H_TOOL_FISHINGROD_AVALON",
-		"name": "Expert's Avalonian Fishing Rod"
+		"name": "Expert's Avalonian Fishing Rod",
+		"weight": 2.53
 	},
 	{
 		"id": "T6_2H_TOOL_FISHINGROD_AVALON",
-		"name": "Master's Avalonian Fishing Rod"
+		"name": "Master's Avalonian Fishing Rod",
+		"weight": 3.8
 	},
 	{
 		"id": "T7_2H_TOOL_FISHINGROD_AVALON",
-		"name": "Grandmaster's Avalonian Fishing Rod"
+		"name": "Grandmaster's Avalonian Fishing Rod",
+		"weight": 5.7
 	},
 	{
 		"id": "T8_2H_TOOL_FISHINGROD_AVALON",
-		"name": "Elder's Avalonian Fishing Rod"
+		"name": "Elder's Avalonian Fishing Rod",
+		"weight": 8.54
 	}
 ]

@@ -1,602 +1,752 @@
 [
 	{
 		"id": "T1_WOOD",
-		"name": "Rough Logs"
+		"name": "Rough Logs",
+		"weight": 0.15
 	},
 	{
 		"id": "T2_WOOD",
-		"name": "Birch Logs"
+		"name": "Birch Logs",
+		"weight": 0.23
 	},
 	{
 		"id": "T3_WOOD",
-		"name": "Chestnut Logs"
+		"name": "Chestnut Logs",
+		"weight": 0.34
 	},
 	{
 		"id": "T4_WOOD",
-		"name": "Pine Logs"
+		"name": "Pine Logs",
+		"weight": 0.51
 	},
 	{
 		"id": "T5_WOOD",
-		"name": "Cedar Logs"
+		"name": "Cedar Logs",
+		"weight": 0.76
 	},
 	{
 		"id": "T6_WOOD",
-		"name": "Bloodoak Logs"
+		"name": "Bloodoak Logs",
+		"weight": 1.14
 	},
 	{
 		"id": "T7_WOOD",
-		"name": "Ashenbark Logs"
+		"name": "Ashenbark Logs",
+		"weight": 1.71
 	},
 	{
 		"id": "T8_WOOD",
-		"name": "Whitewood Logs"
+		"name": "Whitewood Logs",
+		"weight": 2.56
 	},
 	{
 		"id": "T4_WOOD_LEVEL1",
-		"name": "T4_WOOD_LEVEL1"
+		"name": "T4_WOOD_LEVEL1",
+		"weight": 0.51
 	},
 	{
 		"id": "T5_WOOD_LEVEL1",
-		"name": "T5_WOOD_LEVEL1"
+		"name": "T5_WOOD_LEVEL1",
+		"weight": 0.76
 	},
 	{
 		"id": "T6_WOOD_LEVEL1",
-		"name": "T6_WOOD_LEVEL1"
+		"name": "T6_WOOD_LEVEL1",
+		"weight": 1.14
 	},
 	{
 		"id": "T7_WOOD_LEVEL1",
-		"name": "T7_WOOD_LEVEL1"
+		"name": "T7_WOOD_LEVEL1",
+		"weight": 1.71
 	},
 	{
 		"id": "T8_WOOD_LEVEL1",
-		"name": "T8_WOOD_LEVEL1"
+		"name": "T8_WOOD_LEVEL1",
+		"weight": 2.56
 	},
 	{
 		"id": "T4_WOOD_LEVEL2",
-		"name": "T4_WOOD_LEVEL2"
+		"name": "T4_WOOD_LEVEL2",
+		"weight": 0.51
 	},
 	{
 		"id": "T5_WOOD_LEVEL2",
-		"name": "T5_WOOD_LEVEL2"
+		"name": "T5_WOOD_LEVEL2",
+		"weight": 0.76
 	},
 	{
 		"id": "T6_WOOD_LEVEL2",
-		"name": "T6_WOOD_LEVEL2"
+		"name": "T6_WOOD_LEVEL2",
+		"weight": 1.14
 	},
 	{
 		"id": "T7_WOOD_LEVEL2",
-		"name": "T7_WOOD_LEVEL2"
+		"name": "T7_WOOD_LEVEL2",
+		"weight": 1.71
 	},
 	{
 		"id": "T8_WOOD_LEVEL2",
-		"name": "T8_WOOD_LEVEL2"
+		"name": "T8_WOOD_LEVEL2",
+		"weight": 2.56
 	},
 	{
 		"id": "T4_WOOD_LEVEL3",
-		"name": "T4_WOOD_LEVEL3"
+		"name": "T4_WOOD_LEVEL3",
+		"weight": 0.51
 	},
 	{
 		"id": "T5_WOOD_LEVEL3",
-		"name": "T5_WOOD_LEVEL3"
+		"name": "T5_WOOD_LEVEL3",
+		"weight": 0.76
 	},
 	{
 		"id": "T6_WOOD_LEVEL3",
-		"name": "T6_WOOD_LEVEL3"
+		"name": "T6_WOOD_LEVEL3",
+		"weight": 1.14
 	},
 	{
 		"id": "T7_WOOD_LEVEL3",
-		"name": "T7_WOOD_LEVEL3"
+		"name": "T7_WOOD_LEVEL3",
+		"weight": 1.71
 	},
 	{
 		"id": "T8_WOOD_LEVEL3",
-		"name": "T8_WOOD_LEVEL3"
+		"name": "T8_WOOD_LEVEL3",
+		"weight": 2.56
 	},
 	{
 		"id": "T4_WOOD_LEVEL4",
-		"name": "T4_WOOD_LEVEL4"
+		"name": "T4_WOOD_LEVEL4",
+		"weight": 0.51
 	},
 	{
 		"id": "T5_WOOD_LEVEL4",
-		"name": "T5_WOOD_LEVEL4"
+		"name": "T5_WOOD_LEVEL4",
+		"weight": 0.76
 	},
 	{
 		"id": "T6_WOOD_LEVEL4",
-		"name": "T6_WOOD_LEVEL4"
+		"name": "T6_WOOD_LEVEL4",
+		"weight": 1.14
 	},
 	{
 		"id": "T7_WOOD_LEVEL4",
-		"name": "T7_WOOD_LEVEL4"
+		"name": "T7_WOOD_LEVEL4",
+		"weight": 1.71
 	},
 	{
 		"id": "T8_WOOD_LEVEL4",
-		"name": "T8_WOOD_LEVEL4"
+		"name": "T8_WOOD_LEVEL4",
+		"weight": 2.56
 	},
 	{
 		"id": "T1_ROCK",
-		"name": "Rough Stone"
+		"name": "Rough Stone",
+		"weight": 0.15
 	},
 	{
 		"id": "T2_ROCK",
-		"name": "Limestone"
+		"name": "Limestone",
+		"weight": 0.23
 	},
 	{
 		"id": "T3_ROCK",
-		"name": "Sandstone"
+		"name": "Sandstone",
+		"weight": 0.34
 	},
 	{
 		"id": "T4_ROCK",
-		"name": "Travertine"
+		"name": "Travertine",
+		"weight": 0.51
 	},
 	{
 		"id": "T5_ROCK",
-		"name": "Granite"
+		"name": "Granite",
+		"weight": 0.76
 	},
 	{
 		"id": "T6_ROCK",
-		"name": "Slate"
+		"name": "Slate",
+		"weight": 1.14
 	},
 	{
 		"id": "T7_ROCK",
-		"name": "Basalt"
+		"name": "Basalt",
+		"weight": 1.71
 	},
 	{
 		"id": "T8_ROCK",
-		"name": "Marble"
+		"name": "Marble",
+		"weight": 2.56
 	},
 	{
 		"id": "T4_ROCK_LEVEL1",
-		"name": "T4_ROCK_LEVEL1"
+		"name": "T4_ROCK_LEVEL1",
+		"weight": 0.51
 	},
 	{
 		"id": "T5_ROCK_LEVEL1",
-		"name": "T5_ROCK_LEVEL1"
+		"name": "T5_ROCK_LEVEL1",
+		"weight": 0.76
 	},
 	{
 		"id": "T6_ROCK_LEVEL1",
-		"name": "T6_ROCK_LEVEL1"
+		"name": "T6_ROCK_LEVEL1",
+		"weight": 1.14
 	},
 	{
 		"id": "T7_ROCK_LEVEL1",
-		"name": "T7_ROCK_LEVEL1"
+		"name": "T7_ROCK_LEVEL1",
+		"weight": 1.71
 	},
 	{
 		"id": "T8_ROCK_LEVEL1",
-		"name": "T8_ROCK_LEVEL1"
+		"name": "T8_ROCK_LEVEL1",
+		"weight": 2.56
 	},
 	{
 		"id": "T4_ROCK_LEVEL2",
-		"name": "T4_ROCK_LEVEL2"
+		"name": "T4_ROCK_LEVEL2",
+		"weight": 0.51
 	},
 	{
 		"id": "T5_ROCK_LEVEL2",
-		"name": "T5_ROCK_LEVEL2"
+		"name": "T5_ROCK_LEVEL2",
+		"weight": 0.76
 	},
 	{
 		"id": "T6_ROCK_LEVEL2",
-		"name": "T6_ROCK_LEVEL2"
+		"name": "T6_ROCK_LEVEL2",
+		"weight": 1.14
 	},
 	{
 		"id": "T7_ROCK_LEVEL2",
-		"name": "T7_ROCK_LEVEL2"
+		"name": "T7_ROCK_LEVEL2",
+		"weight": 1.71
 	},
 	{
 		"id": "T8_ROCK_LEVEL2",
-		"name": "T8_ROCK_LEVEL2"
+		"name": "T8_ROCK_LEVEL2",
+		"weight": 2.56
 	},
 	{
 		"id": "T4_ROCK_LEVEL3",
-		"name": "T4_ROCK_LEVEL3"
+		"name": "T4_ROCK_LEVEL3",
+		"weight": 0.51
 	},
 	{
 		"id": "T5_ROCK_LEVEL3",
-		"name": "T5_ROCK_LEVEL3"
+		"name": "T5_ROCK_LEVEL3",
+		"weight": 0.76
 	},
 	{
 		"id": "T6_ROCK_LEVEL3",
-		"name": "T6_ROCK_LEVEL3"
+		"name": "T6_ROCK_LEVEL3",
+		"weight": 1.14
 	},
 	{
 		"id": "T7_ROCK_LEVEL3",
-		"name": "T7_ROCK_LEVEL3"
+		"name": "T7_ROCK_LEVEL3",
+		"weight": 1.71
 	},
 	{
 		"id": "T8_ROCK_LEVEL3",
-		"name": "T8_ROCK_LEVEL3"
+		"name": "T8_ROCK_LEVEL3",
+		"weight": 2.56
 	},
 	{
 		"id": "T2_ORE",
-		"name": "Copper Ore"
+		"name": "Copper Ore",
+		"weight": 0.23
 	},
 	{
 		"id": "T3_ORE",
-		"name": "Tin Ore"
+		"name": "Tin Ore",
+		"weight": 0.34
 	},
 	{
 		"id": "T4_ORE",
-		"name": "Iron Ore"
+		"name": "Iron Ore",
+		"weight": 0.51
 	},
 	{
 		"id": "T5_ORE",
-		"name": "Titanium Ore"
+		"name": "Titanium Ore",
+		"weight": 0.76
 	},
 	{
 		"id": "T6_ORE",
-		"name": "Runite Ore"
+		"name": "Runite Ore",
+		"weight": 1.14
 	},
 	{
 		"id": "T7_ORE",
-		"name": "Meteorite Ore"
+		"name": "Meteorite Ore",
+		"weight": 1.71
 	},
 	{
 		"id": "T8_ORE",
-		"name": "Adamantium Ore"
+		"name": "Adamantium Ore",
+		"weight": 2.56
 	},
 	{
 		"id": "T4_ORE_LEVEL1",
-		"name": "T4_ORE_LEVEL1"
+		"name": "T4_ORE_LEVEL1",
+		"weight": 0.51
 	},
 	{
 		"id": "T5_ORE_LEVEL1",
-		"name": "T5_ORE_LEVEL1"
+		"name": "T5_ORE_LEVEL1",
+		"weight": 0.76
 	},
 	{
 		"id": "T6_ORE_LEVEL1",
-		"name": "T6_ORE_LEVEL1"
+		"name": "T6_ORE_LEVEL1",
+		"weight": 1.14
 	},
 	{
 		"id": "T7_ORE_LEVEL1",
-		"name": "T7_ORE_LEVEL1"
+		"name": "T7_ORE_LEVEL1",
+		"weight": 1.71
 	},
 	{
 		"id": "T8_ORE_LEVEL1",
-		"name": "T8_ORE_LEVEL1"
+		"name": "T8_ORE_LEVEL1",
+		"weight": 2.56
 	},
 	{
 		"id": "T4_ORE_LEVEL2",
-		"name": "T4_ORE_LEVEL2"
+		"name": "T4_ORE_LEVEL2",
+		"weight": 0.51
 	},
 	{
 		"id": "T5_ORE_LEVEL2",
-		"name": "T5_ORE_LEVEL2"
+		"name": "T5_ORE_LEVEL2",
+		"weight": 0.76
 	},
 	{
 		"id": "T6_ORE_LEVEL2",
-		"name": "T6_ORE_LEVEL2"
+		"name": "T6_ORE_LEVEL2",
+		"weight": 1.14
 	},
 	{
 		"id": "T7_ORE_LEVEL2",
-		"name": "T7_ORE_LEVEL2"
+		"name": "T7_ORE_LEVEL2",
+		"weight": 1.71
 	},
 	{
 		"id": "T8_ORE_LEVEL2",
-		"name": "T8_ORE_LEVEL2"
+		"name": "T8_ORE_LEVEL2",
+		"weight": 2.56
 	},
 	{
 		"id": "T4_ORE_LEVEL3",
-		"name": "T4_ORE_LEVEL3"
+		"name": "T4_ORE_LEVEL3",
+		"weight": 0.51
 	},
 	{
 		"id": "T5_ORE_LEVEL3",
-		"name": "T5_ORE_LEVEL3"
+		"name": "T5_ORE_LEVEL3",
+		"weight": 0.76
 	},
 	{
 		"id": "T6_ORE_LEVEL3",
-		"name": "T6_ORE_LEVEL3"
+		"name": "T6_ORE_LEVEL3",
+		"weight": 1.14
 	},
 	{
 		"id": "T7_ORE_LEVEL3",
-		"name": "T7_ORE_LEVEL3"
+		"name": "T7_ORE_LEVEL3",
+		"weight": 1.71
 	},
 	{
 		"id": "T8_ORE_LEVEL3",
-		"name": "T8_ORE_LEVEL3"
+		"name": "T8_ORE_LEVEL3",
+		"weight": 2.56
 	},
 	{
 		"id": "T4_ORE_LEVEL4",
-		"name": "T4_ORE_LEVEL4"
+		"name": "T4_ORE_LEVEL4",
+		"weight": 0.51
 	},
 	{
 		"id": "T5_ORE_LEVEL4",
-		"name": "T5_ORE_LEVEL4"
+		"name": "T5_ORE_LEVEL4",
+		"weight": 0.76
 	},
 	{
 		"id": "T6_ORE_LEVEL4",
-		"name": "T6_ORE_LEVEL4"
+		"name": "T6_ORE_LEVEL4",
+		"weight": 1.14
 	},
 	{
 		"id": "T7_ORE_LEVEL4",
-		"name": "T7_ORE_LEVEL4"
+		"name": "T7_ORE_LEVEL4",
+		"weight": 1.71
 	},
 	{
 		"id": "T8_ORE_LEVEL4",
-		"name": "T8_ORE_LEVEL4"
+		"name": "T8_ORE_LEVEL4",
+		"weight": 2.56
 	},
 	{
 		"id": "T1_HIDE",
-		"name": "Scraps of Hide"
+		"name": "Scraps of Hide",
+		"weight": 0.15
 	},
 	{
 		"id": "T2_HIDE",
-		"name": "Rugged Hide"
+		"name": "Rugged Hide",
+		"weight": 0.23
 	},
 	{
 		"id": "T3_HIDE",
-		"name": "Thin Hide"
+		"name": "Thin Hide",
+		"weight": 0.34
 	},
 	{
 		"id": "T4_HIDE",
-		"name": "Medium Hide"
+		"name": "Medium Hide",
+		"weight": 0.51
 	},
 	{
 		"id": "T5_HIDE",
-		"name": "Heavy Hide"
+		"name": "Heavy Hide",
+		"weight": 0.76
 	},
 	{
 		"id": "T6_HIDE",
-		"name": "Robust Hide"
+		"name": "Robust Hide",
+		"weight": 1.14
 	},
 	{
 		"id": "T7_HIDE",
-		"name": "Thick Hide"
+		"name": "Thick Hide",
+		"weight": 1.71
 	},
 	{
 		"id": "T8_HIDE",
-		"name": "Resilient Hide"
+		"name": "Resilient Hide",
+		"weight": 2.56
 	},
 	{
 		"id": "T4_HIDE_LEVEL1",
-		"name": "T4_HIDE_LEVEL1"
+		"name": "T4_HIDE_LEVEL1",
+		"weight": 0.51
 	},
 	{
 		"id": "T5_HIDE_LEVEL1",
-		"name": "T5_HIDE_LEVEL1"
+		"name": "T5_HIDE_LEVEL1",
+		"weight": 0.76
 	},
 	{
 		"id": "T6_HIDE_LEVEL1",
-		"name": "T6_HIDE_LEVEL1"
+		"name": "T6_HIDE_LEVEL1",
+		"weight": 1.14
 	},
 	{
 		"id": "T7_HIDE_LEVEL1",
-		"name": "T7_HIDE_LEVEL1"
+		"name": "T7_HIDE_LEVEL1",
+		"weight": 1.71
 	},
 	{
 		"id": "T8_HIDE_LEVEL1",
-		"name": "T8_HIDE_LEVEL1"
+		"name": "T8_HIDE_LEVEL1",
+		"weight": 2.56
 	},
 	{
 		"id": "T4_HIDE_LEVEL2",
-		"name": "T4_HIDE_LEVEL2"
+		"name": "T4_HIDE_LEVEL2",
+		"weight": 0.51
 	},
 	{
 		"id": "T5_HIDE_LEVEL2",
-		"name": "T5_HIDE_LEVEL2"
+		"name": "T5_HIDE_LEVEL2",
+		"weight": 0.76
 	},
 	{
 		"id": "T6_HIDE_LEVEL2",
-		"name": "T6_HIDE_LEVEL2"
+		"name": "T6_HIDE_LEVEL2",
+		"weight": 1.14
 	},
 	{
 		"id": "T7_HIDE_LEVEL2",
-		"name": "T7_HIDE_LEVEL2"
+		"name": "T7_HIDE_LEVEL2",
+		"weight": 1.71
 	},
 	{
 		"id": "T8_HIDE_LEVEL2",
-		"name": "T8_HIDE_LEVEL2"
+		"name": "T8_HIDE_LEVEL2",
+		"weight": 2.56
 	},
 	{
 		"id": "T4_HIDE_LEVEL3",
-		"name": "T4_HIDE_LEVEL3"
+		"name": "T4_HIDE_LEVEL3",
+		"weight": 0.51
 	},
 	{
 		"id": "T5_HIDE_LEVEL3",
-		"name": "T5_HIDE_LEVEL3"
+		"name": "T5_HIDE_LEVEL3",
+		"weight": 0.76
 	},
 	{
 		"id": "T6_HIDE_LEVEL3",
-		"name": "T6_HIDE_LEVEL3"
+		"name": "T6_HIDE_LEVEL3",
+		"weight": 1.14
 	},
 	{
 		"id": "T7_HIDE_LEVEL3",
-		"name": "T7_HIDE_LEVEL3"
+		"name": "T7_HIDE_LEVEL3",
+		"weight": 1.71
 	},
 	{
 		"id": "T8_HIDE_LEVEL3",
-		"name": "T8_HIDE_LEVEL3"
+		"name": "T8_HIDE_LEVEL3",
+		"weight": 2.56
 	},
 	{
 		"id": "T4_HIDE_LEVEL4",
-		"name": "T4_HIDE_LEVEL4"
+		"name": "T4_HIDE_LEVEL4",
+		"weight": 0.51
 	},
 	{
 		"id": "T5_HIDE_LEVEL4",
-		"name": "T5_HIDE_LEVEL4"
+		"name": "T5_HIDE_LEVEL4",
+		"weight": 0.76
 	},
 	{
 		"id": "T6_HIDE_LEVEL4",
-		"name": "T6_HIDE_LEVEL4"
+		"name": "T6_HIDE_LEVEL4",
+		"weight": 1.14
 	},
 	{
 		"id": "T7_HIDE_LEVEL4",
-		"name": "T7_HIDE_LEVEL4"
+		"name": "T7_HIDE_LEVEL4",
+		"weight": 1.71
 	},
 	{
 		"id": "T8_HIDE_LEVEL4",
-		"name": "T8_HIDE_LEVEL4"
+		"name": "T8_HIDE_LEVEL4",
+		"weight": 2.56
 	},
 	{
 		"id": "T2_FIBER",
-		"name": "Cotton"
+		"name": "Cotton",
+		"weight": 0.23
 	},
 	{
 		"id": "T3_FIBER",
-		"name": "Flax"
+		"name": "Flax",
+		"weight": 0.34
 	},
 	{
 		"id": "T4_FIBER",
-		"name": "Hemp"
+		"name": "Hemp",
+		"weight": 0.51
 	},
 	{
 		"id": "T5_FIBER",
-		"name": "Skyflower"
+		"name": "Skyflower",
+		"weight": 0.76
 	},
 	{
 		"id": "T6_FIBER",
-		"name": "Amberleaf Cotton"
+		"name": "Amberleaf Cotton",
+		"weight": 1.14
 	},
 	{
 		"id": "T7_FIBER",
-		"name": "Sunflax"
+		"name": "Sunflax",
+		"weight": 1.71
 	},
 	{
 		"id": "T8_FIBER",
-		"name": "Ghost Hemp"
+		"name": "Ghost Hemp",
+		"weight": 2.56
 	},
 	{
 		"id": "T4_FIBER_LEVEL1",
-		"name": "T4_FIBER_LEVEL1"
+		"name": "T4_FIBER_LEVEL1",
+		"weight": 0.51
 	},
 	{
 		"id": "T5_FIBER_LEVEL1",
-		"name": "T5_FIBER_LEVEL1"
+		"name": "T5_FIBER_LEVEL1",
+		"weight": 0.76
 	},
 	{
 		"id": "T6_FIBER_LEVEL1",
-		"name": "T6_FIBER_LEVEL1"
+		"name": "T6_FIBER_LEVEL1",
+		"weight": 1.14
 	},
 	{
 		"id": "T7_FIBER_LEVEL1",
-		"name": "T7_FIBER_LEVEL1"
+		"name": "T7_FIBER_LEVEL1",
+		"weight": 1.71
 	},
 	{
 		"id": "T8_FIBER_LEVEL1",
-		"name": "T8_FIBER_LEVEL1"
+		"name": "T8_FIBER_LEVEL1",
+		"weight": 2.56
 	},
 	{
 		"id": "T4_FIBER_LEVEL2",
-		"name": "T4_FIBER_LEVEL2"
+		"name": "T4_FIBER_LEVEL2",
+		"weight": 0.51
 	},
 	{
 		"id": "T5_FIBER_LEVEL2",
-		"name": "T5_FIBER_LEVEL2"
+		"name": "T5_FIBER_LEVEL2",
+		"weight": 0.76
 	},
 	{
 		"id": "T6_FIBER_LEVEL2",
-		"name": "T6_FIBER_LEVEL2"
+		"name": "T6_FIBER_LEVEL2",
+		"weight": 1.14
 	},
 	{
 		"id": "T7_FIBER_LEVEL2",
-		"name": "T7_FIBER_LEVEL2"
+		"name": "T7_FIBER_LEVEL2",
+		"weight": 1.71
 	},
 	{
 		"id": "T8_FIBER_LEVEL2",
-		"name": "T8_FIBER_LEVEL2"
+		"name": "T8_FIBER_LEVEL2",
+		"weight": 2.56
 	},
 	{
 		"id": "T4_FIBER_LEVEL3",
-		"name": "T4_FIBER_LEVEL3"
+		"name": "T4_FIBER_LEVEL3",
+		"weight": 0.51
 	},
 	{
 		"id": "T5_FIBER_LEVEL3",
-		"name": "T5_FIBER_LEVEL3"
+		"name": "T5_FIBER_LEVEL3",
+		"weight": 0.76
 	},
 	{
 		"id": "T6_FIBER_LEVEL3",
-		"name": "T6_FIBER_LEVEL3"
+		"name": "T6_FIBER_LEVEL3",
+		"weight": 1.14
 	},
 	{
 		"id": "T7_FIBER_LEVEL3",
-		"name": "T7_FIBER_LEVEL3"
+		"name": "T7_FIBER_LEVEL3",
+		"weight": 1.71
 	},
 	{
 		"id": "T8_FIBER_LEVEL3",
-		"name": "T8_FIBER_LEVEL3"
+		"name": "T8_FIBER_LEVEL3",
+		"weight": 2.56
 	},
 	{
 		"id": "T4_FIBER_LEVEL4",
-		"name": "T4_FIBER_LEVEL4"
+		"name": "T4_FIBER_LEVEL4",
+		"weight": 0.51
 	},
 	{
 		"id": "T5_FIBER_LEVEL4",
-		"name": "T5_FIBER_LEVEL4"
+		"name": "T5_FIBER_LEVEL4",
+		"weight": 0.76
 	},
 	{
 		"id": "T6_FIBER_LEVEL4",
-		"name": "T6_FIBER_LEVEL4"
+		"name": "T6_FIBER_LEVEL4",
+		"weight": 1.14
 	},
 	{
 		"id": "T7_FIBER_LEVEL4",
-		"name": "T7_FIBER_LEVEL4"
+		"name": "T7_FIBER_LEVEL4",
+		"weight": 1.71
 	},
 	{
 		"id": "T8_FIBER_LEVEL4",
-		"name": "T8_FIBER_LEVEL4"
+		"name": "T8_FIBER_LEVEL4",
+		"weight": 2.56
 	},
 	{
 		"id": "T2_STONEBLOCK",
-		"name": "Limestone Block"
+		"name": "Limestone Block",
+		"weight": 0.23
 	},
 	{
 		"id": "T3_STONEBLOCK",
-		"name": "Sandstone Block"
+		"name": "Sandstone Block",
+		"weight": 0.34
 	},
 	{
 		"id": "T4_STONEBLOCK",
-		"name": "Travertine Block"
+		"name": "Travertine Block",
+		"weight": 0.51
 	},
 	{
 		"id": "T5_STONEBLOCK",
-		"name": "Granite Block"
+		"name": "Granite Block",
+		"weight": 0.76
 	},
 	{
 		"id": "T6_STONEBLOCK",
-		"name": "Slate Block"
+		"name": "Slate Block",
+		"weight": 1.14
 	},
 	{
 		"id": "T7_STONEBLOCK",
-		"name": "Basalt Block"
+		"name": "Basalt Block",
+		"weight": 1.71
 	},
 	{
 		"id": "T8_STONEBLOCK",
-		"name": "Marble Block"
+		"name": "Marble Block",
+		"weight": 2.56
 	},
 	{
 		"id": "T4_ARTEFACT_2H_ROCKSTAFF_KEEPER",
-		"name": "Adept's Preserved Rocks"
+		"name": "Adept's Preserved Rocks",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_MAIN_ROCKMACE_KEEPER",
-		"name": "Adept's Runed Rock"
+		"name": "Adept's Runed Rock",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_2H_ROCKSTAFF_KEEPER",
-		"name": "Expert's Preserved Rocks"
+		"name": "Expert's Preserved Rocks",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_MAIN_ROCKMACE_KEEPER",
-		"name": "Expert's Runed Rock"
+		"name": "Expert's Runed Rock",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_2H_ROCKSTAFF_KEEPER",
-		"name": "Master's Preserved Rocks"
+		"name": "Master's Preserved Rocks",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_MAIN_ROCKMACE_KEEPER",
-		"name": "Master's Runed Rock"
+		"name": "Master's Runed Rock",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_2H_ROCKSTAFF_KEEPER",
-		"name": "Grandmaster's Preserved Rocks"
+		"name": "Grandmaster's Preserved Rocks",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_MAIN_ROCKMACE_KEEPER",
-		"name": "Grandmaster's Runed Rock"
+		"name": "Grandmaster's Runed Rock",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_2H_ROCKSTAFF_KEEPER",
-		"name": "Elder's Preserved Rocks"
+		"name": "Elder's Preserved Rocks",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_MAIN_ROCKMACE_KEEPER",
-		"name": "Elder's Runed Rock"
+		"name": "Elder's Runed Rock",
+		"weight": 2
 	}
 ]

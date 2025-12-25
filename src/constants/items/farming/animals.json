@@ -1,370 +1,462 @@
 [
 	{
 		"id": "T3_FARM_OX_BABY",
-		"name": "Journeyman's Ox Calf"
+		"name": "Journeyman's Ox Calf",
+		"weight": 1.5
 	},
 	{
 		"id": "T4_FARM_OX_BABY",
-		"name": "Adept's Ox Calf"
+		"name": "Adept's Ox Calf",
+		"weight": 1.5
 	},
 	{
 		"id": "T5_FARM_OX_BABY",
-		"name": "Expert's Ox Calf"
+		"name": "Expert's Ox Calf",
+		"weight": 1.5
 	},
 	{
 		"id": "T6_FARM_OX_BABY",
-		"name": "Master's Ox Calf"
+		"name": "Master's Ox Calf",
+		"weight": 1.5
 	},
 	{
 		"id": "T7_FARM_OX_BABY",
-		"name": "Grandmaster's Ox Calf"
+		"name": "Grandmaster's Ox Calf",
+		"weight": 1.5
 	},
 	{
 		"id": "T8_FARM_OX_BABY",
-		"name": "Elder's Ox Calf"
+		"name": "Elder's Ox Calf",
+		"weight": 1.5
 	},
 	{
 		"id": "T3_FARM_OX_GROWN",
-		"name": "Journeyman's Ox"
+		"name": "Journeyman's Ox",
+		"weight": 15
 	},
 	{
 		"id": "T4_FARM_OX_GROWN",
-		"name": "Adept's Ox"
+		"name": "Adept's Ox",
+		"weight": 15
 	},
 	{
 		"id": "T5_FARM_OX_GROWN",
-		"name": "Expert's Ox"
+		"name": "Expert's Ox",
+		"weight": 15
 	},
 	{
 		"id": "T6_FARM_OX_GROWN",
-		"name": "Master's Ox"
+		"name": "Master's Ox",
+		"weight": 15
 	},
 	{
 		"id": "T7_FARM_OX_GROWN",
-		"name": "Grandmaster's Ox"
+		"name": "Grandmaster's Ox",
+		"weight": 15
 	},
 	{
 		"id": "T8_FARM_OX_GROWN",
-		"name": "Elder's Ox"
+		"name": "Elder's Ox",
+		"weight": 15
 	},
 	{
 		"id": "T3_FARM_HORSE_BABY",
-		"name": "Journeyman's Foal"
+		"name": "Journeyman's Foal",
+		"weight": 1.5
 	},
 	{
 		"id": "T4_FARM_HORSE_BABY",
-		"name": "Adept's Foal"
+		"name": "Adept's Foal",
+		"weight": 1.5
 	},
 	{
 		"id": "T5_FARM_HORSE_BABY",
-		"name": "Expert's Foal"
+		"name": "Expert's Foal",
+		"weight": 1.5
 	},
 	{
 		"id": "T6_FARM_HORSE_BABY",
-		"name": "Master's Foal"
+		"name": "Master's Foal",
+		"weight": 1.5
 	},
 	{
 		"id": "T7_FARM_HORSE_BABY",
-		"name": "Grandmaster's Foal"
+		"name": "Grandmaster's Foal",
+		"weight": 1.5
 	},
 	{
 		"id": "T8_FARM_HORSE_BABY",
-		"name": "Elder's Foal"
+		"name": "Elder's Foal",
+		"weight": 1.5
 	},
 	{
 		"id": "T3_FARM_HORSE_GROWN",
-		"name": "Journeyman's Horse"
+		"name": "Journeyman's Horse",
+		"weight": 15
 	},
 	{
 		"id": "T4_FARM_HORSE_GROWN",
-		"name": "Adept's Horse"
+		"name": "Adept's Horse",
+		"weight": 15
 	},
 	{
 		"id": "T5_FARM_HORSE_GROWN",
-		"name": "Expert's Horse"
+		"name": "Expert's Horse",
+		"weight": 15
 	},
 	{
 		"id": "T6_FARM_HORSE_GROWN",
-		"name": "Master's Horse"
+		"name": "Master's Horse",
+		"weight": 15
 	},
 	{
 		"id": "T7_FARM_HORSE_GROWN",
-		"name": "Grandmaster's Horse"
+		"name": "Grandmaster's Horse",
+		"weight": 15
 	},
 	{
 		"id": "T8_FARM_HORSE_GROWN",
-		"name": "Elder's Horse"
+		"name": "Elder's Horse",
+		"weight": 15
 	},
 	{
 		"id": "T6_FARM_DIREWOLF_BABY",
-		"name": "Direwolf Pup"
+		"name": "Direwolf Pup",
+		"weight": 3
 	},
 	{
 		"id": "T7_FARM_DIREBOAR_BABY",
-		"name": "Direboar Piglet"
+		"name": "Direboar Piglet",
+		"weight": 4.5
 	},
 	{
 		"id": "T8_FARM_DIREBEAR_BABY",
-		"name": "Direbear Cub"
+		"name": "Direbear Cub",
+		"weight": 6
 	},
 	{
 		"id": "T7_FARM_SWAMPDRAGON_BABY",
-		"name": "Swamp Dragon Pup"
+		"name": "Swamp Dragon Pup",
+		"weight": 4.5
 	},
 	{
 		"id": "T8_FARM_MAMMOTH_BABY",
-		"name": "Mammoth Calf"
+		"name": "Mammoth Calf",
+		"weight": 6
 	},
 	{
 		"id": "T5_FARM_COUGAR_BABY",
-		"name": "Swiftclaw Cub"
+		"name": "Swiftclaw Cub",
+		"weight": 2
 	},
 	{
 		"id": "T8_FARM_DIREWOLF_BABY",
-		"name": "Ghostwolf Pup"
+		"name": "Ghostwolf Pup",
+		"weight": 6
 	},
 	{
 		"id": "T4_FARM_GIANTSTAG_BABY",
-		"name": "Adept's Fawn"
+		"name": "Adept's Fawn",
+		"weight": 1.5
 	},
 	{
 		"id": "T6_FARM_GIANTSTAG_BABY",
-		"name": "Master's Fawn"
+		"name": "Master's Fawn",
+		"weight": 3
 	},
 	{
 		"id": "T6_FARM_GIANTSTAG_MOOSE_BABY",
-		"name": "Moose Calf"
+		"name": "Moose Calf",
+		"weight": 3
 	},
 	{
 		"id": "T8_FARM_RABBIT_EASTER_BABY",
-		"name": "Vibrant Spring Cottontail Egg"
+		"name": "Vibrant Spring Cottontail Egg",
+		"weight": 6
 	},
 	{
 		"id": "T8_FARM_RABBIT_EASTER_BABY_DARK",
-		"name": "Eerie Cottontail Egg"
+		"name": "Eerie Cottontail Egg",
+		"weight": 6
 	},
 	{
 		"id": "T8_FARM_RABBIT_EASTER_GROWN",
-		"name": "Tame Spring Cottontail"
+		"name": "Tame Spring Cottontail",
+		"weight": 15
 	},
 	{
 		"id": "T8_FARM_RABBIT_EASTER_GROWN_DARK",
-		"name": "\"Tame\" Caerleon Cottontail"
+		"name": "\"Tame\" Caerleon Cottontail",
+		"weight": 15
 	},
 	{
 		"id": "T5_FARM_MOABIRD_FW_BRIDGEWATCH_BABY",
-		"name": "Baby Moabird"
+		"name": "Baby Moabird",
+		"weight": 1.5
 	},
 	{
 		"id": "T5_FARM_DIREBEAR_FW_FORTSTERLING_BABY",
-		"name": "Winter Bear Cub"
+		"name": "Winter Bear Cub",
+		"weight": 1.5
 	},
 	{
 		"id": "T5_FARM_DIREBOAR_FW_LYMHURST_BABY",
-		"name": "Wild Boarlet"
+		"name": "Wild Boarlet",
+		"weight": 1.5
 	},
 	{
 		"id": "T5_FARM_RAM_FW_MARTLOCK_BABY",
-		"name": "Bighorn Ram Lamb"
+		"name": "Bighorn Ram Lamb",
+		"weight": 1.5
 	},
 	{
 		"id": "T5_FARM_SWAMPDRAGON_FW_THETFORD_BABY",
-		"name": "Baby Swamp Salamander"
+		"name": "Baby Swamp Salamander",
+		"weight": 1.5
 	},
 	{
 		"id": "T5_FARM_GREYWOLF_FW_CAERLEON_BABY",
-		"name": "Caerleon Greywolf Pup"
+		"name": "Caerleon Greywolf Pup",
+		"weight": 1.5
 	},
 	{
 		"id": "T5_FARM_OWL_FW_BRECILIEN_BABY",
-		"name": "Mystic Owlet"
+		"name": "Mystic Owlet",
+		"weight": 1.5
 	},
 	{
 		"id": "T5_FARM_SPIDER_HELL_BABY",
-		"name": "Hellspinner Baby"
+		"name": "Hellspinner Baby",
+		"weight": 1.5
 	},
 	{
 		"id": "T8_FARM_MOABIRD_FW_BRIDGEWATCH_BABY",
-		"name": "Baby Elite Terrorbird"
+		"name": "Baby Elite Terrorbird",
+		"weight": 1.5
 	},
 	{
 		"id": "T8_FARM_DIREBEAR_FW_FORTSTERLING_BABY",
-		"name": "Elite Winter Bear Cub"
+		"name": "Elite Winter Bear Cub",
+		"weight": 1.5
 	},
 	{
 		"id": "T8_FARM_DIREBOAR_FW_LYMHURST_BABY",
-		"name": "Elite Wild Boarlet"
+		"name": "Elite Wild Boarlet",
+		"weight": 1.5
 	},
 	{
 		"id": "T8_FARM_RAM_FW_MARTLOCK_BABY",
-		"name": "Elite Bighorn Ram Lamb"
+		"name": "Elite Bighorn Ram Lamb",
+		"weight": 1.5
 	},
 	{
 		"id": "T8_FARM_SWAMPDRAGON_FW_THETFORD_BABY",
-		"name": "Baby Elite Swamp Salamander"
+		"name": "Baby Elite Swamp Salamander",
+		"weight": 1.5
 	},
 	{
 		"id": "T8_FARM_GREYWOLF_FW_CAERLEON_BABY",
-		"name": "Elite Greywolf Pup"
+		"name": "Elite Greywolf Pup",
+		"weight": 1.5
 	},
 	{
 		"id": "T8_FARM_OWL_FW_BRECILIEN_BABY",
-		"name": "Elite Mystic Owlet"
+		"name": "Elite Mystic Owlet",
+		"weight": 1.5
 	},
 	{
 		"id": "T8_FARM_SPIDER_HELL_BABY",
-		"name": "Soulspinner Baby"
+		"name": "Soulspinner Baby",
+		"weight": 1.5
 	},
 	{
 		"id": "T6_FARM_DIREWOLF_GROWN",
-		"name": "Tame Direwolf"
+		"name": "Tame Direwolf",
+		"weight": 30
 	},
 	{
 		"id": "T7_FARM_DIREBOAR_GROWN",
-		"name": "Tame Direboar"
+		"name": "Tame Direboar",
+		"weight": 45
 	},
 	{
 		"id": "T8_FARM_DIREBEAR_GROWN",
-		"name": "Tame Direbear"
+		"name": "Tame Direbear",
+		"weight": 60
 	},
 	{
 		"id": "T7_FARM_SWAMPDRAGON_GROWN",
-		"name": "Tame Swamp Dragon"
+		"name": "Tame Swamp Dragon",
+		"weight": 45
 	},
 	{
 		"id": "T8_FARM_MAMMOTH_GROWN",
-		"name": "Tame Mammoth"
+		"name": "Tame Mammoth",
+		"weight": 60
 	},
 	{
 		"id": "T5_FARM_COUGAR_GROWN",
-		"name": "Tame Swiftclaw"
+		"name": "Tame Swiftclaw",
+		"weight": 15
 	},
 	{
 		"id": "T8_FARM_DIREWOLF_GROWN",
-		"name": "Tame Ghostwolf"
+		"name": "Tame Ghostwolf",
+		"weight": 60
 	},
 	{
 		"id": "T4_FARM_GIANTSTAG_GROWN",
-		"name": "Adept's Tame Giant Stag"
+		"name": "Adept's Tame Giant Stag",
+		"weight": 15
 	},
 	{
 		"id": "T6_FARM_GIANTSTAG_GROWN",
-		"name": "Master's Tame Giant Stag"
+		"name": "Master's Tame Giant Stag",
+		"weight": 30
 	},
 	{
 		"id": "T6_FARM_GIANTSTAG_MOOSE_GROWN",
-		"name": "Tame Moose"
+		"name": "Tame Moose",
+		"weight": 30
 	},
 	{
 		"id": "T5_FARM_MOABIRD_FW_BRIDGEWATCH_GROWN",
-		"name": "Tame Moabird"
+		"name": "Tame Moabird",
+		"weight": 15
 	},
 	{
 		"id": "T5_FARM_DIREBEAR_FW_FORTSTERLING_GROWN",
-		"name": "Tame Winter Bear"
+		"name": "Tame Winter Bear",
+		"weight": 15
 	},
 	{
 		"id": "T5_FARM_DIREBOAR_FW_LYMHURST_GROWN",
-		"name": "Tame Wild Boar"
+		"name": "Tame Wild Boar",
+		"weight": 15
 	},
 	{
 		"id": "T5_FARM_RAM_FW_MARTLOCK_GROWN",
-		"name": "Tame Bighorn Ram"
+		"name": "Tame Bighorn Ram",
+		"weight": 15
 	},
 	{
 		"id": "T5_FARM_SWAMPDRAGON_FW_THETFORD_GROWN",
-		"name": "Tame Swamp Salamander"
+		"name": "Tame Swamp Salamander",
+		"weight": 15
 	},
 	{
 		"id": "T5_FARM_GREYWOLF_FW_CAERLEON_GROWN",
-		"name": "Tame Greywolf"
+		"name": "Tame Greywolf",
+		"weight": 15
 	},
 	{
 		"id": "T5_FARM_OWL_FW_BRECILIEN_GROWN",
-		"name": "Tame Mystic Owl"
+		"name": "Tame Mystic Owl",
+		"weight": 15
 	},
 	{
 		"id": "T5_FARM_SPIDER_HELL_GROWN",
-		"name": "Tame Hellspinner"
+		"name": "Tame Hellspinner",
+		"weight": 15
 	},
 	{
 		"id": "T8_FARM_MOABIRD_FW_BRIDGEWATCH_GROWN",
-		"name": "Tame Elite Terrorbird"
+		"name": "Tame Elite Terrorbird",
+		"weight": 15
 	},
 	{
 		"id": "T8_FARM_DIREBEAR_FW_FORTSTERLING_GROWN",
-		"name": "Tame Elite Winter Bear"
+		"name": "Tame Elite Winter Bear",
+		"weight": 15
 	},
 	{
 		"id": "T8_FARM_DIREBOAR_FW_LYMHURST_GROWN",
-		"name": "Tame Elite Wild Boar"
+		"name": "Tame Elite Wild Boar",
+		"weight": 15
 	},
 	{
 		"id": "T8_FARM_RAM_FW_MARTLOCK_GROWN",
-		"name": "Tame Elite Bighorn Ram"
+		"name": "Tame Elite Bighorn Ram",
+		"weight": 15
 	},
 	{
 		"id": "T8_FARM_SWAMPDRAGON_FW_THETFORD_GROWN",
-		"name": "Tame Elite Swamp Salamander"
+		"name": "Tame Elite Swamp Salamander",
+		"weight": 15
 	},
 	{
 		"id": "T8_FARM_GREYWOLF_FW_CAERLEON_GROWN",
-		"name": "Tame Elite Greywolf"
+		"name": "Tame Elite Greywolf",
+		"weight": 15
 	},
 	{
 		"id": "T8_FARM_OWL_FW_BRECILIEN_GROWN",
-		"name": "Tame Elite Mystic Owl"
+		"name": "Tame Elite Mystic Owl",
+		"weight": 15
 	},
 	{
 		"id": "T8_FARM_SPIDER_HELL_GROWN",
-		"name": "Tame Soulspinner"
+		"name": "Tame Soulspinner",
+		"weight": 15
 	},
 	{
 		"id": "T3_FARM_CHICKEN_BABY",
-		"name": "Baby Chickens"
+		"name": "Baby Chickens",
+		"weight": 0.2
 	},
 	{
 		"id": "T4_FARM_GOAT_BABY",
-		"name": "Kid"
+		"name": "Kid",
+		"weight": 0.2
 	},
 	{
 		"id": "T5_FARM_GOOSE_BABY",
-		"name": "Gosling"
+		"name": "Gosling",
+		"weight": 0.2
 	},
 	{
 		"id": "T6_FARM_SHEEP_BABY",
-		"name": "Lamb"
+		"name": "Lamb",
+		"weight": 0.2
 	},
 	{
 		"id": "T7_FARM_PIG_BABY",
-		"name": "Piglet"
+		"name": "Piglet",
+		"weight": 0.2
 	},
 	{
 		"id": "T8_FARM_COW_BABY",
-		"name": "Calf"
+		"name": "Calf",
+		"weight": 0.2
 	},
 	{
 		"id": "T3_FARM_CHICKEN_GROWN",
-		"name": "Chicken"
+		"name": "Chicken",
+		"weight": 10.83
 	},
 	{
 		"id": "T4_FARM_GOAT_GROWN",
-		"name": "Goat"
+		"name": "Goat",
+		"weight": 10.83
 	},
 	{
 		"id": "T5_FARM_GOOSE_GROWN",
-		"name": "Goose"
+		"name": "Goose",
+		"weight": 10.83
 	},
 	{
 		"id": "T6_FARM_SHEEP_GROWN",
-		"name": "Sheep"
+		"name": "Sheep",
+		"weight": 10.83
 	},
 	{
 		"id": "T7_FARM_PIG_GROWN",
-		"name": "Pig"
+		"name": "Pig",
+		"weight": 10.83
 	},
 	{
 		"id": "T8_FARM_COW_GROWN",
-		"name": "Cow"
+		"name": "Cow",
+		"weight": 10.83
 	}
 ]

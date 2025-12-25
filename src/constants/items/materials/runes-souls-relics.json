@@ -1,142 +1,177 @@
 [
 	{
 		"id": "T4_ESSENCE_POTION",
-		"name": "Adept's Arcane Essence"
+		"name": "Adept's Arcane Essence",
+		"weight": 0.05
 	},
 	{
 		"id": "T4_ESSENCE",
-		"name": "Adept's Faded Essence"
+		"name": "Adept's Faded Essence",
+		"weight": 0.05
 	},
 	{
 		"id": "T4_RUNE",
-		"name": "Adept's Rune"
+		"name": "Adept's Rune",
+		"weight": 0.05
 	},
 	{
 		"id": "T4_SOUL",
-		"name": "Adept's Soul"
+		"name": "Adept's Soul",
+		"weight": 0.05
 	},
 	{
 		"id": "T4_RELIC",
-		"name": "Adept's Relic"
+		"name": "Adept's Relic",
+		"weight": 0.05
 	},
 	{
 		"id": "T4_SHARD_AVALONIAN",
-		"name": "Adept's Avalonian Shard"
+		"name": "Adept's Avalonian Shard",
+		"weight": 0.05
 	},
 	{
 		"id": "T4_SHARD_CRYSTAL",
-		"name": "Adept's Crystal Shard"
+		"name": "Adept's Crystal Shard",
+		"weight": 0.05
 	},
 	{
 		"id": "T5_ESSENCE_POTION",
-		"name": "Expert's Arcane Essence"
+		"name": "Expert's Arcane Essence",
+		"weight": 0.25
 	},
 	{
 		"id": "T5_ESSENCE",
-		"name": "Expert's Faded Essence"
+		"name": "Expert's Faded Essence",
+		"weight": 0.25
 	},
 	{
 		"id": "T5_RUNE",
-		"name": "Expert's Rune"
+		"name": "Expert's Rune",
+		"weight": 0.25
 	},
 	{
 		"id": "T5_SOUL",
-		"name": "Expert's Soul"
+		"name": "Expert's Soul",
+		"weight": 0.25
 	},
 	{
 		"id": "T5_RELIC",
-		"name": "Expert's Relic"
+		"name": "Expert's Relic",
+		"weight": 0.25
 	},
 	{
 		"id": "T5_SHARD_AVALONIAN",
-		"name": "Expert's Avalonian Shard"
+		"name": "Expert's Avalonian Shard",
+		"weight": 0.25
 	},
 	{
 		"id": "T5_SHARD_CRYSTAL",
-		"name": "Expert's Crystal Shard"
+		"name": "Expert's Crystal Shard",
+		"weight": 0.25
 	},
 	{
 		"id": "T6_ESSENCE_POTION",
-		"name": "Master's Arcane Essence"
+		"name": "Master's Arcane Essence",
+		"weight": 0.38
 	},
 	{
 		"id": "T6_ESSENCE",
-		"name": "Master's Faded Essence"
+		"name": "Master's Faded Essence",
+		"weight": 0.38
 	},
 	{
 		"id": "T6_RUNE",
-		"name": "Master's Rune"
+		"name": "Master's Rune",
+		"weight": 0.38
 	},
 	{
 		"id": "T6_SOUL",
-		"name": "Master's Soul"
+		"name": "Master's Soul",
+		"weight": 0.38
 	},
 	{
 		"id": "T6_RELIC",
-		"name": "Master's Relic"
+		"name": "Master's Relic",
+		"weight": 0.38
 	},
 	{
 		"id": "T6_SHARD_AVALONIAN",
-		"name": "Master's Avalonian Shard"
+		"name": "Master's Avalonian Shard",
+		"weight": 0.38
 	},
 	{
 		"id": "T6_SHARD_CRYSTAL",
-		"name": "Master's Crystal Shard"
+		"name": "Master's Crystal Shard",
+		"weight": 0.38
 	},
 	{
 		"id": "T7_ESSENCE_POTION",
-		"name": "Grandmaster's Arcane Essence"
+		"name": "Grandmaster's Arcane Essence",
+		"weight": 0.5
 	},
 	{
 		"id": "T7_ESSENCE",
-		"name": "Grandmaster's Faded Essence"
+		"name": "Grandmaster's Faded Essence",
+		"weight": 0.5
 	},
 	{
 		"id": "T7_RUNE",
-		"name": "Grandmaster's Rune"
+		"name": "Grandmaster's Rune",
+		"weight": 0.5
 	},
 	{
 		"id": "T7_SOUL",
-		"name": "Grandmaster's Soul"
+		"name": "Grandmaster's Soul",
+		"weight": 0.5
 	},
 	{
 		"id": "T7_RELIC",
-		"name": "Grandmaster's Relic"
+		"name": "Grandmaster's Relic",
+		"weight": 0.5
 	},
 	{
 		"id": "T7_SHARD_AVALONIAN",
-		"name": "Grandmaster's Avalonian Shard"
+		"name": "Grandmaster's Avalonian Shard",
+		"weight": 0.5
 	},
 	{
 		"id": "T7_SHARD_CRYSTAL",
-		"name": "Grandmaster's Crystal Shard"
+		"name": "Grandmaster's Crystal Shard",
+		"weight": 0.5
 	},
 	{
 		"id": "T8_ESSENCE_POTION",
-		"name": "Elder's Arcane Essence"
+		"name": "Elder's Arcane Essence",
+		"weight": 1
 	},
 	{
 		"id": "T8_ESSENCE",
-		"name": "Elder's Faded Essence"
+		"name": "Elder's Faded Essence",
+		"weight": 1
 	},
 	{
 		"id": "T8_RUNE",
-		"name": "Elder's Rune"
+		"name": "Elder's Rune",
+		"weight": 1
 	},
 	{
 		"id": "T8_SOUL",
-		"name": "Elder's Soul"
+		"name": "Elder's Soul",
+		"weight": 1
 	},
 	{
 		"id": "T8_RELIC",
-		"name": "Elder's Relic"
+		"name": "Elder's Relic",
+		"weight": 1
 	},
 	{
 		"id": "T8_SHARD_AVALONIAN",
-		"name": "Elder's Avalonian Shard"
+		"name": "Elder's Avalonian Shard",
+		"weight": 1
 	},
 	{
 		"id": "T8_SHARD_CRYSTAL",
-		"name": "Elder's Crystal Shard"
+		"name": "Elder's Crystal Shard",
+		"weight": 1
 	}
 ]

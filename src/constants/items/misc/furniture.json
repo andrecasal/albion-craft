@@ -1,1246 +1,1557 @@
 [
 	{
 		"id": "T4_FURNITUREITEM_REPAIRKIT",
-		"name": "Adept's Repair Kit"
+		"name": "Adept's Repair Kit",
+		"weight": 60
 	},
 	{
 		"id": "T5_FURNITUREITEM_REPAIRKIT",
-		"name": "Expert's Repair Kit"
+		"name": "Expert's Repair Kit",
+		"weight": 75
 	},
 	{
 		"id": "T6_FURNITUREITEM_REPAIRKIT",
-		"name": "Master's Repair Kit"
+		"name": "Master's Repair Kit",
+		"weight": 92
 	},
 	{
 		"id": "T7_FURNITUREITEM_REPAIRKIT",
-		"name": "Grandmaster's Repair Kit"
+		"name": "Grandmaster's Repair Kit",
+		"weight": 112
 	},
 	{
 		"id": "T8_FURNITUREITEM_REPAIRKIT",
-		"name": "Elder's Repair Kit"
+		"name": "Elder's Repair Kit",
+		"weight": 138
 	},
 	{
 		"id": "T2_FURNITUREITEM_GUILDBANNER_FABRIC",
-		"name": "Guild Banner on Fabric"
+		"name": "Guild Banner on Fabric",
+		"weight": 1.5
 	},
 	{
 		"id": "T3_FURNITUREITEM_GUILDBANNER_FABRIC",
-		"name": "Guild Banner on Fabric"
+		"name": "Guild Banner on Fabric",
+		"weight": 2.25
 	},
 	{
 		"id": "T4_FURNITUREITEM_GUILDBANNER_FABRIC",
-		"name": "Guild Banner on Fabric"
+		"name": "Guild Banner on Fabric",
+		"weight": 3.38
 	},
 	{
 		"id": "T5_FURNITUREITEM_GUILDBANNER_FABRIC",
-		"name": "Guild Banner on Fabric"
+		"name": "Guild Banner on Fabric",
+		"weight": 5.06
 	},
 	{
 		"id": "T2_FURNITUREITEM_GUILDBANNER_SHIELD",
-		"name": "Guild Banner on Shield"
+		"name": "Guild Banner on Shield",
+		"weight": 1.5
 	},
 	{
 		"id": "T3_FURNITUREITEM_GUILDBANNER_SHIELD",
-		"name": "Guild Banner on Shield"
+		"name": "Guild Banner on Shield",
+		"weight": 2.25
 	},
 	{
 		"id": "T4_FURNITUREITEM_GUILDBANNER_SHIELD",
-		"name": "Guild Banner on Shield"
+		"name": "Guild Banner on Shield",
+		"weight": 3.38
 	},
 	{
 		"id": "T5_FURNITUREITEM_GUILDBANNER_SHIELD",
-		"name": "Guild Banner on Shield"
+		"name": "Guild Banner on Shield",
+		"weight": 5.06
 	},
 	{
 		"id": "T3_FURNITUREITEM_ANNIVERSARYBANNER",
-		"name": "Anniversary Banner - White"
+		"name": "Anniversary Banner - White",
+		"weight": 2.25
 	},
 	{
 		"id": "T3_FURNITUREITEM_ANNIVERSARYBANNER_2020",
-		"name": "Anniversary Banner - Red"
+		"name": "Anniversary Banner - Red",
+		"weight": 2.25
 	},
 	{
 		"id": "T3_FURNITUREITEM_ANNIVERSARYBANNER_2021",
-		"name": "Anniversary Banner - Blue"
+		"name": "Anniversary Banner - Blue",
+		"weight": 2.25
 	},
 	{
 		"id": "T3_FURNITUREITEM_ANNIVERSARYBANNER_2022",
-		"name": "Anniversary Banner - Turquoise"
+		"name": "Anniversary Banner - Turquoise",
+		"weight": 2.25
 	},
 	{
 		"id": "T3_FURNITUREITEM_ANNIVERSARYBANNER_2023",
-		"name": "Anniversary Banner - Orange"
+		"name": "Anniversary Banner - Orange",
+		"weight": 2.25
 	},
 	{
 		"id": "T3_FURNITUREITEM_ANNIVERSARYBANNER_2024",
-		"name": "Anniversary Banner - Purple"
+		"name": "Anniversary Banner - Purple",
+		"weight": 2.25
 	},
 	{
 		"id": "T3_FURNITUREITEM_ANNIVERSARYBANNER_2025",
-		"name": "Anniversary Banner - Light Blue"
+		"name": "Anniversary Banner - Light Blue",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_TELLAFRIEND_CHEST_A",
-		"name": "UNIQUE_FURNITUREITEM_TELLAFRIEND_CHEST_A"
+		"name": "UNIQUE_FURNITUREITEM_TELLAFRIEND_CHEST_A",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_TELLAFRIEND_CHEST_B",
-		"name": "UNIQUE_FURNITUREITEM_TELLAFRIEND_CHEST_B"
+		"name": "UNIQUE_FURNITUREITEM_TELLAFRIEND_CHEST_B",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_TELLAFRIEND_CHEST_C",
-		"name": "UNIQUE_FURNITUREITEM_TELLAFRIEND_CHEST_C"
+		"name": "UNIQUE_FURNITUREITEM_TELLAFRIEND_CHEST_C",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_TELLAFRIEND_CHEST_COMPANION",
-		"name": "UNIQUE_FURNITUREITEM_TELLAFRIEND_CHEST_COMPANION"
+		"name": "UNIQUE_FURNITUREITEM_TELLAFRIEND_CHEST_COMPANION",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_TELLAFRIEND_CHEST_BARREL",
-		"name": "UNIQUE_FURNITUREITEM_TELLAFRIEND_CHEST_BARREL"
+		"name": "UNIQUE_FURNITUREITEM_TELLAFRIEND_CHEST_BARREL",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_TELLAFRIEND_CHEST_MERLINCUBE",
-		"name": "UNIQUE_FURNITUREITEM_TELLAFRIEND_CHEST_MERLINCUBE"
+		"name": "UNIQUE_FURNITUREITEM_TELLAFRIEND_CHEST_MERLINCUBE",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_TELLAFRIEND_CHEST_SARCOPHAGUS",
-		"name": "Recruiter's Sarcophagus Chest"
+		"name": "Recruiter's Sarcophagus Chest",
+		"weight": 22.5
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_TELLAFRIEND_DEER_STATUE",
-		"name": "Recruiter's Deer Statue"
+		"name": "Recruiter's Deer Statue",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_TELLAFRIEND_HUNTER_STATUE",
-		"name": "Recruiter's Hunter Statue"
+		"name": "Recruiter's Hunter Statue",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_TELLAFRIEND_CHEST_BARREL_B",
-		"name": "UNIQUE_FURNITUREITEM_TELLAFRIEND_CHEST_BARREL_B"
+		"name": "UNIQUE_FURNITUREITEM_TELLAFRIEND_CHEST_BARREL_B",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_TELLAFRIEND_BANNER_A",
-		"name": "Recruiter's Guild Banner"
+		"name": "Recruiter's Guild Banner",
+		"weight": 5.06
 	},
 	{
 		"id": "T2_FURNITUREITEM_BED",
-		"name": "Novice's Bed"
+		"name": "Novice's Bed",
+		"weight": 2.7
 	},
 	{
 		"id": "T3_FURNITUREITEM_BED",
-		"name": "Journeyman's Bed"
+		"name": "Journeyman's Bed",
+		"weight": 4.05
 	},
 	{
 		"id": "T4_FURNITUREITEM_BED",
-		"name": "Adept's Bed"
+		"name": "Adept's Bed",
+		"weight": 6.08
 	},
 	{
 		"id": "T5_FURNITUREITEM_BED",
-		"name": "Expert's Bed"
+		"name": "Expert's Bed",
+		"weight": 9.11
 	},
 	{
 		"id": "T6_FURNITUREITEM_BED",
-		"name": "Master's Bed"
+		"name": "Master's Bed",
+		"weight": 13.67
 	},
 	{
 		"id": "T7_FURNITUREITEM_BED",
-		"name": "Grandmaster's Bed"
+		"name": "Grandmaster's Bed",
+		"weight": 20.5
 	},
 	{
 		"id": "T8_FURNITUREITEM_BED",
-		"name": "Elder's Bed"
+		"name": "Elder's Bed",
+		"weight": 30.75
 	},
 	{
 		"id": "T2_FURNITUREITEM_CHEST",
-		"name": "Novice's Chest"
+		"name": "Novice's Chest",
+		"weight": 2.7
 	},
 	{
 		"id": "T3_FURNITUREITEM_CHEST",
-		"name": "Journeyman's Chest"
+		"name": "Journeyman's Chest",
+		"weight": 4.05
 	},
 	{
 		"id": "T4_FURNITUREITEM_CHEST",
-		"name": "Adept's Chest"
+		"name": "Adept's Chest",
+		"weight": 6.08
 	},
 	{
 		"id": "T5_FURNITUREITEM_CHEST",
-		"name": "Expert's Chest"
+		"name": "Expert's Chest",
+		"weight": 9.11
 	},
 	{
 		"id": "T2_FURNITUREITEM_TABLE",
-		"name": "Novice's Table"
+		"name": "Novice's Table",
+		"weight": 5.4
 	},
 	{
 		"id": "T3_FURNITUREITEM_TABLE",
-		"name": "Journeyman's Table"
+		"name": "Journeyman's Table",
+		"weight": 8.1
 	},
 	{
 		"id": "T4_FURNITUREITEM_TABLE",
-		"name": "Adept's Table"
+		"name": "Adept's Table",
+		"weight": 12.15
 	},
 	{
 		"id": "T5_FURNITUREITEM_TABLE",
-		"name": "Expert's Table"
+		"name": "Expert's Table",
+		"weight": 18.23
 	},
 	{
 		"id": "T6_FURNITUREITEM_TABLE",
-		"name": "Master's Table"
+		"name": "Master's Table",
+		"weight": 27.34
 	},
 	{
 		"id": "T7_FURNITUREITEM_TABLE",
-		"name": "Grandmaster's Table"
+		"name": "Grandmaster's Table",
+		"weight": 41.01
 	},
 	{
 		"id": "T8_FURNITUREITEM_TABLE",
-		"name": "Elder's Table"
+		"name": "Elder's Table",
+		"weight": 61.51
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_EASTER_CHEST",
-		"name": "Egg-shaped Chest"
+		"name": "Egg-shaped Chest",
+		"weight": 0.1
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_VANITY_ARENA_BANNER_04",
-		"name": "Modest Arena Display"
+		"name": "Modest Arena Display",
+		"weight": 0.1
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_VANITY_ARENA_BANNER_05",
-		"name": "Grand Arena Display"
+		"name": "Grand Arena Display",
+		"weight": 0.1
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_VANITY_ARENA_BANNER_06",
-		"name": "Glorious Arena Display"
+		"name": "Glorious Arena Display",
+		"weight": 0.1
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_VANITY_ARENA_BANNER_01",
-		"name": "Modest Arena Display"
+		"name": "Modest Arena Display",
+		"weight": 0.1
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_VANITY_ARENA_BANNER_02",
-		"name": "Grand Arena Display"
+		"name": "Grand Arena Display",
+		"weight": 0.1
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_VANITY_ARENA_BANNER_03",
-		"name": "Glorious Arena Display"
+		"name": "Glorious Arena Display",
+		"weight": 0.1
 	},
 	{
 		"id": "PLAYERISLAND_FURNITUREITEM_FARM_DECO_B",
-		"name": "Haystack"
+		"name": "Haystack",
+		"weight": 0.1
 	},
 	{
 		"id": "PLAYERISLAND_FURNITUREITEM_FARM_DECO_C",
-		"name": "Haystack and cart"
+		"name": "Haystack and cart",
+		"weight": 0.1
 	},
 	{
 		"id": "PLAYERISLAND_FURNITUREITEM_FARM_DECO_D",
-		"name": "Tree stump with pumpkins"
+		"name": "Tree stump with pumpkins",
+		"weight": 0.1
 	},
 	{
 		"id": "PLAYERISLAND_FURNITUREITEM_STONE_FIREBOWL_A",
-		"name": "Fire bowl"
+		"name": "Fire bowl",
+		"weight": 0.1
 	},
 	{
 		"id": "PLAYERISLAND_FURNITUREITEM_STONE_FIREBOWL_B",
-		"name": "Fire bowl with pedestal"
+		"name": "Fire bowl with pedestal",
+		"weight": 0.1
 	},
 	{
 		"id": "PLAYERISLAND_FURNITUREITEM_STONE_MAGIC_EMBLEM_GROUND_A",
-		"name": "Small arcane stone sigil"
+		"name": "Small arcane stone sigil",
+		"weight": 0.1
 	},
 	{
 		"id": "PLAYERISLAND_FURNITUREITEM_STONE_MAGIC_EMBLEM_GROUND_B",
-		"name": "Arcane stone sigil"
+		"name": "Arcane stone sigil",
+		"weight": 0.1
 	},
 	{
 		"id": "PLAYERISLAND_FURNITUREITEM_STONE_NATURE_EMBLEM_GROUND_A",
-		"name": "Small nature stone sigil"
+		"name": "Small nature stone sigil",
+		"weight": 0.1
 	},
 	{
 		"id": "PLAYERISLAND_FURNITUREITEM_STONE_NATURE_EMBLEM_GROUND_B",
-		"name": "Nature stone sigil"
+		"name": "Nature stone sigil",
+		"weight": 0.1
 	},
 	{
 		"id": "PLAYERISLAND_FURNITUREITEM_STONE_STATUE_A",
-		"name": "Scholar statue"
+		"name": "Scholar statue",
+		"weight": 0.1
 	},
 	{
 		"id": "PLAYERISLAND_FURNITUREITEM_STONE_STATUE_A_BROKEN",
-		"name": "Broken scholar statue"
+		"name": "Broken scholar statue",
+		"weight": 0.1
 	},
 	{
 		"id": "PLAYERISLAND_FURNITUREITEM_STONE_STATUE_HUNTER_A",
-		"name": "Hunting sculpture"
+		"name": "Hunting sculpture",
+		"weight": 0.1
 	},
 	{
 		"id": "PLAYERISLAND_FURNITUREITEM_STONE_STATUE_HUNTER_B",
-		"name": "Hunter statue"
+		"name": "Hunter statue",
+		"weight": 0.1
 	},
 	{
 		"id": "PLAYERISLAND_FURNITUREITEM_STONE_STATUE_MAGE_A",
-		"name": "Book sculpture"
+		"name": "Book sculpture",
+		"weight": 0.1
 	},
 	{
 		"id": "PLAYERISLAND_FURNITUREITEM_STONE_STATUE_MAGE_B",
-		"name": "Magician statue"
+		"name": "Magician statue",
+		"weight": 0.1
 	},
 	{
 		"id": "PLAYERISLAND_FURNITUREITEM_STONE_STATUE_SWORD_A",
-		"name": "Small sword sculpture"
+		"name": "Small sword sculpture",
+		"weight": 0.1
 	},
 	{
 		"id": "PLAYERISLAND_FURNITUREITEM_STONE_STATUE_SWORD_B",
-		"name": "Sword sculpture"
+		"name": "Sword sculpture",
+		"weight": 0.1
 	},
 	{
 		"id": "PLAYERISLAND_FURNITUREITEM_STONE_STATUE_WARRIOR_A",
-		"name": "Sword and shield sculpture"
+		"name": "Sword and shield sculpture",
+		"weight": 0.1
 	},
 	{
 		"id": "PLAYERISLAND_FURNITUREITEM_STONE_STATUE_WARRIOR_B",
-		"name": "Warrior statue"
+		"name": "Warrior statue",
+		"weight": 0.1
 	},
 	{
 		"id": "PLAYERISLAND_FURNITUREITEM_STONE_VALOR_EMBLEM_GROUND_A",
-		"name": "Small valorous stone sigil"
+		"name": "Small valorous stone sigil",
+		"weight": 0.1
 	},
 	{
 		"id": "PLAYERISLAND_FURNITUREITEM_STONE_VALOR_EMBLEM_GROUND_B",
-		"name": "Valorous stone sigil"
+		"name": "Valorous stone sigil",
+		"weight": 0.1
 	},
 	{
 		"id": "PLAYERISLAND_FURNITUREITEM_STONE_WELL_A",
-		"name": "Stone well"
+		"name": "Stone well",
+		"weight": 0.1
 	},
 	{
 		"id": "PLAYERISLAND_FURNITUREITEM_VEGETATION_TREE_DECO_A",
-		"name": "Autumn tree"
+		"name": "Autumn tree",
+		"weight": 0.1
 	},
 	{
 		"id": "PLAYERISLAND_FURNITUREITEM_VEGETATION_TREE_DECO_B",
-		"name": "Summer tree"
+		"name": "Summer tree",
+		"weight": 0.1
 	},
 	{
 		"id": "PLAYERISLAND_FURNITUREITEM_VEGETATION_TREE_DECO_C",
-		"name": "Spring tree"
+		"name": "Spring tree",
+		"weight": 0.1
 	},
 	{
 		"id": "PLAYERISLAND_FURNITUREITEM_VEGETATION_TREE_DOMESTIC_A",
-		"name": "Small fruit tree"
+		"name": "Small fruit tree",
+		"weight": 0.1
 	},
 	{
 		"id": "PLAYERISLAND_FURNITUREITEM_VEGETATION_TREE_DOMESTIC_B",
-		"name": "Fruit tree"
+		"name": "Fruit tree",
+		"weight": 0.1
 	},
 	{
 		"id": "PLAYERISLAND_FURNITUREITEM_WOOD_BUNTING_A",
-		"name": "Bunting portal"
+		"name": "Bunting portal",
+		"weight": 0.1
 	},
 	{
 		"id": "PLAYERISLAND_FURNITUREITEM_WOOD_FENCE_WATCHTOWER_A",
-		"name": "Wooden watchtower"
+		"name": "Wooden watchtower",
+		"weight": 0.1
 	},
 	{
 		"id": "PLAYERISLAND_FURNITUREITEM_WOOD_FLOOR_SIGN_A",
-		"name": "Wooden sign"
+		"name": "Wooden sign",
+		"weight": 0.1
 	},
 	{
 		"id": "PLAYERISLAND_FURNITUREITEM_WOOD_GATE_A",
-		"name": "Wooden entrance"
+		"name": "Wooden entrance",
+		"weight": 0.1
 	},
 	{
 		"id": "PLAYERISLAND_FURNITUREITEM_WOOD_GATE_BIG_B",
-		"name": "Wooden gate"
+		"name": "Wooden gate",
+		"weight": 0.1
 	},
 	{
 		"id": "PLAYERISLAND_FURNITUREITEM_WOOD_LAUNDRY_A",
-		"name": "Clothes line"
+		"name": "Clothes line",
+		"weight": 0.1
 	},
 	{
 		"id": "PLAYERISLAND_FURNITUREITEM_WOOD_FISH_A",
-		"name": "Fish line"
+		"name": "Fish line",
+		"weight": 0.1
 	},
 	{
 		"id": "PLAYERISLAND_FURNITUREITEM_VEGETATION_FLOWER_A",
-		"name": "Flower vase"
+		"name": "Flower vase",
+		"weight": 0.1
 	},
 	{
 		"id": "PLAYERISLAND_FURNITUREITEM_WOOD_LANTERN_A",
-		"name": "Simple lantern"
+		"name": "Simple lantern",
+		"weight": 0.1
 	},
 	{
 		"id": "PLAYERISLAND_FURNITUREITEM_WOOD_LANTERN_CORNER_A",
-		"name": "Corner lantern"
+		"name": "Corner lantern",
+		"weight": 0.1
 	},
 	{
 		"id": "PLAYERISLAND_FURNITUREITEM_WOOD_CANDELABRA_A",
-		"name": "Candelabra"
+		"name": "Candelabra",
+		"weight": 0.1
 	},
 	{
 		"id": "PLAYERISLAND_FURNITUREITEM_WOOD_BARREL_A",
-		"name": "Barrel with candle"
+		"name": "Barrel with candle",
+		"weight": 0.1
 	},
 	{
 		"id": "PLAYERISLAND_FURNITUREITEM_FARM_SCARECROW_A",
-		"name": "Scarecrow"
+		"name": "Scarecrow",
+		"weight": 0.1
 	},
 	{
 		"id": "PLAYERISLAND_FURNITUREITEM_FARM_FOODCONTAINER_SMALL",
-		"name": "Barrel"
+		"name": "Barrel",
+		"weight": 0.1
 	},
 	{
 		"id": "PLAYERISLAND_FURNITUREITEM_FARM_FOODCONTAINER_MEDIUM",
-		"name": "Wheelbarrow"
+		"name": "Wheelbarrow",
+		"weight": 0.1
 	},
 	{
 		"id": "PLAYERISLAND_FURNITUREITEM_FARM_FOODCONTAINER_LARGE",
-		"name": "Crate"
+		"name": "Crate",
+		"weight": 0.1
 	},
 	{
 		"id": "PLAYERISLAND_FURNITUREITEM_FARM_LATRINE_A",
-		"name": "Latrine"
+		"name": "Latrine",
+		"weight": 0.1
 	},
 	{
 		"id": "PLAYERISLAND_FURNITUREITEM_FARM_WATERTOWER_A",
-		"name": "Farm Tower"
+		"name": "Farm Tower",
+		"weight": 0.1
 	},
 	{
 		"id": "PLAYERISLAND_FURNITUREITEM_FARM_BIRDHOUSE_A",
-		"name": "Birdhouse"
+		"name": "Birdhouse",
+		"weight": 0.1
 	},
 	{
 		"id": "PLAYERISLAND_FURNITUREITEM_FARM_DOG_HUT_A",
-		"name": "Doghouse"
+		"name": "Doghouse",
+		"weight": 0.1
 	},
 	{
 		"id": "PLAYERISLAND_FURNITUREITEM_NOBLE_FOUNTAIN_A",
-		"name": "Fountain of Decadence"
+		"name": "Fountain of Decadence",
+		"weight": 0.1
 	},
 	{
 		"id": "PLAYERISLAND_FURNITUREITEM_NOBLE_BENCH_A",
-		"name": "Luxurious Stone Bench"
+		"name": "Luxurious Stone Bench",
+		"weight": 0.1
 	},
 	{
 		"id": "PLAYERISLAND_FURNITUREITEM_NOBLE_STREET_LANTERN_A",
-		"name": "Ornate Lantern"
+		"name": "Ornate Lantern",
+		"weight": 0.1
 	},
 	{
 		"id": "PLAYERISLAND_FURNITUREITEM_NOBLE_HEDGE_A",
-		"name": "Long Hedge"
+		"name": "Long Hedge",
+		"weight": 0.1
 	},
 	{
 		"id": "PLAYERISLAND_FURNITUREITEM_NOBLE_HEDGE_SMALL_A",
-		"name": "Small Hedge"
+		"name": "Small Hedge",
+		"weight": 0.1
 	},
 	{
 		"id": "PLAYERISLAND_FURNITUREITEM_NOBLE_HEDGE_RECTANGLE_A",
-		"name": "Tall Hedge"
+		"name": "Tall Hedge",
+		"weight": 0.1
 	},
 	{
 		"id": "PLAYERISLAND_FURNITUREITEM_NOBLE_HEDGE_PYRAMID_A",
-		"name": "Pyramid Hedge"
+		"name": "Pyramid Hedge",
+		"weight": 0.1
 	},
 	{
 		"id": "PLAYERISLAND_FURNITUREITEM_NOBLE_HEDGE_SPHERE_A",
-		"name": "Sphere Hedge"
+		"name": "Sphere Hedge",
+		"weight": 0.1
 	},
 	{
 		"id": "PLAYERISLAND_FURNITUREITEM_NOBLE_STONE_PATH_A",
-		"name": "PLAYERISLAND_FURNITUREITEM_NOBLE_STONE_PATH_A"
+		"name": "PLAYERISLAND_FURNITUREITEM_NOBLE_STONE_PATH_A",
+		"weight": 0.1
 	},
 	{
 		"id": "PLAYERISLAND_FURNITUREITEM_NOBLE_STONE_PATH_PLATFORM_A",
-		"name": "PLAYERISLAND_FURNITUREITEM_NOBLE_STONE_PATH_PLATFORM_A"
+		"name": "PLAYERISLAND_FURNITUREITEM_NOBLE_STONE_PATH_PLATFORM_A",
+		"weight": 0.1
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_MORGANA_TORCH_A",
-		"name": "Flambeau (Disciples of Morgana)"
+		"name": "Flambeau (Disciples of Morgana)",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_MORGANA_TORCH_C",
-		"name": "UNIQUE_FURNITUREITEM_MORGANA_TORCH_C"
+		"name": "UNIQUE_FURNITUREITEM_MORGANA_TORCH_C",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_MORGANA_PENTAGRAM",
-		"name": "UNIQUE_FURNITUREITEM_MORGANA_PENTAGRAM"
+		"name": "UNIQUE_FURNITUREITEM_MORGANA_PENTAGRAM",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_MORGANA_FIREBOWL_B",
-		"name": "Simple Brazier (Disciples of Morgana)"
+		"name": "Simple Brazier (Disciples of Morgana)",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_MORGANA_FIREBOWL_C",
-		"name": "UNIQUE_FURNITUREITEM_MORGANA_FIREBOWL_C"
+		"name": "UNIQUE_FURNITUREITEM_MORGANA_FIREBOWL_C",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_MORGANA_CAMPFIRE_D",
-		"name": "UNIQUE_FURNITUREITEM_MORGANA_CAMPFIRE_D"
+		"name": "UNIQUE_FURNITUREITEM_MORGANA_CAMPFIRE_D",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_MORGANA_SACRIFICE_ALTAR_A",
-		"name": "Raven Standard Shrine (Disciples of Morgana)"
+		"name": "Raven Standard Shrine (Disciples of Morgana)",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_MORGANA_SIEGE_BALLISTA_A",
-		"name": "UNIQUE_FURNITUREITEM_MORGANA_SIEGE_BALLISTA_A"
+		"name": "UNIQUE_FURNITUREITEM_MORGANA_SIEGE_BALLISTA_A",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_MORGANA_STANDARD_A",
-		"name": "Raven Standard (Disciples of Morgana)"
+		"name": "Raven Standard (Disciples of Morgana)",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_MORGANA_WEAPONCRATE_A",
-		"name": "UNIQUE_FURNITUREITEM_MORGANA_WEAPONCRATE_A"
+		"name": "UNIQUE_FURNITUREITEM_MORGANA_WEAPONCRATE_A",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_MORGANA_PRISON_CELL_C",
-		"name": "UNIQUE_FURNITUREITEM_MORGANA_PRISON_CELL_C"
+		"name": "UNIQUE_FURNITUREITEM_MORGANA_PRISON_CELL_C",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_MORGANA_TENT_A",
-		"name": "UNIQUE_FURNITUREITEM_MORGANA_TENT_A"
+		"name": "UNIQUE_FURNITUREITEM_MORGANA_TENT_A",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_MORGANA_STATUE_A",
-		"name": "Morgana Cultist Statue"
+		"name": "Morgana Cultist Statue",
+		"weight": 1.5
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_MORGANA_ARCHWAY_A",
-		"name": "Morgana Stone Archway"
+		"name": "Morgana Stone Archway",
+		"weight": 1.5
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_MORGANA_CANDLESTAND_A",
-		"name": "Morgana Candle Stand"
+		"name": "Morgana Candle Stand",
+		"weight": 1.5
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_MORGANA_CARPET_A",
-		"name": "Morgana Carpet"
+		"name": "Morgana Carpet",
+		"weight": 1.5
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_KEEPER_SYMBOL_A",
-		"name": "Keeper Symbol"
+		"name": "Keeper Symbol",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_KEEPER_CANDLE_A",
-		"name": "Keeper Ceremonial Candle"
+		"name": "Keeper Ceremonial Candle",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_KEEPER_SHRINE_A",
-		"name": "Keeper Shrine"
+		"name": "Keeper Shrine",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_KEEPER_CAMP_FIRE_A",
-		"name": "Keeper Campfire"
+		"name": "Keeper Campfire",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_KEEPER_ALTAR_A",
-		"name": "Keeper Altar"
+		"name": "Keeper Altar",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_KEEPER_FLAG_A",
-		"name": "Keeper Flag"
+		"name": "Keeper Flag",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_KEEPER_SYMBOL_OF_POWER_A",
-		"name": "Keeper Symbol of Power"
+		"name": "Keeper Symbol of Power",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_KEEPER_STAR_OF_POWER_A",
-		"name": "Keeper Star of Power"
+		"name": "Keeper Star of Power",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_KEEPER_FIREBOWL",
-		"name": "Keeper Fire Bowl"
+		"name": "Keeper Fire Bowl",
+		"weight": 1.5
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_KEEPER_CAULDRON",
-		"name": "Keeper Cauldron"
+		"name": "Keeper Cauldron",
+		"weight": 1.5
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_KEEPER_HEATER",
-		"name": "Keeper Rock Fireplace"
+		"name": "Keeper Rock Fireplace",
+		"weight": 1.5
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_HERETIC_FOOD_PILE",
-		"name": "Heretic Food Stash"
+		"name": "Heretic Food Stash",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_HERETIC_ANIMAL_CAGES",
-		"name": "Heretic Animal Cages"
+		"name": "Heretic Animal Cages",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_HERETIC_WEAPON_RACK",
-		"name": "Heretic Weapon Rack"
+		"name": "Heretic Weapon Rack",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_HERETIC_TRAINING_DUMMY",
-		"name": "Heretic Training Dummy"
+		"name": "Heretic Training Dummy",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_HERETIC_PALLISADE",
-		"name": "Heretic Palisade"
+		"name": "Heretic Palisade",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_HERETIC_GAME_TABLE",
-		"name": "Heretic Game Table"
+		"name": "Heretic Game Table",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_HERETIC_FLAG",
-		"name": "Heretic Flag"
+		"name": "Heretic Flag",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_HERETIC_PLANNING_TABLE",
-		"name": "Heretic Chief's Table"
+		"name": "Heretic Chief's Table",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_HERETIC_TENT",
-		"name": "Heretic Tent"
+		"name": "Heretic Tent",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_ADC_GRIM_LANTERN",
-		"name": "Grim Lantern"
+		"name": "Grim Lantern",
+		"weight": 1.5
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_ADC_GRIM_HEADSTONE",
-		"name": "Grim Gravestone"
+		"name": "Grim Gravestone",
+		"weight": 1.5
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_ADC_GRIM_COFFIN",
-		"name": "Empty Coffin"
+		"name": "Empty Coffin",
+		"weight": 1.5
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_ADC_GRAVE_A",
-		"name": "Tomb of the Unknown"
+		"name": "Tomb of the Unknown",
+		"weight": 1.5
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_ADC_GRAVE_B",
-		"name": "Memorial of the Fallen"
+		"name": "Memorial of the Fallen",
+		"weight": 1.5
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_ADC_GRIM_WEEPINGWOMAN",
-		"name": "Weeping Woman Statue"
+		"name": "Weeping Woman Statue",
+		"weight": 1.5
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_XMAS_CANDY_BOOT",
-		"name": "UNIQUE_FURNITUREITEM_XMAS_CANDY_BOOT"
+		"name": "UNIQUE_FURNITUREITEM_XMAS_CANDY_BOOT",
+		"weight": 1.5
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_XMAS_BRANCH_A",
-		"name": "Yuletide Candle"
+		"name": "Yuletide Candle",
+		"weight": 1.5
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_XMAS_BRANCH_B",
-		"name": "Yuletide Wreath"
+		"name": "Yuletide Wreath",
+		"weight": 1.5
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_XMAS_LANTERN",
-		"name": "Yuletide Lantern"
+		"name": "Yuletide Lantern",
+		"weight": 1.5
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_XMAS_PRESENT",
-		"name": "Present Box"
+		"name": "Present Box",
+		"weight": 1.5
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_XMAS_FILL_CITY_TREE_B",
-		"name": "Small Decorated Pine Tree"
+		"name": "Small Decorated Pine Tree",
+		"weight": 1.5
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_XMAS_FILL_CITY_TREE_A",
-		"name": "Decorated Pine Tree"
+		"name": "Decorated Pine Tree",
+		"weight": 1.5
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_ADC_FROST_SNOWBALLSTACK_A",
-		"name": "UNIQUE_FURNITUREITEM_ADC_FROST_SNOWBALLSTACK_A"
+		"name": "UNIQUE_FURNITUREITEM_ADC_FROST_SNOWBALLSTACK_A",
+		"weight": 1.5
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_ADC_FROST_SNOWMAN",
-		"name": "Frost Snowman"
+		"name": "Frost Snowman",
+		"weight": 1.5
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_ADC_FROST_LANTERN_A",
-		"name": "UNIQUE_FURNITUREITEM_ADC_FROST_LANTERN_A"
+		"name": "UNIQUE_FURNITUREITEM_ADC_FROST_LANTERN_A",
+		"weight": 1.5
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_ADC_ICESCULPTURE_A",
-		"name": "Ice Sculpture: Bonecrusher Berserker"
+		"name": "Ice Sculpture: Bonecrusher Berserker",
+		"weight": 1.5
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_ADC_ICESCULPTURE_B",
-		"name": "Ice Sculpture: Cursed Archer"
+		"name": "Ice Sculpture: Cursed Archer",
+		"weight": 1.5
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_ADC_ICESCULPTURE_C",
-		"name": "Ice Sculpture: Obsessed Cultist"
+		"name": "Ice Sculpture: Obsessed Cultist",
+		"weight": 1.5
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_ADC_FROST_IGLOO",
-		"name": "Frost Igloo"
+		"name": "Frost Igloo",
+		"weight": 1.5
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_ADC_CARNIVAL_FIREWORK_A",
-		"name": "Carnival Firework"
+		"name": "Carnival Firework",
+		"weight": 1.5
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_ADC_CARNIVAL_ARCHWAY_A",
-		"name": "Carnival Arch"
+		"name": "Carnival Arch",
+		"weight": 1.5
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_ADC_CARNIVAL_MASK_CART",
-		"name": "Carnival Costume Cart"
+		"name": "Carnival Costume Cart",
+		"weight": 1.5
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_ADC_STATUE_MOUNTED_DIREWOLF_A",
-		"name": "Wolf Rider Statue (L)"
+		"name": "Wolf Rider Statue (L)",
+		"weight": 15
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_ADC_STATUE_MOUNTED_DIREWOLF_B",
-		"name": "Wolf Rider Statue (R)"
+		"name": "Wolf Rider Statue (R)",
+		"weight": 15
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_ADC_RUG_DIREBEAR",
-		"name": "Direbear Rug"
+		"name": "Direbear Rug",
+		"weight": 1
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_ADC_RUG_WOLF",
-		"name": "Wolf Rug"
+		"name": "Wolf Rug",
+		"weight": 0.8
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_KNIGHT_STATUE_A",
-		"name": "Knight Statue"
+		"name": "Knight Statue",
+		"weight": 1.5
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_KNIGHT_CARPET_A",
-		"name": "Regal Carpet"
+		"name": "Regal Carpet",
+		"weight": 1.5
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_KNIGHT_THRONE_A",
-		"name": "Stone Throne"
+		"name": "Stone Throne",
+		"weight": 1.5
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_KNIGHT_ROUNDTABLE_A",
-		"name": "Round Table"
+		"name": "Round Table",
+		"weight": 1.5
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_ADC_STATUE_MAGE_A",
-		"name": "Mage Statue"
+		"name": "Mage Statue",
+		"weight": 1.5
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_ADC_HEALING_CIRCLE_A",
-		"name": "Magic Rune Circle"
+		"name": "Magic Rune Circle",
+		"weight": 1.5
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_ADC_GLASS_SPHERE_A",
-		"name": "Glass Sphere"
+		"name": "Glass Sphere",
+		"weight": 1.5
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_HERETIC_BARREL_BURNING_A",
-		"name": "Heretic Burning Barrel"
+		"name": "Heretic Burning Barrel",
+		"weight": 1.5
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_HERETIC_LANTERN",
-		"name": "Heretic Lantern"
+		"name": "Heretic Lantern",
+		"weight": 1.5
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_HERETIC_JUNKPILE",
-		"name": "Heretic Junkpile"
+		"name": "Heretic Junkpile",
+		"weight": 1.5
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_HERETIC_STOVE_A",
-		"name": "Heretic Stove"
+		"name": "Heretic Stove",
+		"weight": 1.5
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_HERETICS_TOOL_BOARD_A",
-		"name": "Heretic Toolboard"
+		"name": "Heretic Toolboard",
+		"weight": 1.5
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_HERETIC_CONSTRUCT",
-		"name": "Heretic Scarecrow"
+		"name": "Heretic Scarecrow",
+		"weight": 1.5
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_ADC_HALLOWEEN_PUMPKIN_LANTERN_A",
-		"name": "Scary Pumpkin Lantern"
+		"name": "Scary Pumpkin Lantern",
+		"weight": 1.5
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_ADC_HALLOWEEN_PUMPKIN_LANTERN_B",
-		"name": "Friendly Pumpkin Lantern"
+		"name": "Friendly Pumpkin Lantern",
+		"weight": 1.5
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_ADC_HALLOWEEN_TREE_LANTERN_A",
-		"name": "Halloween Lantern"
+		"name": "Halloween Lantern",
+		"weight": 1.5
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_ADC_HALLOWEEN_CAULDRON_A",
-		"name": "Halloween Cauldron"
+		"name": "Halloween Cauldron",
+		"weight": 1.5
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_ADC_HALLOWEEN_SCARECROW_A",
-		"name": "Halloween Scarecrow"
+		"name": "Halloween Scarecrow",
+		"weight": 1.5
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_ADC_HALLOWEEN_SCARECROW_PYRE_A",
-		"name": "Halloween Pyre"
+		"name": "Halloween Pyre",
+		"weight": 1.5
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_OLD_OUTLAND_CARPET",
-		"name": "Outlands Map Carpet"
+		"name": "Outlands Map Carpet",
+		"weight": 1.5
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_SEALED_CAERLEON_REALMGATE",
-		"name": "Caerleon Realmgate"
+		"name": "Caerleon Realmgate",
+		"weight": 5.5
 	},
 	{
 		"id": "UNIQUE_ALTAR_OF_CHEATING",
-		"name": "Click the Pillar for various interactions."
+		"name": "Click the Pillar for various interactions.",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_VICTORY_TROPHY",
-		"name": "Skull of $craftedby"
+		"name": "Skull of $craftedby",
+		"weight": 1
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_FOUNDER_LOOKINGGLASS",
-		"name": "Explorer's Spyglass"
+		"name": "Explorer's Spyglass",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_FOUNDER_CERTIFICATE",
-		"name": "Founder's Certificate"
+		"name": "Founder's Certificate",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_FOUNDER_STATUE",
-		"name": "Founder's Statue"
+		"name": "Founder's Statue",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_ASIA_FOUNDER_CERTIFICATE_CRYSTAL",
-		"name": "Crystal Founder's Certificate"
+		"name": "Crystal Founder's Certificate",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_ASIA_FOUNDER_STATUE_CRYSTAL",
-		"name": "Crystal Founder's Statue"
+		"name": "Crystal Founder's Statue",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_ASIA_FOUNDER_CERTIFICATE_GOLD",
-		"name": "Gold Founder's Certificate"
+		"name": "Gold Founder's Certificate",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_ASIA_FOUNDER_CERTIFICATE_SILVER",
-		"name": "Silver Founder's Certificate"
+		"name": "Silver Founder's Certificate",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_ASIA_FOUNDER_CERTIFICATE_BRONZE",
-		"name": "Bronze Founder's Certificate"
+		"name": "Bronze Founder's Certificate",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_BETAREWARD_PVE_GOLD",
-		"name": "Gold Monster Slayer Statue"
+		"name": "Gold Monster Slayer Statue",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_BETAREWARD_PVE_SILVER",
-		"name": "Silver Monster Slayer Statue"
+		"name": "Silver Monster Slayer Statue",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_BETAREWARD_PVE_BRONZE",
-		"name": "Bronze Monster Slayer Statue"
+		"name": "Bronze Monster Slayer Statue",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_BETAREWARD_GATHERING_GOLD",
-		"name": "Gold Gathering Statue"
+		"name": "Gold Gathering Statue",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_BETAREWARD_GATHERING_SILVER",
-		"name": "Silver Gathering Statue"
+		"name": "Silver Gathering Statue",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_BETAREWARD_GATHERING_BRONZE",
-		"name": "Bronze Gathering Statue"
+		"name": "Bronze Gathering Statue",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_BETAREWARD_SILVER_GOLD",
-		"name": "Gold Trader Statue"
+		"name": "Gold Trader Statue",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_BETAREWARD_SILVER_SILVER",
-		"name": "Silver Trader Statue"
+		"name": "Silver Trader Statue",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_BETAREWARD_SILVER_BRONZE",
-		"name": "Bronze Trader Statue"
+		"name": "Bronze Trader Statue",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_LIGHT_FOUNDER_CERTIFICATE",
-		"name": "Light Founder's Certificate"
+		"name": "Light Founder's Certificate",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_DARK_FOUNDER_CERTIFICATE",
-		"name": "Dark Founder's Certificate"
+		"name": "Dark Founder's Certificate",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_LIGHT_FOUNDER_STATUE",
-		"name": "Light Founder's Statue"
+		"name": "Light Founder's Statue",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_DARK_FOUNDER_STATUE",
-		"name": "Dark Founder's Statue"
+		"name": "Dark Founder's Statue",
+		"weight": 2.25
 	},
 	{
 		"id": "T2_FURNITUREITEM_TROPHY_GENERAL",
-		"name": "Adventurer's Handbook"
+		"name": "Adventurer's Handbook",
+		"weight": 3
 	},
 	{
 		"id": "T3_FURNITUREITEM_TROPHY_GENERAL",
-		"name": "Magical Tome"
+		"name": "Magical Tome",
+		"weight": 3
 	},
 	{
 		"id": "T4_FURNITUREITEM_TROPHY_GENERAL",
-		"name": "Ancient Scripture"
+		"name": "Ancient Scripture",
+		"weight": 3
 	},
 	{
 		"id": "T5_FURNITUREITEM_TROPHY_GENERAL",
-		"name": "Tome of Knowledge"
+		"name": "Tome of Knowledge",
+		"weight": 3
 	},
 	{
 		"id": "T6_FURNITUREITEM_TROPHY_GENERAL",
-		"name": "Encyclopedia of Power"
+		"name": "Encyclopedia of Power",
+		"weight": 3
 	},
 	{
 		"id": "T7_FURNITUREITEM_TROPHY_GENERAL",
-		"name": "Occult Octavo"
+		"name": "Occult Octavo",
+		"weight": 3
 	},
 	{
 		"id": "T8_FURNITUREITEM_TROPHY_GENERAL",
-		"name": "Ledger of Truths"
+		"name": "Ledger of Truths",
+		"weight": 3
 	},
 	{
 		"id": "T8_FURNITUREITEM_TROPHY_FISHING_BOSS",
-		"name": "Trophy Shark"
+		"name": "Trophy Shark",
+		"weight": 3
 	},
 	{
 		"id": "T2_FURNITUREITEM_TROPHY_MERCENARY",
-		"name": "Novice Mercenary's Trophy"
+		"name": "Novice Mercenary's Trophy",
+		"weight": 3
 	},
 	{
 		"id": "T3_FURNITUREITEM_TROPHY_MERCENARY",
-		"name": "Journeyman Mercenary's Trophy"
+		"name": "Journeyman Mercenary's Trophy",
+		"weight": 3
 	},
 	{
 		"id": "T4_FURNITUREITEM_TROPHY_MERCENARY",
-		"name": "Adept Mercenary's Trophy"
+		"name": "Adept Mercenary's Trophy",
+		"weight": 3
 	},
 	{
 		"id": "T5_FURNITUREITEM_TROPHY_MERCENARY",
-		"name": "Expert Mercenary's Trophy"
+		"name": "Expert Mercenary's Trophy",
+		"weight": 3
 	},
 	{
 		"id": "T6_FURNITUREITEM_TROPHY_MERCENARY",
-		"name": "Master Mercenary's Trophy"
+		"name": "Master Mercenary's Trophy",
+		"weight": 3
 	},
 	{
 		"id": "T7_FURNITUREITEM_TROPHY_MERCENARY",
-		"name": "Grandmaster Mercenary's Trophy"
+		"name": "Grandmaster Mercenary's Trophy",
+		"weight": 3
 	},
 	{
 		"id": "T8_FURNITUREITEM_TROPHY_MERCENARY",
-		"name": "Elder Mercenary's Trophy"
+		"name": "Elder Mercenary's Trophy",
+		"weight": 3
 	},
 	{
 		"id": "T2_FURNITUREITEM_TROPHY_HIDE",
-		"name": "Stuffed Fox Head"
+		"name": "Stuffed Fox Head",
+		"weight": 3
 	},
 	{
 		"id": "T3_FURNITUREITEM_TROPHY_HIDE",
-		"name": "Stuffed Wolf Head"
+		"name": "Stuffed Wolf Head",
+		"weight": 3
 	},
 	{
 		"id": "T4_FURNITUREITEM_TROPHY_HIDE",
-		"name": "Stuffed Boar Head"
+		"name": "Stuffed Boar Head",
+		"weight": 3
 	},
 	{
 		"id": "T5_FURNITUREITEM_TROPHY_HIDE",
-		"name": "Stuffed Bear Head"
+		"name": "Stuffed Bear Head",
+		"weight": 3
 	},
 	{
 		"id": "T6_FURNITUREITEM_TROPHY_HIDE",
-		"name": "Stuffed Direwolf Head"
+		"name": "Stuffed Direwolf Head",
+		"weight": 3
 	},
 	{
 		"id": "T7_FURNITUREITEM_TROPHY_HIDE",
-		"name": "Stuffed Direboar Head"
+		"name": "Stuffed Direboar Head",
+		"weight": 3
 	},
 	{
 		"id": "T8_FURNITUREITEM_TROPHY_HIDE",
-		"name": "Stuffed Direbear Head"
+		"name": "Stuffed Direbear Head",
+		"weight": 3
 	},
 	{
 		"id": "T2_FURNITUREITEM_TROPHY_ORE",
-		"name": "Copper Ore Sample"
+		"name": "Copper Ore Sample",
+		"weight": 3
 	},
 	{
 		"id": "T3_FURNITUREITEM_TROPHY_ORE",
-		"name": "Tin Ore Sample"
+		"name": "Tin Ore Sample",
+		"weight": 3
 	},
 	{
 		"id": "T4_FURNITUREITEM_TROPHY_ORE",
-		"name": "Iron Ore Sample"
+		"name": "Iron Ore Sample",
+		"weight": 3
 	},
 	{
 		"id": "T5_FURNITUREITEM_TROPHY_ORE",
-		"name": "Titanium Ore Sample"
+		"name": "Titanium Ore Sample",
+		"weight": 3
 	},
 	{
 		"id": "T6_FURNITUREITEM_TROPHY_ORE",
-		"name": "Runite Ore Sample"
+		"name": "Runite Ore Sample",
+		"weight": 3
 	},
 	{
 		"id": "T7_FURNITUREITEM_TROPHY_ORE",
-		"name": "Meteorite Ore Sample"
+		"name": "Meteorite Ore Sample",
+		"weight": 3
 	},
 	{
 		"id": "T8_FURNITUREITEM_TROPHY_ORE",
-		"name": "Adamantium Ore Sample"
+		"name": "Adamantium Ore Sample",
+		"weight": 3
 	},
 	{
 		"id": "T2_FURNITUREITEM_TROPHY_FIBER",
-		"name": "Comfy Cotton Trophy"
+		"name": "Comfy Cotton Trophy",
+		"weight": 3
 	},
 	{
 		"id": "T3_FURNITUREITEM_TROPHY_FIBER",
-		"name": "Fine Flax Trophy"
+		"name": "Fine Flax Trophy",
+		"weight": 3
 	},
 	{
 		"id": "T4_FURNITUREITEM_TROPHY_FIBER",
-		"name": "Exquisite Hemp Trophy"
+		"name": "Exquisite Hemp Trophy",
+		"weight": 3
 	},
 	{
 		"id": "T5_FURNITUREITEM_TROPHY_FIBER",
-		"name": "Soft Skyflower Trophy"
+		"name": "Soft Skyflower Trophy",
+		"weight": 3
 	},
 	{
 		"id": "T6_FURNITUREITEM_TROPHY_FIBER",
-		"name": "Comfy Amberleaf Cotton Trophy"
+		"name": "Comfy Amberleaf Cotton Trophy",
+		"weight": 3
 	},
 	{
 		"id": "T7_FURNITUREITEM_TROPHY_FIBER",
-		"name": "Fine Sunflax Trophy"
+		"name": "Fine Sunflax Trophy",
+		"weight": 3
 	},
 	{
 		"id": "T8_FURNITUREITEM_TROPHY_FIBER",
-		"name": "Exquisite Ghost Hemp Trophy"
+		"name": "Exquisite Ghost Hemp Trophy",
+		"weight": 3
 	},
 	{
 		"id": "T2_FURNITUREITEM_TROPHY_ROCK",
-		"name": "Limestone Fragment"
+		"name": "Limestone Fragment",
+		"weight": 3
 	},
 	{
 		"id": "T3_FURNITUREITEM_TROPHY_ROCK",
-		"name": "Sandstone Fragment"
+		"name": "Sandstone Fragment",
+		"weight": 3
 	},
 	{
 		"id": "T4_FURNITUREITEM_TROPHY_ROCK",
-		"name": "Travertine Fragment"
+		"name": "Travertine Fragment",
+		"weight": 3
 	},
 	{
 		"id": "T5_FURNITUREITEM_TROPHY_ROCK",
-		"name": "Granite Fragment"
+		"name": "Granite Fragment",
+		"weight": 3
 	},
 	{
 		"id": "T6_FURNITUREITEM_TROPHY_ROCK",
-		"name": "Slate Fragment"
+		"name": "Slate Fragment",
+		"weight": 3
 	},
 	{
 		"id": "T7_FURNITUREITEM_TROPHY_ROCK",
-		"name": "Basalt Fragment"
+		"name": "Basalt Fragment",
+		"weight": 3
 	},
 	{
 		"id": "T8_FURNITUREITEM_TROPHY_ROCK",
-		"name": "Marble Fragment"
+		"name": "Marble Fragment",
+		"weight": 3
 	},
 	{
 		"id": "T2_FURNITUREITEM_TROPHY_WOOD",
-		"name": "Birch Bonsai"
+		"name": "Birch Bonsai",
+		"weight": 3
 	},
 	{
 		"id": "T3_FURNITUREITEM_TROPHY_WOOD",
-		"name": "Chestnut Bonsai"
+		"name": "Chestnut Bonsai",
+		"weight": 3
 	},
 	{
 		"id": "T4_FURNITUREITEM_TROPHY_WOOD",
-		"name": "Pine Bonsai"
+		"name": "Pine Bonsai",
+		"weight": 3
 	},
 	{
 		"id": "T5_FURNITUREITEM_TROPHY_WOOD",
-		"name": "Cedar Bonsai"
+		"name": "Cedar Bonsai",
+		"weight": 3
 	},
 	{
 		"id": "T6_FURNITUREITEM_TROPHY_WOOD",
-		"name": "Bloodoak Bonsai"
+		"name": "Bloodoak Bonsai",
+		"weight": 3
 	},
 	{
 		"id": "T7_FURNITUREITEM_TROPHY_WOOD",
-		"name": "Ashenbark Bonsai"
+		"name": "Ashenbark Bonsai",
+		"weight": 3
 	},
 	{
 		"id": "T8_FURNITUREITEM_TROPHY_WOOD",
-		"name": "Whitewood Bonsai"
+		"name": "Whitewood Bonsai",
+		"weight": 3
 	},
 	{
 		"id": "T2_FURNITUREITEM_TROPHY_FISH",
-		"name": "Carp Trophy"
+		"name": "Carp Trophy",
+		"weight": 3
 	},
 	{
 		"id": "T3_FURNITUREITEM_TROPHY_FISH",
-		"name": "Perch Trophy"
+		"name": "Perch Trophy",
+		"weight": 3
 	},
 	{
 		"id": "T4_FURNITUREITEM_TROPHY_FISH",
-		"name": "Pike Trophy"
+		"name": "Pike Trophy",
+		"weight": 3
 	},
 	{
 		"id": "T5_FURNITUREITEM_TROPHY_FISH",
-		"name": "Trout Trophy"
+		"name": "Trout Trophy",
+		"weight": 3
 	},
 	{
 		"id": "T6_FURNITUREITEM_TROPHY_FISH",
-		"name": "Zander Trophy"
+		"name": "Zander Trophy",
+		"weight": 3
 	},
 	{
 		"id": "T7_FURNITUREITEM_TROPHY_FISH",
-		"name": "Catfish Trophy"
+		"name": "Catfish Trophy",
+		"weight": 3
 	},
 	{
 		"id": "T8_FURNITUREITEM_TROPHY_FISH",
-		"name": "Swordfish Trophy"
+		"name": "Swordfish Trophy",
+		"weight": 3
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_GVG_SEASON_09_1ST",
-		"name": "1st Place Statue - Season 9"
+		"name": "1st Place Statue - Season 9",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_GVG_SEASON_09_2ND",
-		"name": "2nd Place Statue - Season 9"
+		"name": "2nd Place Statue - Season 9",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_GVG_SEASON_09_3RD",
-		"name": "3rd Place Statue - Season 9"
+		"name": "3rd Place Statue - Season 9",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_GVG_SEASON_10_1ST",
-		"name": "1st Place Statue - Season 10"
+		"name": "1st Place Statue - Season 10",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_GVG_SEASON_10_2ND",
-		"name": "2nd Place Statue - Season 10"
+		"name": "2nd Place Statue - Season 10",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_GVG_SEASON_10_3RD",
-		"name": "3rd Place Statue - Season 10"
+		"name": "3rd Place Statue - Season 10",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_GVG_SEASON_11_1ST",
-		"name": "1st Place Statue - Season 11"
+		"name": "1st Place Statue - Season 11",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_GVG_SEASON_11_2ND",
-		"name": "2nd Place Statue - Season 11"
+		"name": "2nd Place Statue - Season 11",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_GVG_SEASON_11_3RD",
-		"name": "3rd Place Statue - Season 11"
+		"name": "3rd Place Statue - Season 11",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_GVG_SEASON_12_1ST",
-		"name": "1st Place Statue - Season 12"
+		"name": "1st Place Statue - Season 12",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_GVG_SEASON_12_2ND",
-		"name": "2nd Place Statue - Season 12"
+		"name": "2nd Place Statue - Season 12",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_GVG_SEASON_12_3RD",
-		"name": "3rd Place Statue - Season 12"
+		"name": "3rd Place Statue - Season 12",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_GVG_SEASON_13_1ST",
-		"name": "1st Place Statue - Season 13"
+		"name": "1st Place Statue - Season 13",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_GVG_SEASON_13_2ND",
-		"name": "2nd Place Statue - Season 13"
+		"name": "2nd Place Statue - Season 13",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_GVG_SEASON_13_3RD",
-		"name": "3rd Place Statue - Season 13"
+		"name": "3rd Place Statue - Season 13",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_GVG_SEASON_ENERGY_RUSH_1ST",
-		"name": "1st Place Statue - Energy Surge Season"
+		"name": "1st Place Statue - Energy Surge Season",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_GVG_SEASON_ENERGY_RUSH_2ND",
-		"name": "2nd Place Statue - Energy Surge Season"
+		"name": "2nd Place Statue - Energy Surge Season",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_GVG_SEASON_ENERGY_RUSH_3RD",
-		"name": "3rd Place Statue - Energy Surge Season"
+		"name": "3rd Place Statue - Energy Surge Season",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_GVG_SEASON_14_1ST",
-		"name": "1st Place Statue - Season 14"
+		"name": "1st Place Statue - Season 14",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_GVG_SEASON_14_2ND",
-		"name": "2nd Place Statue - Season 14"
+		"name": "2nd Place Statue - Season 14",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_GVG_SEASON_14_3RD",
-		"name": "3rd Place Statue - Season 14"
+		"name": "3rd Place Statue - Season 14",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_GVG_SEASON_15_1ST",
-		"name": "1st Place Statue - Season 15"
+		"name": "1st Place Statue - Season 15",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_GVG_SEASON_15_2ND",
-		"name": "2nd Place Statue - Season 15"
+		"name": "2nd Place Statue - Season 15",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_GVG_SEASON_15_3RD",
-		"name": "3rd Place Statue - Season 15"
+		"name": "3rd Place Statue - Season 15",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_GVG_SEASON_16_1ST",
-		"name": "1st Place Statue - Season 16"
+		"name": "1st Place Statue - Season 16",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_GVG_SEASON_16_2ND",
-		"name": "2nd Place Statue - Season 16"
+		"name": "2nd Place Statue - Season 16",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_GVG_SEASON_16_3RD",
-		"name": "3rd Place Statue - Season 16"
+		"name": "3rd Place Statue - Season 16",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_GVG_SEASON_17_1ST",
-		"name": "1st Place Statue - Season 17"
+		"name": "1st Place Statue - Season 17",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_GVG_SEASON_17_2ND",
-		"name": "2nd Place Statue - Season 17"
+		"name": "2nd Place Statue - Season 17",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_GVG_SEASON_17_3RD",
-		"name": "3rd Place Statue - Season 17"
+		"name": "3rd Place Statue - Season 17",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_GVG_SEASON_18_1ST",
-		"name": "1st Place Statue - Season 18"
+		"name": "1st Place Statue - Season 18",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_GVG_SEASON_18_2ND",
-		"name": "2nd Place Statue - Season 18"
+		"name": "2nd Place Statue - Season 18",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_GVG_SEASON_18_3RD",
-		"name": "3rd Place Statue - Season 18"
+		"name": "3rd Place Statue - Season 18",
+		"weight": 2.25
 	},
 	{
 		"id": "UNIQUE_FURNITUREITEM_CARPET_ANNIVERSARY_2022",
-		"name": "Fifth Anniversary Carpet"
+		"name": "Fifth Anniversary Carpet",
+		"weight": 1.5
 	}
 ]

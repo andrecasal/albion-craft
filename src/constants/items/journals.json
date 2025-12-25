@@ -1,534 +1,667 @@
 [
 	{
 		"id": "T2_JOURNAL_WOOD",
-		"name": "Novice Lumberjack's Journal (Partially Full)"
+		"name": "Novice Lumberjack's Journal (Partially Full)",
+		"weight": 0.15
 	},
 	{
 		"id": "T3_JOURNAL_WOOD",
-		"name": "Journeyman Lumberjack's Journal (Partially Full)"
+		"name": "Journeyman Lumberjack's Journal (Partially Full)",
+		"weight": 0.23
 	},
 	{
 		"id": "T4_JOURNAL_WOOD",
-		"name": "Adept Lumberjack's Journal (Partially Full)"
+		"name": "Adept Lumberjack's Journal (Partially Full)",
+		"weight": 0.34
 	},
 	{
 		"id": "T5_JOURNAL_WOOD",
-		"name": "Expert Lumberjack's Journal (Partially Full)"
+		"name": "Expert Lumberjack's Journal (Partially Full)",
+		"weight": 0.51
 	},
 	{
 		"id": "T6_JOURNAL_WOOD",
-		"name": "Master Lumberjack's Journal (Partially Full)"
+		"name": "Master Lumberjack's Journal (Partially Full)",
+		"weight": 0.76
 	},
 	{
 		"id": "T7_JOURNAL_WOOD",
-		"name": "Grandmaster Lumberjack's Journal (Partially Full)"
+		"name": "Grandmaster Lumberjack's Journal (Partially Full)",
+		"weight": 1.14
 	},
 	{
 		"id": "T8_JOURNAL_WOOD",
-		"name": "Elder Lumberjack's Journal (Partially Full)"
+		"name": "Elder Lumberjack's Journal (Partially Full)",
+		"weight": 1.71
 	},
 	{
 		"id": "T2_JOURNAL_STONE",
-		"name": "Novice Stonecutter's Journal (Partially Full)"
+		"name": "Novice Stonecutter's Journal (Partially Full)",
+		"weight": 0.15
 	},
 	{
 		"id": "T3_JOURNAL_STONE",
-		"name": "Journeyman Stonecutter's Journal (Partially Full)"
+		"name": "Journeyman Stonecutter's Journal (Partially Full)",
+		"weight": 0.23
 	},
 	{
 		"id": "T4_JOURNAL_STONE",
-		"name": "Adept Stonecutter's Journal (Partially Full)"
+		"name": "Adept Stonecutter's Journal (Partially Full)",
+		"weight": 0.34
 	},
 	{
 		"id": "T5_JOURNAL_STONE",
-		"name": "Expert Stonecutter's Journal (Partially Full)"
+		"name": "Expert Stonecutter's Journal (Partially Full)",
+		"weight": 0.51
 	},
 	{
 		"id": "T6_JOURNAL_STONE",
-		"name": "Master Stonecutter's Journal (Partially Full)"
+		"name": "Master Stonecutter's Journal (Partially Full)",
+		"weight": 0.76
 	},
 	{
 		"id": "T7_JOURNAL_STONE",
-		"name": "Grandmaster Stonecutter's Journal (Partially Full)"
+		"name": "Grandmaster Stonecutter's Journal (Partially Full)",
+		"weight": 1.14
 	},
 	{
 		"id": "T8_JOURNAL_STONE",
-		"name": "Elder Stonecutter's Journal (Partially Full)"
+		"name": "Elder Stonecutter's Journal (Partially Full)",
+		"weight": 1.71
 	},
 	{
 		"id": "T2_JOURNAL_ORE",
-		"name": "Novice Prospector's Journal (Partially Full)"
+		"name": "Novice Prospector's Journal (Partially Full)",
+		"weight": 0.15
 	},
 	{
 		"id": "T3_JOURNAL_ORE",
-		"name": "Journeyman Prospector's Journal (Partially Full)"
+		"name": "Journeyman Prospector's Journal (Partially Full)",
+		"weight": 0.23
 	},
 	{
 		"id": "T4_JOURNAL_ORE",
-		"name": "Adept Prospector's Journal (Partially Full)"
+		"name": "Adept Prospector's Journal (Partially Full)",
+		"weight": 0.34
 	},
 	{
 		"id": "T5_JOURNAL_ORE",
-		"name": "Expert Prospector's Journal (Partially Full)"
+		"name": "Expert Prospector's Journal (Partially Full)",
+		"weight": 0.51
 	},
 	{
 		"id": "T6_JOURNAL_ORE",
-		"name": "Master Prospector's Journal (Partially Full)"
+		"name": "Master Prospector's Journal (Partially Full)",
+		"weight": 0.76
 	},
 	{
 		"id": "T7_JOURNAL_ORE",
-		"name": "Grandmaster Prospector's Journal (Partially Full)"
+		"name": "Grandmaster Prospector's Journal (Partially Full)",
+		"weight": 1.14
 	},
 	{
 		"id": "T8_JOURNAL_ORE",
-		"name": "Elder Prospector's Journal (Partially Full)"
+		"name": "Elder Prospector's Journal (Partially Full)",
+		"weight": 1.71
 	},
 	{
 		"id": "T2_JOURNAL_FIBER",
-		"name": "Novice Cropper's Journal (Partially Full)"
+		"name": "Novice Cropper's Journal (Partially Full)",
+		"weight": 0.15
 	},
 	{
 		"id": "T3_JOURNAL_FIBER",
-		"name": "Journeyman Cropper's Journal (Partially Full)"
+		"name": "Journeyman Cropper's Journal (Partially Full)",
+		"weight": 0.23
 	},
 	{
 		"id": "T4_JOURNAL_FIBER",
-		"name": "Adept Cropper's Journal (Partially Full)"
+		"name": "Adept Cropper's Journal (Partially Full)",
+		"weight": 0.34
 	},
 	{
 		"id": "T5_JOURNAL_FIBER",
-		"name": "Expert Cropper's Journal (Partially Full)"
+		"name": "Expert Cropper's Journal (Partially Full)",
+		"weight": 0.51
 	},
 	{
 		"id": "T6_JOURNAL_FIBER",
-		"name": "Master Cropper's Journal (Partially Full)"
+		"name": "Master Cropper's Journal (Partially Full)",
+		"weight": 0.76
 	},
 	{
 		"id": "T7_JOURNAL_FIBER",
-		"name": "Grandmaster Cropper's Journal (Partially Full)"
+		"name": "Grandmaster Cropper's Journal (Partially Full)",
+		"weight": 1.14
 	},
 	{
 		"id": "T8_JOURNAL_FIBER",
-		"name": "Elder Cropper's Journal (Partially Full)"
+		"name": "Elder Cropper's Journal (Partially Full)",
+		"weight": 1.71
 	},
 	{
 		"id": "T2_JOURNAL_HIDE",
-		"name": "Novice Gamekeeper's Journal (Partially Full)"
+		"name": "Novice Gamekeeper's Journal (Partially Full)",
+		"weight": 0.15
 	},
 	{
 		"id": "T3_JOURNAL_HIDE",
-		"name": "Journeyman Gamekeeper's Journal (Partially Full)"
+		"name": "Journeyman Gamekeeper's Journal (Partially Full)",
+		"weight": 0.23
 	},
 	{
 		"id": "T4_JOURNAL_HIDE",
-		"name": "Adept Gamekeeper's Journal (Partially Full)"
+		"name": "Adept Gamekeeper's Journal (Partially Full)",
+		"weight": 0.34
 	},
 	{
 		"id": "T5_JOURNAL_HIDE",
-		"name": "Expert Gamekeeper's Journal (Partially Full)"
+		"name": "Expert Gamekeeper's Journal (Partially Full)",
+		"weight": 0.51
 	},
 	{
 		"id": "T6_JOURNAL_HIDE",
-		"name": "Master Gamekeeper's Journal (Partially Full)"
+		"name": "Master Gamekeeper's Journal (Partially Full)",
+		"weight": 0.76
 	},
 	{
 		"id": "T7_JOURNAL_HIDE",
-		"name": "Grandmaster Gamekeeper's Journal (Partially Full)"
+		"name": "Grandmaster Gamekeeper's Journal (Partially Full)",
+		"weight": 1.14
 	},
 	{
 		"id": "T8_JOURNAL_HIDE",
-		"name": "Elder Gamekeeper's Journal (Partially Full)"
+		"name": "Elder Gamekeeper's Journal (Partially Full)",
+		"weight": 1.71
 	},
 	{
 		"id": "T2_JOURNAL_WARRIOR",
-		"name": "Novice Blacksmith's Journal (Partially Full)"
+		"name": "Novice Blacksmith's Journal (Partially Full)",
+		"weight": 0.15
 	},
 	{
 		"id": "T3_JOURNAL_WARRIOR",
-		"name": "Journeyman Blacksmith's Journal (Partially Full)"
+		"name": "Journeyman Blacksmith's Journal (Partially Full)",
+		"weight": 0.23
 	},
 	{
 		"id": "T4_JOURNAL_WARRIOR",
-		"name": "Adept Blacksmith's Journal (Partially Full)"
+		"name": "Adept Blacksmith's Journal (Partially Full)",
+		"weight": 0.34
 	},
 	{
 		"id": "T5_JOURNAL_WARRIOR",
-		"name": "Expert Blacksmith's Journal (Partially Full)"
+		"name": "Expert Blacksmith's Journal (Partially Full)",
+		"weight": 0.51
 	},
 	{
 		"id": "T6_JOURNAL_WARRIOR",
-		"name": "Master Blacksmith's Journal (Partially Full)"
+		"name": "Master Blacksmith's Journal (Partially Full)",
+		"weight": 0.76
 	},
 	{
 		"id": "T7_JOURNAL_WARRIOR",
-		"name": "Grandmaster Blacksmith's Journal (Partially Full)"
+		"name": "Grandmaster Blacksmith's Journal (Partially Full)",
+		"weight": 1.14
 	},
 	{
 		"id": "T8_JOURNAL_WARRIOR",
-		"name": "Elder Blacksmith's Journal (Partially Full)"
+		"name": "Elder Blacksmith's Journal (Partially Full)",
+		"weight": 1.71
 	},
 	{
 		"id": "T2_JOURNAL_HUNTER",
-		"name": "Novice Fletcher's Journal (Partially Full)"
+		"name": "Novice Fletcher's Journal (Partially Full)",
+		"weight": 0.15
 	},
 	{
 		"id": "T3_JOURNAL_HUNTER",
-		"name": "Journeyman Fletcher's Journal (Partially Full)"
+		"name": "Journeyman Fletcher's Journal (Partially Full)",
+		"weight": 0.23
 	},
 	{
 		"id": "T4_JOURNAL_HUNTER",
-		"name": "Adept Fletcher's Journal (Partially Full)"
+		"name": "Adept Fletcher's Journal (Partially Full)",
+		"weight": 0.34
 	},
 	{
 		"id": "T5_JOURNAL_HUNTER",
-		"name": "Expert Fletcher's Journal (Partially Full)"
+		"name": "Expert Fletcher's Journal (Partially Full)",
+		"weight": 0.51
 	},
 	{
 		"id": "T6_JOURNAL_HUNTER",
-		"name": "Master Fletcher's Journal (Partially Full)"
+		"name": "Master Fletcher's Journal (Partially Full)",
+		"weight": 0.76
 	},
 	{
 		"id": "T7_JOURNAL_HUNTER",
-		"name": "Grandmaster Fletcher's Journal (Partially Full)"
+		"name": "Grandmaster Fletcher's Journal (Partially Full)",
+		"weight": 1.14
 	},
 	{
 		"id": "T8_JOURNAL_HUNTER",
-		"name": "Elder Fletcher's Journal (Partially Full)"
+		"name": "Elder Fletcher's Journal (Partially Full)",
+		"weight": 1.71
 	},
 	{
 		"id": "T2_JOURNAL_MAGE",
-		"name": "Novice Imbuer's Journal (Partially Full)"
+		"name": "Novice Imbuer's Journal (Partially Full)",
+		"weight": 0.15
 	},
 	{
 		"id": "T3_JOURNAL_MAGE",
-		"name": "Journeyman Imbuer's Journal (Partially Full)"
+		"name": "Journeyman Imbuer's Journal (Partially Full)",
+		"weight": 0.23
 	},
 	{
 		"id": "T4_JOURNAL_MAGE",
-		"name": "Adept Imbuer's Journal (Partially Full)"
+		"name": "Adept Imbuer's Journal (Partially Full)",
+		"weight": 0.34
 	},
 	{
 		"id": "T5_JOURNAL_MAGE",
-		"name": "Expert Imbuer's Journal (Partially Full)"
+		"name": "Expert Imbuer's Journal (Partially Full)",
+		"weight": 0.51
 	},
 	{
 		"id": "T6_JOURNAL_MAGE",
-		"name": "Master Imbuer's Journal (Partially Full)"
+		"name": "Master Imbuer's Journal (Partially Full)",
+		"weight": 0.76
 	},
 	{
 		"id": "T7_JOURNAL_MAGE",
-		"name": "Grandmaster Imbuer's Journal (Partially Full)"
+		"name": "Grandmaster Imbuer's Journal (Partially Full)",
+		"weight": 1.14
 	},
 	{
 		"id": "T8_JOURNAL_MAGE",
-		"name": "Elder Imbuer's Journal (Partially Full)"
+		"name": "Elder Imbuer's Journal (Partially Full)",
+		"weight": 1.71
 	},
 	{
 		"id": "T2_JOURNAL_TOOLMAKER",
-		"name": "Novice Tinker's Journal (Partially Full)"
+		"name": "Novice Tinker's Journal (Partially Full)",
+		"weight": 0.15
 	},
 	{
 		"id": "T3_JOURNAL_TOOLMAKER",
-		"name": "Journeyman Tinker's Journal (Partially Full)"
+		"name": "Journeyman Tinker's Journal (Partially Full)",
+		"weight": 0.23
 	},
 	{
 		"id": "T4_JOURNAL_TOOLMAKER",
-		"name": "Adept Tinker's Journal (Partially Full)"
+		"name": "Adept Tinker's Journal (Partially Full)",
+		"weight": 0.34
 	},
 	{
 		"id": "T5_JOURNAL_TOOLMAKER",
-		"name": "Expert Tinker's Journal (Partially Full)"
+		"name": "Expert Tinker's Journal (Partially Full)",
+		"weight": 0.51
 	},
 	{
 		"id": "T6_JOURNAL_TOOLMAKER",
-		"name": "Master Tinker's Journal (Partially Full)"
+		"name": "Master Tinker's Journal (Partially Full)",
+		"weight": 0.76
 	},
 	{
 		"id": "T7_JOURNAL_TOOLMAKER",
-		"name": "Grandmaster Tinker's Journal (Partially Full)"
+		"name": "Grandmaster Tinker's Journal (Partially Full)",
+		"weight": 1.14
 	},
 	{
 		"id": "T8_JOURNAL_TOOLMAKER",
-		"name": "Elder Tinker's Journal (Partially Full)"
+		"name": "Elder Tinker's Journal (Partially Full)",
+		"weight": 1.71
 	},
 	{
 		"id": "T2_JOURNAL_MERCENARY",
-		"name": "Novice Mercenary's Journal (Partially Full)"
+		"name": "Novice Mercenary's Journal (Partially Full)",
+		"weight": 0.15
 	},
 	{
 		"id": "T3_JOURNAL_MERCENARY",
-		"name": "Journeyman Mercenary's Journal (Partially Full)"
+		"name": "Journeyman Mercenary's Journal (Partially Full)",
+		"weight": 0.23
 	},
 	{
 		"id": "T4_JOURNAL_MERCENARY",
-		"name": "Adept Mercenary's Journal (Partially Full)"
+		"name": "Adept Mercenary's Journal (Partially Full)",
+		"weight": 0.34
 	},
 	{
 		"id": "T5_JOURNAL_MERCENARY",
-		"name": "Expert Mercenary's Journal (Partially Full)"
+		"name": "Expert Mercenary's Journal (Partially Full)",
+		"weight": 0.51
 	},
 	{
 		"id": "T6_JOURNAL_MERCENARY",
-		"name": "Master Mercenary's Journal (Partially Full)"
+		"name": "Master Mercenary's Journal (Partially Full)",
+		"weight": 0.76
 	},
 	{
 		"id": "T7_JOURNAL_MERCENARY",
-		"name": "Grandmaster Mercenary's Journal (Partially Full)"
+		"name": "Grandmaster Mercenary's Journal (Partially Full)",
+		"weight": 1.14
 	},
 	{
 		"id": "T8_JOURNAL_MERCENARY",
-		"name": "Elder Mercenary's Journal (Partially Full)"
+		"name": "Elder Mercenary's Journal (Partially Full)",
+		"weight": 1.71
 	},
 	{
 		"id": "T2_JOURNAL_TROPHY_GENERAL",
-		"name": "Novice's Generalist Trophy Journal (Partially Full)"
+		"name": "Novice's Generalist Trophy Journal (Partially Full)",
+		"weight": 0.15
 	},
 	{
 		"id": "T3_JOURNAL_TROPHY_GENERAL",
-		"name": "Journeyman's Generalist Trophy Journal (Partially Full)"
+		"name": "Journeyman's Generalist Trophy Journal (Partially Full)",
+		"weight": 0.23
 	},
 	{
 		"id": "T4_JOURNAL_TROPHY_GENERAL",
-		"name": "Adept's Generalist Trophy Journal (Partially Full)"
+		"name": "Adept's Generalist Trophy Journal (Partially Full)",
+		"weight": 0.34
 	},
 	{
 		"id": "T5_JOURNAL_TROPHY_GENERAL",
-		"name": "Expert's Generalist Trophy Journal (Partially Full)"
+		"name": "Expert's Generalist Trophy Journal (Partially Full)",
+		"weight": 0.51
 	},
 	{
 		"id": "T6_JOURNAL_TROPHY_GENERAL",
-		"name": "Master's Generalist Trophy Journal (Partially Full)"
+		"name": "Master's Generalist Trophy Journal (Partially Full)",
+		"weight": 0.76
 	},
 	{
 		"id": "T7_JOURNAL_TROPHY_GENERAL",
-		"name": "Grandmaster's Generalist Trophy Journal (Partially Full)"
+		"name": "Grandmaster's Generalist Trophy Journal (Partially Full)",
+		"weight": 1.14
 	},
 	{
 		"id": "T8_JOURNAL_TROPHY_GENERAL",
-		"name": "Elder's Generalist Trophy Journal (Partially Full)"
+		"name": "Elder's Generalist Trophy Journal (Partially Full)",
+		"weight": 1.71
 	},
 	{
 		"id": "T2_JOURNAL_TROPHY_MERCENARY",
-		"name": "Novice Mercenary's Trophy Journal (Partially Full)"
+		"name": "Novice Mercenary's Trophy Journal (Partially Full)",
+		"weight": 0.15
 	},
 	{
 		"id": "T3_JOURNAL_TROPHY_MERCENARY",
-		"name": "Journeyman Mercenary's Trophy Journal (Partially Full)"
+		"name": "Journeyman Mercenary's Trophy Journal (Partially Full)",
+		"weight": 0.23
 	},
 	{
 		"id": "T4_JOURNAL_TROPHY_MERCENARY",
-		"name": "Adept Mercenary's Trophy Journal (Partially Full)"
+		"name": "Adept Mercenary's Trophy Journal (Partially Full)",
+		"weight": 0.34
 	},
 	{
 		"id": "T5_JOURNAL_TROPHY_MERCENARY",
-		"name": "Expert Mercenary's Trophy Journal (Partially Full)"
+		"name": "Expert Mercenary's Trophy Journal (Partially Full)",
+		"weight": 0.51
 	},
 	{
 		"id": "T6_JOURNAL_TROPHY_MERCENARY",
-		"name": "Master Mercenary's Trophy Journal (Partially Full)"
+		"name": "Master Mercenary's Trophy Journal (Partially Full)",
+		"weight": 0.76
 	},
 	{
 		"id": "T7_JOURNAL_TROPHY_MERCENARY",
-		"name": "Grandmaster Mercenary's Trophy Journal (Partially Full)"
+		"name": "Grandmaster Mercenary's Trophy Journal (Partially Full)",
+		"weight": 1.14
 	},
 	{
 		"id": "T8_JOURNAL_TROPHY_MERCENARY",
-		"name": "Elder Mercenary's Trophy Journal (Partially Full)"
+		"name": "Elder Mercenary's Trophy Journal (Partially Full)",
+		"weight": 1.71
 	},
 	{
 		"id": "T2_JOURNAL_TROPHY_HIDE",
-		"name": "Novice Gamekeeper's Trophy Journal (Partially Full)"
+		"name": "Novice Gamekeeper's Trophy Journal (Partially Full)",
+		"weight": 0.15
 	},
 	{
 		"id": "T3_JOURNAL_TROPHY_HIDE",
-		"name": "Journeyman Gamekeeper's Trophy Journal (Partially Full)"
+		"name": "Journeyman Gamekeeper's Trophy Journal (Partially Full)",
+		"weight": 0.23
 	},
 	{
 		"id": "T4_JOURNAL_TROPHY_HIDE",
-		"name": "Adept Gamekeeper's Trophy Journal (Partially Full)"
+		"name": "Adept Gamekeeper's Trophy Journal (Partially Full)",
+		"weight": 0.34
 	},
 	{
 		"id": "T5_JOURNAL_TROPHY_HIDE",
-		"name": "Expert Gamekeeper's Trophy Journal (Partially Full)"
+		"name": "Expert Gamekeeper's Trophy Journal (Partially Full)",
+		"weight": 0.51
 	},
 	{
 		"id": "T6_JOURNAL_TROPHY_HIDE",
-		"name": "Master Gamekeeper's Trophy Journal (Partially Full)"
+		"name": "Master Gamekeeper's Trophy Journal (Partially Full)",
+		"weight": 0.76
 	},
 	{
 		"id": "T7_JOURNAL_TROPHY_HIDE",
-		"name": "Grandmaster Gamekeeper's Trophy Journal (Partially Full)"
+		"name": "Grandmaster Gamekeeper's Trophy Journal (Partially Full)",
+		"weight": 1.14
 	},
 	{
 		"id": "T8_JOURNAL_TROPHY_HIDE",
-		"name": "Elder Gamekeeper's Trophy Journal (Partially Full)"
+		"name": "Elder Gamekeeper's Trophy Journal (Partially Full)",
+		"weight": 1.71
 	},
 	{
 		"id": "T2_JOURNAL_TROPHY_WOOD",
-		"name": "Novice Lumberjack's Trophy Journal (Partially Full)"
+		"name": "Novice Lumberjack's Trophy Journal (Partially Full)",
+		"weight": 0.15
 	},
 	{
 		"id": "T3_JOURNAL_TROPHY_WOOD",
-		"name": "Journeyman Lumberjack's Trophy Journal (Partially Full)"
+		"name": "Journeyman Lumberjack's Trophy Journal (Partially Full)",
+		"weight": 0.23
 	},
 	{
 		"id": "T4_JOURNAL_TROPHY_WOOD",
-		"name": "Adept Lumberjack's Trophy Journal (Partially Full)"
+		"name": "Adept Lumberjack's Trophy Journal (Partially Full)",
+		"weight": 0.34
 	},
 	{
 		"id": "T5_JOURNAL_TROPHY_WOOD",
-		"name": "Expert Lumberjack's Trophy Journal (Partially Full)"
+		"name": "Expert Lumberjack's Trophy Journal (Partially Full)",
+		"weight": 0.51
 	},
 	{
 		"id": "T6_JOURNAL_TROPHY_WOOD",
-		"name": "Master Lumberjack's Trophy Journal (Partially Full)"
+		"name": "Master Lumberjack's Trophy Journal (Partially Full)",
+		"weight": 0.76
 	},
 	{
 		"id": "T7_JOURNAL_TROPHY_WOOD",
-		"name": "Grandmaster Lumberjack's Trophy Journal (Partially Full)"
+		"name": "Grandmaster Lumberjack's Trophy Journal (Partially Full)",
+		"weight": 1.14
 	},
 	{
 		"id": "T8_JOURNAL_TROPHY_WOOD",
-		"name": "Elder Lumberjack's Trophy Journal (Partially Full)"
+		"name": "Elder Lumberjack's Trophy Journal (Partially Full)",
+		"weight": 1.71
 	},
 	{
 		"id": "T2_JOURNAL_TROPHY_STONE",
-		"name": "Novice Stonecutter's Trophy Journal (Partially Full)"
+		"name": "Novice Stonecutter's Trophy Journal (Partially Full)",
+		"weight": 0.15
 	},
 	{
 		"id": "T3_JOURNAL_TROPHY_STONE",
-		"name": "Journeyman Stonecutter's Trophy Journal (Partially Full)"
+		"name": "Journeyman Stonecutter's Trophy Journal (Partially Full)",
+		"weight": 0.23
 	},
 	{
 		"id": "T4_JOURNAL_TROPHY_STONE",
-		"name": "Adept Stonecutter's Trophy Journal (Partially Full)"
+		"name": "Adept Stonecutter's Trophy Journal (Partially Full)",
+		"weight": 0.34
 	},
 	{
 		"id": "T5_JOURNAL_TROPHY_STONE",
-		"name": "Expert Stonecutter's Trophy Journal (Partially Full)"
+		"name": "Expert Stonecutter's Trophy Journal (Partially Full)",
+		"weight": 0.51
 	},
 	{
 		"id": "T6_JOURNAL_TROPHY_STONE",
-		"name": "Master Stonecutter's Trophy Journal (Partially Full)"
+		"name": "Master Stonecutter's Trophy Journal (Partially Full)",
+		"weight": 0.76
 	},
 	{
 		"id": "T7_JOURNAL_TROPHY_STONE",
-		"name": "Grandmaster Stonecutter's Trophy Journal (Partially Full)"
+		"name": "Grandmaster Stonecutter's Trophy Journal (Partially Full)",
+		"weight": 1.14
 	},
 	{
 		"id": "T8_JOURNAL_TROPHY_STONE",
-		"name": "Elder Stonecutter's Trophy Journal (Partially Full)"
+		"name": "Elder Stonecutter's Trophy Journal (Partially Full)",
+		"weight": 1.71
 	},
 	{
 		"id": "T2_JOURNAL_TROPHY_ORE",
-		"name": "Novice Prospector's Trophy Journal (Partially Full)"
+		"name": "Novice Prospector's Trophy Journal (Partially Full)",
+		"weight": 0.15
 	},
 	{
 		"id": "T3_JOURNAL_TROPHY_ORE",
-		"name": "Journeyman Prospector's Trophy Journal (Partially Full)"
+		"name": "Journeyman Prospector's Trophy Journal (Partially Full)",
+		"weight": 0.23
 	},
 	{
 		"id": "T4_JOURNAL_TROPHY_ORE",
-		"name": "Adept Prospector's Trophy Journal (Partially Full)"
+		"name": "Adept Prospector's Trophy Journal (Partially Full)",
+		"weight": 0.34
 	},
 	{
 		"id": "T5_JOURNAL_TROPHY_ORE",
-		"name": "Expert Prospector's Trophy Journal (Partially Full)"
+		"name": "Expert Prospector's Trophy Journal (Partially Full)",
+		"weight": 0.51
 	},
 	{
 		"id": "T6_JOURNAL_TROPHY_ORE",
-		"name": "Master Prospector's Trophy Journal (Partially Full)"
+		"name": "Master Prospector's Trophy Journal (Partially Full)",
+		"weight": 0.76
 	},
 	{
 		"id": "T7_JOURNAL_TROPHY_ORE",
-		"name": "Grandmaster Prospector's Trophy Journal (Partially Full)"
+		"name": "Grandmaster Prospector's Trophy Journal (Partially Full)",
+		"weight": 1.14
 	},
 	{
 		"id": "T8_JOURNAL_TROPHY_ORE",
-		"name": "Elder Prospector's Trophy Journal (Partially Full)"
+		"name": "Elder Prospector's Trophy Journal (Partially Full)",
+		"weight": 1.71
 	},
 	{
 		"id": "T2_JOURNAL_TROPHY_FIBER",
-		"name": "Novice Cropper's Trophy Journal (Partially Full)"
+		"name": "Novice Cropper's Trophy Journal (Partially Full)",
+		"weight": 0.15
 	},
 	{
 		"id": "T3_JOURNAL_TROPHY_FIBER",
-		"name": "Journeyman Cropper's Trophy Journal (Partially Full)"
+		"name": "Journeyman Cropper's Trophy Journal (Partially Full)",
+		"weight": 0.23
 	},
 	{
 		"id": "T4_JOURNAL_TROPHY_FIBER",
-		"name": "Adept Cropper's Trophy Journal (Partially Full)"
+		"name": "Adept Cropper's Trophy Journal (Partially Full)",
+		"weight": 0.34
 	},
 	{
 		"id": "T5_JOURNAL_TROPHY_FIBER",
-		"name": "Expert Cropper's Trophy Journal (Partially Full)"
+		"name": "Expert Cropper's Trophy Journal (Partially Full)",
+		"weight": 0.51
 	},
 	{
 		"id": "T6_JOURNAL_TROPHY_FIBER",
-		"name": "Master Cropper's Trophy Journal (Partially Full)"
+		"name": "Master Cropper's Trophy Journal (Partially Full)",
+		"weight": 0.76
 	},
 	{
 		"id": "T7_JOURNAL_TROPHY_FIBER",
-		"name": "Grandmaster Cropper's Trophy Journal (Partially Full)"
+		"name": "Grandmaster Cropper's Trophy Journal (Partially Full)",
+		"weight": 1.14
 	},
 	{
 		"id": "T8_JOURNAL_TROPHY_FIBER",
-		"name": "Elder Cropper's Trophy Journal (Partially Full)"
+		"name": "Elder Cropper's Trophy Journal (Partially Full)",
+		"weight": 1.71
 	},
 	{
 		"id": "T2_JOURNAL_TROPHY_FISHING",
-		"name": "Novice Fisherman's Trophy Journal (Partially Full)"
+		"name": "Novice Fisherman's Trophy Journal (Partially Full)",
+		"weight": 0.15
 	},
 	{
 		"id": "T3_JOURNAL_TROPHY_FISHING",
-		"name": "Journeyman Fisherman's Trophy Journal (Partially Full)"
+		"name": "Journeyman Fisherman's Trophy Journal (Partially Full)",
+		"weight": 0.23
 	},
 	{
 		"id": "T4_JOURNAL_TROPHY_FISHING",
-		"name": "Adept Fisherman's Trophy Journal (Partially Full)"
+		"name": "Adept Fisherman's Trophy Journal (Partially Full)",
+		"weight": 0.34
 	},
 	{
 		"id": "T5_JOURNAL_TROPHY_FISHING",
-		"name": "Expert Fisherman's Trophy Journal (Partially Full)"
+		"name": "Expert Fisherman's Trophy Journal (Partially Full)",
+		"weight": 0.51
 	},
 	{
 		"id": "T6_JOURNAL_TROPHY_FISHING",
-		"name": "Master Fisherman's Trophy Journal (Partially Full)"
+		"name": "Master Fisherman's Trophy Journal (Partially Full)",
+		"weight": 0.76
 	},
 	{
 		"id": "T7_JOURNAL_TROPHY_FISHING",
-		"name": "Grandmaster Fisherman's Trophy Journal (Partially Full)"
+		"name": "Grandmaster Fisherman's Trophy Journal (Partially Full)",
+		"weight": 1.14
 	},
 	{
 		"id": "T8_JOURNAL_TROPHY_FISHING",
-		"name": "Elder Fisherman's Trophy Journal (Partially Full)"
+		"name": "Elder Fisherman's Trophy Journal (Partially Full)",
+		"weight": 1.71
 	},
 	{
 		"id": "T2_JOURNAL_FISHING",
-		"name": "Novice Fisherman's Journal (Partially Full)"
+		"name": "Novice Fisherman's Journal (Partially Full)",
+		"weight": 0.15
 	},
 	{
 		"id": "T3_JOURNAL_FISHING",
-		"name": "Journeyman Fisherman's Journal (Partially Full)"
+		"name": "Journeyman Fisherman's Journal (Partially Full)",
+		"weight": 0.23
 	},
 	{
 		"id": "T4_JOURNAL_FISHING",
-		"name": "Adept Fisherman's Journal (Partially Full)"
+		"name": "Adept Fisherman's Journal (Partially Full)",
+		"weight": 0.34
 	},
 	{
 		"id": "T5_JOURNAL_FISHING",
-		"name": "Expert Fisherman's Journal (Partially Full)"
+		"name": "Expert Fisherman's Journal (Partially Full)",
+		"weight": 0.51
 	},
 	{
 		"id": "T6_JOURNAL_FISHING",
-		"name": "Master Fisherman's Journal (Partially Full)"
+		"name": "Master Fisherman's Journal (Partially Full)",
+		"weight": 0.76
 	},
 	{
 		"id": "T7_JOURNAL_FISHING",
-		"name": "Grandmaster Fisherman's Journal (Partially Full)"
+		"name": "Grandmaster Fisherman's Journal (Partially Full)",
+		"weight": 1.14
 	},
 	{
 		"id": "T8_JOURNAL_FISHING",
-		"name": "Elder Fisherman's Journal (Partially Full)"
+		"name": "Elder Fisherman's Journal (Partially Full)",
+		"weight": 1.71
 	}
 ]

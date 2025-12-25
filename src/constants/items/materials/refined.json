@@ -1,1034 +1,1292 @@
 [
 	{
 		"id": "T2_PLANKS",
-		"name": "Birch Planks"
+		"name": "Birch Planks",
+		"weight": 0.23
 	},
 	{
 		"id": "T3_PLANKS",
-		"name": "Chestnut Planks"
+		"name": "Chestnut Planks",
+		"weight": 0.34
 	},
 	{
 		"id": "T4_PLANKS",
-		"name": "Pine Planks"
+		"name": "Pine Planks",
+		"weight": 0.51
 	},
 	{
 		"id": "T5_PLANKS",
-		"name": "Cedar Planks"
+		"name": "Cedar Planks",
+		"weight": 0.76
 	},
 	{
 		"id": "T6_PLANKS",
-		"name": "Bloodoak Planks"
+		"name": "Bloodoak Planks",
+		"weight": 1.14
 	},
 	{
 		"id": "T7_PLANKS",
-		"name": "Ashenbark Planks"
+		"name": "Ashenbark Planks",
+		"weight": 1.71
 	},
 	{
 		"id": "T8_PLANKS",
-		"name": "Whitewood Planks"
+		"name": "Whitewood Planks",
+		"weight": 2.56
 	},
 	{
 		"id": "T4_PLANKS_LEVEL1",
-		"name": "T4_PLANKS_LEVEL1"
+		"name": "T4_PLANKS_LEVEL1",
+		"weight": 0.51
 	},
 	{
 		"id": "T5_PLANKS_LEVEL1",
-		"name": "T5_PLANKS_LEVEL1"
+		"name": "T5_PLANKS_LEVEL1",
+		"weight": 0.76
 	},
 	{
 		"id": "T6_PLANKS_LEVEL1",
-		"name": "T6_PLANKS_LEVEL1"
+		"name": "T6_PLANKS_LEVEL1",
+		"weight": 1.14
 	},
 	{
 		"id": "T7_PLANKS_LEVEL1",
-		"name": "T7_PLANKS_LEVEL1"
+		"name": "T7_PLANKS_LEVEL1",
+		"weight": 1.71
 	},
 	{
 		"id": "T8_PLANKS_LEVEL1",
-		"name": "T8_PLANKS_LEVEL1"
+		"name": "T8_PLANKS_LEVEL1",
+		"weight": 2.56
 	},
 	{
 		"id": "T4_PLANKS_LEVEL2",
-		"name": "T4_PLANKS_LEVEL2"
+		"name": "T4_PLANKS_LEVEL2",
+		"weight": 0.51
 	},
 	{
 		"id": "T5_PLANKS_LEVEL2",
-		"name": "T5_PLANKS_LEVEL2"
+		"name": "T5_PLANKS_LEVEL2",
+		"weight": 0.76
 	},
 	{
 		"id": "T6_PLANKS_LEVEL2",
-		"name": "T6_PLANKS_LEVEL2"
+		"name": "T6_PLANKS_LEVEL2",
+		"weight": 1.14
 	},
 	{
 		"id": "T7_PLANKS_LEVEL2",
-		"name": "T7_PLANKS_LEVEL2"
+		"name": "T7_PLANKS_LEVEL2",
+		"weight": 1.71
 	},
 	{
 		"id": "T8_PLANKS_LEVEL2",
-		"name": "T8_PLANKS_LEVEL2"
+		"name": "T8_PLANKS_LEVEL2",
+		"weight": 2.56
 	},
 	{
 		"id": "T4_PLANKS_LEVEL3",
-		"name": "T4_PLANKS_LEVEL3"
+		"name": "T4_PLANKS_LEVEL3",
+		"weight": 0.51
 	},
 	{
 		"id": "T5_PLANKS_LEVEL3",
-		"name": "T5_PLANKS_LEVEL3"
+		"name": "T5_PLANKS_LEVEL3",
+		"weight": 0.76
 	},
 	{
 		"id": "T6_PLANKS_LEVEL3",
-		"name": "T6_PLANKS_LEVEL3"
+		"name": "T6_PLANKS_LEVEL3",
+		"weight": 1.14
 	},
 	{
 		"id": "T7_PLANKS_LEVEL3",
-		"name": "T7_PLANKS_LEVEL3"
+		"name": "T7_PLANKS_LEVEL3",
+		"weight": 1.71
 	},
 	{
 		"id": "T8_PLANKS_LEVEL3",
-		"name": "T8_PLANKS_LEVEL3"
+		"name": "T8_PLANKS_LEVEL3",
+		"weight": 2.56
 	},
 	{
 		"id": "T4_PLANKS_LEVEL4",
-		"name": "T4_PLANKS_LEVEL4"
+		"name": "T4_PLANKS_LEVEL4",
+		"weight": 0.51
 	},
 	{
 		"id": "T5_PLANKS_LEVEL4",
-		"name": "T5_PLANKS_LEVEL4"
+		"name": "T5_PLANKS_LEVEL4",
+		"weight": 0.76
 	},
 	{
 		"id": "T6_PLANKS_LEVEL4",
-		"name": "T6_PLANKS_LEVEL4"
+		"name": "T6_PLANKS_LEVEL4",
+		"weight": 1.14
 	},
 	{
 		"id": "T7_PLANKS_LEVEL4",
-		"name": "T7_PLANKS_LEVEL4"
+		"name": "T7_PLANKS_LEVEL4",
+		"weight": 1.71
 	},
 	{
 		"id": "T8_PLANKS_LEVEL4",
-		"name": "T8_PLANKS_LEVEL4"
+		"name": "T8_PLANKS_LEVEL4",
+		"weight": 2.56
 	},
 	{
 		"id": "T2_METALBAR",
-		"name": "Copper Bar"
+		"name": "Copper Bar",
+		"weight": 0.23
 	},
 	{
 		"id": "T3_METALBAR",
-		"name": "Bronze Bar"
+		"name": "Bronze Bar",
+		"weight": 0.34
 	},
 	{
 		"id": "T4_METALBAR",
-		"name": "Steel Bar"
+		"name": "Steel Bar",
+		"weight": 0.51
 	},
 	{
 		"id": "T5_METALBAR",
-		"name": "Titanium Steel Bar"
+		"name": "Titanium Steel Bar",
+		"weight": 0.76
 	},
 	{
 		"id": "T6_METALBAR",
-		"name": "Runite Steel Bar"
+		"name": "Runite Steel Bar",
+		"weight": 1.14
 	},
 	{
 		"id": "T7_METALBAR",
-		"name": "Meteorite Steel Bar"
+		"name": "Meteorite Steel Bar",
+		"weight": 1.71
 	},
 	{
 		"id": "T8_METALBAR",
-		"name": "Adamantium Steel Bar"
+		"name": "Adamantium Steel Bar",
+		"weight": 2.56
 	},
 	{
 		"id": "T4_METALBAR_LEVEL1",
-		"name": "T4_METALBAR_LEVEL1"
+		"name": "T4_METALBAR_LEVEL1",
+		"weight": 0.51
 	},
 	{
 		"id": "T5_METALBAR_LEVEL1",
-		"name": "T5_METALBAR_LEVEL1"
+		"name": "T5_METALBAR_LEVEL1",
+		"weight": 0.76
 	},
 	{
 		"id": "T6_METALBAR_LEVEL1",
-		"name": "T6_METALBAR_LEVEL1"
+		"name": "T6_METALBAR_LEVEL1",
+		"weight": 1.14
 	},
 	{
 		"id": "T7_METALBAR_LEVEL1",
-		"name": "T7_METALBAR_LEVEL1"
+		"name": "T7_METALBAR_LEVEL1",
+		"weight": 1.71
 	},
 	{
 		"id": "T8_METALBAR_LEVEL1",
-		"name": "T8_METALBAR_LEVEL1"
+		"name": "T8_METALBAR_LEVEL1",
+		"weight": 2.56
 	},
 	{
 		"id": "T4_METALBAR_LEVEL2",
-		"name": "T4_METALBAR_LEVEL2"
+		"name": "T4_METALBAR_LEVEL2",
+		"weight": 0.51
 	},
 	{
 		"id": "T5_METALBAR_LEVEL2",
-		"name": "T5_METALBAR_LEVEL2"
+		"name": "T5_METALBAR_LEVEL2",
+		"weight": 0.76
 	},
 	{
 		"id": "T6_METALBAR_LEVEL2",
-		"name": "T6_METALBAR_LEVEL2"
+		"name": "T6_METALBAR_LEVEL2",
+		"weight": 1.14
 	},
 	{
 		"id": "T7_METALBAR_LEVEL2",
-		"name": "T7_METALBAR_LEVEL2"
+		"name": "T7_METALBAR_LEVEL2",
+		"weight": 1.71
 	},
 	{
 		"id": "T8_METALBAR_LEVEL2",
-		"name": "T8_METALBAR_LEVEL2"
+		"name": "T8_METALBAR_LEVEL2",
+		"weight": 2.56
 	},
 	{
 		"id": "T4_METALBAR_LEVEL3",
-		"name": "T4_METALBAR_LEVEL3"
+		"name": "T4_METALBAR_LEVEL3",
+		"weight": 0.51
 	},
 	{
 		"id": "T5_METALBAR_LEVEL3",
-		"name": "T5_METALBAR_LEVEL3"
+		"name": "T5_METALBAR_LEVEL3",
+		"weight": 0.76
 	},
 	{
 		"id": "T6_METALBAR_LEVEL3",
-		"name": "T6_METALBAR_LEVEL3"
+		"name": "T6_METALBAR_LEVEL3",
+		"weight": 1.14
 	},
 	{
 		"id": "T7_METALBAR_LEVEL3",
-		"name": "T7_METALBAR_LEVEL3"
+		"name": "T7_METALBAR_LEVEL3",
+		"weight": 1.71
 	},
 	{
 		"id": "T8_METALBAR_LEVEL3",
-		"name": "T8_METALBAR_LEVEL3"
+		"name": "T8_METALBAR_LEVEL3",
+		"weight": 2.56
 	},
 	{
 		"id": "T4_METALBAR_LEVEL4",
-		"name": "T4_METALBAR_LEVEL4"
+		"name": "T4_METALBAR_LEVEL4",
+		"weight": 0.51
 	},
 	{
 		"id": "T5_METALBAR_LEVEL4",
-		"name": "T5_METALBAR_LEVEL4"
+		"name": "T5_METALBAR_LEVEL4",
+		"weight": 0.76
 	},
 	{
 		"id": "T6_METALBAR_LEVEL4",
-		"name": "T6_METALBAR_LEVEL4"
+		"name": "T6_METALBAR_LEVEL4",
+		"weight": 1.14
 	},
 	{
 		"id": "T7_METALBAR_LEVEL4",
-		"name": "T7_METALBAR_LEVEL4"
+		"name": "T7_METALBAR_LEVEL4",
+		"weight": 1.71
 	},
 	{
 		"id": "T8_METALBAR_LEVEL4",
-		"name": "T8_METALBAR_LEVEL4"
+		"name": "T8_METALBAR_LEVEL4",
+		"weight": 2.56
 	},
 	{
 		"id": "T2_LEATHER",
-		"name": "Stiff Leather"
+		"name": "Stiff Leather",
+		"weight": 0.23
 	},
 	{
 		"id": "T3_LEATHER",
-		"name": "Thick Leather"
+		"name": "Thick Leather",
+		"weight": 0.34
 	},
 	{
 		"id": "T4_LEATHER",
-		"name": "Worked Leather"
+		"name": "Worked Leather",
+		"weight": 0.51
 	},
 	{
 		"id": "T5_LEATHER",
-		"name": "Cured Leather"
+		"name": "Cured Leather",
+		"weight": 0.76
 	},
 	{
 		"id": "T6_LEATHER",
-		"name": "Hardened Leather"
+		"name": "Hardened Leather",
+		"weight": 1.14
 	},
 	{
 		"id": "T7_LEATHER",
-		"name": "Reinforced Leather"
+		"name": "Reinforced Leather",
+		"weight": 1.71
 	},
 	{
 		"id": "T8_LEATHER",
-		"name": "Fortified Leather"
+		"name": "Fortified Leather",
+		"weight": 2.56
 	},
 	{
 		"id": "T4_LEATHER_LEVEL1",
-		"name": "T4_LEATHER_LEVEL1"
+		"name": "T4_LEATHER_LEVEL1",
+		"weight": 0.51
 	},
 	{
 		"id": "T5_LEATHER_LEVEL1",
-		"name": "T5_LEATHER_LEVEL1"
+		"name": "T5_LEATHER_LEVEL1",
+		"weight": 0.76
 	},
 	{
 		"id": "T6_LEATHER_LEVEL1",
-		"name": "T6_LEATHER_LEVEL1"
+		"name": "T6_LEATHER_LEVEL1",
+		"weight": 1.14
 	},
 	{
 		"id": "T7_LEATHER_LEVEL1",
-		"name": "T7_LEATHER_LEVEL1"
+		"name": "T7_LEATHER_LEVEL1",
+		"weight": 1.71
 	},
 	{
 		"id": "T8_LEATHER_LEVEL1",
-		"name": "T8_LEATHER_LEVEL1"
+		"name": "T8_LEATHER_LEVEL1",
+		"weight": 2.56
 	},
 	{
 		"id": "T4_LEATHER_LEVEL2",
-		"name": "T4_LEATHER_LEVEL2"
+		"name": "T4_LEATHER_LEVEL2",
+		"weight": 0.51
 	},
 	{
 		"id": "T5_LEATHER_LEVEL2",
-		"name": "T5_LEATHER_LEVEL2"
+		"name": "T5_LEATHER_LEVEL2",
+		"weight": 0.76
 	},
 	{
 		"id": "T6_LEATHER_LEVEL2",
-		"name": "T6_LEATHER_LEVEL2"
+		"name": "T6_LEATHER_LEVEL2",
+		"weight": 1.14
 	},
 	{
 		"id": "T7_LEATHER_LEVEL2",
-		"name": "T7_LEATHER_LEVEL2"
+		"name": "T7_LEATHER_LEVEL2",
+		"weight": 1.71
 	},
 	{
 		"id": "T8_LEATHER_LEVEL2",
-		"name": "T8_LEATHER_LEVEL2"
+		"name": "T8_LEATHER_LEVEL2",
+		"weight": 2.56
 	},
 	{
 		"id": "T4_LEATHER_LEVEL3",
-		"name": "T4_LEATHER_LEVEL3"
+		"name": "T4_LEATHER_LEVEL3",
+		"weight": 0.51
 	},
 	{
 		"id": "T5_LEATHER_LEVEL3",
-		"name": "T5_LEATHER_LEVEL3"
+		"name": "T5_LEATHER_LEVEL3",
+		"weight": 0.76
 	},
 	{
 		"id": "T6_LEATHER_LEVEL3",
-		"name": "T6_LEATHER_LEVEL3"
+		"name": "T6_LEATHER_LEVEL3",
+		"weight": 1.14
 	},
 	{
 		"id": "T7_LEATHER_LEVEL3",
-		"name": "T7_LEATHER_LEVEL3"
+		"name": "T7_LEATHER_LEVEL3",
+		"weight": 1.71
 	},
 	{
 		"id": "T8_LEATHER_LEVEL3",
-		"name": "T8_LEATHER_LEVEL3"
+		"name": "T8_LEATHER_LEVEL3",
+		"weight": 2.56
 	},
 	{
 		"id": "T4_LEATHER_LEVEL4",
-		"name": "T4_LEATHER_LEVEL4"
+		"name": "T4_LEATHER_LEVEL4",
+		"weight": 0.51
 	},
 	{
 		"id": "T5_LEATHER_LEVEL4",
-		"name": "T5_LEATHER_LEVEL4"
+		"name": "T5_LEATHER_LEVEL4",
+		"weight": 0.76
 	},
 	{
 		"id": "T6_LEATHER_LEVEL4",
-		"name": "T6_LEATHER_LEVEL4"
+		"name": "T6_LEATHER_LEVEL4",
+		"weight": 1.14
 	},
 	{
 		"id": "T7_LEATHER_LEVEL4",
-		"name": "T7_LEATHER_LEVEL4"
+		"name": "T7_LEATHER_LEVEL4",
+		"weight": 1.71
 	},
 	{
 		"id": "T8_LEATHER_LEVEL4",
-		"name": "T8_LEATHER_LEVEL4"
+		"name": "T8_LEATHER_LEVEL4",
+		"weight": 2.56
 	},
 	{
 		"id": "T2_CLOTH",
-		"name": "Simple Cloth"
+		"name": "Simple Cloth",
+		"weight": 0.23
 	},
 	{
 		"id": "T3_CLOTH",
-		"name": "Neat Cloth"
+		"name": "Neat Cloth",
+		"weight": 0.34
 	},
 	{
 		"id": "T4_CLOTH",
-		"name": "Fine Cloth"
+		"name": "Fine Cloth",
+		"weight": 0.51
 	},
 	{
 		"id": "T5_CLOTH",
-		"name": "Ornate Cloth"
+		"name": "Ornate Cloth",
+		"weight": 0.76
 	},
 	{
 		"id": "T6_CLOTH",
-		"name": "Lavish Cloth"
+		"name": "Lavish Cloth",
+		"weight": 1.14
 	},
 	{
 		"id": "T7_CLOTH",
-		"name": "Opulent Cloth"
+		"name": "Opulent Cloth",
+		"weight": 1.71
 	},
 	{
 		"id": "T8_CLOTH",
-		"name": "Baroque Cloth"
+		"name": "Baroque Cloth",
+		"weight": 2.56
 	},
 	{
 		"id": "T4_CLOTH_LEVEL1",
-		"name": "T4_CLOTH_LEVEL1"
+		"name": "T4_CLOTH_LEVEL1",
+		"weight": 0.51
 	},
 	{
 		"id": "T5_CLOTH_LEVEL1",
-		"name": "T5_CLOTH_LEVEL1"
+		"name": "T5_CLOTH_LEVEL1",
+		"weight": 0.76
 	},
 	{
 		"id": "T6_CLOTH_LEVEL1",
-		"name": "T6_CLOTH_LEVEL1"
+		"name": "T6_CLOTH_LEVEL1",
+		"weight": 1.14
 	},
 	{
 		"id": "T7_CLOTH_LEVEL1",
-		"name": "T7_CLOTH_LEVEL1"
+		"name": "T7_CLOTH_LEVEL1",
+		"weight": 1.71
 	},
 	{
 		"id": "T8_CLOTH_LEVEL1",
-		"name": "T8_CLOTH_LEVEL1"
+		"name": "T8_CLOTH_LEVEL1",
+		"weight": 2.56
 	},
 	{
 		"id": "T4_CLOTH_LEVEL2",
-		"name": "T4_CLOTH_LEVEL2"
+		"name": "T4_CLOTH_LEVEL2",
+		"weight": 0.51
 	},
 	{
 		"id": "T5_CLOTH_LEVEL2",
-		"name": "T5_CLOTH_LEVEL2"
+		"name": "T5_CLOTH_LEVEL2",
+		"weight": 0.76
 	},
 	{
 		"id": "T6_CLOTH_LEVEL2",
-		"name": "T6_CLOTH_LEVEL2"
+		"name": "T6_CLOTH_LEVEL2",
+		"weight": 1.14
 	},
 	{
 		"id": "T7_CLOTH_LEVEL2",
-		"name": "T7_CLOTH_LEVEL2"
+		"name": "T7_CLOTH_LEVEL2",
+		"weight": 1.71
 	},
 	{
 		"id": "T8_CLOTH_LEVEL2",
-		"name": "T8_CLOTH_LEVEL2"
+		"name": "T8_CLOTH_LEVEL2",
+		"weight": 2.56
 	},
 	{
 		"id": "T4_CLOTH_LEVEL3",
-		"name": "T4_CLOTH_LEVEL3"
+		"name": "T4_CLOTH_LEVEL3",
+		"weight": 0.51
 	},
 	{
 		"id": "T5_CLOTH_LEVEL3",
-		"name": "T5_CLOTH_LEVEL3"
+		"name": "T5_CLOTH_LEVEL3",
+		"weight": 0.76
 	},
 	{
 		"id": "T6_CLOTH_LEVEL3",
-		"name": "T6_CLOTH_LEVEL3"
+		"name": "T6_CLOTH_LEVEL3",
+		"weight": 1.14
 	},
 	{
 		"id": "T7_CLOTH_LEVEL3",
-		"name": "T7_CLOTH_LEVEL3"
+		"name": "T7_CLOTH_LEVEL3",
+		"weight": 1.71
 	},
 	{
 		"id": "T8_CLOTH_LEVEL3",
-		"name": "T8_CLOTH_LEVEL3"
+		"name": "T8_CLOTH_LEVEL3",
+		"weight": 2.56
 	},
 	{
 		"id": "T4_CLOTH_LEVEL4",
-		"name": "T4_CLOTH_LEVEL4"
+		"name": "T4_CLOTH_LEVEL4",
+		"weight": 0.51
 	},
 	{
 		"id": "T5_CLOTH_LEVEL4",
-		"name": "T5_CLOTH_LEVEL4"
+		"name": "T5_CLOTH_LEVEL4",
+		"weight": 0.76
 	},
 	{
 		"id": "T6_CLOTH_LEVEL4",
-		"name": "T6_CLOTH_LEVEL4"
+		"name": "T6_CLOTH_LEVEL4",
+		"weight": 1.14
 	},
 	{
 		"id": "T7_CLOTH_LEVEL4",
-		"name": "T7_CLOTH_LEVEL4"
+		"name": "T7_CLOTH_LEVEL4",
+		"weight": 1.71
 	},
 	{
 		"id": "T8_CLOTH_LEVEL4",
-		"name": "T8_CLOTH_LEVEL4"
+		"name": "T8_CLOTH_LEVEL4",
+		"weight": 2.56
 	},
 	{
 		"id": "T4_ARTEFACT_HEAD_LEATHER_MORGANA",
-		"name": "Adept's Imbued Visor"
+		"name": "Adept's Imbued Visor",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_HEAD_LEATHER_MORGANA",
-		"name": "Expert's Imbued Visor"
+		"name": "Expert's Imbued Visor",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_HEAD_LEATHER_MORGANA",
-		"name": "Master's Imbued Visor"
+		"name": "Master's Imbued Visor",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_HEAD_LEATHER_MORGANA",
-		"name": "Grandmaster's Imbued Visor"
+		"name": "Grandmaster's Imbued Visor",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_HEAD_LEATHER_MORGANA",
-		"name": "Elder's Imbued Visor"
+		"name": "Elder's Imbued Visor",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_ARMOR_LEATHER_MORGANA",
-		"name": "Adept's Imbued Leather Folds"
+		"name": "Adept's Imbued Leather Folds",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_ARMOR_LEATHER_MORGANA",
-		"name": "Expert's Imbued Leather Folds"
+		"name": "Expert's Imbued Leather Folds",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_ARMOR_LEATHER_MORGANA",
-		"name": "Master's Imbued Leather Folds"
+		"name": "Master's Imbued Leather Folds",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_ARMOR_LEATHER_MORGANA",
-		"name": "Grandmaster's Imbued Leather Folds"
+		"name": "Grandmaster's Imbued Leather Folds",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_ARMOR_LEATHER_MORGANA",
-		"name": "Elder's Imbued Leather Folds"
+		"name": "Elder's Imbued Leather Folds",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_SHOES_LEATHER_MORGANA",
-		"name": "Adept's Imbued Soles"
+		"name": "Adept's Imbued Soles",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_SHOES_LEATHER_MORGANA",
-		"name": "Expert's Imbued Soles"
+		"name": "Expert's Imbued Soles",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_SHOES_LEATHER_MORGANA",
-		"name": "Master's Imbued Soles"
+		"name": "Master's Imbued Soles",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_SHOES_LEATHER_MORGANA",
-		"name": "Grandmaster's Imbued Soles"
+		"name": "Grandmaster's Imbued Soles",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_SHOES_LEATHER_MORGANA",
-		"name": "Elder's Imbued Soles"
+		"name": "Elder's Imbued Soles",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_HEAD_LEATHER_HELL",
-		"name": "Adept's Demonhide Padding"
+		"name": "Adept's Demonhide Padding",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_HEAD_LEATHER_HELL",
-		"name": "Expert's Demonhide Padding"
+		"name": "Expert's Demonhide Padding",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_HEAD_LEATHER_HELL",
-		"name": "Master's Demonhide Padding"
+		"name": "Master's Demonhide Padding",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_HEAD_LEATHER_HELL",
-		"name": "Grandmaster's Demonhide Padding"
+		"name": "Grandmaster's Demonhide Padding",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_HEAD_LEATHER_HELL",
-		"name": "Elder's Demonhide Padding"
+		"name": "Elder's Demonhide Padding",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_ARMOR_LEATHER_HELL",
-		"name": "Adept's Demonhide Leather"
+		"name": "Adept's Demonhide Leather",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_ARMOR_LEATHER_HELL",
-		"name": "Expert's Demonhide Leather"
+		"name": "Expert's Demonhide Leather",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_ARMOR_LEATHER_HELL",
-		"name": "Master's Demonhide Leather"
+		"name": "Master's Demonhide Leather",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_ARMOR_LEATHER_HELL",
-		"name": "Grandmaster's Demonhide Leather"
+		"name": "Grandmaster's Demonhide Leather",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_ARMOR_LEATHER_HELL",
-		"name": "Elder's Demonhide Leather"
+		"name": "Elder's Demonhide Leather",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_SHOES_LEATHER_HELL",
-		"name": "Adept's Demonhide Bindings"
+		"name": "Adept's Demonhide Bindings",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_SHOES_LEATHER_HELL",
-		"name": "Expert's Demonhide Bindings"
+		"name": "Expert's Demonhide Bindings",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_SHOES_LEATHER_HELL",
-		"name": "Master's Demonhide Bindings"
+		"name": "Master's Demonhide Bindings",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_SHOES_LEATHER_HELL",
-		"name": "Grandmaster's Demonhide Bindings"
+		"name": "Grandmaster's Demonhide Bindings",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_SHOES_LEATHER_HELL",
-		"name": "Elder's Demonhide Bindings"
+		"name": "Elder's Demonhide Bindings",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_HEAD_LEATHER_UNDEAD",
-		"name": "Adept's Ghastly Visor"
+		"name": "Adept's Ghastly Visor",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_HEAD_LEATHER_UNDEAD",
-		"name": "Expert's Ghastly Visor"
+		"name": "Expert's Ghastly Visor",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_HEAD_LEATHER_UNDEAD",
-		"name": "Master's Ghastly Visor"
+		"name": "Master's Ghastly Visor",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_HEAD_LEATHER_UNDEAD",
-		"name": "Grandmaster's Ghastly Visor"
+		"name": "Grandmaster's Ghastly Visor",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_HEAD_LEATHER_UNDEAD",
-		"name": "Elder's Ghastly Visor"
+		"name": "Elder's Ghastly Visor",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_ARMOR_LEATHER_UNDEAD",
-		"name": "Adept's Ghastly Leather"
+		"name": "Adept's Ghastly Leather",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_ARMOR_LEATHER_UNDEAD",
-		"name": "Expert's Ghastly Leather"
+		"name": "Expert's Ghastly Leather",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_ARMOR_LEATHER_UNDEAD",
-		"name": "Master's Ghastly Leather"
+		"name": "Master's Ghastly Leather",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_ARMOR_LEATHER_UNDEAD",
-		"name": "Grandmaster's Ghastly Leather"
+		"name": "Grandmaster's Ghastly Leather",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_ARMOR_LEATHER_UNDEAD",
-		"name": "Elder's Ghastly Leather"
+		"name": "Elder's Ghastly Leather",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_SHOES_LEATHER_UNDEAD",
-		"name": "Adept's Ghastly Bindings"
+		"name": "Adept's Ghastly Bindings",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_SHOES_LEATHER_UNDEAD",
-		"name": "Expert's Ghastly Bindings"
+		"name": "Expert's Ghastly Bindings",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_SHOES_LEATHER_UNDEAD",
-		"name": "Master's Ghastly Bindings"
+		"name": "Master's Ghastly Bindings",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_SHOES_LEATHER_UNDEAD",
-		"name": "Grandmaster's Ghastly Bindings"
+		"name": "Grandmaster's Ghastly Bindings",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_SHOES_LEATHER_UNDEAD",
-		"name": "Elder's Ghastly Bindings"
+		"name": "Elder's Ghastly Bindings",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_HEAD_LEATHER_AVALON",
-		"name": "Adept's Augured Padding"
+		"name": "Adept's Augured Padding",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_HEAD_LEATHER_AVALON",
-		"name": "Expert's Augured Padding"
+		"name": "Expert's Augured Padding",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_HEAD_LEATHER_AVALON",
-		"name": "Master's Augured Padding"
+		"name": "Master's Augured Padding",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_HEAD_LEATHER_AVALON",
-		"name": "Grandmaster's Augured Padding"
+		"name": "Grandmaster's Augured Padding",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_HEAD_LEATHER_AVALON",
-		"name": "Elder's Augured Padding"
+		"name": "Elder's Augured Padding",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_ARMOR_LEATHER_AVALON",
-		"name": "Adept's Augured Sash"
+		"name": "Adept's Augured Sash",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_ARMOR_LEATHER_AVALON",
-		"name": "Expert's Augured Sash"
+		"name": "Expert's Augured Sash",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_ARMOR_LEATHER_AVALON",
-		"name": "Master's Augured Sash"
+		"name": "Master's Augured Sash",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_ARMOR_LEATHER_AVALON",
-		"name": "Grandmaster's Augured Sash"
+		"name": "Grandmaster's Augured Sash",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_ARMOR_LEATHER_AVALON",
-		"name": "Elder's Augured Sash"
+		"name": "Elder's Augured Sash",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_SHOES_LEATHER_AVALON",
-		"name": "Adept's Augured Fasteners"
+		"name": "Adept's Augured Fasteners",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_SHOES_LEATHER_AVALON",
-		"name": "Expert's Augured Fasteners"
+		"name": "Expert's Augured Fasteners",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_SHOES_LEATHER_AVALON",
-		"name": "Master's Augured Fasteners"
+		"name": "Master's Augured Fasteners",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_SHOES_LEATHER_AVALON",
-		"name": "Grandmaster's Augured Fasteners"
+		"name": "Grandmaster's Augured Fasteners",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_SHOES_LEATHER_AVALON",
-		"name": "Elder's Augured Fasteners"
+		"name": "Elder's Augured Fasteners",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_ARMOR_LEATHER_FEY",
-		"name": "Adept's Untarnished Griffin Feathers"
+		"name": "Adept's Untarnished Griffin Feathers",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_ARMOR_LEATHER_FEY",
-		"name": "Expert's Untarnished Griffin Feathers"
+		"name": "Expert's Untarnished Griffin Feathers",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_ARMOR_LEATHER_FEY",
-		"name": "Master's Untarnished Griffin Feathers"
+		"name": "Master's Untarnished Griffin Feathers",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_ARMOR_LEATHER_FEY",
-		"name": "Grandmaster's Untarnished Griffin Feathers"
+		"name": "Grandmaster's Untarnished Griffin Feathers",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_ARMOR_LEATHER_FEY",
-		"name": "Elder's Untarnished Griffin Feathers"
+		"name": "Elder's Untarnished Griffin Feathers",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_HEAD_LEATHER_FEY",
-		"name": "Adept's Flawless Griffin Beak"
+		"name": "Adept's Flawless Griffin Beak",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_HEAD_LEATHER_FEY",
-		"name": "Expert's Flawless Griffin Beak"
+		"name": "Expert's Flawless Griffin Beak",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_HEAD_LEATHER_FEY",
-		"name": "Master's Flawless Griffin Beak"
+		"name": "Master's Flawless Griffin Beak",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_HEAD_LEATHER_FEY",
-		"name": "Grandmaster's Flawless Griffin Beak"
+		"name": "Grandmaster's Flawless Griffin Beak",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_HEAD_LEATHER_FEY",
-		"name": "Elder's Flawless Griffin Beak"
+		"name": "Elder's Flawless Griffin Beak",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_SHOES_LEATHER_FEY",
-		"name": "Adept's Griffin Underfur"
+		"name": "Adept's Griffin Underfur",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_SHOES_LEATHER_FEY",
-		"name": "Expert's Griffin Underfur"
+		"name": "Expert's Griffin Underfur",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_SHOES_LEATHER_FEY",
-		"name": "Master's Griffin Underfur"
+		"name": "Master's Griffin Underfur",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_SHOES_LEATHER_FEY",
-		"name": "Grandmaster's Griffin Underfur"
+		"name": "Grandmaster's Griffin Underfur",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_SHOES_LEATHER_FEY",
-		"name": "Elder's Griffin Underfur"
+		"name": "Elder's Griffin Underfur",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_HEAD_CLOTH_KEEPER",
-		"name": "Adept's Druidic Preserved Beak"
+		"name": "Adept's Druidic Preserved Beak",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_HEAD_CLOTH_KEEPER",
-		"name": "Expert's Druidic Preserved Beak"
+		"name": "Expert's Druidic Preserved Beak",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_HEAD_CLOTH_KEEPER",
-		"name": "Master's Druidic Preserved Beak"
+		"name": "Master's Druidic Preserved Beak",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_HEAD_CLOTH_KEEPER",
-		"name": "Grandmaster's Druidic Preserved Beak"
+		"name": "Grandmaster's Druidic Preserved Beak",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_HEAD_CLOTH_KEEPER",
-		"name": "Elder's Druidic Preserved Beak"
+		"name": "Elder's Druidic Preserved Beak",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_ARMOR_CLOTH_KEEPER",
-		"name": "Adept's Druidic Feathers"
+		"name": "Adept's Druidic Feathers",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_ARMOR_CLOTH_KEEPER",
-		"name": "Expert's Druidic Feathers"
+		"name": "Expert's Druidic Feathers",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_ARMOR_CLOTH_KEEPER",
-		"name": "Master's Druidic Feathers"
+		"name": "Master's Druidic Feathers",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_ARMOR_CLOTH_KEEPER",
-		"name": "Grandmaster's Druidic Feathers"
+		"name": "Grandmaster's Druidic Feathers",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_ARMOR_CLOTH_KEEPER",
-		"name": "Elder's Druidic Feathers"
+		"name": "Elder's Druidic Feathers",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_SHOES_CLOTH_KEEPER",
-		"name": "Adept's Druidic Bindings"
+		"name": "Adept's Druidic Bindings",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_SHOES_CLOTH_KEEPER",
-		"name": "Expert's Druidic Bindings"
+		"name": "Expert's Druidic Bindings",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_SHOES_CLOTH_KEEPER",
-		"name": "Master's Druidic Bindings"
+		"name": "Master's Druidic Bindings",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_SHOES_CLOTH_KEEPER",
-		"name": "Grandmaster's Druidic Bindings"
+		"name": "Grandmaster's Druidic Bindings",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_SHOES_CLOTH_KEEPER",
-		"name": "Elder's Druidic Bindings"
+		"name": "Elder's Druidic Bindings",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_HEAD_CLOTH_HELL",
-		"name": "Adept's Infernal Cloth Visor"
+		"name": "Adept's Infernal Cloth Visor",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_HEAD_CLOTH_HELL",
-		"name": "Expert's Infernal Cloth Visor"
+		"name": "Expert's Infernal Cloth Visor",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_HEAD_CLOTH_HELL",
-		"name": "Master's Infernal Cloth Visor"
+		"name": "Master's Infernal Cloth Visor",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_HEAD_CLOTH_HELL",
-		"name": "Grandmaster's Infernal Cloth Visor"
+		"name": "Grandmaster's Infernal Cloth Visor",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_HEAD_CLOTH_HELL",
-		"name": "Elder's Infernal Cloth Visor"
+		"name": "Elder's Infernal Cloth Visor",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_ARMOR_CLOTH_HELL",
-		"name": "Adept's Infernal Cloth Folds"
+		"name": "Adept's Infernal Cloth Folds",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_ARMOR_CLOTH_HELL",
-		"name": "Expert's Infernal Cloth Folds"
+		"name": "Expert's Infernal Cloth Folds",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_ARMOR_CLOTH_HELL",
-		"name": "Master's Infernal Cloth Folds"
+		"name": "Master's Infernal Cloth Folds",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_ARMOR_CLOTH_HELL",
-		"name": "Grandmaster's Infernal Cloth Folds"
+		"name": "Grandmaster's Infernal Cloth Folds",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_ARMOR_CLOTH_HELL",
-		"name": "Elder's Infernal Cloth Folds"
+		"name": "Elder's Infernal Cloth Folds",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_SHOES_CLOTH_HELL",
-		"name": "Adept's Infernal Cloth Bindings"
+		"name": "Adept's Infernal Cloth Bindings",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_SHOES_CLOTH_HELL",
-		"name": "Expert's Infernal Cloth Bindings"
+		"name": "Expert's Infernal Cloth Bindings",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_SHOES_CLOTH_HELL",
-		"name": "Master's Infernal Cloth Bindings"
+		"name": "Master's Infernal Cloth Bindings",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_SHOES_CLOTH_HELL",
-		"name": "Grandmaster's Infernal Cloth Bindings"
+		"name": "Grandmaster's Infernal Cloth Bindings",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_SHOES_CLOTH_HELL",
-		"name": "Elder's Infernal Cloth Bindings"
+		"name": "Elder's Infernal Cloth Bindings",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_HEAD_CLOTH_MORGANA",
-		"name": "Adept's Alluring Padding"
+		"name": "Adept's Alluring Padding",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_HEAD_CLOTH_MORGANA",
-		"name": "Expert's Alluring Padding"
+		"name": "Expert's Alluring Padding",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_HEAD_CLOTH_MORGANA",
-		"name": "Master's Alluring Padding"
+		"name": "Master's Alluring Padding",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_HEAD_CLOTH_MORGANA",
-		"name": "Grandmaster's Alluring Padding"
+		"name": "Grandmaster's Alluring Padding",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_HEAD_CLOTH_MORGANA",
-		"name": "Elder's Alluring Padding"
+		"name": "Elder's Alluring Padding",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_ARMOR_CLOTH_MORGANA",
-		"name": "Adept's Alluring Amulet"
+		"name": "Adept's Alluring Amulet",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_ARMOR_CLOTH_MORGANA",
-		"name": "Expert's Alluring Amulet"
+		"name": "Expert's Alluring Amulet",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_ARMOR_CLOTH_MORGANA",
-		"name": "Master's Alluring Amulet"
+		"name": "Master's Alluring Amulet",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_ARMOR_CLOTH_MORGANA",
-		"name": "Grandmaster's Alluring Amulet"
+		"name": "Grandmaster's Alluring Amulet",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_ARMOR_CLOTH_MORGANA",
-		"name": "Elder's Alluring Amulet"
+		"name": "Elder's Alluring Amulet",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_SHOES_CLOTH_MORGANA",
-		"name": "Adept's Alluring Bindings"
+		"name": "Adept's Alluring Bindings",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_SHOES_CLOTH_MORGANA",
-		"name": "Expert's Alluring Bindings"
+		"name": "Expert's Alluring Bindings",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_SHOES_CLOTH_MORGANA",
-		"name": "Master's Alluring Bindings"
+		"name": "Master's Alluring Bindings",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_SHOES_CLOTH_MORGANA",
-		"name": "Grandmaster's Alluring Bindings"
+		"name": "Grandmaster's Alluring Bindings",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_SHOES_CLOTH_MORGANA",
-		"name": "Elder's Alluring Bindings"
+		"name": "Elder's Alluring Bindings",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_HEAD_CLOTH_AVALON",
-		"name": "Adept's Sanctified Mask"
+		"name": "Adept's Sanctified Mask",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_HEAD_CLOTH_AVALON",
-		"name": "Expert's Sanctified Mask"
+		"name": "Expert's Sanctified Mask",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_HEAD_CLOTH_AVALON",
-		"name": "Master's Sanctified Mask"
+		"name": "Master's Sanctified Mask",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_HEAD_CLOTH_AVALON",
-		"name": "Grandmaster's Sanctified Mask"
+		"name": "Grandmaster's Sanctified Mask",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_HEAD_CLOTH_AVALON",
-		"name": "Elder's Sanctified Mask"
+		"name": "Elder's Sanctified Mask",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_ARMOR_CLOTH_AVALON",
-		"name": "Adept's Sanctified Belt"
+		"name": "Adept's Sanctified Belt",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_ARMOR_CLOTH_AVALON",
-		"name": "Expert's Sanctified Belt"
+		"name": "Expert's Sanctified Belt",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_ARMOR_CLOTH_AVALON",
-		"name": "Master's Sanctified Belt"
+		"name": "Master's Sanctified Belt",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_ARMOR_CLOTH_AVALON",
-		"name": "Grandmaster's Sanctified Belt"
+		"name": "Grandmaster's Sanctified Belt",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_ARMOR_CLOTH_AVALON",
-		"name": "Elder's Sanctified Belt"
+		"name": "Elder's Sanctified Belt",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_SHOES_CLOTH_AVALON",
-		"name": "Adept's Sanctified Bindings"
+		"name": "Adept's Sanctified Bindings",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_SHOES_CLOTH_AVALON",
-		"name": "Expert's Sanctified Bindings"
+		"name": "Expert's Sanctified Bindings",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_SHOES_CLOTH_AVALON",
-		"name": "Master's Sanctified Bindings"
+		"name": "Master's Sanctified Bindings",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_SHOES_CLOTH_AVALON",
-		"name": "Grandmaster's Sanctified Bindings"
+		"name": "Grandmaster's Sanctified Bindings",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_SHOES_CLOTH_AVALON",
-		"name": "Elder's Sanctified Bindings"
+		"name": "Elder's Sanctified Bindings",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_ARMOR_CLOTH_FEY",
-		"name": "Adept's Fey Dorsal Wing"
+		"name": "Adept's Fey Dorsal Wing",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_ARMOR_CLOTH_FEY",
-		"name": "Expert's Fey Dorsal Wing"
+		"name": "Expert's Fey Dorsal Wing",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_ARMOR_CLOTH_FEY",
-		"name": "Master's Fey Dorsal Wing"
+		"name": "Master's Fey Dorsal Wing",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_ARMOR_CLOTH_FEY",
-		"name": "Grandmaster's Fey Dorsal Wing"
+		"name": "Grandmaster's Fey Dorsal Wing",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_ARMOR_CLOTH_FEY",
-		"name": "Elder's Fey Dorsal Wing"
+		"name": "Elder's Fey Dorsal Wing",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_HEAD_CLOTH_FEY",
-		"name": "Adept's Intact Fey Fibula"
+		"name": "Adept's Intact Fey Fibula",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_HEAD_CLOTH_FEY",
-		"name": "Expert's Intact Fey Fibula"
+		"name": "Expert's Intact Fey Fibula",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_HEAD_CLOTH_FEY",
-		"name": "Master's Intact Fey Fibula"
+		"name": "Master's Intact Fey Fibula",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_HEAD_CLOTH_FEY",
-		"name": "Grandmaster's Intact Fey Fibula"
+		"name": "Grandmaster's Intact Fey Fibula",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_HEAD_CLOTH_FEY",
-		"name": "Elder's Intact Fey Fibula"
+		"name": "Elder's Intact Fey Fibula",
+		"weight": 2
 	},
 	{
 		"id": "T4_ARTEFACT_SHOES_CLOTH_FEY",
-		"name": "Adept's Fey Dragonscales"
+		"name": "Adept's Fey Dragonscales",
+		"weight": 2
 	},
 	{
 		"id": "T5_ARTEFACT_SHOES_CLOTH_FEY",
-		"name": "Expert's Fey Dragonscales"
+		"name": "Expert's Fey Dragonscales",
+		"weight": 2
 	},
 	{
 		"id": "T6_ARTEFACT_SHOES_CLOTH_FEY",
-		"name": "Master's Fey Dragonscales"
+		"name": "Master's Fey Dragonscales",
+		"weight": 2
 	},
 	{
 		"id": "T7_ARTEFACT_SHOES_CLOTH_FEY",
-		"name": "Grandmaster's Fey Dragonscales"
+		"name": "Grandmaster's Fey Dragonscales",
+		"weight": 2
 	},
 	{
 		"id": "T8_ARTEFACT_SHOES_CLOTH_FEY",
-		"name": "Elder's Fey Dragonscales"
+		"name": "Elder's Fey Dragonscales",
+		"weight": 2
 	}
 ]

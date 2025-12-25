@@ -1,962 +1,1202 @@
 [
 	{
 		"id": "T1_MEAL_GRILLEDFISH",
-		"name": "Grilled Fish"
+		"name": "Grilled Fish",
+		"weight": 0.3
 	},
 	{
 		"id": "T1_MEAL_SEAWEEDSALAD",
-		"name": "Seaweed Salad"
+		"name": "Seaweed Salad",
+		"weight": 0.08
 	},
 	{
 		"id": "T1_MEAL_SOUP",
-		"name": "Carrot Soup"
+		"name": "Carrot Soup",
+		"weight": 1.16
 	},
 	{
 		"id": "T1_MEAL_SOUP@1",
-		"name": "Carrot Soup (Uncommon)"
+		"name": "Carrot Soup (Uncommon)",
+		"weight": 1.16
 	},
 	{
 		"id": "T1_MEAL_SOUP@2",
-		"name": "Carrot Soup (Rare)"
+		"name": "Carrot Soup (Rare)",
+		"weight": 1.16
 	},
 	{
 		"id": "T1_MEAL_SOUP@3",
-		"name": "Carrot Soup (Exceptional)"
+		"name": "Carrot Soup (Exceptional)",
+		"weight": 1.16
 	},
 	{
 		"id": "T3_MEAL_SOUP",
-		"name": "Wheat Soup"
+		"name": "Wheat Soup",
+		"weight": 3.15
 	},
 	{
 		"id": "T3_MEAL_SOUP@1",
-		"name": "Wheat Soup (Uncommon)"
+		"name": "Wheat Soup (Uncommon)",
+		"weight": 3.15
 	},
 	{
 		"id": "T3_MEAL_SOUP@2",
-		"name": "Wheat Soup (Rare)"
+		"name": "Wheat Soup (Rare)",
+		"weight": 3.15
 	},
 	{
 		"id": "T3_MEAL_SOUP@3",
-		"name": "Wheat Soup (Exceptional)"
+		"name": "Wheat Soup (Exceptional)",
+		"weight": 3.15
 	},
 	{
 		"id": "T5_MEAL_SOUP",
-		"name": "Cabbage Soup"
+		"name": "Cabbage Soup",
+		"weight": 7.56
 	},
 	{
 		"id": "T5_MEAL_SOUP@1",
-		"name": "Cabbage Soup (Uncommon)"
+		"name": "Cabbage Soup (Uncommon)",
+		"weight": 7.56
 	},
 	{
 		"id": "T5_MEAL_SOUP@2",
-		"name": "Cabbage Soup (Rare)"
+		"name": "Cabbage Soup (Rare)",
+		"weight": 7.56
 	},
 	{
 		"id": "T5_MEAL_SOUP@3",
-		"name": "Cabbage Soup (Exceptional)"
+		"name": "Cabbage Soup (Exceptional)",
+		"weight": 7.56
 	},
 	{
 		"id": "T1_MEAL_SOUP_FISH",
-		"name": "Greenmoor Clam Soup"
+		"name": "Greenmoor Clam Soup",
+		"weight": 1.59
 	},
 	{
 		"id": "T1_MEAL_SOUP_FISH@1",
-		"name": "Greenmoor Clam Soup (Uncommon)"
+		"name": "Greenmoor Clam Soup (Uncommon)",
+		"weight": 1.59
 	},
 	{
 		"id": "T1_MEAL_SOUP_FISH@2",
-		"name": "Greenmoor Clam Soup (Rare)"
+		"name": "Greenmoor Clam Soup (Rare)",
+		"weight": 1.59
 	},
 	{
 		"id": "T1_MEAL_SOUP_FISH@3",
-		"name": "Greenmoor Clam Soup (Exceptional)"
+		"name": "Greenmoor Clam Soup (Exceptional)",
+		"weight": 1.59
 	},
 	{
 		"id": "T3_MEAL_SOUP_FISH",
-		"name": "Murkwater Clam Soup"
+		"name": "Murkwater Clam Soup",
+		"weight": 4.31
 	},
 	{
 		"id": "T3_MEAL_SOUP_FISH@1",
-		"name": "Murkwater Clam Soup (Uncommon)"
+		"name": "Murkwater Clam Soup (Uncommon)",
+		"weight": 4.31
 	},
 	{
 		"id": "T3_MEAL_SOUP_FISH@2",
-		"name": "Murkwater Clam Soup (Rare)"
+		"name": "Murkwater Clam Soup (Rare)",
+		"weight": 4.31
 	},
 	{
 		"id": "T3_MEAL_SOUP_FISH@3",
-		"name": "Murkwater Clam Soup (Exceptional)"
+		"name": "Murkwater Clam Soup (Exceptional)",
+		"weight": 4.31
 	},
 	{
 		"id": "T5_MEAL_SOUP_FISH",
-		"name": "Blackbog Clam Soup"
+		"name": "Blackbog Clam Soup",
+		"weight": 10.02
 	},
 	{
 		"id": "T5_MEAL_SOUP_FISH@1",
-		"name": "Blackbog Clam Soup (Uncommon)"
+		"name": "Blackbog Clam Soup (Uncommon)",
+		"weight": 10.02
 	},
 	{
 		"id": "T5_MEAL_SOUP_FISH@2",
-		"name": "Blackbog Clam Soup (Rare)"
+		"name": "Blackbog Clam Soup (Rare)",
+		"weight": 10.02
 	},
 	{
 		"id": "T5_MEAL_SOUP_FISH@3",
-		"name": "Blackbog Clam Soup (Exceptional)"
+		"name": "Blackbog Clam Soup (Exceptional)",
+		"weight": 10.02
 	},
 	{
 		"id": "T2_MEAL_SALAD",
-		"name": "Bean Salad"
+		"name": "Bean Salad",
+		"weight": 1.16
 	},
 	{
 		"id": "T2_MEAL_SALAD@1",
-		"name": "Bean Salad (Uncommon)"
+		"name": "Bean Salad (Uncommon)",
+		"weight": 1.16
 	},
 	{
 		"id": "T2_MEAL_SALAD@2",
-		"name": "Bean Salad (Rare)"
+		"name": "Bean Salad (Rare)",
+		"weight": 1.16
 	},
 	{
 		"id": "T2_MEAL_SALAD@3",
-		"name": "Bean Salad (Exceptional)"
+		"name": "Bean Salad (Exceptional)",
+		"weight": 1.16
 	},
 	{
 		"id": "T4_MEAL_SALAD",
-		"name": "Turnip Salad"
+		"name": "Turnip Salad",
+		"weight": 3.15
 	},
 	{
 		"id": "T4_MEAL_SALAD@1",
-		"name": "Turnip Salad (Uncommon)"
+		"name": "Turnip Salad (Uncommon)",
+		"weight": 3.15
 	},
 	{
 		"id": "T4_MEAL_SALAD@2",
-		"name": "Turnip Salad (Rare)"
+		"name": "Turnip Salad (Rare)",
+		"weight": 3.15
 	},
 	{
 		"id": "T4_MEAL_SALAD@3",
-		"name": "Turnip Salad (Exceptional)"
+		"name": "Turnip Salad (Exceptional)",
+		"weight": 3.15
 	},
 	{
 		"id": "T6_MEAL_SALAD",
-		"name": "Potato Salad"
+		"name": "Potato Salad",
+		"weight": 7.56
 	},
 	{
 		"id": "T6_MEAL_SALAD@1",
-		"name": "Potato Salad (Uncommon)"
+		"name": "Potato Salad (Uncommon)",
+		"weight": 7.56
 	},
 	{
 		"id": "T6_MEAL_SALAD@2",
-		"name": "Potato Salad (Rare)"
+		"name": "Potato Salad (Rare)",
+		"weight": 7.56
 	},
 	{
 		"id": "T6_MEAL_SALAD@3",
-		"name": "Potato Salad (Exceptional)"
+		"name": "Potato Salad (Exceptional)",
+		"weight": 7.56
 	},
 	{
 		"id": "T2_MEAL_SALAD_FISH",
-		"name": "Shallowshore Squid Salad"
+		"name": "Shallowshore Squid Salad",
+		"weight": 1.59
 	},
 	{
 		"id": "T2_MEAL_SALAD_FISH@1",
-		"name": "Shallowshore Squid Salad (Uncommon)"
+		"name": "Shallowshore Squid Salad (Uncommon)",
+		"weight": 1.59
 	},
 	{
 		"id": "T2_MEAL_SALAD_FISH@2",
-		"name": "Shallowshore Squid Salad (Rare)"
+		"name": "Shallowshore Squid Salad (Rare)",
+		"weight": 1.59
 	},
 	{
 		"id": "T2_MEAL_SALAD_FISH@3",
-		"name": "Shallowshore Squid Salad (Exceptional)"
+		"name": "Shallowshore Squid Salad (Exceptional)",
+		"weight": 1.59
 	},
 	{
 		"id": "T4_MEAL_SALAD_FISH",
-		"name": "Midwater Octopus Salad"
+		"name": "Midwater Octopus Salad",
+		"weight": 4.31
 	},
 	{
 		"id": "T4_MEAL_SALAD_FISH@1",
-		"name": "Midwater Octopus Salad (Uncommon)"
+		"name": "Midwater Octopus Salad (Uncommon)",
+		"weight": 4.31
 	},
 	{
 		"id": "T4_MEAL_SALAD_FISH@2",
-		"name": "Midwater Octopus Salad (Rare)"
+		"name": "Midwater Octopus Salad (Rare)",
+		"weight": 4.31
 	},
 	{
 		"id": "T4_MEAL_SALAD_FISH@3",
-		"name": "Midwater Octopus Salad (Exceptional)"
+		"name": "Midwater Octopus Salad (Exceptional)",
+		"weight": 4.31
 	},
 	{
 		"id": "T6_MEAL_SALAD_FISH",
-		"name": "Deepwater Kraken Salad"
+		"name": "Deepwater Kraken Salad",
+		"weight": 10.02
 	},
 	{
 		"id": "T6_MEAL_SALAD_FISH@1",
-		"name": "Deepwater Kraken Salad (Uncommon)"
+		"name": "Deepwater Kraken Salad (Uncommon)",
+		"weight": 10.02
 	},
 	{
 		"id": "T6_MEAL_SALAD_FISH@2",
-		"name": "Deepwater Kraken Salad (Rare)"
+		"name": "Deepwater Kraken Salad (Rare)",
+		"weight": 10.02
 	},
 	{
 		"id": "T6_MEAL_SALAD_FISH@3",
-		"name": "Deepwater Kraken Salad (Exceptional)"
+		"name": "Deepwater Kraken Salad (Exceptional)",
+		"weight": 10.02
 	},
 	{
 		"id": "T3_MEAL_PIE",
-		"name": "Chicken Pie"
+		"name": "Chicken Pie",
+		"weight": 1.17
 	},
 	{
 		"id": "T3_MEAL_PIE@1",
-		"name": "Chicken Pie (Uncommon)"
+		"name": "Chicken Pie (Uncommon)",
+		"weight": 1.17
 	},
 	{
 		"id": "T3_MEAL_PIE@2",
-		"name": "Chicken Pie (Rare)"
+		"name": "Chicken Pie (Rare)",
+		"weight": 1.17
 	},
 	{
 		"id": "T3_MEAL_PIE@3",
-		"name": "Chicken Pie (Exceptional)"
+		"name": "Chicken Pie (Exceptional)",
+		"weight": 1.17
 	},
 	{
 		"id": "T5_MEAL_PIE",
-		"name": "Goose Pie"
+		"name": "Goose Pie",
+		"weight": 3.33
 	},
 	{
 		"id": "T5_MEAL_PIE@1",
-		"name": "Goose Pie (Uncommon)"
+		"name": "Goose Pie (Uncommon)",
+		"weight": 3.33
 	},
 	{
 		"id": "T5_MEAL_PIE@2",
-		"name": "Goose Pie (Rare)"
+		"name": "Goose Pie (Rare)",
+		"weight": 3.33
 	},
 	{
 		"id": "T5_MEAL_PIE@3",
-		"name": "Goose Pie (Exceptional)"
+		"name": "Goose Pie (Exceptional)",
+		"weight": 3.33
 	},
 	{
 		"id": "T7_MEAL_PIE",
-		"name": "Pork Pie"
+		"name": "Pork Pie",
+		"weight": 7.99
 	},
 	{
 		"id": "T7_MEAL_PIE@1",
-		"name": "Pork Pie (Uncommon)"
+		"name": "Pork Pie (Uncommon)",
+		"weight": 7.99
 	},
 	{
 		"id": "T7_MEAL_PIE@2",
-		"name": "Pork Pie (Rare)"
+		"name": "Pork Pie (Rare)",
+		"weight": 7.99
 	},
 	{
 		"id": "T7_MEAL_PIE@3",
-		"name": "Pork Pie (Exceptional)"
+		"name": "Pork Pie (Exceptional)",
+		"weight": 7.99
 	},
 	{
 		"id": "T3_MEAL_PIE_FISH",
-		"name": "Upland Coldeye Pie"
+		"name": "Upland Coldeye Pie",
+		"weight": 1.8
 	},
 	{
 		"id": "T3_MEAL_PIE_FISH@1",
-		"name": "Upland Coldeye Pie (Uncommon)"
+		"name": "Upland Coldeye Pie (Uncommon)",
+		"weight": 1.8
 	},
 	{
 		"id": "T3_MEAL_PIE_FISH@2",
-		"name": "Upland Coldeye Pie (Rare)"
+		"name": "Upland Coldeye Pie (Rare)",
+		"weight": 1.8
 	},
 	{
 		"id": "T3_MEAL_PIE_FISH@3",
-		"name": "Upland Coldeye Pie (Exceptional)"
+		"name": "Upland Coldeye Pie (Exceptional)",
+		"weight": 1.8
 	},
 	{
 		"id": "T5_MEAL_PIE_FISH",
-		"name": "Mountain Blindeye Pie"
+		"name": "Mountain Blindeye Pie",
+		"weight": 4.21
 	},
 	{
 		"id": "T5_MEAL_PIE_FISH@1",
-		"name": "Mountain Blindeye Pie (Uncommon)"
+		"name": "Mountain Blindeye Pie (Uncommon)",
+		"weight": 4.21
 	},
 	{
 		"id": "T5_MEAL_PIE_FISH@2",
-		"name": "Mountain Blindeye Pie (Rare)"
+		"name": "Mountain Blindeye Pie (Rare)",
+		"weight": 4.21
 	},
 	{
 		"id": "T5_MEAL_PIE_FISH@3",
-		"name": "Mountain Blindeye Pie (Exceptional)"
+		"name": "Mountain Blindeye Pie (Exceptional)",
+		"weight": 4.21
 	},
 	{
 		"id": "T7_MEAL_PIE_FISH",
-		"name": "Frostpeak Deadeye Pie"
+		"name": "Frostpeak Deadeye Pie",
+		"weight": 10.02
 	},
 	{
 		"id": "T7_MEAL_PIE_FISH@1",
-		"name": "Frostpeak Deadeye Pie (Uncommon)"
+		"name": "Frostpeak Deadeye Pie (Uncommon)",
+		"weight": 10.02
 	},
 	{
 		"id": "T7_MEAL_PIE_FISH@2",
-		"name": "Frostpeak Deadeye Pie (Rare)"
+		"name": "Frostpeak Deadeye Pie (Rare)",
+		"weight": 10.02
 	},
 	{
 		"id": "T7_MEAL_PIE_FISH@3",
-		"name": "Frostpeak Deadeye Pie (Exceptional)"
+		"name": "Frostpeak Deadeye Pie (Exceptional)",
+		"weight": 10.02
 	},
 	{
 		"id": "T3_MEAL_OMELETTE",
-		"name": "Chicken Omelette"
+		"name": "Chicken Omelette",
+		"weight": 1.16
 	},
 	{
 		"id": "T3_MEAL_OMELETTE@1",
-		"name": "Chicken Omelette (Uncommon)"
+		"name": "Chicken Omelette (Uncommon)",
+		"weight": 1.16
 	},
 	{
 		"id": "T3_MEAL_OMELETTE@2",
-		"name": "Chicken Omelette (Rare)"
+		"name": "Chicken Omelette (Rare)",
+		"weight": 1.16
 	},
 	{
 		"id": "T3_MEAL_OMELETTE@3",
-		"name": "Chicken Omelette (Exceptional)"
+		"name": "Chicken Omelette (Exceptional)",
+		"weight": 1.16
 	},
 	{
 		"id": "T5_MEAL_OMELETTE",
-		"name": "Goose Omelette"
+		"name": "Goose Omelette",
+		"weight": 2.88
 	},
 	{
 		"id": "T5_MEAL_OMELETTE@1",
-		"name": "Goose Omelette (Uncommon)"
+		"name": "Goose Omelette (Uncommon)",
+		"weight": 2.88
 	},
 	{
 		"id": "T5_MEAL_OMELETTE@2",
-		"name": "Goose Omelette (Rare)"
+		"name": "Goose Omelette (Rare)",
+		"weight": 2.88
 	},
 	{
 		"id": "T5_MEAL_OMELETTE@3",
-		"name": "Goose Omelette (Exceptional)"
+		"name": "Goose Omelette (Exceptional)",
+		"weight": 2.88
 	},
 	{
 		"id": "T7_MEAL_OMELETTE",
-		"name": "Pork Omelette"
+		"name": "Pork Omelette",
+		"weight": 6.9
 	},
 	{
 		"id": "T7_MEAL_OMELETTE@1",
-		"name": "Pork Omelette (Uncommon)"
+		"name": "Pork Omelette (Uncommon)",
+		"weight": 6.9
 	},
 	{
 		"id": "T7_MEAL_OMELETTE@2",
-		"name": "Pork Omelette (Rare)"
+		"name": "Pork Omelette (Rare)",
+		"weight": 6.9
 	},
 	{
 		"id": "T7_MEAL_OMELETTE@3",
-		"name": "Pork Omelette (Exceptional)"
+		"name": "Pork Omelette (Exceptional)",
+		"weight": 6.9
 	},
 	{
 		"id": "T3_MEAL_OMELETTE_FISH",
-		"name": "Lowriver Crab Omelette"
+		"name": "Lowriver Crab Omelette",
+		"weight": 1.74
 	},
 	{
 		"id": "T3_MEAL_OMELETTE_FISH@1",
-		"name": "Lowriver Crab Omelette (Uncommon)"
+		"name": "Lowriver Crab Omelette (Uncommon)",
+		"weight": 1.74
 	},
 	{
 		"id": "T3_MEAL_OMELETTE_FISH@2",
-		"name": "Lowriver Crab Omelette (Rare)"
+		"name": "Lowriver Crab Omelette (Rare)",
+		"weight": 1.74
 	},
 	{
 		"id": "T3_MEAL_OMELETTE_FISH@3",
-		"name": "Lowriver Crab Omelette (Exceptional)"
+		"name": "Lowriver Crab Omelette (Exceptional)",
+		"weight": 1.74
 	},
 	{
 		"id": "T5_MEAL_OMELETTE_FISH",
-		"name": "Drybrook Crab Omelette"
+		"name": "Drybrook Crab Omelette",
+		"weight": 4.21
 	},
 	{
 		"id": "T5_MEAL_OMELETTE_FISH@1",
-		"name": "Drybrook Crab Omelette (Uncommon)"
+		"name": "Drybrook Crab Omelette (Uncommon)",
+		"weight": 4.21
 	},
 	{
 		"id": "T5_MEAL_OMELETTE_FISH@2",
-		"name": "Drybrook Crab Omelette (Rare)"
+		"name": "Drybrook Crab Omelette (Rare)",
+		"weight": 4.21
 	},
 	{
 		"id": "T5_MEAL_OMELETTE_FISH@3",
-		"name": "Drybrook Crab Omelette (Exceptional)"
+		"name": "Drybrook Crab Omelette (Exceptional)",
+		"weight": 4.21
 	},
 	{
 		"id": "T7_MEAL_OMELETTE_FISH",
-		"name": "Dusthole Crab Omelette"
+		"name": "Dusthole Crab Omelette",
+		"weight": 10.02
 	},
 	{
 		"id": "T7_MEAL_OMELETTE_FISH@1",
-		"name": "Dusthole Crab Omelette (Uncommon)"
+		"name": "Dusthole Crab Omelette (Uncommon)",
+		"weight": 10.02
 	},
 	{
 		"id": "T7_MEAL_OMELETTE_FISH@2",
-		"name": "Dusthole Crab Omelette (Rare)"
+		"name": "Dusthole Crab Omelette (Rare)",
+		"weight": 10.02
 	},
 	{
 		"id": "T7_MEAL_OMELETTE_FISH@3",
-		"name": "Dusthole Crab Omelette (Exceptional)"
+		"name": "Dusthole Crab Omelette (Exceptional)",
+		"weight": 10.02
 	},
 	{
 		"id": "T3_MEAL_OMELETTE_AVALON",
-		"name": "Avalonian Chicken Omelette"
+		"name": "Avalonian Chicken Omelette",
+		"weight": 1.26
 	},
 	{
 		"id": "T3_MEAL_OMELETTE_AVALON@1",
-		"name": "Avalonian Chicken Omelette (Uncommon)"
+		"name": "Avalonian Chicken Omelette (Uncommon)",
+		"weight": 1.26
 	},
 	{
 		"id": "T3_MEAL_OMELETTE_AVALON@2",
-		"name": "Avalonian Chicken Omelette (Rare)"
+		"name": "Avalonian Chicken Omelette (Rare)",
+		"weight": 1.26
 	},
 	{
 		"id": "T3_MEAL_OMELETTE_AVALON@3",
-		"name": "Avalonian Chicken Omelette (Exceptional)"
+		"name": "Avalonian Chicken Omelette (Exceptional)",
+		"weight": 1.26
 	},
 	{
 		"id": "T5_MEAL_OMELETTE_AVALON",
-		"name": "Avalonian Goose Omelette"
+		"name": "Avalonian Goose Omelette",
+		"weight": 3.15
 	},
 	{
 		"id": "T5_MEAL_OMELETTE_AVALON@1",
-		"name": "Avalonian Goose Omelette (Uncommon)"
+		"name": "Avalonian Goose Omelette (Uncommon)",
+		"weight": 3.15
 	},
 	{
 		"id": "T5_MEAL_OMELETTE_AVALON@2",
-		"name": "Avalonian Goose Omelette (Rare)"
+		"name": "Avalonian Goose Omelette (Rare)",
+		"weight": 3.15
 	},
 	{
 		"id": "T5_MEAL_OMELETTE_AVALON@3",
-		"name": "Avalonian Goose Omelette (Exceptional)"
+		"name": "Avalonian Goose Omelette (Exceptional)",
+		"weight": 3.15
 	},
 	{
 		"id": "T7_MEAL_OMELETTE_AVALON",
-		"name": "Avalonian Pork Omelette"
+		"name": "Avalonian Pork Omelette",
+		"weight": 7.55
 	},
 	{
 		"id": "T7_MEAL_OMELETTE_AVALON@1",
-		"name": "Avalonian Pork Omelette (Uncommon)"
+		"name": "Avalonian Pork Omelette (Uncommon)",
+		"weight": 7.55
 	},
 	{
 		"id": "T7_MEAL_OMELETTE_AVALON@2",
-		"name": "Avalonian Pork Omelette (Rare)"
+		"name": "Avalonian Pork Omelette (Rare)",
+		"weight": 7.55
 	},
 	{
 		"id": "T7_MEAL_OMELETTE_AVALON@3",
-		"name": "Avalonian Pork Omelette (Exceptional)"
+		"name": "Avalonian Pork Omelette (Exceptional)",
+		"weight": 7.55
 	},
 	{
 		"id": "T4_MEAL_STEW",
-		"name": "Goat Stew"
+		"name": "Goat Stew",
+		"weight": 1.37
 	},
 	{
 		"id": "T4_MEAL_STEW@1",
-		"name": "Goat Stew (Uncommon)"
+		"name": "Goat Stew (Uncommon)",
+		"weight": 1.37
 	},
 	{
 		"id": "T4_MEAL_STEW@2",
-		"name": "Goat Stew (Rare)"
+		"name": "Goat Stew (Rare)",
+		"weight": 1.37
 	},
 	{
 		"id": "T4_MEAL_STEW@3",
-		"name": "Goat Stew (Exceptional)"
+		"name": "Goat Stew (Exceptional)",
+		"weight": 1.37
 	},
 	{
 		"id": "T6_MEAL_STEW",
-		"name": "Mutton Stew"
+		"name": "Mutton Stew",
+		"weight": 3.4
 	},
 	{
 		"id": "T6_MEAL_STEW@1",
-		"name": "Mutton Stew (Uncommon)"
+		"name": "Mutton Stew (Uncommon)",
+		"weight": 3.4
 	},
 	{
 		"id": "T6_MEAL_STEW@2",
-		"name": "Mutton Stew (Rare)"
+		"name": "Mutton Stew (Rare)",
+		"weight": 3.4
 	},
 	{
 		"id": "T6_MEAL_STEW@3",
-		"name": "Mutton Stew (Exceptional)"
+		"name": "Mutton Stew (Exceptional)",
+		"weight": 3.4
 	},
 	{
 		"id": "T8_MEAL_STEW",
-		"name": "Beef Stew"
+		"name": "Beef Stew",
+		"weight": 8.17
 	},
 	{
 		"id": "T8_MEAL_STEW@1",
-		"name": "Beef Stew (Uncommon)"
+		"name": "Beef Stew (Uncommon)",
+		"weight": 8.17
 	},
 	{
 		"id": "T8_MEAL_STEW@2",
-		"name": "Beef Stew (Rare)"
+		"name": "Beef Stew (Rare)",
+		"weight": 8.17
 	},
 	{
 		"id": "T8_MEAL_STEW@3",
-		"name": "Beef Stew (Exceptional)"
+		"name": "Beef Stew (Exceptional)",
+		"weight": 8.17
 	},
 	{
 		"id": "T4_MEAL_STEW_FISH",
-		"name": "Greenriver Eel Stew"
+		"name": "Greenriver Eel Stew",
+		"weight": 1.74
 	},
 	{
 		"id": "T4_MEAL_STEW_FISH@1",
-		"name": "Greenriver Eel Stew (Uncommon)"
+		"name": "Greenriver Eel Stew (Uncommon)",
+		"weight": 1.74
 	},
 	{
 		"id": "T4_MEAL_STEW_FISH@2",
-		"name": "Greenriver Eel Stew (Rare)"
+		"name": "Greenriver Eel Stew (Rare)",
+		"weight": 1.74
 	},
 	{
 		"id": "T4_MEAL_STEW_FISH@3",
-		"name": "Greenriver Eel Stew (Exceptional)"
+		"name": "Greenriver Eel Stew (Exceptional)",
+		"weight": 1.74
 	},
 	{
 		"id": "T6_MEAL_STEW_FISH",
-		"name": "Redspring Eel Stew"
+		"name": "Redspring Eel Stew",
+		"weight": 4.21
 	},
 	{
 		"id": "T6_MEAL_STEW_FISH@1",
-		"name": "Redspring Eel Stew (Uncommon)"
+		"name": "Redspring Eel Stew (Uncommon)",
+		"weight": 4.21
 	},
 	{
 		"id": "T6_MEAL_STEW_FISH@2",
-		"name": "Redspring Eel Stew (Rare)"
+		"name": "Redspring Eel Stew (Rare)",
+		"weight": 4.21
 	},
 	{
 		"id": "T6_MEAL_STEW_FISH@3",
-		"name": "Redspring Eel Stew (Exceptional)"
+		"name": "Redspring Eel Stew (Exceptional)",
+		"weight": 4.21
 	},
 	{
 		"id": "T8_MEAL_STEW_FISH",
-		"name": "Deadwater Eel Stew"
+		"name": "Deadwater Eel Stew",
+		"weight": 9.78
 	},
 	{
 		"id": "T8_MEAL_STEW_FISH@1",
-		"name": "Deadwater Eel Stew (Uncommon)"
+		"name": "Deadwater Eel Stew (Uncommon)",
+		"weight": 9.78
 	},
 	{
 		"id": "T8_MEAL_STEW_FISH@2",
-		"name": "Deadwater Eel Stew (Rare)"
+		"name": "Deadwater Eel Stew (Rare)",
+		"weight": 9.78
 	},
 	{
 		"id": "T8_MEAL_STEW_FISH@3",
-		"name": "Deadwater Eel Stew (Exceptional)"
+		"name": "Deadwater Eel Stew (Exceptional)",
+		"weight": 9.78
 	},
 	{
 		"id": "T4_MEAL_STEW_AVALON",
-		"name": "Avalonian Goat Stew"
+		"name": "Avalonian Goat Stew",
+		"weight": 1.41
 	},
 	{
 		"id": "T4_MEAL_STEW_AVALON@1",
-		"name": "Avalonian Goat Stew (Uncommon)"
+		"name": "Avalonian Goat Stew (Uncommon)",
+		"weight": 1.41
 	},
 	{
 		"id": "T4_MEAL_STEW_AVALON@2",
-		"name": "Avalonian Goat Stew (Rare)"
+		"name": "Avalonian Goat Stew (Rare)",
+		"weight": 1.41
 	},
 	{
 		"id": "T4_MEAL_STEW_AVALON@3",
-		"name": "Avalonian Goat Stew (Exceptional)"
+		"name": "Avalonian Goat Stew (Exceptional)",
+		"weight": 1.41
 	},
 	{
 		"id": "T6_MEAL_STEW_AVALON",
-		"name": "Avalonian Mutton Stew"
+		"name": "Avalonian Mutton Stew",
+		"weight": 3.54
 	},
 	{
 		"id": "T6_MEAL_STEW_AVALON@1",
-		"name": "Avalonian Mutton Stew (Uncommon)"
+		"name": "Avalonian Mutton Stew (Uncommon)",
+		"weight": 3.54
 	},
 	{
 		"id": "T6_MEAL_STEW_AVALON@2",
-		"name": "Avalonian Mutton Stew (Rare)"
+		"name": "Avalonian Mutton Stew (Rare)",
+		"weight": 3.54
 	},
 	{
 		"id": "T6_MEAL_STEW_AVALON@3",
-		"name": "Avalonian Mutton Stew (Exceptional)"
+		"name": "Avalonian Mutton Stew (Exceptional)",
+		"weight": 3.54
 	},
 	{
 		"id": "T8_MEAL_STEW_AVALON",
-		"name": "Avalonian Beef Stew"
+		"name": "Avalonian Beef Stew",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_MEAL_STEW_AVALON@1",
-		"name": "Avalonian Beef Stew (Uncommon)"
+		"name": "Avalonian Beef Stew (Uncommon)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_MEAL_STEW_AVALON@2",
-		"name": "Avalonian Beef Stew (Rare)"
+		"name": "Avalonian Beef Stew (Rare)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_MEAL_STEW_AVALON@3",
-		"name": "Avalonian Beef Stew (Exceptional)"
+		"name": "Avalonian Beef Stew (Exceptional)",
+		"weight": 8.5
 	},
 	{
 		"id": "T4_MEAL_SANDWICH",
-		"name": "Goat Sandwich"
+		"name": "Goat Sandwich",
+		"weight": 1.22
 	},
 	{
 		"id": "T4_MEAL_SANDWICH@1",
-		"name": "Goat Sandwich (Uncommon)"
+		"name": "Goat Sandwich (Uncommon)",
+		"weight": 1.22
 	},
 	{
 		"id": "T4_MEAL_SANDWICH@2",
-		"name": "Goat Sandwich (Rare)"
+		"name": "Goat Sandwich (Rare)",
+		"weight": 1.22
 	},
 	{
 		"id": "T4_MEAL_SANDWICH@3",
-		"name": "Goat Sandwich (Exceptional)"
+		"name": "Goat Sandwich (Exceptional)",
+		"weight": 1.22
 	},
 	{
 		"id": "T6_MEAL_SANDWICH",
-		"name": "Mutton Sandwich"
+		"name": "Mutton Sandwich",
+		"weight": 3.04
 	},
 	{
 		"id": "T6_MEAL_SANDWICH@1",
-		"name": "Mutton Sandwich (Uncommon)"
+		"name": "Mutton Sandwich (Uncommon)",
+		"weight": 3.04
 	},
 	{
 		"id": "T6_MEAL_SANDWICH@2",
-		"name": "Mutton Sandwich (Rare)"
+		"name": "Mutton Sandwich (Rare)",
+		"weight": 3.04
 	},
 	{
 		"id": "T6_MEAL_SANDWICH@3",
-		"name": "Mutton Sandwich (Exceptional)"
+		"name": "Mutton Sandwich (Exceptional)",
+		"weight": 3.04
 	},
 	{
 		"id": "T8_MEAL_SANDWICH",
-		"name": "Beef Sandwich"
+		"name": "Beef Sandwich",
+		"weight": 7.3
 	},
 	{
 		"id": "T8_MEAL_SANDWICH@1",
-		"name": "Beef Sandwich (Uncommon)"
+		"name": "Beef Sandwich (Uncommon)",
+		"weight": 7.3
 	},
 	{
 		"id": "T8_MEAL_SANDWICH@2",
-		"name": "Beef Sandwich (Rare)"
+		"name": "Beef Sandwich (Rare)",
+		"weight": 7.3
 	},
 	{
 		"id": "T8_MEAL_SANDWICH@3",
-		"name": "Beef Sandwich (Exceptional)"
+		"name": "Beef Sandwich (Exceptional)",
+		"weight": 7.3
 	},
 	{
 		"id": "T4_MEAL_SANDWICH_FISH",
-		"name": "Stonestream Lurcher Sandwich"
+		"name": "Stonestream Lurcher Sandwich",
+		"weight": 1.8
 	},
 	{
 		"id": "T4_MEAL_SANDWICH_FISH@1",
-		"name": "Stonestream Lurcher Sandwich (Uncommon)"
+		"name": "Stonestream Lurcher Sandwich (Uncommon)",
+		"weight": 1.8
 	},
 	{
 		"id": "T4_MEAL_SANDWICH_FISH@2",
-		"name": "Stonestream Lurcher Sandwich (Rare)"
+		"name": "Stonestream Lurcher Sandwich (Rare)",
+		"weight": 1.8
 	},
 	{
 		"id": "T4_MEAL_SANDWICH_FISH@3",
-		"name": "Stonestream Lurcher Sandwich (Exceptional)"
+		"name": "Stonestream Lurcher Sandwich (Exceptional)",
+		"weight": 1.8
 	},
 	{
 		"id": "T6_MEAL_SANDWICH_FISH",
-		"name": "Rushwater Lurcher Sandwich"
+		"name": "Rushwater Lurcher Sandwich",
+		"weight": 4.31
 	},
 	{
 		"id": "T6_MEAL_SANDWICH_FISH@1",
-		"name": "Rushwater Lurcher Sandwich (Uncommon)"
+		"name": "Rushwater Lurcher Sandwich (Uncommon)",
+		"weight": 4.31
 	},
 	{
 		"id": "T6_MEAL_SANDWICH_FISH@2",
-		"name": "Rushwater Lurcher Sandwich (Rare)"
+		"name": "Rushwater Lurcher Sandwich (Rare)",
+		"weight": 4.31
 	},
 	{
 		"id": "T6_MEAL_SANDWICH_FISH@3",
-		"name": "Rushwater Lurcher Sandwich (Exceptional)"
+		"name": "Rushwater Lurcher Sandwich (Exceptional)",
+		"weight": 4.31
 	},
 	{
 		"id": "T8_MEAL_SANDWICH_FISH",
-		"name": "Thunderfall Lurcher Sandwich"
+		"name": "Thunderfall Lurcher Sandwich",
+		"weight": 10.02
 	},
 	{
 		"id": "T8_MEAL_SANDWICH_FISH@1",
-		"name": "Thunderfall Lurcher Sandwich (Uncommon)"
+		"name": "Thunderfall Lurcher Sandwich (Uncommon)",
+		"weight": 10.02
 	},
 	{
 		"id": "T8_MEAL_SANDWICH_FISH@2",
-		"name": "Thunderfall Lurcher Sandwich (Rare)"
+		"name": "Thunderfall Lurcher Sandwich (Rare)",
+		"weight": 10.02
 	},
 	{
 		"id": "T8_MEAL_SANDWICH_FISH@3",
-		"name": "Thunderfall Lurcher Sandwich (Exceptional)"
+		"name": "Thunderfall Lurcher Sandwich (Exceptional)",
+		"weight": 10.02
 	},
 	{
 		"id": "T4_MEAL_SANDWICH_AVALON",
-		"name": "Avalonian Goat Sandwich"
+		"name": "Avalonian Goat Sandwich",
+		"weight": 1.32
 	},
 	{
 		"id": "T4_MEAL_SANDWICH_AVALON@1",
-		"name": "Avalonian Goat Sandwich (Uncommon)"
+		"name": "Avalonian Goat Sandwich (Uncommon)",
+		"weight": 1.32
 	},
 	{
 		"id": "T4_MEAL_SANDWICH_AVALON@2",
-		"name": "Avalonian Goat Sandwich (Rare)"
+		"name": "Avalonian Goat Sandwich (Rare)",
+		"weight": 1.32
 	},
 	{
 		"id": "T4_MEAL_SANDWICH_AVALON@3",
-		"name": "Avalonian Goat Sandwich (Exceptional)"
+		"name": "Avalonian Goat Sandwich (Exceptional)",
+		"weight": 1.32
 	},
 	{
 		"id": "T6_MEAL_SANDWICH_AVALON",
-		"name": "Avalonian Mutton Sandwich"
+		"name": "Avalonian Mutton Sandwich",
+		"weight": 3.31
 	},
 	{
 		"id": "T6_MEAL_SANDWICH_AVALON@1",
-		"name": "Avalonian Mutton Sandwich (Uncommon)"
+		"name": "Avalonian Mutton Sandwich (Uncommon)",
+		"weight": 3.31
 	},
 	{
 		"id": "T6_MEAL_SANDWICH_AVALON@2",
-		"name": "Avalonian Mutton Sandwich (Rare)"
+		"name": "Avalonian Mutton Sandwich (Rare)",
+		"weight": 3.31
 	},
 	{
 		"id": "T6_MEAL_SANDWICH_AVALON@3",
-		"name": "Avalonian Mutton Sandwich (Exceptional)"
+		"name": "Avalonian Mutton Sandwich (Exceptional)",
+		"weight": 3.31
 	},
 	{
 		"id": "T8_MEAL_SANDWICH_AVALON",
-		"name": "Avalonian Beef Sandwich"
+		"name": "Avalonian Beef Sandwich",
+		"weight": 7.95
 	},
 	{
 		"id": "T8_MEAL_SANDWICH_AVALON@1",
-		"name": "Avalonian Beef Sandwich (Uncommon)"
+		"name": "Avalonian Beef Sandwich (Uncommon)",
+		"weight": 7.95
 	},
 	{
 		"id": "T8_MEAL_SANDWICH_AVALON@2",
-		"name": "Avalonian Beef Sandwich (Rare)"
+		"name": "Avalonian Beef Sandwich (Rare)",
+		"weight": 7.95
 	},
 	{
 		"id": "T8_MEAL_SANDWICH_AVALON@3",
-		"name": "Avalonian Beef Sandwich (Exceptional)"
+		"name": "Avalonian Beef Sandwich (Exceptional)",
+		"weight": 7.95
 	},
 	{
 		"id": "T3_MEAL_ROAST",
-		"name": "Roast Chicken"
+		"name": "Roast Chicken",
+		"weight": 1.31
 	},
 	{
 		"id": "T3_MEAL_ROAST@1",
-		"name": "Roast Chicken (Uncommon)"
+		"name": "Roast Chicken (Uncommon)",
+		"weight": 1.31
 	},
 	{
 		"id": "T3_MEAL_ROAST@2",
-		"name": "Roast Chicken (Rare)"
+		"name": "Roast Chicken (Rare)",
+		"weight": 1.31
 	},
 	{
 		"id": "T3_MEAL_ROAST@3",
-		"name": "Roast Chicken (Exceptional)"
+		"name": "Roast Chicken (Exceptional)",
+		"weight": 1.31
 	},
 	{
 		"id": "T5_MEAL_ROAST",
-		"name": "Roast Goose"
+		"name": "Roast Goose",
+		"weight": 3.28
 	},
 	{
 		"id": "T5_MEAL_ROAST@1",
-		"name": "Roast Goose (Uncommon)"
+		"name": "Roast Goose (Uncommon)",
+		"weight": 3.28
 	},
 	{
 		"id": "T5_MEAL_ROAST@2",
-		"name": "Roast Goose (Rare)"
+		"name": "Roast Goose (Rare)",
+		"weight": 3.28
 	},
 	{
 		"id": "T5_MEAL_ROAST@3",
-		"name": "Roast Goose (Exceptional)"
+		"name": "Roast Goose (Exceptional)",
+		"weight": 3.28
 	},
 	{
 		"id": "T7_MEAL_ROAST",
-		"name": "Roast Pork"
+		"name": "Roast Pork",
+		"weight": 7.85
 	},
 	{
 		"id": "T7_MEAL_ROAST@1",
-		"name": "Roast Pork (Uncommon)"
+		"name": "Roast Pork (Uncommon)",
+		"weight": 7.85
 	},
 	{
 		"id": "T7_MEAL_ROAST@2",
-		"name": "Roast Pork (Rare)"
+		"name": "Roast Pork (Rare)",
+		"weight": 7.85
 	},
 	{
 		"id": "T7_MEAL_ROAST@3",
-		"name": "Roast Pork (Exceptional)"
+		"name": "Roast Pork (Exceptional)",
+		"weight": 7.85
 	},
 	{
 		"id": "T3_MEAL_ROAST_FISH",
-		"name": "Roasted Whitefog Snapper"
+		"name": "Roasted Whitefog Snapper",
+		"weight": 1.74
 	},
 	{
 		"id": "T3_MEAL_ROAST_FISH@1",
-		"name": "Roasted Whitefog Snapper (Uncommon)"
+		"name": "Roasted Whitefog Snapper (Uncommon)",
+		"weight": 1.74
 	},
 	{
 		"id": "T3_MEAL_ROAST_FISH@2",
-		"name": "Roasted Whitefog Snapper (Rare)"
+		"name": "Roasted Whitefog Snapper (Rare)",
+		"weight": 1.74
 	},
 	{
 		"id": "T3_MEAL_ROAST_FISH@3",
-		"name": "Roasted Whitefog Snapper (Exceptional)"
+		"name": "Roasted Whitefog Snapper (Exceptional)",
+		"weight": 1.74
 	},
 	{
 		"id": "T5_MEAL_ROAST_FISH",
-		"name": "Roasted Clearhaze Snapper"
+		"name": "Roasted Clearhaze Snapper",
+		"weight": 4.21
 	},
 	{
 		"id": "T5_MEAL_ROAST_FISH@1",
-		"name": "Roasted Clearhaze Snapper (Uncommon)"
+		"name": "Roasted Clearhaze Snapper (Uncommon)",
+		"weight": 4.21
 	},
 	{
 		"id": "T5_MEAL_ROAST_FISH@2",
-		"name": "Roasted Clearhaze Snapper (Rare)"
+		"name": "Roasted Clearhaze Snapper (Rare)",
+		"weight": 4.21
 	},
 	{
 		"id": "T5_MEAL_ROAST_FISH@3",
-		"name": "Roasted Clearhaze Snapper (Exceptional)"
+		"name": "Roasted Clearhaze Snapper (Exceptional)",
+		"weight": 4.21
 	},
 	{
 		"id": "T7_MEAL_ROAST_FISH",
-		"name": "Roasted Puremist Snapper"
+		"name": "Roasted Puremist Snapper",
+		"weight": 9.78
 	},
 	{
 		"id": "T7_MEAL_ROAST_FISH@1",
-		"name": "Roasted Puremist Snapper (Uncommon)"
+		"name": "Roasted Puremist Snapper (Uncommon)",
+		"weight": 9.78
 	},
 	{
 		"id": "T7_MEAL_ROAST_FISH@2",
-		"name": "Roasted Puremist Snapper (Rare)"
+		"name": "Roasted Puremist Snapper (Rare)",
+		"weight": 9.78
 	},
 	{
 		"id": "T7_MEAL_ROAST_FISH@3",
-		"name": "Roasted Puremist Snapper (Exceptional)"
+		"name": "Roasted Puremist Snapper (Exceptional)",
+		"weight": 9.78
 	},
 	{
 		"id": "T1_CARROT",
-		"name": "Carrots"
+		"name": "Carrots",
+		"weight": 0.6
 	},
 	{
 		"id": "T2_BEAN",
-		"name": "Beans"
+		"name": "Beans",
+		"weight": 0.6
 	},
 	{
 		"id": "T3_WHEAT",
-		"name": "Sheaf of Wheat"
+		"name": "Sheaf of Wheat",
+		"weight": 0.6
 	},
 	{
 		"id": "T4_TURNIP",
-		"name": "Turnips"
+		"name": "Turnips",
+		"weight": 0.6
 	},
 	{
 		"id": "T5_CABBAGE",
-		"name": "Cabbage"
+		"name": "Cabbage",
+		"weight": 0.6
 	},
 	{
 		"id": "T6_POTATO",
-		"name": "Potatoes"
+		"name": "Potatoes",
+		"weight": 0.6
 	},
 	{
 		"id": "T7_CORN",
-		"name": "Bundle of Corn"
+		"name": "Bundle of Corn",
+		"weight": 0.6
 	},
 	{
 		"id": "T8_PUMPKIN",
-		"name": "Pumpkin"
+		"name": "Pumpkin",
+		"weight": 0.6
 	},
 	{
 		"id": "T2_AGARIC",
-		"name": "Arcane Agaric"
+		"name": "Arcane Agaric",
+		"weight": 0.6
 	},
 	{
 		"id": "T3_COMFREY",
-		"name": "Brightleaf Comfrey"
+		"name": "Brightleaf Comfrey",
+		"weight": 0.6
 	},
 	{
 		"id": "T4_BURDOCK",
-		"name": "Crenellated Burdock"
+		"name": "Crenellated Burdock",
+		"weight": 0.6
 	},
 	{
 		"id": "T5_TEASEL",
-		"name": "Dragon Teasel"
+		"name": "Dragon Teasel",
+		"weight": 0.6
 	},
 	{
 		"id": "T6_FOXGLOVE",
-		"name": "Elusive Foxglove"
+		"name": "Elusive Foxglove",
+		"weight": 0.6
 	},
 	{
 		"id": "T7_MULLEIN",
-		"name": "Firetouched Mullein"
+		"name": "Firetouched Mullein",
+		"weight": 0.6
 	},
 	{
 		"id": "T8_YARROW",
-		"name": "Ghoul Yarrow"
+		"name": "Ghoul Yarrow",
+		"weight": 0.6
 	},
 	{
 		"id": "T3_EGG",
-		"name": "Hen Eggs"
+		"name": "Hen Eggs",
+		"weight": 0.6
 	},
 	{
 		"id": "T4_MILK",
-		"name": "Goat's Milk"
+		"name": "Goat's Milk",
+		"weight": 0.6
 	},
 	{
 		"id": "T5_EGG",
-		"name": "Goose Eggs"
+		"name": "Goose Eggs",
+		"weight": 0.6
 	},
 	{
 		"id": "T6_MILK",
-		"name": "Sheep's Milk"
+		"name": "Sheep's Milk",
+		"weight": 0.6
 	},
 	{
 		"id": "T8_MILK",
-		"name": "Cow's Milk"
+		"name": "Cow's Milk",
+		"weight": 0.6
 	},
 	{
 		"id": "T3_MEAT",
-		"name": "Raw Chicken"
+		"name": "Raw Chicken",
+		"weight": 0.65
 	},
 	{
 		"id": "T4_MEAT",
-		"name": "Raw Goat"
+		"name": "Raw Goat",
+		"weight": 0.65
 	},
 	{
 		"id": "T5_MEAT",
-		"name": "Raw Goose"
+		"name": "Raw Goose",
+		"weight": 0.65
 	},
 	{
 		"id": "T6_MEAT",
-		"name": "Raw Mutton"
+		"name": "Raw Mutton",
+		"weight": 0.65
 	},
 	{
 		"id": "T7_MEAT",
-		"name": "Raw Pork"
+		"name": "Raw Pork",
+		"weight": 0.65
 	},
 	{
 		"id": "T8_MEAT",
-		"name": "Raw Beef"
+		"name": "Raw Beef",
+		"weight": 0.65
 	},
 	{
 		"id": "T4_BUTTER",
-		"name": "Goat's Butter"
+		"name": "Goat's Butter",
+		"weight": 0.65
 	},
 	{
 		"id": "T6_BUTTER",
-		"name": "Sheep's Butter"
+		"name": "Sheep's Butter",
+		"weight": 0.65
 	},
 	{
 		"id": "T8_BUTTER",
-		"name": "Cow's Butter"
+		"name": "Cow's Butter",
+		"weight": 0.65
 	},
 	{
 		"id": "T6_ALCOHOL",
-		"name": "Potato Schnapps"
+		"name": "Potato Schnapps",
+		"weight": 0.65
 	},
 	{
 		"id": "T7_ALCOHOL",
-		"name": "Corn Hooch"
+		"name": "Corn Hooch",
+		"weight": 0.65
 	},
 	{
 		"id": "T8_ALCOHOL",
-		"name": "Pumpkin Moonshine"
+		"name": "Pumpkin Moonshine",
+		"weight": 0.65
 	},
 	{
 		"id": "T4_BREAD",
-		"name": "Bread"
+		"name": "Bread",
+		"weight": 0.71
 	},
 	{
 		"id": "T3_FLOUR",
-		"name": "Flour"
+		"name": "Flour",
+		"weight": 0.65
 	}
 ]

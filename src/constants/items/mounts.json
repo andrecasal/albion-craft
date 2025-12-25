@@ -1,434 +1,542 @@
 [
 	{
 		"id": "UNIQUE_MOUNT_ARMORED_HORSE_KNIGHT_01_TEST",
-		"name": "UNIQUE_MOUNT_ARMORED_HORSE_KNIGHT_01_TEST"
+		"name": "UNIQUE_MOUNT_ARMORED_HORSE_KNIGHT_01_TEST",
+		"weight": 45
 	},
 	{
 		"id": "T2_MOUNT_MULE",
-		"name": "Novice's Mule"
+		"name": "Novice's Mule",
+		"weight": 45
 	},
 	{
 		"id": "T3_MOUNT_HORSE",
-		"name": "Journeyman's Riding Horse"
+		"name": "Journeyman's Riding Horse",
+		"weight": 15.8
 	},
 	{
 		"id": "T4_MOUNT_HORSE",
-		"name": "Adept's Riding Horse"
+		"name": "Adept's Riding Horse",
+		"weight": 23.6
 	},
 	{
 		"id": "T5_MOUNT_HORSE",
-		"name": "Expert's Riding Horse"
+		"name": "Expert's Riding Horse",
+		"weight": 35.4
 	},
 	{
 		"id": "T6_MOUNT_HORSE",
-		"name": "Master's Riding Horse"
+		"name": "Master's Riding Horse",
+		"weight": 53.2
 	},
 	{
 		"id": "T7_MOUNT_HORSE",
-		"name": "Grandmaster's Riding Horse"
+		"name": "Grandmaster's Riding Horse",
+		"weight": 79.7
 	},
 	{
 		"id": "T8_MOUNT_HORSE",
-		"name": "Elder's Riding Horse"
+		"name": "Elder's Riding Horse",
+		"weight": 119.6
 	},
 	{
 		"id": "T5_MOUNT_ARMORED_HORSE",
-		"name": "Expert's Armored Horse"
+		"name": "Expert's Armored Horse",
+		"weight": 35.4
 	},
 	{
 		"id": "T6_MOUNT_ARMORED_HORSE",
-		"name": "Master's Armored Horse"
+		"name": "Master's Armored Horse",
+		"weight": 53.2
 	},
 	{
 		"id": "T7_MOUNT_ARMORED_HORSE",
-		"name": "Grandmaster's Armored Horse"
+		"name": "Grandmaster's Armored Horse",
+		"weight": 79.7
 	},
 	{
 		"id": "T8_MOUNT_ARMORED_HORSE",
-		"name": "Elder's Armored Horse"
+		"name": "Elder's Armored Horse",
+		"weight": 119.6
 	},
 	{
 		"id": "T3_MOUNT_OX",
-		"name": "Journeyman's Transport Ox"
+		"name": "Journeyman's Transport Ox",
+		"weight": 15.8
 	},
 	{
 		"id": "T4_MOUNT_OX",
-		"name": "Adept's Transport Ox"
+		"name": "Adept's Transport Ox",
+		"weight": 23.6
 	},
 	{
 		"id": "T5_MOUNT_OX",
-		"name": "Expert's Transport Ox"
+		"name": "Expert's Transport Ox",
+		"weight": 35.4
 	},
 	{
 		"id": "T6_MOUNT_OX",
-		"name": "Master's Transport Ox"
+		"name": "Master's Transport Ox",
+		"weight": 53.2
 	},
 	{
 		"id": "T7_MOUNT_OX",
-		"name": "Grandmaster's Transport Ox"
+		"name": "Grandmaster's Transport Ox",
+		"weight": 79.7
 	},
 	{
 		"id": "T8_MOUNT_OX",
-		"name": "Elder's Transport Ox"
+		"name": "Elder's Transport Ox",
+		"weight": 119.6
 	},
 	{
 		"id": "T4_MOUNT_GIANTSTAG",
-		"name": "Adept's Giant Stag"
+		"name": "Adept's Giant Stag",
+		"weight": 23.6
 	},
 	{
 		"id": "T6_MOUNT_GIANTSTAG_MOOSE",
-		"name": "Moose"
+		"name": "Moose",
+		"weight": 53.2
 	},
 	{
 		"id": "T6_MOUNT_DIREWOLF",
-		"name": "Direwolf"
+		"name": "Direwolf",
+		"weight": 53.2
 	},
 	{
 		"id": "T7_MOUNT_DIREBOAR",
-		"name": "Saddled Direboar"
+		"name": "Saddled Direboar",
+		"weight": 79.7
 	},
 	{
 		"id": "T7_MOUNT_SWAMPDRAGON",
-		"name": "Saddled Swamp Dragon"
+		"name": "Saddled Swamp Dragon",
+		"weight": 79.7
 	},
 	{
 		"id": "T8_MOUNT_DIREBEAR",
-		"name": "Saddled Direbear"
+		"name": "Saddled Direbear",
+		"weight": 119.6
 	},
 	{
 		"id": "T8_MOUNT_MAMMOTH_TRANSPORT",
-		"name": "Elder's Transport Mammoth"
+		"name": "Elder's Transport Mammoth",
+		"weight": 119.6
 	},
 	{
 		"id": "T5_MOUNT_MOABIRD_FW_BRIDGEWATCH",
-		"name": "Saddled Moabird"
+		"name": "Saddled Moabird",
+		"weight": 35.4
 	},
 	{
 		"id": "T5_MOUNT_DIREBEAR_FW_FORTSTERLING",
-		"name": "Saddled Winter Bear"
+		"name": "Saddled Winter Bear",
+		"weight": 35.4
 	},
 	{
 		"id": "T5_MOUNT_DIREBOAR_FW_LYMHURST",
-		"name": "Saddled Wild Boar"
+		"name": "Saddled Wild Boar",
+		"weight": 35.4
 	},
 	{
 		"id": "T5_MOUNT_RAM_FW_MARTLOCK",
-		"name": "Saddled Bighorn Ram"
+		"name": "Saddled Bighorn Ram",
+		"weight": 35.4
 	},
 	{
 		"id": "T5_MOUNT_SWAMPDRAGON_FW_THETFORD",
-		"name": "Saddled Swamp Salamander"
+		"name": "Saddled Swamp Salamander",
+		"weight": 35.4
 	},
 	{
 		"id": "T5_MOUNT_GREYWOLF_FW_CAERLEON",
-		"name": "Saddled Greywolf"
+		"name": "Saddled Greywolf",
+		"weight": 35.4
 	},
 	{
 		"id": "T5_MOUNT_OWL_FW_BRECILIEN",
-		"name": "Saddled Mystic Owl"
+		"name": "Saddled Mystic Owl",
+		"weight": 35.4
 	},
 	{
 		"id": "T8_MOUNT_MOABIRD_FW_BRIDGEWATCH_ELITE",
-		"name": "Elite Terrorbird"
+		"name": "Elite Terrorbird",
+		"weight": 119.6
 	},
 	{
 		"id": "T8_MOUNT_DIREBEAR_FW_FORTSTERLING_ELITE",
-		"name": "Elite Winter Bear"
+		"name": "Elite Winter Bear",
+		"weight": 119.6
 	},
 	{
 		"id": "T8_MOUNT_DIREBOAR_FW_LYMHURST_ELITE",
-		"name": "Elite Wild Boar"
+		"name": "Elite Wild Boar",
+		"weight": 119.6
 	},
 	{
 		"id": "T8_MOUNT_RAM_FW_MARTLOCK_ELITE",
-		"name": "Elite Bighorn Ram"
+		"name": "Elite Bighorn Ram",
+		"weight": 119.6
 	},
 	{
 		"id": "T8_MOUNT_SWAMPDRAGON_FW_THETFORD_ELITE",
-		"name": "Elite Swamp Salamander"
+		"name": "Elite Swamp Salamander",
+		"weight": 119.6
 	},
 	{
 		"id": "T8_MOUNT_GREYWOLF_FW_CAERLEON_ELITE",
-		"name": "Elite Greywolf"
+		"name": "Elite Greywolf",
+		"weight": 119.6
 	},
 	{
 		"id": "T8_MOUNT_OWL_FW_BRECILIEN_ELITE",
-		"name": "Elite Mystic Owl"
+		"name": "Elite Mystic Owl",
+		"weight": 119.6
 	},
 	{
 		"id": "T5_MOUNT_SPIDER_HELL",
-		"name": "Hellspinner"
+		"name": "Hellspinner",
+		"weight": 35.4
 	},
 	{
 		"id": "T8_MOUNT_SPIDER_HELL",
-		"name": "Soulspinner"
+		"name": "Soulspinner",
+		"weight": 119.6
 	},
 	{
 		"id": "T8_MOUNT_MAMMOTH_BATTLE",
-		"name": "T8_MOUNT_MAMMOTH_BATTLE"
+		"name": "T8_MOUNT_MAMMOTH_BATTLE",
+		"weight": 179.4
 	},
 	{
 		"id": "T7_MOUNT_SWAMPDRAGON_BATTLE",
-		"name": "Flame Basilisk"
+		"name": "Flame Basilisk",
+		"weight": 79.7
 	},
 	{
 		"id": "T7_MOUNT_ARMORED_SWAMPDRAGON_BATTLE",
-		"name": "Venom Basilisk"
+		"name": "Venom Basilisk",
+		"weight": 79.7
 	},
 	{
 		"id": "T6_MOUNT_SIEGE_BALLISTA",
-		"name": "Siege Ballista"
+		"name": "Siege Ballista",
+		"weight": 53.2
 	},
 	{
 		"id": "T8_MOUNT_HORSE_UNDEAD",
-		"name": "T8_MOUNT_HORSE_UNDEAD"
+		"name": "T8_MOUNT_HORSE_UNDEAD",
+		"weight": 179.4
 	},
 	{
 		"id": "T5_MOUNT_COUGAR_KEEPER",
-		"name": "T5_MOUNT_COUGAR_KEEPER"
+		"name": "T5_MOUNT_COUGAR_KEEPER",
+		"weight": 35.4
 	},
 	{
 		"id": "T8_MOUNT_COUGAR_KEEPER",
-		"name": "T8_MOUNT_COUGAR_KEEPER"
+		"name": "T8_MOUNT_COUGAR_KEEPER",
+		"weight": 179.4
 	},
 	{
 		"id": "T8_MOUNT_ARMORED_HORSE_MORGANA",
-		"name": "T8_MOUNT_ARMORED_HORSE_MORGANA"
+		"name": "T8_MOUNT_ARMORED_HORSE_MORGANA",
+		"weight": 179.4
 	},
 	{
 		"id": "T8_MOUNT_RABBIT_EASTER",
-		"name": "Spring Cottontail"
+		"name": "Spring Cottontail",
+		"weight": 119.6
 	},
 	{
 		"id": "T8_MOUNT_RABBIT_EASTER_DARK",
-		"name": "T8_MOUNT_RABBIT_EASTER_DARK"
+		"name": "T8_MOUNT_RABBIT_EASTER_DARK",
+		"weight": 179.4
 	},
 	{
 		"id": "UNIQUE_MOUNT_RAM_XMAS",
-		"name": "Yule Ram"
+		"name": "Yule Ram",
+		"weight": 4.1
 	},
 	{
 		"id": "T7_MOUNT_SWAMPDRAGON_AVALON_BASILISK",
-		"name": "Avalonian Basilisk"
+		"name": "Avalonian Basilisk",
+		"weight": 79.7
 	},
 	{
 		"id": "UNIQUE_MOUNT_RAM_TELLAFRIEND",
-		"name": "Recruiter's Ram"
+		"name": "Recruiter's Ram",
+		"weight": 4.1
 	},
 	{
 		"id": "UNIQUE_MOUNT_MOABIRD_TELLAFRIEND",
-		"name": "Recruiter's Moabird"
+		"name": "Recruiter's Moabird",
+		"weight": 53.2
 	},
 	{
 		"id": "UNIQUE_MOUNT_BAT_TELLAFRIEND",
-		"name": "Recruiter's Saddled Bat"
+		"name": "Recruiter's Saddled Bat",
+		"weight": 15.8
 	},
 	{
 		"id": "UNIQUE_MOUNT_GIANTTOAD_TELLAFRIEND",
-		"name": "Recruiter's Toad"
+		"name": "Recruiter's Toad",
+		"weight": 15.8
 	},
 	{
 		"id": "UNIQUE_MOUNT_PANDA_TELLAFRIEND",
-		"name": "UNIQUE_MOUNT_PANDA_TELLAFRIEND"
+		"name": "UNIQUE_MOUNT_PANDA_TELLAFRIEND",
+		"weight": 119.6
 	},
 	{
 		"id": "UNIQUE_MOUNT_GIANTTOAD_02_TELLAFRIEND",
-		"name": "Recruiter's Giant Frog"
+		"name": "Recruiter's Giant Frog",
+		"weight": 15.8
 	},
 	{
 		"id": "T5_MOUNT_ARMORED_HORSE_SKIN_01",
-		"name": "Expert's Warhorse"
+		"name": "Expert's Warhorse",
+		"weight": 35.4
 	},
 	{
 		"id": "T6_MOUNT_ARMORED_HORSE_SKIN_01",
-		"name": "Master's Warhorse"
+		"name": "Master's Warhorse",
+		"weight": 53.2
 	},
 	{
 		"id": "T7_MOUNT_ARMORED_HORSE_SKIN_01",
-		"name": "Grandmaster's Warhorse"
+		"name": "Grandmaster's Warhorse",
+		"weight": 79.7
 	},
 	{
 		"id": "T8_MOUNT_ARMORED_HORSE_SKIN_01",
-		"name": "Elder's Warhorse"
+		"name": "Elder's Warhorse",
+		"weight": 119.6
 	},
 	{
 		"id": "UNIQUE_MOUNT_BAT_PERSONAL",
-		"name": "Spectral Bat"
+		"name": "Spectral Bat",
+		"weight": 79.7
 	},
 	{
 		"id": "T7_MOUNT_MONITORLIZARD_ADC",
-		"name": "Pest Lizard"
+		"name": "Pest Lizard",
+		"weight": 79.7
 	},
 	{
 		"id": "T7_MOUNT_HUSKY_ADC",
-		"name": "Snow Husky"
+		"name": "Snow Husky",
+		"weight": 79.7
 	},
 	{
 		"id": "T6_MOUNT_FROSTRAM_ADC",
-		"name": "Frost Ram"
+		"name": "Frost Ram",
+		"weight": 53.2
 	},
 	{
 		"id": "T7_MOUNT_TERRORBIRD_ADC",
-		"name": "Saddled Terrorbird"
+		"name": "Saddled Terrorbird",
+		"weight": 79.7
 	},
 	{
 		"id": "UNIQUE_MOUNT_BEAR_KEEPER_ADC",
-		"name": "Grizzly Bear"
+		"name": "Grizzly Bear",
+		"weight": 79.7
 	},
 	{
 		"id": "UNIQUE_MOUNT_BLACK_PANTHER_ADC",
-		"name": "Black Panther"
+		"name": "Black Panther",
+		"weight": 119.6
 	},
 	{
 		"id": "UNIQUE_MOUNT_MORGANA_RAVEN_ADC",
-		"name": "Morgana Raven"
+		"name": "Morgana Raven",
+		"weight": 53.2
 	},
 	{
 		"id": "UNIQUE_MOUNT_GIANT_HORSE_ADC",
-		"name": "Gallant Horse"
+		"name": "Gallant Horse",
+		"weight": 179.4
 	},
 	{
 		"id": "UNIQUE_MOUNT_UNDEAD_DIREBOAR_ADC",
-		"name": "Spectral Direboar"
+		"name": "Spectral Direboar",
+		"weight": 79.7
 	},
 	{
 		"id": "UNIQUE_MOUNT_DIVINE_OWL_ADC",
-		"name": "Divine Owl"
+		"name": "Divine Owl",
+		"weight": 53.2
 	},
 	{
 		"id": "UNIQUE_MOUNT_HERETIC_MULE_ADC",
-		"name": "Heretic Combat Mule"
+		"name": "Heretic Combat Mule",
+		"weight": 110
 	},
 	{
 		"id": "UNIQUE_MOUNT_RHINO_SEASON_CRYSTAL",
-		"name": "Crystal Battle Rhino"
+		"name": "Crystal Battle Rhino",
+		"weight": 136.7
 	},
 	{
 		"id": "UNIQUE_MOUNT_RHINO_SEASON_GOLD",
-		"name": "Gold Battle Rhino"
+		"name": "Gold Battle Rhino",
+		"weight": 91.1
 	},
 	{
 		"id": "UNIQUE_MOUNT_RHINO_SEASON_SILVER",
-		"name": "Silver Battle Rhino"
+		"name": "Silver Battle Rhino",
+		"weight": 60.8
 	},
 	{
 		"id": "UNIQUE_MOUNT_RHINO_SEASON_BRONZE",
-		"name": "Bronze Battle Rhino"
+		"name": "Bronze Battle Rhino",
+		"weight": 40.5
 	},
 	{
 		"id": "UNIQUE_MOUNT_TOWER_CHARIOT_CRYSTAL",
-		"name": "Crystal Tower Chariot"
+		"name": "Crystal Tower Chariot",
+		"weight": 136.7
 	},
 	{
 		"id": "UNIQUE_MOUNT_TOWER_CHARIOT_GOLD",
-		"name": "Gold Tower Chariot"
+		"name": "Gold Tower Chariot",
+		"weight": 91.1
 	},
 	{
 		"id": "UNIQUE_MOUNT_TOWER_CHARIOT_SILVER",
-		"name": "Silver Tower Chariot"
+		"name": "Silver Tower Chariot",
+		"weight": 60.8
 	},
 	{
 		"id": "UNIQUE_MOUNT_ARMORED_EAGLE_CRYSTAL",
-		"name": "Crystal Battle Eagle"
+		"name": "Crystal Battle Eagle",
+		"weight": 119.6
 	},
 	{
 		"id": "UNIQUE_MOUNT_ARMORED_EAGLE_GOLD",
-		"name": "Gold Battle Eagle"
+		"name": "Gold Battle Eagle",
+		"weight": 79.7
 	},
 	{
 		"id": "UNIQUE_MOUNT_ARMORED_EAGLE_SILVER",
-		"name": "Silver Battle Eagle"
+		"name": "Silver Battle Eagle",
+		"weight": 53.2
 	},
 	{
 		"id": "UNIQUE_MOUNT_BEETLE_CRYSTAL",
-		"name": "Crystal Colossus Beetle"
+		"name": "Crystal Colossus Beetle",
+		"weight": 119.6
 	},
 	{
 		"id": "UNIQUE_MOUNT_BEETLE_GOLD",
-		"name": "Gold Colossus Beetle"
+		"name": "Gold Colossus Beetle",
+		"weight": 79.7
 	},
 	{
 		"id": "UNIQUE_MOUNT_BEETLE_SILVER",
-		"name": "Silver Colossus Beetle"
+		"name": "Silver Colossus Beetle",
+		"weight": 53.2
 	},
 	{
 		"id": "UNIQUE_MOUNT_BEHEMOTH_CRYSTAL",
-		"name": "Crystal Behemoth"
+		"name": "Crystal Behemoth",
+		"weight": 119.6
 	},
 	{
 		"id": "UNIQUE_MOUNT_BEHEMOTH_GOLD",
-		"name": "Gold Behemoth"
+		"name": "Gold Behemoth",
+		"weight": 79.7
 	},
 	{
 		"id": "UNIQUE_MOUNT_BEHEMOTH_SILVER",
-		"name": "Silver Behemoth"
+		"name": "Silver Behemoth",
+		"weight": 53.2
 	},
 	{
 		"id": "UNIQUE_MOUNT_ENT_CRYSTAL",
-		"name": "Crystal Ancient Ent"
+		"name": "Crystal Ancient Ent",
+		"weight": 119.6
 	},
 	{
 		"id": "UNIQUE_MOUNT_ENT_GOLD",
-		"name": "Gold Ancient Ent"
+		"name": "Gold Ancient Ent",
+		"weight": 79.7
 	},
 	{
 		"id": "UNIQUE_MOUNT_ENT_SILVER",
-		"name": "Silver Ancient Ent"
+		"name": "Silver Ancient Ent",
+		"weight": 53.2
 	},
 	{
 		"id": "UNIQUE_MOUNT_BATTLESPIDER_CRYSTAL",
-		"name": "Crystal Goliath Horseeater"
+		"name": "Crystal Goliath Horseeater",
+		"weight": 119.6
 	},
 	{
 		"id": "UNIQUE_MOUNT_BATTLESPIDER_GOLD",
-		"name": "Gold Goliath Horseeater"
+		"name": "Gold Goliath Horseeater",
+		"weight": 79.7
 	},
 	{
 		"id": "UNIQUE_MOUNT_BATTLESPIDER_SILVER",
-		"name": "Silver Goliath Horseeater"
+		"name": "Silver Goliath Horseeater",
+		"weight": 53.2
 	},
 	{
 		"id": "UNIQUE_MOUNT_BASTION_CRYSTAL",
-		"name": "Crystal Roving Bastion"
+		"name": "Crystal Roving Bastion",
+		"weight": 119.6
 	},
 	{
 		"id": "UNIQUE_MOUNT_BASTION_GOLD",
-		"name": "Gold Roving Bastion"
+		"name": "Gold Roving Bastion",
+		"weight": 79.7
 	},
 	{
 		"id": "UNIQUE_MOUNT_BASTION_SILVER",
-		"name": "Silver Roving Bastion"
+		"name": "Silver Roving Bastion",
+		"weight": 53.2
 	},
 	{
 		"id": "UNIQUE_MOUNT_JUGGERNAUT_CRYSTAL",
-		"name": "Crystal Juggernaut"
+		"name": "Crystal Juggernaut",
+		"weight": 119.6
 	},
 	{
 		"id": "UNIQUE_MOUNT_JUGGERNAUT_GOLD",
-		"name": "Gold Juggernaut"
+		"name": "Gold Juggernaut",
+		"weight": 79.7
 	},
 	{
 		"id": "UNIQUE_MOUNT_JUGGERNAUT_SILVER",
-		"name": "Silver Juggernaut"
+		"name": "Silver Juggernaut",
+		"weight": 53.2
 	},
 	{
 		"id": "UNIQUE_MOUNT_TANKBEETLE_CRYSTAL",
-		"name": "Crystal Phalanx Beetle"
+		"name": "Crystal Phalanx Beetle",
+		"weight": 119.6
 	},
 	{
 		"id": "UNIQUE_MOUNT_TANKBEETLE_GOLD",
-		"name": "Gold Phalanx Beetle"
+		"name": "Gold Phalanx Beetle",
+		"weight": 79.7
 	},
 	{
 		"id": "UNIQUE_MOUNT_TANKBEETLE_SILVER",
-		"name": "Silver Phalanx Beetle"
+		"name": "Silver Phalanx Beetle",
+		"weight": 53.2
 	},
 	{
 		"id": "UNIQUE_MOUNT_RHINO_TELLAFRIEND",
-		"name": "UNIQUE_MOUNT_RHINO_TELLAFRIEND"
+		"name": "UNIQUE_MOUNT_RHINO_TELLAFRIEND",
+		"weight": 15.8
 	},
 	{
 		"id": "UNIQUE_MOUNT_GIANTSTAG_FOUNDER_EPIC",
-		"name": "Epic Explorer's Giant Stag"
+		"name": "Epic Explorer's Giant Stag",
+		"weight": 15.8
 	}
 ]

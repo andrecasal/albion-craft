@@ -1,1882 +1,2352 @@
 [
 	{
 		"id": "T1_OFF_SHIELD",
-		"name": "Beginner's Shield"
+		"name": "Beginner's Shield",
+		"weight": 0.5
 	},
 	{
 		"id": "T2_OFF_SHIELD",
-		"name": "Novice's Shield"
+		"name": "Novice's Shield",
+		"weight": 0.8
 	},
 	{
 		"id": "T3_OFF_SHIELD",
-		"name": "Journeyman's Shield"
+		"name": "Journeyman's Shield",
+		"weight": 1.1
 	},
 	{
 		"id": "T4_OFF_SHIELD",
-		"name": "Adept's Shield"
+		"name": "Adept's Shield",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_OFF_SHIELD@1",
-		"name": "Adept's Shield (Uncommon)"
+		"name": "Adept's Shield (Uncommon)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_OFF_SHIELD@2",
-		"name": "Adept's Shield (Rare)"
+		"name": "Adept's Shield (Rare)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_OFF_SHIELD@3",
-		"name": "Adept's Shield (Exceptional)"
+		"name": "Adept's Shield (Exceptional)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_OFF_SHIELD@4",
-		"name": "Adept's Shield (Pristine)"
+		"name": "Adept's Shield (Pristine)",
+		"weight": 1.7
 	},
 	{
 		"id": "T5_OFF_SHIELD",
-		"name": "Expert's Shield"
+		"name": "Expert's Shield",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_OFF_SHIELD@1",
-		"name": "Expert's Shield (Uncommon)"
+		"name": "Expert's Shield (Uncommon)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_OFF_SHIELD@2",
-		"name": "Expert's Shield (Rare)"
+		"name": "Expert's Shield (Rare)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_OFF_SHIELD@3",
-		"name": "Expert's Shield (Exceptional)"
+		"name": "Expert's Shield (Exceptional)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_OFF_SHIELD@4",
-		"name": "Expert's Shield (Pristine)"
+		"name": "Expert's Shield (Pristine)",
+		"weight": 2.5
 	},
 	{
 		"id": "T6_OFF_SHIELD",
-		"name": "Master's Shield"
+		"name": "Master's Shield",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_OFF_SHIELD@1",
-		"name": "Master's Shield (Uncommon)"
+		"name": "Master's Shield (Uncommon)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_OFF_SHIELD@2",
-		"name": "Master's Shield (Rare)"
+		"name": "Master's Shield (Rare)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_OFF_SHIELD@3",
-		"name": "Master's Shield (Exceptional)"
+		"name": "Master's Shield (Exceptional)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_OFF_SHIELD@4",
-		"name": "Master's Shield (Pristine)"
+		"name": "Master's Shield (Pristine)",
+		"weight": 3.8
 	},
 	{
 		"id": "T7_OFF_SHIELD",
-		"name": "Grandmaster's Shield"
+		"name": "Grandmaster's Shield",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_OFF_SHIELD@1",
-		"name": "Grandmaster's Shield (Uncommon)"
+		"name": "Grandmaster's Shield (Uncommon)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_OFF_SHIELD@2",
-		"name": "Grandmaster's Shield (Rare)"
+		"name": "Grandmaster's Shield (Rare)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_OFF_SHIELD@3",
-		"name": "Grandmaster's Shield (Exceptional)"
+		"name": "Grandmaster's Shield (Exceptional)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_OFF_SHIELD@4",
-		"name": "Grandmaster's Shield (Pristine)"
+		"name": "Grandmaster's Shield (Pristine)",
+		"weight": 5.7
 	},
 	{
 		"id": "T8_OFF_SHIELD",
-		"name": "Elder's Shield"
+		"name": "Elder's Shield",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_OFF_SHIELD@1",
-		"name": "Elder's Shield (Uncommon)"
+		"name": "Elder's Shield (Uncommon)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_OFF_SHIELD@2",
-		"name": "Elder's Shield (Rare)"
+		"name": "Elder's Shield (Rare)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_OFF_SHIELD@3",
-		"name": "Elder's Shield (Exceptional)"
+		"name": "Elder's Shield (Exceptional)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_OFF_SHIELD@4",
-		"name": "Elder's Shield (Pristine)"
+		"name": "Elder's Shield (Pristine)",
+		"weight": 8.5
 	},
 	{
 		"id": "T4_OFF_TOWERSHIELD_UNDEAD",
-		"name": "Adept's Sarcophagus"
+		"name": "Adept's Sarcophagus",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_OFF_TOWERSHIELD_UNDEAD@1",
-		"name": "Adept's Sarcophagus (Uncommon)"
+		"name": "Adept's Sarcophagus (Uncommon)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_OFF_TOWERSHIELD_UNDEAD@2",
-		"name": "Adept's Sarcophagus (Rare)"
+		"name": "Adept's Sarcophagus (Rare)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_OFF_TOWERSHIELD_UNDEAD@3",
-		"name": "Adept's Sarcophagus (Exceptional)"
+		"name": "Adept's Sarcophagus (Exceptional)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_OFF_TOWERSHIELD_UNDEAD@4",
-		"name": "Adept's Sarcophagus (Pristine)"
+		"name": "Adept's Sarcophagus (Pristine)",
+		"weight": 1.7
 	},
 	{
 		"id": "T5_OFF_TOWERSHIELD_UNDEAD",
-		"name": "Expert's Sarcophagus"
+		"name": "Expert's Sarcophagus",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_OFF_TOWERSHIELD_UNDEAD@1",
-		"name": "Expert's Sarcophagus (Uncommon)"
+		"name": "Expert's Sarcophagus (Uncommon)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_OFF_TOWERSHIELD_UNDEAD@2",
-		"name": "Expert's Sarcophagus (Rare)"
+		"name": "Expert's Sarcophagus (Rare)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_OFF_TOWERSHIELD_UNDEAD@3",
-		"name": "Expert's Sarcophagus (Exceptional)"
+		"name": "Expert's Sarcophagus (Exceptional)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_OFF_TOWERSHIELD_UNDEAD@4",
-		"name": "Expert's Sarcophagus (Pristine)"
+		"name": "Expert's Sarcophagus (Pristine)",
+		"weight": 2.5
 	},
 	{
 		"id": "T6_OFF_TOWERSHIELD_UNDEAD",
-		"name": "Master's Sarcophagus"
+		"name": "Master's Sarcophagus",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_OFF_TOWERSHIELD_UNDEAD@1",
-		"name": "Master's Sarcophagus (Uncommon)"
+		"name": "Master's Sarcophagus (Uncommon)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_OFF_TOWERSHIELD_UNDEAD@2",
-		"name": "Master's Sarcophagus (Rare)"
+		"name": "Master's Sarcophagus (Rare)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_OFF_TOWERSHIELD_UNDEAD@3",
-		"name": "Master's Sarcophagus (Exceptional)"
+		"name": "Master's Sarcophagus (Exceptional)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_OFF_TOWERSHIELD_UNDEAD@4",
-		"name": "Master's Sarcophagus (Pristine)"
+		"name": "Master's Sarcophagus (Pristine)",
+		"weight": 3.8
 	},
 	{
 		"id": "T7_OFF_TOWERSHIELD_UNDEAD",
-		"name": "Grandmaster's Sarcophagus"
+		"name": "Grandmaster's Sarcophagus",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_OFF_TOWERSHIELD_UNDEAD@1",
-		"name": "Grandmaster's Sarcophagus (Uncommon)"
+		"name": "Grandmaster's Sarcophagus (Uncommon)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_OFF_TOWERSHIELD_UNDEAD@2",
-		"name": "Grandmaster's Sarcophagus (Rare)"
+		"name": "Grandmaster's Sarcophagus (Rare)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_OFF_TOWERSHIELD_UNDEAD@3",
-		"name": "Grandmaster's Sarcophagus (Exceptional)"
+		"name": "Grandmaster's Sarcophagus (Exceptional)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_OFF_TOWERSHIELD_UNDEAD@4",
-		"name": "Grandmaster's Sarcophagus (Pristine)"
+		"name": "Grandmaster's Sarcophagus (Pristine)",
+		"weight": 5.7
 	},
 	{
 		"id": "T8_OFF_TOWERSHIELD_UNDEAD",
-		"name": "Elder's Sarcophagus"
+		"name": "Elder's Sarcophagus",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_OFF_TOWERSHIELD_UNDEAD@1",
-		"name": "Elder's Sarcophagus (Uncommon)"
+		"name": "Elder's Sarcophagus (Uncommon)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_OFF_TOWERSHIELD_UNDEAD@2",
-		"name": "Elder's Sarcophagus (Rare)"
+		"name": "Elder's Sarcophagus (Rare)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_OFF_TOWERSHIELD_UNDEAD@3",
-		"name": "Elder's Sarcophagus (Exceptional)"
+		"name": "Elder's Sarcophagus (Exceptional)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_OFF_TOWERSHIELD_UNDEAD@4",
-		"name": "Elder's Sarcophagus (Pristine)"
+		"name": "Elder's Sarcophagus (Pristine)",
+		"weight": 8.5
 	},
 	{
 		"id": "T4_OFF_SHIELD_HELL",
-		"name": "Adept's Caitiff Shield"
+		"name": "Adept's Caitiff Shield",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_OFF_SHIELD_HELL@1",
-		"name": "Adept's Caitiff Shield (Uncommon)"
+		"name": "Adept's Caitiff Shield (Uncommon)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_OFF_SHIELD_HELL@2",
-		"name": "Adept's Caitiff Shield (Rare)"
+		"name": "Adept's Caitiff Shield (Rare)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_OFF_SHIELD_HELL@3",
-		"name": "Adept's Caitiff Shield (Exceptional)"
+		"name": "Adept's Caitiff Shield (Exceptional)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_OFF_SHIELD_HELL@4",
-		"name": "Adept's Caitiff Shield (Pristine)"
+		"name": "Adept's Caitiff Shield (Pristine)",
+		"weight": 1.7
 	},
 	{
 		"id": "T5_OFF_SHIELD_HELL",
-		"name": "Expert's Caitiff Shield"
+		"name": "Expert's Caitiff Shield",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_OFF_SHIELD_HELL@1",
-		"name": "Expert's Caitiff Shield (Uncommon)"
+		"name": "Expert's Caitiff Shield (Uncommon)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_OFF_SHIELD_HELL@2",
-		"name": "Expert's Caitiff Shield (Rare)"
+		"name": "Expert's Caitiff Shield (Rare)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_OFF_SHIELD_HELL@3",
-		"name": "Expert's Caitiff Shield (Exceptional)"
+		"name": "Expert's Caitiff Shield (Exceptional)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_OFF_SHIELD_HELL@4",
-		"name": "Expert's Caitiff Shield (Pristine)"
+		"name": "Expert's Caitiff Shield (Pristine)",
+		"weight": 2.5
 	},
 	{
 		"id": "T6_OFF_SHIELD_HELL",
-		"name": "Master's Caitiff Shield"
+		"name": "Master's Caitiff Shield",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_OFF_SHIELD_HELL@1",
-		"name": "Master's Caitiff Shield (Uncommon)"
+		"name": "Master's Caitiff Shield (Uncommon)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_OFF_SHIELD_HELL@2",
-		"name": "Master's Caitiff Shield (Rare)"
+		"name": "Master's Caitiff Shield (Rare)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_OFF_SHIELD_HELL@3",
-		"name": "Master's Caitiff Shield (Exceptional)"
+		"name": "Master's Caitiff Shield (Exceptional)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_OFF_SHIELD_HELL@4",
-		"name": "Master's Caitiff Shield (Pristine)"
+		"name": "Master's Caitiff Shield (Pristine)",
+		"weight": 3.8
 	},
 	{
 		"id": "T7_OFF_SHIELD_HELL",
-		"name": "Grandmaster's Caitiff Shield"
+		"name": "Grandmaster's Caitiff Shield",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_OFF_SHIELD_HELL@1",
-		"name": "Grandmaster's Caitiff Shield (Uncommon)"
+		"name": "Grandmaster's Caitiff Shield (Uncommon)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_OFF_SHIELD_HELL@2",
-		"name": "Grandmaster's Caitiff Shield (Rare)"
+		"name": "Grandmaster's Caitiff Shield (Rare)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_OFF_SHIELD_HELL@3",
-		"name": "Grandmaster's Caitiff Shield (Exceptional)"
+		"name": "Grandmaster's Caitiff Shield (Exceptional)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_OFF_SHIELD_HELL@4",
-		"name": "Grandmaster's Caitiff Shield (Pristine)"
+		"name": "Grandmaster's Caitiff Shield (Pristine)",
+		"weight": 5.7
 	},
 	{
 		"id": "T8_OFF_SHIELD_HELL",
-		"name": "Elder's Caitiff Shield"
+		"name": "Elder's Caitiff Shield",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_OFF_SHIELD_HELL@1",
-		"name": "Elder's Caitiff Shield (Uncommon)"
+		"name": "Elder's Caitiff Shield (Uncommon)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_OFF_SHIELD_HELL@2",
-		"name": "Elder's Caitiff Shield (Rare)"
+		"name": "Elder's Caitiff Shield (Rare)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_OFF_SHIELD_HELL@3",
-		"name": "Elder's Caitiff Shield (Exceptional)"
+		"name": "Elder's Caitiff Shield (Exceptional)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_OFF_SHIELD_HELL@4",
-		"name": "Elder's Caitiff Shield (Pristine)"
+		"name": "Elder's Caitiff Shield (Pristine)",
+		"weight": 8.5
 	},
 	{
 		"id": "T4_OFF_SPIKEDSHIELD_MORGANA",
-		"name": "Adept's Facebreaker"
+		"name": "Adept's Facebreaker",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_OFF_SPIKEDSHIELD_MORGANA@1",
-		"name": "Adept's Facebreaker (Uncommon)"
+		"name": "Adept's Facebreaker (Uncommon)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_OFF_SPIKEDSHIELD_MORGANA@2",
-		"name": "Adept's Facebreaker (Rare)"
+		"name": "Adept's Facebreaker (Rare)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_OFF_SPIKEDSHIELD_MORGANA@3",
-		"name": "Adept's Facebreaker (Exceptional)"
+		"name": "Adept's Facebreaker (Exceptional)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_OFF_SPIKEDSHIELD_MORGANA@4",
-		"name": "Adept's Facebreaker (Pristine)"
+		"name": "Adept's Facebreaker (Pristine)",
+		"weight": 1.7
 	},
 	{
 		"id": "T5_OFF_SPIKEDSHIELD_MORGANA",
-		"name": "Expert's Facebreaker"
+		"name": "Expert's Facebreaker",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_OFF_SPIKEDSHIELD_MORGANA@1",
-		"name": "Expert's Facebreaker (Uncommon)"
+		"name": "Expert's Facebreaker (Uncommon)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_OFF_SPIKEDSHIELD_MORGANA@2",
-		"name": "Expert's Facebreaker (Rare)"
+		"name": "Expert's Facebreaker (Rare)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_OFF_SPIKEDSHIELD_MORGANA@3",
-		"name": "Expert's Facebreaker (Exceptional)"
+		"name": "Expert's Facebreaker (Exceptional)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_OFF_SPIKEDSHIELD_MORGANA@4",
-		"name": "Expert's Facebreaker (Pristine)"
+		"name": "Expert's Facebreaker (Pristine)",
+		"weight": 2.5
 	},
 	{
 		"id": "T6_OFF_SPIKEDSHIELD_MORGANA",
-		"name": "Master's Facebreaker"
+		"name": "Master's Facebreaker",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_OFF_SPIKEDSHIELD_MORGANA@1",
-		"name": "Master's Facebreaker (Uncommon)"
+		"name": "Master's Facebreaker (Uncommon)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_OFF_SPIKEDSHIELD_MORGANA@2",
-		"name": "Master's Facebreaker (Rare)"
+		"name": "Master's Facebreaker (Rare)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_OFF_SPIKEDSHIELD_MORGANA@3",
-		"name": "Master's Facebreaker (Exceptional)"
+		"name": "Master's Facebreaker (Exceptional)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_OFF_SPIKEDSHIELD_MORGANA@4",
-		"name": "Master's Facebreaker (Pristine)"
+		"name": "Master's Facebreaker (Pristine)",
+		"weight": 3.8
 	},
 	{
 		"id": "T7_OFF_SPIKEDSHIELD_MORGANA",
-		"name": "Grandmaster's Facebreaker"
+		"name": "Grandmaster's Facebreaker",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_OFF_SPIKEDSHIELD_MORGANA@1",
-		"name": "Grandmaster's Facebreaker (Uncommon)"
+		"name": "Grandmaster's Facebreaker (Uncommon)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_OFF_SPIKEDSHIELD_MORGANA@2",
-		"name": "Grandmaster's Facebreaker (Rare)"
+		"name": "Grandmaster's Facebreaker (Rare)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_OFF_SPIKEDSHIELD_MORGANA@3",
-		"name": "Grandmaster's Facebreaker (Exceptional)"
+		"name": "Grandmaster's Facebreaker (Exceptional)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_OFF_SPIKEDSHIELD_MORGANA@4",
-		"name": "Grandmaster's Facebreaker (Pristine)"
+		"name": "Grandmaster's Facebreaker (Pristine)",
+		"weight": 5.7
 	},
 	{
 		"id": "T8_OFF_SPIKEDSHIELD_MORGANA",
-		"name": "Elder's Facebreaker"
+		"name": "Elder's Facebreaker",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_OFF_SPIKEDSHIELD_MORGANA@1",
-		"name": "Elder's Facebreaker (Uncommon)"
+		"name": "Elder's Facebreaker (Uncommon)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_OFF_SPIKEDSHIELD_MORGANA@2",
-		"name": "Elder's Facebreaker (Rare)"
+		"name": "Elder's Facebreaker (Rare)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_OFF_SPIKEDSHIELD_MORGANA@3",
-		"name": "Elder's Facebreaker (Exceptional)"
+		"name": "Elder's Facebreaker (Exceptional)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_OFF_SPIKEDSHIELD_MORGANA@4",
-		"name": "Elder's Facebreaker (Pristine)"
+		"name": "Elder's Facebreaker (Pristine)",
+		"weight": 8.5
 	},
 	{
 		"id": "T4_OFF_SHIELD_AVALON",
-		"name": "Adept's Astral Aegis"
+		"name": "Adept's Astral Aegis",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_OFF_SHIELD_AVALON@1",
-		"name": "Adept's Astral Aegis (Uncommon)"
+		"name": "Adept's Astral Aegis (Uncommon)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_OFF_SHIELD_AVALON@2",
-		"name": "Adept's Astral Aegis (Rare)"
+		"name": "Adept's Astral Aegis (Rare)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_OFF_SHIELD_AVALON@3",
-		"name": "Adept's Astral Aegis (Exceptional)"
+		"name": "Adept's Astral Aegis (Exceptional)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_OFF_SHIELD_AVALON@4",
-		"name": "Adept's Astral Aegis (Pristine)"
+		"name": "Adept's Astral Aegis (Pristine)",
+		"weight": 1.7
 	},
 	{
 		"id": "T5_OFF_SHIELD_AVALON",
-		"name": "Expert's Astral Aegis"
+		"name": "Expert's Astral Aegis",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_OFF_SHIELD_AVALON@1",
-		"name": "Expert's Astral Aegis (Uncommon)"
+		"name": "Expert's Astral Aegis (Uncommon)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_OFF_SHIELD_AVALON@2",
-		"name": "Expert's Astral Aegis (Rare)"
+		"name": "Expert's Astral Aegis (Rare)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_OFF_SHIELD_AVALON@3",
-		"name": "Expert's Astral Aegis (Exceptional)"
+		"name": "Expert's Astral Aegis (Exceptional)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_OFF_SHIELD_AVALON@4",
-		"name": "Expert's Astral Aegis (Pristine)"
+		"name": "Expert's Astral Aegis (Pristine)",
+		"weight": 2.5
 	},
 	{
 		"id": "T6_OFF_SHIELD_AVALON",
-		"name": "Master's Astral Aegis"
+		"name": "Master's Astral Aegis",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_OFF_SHIELD_AVALON@1",
-		"name": "Master's Astral Aegis (Uncommon)"
+		"name": "Master's Astral Aegis (Uncommon)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_OFF_SHIELD_AVALON@2",
-		"name": "Master's Astral Aegis (Rare)"
+		"name": "Master's Astral Aegis (Rare)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_OFF_SHIELD_AVALON@3",
-		"name": "Master's Astral Aegis (Exceptional)"
+		"name": "Master's Astral Aegis (Exceptional)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_OFF_SHIELD_AVALON@4",
-		"name": "Master's Astral Aegis (Pristine)"
+		"name": "Master's Astral Aegis (Pristine)",
+		"weight": 3.8
 	},
 	{
 		"id": "T7_OFF_SHIELD_AVALON",
-		"name": "Grandmaster's Astral Aegis"
+		"name": "Grandmaster's Astral Aegis",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_OFF_SHIELD_AVALON@1",
-		"name": "Grandmaster's Astral Aegis (Uncommon)"
+		"name": "Grandmaster's Astral Aegis (Uncommon)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_OFF_SHIELD_AVALON@2",
-		"name": "Grandmaster's Astral Aegis (Rare)"
+		"name": "Grandmaster's Astral Aegis (Rare)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_OFF_SHIELD_AVALON@3",
-		"name": "Grandmaster's Astral Aegis (Exceptional)"
+		"name": "Grandmaster's Astral Aegis (Exceptional)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_OFF_SHIELD_AVALON@4",
-		"name": "Grandmaster's Astral Aegis (Pristine)"
+		"name": "Grandmaster's Astral Aegis (Pristine)",
+		"weight": 5.7
 	},
 	{
 		"id": "T8_OFF_SHIELD_AVALON",
-		"name": "Elder's Astral Aegis"
+		"name": "Elder's Astral Aegis",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_OFF_SHIELD_AVALON@1",
-		"name": "Elder's Astral Aegis (Uncommon)"
+		"name": "Elder's Astral Aegis (Uncommon)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_OFF_SHIELD_AVALON@2",
-		"name": "Elder's Astral Aegis (Rare)"
+		"name": "Elder's Astral Aegis (Rare)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_OFF_SHIELD_AVALON@3",
-		"name": "Elder's Astral Aegis (Exceptional)"
+		"name": "Elder's Astral Aegis (Exceptional)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_OFF_SHIELD_AVALON@4",
-		"name": "Elder's Astral Aegis (Pristine)"
+		"name": "Elder's Astral Aegis (Pristine)",
+		"weight": 8.5
 	},
 	{
 		"id": "T4_OFF_SHIELD_CRYSTAL",
-		"name": "Adept's Unbreakable Ward"
+		"name": "Adept's Unbreakable Ward",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_OFF_SHIELD_CRYSTAL@1",
-		"name": "Adept's Unbreakable Ward (Uncommon)"
+		"name": "Adept's Unbreakable Ward (Uncommon)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_OFF_SHIELD_CRYSTAL@2",
-		"name": "Adept's Unbreakable Ward (Rare)"
+		"name": "Adept's Unbreakable Ward (Rare)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_OFF_SHIELD_CRYSTAL@3",
-		"name": "Adept's Unbreakable Ward (Exceptional)"
+		"name": "Adept's Unbreakable Ward (Exceptional)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_OFF_SHIELD_CRYSTAL@4",
-		"name": "Adept's Unbreakable Ward (Pristine)"
+		"name": "Adept's Unbreakable Ward (Pristine)",
+		"weight": 1.7
 	},
 	{
 		"id": "T5_OFF_SHIELD_CRYSTAL",
-		"name": "Expert's Unbreakable Ward"
+		"name": "Expert's Unbreakable Ward",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_OFF_SHIELD_CRYSTAL@1",
-		"name": "Expert's Unbreakable Ward (Uncommon)"
+		"name": "Expert's Unbreakable Ward (Uncommon)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_OFF_SHIELD_CRYSTAL@2",
-		"name": "Expert's Unbreakable Ward (Rare)"
+		"name": "Expert's Unbreakable Ward (Rare)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_OFF_SHIELD_CRYSTAL@3",
-		"name": "Expert's Unbreakable Ward (Exceptional)"
+		"name": "Expert's Unbreakable Ward (Exceptional)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_OFF_SHIELD_CRYSTAL@4",
-		"name": "Expert's Unbreakable Ward (Pristine)"
+		"name": "Expert's Unbreakable Ward (Pristine)",
+		"weight": 2.5
 	},
 	{
 		"id": "T6_OFF_SHIELD_CRYSTAL",
-		"name": "Master's Unbreakable Ward"
+		"name": "Master's Unbreakable Ward",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_OFF_SHIELD_CRYSTAL@1",
-		"name": "Master's Unbreakable Ward (Uncommon)"
+		"name": "Master's Unbreakable Ward (Uncommon)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_OFF_SHIELD_CRYSTAL@2",
-		"name": "Master's Unbreakable Ward (Rare)"
+		"name": "Master's Unbreakable Ward (Rare)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_OFF_SHIELD_CRYSTAL@3",
-		"name": "Master's Unbreakable Ward (Exceptional)"
+		"name": "Master's Unbreakable Ward (Exceptional)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_OFF_SHIELD_CRYSTAL@4",
-		"name": "Master's Unbreakable Ward (Pristine)"
+		"name": "Master's Unbreakable Ward (Pristine)",
+		"weight": 3.8
 	},
 	{
 		"id": "T7_OFF_SHIELD_CRYSTAL",
-		"name": "Grandmaster's Unbreakable Ward"
+		"name": "Grandmaster's Unbreakable Ward",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_OFF_SHIELD_CRYSTAL@1",
-		"name": "Grandmaster's Unbreakable Ward (Uncommon)"
+		"name": "Grandmaster's Unbreakable Ward (Uncommon)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_OFF_SHIELD_CRYSTAL@2",
-		"name": "Grandmaster's Unbreakable Ward (Rare)"
+		"name": "Grandmaster's Unbreakable Ward (Rare)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_OFF_SHIELD_CRYSTAL@3",
-		"name": "Grandmaster's Unbreakable Ward (Exceptional)"
+		"name": "Grandmaster's Unbreakable Ward (Exceptional)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_OFF_SHIELD_CRYSTAL@4",
-		"name": "Grandmaster's Unbreakable Ward (Pristine)"
+		"name": "Grandmaster's Unbreakable Ward (Pristine)",
+		"weight": 5.7
 	},
 	{
 		"id": "T8_OFF_SHIELD_CRYSTAL",
-		"name": "Elder's Unbreakable Ward"
+		"name": "Elder's Unbreakable Ward",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_OFF_SHIELD_CRYSTAL@1",
-		"name": "Elder's Unbreakable Ward (Uncommon)"
+		"name": "Elder's Unbreakable Ward (Uncommon)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_OFF_SHIELD_CRYSTAL@2",
-		"name": "Elder's Unbreakable Ward (Rare)"
+		"name": "Elder's Unbreakable Ward (Rare)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_OFF_SHIELD_CRYSTAL@3",
-		"name": "Elder's Unbreakable Ward (Exceptional)"
+		"name": "Elder's Unbreakable Ward (Exceptional)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_OFF_SHIELD_CRYSTAL@4",
-		"name": "Elder's Unbreakable Ward (Pristine)"
+		"name": "Elder's Unbreakable Ward (Pristine)",
+		"weight": 8.5
 	},
 	{
 		"id": "T2_OFF_BOOK",
-		"name": "Novice's Tome of Spells"
+		"name": "Novice's Tome of Spells",
+		"weight": 0.8
 	},
 	{
 		"id": "T3_OFF_BOOK",
-		"name": "Journeyman's Tome of Spells"
+		"name": "Journeyman's Tome of Spells",
+		"weight": 1.1
 	},
 	{
 		"id": "T4_OFF_BOOK",
-		"name": "Adept's Tome of Spells"
+		"name": "Adept's Tome of Spells",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_OFF_BOOK@1",
-		"name": "Adept's Tome of Spells (Uncommon)"
+		"name": "Adept's Tome of Spells (Uncommon)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_OFF_BOOK@2",
-		"name": "Adept's Tome of Spells (Rare)"
+		"name": "Adept's Tome of Spells (Rare)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_OFF_BOOK@3",
-		"name": "Adept's Tome of Spells (Exceptional)"
+		"name": "Adept's Tome of Spells (Exceptional)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_OFF_BOOK@4",
-		"name": "Adept's Tome of Spells (Pristine)"
+		"name": "Adept's Tome of Spells (Pristine)",
+		"weight": 1.7
 	},
 	{
 		"id": "T5_OFF_BOOK",
-		"name": "Expert's Tome of Spells"
+		"name": "Expert's Tome of Spells",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_OFF_BOOK@1",
-		"name": "Expert's Tome of Spells (Uncommon)"
+		"name": "Expert's Tome of Spells (Uncommon)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_OFF_BOOK@2",
-		"name": "Expert's Tome of Spells (Rare)"
+		"name": "Expert's Tome of Spells (Rare)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_OFF_BOOK@3",
-		"name": "Expert's Tome of Spells (Exceptional)"
+		"name": "Expert's Tome of Spells (Exceptional)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_OFF_BOOK@4",
-		"name": "Expert's Tome of Spells (Pristine)"
+		"name": "Expert's Tome of Spells (Pristine)",
+		"weight": 2.5
 	},
 	{
 		"id": "T6_OFF_BOOK",
-		"name": "Master's Tome of Spells"
+		"name": "Master's Tome of Spells",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_OFF_BOOK@1",
-		"name": "Master's Tome of Spells (Uncommon)"
+		"name": "Master's Tome of Spells (Uncommon)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_OFF_BOOK@2",
-		"name": "Master's Tome of Spells (Rare)"
+		"name": "Master's Tome of Spells (Rare)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_OFF_BOOK@3",
-		"name": "Master's Tome of Spells (Exceptional)"
+		"name": "Master's Tome of Spells (Exceptional)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_OFF_BOOK@4",
-		"name": "Master's Tome of Spells (Pristine)"
+		"name": "Master's Tome of Spells (Pristine)",
+		"weight": 3.8
 	},
 	{
 		"id": "T7_OFF_BOOK",
-		"name": "Grandmaster's Tome of Spells"
+		"name": "Grandmaster's Tome of Spells",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_OFF_BOOK@1",
-		"name": "Grandmaster's Tome of Spells (Uncommon)"
+		"name": "Grandmaster's Tome of Spells (Uncommon)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_OFF_BOOK@2",
-		"name": "Grandmaster's Tome of Spells (Rare)"
+		"name": "Grandmaster's Tome of Spells (Rare)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_OFF_BOOK@3",
-		"name": "Grandmaster's Tome of Spells (Exceptional)"
+		"name": "Grandmaster's Tome of Spells (Exceptional)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_OFF_BOOK@4",
-		"name": "Grandmaster's Tome of Spells (Pristine)"
+		"name": "Grandmaster's Tome of Spells (Pristine)",
+		"weight": 5.7
 	},
 	{
 		"id": "T8_OFF_BOOK",
-		"name": "Rosalia's Diary"
+		"name": "Rosalia's Diary",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_OFF_BOOK@1",
-		"name": "Rosalia's Diary (Uncommon)"
+		"name": "Rosalia's Diary (Uncommon)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_OFF_BOOK@2",
-		"name": "Rosalia's Diary (Rare)"
+		"name": "Rosalia's Diary (Rare)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_OFF_BOOK@3",
-		"name": "Rosalia's Diary (Exceptional)"
+		"name": "Rosalia's Diary (Exceptional)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_OFF_BOOK@4",
-		"name": "Rosalia's Diary (Pristine)"
+		"name": "Rosalia's Diary (Pristine)",
+		"weight": 8.5
 	},
 	{
 		"id": "T4_OFF_ORB_MORGANA",
-		"name": "Adept's Eye of Secrets"
+		"name": "Adept's Eye of Secrets",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_OFF_ORB_MORGANA@1",
-		"name": "Adept's Eye of Secrets (Uncommon)"
+		"name": "Adept's Eye of Secrets (Uncommon)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_OFF_ORB_MORGANA@2",
-		"name": "Adept's Eye of Secrets (Rare)"
+		"name": "Adept's Eye of Secrets (Rare)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_OFF_ORB_MORGANA@3",
-		"name": "Adept's Eye of Secrets (Exceptional)"
+		"name": "Adept's Eye of Secrets (Exceptional)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_OFF_ORB_MORGANA@4",
-		"name": "Adept's Eye of Secrets (Pristine)"
+		"name": "Adept's Eye of Secrets (Pristine)",
+		"weight": 1.7
 	},
 	{
 		"id": "T5_OFF_ORB_MORGANA",
-		"name": "Expert's Eye of Secrets"
+		"name": "Expert's Eye of Secrets",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_OFF_ORB_MORGANA@1",
-		"name": "Expert's Eye of Secrets (Uncommon)"
+		"name": "Expert's Eye of Secrets (Uncommon)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_OFF_ORB_MORGANA@2",
-		"name": "Expert's Eye of Secrets (Rare)"
+		"name": "Expert's Eye of Secrets (Rare)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_OFF_ORB_MORGANA@3",
-		"name": "Expert's Eye of Secrets (Exceptional)"
+		"name": "Expert's Eye of Secrets (Exceptional)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_OFF_ORB_MORGANA@4",
-		"name": "Expert's Eye of Secrets (Pristine)"
+		"name": "Expert's Eye of Secrets (Pristine)",
+		"weight": 2.5
 	},
 	{
 		"id": "T6_OFF_ORB_MORGANA",
-		"name": "Master's Eye of Secrets"
+		"name": "Master's Eye of Secrets",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_OFF_ORB_MORGANA@1",
-		"name": "Master's Eye of Secrets (Uncommon)"
+		"name": "Master's Eye of Secrets (Uncommon)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_OFF_ORB_MORGANA@2",
-		"name": "Master's Eye of Secrets (Rare)"
+		"name": "Master's Eye of Secrets (Rare)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_OFF_ORB_MORGANA@3",
-		"name": "Master's Eye of Secrets (Exceptional)"
+		"name": "Master's Eye of Secrets (Exceptional)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_OFF_ORB_MORGANA@4",
-		"name": "Master's Eye of Secrets (Pristine)"
+		"name": "Master's Eye of Secrets (Pristine)",
+		"weight": 3.8
 	},
 	{
 		"id": "T7_OFF_ORB_MORGANA",
-		"name": "Grandmaster's Eye of Secrets"
+		"name": "Grandmaster's Eye of Secrets",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_OFF_ORB_MORGANA@1",
-		"name": "Grandmaster's Eye of Secrets (Uncommon)"
+		"name": "Grandmaster's Eye of Secrets (Uncommon)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_OFF_ORB_MORGANA@2",
-		"name": "Grandmaster's Eye of Secrets (Rare)"
+		"name": "Grandmaster's Eye of Secrets (Rare)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_OFF_ORB_MORGANA@3",
-		"name": "Grandmaster's Eye of Secrets (Exceptional)"
+		"name": "Grandmaster's Eye of Secrets (Exceptional)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_OFF_ORB_MORGANA@4",
-		"name": "Grandmaster's Eye of Secrets (Pristine)"
+		"name": "Grandmaster's Eye of Secrets (Pristine)",
+		"weight": 5.7
 	},
 	{
 		"id": "T8_OFF_ORB_MORGANA",
-		"name": "Elder's Eye of Secrets"
+		"name": "Elder's Eye of Secrets",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_OFF_ORB_MORGANA@1",
-		"name": "Elder's Eye of Secrets (Uncommon)"
+		"name": "Elder's Eye of Secrets (Uncommon)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_OFF_ORB_MORGANA@2",
-		"name": "Elder's Eye of Secrets (Rare)"
+		"name": "Elder's Eye of Secrets (Rare)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_OFF_ORB_MORGANA@3",
-		"name": "Elder's Eye of Secrets (Exceptional)"
+		"name": "Elder's Eye of Secrets (Exceptional)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_OFF_ORB_MORGANA@4",
-		"name": "Elder's Eye of Secrets (Pristine)"
+		"name": "Elder's Eye of Secrets (Pristine)",
+		"weight": 8.5
 	},
 	{
 		"id": "T4_OFF_DEMONSKULL_HELL",
-		"name": "Adept's Muisak"
+		"name": "Adept's Muisak",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_OFF_DEMONSKULL_HELL@1",
-		"name": "Adept's Muisak (Uncommon)"
+		"name": "Adept's Muisak (Uncommon)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_OFF_DEMONSKULL_HELL@2",
-		"name": "Adept's Muisak (Rare)"
+		"name": "Adept's Muisak (Rare)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_OFF_DEMONSKULL_HELL@3",
-		"name": "Adept's Muisak (Exceptional)"
+		"name": "Adept's Muisak (Exceptional)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_OFF_DEMONSKULL_HELL@4",
-		"name": "Adept's Muisak (Pristine)"
+		"name": "Adept's Muisak (Pristine)",
+		"weight": 1.7
 	},
 	{
 		"id": "T5_OFF_DEMONSKULL_HELL",
-		"name": "Expert's Muisak"
+		"name": "Expert's Muisak",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_OFF_DEMONSKULL_HELL@1",
-		"name": "Expert's Muisak (Uncommon)"
+		"name": "Expert's Muisak (Uncommon)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_OFF_DEMONSKULL_HELL@2",
-		"name": "Expert's Muisak (Rare)"
+		"name": "Expert's Muisak (Rare)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_OFF_DEMONSKULL_HELL@3",
-		"name": "Expert's Muisak (Exceptional)"
+		"name": "Expert's Muisak (Exceptional)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_OFF_DEMONSKULL_HELL@4",
-		"name": "Expert's Muisak (Pristine)"
+		"name": "Expert's Muisak (Pristine)",
+		"weight": 2.5
 	},
 	{
 		"id": "T6_OFF_DEMONSKULL_HELL",
-		"name": "Master's Muisak"
+		"name": "Master's Muisak",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_OFF_DEMONSKULL_HELL@1",
-		"name": "Master's Muisak (Uncommon)"
+		"name": "Master's Muisak (Uncommon)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_OFF_DEMONSKULL_HELL@2",
-		"name": "Master's Muisak (Rare)"
+		"name": "Master's Muisak (Rare)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_OFF_DEMONSKULL_HELL@3",
-		"name": "Master's Muisak (Exceptional)"
+		"name": "Master's Muisak (Exceptional)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_OFF_DEMONSKULL_HELL@4",
-		"name": "Master's Muisak (Pristine)"
+		"name": "Master's Muisak (Pristine)",
+		"weight": 3.8
 	},
 	{
 		"id": "T7_OFF_DEMONSKULL_HELL",
-		"name": "Grandmaster's Muisak"
+		"name": "Grandmaster's Muisak",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_OFF_DEMONSKULL_HELL@1",
-		"name": "Grandmaster's Muisak (Uncommon)"
+		"name": "Grandmaster's Muisak (Uncommon)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_OFF_DEMONSKULL_HELL@2",
-		"name": "Grandmaster's Muisak (Rare)"
+		"name": "Grandmaster's Muisak (Rare)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_OFF_DEMONSKULL_HELL@3",
-		"name": "Grandmaster's Muisak (Exceptional)"
+		"name": "Grandmaster's Muisak (Exceptional)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_OFF_DEMONSKULL_HELL@4",
-		"name": "Grandmaster's Muisak (Pristine)"
+		"name": "Grandmaster's Muisak (Pristine)",
+		"weight": 5.7
 	},
 	{
 		"id": "T8_OFF_DEMONSKULL_HELL",
-		"name": "Elder's Muisak"
+		"name": "Elder's Muisak",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_OFF_DEMONSKULL_HELL@1",
-		"name": "Elder's Muisak (Uncommon)"
+		"name": "Elder's Muisak (Uncommon)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_OFF_DEMONSKULL_HELL@2",
-		"name": "Elder's Muisak (Rare)"
+		"name": "Elder's Muisak (Rare)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_OFF_DEMONSKULL_HELL@3",
-		"name": "Elder's Muisak (Exceptional)"
+		"name": "Elder's Muisak (Exceptional)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_OFF_DEMONSKULL_HELL@4",
-		"name": "Elder's Muisak (Pristine)"
+		"name": "Elder's Muisak (Pristine)",
+		"weight": 8.5
 	},
 	{
 		"id": "T4_OFF_TOTEM_KEEPER",
-		"name": "Adept's Taproot"
+		"name": "Adept's Taproot",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_OFF_TOTEM_KEEPER@1",
-		"name": "Adept's Taproot (Uncommon)"
+		"name": "Adept's Taproot (Uncommon)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_OFF_TOTEM_KEEPER@2",
-		"name": "Adept's Taproot (Rare)"
+		"name": "Adept's Taproot (Rare)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_OFF_TOTEM_KEEPER@3",
-		"name": "Adept's Taproot (Exceptional)"
+		"name": "Adept's Taproot (Exceptional)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_OFF_TOTEM_KEEPER@4",
-		"name": "Adept's Taproot (Pristine)"
+		"name": "Adept's Taproot (Pristine)",
+		"weight": 1.7
 	},
 	{
 		"id": "T5_OFF_TOTEM_KEEPER",
-		"name": "Expert's Taproot"
+		"name": "Expert's Taproot",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_OFF_TOTEM_KEEPER@1",
-		"name": "Expert's Taproot (Uncommon)"
+		"name": "Expert's Taproot (Uncommon)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_OFF_TOTEM_KEEPER@2",
-		"name": "Expert's Taproot (Rare)"
+		"name": "Expert's Taproot (Rare)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_OFF_TOTEM_KEEPER@3",
-		"name": "Expert's Taproot (Exceptional)"
+		"name": "Expert's Taproot (Exceptional)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_OFF_TOTEM_KEEPER@4",
-		"name": "Expert's Taproot (Pristine)"
+		"name": "Expert's Taproot (Pristine)",
+		"weight": 2.5
 	},
 	{
 		"id": "T6_OFF_TOTEM_KEEPER",
-		"name": "Master's Taproot"
+		"name": "Master's Taproot",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_OFF_TOTEM_KEEPER@1",
-		"name": "Master's Taproot (Uncommon)"
+		"name": "Master's Taproot (Uncommon)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_OFF_TOTEM_KEEPER@2",
-		"name": "Master's Taproot (Rare)"
+		"name": "Master's Taproot (Rare)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_OFF_TOTEM_KEEPER@3",
-		"name": "Master's Taproot (Exceptional)"
+		"name": "Master's Taproot (Exceptional)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_OFF_TOTEM_KEEPER@4",
-		"name": "Master's Taproot (Pristine)"
+		"name": "Master's Taproot (Pristine)",
+		"weight": 3.8
 	},
 	{
 		"id": "T7_OFF_TOTEM_KEEPER",
-		"name": "Grandmaster's Taproot"
+		"name": "Grandmaster's Taproot",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_OFF_TOTEM_KEEPER@1",
-		"name": "Grandmaster's Taproot (Uncommon)"
+		"name": "Grandmaster's Taproot (Uncommon)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_OFF_TOTEM_KEEPER@2",
-		"name": "Grandmaster's Taproot (Rare)"
+		"name": "Grandmaster's Taproot (Rare)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_OFF_TOTEM_KEEPER@3",
-		"name": "Grandmaster's Taproot (Exceptional)"
+		"name": "Grandmaster's Taproot (Exceptional)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_OFF_TOTEM_KEEPER@4",
-		"name": "Grandmaster's Taproot (Pristine)"
+		"name": "Grandmaster's Taproot (Pristine)",
+		"weight": 5.7
 	},
 	{
 		"id": "T8_OFF_TOTEM_KEEPER",
-		"name": "Elder's Taproot"
+		"name": "Elder's Taproot",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_OFF_TOTEM_KEEPER@1",
-		"name": "Elder's Taproot (Uncommon)"
+		"name": "Elder's Taproot (Uncommon)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_OFF_TOTEM_KEEPER@2",
-		"name": "Elder's Taproot (Rare)"
+		"name": "Elder's Taproot (Rare)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_OFF_TOTEM_KEEPER@3",
-		"name": "Elder's Taproot (Exceptional)"
+		"name": "Elder's Taproot (Exceptional)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_OFF_TOTEM_KEEPER@4",
-		"name": "Elder's Taproot (Pristine)"
+		"name": "Elder's Taproot (Pristine)",
+		"weight": 8.5
 	},
 	{
 		"id": "T4_OFF_CENSER_AVALON",
-		"name": "Adept's Celestial Censer"
+		"name": "Adept's Celestial Censer",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_OFF_CENSER_AVALON@1",
-		"name": "Adept's Celestial Censer (Uncommon)"
+		"name": "Adept's Celestial Censer (Uncommon)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_OFF_CENSER_AVALON@2",
-		"name": "Adept's Celestial Censer (Rare)"
+		"name": "Adept's Celestial Censer (Rare)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_OFF_CENSER_AVALON@3",
-		"name": "Adept's Celestial Censer (Exceptional)"
+		"name": "Adept's Celestial Censer (Exceptional)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_OFF_CENSER_AVALON@4",
-		"name": "Adept's Celestial Censer (Pristine)"
+		"name": "Adept's Celestial Censer (Pristine)",
+		"weight": 1.7
 	},
 	{
 		"id": "T5_OFF_CENSER_AVALON",
-		"name": "Expert's Celestial Censer"
+		"name": "Expert's Celestial Censer",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_OFF_CENSER_AVALON@1",
-		"name": "Expert's Celestial Censer (Uncommon)"
+		"name": "Expert's Celestial Censer (Uncommon)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_OFF_CENSER_AVALON@2",
-		"name": "Expert's Celestial Censer (Rare)"
+		"name": "Expert's Celestial Censer (Rare)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_OFF_CENSER_AVALON@3",
-		"name": "Expert's Celestial Censer (Exceptional)"
+		"name": "Expert's Celestial Censer (Exceptional)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_OFF_CENSER_AVALON@4",
-		"name": "Expert's Celestial Censer (Pristine)"
+		"name": "Expert's Celestial Censer (Pristine)",
+		"weight": 2.5
 	},
 	{
 		"id": "T6_OFF_CENSER_AVALON",
-		"name": "Master's Celestial Censer"
+		"name": "Master's Celestial Censer",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_OFF_CENSER_AVALON@1",
-		"name": "Master's Celestial Censer (Uncommon)"
+		"name": "Master's Celestial Censer (Uncommon)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_OFF_CENSER_AVALON@2",
-		"name": "Master's Celestial Censer (Rare)"
+		"name": "Master's Celestial Censer (Rare)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_OFF_CENSER_AVALON@3",
-		"name": "Master's Celestial Censer (Exceptional)"
+		"name": "Master's Celestial Censer (Exceptional)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_OFF_CENSER_AVALON@4",
-		"name": "Master's Celestial Censer (Pristine)"
+		"name": "Master's Celestial Censer (Pristine)",
+		"weight": 3.8
 	},
 	{
 		"id": "T7_OFF_CENSER_AVALON",
-		"name": "Grandmaster's Celestial Censer"
+		"name": "Grandmaster's Celestial Censer",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_OFF_CENSER_AVALON@1",
-		"name": "Grandmaster's Celestial Censer (Uncommon)"
+		"name": "Grandmaster's Celestial Censer (Uncommon)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_OFF_CENSER_AVALON@2",
-		"name": "Grandmaster's Celestial Censer (Rare)"
+		"name": "Grandmaster's Celestial Censer (Rare)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_OFF_CENSER_AVALON@3",
-		"name": "Grandmaster's Celestial Censer (Exceptional)"
+		"name": "Grandmaster's Celestial Censer (Exceptional)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_OFF_CENSER_AVALON@4",
-		"name": "Grandmaster's Celestial Censer (Pristine)"
+		"name": "Grandmaster's Celestial Censer (Pristine)",
+		"weight": 5.7
 	},
 	{
 		"id": "T8_OFF_CENSER_AVALON",
-		"name": "Elder's Celestial Censer"
+		"name": "Elder's Celestial Censer",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_OFF_CENSER_AVALON@1",
-		"name": "Elder's Celestial Censer (Uncommon)"
+		"name": "Elder's Celestial Censer (Uncommon)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_OFF_CENSER_AVALON@2",
-		"name": "Elder's Celestial Censer (Rare)"
+		"name": "Elder's Celestial Censer (Rare)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_OFF_CENSER_AVALON@3",
-		"name": "Elder's Celestial Censer (Exceptional)"
+		"name": "Elder's Celestial Censer (Exceptional)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_OFF_CENSER_AVALON@4",
-		"name": "Elder's Celestial Censer (Pristine)"
+		"name": "Elder's Celestial Censer (Pristine)",
+		"weight": 8.5
 	},
 	{
 		"id": "T4_OFF_TOME_CRYSTAL",
-		"name": "Adept's Timelocked Grimoire"
+		"name": "Adept's Timelocked Grimoire",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_OFF_TOME_CRYSTAL@1",
-		"name": "Adept's Timelocked Grimoire (Uncommon)"
+		"name": "Adept's Timelocked Grimoire (Uncommon)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_OFF_TOME_CRYSTAL@2",
-		"name": "Adept's Timelocked Grimoire (Rare)"
+		"name": "Adept's Timelocked Grimoire (Rare)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_OFF_TOME_CRYSTAL@3",
-		"name": "Adept's Timelocked Grimoire (Exceptional)"
+		"name": "Adept's Timelocked Grimoire (Exceptional)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_OFF_TOME_CRYSTAL@4",
-		"name": "Adept's Timelocked Grimoire (Pristine)"
+		"name": "Adept's Timelocked Grimoire (Pristine)",
+		"weight": 1.7
 	},
 	{
 		"id": "T5_OFF_TOME_CRYSTAL",
-		"name": "Expert's Timelocked Grimoire"
+		"name": "Expert's Timelocked Grimoire",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_OFF_TOME_CRYSTAL@1",
-		"name": "Expert's Timelocked Grimoire (Uncommon)"
+		"name": "Expert's Timelocked Grimoire (Uncommon)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_OFF_TOME_CRYSTAL@2",
-		"name": "Expert's Timelocked Grimoire (Rare)"
+		"name": "Expert's Timelocked Grimoire (Rare)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_OFF_TOME_CRYSTAL@3",
-		"name": "Expert's Timelocked Grimoire (Exceptional)"
+		"name": "Expert's Timelocked Grimoire (Exceptional)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_OFF_TOME_CRYSTAL@4",
-		"name": "Expert's Timelocked Grimoire (Pristine)"
+		"name": "Expert's Timelocked Grimoire (Pristine)",
+		"weight": 2.5
 	},
 	{
 		"id": "T6_OFF_TOME_CRYSTAL",
-		"name": "Master's Timelocked Grimoire"
+		"name": "Master's Timelocked Grimoire",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_OFF_TOME_CRYSTAL@1",
-		"name": "Master's Timelocked Grimoire (Uncommon)"
+		"name": "Master's Timelocked Grimoire (Uncommon)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_OFF_TOME_CRYSTAL@2",
-		"name": "Master's Timelocked Grimoire (Rare)"
+		"name": "Master's Timelocked Grimoire (Rare)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_OFF_TOME_CRYSTAL@3",
-		"name": "Master's Timelocked Grimoire (Exceptional)"
+		"name": "Master's Timelocked Grimoire (Exceptional)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_OFF_TOME_CRYSTAL@4",
-		"name": "Master's Timelocked Grimoire (Pristine)"
+		"name": "Master's Timelocked Grimoire (Pristine)",
+		"weight": 3.8
 	},
 	{
 		"id": "T7_OFF_TOME_CRYSTAL",
-		"name": "Grandmaster's Timelocked Grimoire"
+		"name": "Grandmaster's Timelocked Grimoire",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_OFF_TOME_CRYSTAL@1",
-		"name": "Grandmaster's Timelocked Grimoire (Uncommon)"
+		"name": "Grandmaster's Timelocked Grimoire (Uncommon)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_OFF_TOME_CRYSTAL@2",
-		"name": "Grandmaster's Timelocked Grimoire (Rare)"
+		"name": "Grandmaster's Timelocked Grimoire (Rare)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_OFF_TOME_CRYSTAL@3",
-		"name": "Grandmaster's Timelocked Grimoire (Exceptional)"
+		"name": "Grandmaster's Timelocked Grimoire (Exceptional)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_OFF_TOME_CRYSTAL@4",
-		"name": "Grandmaster's Timelocked Grimoire (Pristine)"
+		"name": "Grandmaster's Timelocked Grimoire (Pristine)",
+		"weight": 5.7
 	},
 	{
 		"id": "T8_OFF_TOME_CRYSTAL",
-		"name": "Elder's Timelocked Grimoire"
+		"name": "Elder's Timelocked Grimoire",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_OFF_TOME_CRYSTAL@1",
-		"name": "Elder's Timelocked Grimoire (Uncommon)"
+		"name": "Elder's Timelocked Grimoire (Uncommon)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_OFF_TOME_CRYSTAL@2",
-		"name": "Elder's Timelocked Grimoire (Rare)"
+		"name": "Elder's Timelocked Grimoire (Rare)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_OFF_TOME_CRYSTAL@3",
-		"name": "Elder's Timelocked Grimoire (Exceptional)"
+		"name": "Elder's Timelocked Grimoire (Exceptional)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_OFF_TOME_CRYSTAL@4",
-		"name": "Elder's Timelocked Grimoire (Pristine)"
+		"name": "Elder's Timelocked Grimoire (Pristine)",
+		"weight": 8.5
 	},
 	{
 		"id": "T3_OFF_TORCH",
-		"name": "Journeyman's Torch"
+		"name": "Journeyman's Torch",
+		"weight": 1.1
 	},
 	{
 		"id": "T4_OFF_TORCH",
-		"name": "Adept's Torch"
+		"name": "Adept's Torch",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_OFF_TORCH@1",
-		"name": "Adept's Torch (Uncommon)"
+		"name": "Adept's Torch (Uncommon)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_OFF_TORCH@2",
-		"name": "Adept's Torch (Rare)"
+		"name": "Adept's Torch (Rare)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_OFF_TORCH@3",
-		"name": "Adept's Torch (Exceptional)"
+		"name": "Adept's Torch (Exceptional)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_OFF_TORCH@4",
-		"name": "Adept's Torch (Pristine)"
+		"name": "Adept's Torch (Pristine)",
+		"weight": 1.7
 	},
 	{
 		"id": "T5_OFF_TORCH",
-		"name": "Expert's Torch"
+		"name": "Expert's Torch",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_OFF_TORCH@1",
-		"name": "Expert's Torch (Uncommon)"
+		"name": "Expert's Torch (Uncommon)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_OFF_TORCH@2",
-		"name": "Expert's Torch (Rare)"
+		"name": "Expert's Torch (Rare)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_OFF_TORCH@3",
-		"name": "Expert's Torch (Exceptional)"
+		"name": "Expert's Torch (Exceptional)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_OFF_TORCH@4",
-		"name": "Expert's Torch (Pristine)"
+		"name": "Expert's Torch (Pristine)",
+		"weight": 2.5
 	},
 	{
 		"id": "T6_OFF_TORCH",
-		"name": "Master's Torch"
+		"name": "Master's Torch",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_OFF_TORCH@1",
-		"name": "Master's Torch (Uncommon)"
+		"name": "Master's Torch (Uncommon)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_OFF_TORCH@2",
-		"name": "Master's Torch (Rare)"
+		"name": "Master's Torch (Rare)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_OFF_TORCH@3",
-		"name": "Master's Torch (Exceptional)"
+		"name": "Master's Torch (Exceptional)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_OFF_TORCH@4",
-		"name": "Master's Torch (Pristine)"
+		"name": "Master's Torch (Pristine)",
+		"weight": 3.8
 	},
 	{
 		"id": "T7_OFF_TORCH",
-		"name": "Grandmaster's Torch"
+		"name": "Grandmaster's Torch",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_OFF_TORCH@1",
-		"name": "Grandmaster's Torch (Uncommon)"
+		"name": "Grandmaster's Torch (Uncommon)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_OFF_TORCH@2",
-		"name": "Grandmaster's Torch (Rare)"
+		"name": "Grandmaster's Torch (Rare)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_OFF_TORCH@3",
-		"name": "Grandmaster's Torch (Exceptional)"
+		"name": "Grandmaster's Torch (Exceptional)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_OFF_TORCH@4",
-		"name": "Grandmaster's Torch (Pristine)"
+		"name": "Grandmaster's Torch (Pristine)",
+		"weight": 5.7
 	},
 	{
 		"id": "T8_OFF_TORCH",
-		"name": "Elder's Torch"
+		"name": "Elder's Torch",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_OFF_TORCH@1",
-		"name": "Elder's Torch (Uncommon)"
+		"name": "Elder's Torch (Uncommon)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_OFF_TORCH@2",
-		"name": "Elder's Torch (Rare)"
+		"name": "Elder's Torch (Rare)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_OFF_TORCH@3",
-		"name": "Elder's Torch (Exceptional)"
+		"name": "Elder's Torch (Exceptional)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_OFF_TORCH@4",
-		"name": "Elder's Torch (Pristine)"
+		"name": "Elder's Torch (Pristine)",
+		"weight": 8.5
 	},
 	{
 		"id": "T4_OFF_HORN_KEEPER",
-		"name": "Adept's Mistcaller"
+		"name": "Adept's Mistcaller",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_OFF_HORN_KEEPER@1",
-		"name": "Adept's Mistcaller (Uncommon)"
+		"name": "Adept's Mistcaller (Uncommon)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_OFF_HORN_KEEPER@2",
-		"name": "Adept's Mistcaller (Rare)"
+		"name": "Adept's Mistcaller (Rare)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_OFF_HORN_KEEPER@3",
-		"name": "Adept's Mistcaller (Exceptional)"
+		"name": "Adept's Mistcaller (Exceptional)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_OFF_HORN_KEEPER@4",
-		"name": "Adept's Mistcaller (Pristine)"
+		"name": "Adept's Mistcaller (Pristine)",
+		"weight": 1.7
 	},
 	{
 		"id": "T5_OFF_HORN_KEEPER",
-		"name": "Expert's Mistcaller"
+		"name": "Expert's Mistcaller",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_OFF_HORN_KEEPER@1",
-		"name": "Expert's Mistcaller (Uncommon)"
+		"name": "Expert's Mistcaller (Uncommon)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_OFF_HORN_KEEPER@2",
-		"name": "Expert's Mistcaller (Rare)"
+		"name": "Expert's Mistcaller (Rare)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_OFF_HORN_KEEPER@3",
-		"name": "Expert's Mistcaller (Exceptional)"
+		"name": "Expert's Mistcaller (Exceptional)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_OFF_HORN_KEEPER@4",
-		"name": "Expert's Mistcaller (Pristine)"
+		"name": "Expert's Mistcaller (Pristine)",
+		"weight": 2.5
 	},
 	{
 		"id": "T6_OFF_HORN_KEEPER",
-		"name": "Master's Mistcaller"
+		"name": "Master's Mistcaller",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_OFF_HORN_KEEPER@1",
-		"name": "Master's Mistcaller (Uncommon)"
+		"name": "Master's Mistcaller (Uncommon)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_OFF_HORN_KEEPER@2",
-		"name": "Master's Mistcaller (Rare)"
+		"name": "Master's Mistcaller (Rare)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_OFF_HORN_KEEPER@3",
-		"name": "Master's Mistcaller (Exceptional)"
+		"name": "Master's Mistcaller (Exceptional)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_OFF_HORN_KEEPER@4",
-		"name": "Master's Mistcaller (Pristine)"
+		"name": "Master's Mistcaller (Pristine)",
+		"weight": 3.8
 	},
 	{
 		"id": "T7_OFF_HORN_KEEPER",
-		"name": "Grandmaster's Mistcaller"
+		"name": "Grandmaster's Mistcaller",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_OFF_HORN_KEEPER@1",
-		"name": "Grandmaster's Mistcaller (Uncommon)"
+		"name": "Grandmaster's Mistcaller (Uncommon)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_OFF_HORN_KEEPER@2",
-		"name": "Grandmaster's Mistcaller (Rare)"
+		"name": "Grandmaster's Mistcaller (Rare)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_OFF_HORN_KEEPER@3",
-		"name": "Grandmaster's Mistcaller (Exceptional)"
+		"name": "Grandmaster's Mistcaller (Exceptional)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_OFF_HORN_KEEPER@4",
-		"name": "Grandmaster's Mistcaller (Pristine)"
+		"name": "Grandmaster's Mistcaller (Pristine)",
+		"weight": 5.7
 	},
 	{
 		"id": "T8_OFF_HORN_KEEPER",
-		"name": "Elder's Mistcaller"
+		"name": "Elder's Mistcaller",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_OFF_HORN_KEEPER@1",
-		"name": "Elder's Mistcaller (Uncommon)"
+		"name": "Elder's Mistcaller (Uncommon)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_OFF_HORN_KEEPER@2",
-		"name": "Elder's Mistcaller (Rare)"
+		"name": "Elder's Mistcaller (Rare)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_OFF_HORN_KEEPER@3",
-		"name": "Elder's Mistcaller (Exceptional)"
+		"name": "Elder's Mistcaller (Exceptional)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_OFF_HORN_KEEPER@4",
-		"name": "Elder's Mistcaller (Pristine)"
+		"name": "Elder's Mistcaller (Pristine)",
+		"weight": 8.5
 	},
 	{
 		"id": "T4_OFF_TALISMAN_AVALON",
-		"name": "Adept's Sacred Scepter"
+		"name": "Adept's Sacred Scepter",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_OFF_TALISMAN_AVALON@1",
-		"name": "Adept's Sacred Scepter (Uncommon)"
+		"name": "Adept's Sacred Scepter (Uncommon)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_OFF_TALISMAN_AVALON@2",
-		"name": "Adept's Sacred Scepter (Rare)"
+		"name": "Adept's Sacred Scepter (Rare)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_OFF_TALISMAN_AVALON@3",
-		"name": "Adept's Sacred Scepter (Exceptional)"
+		"name": "Adept's Sacred Scepter (Exceptional)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_OFF_TALISMAN_AVALON@4",
-		"name": "Adept's Sacred Scepter (Pristine)"
+		"name": "Adept's Sacred Scepter (Pristine)",
+		"weight": 1.7
 	},
 	{
 		"id": "T5_OFF_TALISMAN_AVALON",
-		"name": "Expert's Sacred Scepter"
+		"name": "Expert's Sacred Scepter",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_OFF_TALISMAN_AVALON@1",
-		"name": "Expert's Sacred Scepter (Uncommon)"
+		"name": "Expert's Sacred Scepter (Uncommon)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_OFF_TALISMAN_AVALON@2",
-		"name": "Expert's Sacred Scepter (Rare)"
+		"name": "Expert's Sacred Scepter (Rare)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_OFF_TALISMAN_AVALON@3",
-		"name": "Expert's Sacred Scepter (Exceptional)"
+		"name": "Expert's Sacred Scepter (Exceptional)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_OFF_TALISMAN_AVALON@4",
-		"name": "Expert's Sacred Scepter (Pristine)"
+		"name": "Expert's Sacred Scepter (Pristine)",
+		"weight": 2.5
 	},
 	{
 		"id": "T6_OFF_TALISMAN_AVALON",
-		"name": "Master's Sacred Scepter"
+		"name": "Master's Sacred Scepter",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_OFF_TALISMAN_AVALON@1",
-		"name": "Master's Sacred Scepter (Uncommon)"
+		"name": "Master's Sacred Scepter (Uncommon)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_OFF_TALISMAN_AVALON@2",
-		"name": "Master's Sacred Scepter (Rare)"
+		"name": "Master's Sacred Scepter (Rare)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_OFF_TALISMAN_AVALON@3",
-		"name": "Master's Sacred Scepter (Exceptional)"
+		"name": "Master's Sacred Scepter (Exceptional)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_OFF_TALISMAN_AVALON@4",
-		"name": "Master's Sacred Scepter (Pristine)"
+		"name": "Master's Sacred Scepter (Pristine)",
+		"weight": 3.8
 	},
 	{
 		"id": "T7_OFF_TALISMAN_AVALON",
-		"name": "Grandmaster's Sacred Scepter"
+		"name": "Grandmaster's Sacred Scepter",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_OFF_TALISMAN_AVALON@1",
-		"name": "Grandmaster's Sacred Scepter (Uncommon)"
+		"name": "Grandmaster's Sacred Scepter (Uncommon)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_OFF_TALISMAN_AVALON@2",
-		"name": "Grandmaster's Sacred Scepter (Rare)"
+		"name": "Grandmaster's Sacred Scepter (Rare)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_OFF_TALISMAN_AVALON@3",
-		"name": "Grandmaster's Sacred Scepter (Exceptional)"
+		"name": "Grandmaster's Sacred Scepter (Exceptional)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_OFF_TALISMAN_AVALON@4",
-		"name": "Grandmaster's Sacred Scepter (Pristine)"
+		"name": "Grandmaster's Sacred Scepter (Pristine)",
+		"weight": 5.7
 	},
 	{
 		"id": "T8_OFF_TALISMAN_AVALON",
-		"name": "Elder's Sacred Scepter"
+		"name": "Elder's Sacred Scepter",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_OFF_TALISMAN_AVALON@1",
-		"name": "Elder's Sacred Scepter (Uncommon)"
+		"name": "Elder's Sacred Scepter (Uncommon)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_OFF_TALISMAN_AVALON@2",
-		"name": "Elder's Sacred Scepter (Rare)"
+		"name": "Elder's Sacred Scepter (Rare)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_OFF_TALISMAN_AVALON@3",
-		"name": "Elder's Sacred Scepter (Exceptional)"
+		"name": "Elder's Sacred Scepter (Exceptional)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_OFF_TALISMAN_AVALON@4",
-		"name": "Elder's Sacred Scepter (Pristine)"
+		"name": "Elder's Sacred Scepter (Pristine)",
+		"weight": 8.5
 	},
 	{
 		"id": "T4_OFF_LAMP_UNDEAD",
-		"name": "Adept's Cryptcandle"
+		"name": "Adept's Cryptcandle",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_OFF_LAMP_UNDEAD@1",
-		"name": "Adept's Cryptcandle (Uncommon)"
+		"name": "Adept's Cryptcandle (Uncommon)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_OFF_LAMP_UNDEAD@2",
-		"name": "Adept's Cryptcandle (Rare)"
+		"name": "Adept's Cryptcandle (Rare)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_OFF_LAMP_UNDEAD@3",
-		"name": "Adept's Cryptcandle (Exceptional)"
+		"name": "Adept's Cryptcandle (Exceptional)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_OFF_LAMP_UNDEAD@4",
-		"name": "Adept's Cryptcandle (Pristine)"
+		"name": "Adept's Cryptcandle (Pristine)",
+		"weight": 1.7
 	},
 	{
 		"id": "T5_OFF_LAMP_UNDEAD",
-		"name": "Expert's Cryptcandle"
+		"name": "Expert's Cryptcandle",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_OFF_LAMP_UNDEAD@1",
-		"name": "Expert's Cryptcandle (Uncommon)"
+		"name": "Expert's Cryptcandle (Uncommon)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_OFF_LAMP_UNDEAD@2",
-		"name": "Expert's Cryptcandle (Rare)"
+		"name": "Expert's Cryptcandle (Rare)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_OFF_LAMP_UNDEAD@3",
-		"name": "Expert's Cryptcandle (Exceptional)"
+		"name": "Expert's Cryptcandle (Exceptional)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_OFF_LAMP_UNDEAD@4",
-		"name": "Expert's Cryptcandle (Pristine)"
+		"name": "Expert's Cryptcandle (Pristine)",
+		"weight": 2.5
 	},
 	{
 		"id": "T6_OFF_LAMP_UNDEAD",
-		"name": "Master's Cryptcandle"
+		"name": "Master's Cryptcandle",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_OFF_LAMP_UNDEAD@1",
-		"name": "Master's Cryptcandle (Uncommon)"
+		"name": "Master's Cryptcandle (Uncommon)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_OFF_LAMP_UNDEAD@2",
-		"name": "Master's Cryptcandle (Rare)"
+		"name": "Master's Cryptcandle (Rare)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_OFF_LAMP_UNDEAD@3",
-		"name": "Master's Cryptcandle (Exceptional)"
+		"name": "Master's Cryptcandle (Exceptional)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_OFF_LAMP_UNDEAD@4",
-		"name": "Master's Cryptcandle (Pristine)"
+		"name": "Master's Cryptcandle (Pristine)",
+		"weight": 3.8
 	},
 	{
 		"id": "T7_OFF_LAMP_UNDEAD",
-		"name": "Grandmaster's Cryptcandle"
+		"name": "Grandmaster's Cryptcandle",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_OFF_LAMP_UNDEAD@1",
-		"name": "Grandmaster's Cryptcandle (Uncommon)"
+		"name": "Grandmaster's Cryptcandle (Uncommon)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_OFF_LAMP_UNDEAD@2",
-		"name": "Grandmaster's Cryptcandle (Rare)"
+		"name": "Grandmaster's Cryptcandle (Rare)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_OFF_LAMP_UNDEAD@3",
-		"name": "Grandmaster's Cryptcandle (Exceptional)"
+		"name": "Grandmaster's Cryptcandle (Exceptional)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_OFF_LAMP_UNDEAD@4",
-		"name": "Grandmaster's Cryptcandle (Pristine)"
+		"name": "Grandmaster's Cryptcandle (Pristine)",
+		"weight": 5.7
 	},
 	{
 		"id": "T8_OFF_LAMP_UNDEAD",
-		"name": "Elder's Cryptcandle"
+		"name": "Elder's Cryptcandle",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_OFF_LAMP_UNDEAD@1",
-		"name": "Elder's Cryptcandle (Uncommon)"
+		"name": "Elder's Cryptcandle (Uncommon)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_OFF_LAMP_UNDEAD@2",
-		"name": "Elder's Cryptcandle (Rare)"
+		"name": "Elder's Cryptcandle (Rare)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_OFF_LAMP_UNDEAD@3",
-		"name": "Elder's Cryptcandle (Exceptional)"
+		"name": "Elder's Cryptcandle (Exceptional)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_OFF_LAMP_UNDEAD@4",
-		"name": "Elder's Cryptcandle (Pristine)"
+		"name": "Elder's Cryptcandle (Pristine)",
+		"weight": 8.5
 	},
 	{
 		"id": "T4_OFF_JESTERCANE_HELL",
-		"name": "Adept's Leering Cane"
+		"name": "Adept's Leering Cane",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_OFF_JESTERCANE_HELL@1",
-		"name": "Adept's Leering Cane (Uncommon)"
+		"name": "Adept's Leering Cane (Uncommon)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_OFF_JESTERCANE_HELL@2",
-		"name": "Adept's Leering Cane (Rare)"
+		"name": "Adept's Leering Cane (Rare)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_OFF_JESTERCANE_HELL@3",
-		"name": "Adept's Leering Cane (Exceptional)"
+		"name": "Adept's Leering Cane (Exceptional)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_OFF_JESTERCANE_HELL@4",
-		"name": "Adept's Leering Cane (Pristine)"
+		"name": "Adept's Leering Cane (Pristine)",
+		"weight": 1.7
 	},
 	{
 		"id": "T5_OFF_JESTERCANE_HELL",
-		"name": "Expert's Leering Cane"
+		"name": "Expert's Leering Cane",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_OFF_JESTERCANE_HELL@1",
-		"name": "Expert's Leering Cane (Uncommon)"
+		"name": "Expert's Leering Cane (Uncommon)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_OFF_JESTERCANE_HELL@2",
-		"name": "Expert's Leering Cane (Rare)"
+		"name": "Expert's Leering Cane (Rare)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_OFF_JESTERCANE_HELL@3",
-		"name": "Expert's Leering Cane (Exceptional)"
+		"name": "Expert's Leering Cane (Exceptional)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_OFF_JESTERCANE_HELL@4",
-		"name": "Expert's Leering Cane (Pristine)"
+		"name": "Expert's Leering Cane (Pristine)",
+		"weight": 2.5
 	},
 	{
 		"id": "T6_OFF_JESTERCANE_HELL",
-		"name": "Master's Leering Cane"
+		"name": "Master's Leering Cane",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_OFF_JESTERCANE_HELL@1",
-		"name": "Master's Leering Cane (Uncommon)"
+		"name": "Master's Leering Cane (Uncommon)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_OFF_JESTERCANE_HELL@2",
-		"name": "Master's Leering Cane (Rare)"
+		"name": "Master's Leering Cane (Rare)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_OFF_JESTERCANE_HELL@3",
-		"name": "Master's Leering Cane (Exceptional)"
+		"name": "Master's Leering Cane (Exceptional)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_OFF_JESTERCANE_HELL@4",
-		"name": "Master's Leering Cane (Pristine)"
+		"name": "Master's Leering Cane (Pristine)",
+		"weight": 3.8
 	},
 	{
 		"id": "T7_OFF_JESTERCANE_HELL",
-		"name": "Grandmaster's Leering Cane"
+		"name": "Grandmaster's Leering Cane",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_OFF_JESTERCANE_HELL@1",
-		"name": "Grandmaster's Leering Cane (Uncommon)"
+		"name": "Grandmaster's Leering Cane (Uncommon)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_OFF_JESTERCANE_HELL@2",
-		"name": "Grandmaster's Leering Cane (Rare)"
+		"name": "Grandmaster's Leering Cane (Rare)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_OFF_JESTERCANE_HELL@3",
-		"name": "Grandmaster's Leering Cane (Exceptional)"
+		"name": "Grandmaster's Leering Cane (Exceptional)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_OFF_JESTERCANE_HELL@4",
-		"name": "Grandmaster's Leering Cane (Pristine)"
+		"name": "Grandmaster's Leering Cane (Pristine)",
+		"weight": 5.7
 	},
 	{
 		"id": "T8_OFF_JESTERCANE_HELL",
-		"name": "Elder's Leering Cane"
+		"name": "Elder's Leering Cane",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_OFF_JESTERCANE_HELL@1",
-		"name": "Elder's Leering Cane (Uncommon)"
+		"name": "Elder's Leering Cane (Uncommon)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_OFF_JESTERCANE_HELL@2",
-		"name": "Elder's Leering Cane (Rare)"
+		"name": "Elder's Leering Cane (Rare)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_OFF_JESTERCANE_HELL@3",
-		"name": "Elder's Leering Cane (Exceptional)"
+		"name": "Elder's Leering Cane (Exceptional)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_OFF_JESTERCANE_HELL@4",
-		"name": "Elder's Leering Cane (Pristine)"
+		"name": "Elder's Leering Cane (Pristine)",
+		"weight": 8.5
 	},
 	{
 		"id": "T4_OFF_TORCH_CRYSTAL",
-		"name": "Adept's Blueflame Torch"
+		"name": "Adept's Blueflame Torch",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_OFF_TORCH_CRYSTAL@1",
-		"name": "Adept's Blueflame Torch (Uncommon)"
+		"name": "Adept's Blueflame Torch (Uncommon)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_OFF_TORCH_CRYSTAL@2",
-		"name": "Adept's Blueflame Torch (Rare)"
+		"name": "Adept's Blueflame Torch (Rare)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_OFF_TORCH_CRYSTAL@3",
-		"name": "Adept's Blueflame Torch (Exceptional)"
+		"name": "Adept's Blueflame Torch (Exceptional)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_OFF_TORCH_CRYSTAL@4",
-		"name": "Adept's Blueflame Torch (Pristine)"
+		"name": "Adept's Blueflame Torch (Pristine)",
+		"weight": 1.7
 	},
 	{
 		"id": "T5_OFF_TORCH_CRYSTAL",
-		"name": "Expert's Blueflame Torch"
+		"name": "Expert's Blueflame Torch",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_OFF_TORCH_CRYSTAL@1",
-		"name": "Expert's Blueflame Torch (Uncommon)"
+		"name": "Expert's Blueflame Torch (Uncommon)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_OFF_TORCH_CRYSTAL@2",
-		"name": "Expert's Blueflame Torch (Rare)"
+		"name": "Expert's Blueflame Torch (Rare)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_OFF_TORCH_CRYSTAL@3",
-		"name": "Expert's Blueflame Torch (Exceptional)"
+		"name": "Expert's Blueflame Torch (Exceptional)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_OFF_TORCH_CRYSTAL@4",
-		"name": "Expert's Blueflame Torch (Pristine)"
+		"name": "Expert's Blueflame Torch (Pristine)",
+		"weight": 2.5
 	},
 	{
 		"id": "T6_OFF_TORCH_CRYSTAL",
-		"name": "Master's Blueflame Torch"
+		"name": "Master's Blueflame Torch",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_OFF_TORCH_CRYSTAL@1",
-		"name": "Master's Blueflame Torch (Uncommon)"
+		"name": "Master's Blueflame Torch (Uncommon)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_OFF_TORCH_CRYSTAL@2",
-		"name": "Master's Blueflame Torch (Rare)"
+		"name": "Master's Blueflame Torch (Rare)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_OFF_TORCH_CRYSTAL@3",
-		"name": "Master's Blueflame Torch (Exceptional)"
+		"name": "Master's Blueflame Torch (Exceptional)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_OFF_TORCH_CRYSTAL@4",
-		"name": "Master's Blueflame Torch (Pristine)"
+		"name": "Master's Blueflame Torch (Pristine)",
+		"weight": 3.8
 	},
 	{
 		"id": "T7_OFF_TORCH_CRYSTAL",
-		"name": "Grandmaster's Blueflame Torch"
+		"name": "Grandmaster's Blueflame Torch",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_OFF_TORCH_CRYSTAL@1",
-		"name": "Grandmaster's Blueflame Torch (Uncommon)"
+		"name": "Grandmaster's Blueflame Torch (Uncommon)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_OFF_TORCH_CRYSTAL@2",
-		"name": "Grandmaster's Blueflame Torch (Rare)"
+		"name": "Grandmaster's Blueflame Torch (Rare)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_OFF_TORCH_CRYSTAL@3",
-		"name": "Grandmaster's Blueflame Torch (Exceptional)"
+		"name": "Grandmaster's Blueflame Torch (Exceptional)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_OFF_TORCH_CRYSTAL@4",
-		"name": "Grandmaster's Blueflame Torch (Pristine)"
+		"name": "Grandmaster's Blueflame Torch (Pristine)",
+		"weight": 5.7
 	},
 	{
 		"id": "T8_OFF_TORCH_CRYSTAL",
-		"name": "Elder's Blueflame Torch"
+		"name": "Elder's Blueflame Torch",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_OFF_TORCH_CRYSTAL@1",
-		"name": "Elder's Blueflame Torch (Uncommon)"
+		"name": "Elder's Blueflame Torch (Uncommon)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_OFF_TORCH_CRYSTAL@2",
-		"name": "Elder's Blueflame Torch (Rare)"
+		"name": "Elder's Blueflame Torch (Rare)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_OFF_TORCH_CRYSTAL@3",
-		"name": "Elder's Blueflame Torch (Exceptional)"
+		"name": "Elder's Blueflame Torch (Exceptional)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_OFF_TORCH_CRYSTAL@4",
-		"name": "Elder's Blueflame Torch (Pristine)"
+		"name": "Elder's Blueflame Torch (Pristine)",
+		"weight": 8.5
 	},
 	{
 		"id": "UNIQUE_INTERNAL_OFF_SCROLL_GAMEMASTER",
-		"name": "Scroll of the Law"
+		"name": "Scroll of the Law",
+		"weight": 1.7
 	},
 	{
 		"id": "UNIQUE_OFF_VANITY_WEDDING_DRESS",
-		"name": "Bridal Bouquet"
+		"name": "Bridal Bouquet",
+		"weight": 1.1
 	},
 	{
 		"id": "UNIQUE_OFF_VANITY_WEDDING_TUXEDO",
-		"name": "Wedding Ring"
+		"name": "Wedding Ring",
+		"weight": 1.1
 	},
 	{
 		"id": "UNIQUE_OFF_VANITY_PRIEST",
-		"name": "Monk's Walking Staff"
+		"name": "Monk's Walking Staff",
+		"weight": 1.1
 	},
 	{
 		"id": "UNIQUE_OFF_VANITY_INNKEEPER",
-		"name": "Innkeeper's Beer Mug"
+		"name": "Innkeeper's Beer Mug",
+		"weight": 1.1
 	},
 	{
 		"id": "UNIQUE_OFF_VANITY_PIRATE",
-		"name": "Navigator's Parrot Cage"
+		"name": "Navigator's Parrot Cage",
+		"weight": 1.1
 	},
 	{
 		"id": "UNIQUE_OFF_VANITY_CHARITY_MARCH2020",
-		"name": "Staff of Hermes"
+		"name": "Staff of Hermes",
+		"weight": 1.1
 	},
 	{
 		"id": "UNIQUE_OFF_VANITY_PUMPKIN_HAPPY",
-		"name": "Snack-O'-Lantern"
+		"name": "Snack-O'-Lantern",
+		"weight": 1.1
 	},
 	{
 		"id": "UNIQUE_OFF_VANITY_PUMPKIN_SAD",
-		"name": "Burp-O'-Lantern"
+		"name": "Burp-O'-Lantern",
+		"weight": 1.1
 	},
 	{
 		"id": "UNIQUE_OFF_VANITY_PUMPKIN_ANGRY",
-		"name": "Grump-O'-Lantern"
+		"name": "Grump-O'-Lantern",
+		"weight": 1.1
 	},
 	{
 		"id": "UNIQUE_OFF_VANITY_PIRATE_RED",
-		"name": "Navigator's Red Parrot Cage"
+		"name": "Navigator's Red Parrot Cage",
+		"weight": 1.1
 	},
 	{
 		"id": "UNIQUE_OFF_VANITY_PIRATE_GREEN",
-		"name": "Navigator's Green Parrot Cage"
+		"name": "Navigator's Green Parrot Cage",
+		"weight": 1.1
 	},
 	{
 		"id": "UNIQUE_OFF_VANITY_PIRATE_COCKATOO",
-		"name": "Navigator's Cockatoo Cage"
+		"name": "Navigator's Cockatoo Cage",
+		"weight": 1.1
 	},
 	{
 		"id": "UNIQUE_OFF_VANITY_PRIEST_RED",
-		"name": "Exiled Monk's Walking Staff"
+		"name": "Exiled Monk's Walking Staff",
+		"weight": 1.1
 	}
 ]

@@ -1,174 +1,217 @@
 [
 	{
 		"id": "T1_FISH_FRESHWATER_ALL_COMMON",
-		"name": "Common Rudd"
+		"name": "Common Rudd",
+		"weight": 0.05
 	},
 	{
 		"id": "T2_FISH_FRESHWATER_ALL_COMMON",
-		"name": "Striped Carp"
+		"name": "Striped Carp",
+		"weight": 0.1
 	},
 	{
 		"id": "T3_FISH_FRESHWATER_ALL_COMMON",
-		"name": "Albion Perch"
+		"name": "Albion Perch",
+		"weight": 0.16
 	},
 	{
 		"id": "T4_FISH_FRESHWATER_ALL_COMMON",
-		"name": "Bluescale Pike"
+		"name": "Bluescale Pike",
+		"weight": 0.21
 	},
 	{
 		"id": "T5_FISH_FRESHWATER_ALL_COMMON",
-		"name": "Spotted Trout"
+		"name": "Spotted Trout",
+		"weight": 0.31
 	},
 	{
 		"id": "T6_FISH_FRESHWATER_ALL_COMMON",
-		"name": "Brightscale Zander"
+		"name": "Brightscale Zander",
+		"weight": 0.41
 	},
 	{
 		"id": "T7_FISH_FRESHWATER_ALL_COMMON",
-		"name": "Danglemouth Catfish"
+		"name": "Danglemouth Catfish",
+		"weight": 0.52
 	},
 	{
 		"id": "T8_FISH_FRESHWATER_ALL_COMMON",
-		"name": "River Sturgeon"
+		"name": "River Sturgeon",
+		"weight": 0.73
 	},
 	{
 		"id": "T1_FISH_SALTWATER_ALL_COMMON",
-		"name": "Common Herring"
+		"name": "Common Herring",
+		"weight": 0.05
 	},
 	{
 		"id": "T2_FISH_SALTWATER_ALL_COMMON",
-		"name": "Striped Mackerel"
+		"name": "Striped Mackerel",
+		"weight": 0.1
 	},
 	{
 		"id": "T3_FISH_SALTWATER_ALL_COMMON",
-		"name": "Flatshore Plaice"
+		"name": "Flatshore Plaice",
+		"weight": 0.16
 	},
 	{
 		"id": "T4_FISH_SALTWATER_ALL_COMMON",
-		"name": "Bluescale Cod"
+		"name": "Bluescale Cod",
+		"weight": 0.21
 	},
 	{
 		"id": "T5_FISH_SALTWATER_ALL_COMMON",
-		"name": "Spotted Wolffish"
+		"name": "Spotted Wolffish",
+		"weight": 0.31
 	},
 	{
 		"id": "T6_FISH_SALTWATER_ALL_COMMON",
-		"name": "Strongfin Salmon"
+		"name": "Strongfin Salmon",
+		"weight": 0.41
 	},
 	{
 		"id": "T7_FISH_SALTWATER_ALL_COMMON",
-		"name": "Bluefin Tuna"
+		"name": "Bluefin Tuna",
+		"weight": 0.52
 	},
 	{
 		"id": "T8_FISH_SALTWATER_ALL_COMMON",
-		"name": "Steelscale Swordfish"
+		"name": "Steelscale Swordfish",
+		"weight": 0.73
 	},
 	{
 		"id": "T3_FISH_FRESHWATER_FOREST_RARE",
-		"name": "Greenriver Eel"
+		"name": "Greenriver Eel",
+		"weight": 0.52
 	},
 	{
 		"id": "T5_FISH_FRESHWATER_FOREST_RARE",
-		"name": "Redspring Eel"
+		"name": "Redspring Eel",
+		"weight": 0.78
 	},
 	{
 		"id": "T7_FISH_FRESHWATER_FOREST_RARE",
-		"name": "Deadwater Eel"
+		"name": "Deadwater Eel",
+		"weight": 1.04
 	},
 	{
 		"id": "T3_FISH_FRESHWATER_MOUNTAIN_RARE",
-		"name": "Upland Coldeye"
+		"name": "Upland Coldeye",
+		"weight": 0.52
 	},
 	{
 		"id": "T5_FISH_FRESHWATER_MOUNTAIN_RARE",
-		"name": "Mountain Blindeye"
+		"name": "Mountain Blindeye",
+		"weight": 0.78
 	},
 	{
 		"id": "T7_FISH_FRESHWATER_MOUNTAIN_RARE",
-		"name": "Frostpeak Deadeye"
+		"name": "Frostpeak Deadeye",
+		"weight": 1.04
 	},
 	{
 		"id": "T3_FISH_FRESHWATER_HIGHLANDS_RARE",
-		"name": "Stonestream Lurcher"
+		"name": "Stonestream Lurcher",
+		"weight": 0.52
 	},
 	{
 		"id": "T5_FISH_FRESHWATER_HIGHLANDS_RARE",
-		"name": "Rushwater Lurcher"
+		"name": "Rushwater Lurcher",
+		"weight": 0.78
 	},
 	{
 		"id": "T7_FISH_FRESHWATER_HIGHLANDS_RARE",
-		"name": "Thunderfall Lurcher"
+		"name": "Thunderfall Lurcher",
+		"weight": 1.04
 	},
 	{
 		"id": "T3_FISH_FRESHWATER_STEPPE_RARE",
-		"name": "Lowriver Crab"
+		"name": "Lowriver Crab",
+		"weight": 0.52
 	},
 	{
 		"id": "T5_FISH_FRESHWATER_STEPPE_RARE",
-		"name": "Drybrook Crab"
+		"name": "Drybrook Crab",
+		"weight": 0.78
 	},
 	{
 		"id": "T7_FISH_FRESHWATER_STEPPE_RARE",
-		"name": "Dusthole Crab"
+		"name": "Dusthole Crab",
+		"weight": 1.04
 	},
 	{
 		"id": "T3_FISH_FRESHWATER_SWAMP_RARE",
-		"name": "Greenmoor Clam"
+		"name": "Greenmoor Clam",
+		"weight": 0.52
 	},
 	{
 		"id": "T5_FISH_FRESHWATER_SWAMP_RARE",
-		"name": "Murkwater Clam"
+		"name": "Murkwater Clam",
+		"weight": 0.78
 	},
 	{
 		"id": "T7_FISH_FRESHWATER_SWAMP_RARE",
-		"name": "Blackbog Clam"
+		"name": "Blackbog Clam",
+		"weight": 1.04
 	},
 	{
 		"id": "T3_FISH_SALTWATER_ALL_RARE",
-		"name": "Shallowshore Squid"
+		"name": "Shallowshore Squid",
+		"weight": 0.52
 	},
 	{
 		"id": "T5_FISH_SALTWATER_ALL_RARE",
-		"name": "Midwater Octopus"
+		"name": "Midwater Octopus",
+		"weight": 0.78
 	},
 	{
 		"id": "T7_FISH_SALTWATER_ALL_RARE",
-		"name": "Deepwater Kraken"
+		"name": "Deepwater Kraken",
+		"weight": 1.04
 	},
 	{
 		"id": "T3_FISH_FRESHWATER_AVALON_RARE",
-		"name": "Whitefog Snapper"
+		"name": "Whitefog Snapper",
+		"weight": 0.52
 	},
 	{
 		"id": "T5_FISH_FRESHWATER_AVALON_RARE",
-		"name": "Clearhaze Snapper"
+		"name": "Clearhaze Snapper",
+		"weight": 0.78
 	},
 	{
 		"id": "T7_FISH_FRESHWATER_AVALON_RARE",
-		"name": "Puremist Snapper"
+		"name": "Puremist Snapper",
+		"weight": 1.04
 	},
 	{
 		"id": "T1_SEAWEED",
-		"name": "Seaweed"
+		"name": "Seaweed",
+		"weight": 1
 	},
 	{
 		"id": "T8_FISH_SALTWATER_ALL_BOSS_SHARK",
-		"name": "Shark"
+		"name": "Shark",
+		"weight": 10.36
 	},
 	{
 		"id": "T1_FISHCHOPS",
-		"name": "Chopped Fish"
+		"name": "Chopped Fish",
+		"weight": 0.05
 	},
 	{
 		"id": "T1_FISHSAUCE_LEVEL1",
-		"name": "Basic Fish Sauce"
+		"name": "Basic Fish Sauce",
+		"weight": 1
 	},
 	{
 		"id": "T1_FISHSAUCE_LEVEL2",
-		"name": "Fancy Fish Sauce"
+		"name": "Fancy Fish Sauce",
+		"weight": 1.5
 	},
 	{
 		"id": "T1_FISHSAUCE_LEVEL3",
-		"name": "Special Fish Sauce"
+		"name": "Special Fish Sauce",
+		"weight": 2
 	}
 ]

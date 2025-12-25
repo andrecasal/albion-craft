@@ -380,6 +380,13 @@ async function syncDailyPrices(state: CollectorState): Promise<void> {
 	state.dailySyncTotal = 0
 
 	try {
+		// Clean up records older than 30 days (API retention period)
+		const thirtyDaysAgo = new Date()
+		thirtyDaysAgo.setDate(thirtyDaysAgo.getDate() - 30)
+		db.query('DELETE FROM daily_average_prices WHERE timestamp < ?').run(
+			thirtyDaysAgo.toISOString(),
+		)
+
 		const urls = buildBatchedUrls(
 			ALL_ITEM_IDS,
 			`${API_BASE_URL}/history/`,
@@ -527,6 +534,13 @@ async function syncSixHourPrices(state: CollectorState): Promise<void> {
 	state.sixHourSyncTotal = 0
 
 	try {
+		// Clean up records older than 30 days (API retention period)
+		const thirtyDaysAgo = new Date()
+		thirtyDaysAgo.setDate(thirtyDaysAgo.getDate() - 30)
+		db.query('DELETE FROM six_hour_average_prices WHERE timestamp < ?').run(
+			thirtyDaysAgo.toISOString(),
+		)
+
 		const urls = buildBatchedUrls(
 			ALL_ITEM_IDS,
 			`${API_BASE_URL}/history/`,
@@ -596,6 +610,13 @@ async function syncHourlyPrices(state: CollectorState): Promise<void> {
 	state.hourlySyncTotal = 0
 
 	try {
+		// Clean up records older than 5 days (API retention period)
+		const fiveDaysAgo = new Date()
+		fiveDaysAgo.setDate(fiveDaysAgo.getDate() - 5)
+		db.query('DELETE FROM hourly_average_prices WHERE timestamp < ?').run(
+			fiveDaysAgo.toISOString(),
+		)
+
 		const urls = buildBatchedUrls(
 			ALL_ITEM_IDS,
 			`${API_BASE_URL}/history/`,

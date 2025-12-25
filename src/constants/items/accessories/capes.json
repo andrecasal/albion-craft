@@ -1,2102 +1,2627 @@
 [
 	{
 		"id": "T2_CAPE",
-		"name": "Novice's Cape"
+		"name": "Novice's Cape",
+		"weight": 0.8
 	},
 	{
 		"id": "T3_CAPE",
-		"name": "Journeyman's Cape"
+		"name": "Journeyman's Cape",
+		"weight": 1.1
 	},
 	{
 		"id": "T4_CAPE",
-		"name": "Adept's Cape"
+		"name": "Adept's Cape",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_CAPE@1",
-		"name": "Adept's Cape (Uncommon)"
+		"name": "Adept's Cape (Uncommon)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_CAPE@2",
-		"name": "Adept's Cape (Rare)"
+		"name": "Adept's Cape (Rare)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_CAPE@3",
-		"name": "Adept's Cape (Exceptional)"
+		"name": "Adept's Cape (Exceptional)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_CAPE@4",
-		"name": "Adept's Cape (Pristine)"
+		"name": "Adept's Cape (Pristine)",
+		"weight": 1.7
 	},
 	{
 		"id": "T5_CAPE",
-		"name": "Expert's Cape"
+		"name": "Expert's Cape",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_CAPE@1",
-		"name": "Expert's Cape (Uncommon)"
+		"name": "Expert's Cape (Uncommon)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_CAPE@2",
-		"name": "Expert's Cape (Rare)"
+		"name": "Expert's Cape (Rare)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_CAPE@3",
-		"name": "Expert's Cape (Exceptional)"
+		"name": "Expert's Cape (Exceptional)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_CAPE@4",
-		"name": "Expert's Cape (Pristine)"
+		"name": "Expert's Cape (Pristine)",
+		"weight": 2.5
 	},
 	{
 		"id": "T6_CAPE",
-		"name": "Master's Cape"
+		"name": "Master's Cape",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_CAPE@1",
-		"name": "Master's Cape (Uncommon)"
+		"name": "Master's Cape (Uncommon)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_CAPE@2",
-		"name": "Master's Cape (Rare)"
+		"name": "Master's Cape (Rare)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_CAPE@3",
-		"name": "Master's Cape (Exceptional)"
+		"name": "Master's Cape (Exceptional)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_CAPE@4",
-		"name": "Master's Cape (Pristine)"
+		"name": "Master's Cape (Pristine)",
+		"weight": 3.8
 	},
 	{
 		"id": "T7_CAPE",
-		"name": "Grandmaster's Cape"
+		"name": "Grandmaster's Cape",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_CAPE@1",
-		"name": "Grandmaster's Cape (Uncommon)"
+		"name": "Grandmaster's Cape (Uncommon)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_CAPE@2",
-		"name": "Grandmaster's Cape (Rare)"
+		"name": "Grandmaster's Cape (Rare)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_CAPE@3",
-		"name": "Grandmaster's Cape (Exceptional)"
+		"name": "Grandmaster's Cape (Exceptional)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_CAPE@4",
-		"name": "Grandmaster's Cape (Pristine)"
+		"name": "Grandmaster's Cape (Pristine)",
+		"weight": 5.7
 	},
 	{
 		"id": "T8_CAPE",
-		"name": "Elder's Cape"
+		"name": "Elder's Cape",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_CAPE@1",
-		"name": "Elder's Cape (Uncommon)"
+		"name": "Elder's Cape (Uncommon)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_CAPE@2",
-		"name": "Elder's Cape (Rare)"
+		"name": "Elder's Cape (Rare)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_CAPE@3",
-		"name": "Elder's Cape (Exceptional)"
+		"name": "Elder's Cape (Exceptional)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_CAPE@4",
-		"name": "Elder's Cape (Pristine)"
+		"name": "Elder's Cape (Pristine)",
+		"weight": 8.5
 	},
 	{
 		"id": "T4_CAPEITEM_FW_BRIDGEWATCH",
-		"name": "Adept's Bridgewatch Cape"
+		"name": "Adept's Bridgewatch Cape",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_CAPEITEM_FW_BRIDGEWATCH@1",
-		"name": "Adept's Bridgewatch Cape (Uncommon)"
+		"name": "Adept's Bridgewatch Cape (Uncommon)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_CAPEITEM_FW_BRIDGEWATCH@2",
-		"name": "Adept's Bridgewatch Cape (Rare)"
+		"name": "Adept's Bridgewatch Cape (Rare)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_CAPEITEM_FW_BRIDGEWATCH@3",
-		"name": "Adept's Bridgewatch Cape (Exceptional)"
+		"name": "Adept's Bridgewatch Cape (Exceptional)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_CAPEITEM_FW_BRIDGEWATCH@4",
-		"name": "Adept's Bridgewatch Cape (Pristine)"
+		"name": "Adept's Bridgewatch Cape (Pristine)",
+		"weight": 1.7
 	},
 	{
 		"id": "T5_CAPEITEM_FW_BRIDGEWATCH",
-		"name": "Expert's Bridgewatch Cape"
+		"name": "Expert's Bridgewatch Cape",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_CAPEITEM_FW_BRIDGEWATCH@1",
-		"name": "Expert's Bridgewatch Cape (Uncommon)"
+		"name": "Expert's Bridgewatch Cape (Uncommon)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_CAPEITEM_FW_BRIDGEWATCH@2",
-		"name": "Expert's Bridgewatch Cape (Rare)"
+		"name": "Expert's Bridgewatch Cape (Rare)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_CAPEITEM_FW_BRIDGEWATCH@3",
-		"name": "Expert's Bridgewatch Cape (Exceptional)"
+		"name": "Expert's Bridgewatch Cape (Exceptional)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_CAPEITEM_FW_BRIDGEWATCH@4",
-		"name": "Expert's Bridgewatch Cape (Pristine)"
+		"name": "Expert's Bridgewatch Cape (Pristine)",
+		"weight": 2.5
 	},
 	{
 		"id": "T6_CAPEITEM_FW_BRIDGEWATCH",
-		"name": "Master's Bridgewatch Cape"
+		"name": "Master's Bridgewatch Cape",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_CAPEITEM_FW_BRIDGEWATCH@1",
-		"name": "Master's Bridgewatch Cape (Uncommon)"
+		"name": "Master's Bridgewatch Cape (Uncommon)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_CAPEITEM_FW_BRIDGEWATCH@2",
-		"name": "Master's Bridgewatch Cape (Rare)"
+		"name": "Master's Bridgewatch Cape (Rare)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_CAPEITEM_FW_BRIDGEWATCH@3",
-		"name": "Master's Bridgewatch Cape (Exceptional)"
+		"name": "Master's Bridgewatch Cape (Exceptional)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_CAPEITEM_FW_BRIDGEWATCH@4",
-		"name": "Master's Bridgewatch Cape (Pristine)"
+		"name": "Master's Bridgewatch Cape (Pristine)",
+		"weight": 3.8
 	},
 	{
 		"id": "T7_CAPEITEM_FW_BRIDGEWATCH",
-		"name": "Grandmaster's Bridgewatch Cape"
+		"name": "Grandmaster's Bridgewatch Cape",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_CAPEITEM_FW_BRIDGEWATCH@1",
-		"name": "Grandmaster's Bridgewatch Cape (Uncommon)"
+		"name": "Grandmaster's Bridgewatch Cape (Uncommon)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_CAPEITEM_FW_BRIDGEWATCH@2",
-		"name": "Grandmaster's Bridgewatch Cape (Rare)"
+		"name": "Grandmaster's Bridgewatch Cape (Rare)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_CAPEITEM_FW_BRIDGEWATCH@3",
-		"name": "Grandmaster's Bridgewatch Cape (Exceptional)"
+		"name": "Grandmaster's Bridgewatch Cape (Exceptional)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_CAPEITEM_FW_BRIDGEWATCH@4",
-		"name": "Grandmaster's Bridgewatch Cape (Pristine)"
+		"name": "Grandmaster's Bridgewatch Cape (Pristine)",
+		"weight": 5.7
 	},
 	{
 		"id": "T8_CAPEITEM_FW_BRIDGEWATCH",
-		"name": "Elder's Bridgewatch Cape"
+		"name": "Elder's Bridgewatch Cape",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_CAPEITEM_FW_BRIDGEWATCH@1",
-		"name": "Elder's Bridgewatch Cape (Uncommon)"
+		"name": "Elder's Bridgewatch Cape (Uncommon)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_CAPEITEM_FW_BRIDGEWATCH@2",
-		"name": "Elder's Bridgewatch Cape (Rare)"
+		"name": "Elder's Bridgewatch Cape (Rare)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_CAPEITEM_FW_BRIDGEWATCH@3",
-		"name": "Elder's Bridgewatch Cape (Exceptional)"
+		"name": "Elder's Bridgewatch Cape (Exceptional)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_CAPEITEM_FW_BRIDGEWATCH@4",
-		"name": "Elder's Bridgewatch Cape (Pristine)"
+		"name": "Elder's Bridgewatch Cape (Pristine)",
+		"weight": 8.5
 	},
 	{
 		"id": "T4_CAPEITEM_FW_FORTSTERLING",
-		"name": "Adept's Fort Sterling Cape"
+		"name": "Adept's Fort Sterling Cape",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_CAPEITEM_FW_FORTSTERLING@1",
-		"name": "Adept's Fort Sterling Cape (Uncommon)"
+		"name": "Adept's Fort Sterling Cape (Uncommon)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_CAPEITEM_FW_FORTSTERLING@2",
-		"name": "Adept's Fort Sterling Cape (Rare)"
+		"name": "Adept's Fort Sterling Cape (Rare)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_CAPEITEM_FW_FORTSTERLING@3",
-		"name": "Adept's Fort Sterling Cape (Exceptional)"
+		"name": "Adept's Fort Sterling Cape (Exceptional)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_CAPEITEM_FW_FORTSTERLING@4",
-		"name": "Adept's Fort Sterling Cape (Pristine)"
+		"name": "Adept's Fort Sterling Cape (Pristine)",
+		"weight": 1.7
 	},
 	{
 		"id": "T5_CAPEITEM_FW_FORTSTERLING",
-		"name": "Expert's Fort Sterling Cape"
+		"name": "Expert's Fort Sterling Cape",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_CAPEITEM_FW_FORTSTERLING@1",
-		"name": "Expert's Fort Sterling Cape (Uncommon)"
+		"name": "Expert's Fort Sterling Cape (Uncommon)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_CAPEITEM_FW_FORTSTERLING@2",
-		"name": "Expert's Fort Sterling Cape (Rare)"
+		"name": "Expert's Fort Sterling Cape (Rare)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_CAPEITEM_FW_FORTSTERLING@3",
-		"name": "Expert's Fort Sterling Cape (Exceptional)"
+		"name": "Expert's Fort Sterling Cape (Exceptional)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_CAPEITEM_FW_FORTSTERLING@4",
-		"name": "Expert's Fort Sterling Cape (Pristine)"
+		"name": "Expert's Fort Sterling Cape (Pristine)",
+		"weight": 2.5
 	},
 	{
 		"id": "T6_CAPEITEM_FW_FORTSTERLING",
-		"name": "Master's Fort Sterling Cape"
+		"name": "Master's Fort Sterling Cape",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_CAPEITEM_FW_FORTSTERLING@1",
-		"name": "Master's Fort Sterling Cape (Uncommon)"
+		"name": "Master's Fort Sterling Cape (Uncommon)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_CAPEITEM_FW_FORTSTERLING@2",
-		"name": "Master's Fort Sterling Cape (Rare)"
+		"name": "Master's Fort Sterling Cape (Rare)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_CAPEITEM_FW_FORTSTERLING@3",
-		"name": "Master's Fort Sterling Cape (Exceptional)"
+		"name": "Master's Fort Sterling Cape (Exceptional)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_CAPEITEM_FW_FORTSTERLING@4",
-		"name": "Master's Fort Sterling Cape (Pristine)"
+		"name": "Master's Fort Sterling Cape (Pristine)",
+		"weight": 3.8
 	},
 	{
 		"id": "T7_CAPEITEM_FW_FORTSTERLING",
-		"name": "Grandmaster's Fort Sterling Cape"
+		"name": "Grandmaster's Fort Sterling Cape",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_CAPEITEM_FW_FORTSTERLING@1",
-		"name": "Grandmaster's Fort Sterling Cape (Uncommon)"
+		"name": "Grandmaster's Fort Sterling Cape (Uncommon)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_CAPEITEM_FW_FORTSTERLING@2",
-		"name": "Grandmaster's Fort Sterling Cape (Rare)"
+		"name": "Grandmaster's Fort Sterling Cape (Rare)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_CAPEITEM_FW_FORTSTERLING@3",
-		"name": "Grandmaster's Fort Sterling Cape (Exceptional)"
+		"name": "Grandmaster's Fort Sterling Cape (Exceptional)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_CAPEITEM_FW_FORTSTERLING@4",
-		"name": "Grandmaster's Fort Sterling Cape (Pristine)"
+		"name": "Grandmaster's Fort Sterling Cape (Pristine)",
+		"weight": 5.7
 	},
 	{
 		"id": "T8_CAPEITEM_FW_FORTSTERLING",
-		"name": "Elder's Fort Sterling Cape"
+		"name": "Elder's Fort Sterling Cape",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_CAPEITEM_FW_FORTSTERLING@1",
-		"name": "Elder's Fort Sterling Cape (Uncommon)"
+		"name": "Elder's Fort Sterling Cape (Uncommon)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_CAPEITEM_FW_FORTSTERLING@2",
-		"name": "Elder's Fort Sterling Cape (Rare)"
+		"name": "Elder's Fort Sterling Cape (Rare)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_CAPEITEM_FW_FORTSTERLING@3",
-		"name": "Elder's Fort Sterling Cape (Exceptional)"
+		"name": "Elder's Fort Sterling Cape (Exceptional)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_CAPEITEM_FW_FORTSTERLING@4",
-		"name": "Elder's Fort Sterling Cape (Pristine)"
+		"name": "Elder's Fort Sterling Cape (Pristine)",
+		"weight": 8.5
 	},
 	{
 		"id": "T4_CAPEITEM_FW_LYMHURST",
-		"name": "Adept's Lymhurst Cape"
+		"name": "Adept's Lymhurst Cape",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_CAPEITEM_FW_LYMHURST@1",
-		"name": "Adept's Lymhurst Cape (Uncommon)"
+		"name": "Adept's Lymhurst Cape (Uncommon)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_CAPEITEM_FW_LYMHURST@2",
-		"name": "Adept's Lymhurst Cape (Rare)"
+		"name": "Adept's Lymhurst Cape (Rare)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_CAPEITEM_FW_LYMHURST@3",
-		"name": "Adept's Lymhurst Cape (Exceptional)"
+		"name": "Adept's Lymhurst Cape (Exceptional)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_CAPEITEM_FW_LYMHURST@4",
-		"name": "Adept's Lymhurst Cape (Pristine)"
+		"name": "Adept's Lymhurst Cape (Pristine)",
+		"weight": 1.7
 	},
 	{
 		"id": "T5_CAPEITEM_FW_LYMHURST",
-		"name": "Expert's Lymhurst Cape"
+		"name": "Expert's Lymhurst Cape",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_CAPEITEM_FW_LYMHURST@1",
-		"name": "Expert's Lymhurst Cape (Uncommon)"
+		"name": "Expert's Lymhurst Cape (Uncommon)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_CAPEITEM_FW_LYMHURST@2",
-		"name": "Expert's Lymhurst Cape (Rare)"
+		"name": "Expert's Lymhurst Cape (Rare)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_CAPEITEM_FW_LYMHURST@3",
-		"name": "Expert's Lymhurst Cape (Exceptional)"
+		"name": "Expert's Lymhurst Cape (Exceptional)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_CAPEITEM_FW_LYMHURST@4",
-		"name": "Expert's Lymhurst Cape (Pristine)"
+		"name": "Expert's Lymhurst Cape (Pristine)",
+		"weight": 2.5
 	},
 	{
 		"id": "T6_CAPEITEM_FW_LYMHURST",
-		"name": "Master's Lymhurst Cape"
+		"name": "Master's Lymhurst Cape",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_CAPEITEM_FW_LYMHURST@1",
-		"name": "Master's Lymhurst Cape (Uncommon)"
+		"name": "Master's Lymhurst Cape (Uncommon)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_CAPEITEM_FW_LYMHURST@2",
-		"name": "Master's Lymhurst Cape (Rare)"
+		"name": "Master's Lymhurst Cape (Rare)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_CAPEITEM_FW_LYMHURST@3",
-		"name": "Master's Lymhurst Cape (Exceptional)"
+		"name": "Master's Lymhurst Cape (Exceptional)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_CAPEITEM_FW_LYMHURST@4",
-		"name": "Master's Lymhurst Cape (Pristine)"
+		"name": "Master's Lymhurst Cape (Pristine)",
+		"weight": 3.8
 	},
 	{
 		"id": "T7_CAPEITEM_FW_LYMHURST",
-		"name": "Grandmaster's Lymhurst Cape"
+		"name": "Grandmaster's Lymhurst Cape",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_CAPEITEM_FW_LYMHURST@1",
-		"name": "Grandmaster's Lymhurst Cape (Uncommon)"
+		"name": "Grandmaster's Lymhurst Cape (Uncommon)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_CAPEITEM_FW_LYMHURST@2",
-		"name": "Grandmaster's Lymhurst Cape (Rare)"
+		"name": "Grandmaster's Lymhurst Cape (Rare)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_CAPEITEM_FW_LYMHURST@3",
-		"name": "Grandmaster's Lymhurst Cape (Exceptional)"
+		"name": "Grandmaster's Lymhurst Cape (Exceptional)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_CAPEITEM_FW_LYMHURST@4",
-		"name": "Grandmaster's Lymhurst Cape (Pristine)"
+		"name": "Grandmaster's Lymhurst Cape (Pristine)",
+		"weight": 5.7
 	},
 	{
 		"id": "T8_CAPEITEM_FW_LYMHURST",
-		"name": "Elder's Lymhurst Cape"
+		"name": "Elder's Lymhurst Cape",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_CAPEITEM_FW_LYMHURST@1",
-		"name": "Elder's Lymhurst Cape (Uncommon)"
+		"name": "Elder's Lymhurst Cape (Uncommon)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_CAPEITEM_FW_LYMHURST@2",
-		"name": "Elder's Lymhurst Cape (Rare)"
+		"name": "Elder's Lymhurst Cape (Rare)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_CAPEITEM_FW_LYMHURST@3",
-		"name": "Elder's Lymhurst Cape (Exceptional)"
+		"name": "Elder's Lymhurst Cape (Exceptional)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_CAPEITEM_FW_LYMHURST@4",
-		"name": "Elder's Lymhurst Cape (Pristine)"
+		"name": "Elder's Lymhurst Cape (Pristine)",
+		"weight": 8.5
 	},
 	{
 		"id": "T4_CAPEITEM_FW_MARTLOCK",
-		"name": "Adept's Martlock Cape"
+		"name": "Adept's Martlock Cape",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_CAPEITEM_FW_MARTLOCK@1",
-		"name": "Adept's Martlock Cape (Uncommon)"
+		"name": "Adept's Martlock Cape (Uncommon)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_CAPEITEM_FW_MARTLOCK@2",
-		"name": "Adept's Martlock Cape (Rare)"
+		"name": "Adept's Martlock Cape (Rare)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_CAPEITEM_FW_MARTLOCK@3",
-		"name": "Adept's Martlock Cape (Exceptional)"
+		"name": "Adept's Martlock Cape (Exceptional)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_CAPEITEM_FW_MARTLOCK@4",
-		"name": "Adept's Martlock Cape (Pristine)"
+		"name": "Adept's Martlock Cape (Pristine)",
+		"weight": 1.7
 	},
 	{
 		"id": "T5_CAPEITEM_FW_MARTLOCK",
-		"name": "Expert's Martlock Cape"
+		"name": "Expert's Martlock Cape",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_CAPEITEM_FW_MARTLOCK@1",
-		"name": "Expert's Martlock Cape (Uncommon)"
+		"name": "Expert's Martlock Cape (Uncommon)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_CAPEITEM_FW_MARTLOCK@2",
-		"name": "Expert's Martlock Cape (Rare)"
+		"name": "Expert's Martlock Cape (Rare)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_CAPEITEM_FW_MARTLOCK@3",
-		"name": "Expert's Martlock Cape (Exceptional)"
+		"name": "Expert's Martlock Cape (Exceptional)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_CAPEITEM_FW_MARTLOCK@4",
-		"name": "Expert's Martlock Cape (Pristine)"
+		"name": "Expert's Martlock Cape (Pristine)",
+		"weight": 2.5
 	},
 	{
 		"id": "T6_CAPEITEM_FW_MARTLOCK",
-		"name": "Master's Martlock Cape"
+		"name": "Master's Martlock Cape",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_CAPEITEM_FW_MARTLOCK@1",
-		"name": "Master's Martlock Cape (Uncommon)"
+		"name": "Master's Martlock Cape (Uncommon)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_CAPEITEM_FW_MARTLOCK@2",
-		"name": "Master's Martlock Cape (Rare)"
+		"name": "Master's Martlock Cape (Rare)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_CAPEITEM_FW_MARTLOCK@3",
-		"name": "Master's Martlock Cape (Exceptional)"
+		"name": "Master's Martlock Cape (Exceptional)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_CAPEITEM_FW_MARTLOCK@4",
-		"name": "Master's Martlock Cape (Pristine)"
+		"name": "Master's Martlock Cape (Pristine)",
+		"weight": 3.8
 	},
 	{
 		"id": "T7_CAPEITEM_FW_MARTLOCK",
-		"name": "Grandmaster's Martlock Cape"
+		"name": "Grandmaster's Martlock Cape",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_CAPEITEM_FW_MARTLOCK@1",
-		"name": "Grandmaster's Martlock Cape (Uncommon)"
+		"name": "Grandmaster's Martlock Cape (Uncommon)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_CAPEITEM_FW_MARTLOCK@2",
-		"name": "Grandmaster's Martlock Cape (Rare)"
+		"name": "Grandmaster's Martlock Cape (Rare)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_CAPEITEM_FW_MARTLOCK@3",
-		"name": "Grandmaster's Martlock Cape (Exceptional)"
+		"name": "Grandmaster's Martlock Cape (Exceptional)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_CAPEITEM_FW_MARTLOCK@4",
-		"name": "Grandmaster's Martlock Cape (Pristine)"
+		"name": "Grandmaster's Martlock Cape (Pristine)",
+		"weight": 5.7
 	},
 	{
 		"id": "T8_CAPEITEM_FW_MARTLOCK",
-		"name": "Elder's Martlock Cape"
+		"name": "Elder's Martlock Cape",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_CAPEITEM_FW_MARTLOCK@1",
-		"name": "Elder's Martlock Cape (Uncommon)"
+		"name": "Elder's Martlock Cape (Uncommon)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_CAPEITEM_FW_MARTLOCK@2",
-		"name": "Elder's Martlock Cape (Rare)"
+		"name": "Elder's Martlock Cape (Rare)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_CAPEITEM_FW_MARTLOCK@3",
-		"name": "Elder's Martlock Cape (Exceptional)"
+		"name": "Elder's Martlock Cape (Exceptional)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_CAPEITEM_FW_MARTLOCK@4",
-		"name": "Elder's Martlock Cape (Pristine)"
+		"name": "Elder's Martlock Cape (Pristine)",
+		"weight": 8.5
 	},
 	{
 		"id": "T4_CAPEITEM_FW_THETFORD",
-		"name": "Adept's Thetford Cape"
+		"name": "Adept's Thetford Cape",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_CAPEITEM_FW_THETFORD@1",
-		"name": "Adept's Thetford Cape (Uncommon)"
+		"name": "Adept's Thetford Cape (Uncommon)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_CAPEITEM_FW_THETFORD@2",
-		"name": "Adept's Thetford Cape (Rare)"
+		"name": "Adept's Thetford Cape (Rare)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_CAPEITEM_FW_THETFORD@3",
-		"name": "Adept's Thetford Cape (Exceptional)"
+		"name": "Adept's Thetford Cape (Exceptional)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_CAPEITEM_FW_THETFORD@4",
-		"name": "Adept's Thetford Cape (Pristine)"
+		"name": "Adept's Thetford Cape (Pristine)",
+		"weight": 1.7
 	},
 	{
 		"id": "T5_CAPEITEM_FW_THETFORD",
-		"name": "Expert's Thetford Cape"
+		"name": "Expert's Thetford Cape",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_CAPEITEM_FW_THETFORD@1",
-		"name": "Expert's Thetford Cape (Uncommon)"
+		"name": "Expert's Thetford Cape (Uncommon)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_CAPEITEM_FW_THETFORD@2",
-		"name": "Expert's Thetford Cape (Rare)"
+		"name": "Expert's Thetford Cape (Rare)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_CAPEITEM_FW_THETFORD@3",
-		"name": "Expert's Thetford Cape (Exceptional)"
+		"name": "Expert's Thetford Cape (Exceptional)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_CAPEITEM_FW_THETFORD@4",
-		"name": "Expert's Thetford Cape (Pristine)"
+		"name": "Expert's Thetford Cape (Pristine)",
+		"weight": 2.5
 	},
 	{
 		"id": "T6_CAPEITEM_FW_THETFORD",
-		"name": "Master's Thetford Cape"
+		"name": "Master's Thetford Cape",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_CAPEITEM_FW_THETFORD@1",
-		"name": "Master's Thetford Cape (Uncommon)"
+		"name": "Master's Thetford Cape (Uncommon)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_CAPEITEM_FW_THETFORD@2",
-		"name": "Master's Thetford Cape (Rare)"
+		"name": "Master's Thetford Cape (Rare)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_CAPEITEM_FW_THETFORD@3",
-		"name": "Master's Thetford Cape (Exceptional)"
+		"name": "Master's Thetford Cape (Exceptional)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_CAPEITEM_FW_THETFORD@4",
-		"name": "Master's Thetford Cape (Pristine)"
+		"name": "Master's Thetford Cape (Pristine)",
+		"weight": 3.8
 	},
 	{
 		"id": "T7_CAPEITEM_FW_THETFORD",
-		"name": "Grandmaster's Thetford Cape"
+		"name": "Grandmaster's Thetford Cape",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_CAPEITEM_FW_THETFORD@1",
-		"name": "Grandmaster's Thetford Cape (Uncommon)"
+		"name": "Grandmaster's Thetford Cape (Uncommon)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_CAPEITEM_FW_THETFORD@2",
-		"name": "Grandmaster's Thetford Cape (Rare)"
+		"name": "Grandmaster's Thetford Cape (Rare)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_CAPEITEM_FW_THETFORD@3",
-		"name": "Grandmaster's Thetford Cape (Exceptional)"
+		"name": "Grandmaster's Thetford Cape (Exceptional)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_CAPEITEM_FW_THETFORD@4",
-		"name": "Grandmaster's Thetford Cape (Pristine)"
+		"name": "Grandmaster's Thetford Cape (Pristine)",
+		"weight": 5.7
 	},
 	{
 		"id": "T8_CAPEITEM_FW_THETFORD",
-		"name": "Elder's Thetford Cape"
+		"name": "Elder's Thetford Cape",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_CAPEITEM_FW_THETFORD@1",
-		"name": "Elder's Thetford Cape (Uncommon)"
+		"name": "Elder's Thetford Cape (Uncommon)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_CAPEITEM_FW_THETFORD@2",
-		"name": "Elder's Thetford Cape (Rare)"
+		"name": "Elder's Thetford Cape (Rare)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_CAPEITEM_FW_THETFORD@3",
-		"name": "Elder's Thetford Cape (Exceptional)"
+		"name": "Elder's Thetford Cape (Exceptional)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_CAPEITEM_FW_THETFORD@4",
-		"name": "Elder's Thetford Cape (Pristine)"
+		"name": "Elder's Thetford Cape (Pristine)",
+		"weight": 8.5
 	},
 	{
 		"id": "T4_CAPEITEM_FW_CAERLEON",
-		"name": "Adept's Caerleon Cape"
+		"name": "Adept's Caerleon Cape",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_CAPEITEM_FW_CAERLEON@1",
-		"name": "Adept's Caerleon Cape (Uncommon)"
+		"name": "Adept's Caerleon Cape (Uncommon)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_CAPEITEM_FW_CAERLEON@2",
-		"name": "Adept's Caerleon Cape (Rare)"
+		"name": "Adept's Caerleon Cape (Rare)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_CAPEITEM_FW_CAERLEON@3",
-		"name": "Adept's Caerleon Cape (Exceptional)"
+		"name": "Adept's Caerleon Cape (Exceptional)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_CAPEITEM_FW_CAERLEON@4",
-		"name": "Adept's Caerleon Cape (Pristine)"
+		"name": "Adept's Caerleon Cape (Pristine)",
+		"weight": 1.7
 	},
 	{
 		"id": "T5_CAPEITEM_FW_CAERLEON",
-		"name": "Expert's Caerleon Cape"
+		"name": "Expert's Caerleon Cape",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_CAPEITEM_FW_CAERLEON@1",
-		"name": "Expert's Caerleon Cape (Uncommon)"
+		"name": "Expert's Caerleon Cape (Uncommon)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_CAPEITEM_FW_CAERLEON@2",
-		"name": "Expert's Caerleon Cape (Rare)"
+		"name": "Expert's Caerleon Cape (Rare)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_CAPEITEM_FW_CAERLEON@3",
-		"name": "Expert's Caerleon Cape (Exceptional)"
+		"name": "Expert's Caerleon Cape (Exceptional)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_CAPEITEM_FW_CAERLEON@4",
-		"name": "Expert's Caerleon Cape (Pristine)"
+		"name": "Expert's Caerleon Cape (Pristine)",
+		"weight": 2.5
 	},
 	{
 		"id": "T6_CAPEITEM_FW_CAERLEON",
-		"name": "Master's Caerleon Cape"
+		"name": "Master's Caerleon Cape",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_CAPEITEM_FW_CAERLEON@1",
-		"name": "Master's Caerleon Cape (Uncommon)"
+		"name": "Master's Caerleon Cape (Uncommon)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_CAPEITEM_FW_CAERLEON@2",
-		"name": "Master's Caerleon Cape (Rare)"
+		"name": "Master's Caerleon Cape (Rare)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_CAPEITEM_FW_CAERLEON@3",
-		"name": "Master's Caerleon Cape (Exceptional)"
+		"name": "Master's Caerleon Cape (Exceptional)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_CAPEITEM_FW_CAERLEON@4",
-		"name": "Master's Caerleon Cape (Pristine)"
+		"name": "Master's Caerleon Cape (Pristine)",
+		"weight": 3.8
 	},
 	{
 		"id": "T7_CAPEITEM_FW_CAERLEON",
-		"name": "Grandmaster's Caerleon Cape"
+		"name": "Grandmaster's Caerleon Cape",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_CAPEITEM_FW_CAERLEON@1",
-		"name": "Grandmaster's Caerleon Cape (Uncommon)"
+		"name": "Grandmaster's Caerleon Cape (Uncommon)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_CAPEITEM_FW_CAERLEON@2",
-		"name": "Grandmaster's Caerleon Cape (Rare)"
+		"name": "Grandmaster's Caerleon Cape (Rare)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_CAPEITEM_FW_CAERLEON@3",
-		"name": "Grandmaster's Caerleon Cape (Exceptional)"
+		"name": "Grandmaster's Caerleon Cape (Exceptional)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_CAPEITEM_FW_CAERLEON@4",
-		"name": "Grandmaster's Caerleon Cape (Pristine)"
+		"name": "Grandmaster's Caerleon Cape (Pristine)",
+		"weight": 5.7
 	},
 	{
 		"id": "T8_CAPEITEM_FW_CAERLEON",
-		"name": "Elder's Caerleon Cape"
+		"name": "Elder's Caerleon Cape",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_CAPEITEM_FW_CAERLEON@1",
-		"name": "Elder's Caerleon Cape (Uncommon)"
+		"name": "Elder's Caerleon Cape (Uncommon)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_CAPEITEM_FW_CAERLEON@2",
-		"name": "Elder's Caerleon Cape (Rare)"
+		"name": "Elder's Caerleon Cape (Rare)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_CAPEITEM_FW_CAERLEON@3",
-		"name": "Elder's Caerleon Cape (Exceptional)"
+		"name": "Elder's Caerleon Cape (Exceptional)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_CAPEITEM_FW_CAERLEON@4",
-		"name": "Elder's Caerleon Cape (Pristine)"
+		"name": "Elder's Caerleon Cape (Pristine)",
+		"weight": 8.5
 	},
 	{
 		"id": "T4_CAPEITEM_FW_BRECILIEN",
-		"name": "Adept's Brecilien Cape"
+		"name": "Adept's Brecilien Cape",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_CAPEITEM_FW_BRECILIEN@1",
-		"name": "Adept's Brecilien Cape (Uncommon)"
+		"name": "Adept's Brecilien Cape (Uncommon)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_CAPEITEM_FW_BRECILIEN@2",
-		"name": "Adept's Brecilien Cape (Rare)"
+		"name": "Adept's Brecilien Cape (Rare)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_CAPEITEM_FW_BRECILIEN@3",
-		"name": "Adept's Brecilien Cape (Exceptional)"
+		"name": "Adept's Brecilien Cape (Exceptional)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_CAPEITEM_FW_BRECILIEN@4",
-		"name": "Adept's Brecilien Cape (Pristine)"
+		"name": "Adept's Brecilien Cape (Pristine)",
+		"weight": 1.7
 	},
 	{
 		"id": "T5_CAPEITEM_FW_BRECILIEN",
-		"name": "Expert's Brecilien Cape"
+		"name": "Expert's Brecilien Cape",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_CAPEITEM_FW_BRECILIEN@1",
-		"name": "Expert's Brecilien Cape (Uncommon)"
+		"name": "Expert's Brecilien Cape (Uncommon)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_CAPEITEM_FW_BRECILIEN@2",
-		"name": "Expert's Brecilien Cape (Rare)"
+		"name": "Expert's Brecilien Cape (Rare)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_CAPEITEM_FW_BRECILIEN@3",
-		"name": "Expert's Brecilien Cape (Exceptional)"
+		"name": "Expert's Brecilien Cape (Exceptional)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_CAPEITEM_FW_BRECILIEN@4",
-		"name": "Expert's Brecilien Cape (Pristine)"
+		"name": "Expert's Brecilien Cape (Pristine)",
+		"weight": 2.5
 	},
 	{
 		"id": "T6_CAPEITEM_FW_BRECILIEN",
-		"name": "Master's Brecilien Cape"
+		"name": "Master's Brecilien Cape",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_CAPEITEM_FW_BRECILIEN@1",
-		"name": "Master's Brecilien Cape (Uncommon)"
+		"name": "Master's Brecilien Cape (Uncommon)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_CAPEITEM_FW_BRECILIEN@2",
-		"name": "Master's Brecilien Cape (Rare)"
+		"name": "Master's Brecilien Cape (Rare)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_CAPEITEM_FW_BRECILIEN@3",
-		"name": "Master's Brecilien Cape (Exceptional)"
+		"name": "Master's Brecilien Cape (Exceptional)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_CAPEITEM_FW_BRECILIEN@4",
-		"name": "Master's Brecilien Cape (Pristine)"
+		"name": "Master's Brecilien Cape (Pristine)",
+		"weight": 3.8
 	},
 	{
 		"id": "T7_CAPEITEM_FW_BRECILIEN",
-		"name": "Grandmaster's Brecilien Cape"
+		"name": "Grandmaster's Brecilien Cape",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_CAPEITEM_FW_BRECILIEN@1",
-		"name": "Grandmaster's Brecilien Cape (Uncommon)"
+		"name": "Grandmaster's Brecilien Cape (Uncommon)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_CAPEITEM_FW_BRECILIEN@2",
-		"name": "Grandmaster's Brecilien Cape (Rare)"
+		"name": "Grandmaster's Brecilien Cape (Rare)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_CAPEITEM_FW_BRECILIEN@3",
-		"name": "Grandmaster's Brecilien Cape (Exceptional)"
+		"name": "Grandmaster's Brecilien Cape (Exceptional)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_CAPEITEM_FW_BRECILIEN@4",
-		"name": "Grandmaster's Brecilien Cape (Pristine)"
+		"name": "Grandmaster's Brecilien Cape (Pristine)",
+		"weight": 5.7
 	},
 	{
 		"id": "T8_CAPEITEM_FW_BRECILIEN",
-		"name": "Elder's Brecilien Cape"
+		"name": "Elder's Brecilien Cape",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_CAPEITEM_FW_BRECILIEN@1",
-		"name": "Elder's Brecilien Cape (Uncommon)"
+		"name": "Elder's Brecilien Cape (Uncommon)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_CAPEITEM_FW_BRECILIEN@2",
-		"name": "Elder's Brecilien Cape (Rare)"
+		"name": "Elder's Brecilien Cape (Rare)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_CAPEITEM_FW_BRECILIEN@3",
-		"name": "Elder's Brecilien Cape (Exceptional)"
+		"name": "Elder's Brecilien Cape (Exceptional)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_CAPEITEM_FW_BRECILIEN@4",
-		"name": "Elder's Brecilien Cape (Pristine)"
+		"name": "Elder's Brecilien Cape (Pristine)",
+		"weight": 8.5
 	},
 	{
 		"id": "T4_CAPEITEM_AVALON",
-		"name": "Adept's Avalonian Cape"
+		"name": "Adept's Avalonian Cape",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_CAPEITEM_AVALON@1",
-		"name": "Adept's Avalonian Cape (Uncommon)"
+		"name": "Adept's Avalonian Cape (Uncommon)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_CAPEITEM_AVALON@2",
-		"name": "Adept's Avalonian Cape (Rare)"
+		"name": "Adept's Avalonian Cape (Rare)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_CAPEITEM_AVALON@3",
-		"name": "Adept's Avalonian Cape (Exceptional)"
+		"name": "Adept's Avalonian Cape (Exceptional)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_CAPEITEM_AVALON@4",
-		"name": "Adept's Avalonian Cape (Pristine)"
+		"name": "Adept's Avalonian Cape (Pristine)",
+		"weight": 1.7
 	},
 	{
 		"id": "T5_CAPEITEM_AVALON",
-		"name": "Expert's Avalonian Cape"
+		"name": "Expert's Avalonian Cape",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_CAPEITEM_AVALON@1",
-		"name": "Expert's Avalonian Cape (Uncommon)"
+		"name": "Expert's Avalonian Cape (Uncommon)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_CAPEITEM_AVALON@2",
-		"name": "Expert's Avalonian Cape (Rare)"
+		"name": "Expert's Avalonian Cape (Rare)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_CAPEITEM_AVALON@3",
-		"name": "Expert's Avalonian Cape (Exceptional)"
+		"name": "Expert's Avalonian Cape (Exceptional)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_CAPEITEM_AVALON@4",
-		"name": "Expert's Avalonian Cape (Pristine)"
+		"name": "Expert's Avalonian Cape (Pristine)",
+		"weight": 2.5
 	},
 	{
 		"id": "T6_CAPEITEM_AVALON",
-		"name": "Master's Avalonian Cape"
+		"name": "Master's Avalonian Cape",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_CAPEITEM_AVALON@1",
-		"name": "Master's Avalonian Cape (Uncommon)"
+		"name": "Master's Avalonian Cape (Uncommon)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_CAPEITEM_AVALON@2",
-		"name": "Master's Avalonian Cape (Rare)"
+		"name": "Master's Avalonian Cape (Rare)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_CAPEITEM_AVALON@3",
-		"name": "Master's Avalonian Cape (Exceptional)"
+		"name": "Master's Avalonian Cape (Exceptional)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_CAPEITEM_AVALON@4",
-		"name": "Master's Avalonian Cape (Pristine)"
+		"name": "Master's Avalonian Cape (Pristine)",
+		"weight": 3.8
 	},
 	{
 		"id": "T7_CAPEITEM_AVALON",
-		"name": "Grandmaster's Avalonian Cape"
+		"name": "Grandmaster's Avalonian Cape",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_CAPEITEM_AVALON@1",
-		"name": "Grandmaster's Avalonian Cape (Uncommon)"
+		"name": "Grandmaster's Avalonian Cape (Uncommon)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_CAPEITEM_AVALON@2",
-		"name": "Grandmaster's Avalonian Cape (Rare)"
+		"name": "Grandmaster's Avalonian Cape (Rare)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_CAPEITEM_AVALON@3",
-		"name": "Grandmaster's Avalonian Cape (Exceptional)"
+		"name": "Grandmaster's Avalonian Cape (Exceptional)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_CAPEITEM_AVALON@4",
-		"name": "Grandmaster's Avalonian Cape (Pristine)"
+		"name": "Grandmaster's Avalonian Cape (Pristine)",
+		"weight": 5.7
 	},
 	{
 		"id": "T8_CAPEITEM_AVALON",
-		"name": "Elder's Avalonian Cape"
+		"name": "Elder's Avalonian Cape",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_CAPEITEM_AVALON@1",
-		"name": "Elder's Avalonian Cape (Uncommon)"
+		"name": "Elder's Avalonian Cape (Uncommon)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_CAPEITEM_AVALON@2",
-		"name": "Elder's Avalonian Cape (Rare)"
+		"name": "Elder's Avalonian Cape (Rare)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_CAPEITEM_AVALON@3",
-		"name": "Elder's Avalonian Cape (Exceptional)"
+		"name": "Elder's Avalonian Cape (Exceptional)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_CAPEITEM_AVALON@4",
-		"name": "Elder's Avalonian Cape (Pristine)"
+		"name": "Elder's Avalonian Cape (Pristine)",
+		"weight": 8.5
 	},
 	{
 		"id": "T4_CAPEITEM_SMUGGLER",
-		"name": "Adept's Smuggler Cape"
+		"name": "Adept's Smuggler Cape",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_CAPEITEM_SMUGGLER@1",
-		"name": "Adept's Smuggler Cape (Uncommon)"
+		"name": "Adept's Smuggler Cape (Uncommon)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_CAPEITEM_SMUGGLER@2",
-		"name": "Adept's Smuggler Cape (Rare)"
+		"name": "Adept's Smuggler Cape (Rare)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_CAPEITEM_SMUGGLER@3",
-		"name": "Adept's Smuggler Cape (Exceptional)"
+		"name": "Adept's Smuggler Cape (Exceptional)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_CAPEITEM_SMUGGLER@4",
-		"name": "Adept's Smuggler Cape (Pristine)"
+		"name": "Adept's Smuggler Cape (Pristine)",
+		"weight": 1.7
 	},
 	{
 		"id": "T5_CAPEITEM_SMUGGLER",
-		"name": "Expert's Smuggler Cape"
+		"name": "Expert's Smuggler Cape",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_CAPEITEM_SMUGGLER@1",
-		"name": "Expert's Smuggler Cape (Uncommon)"
+		"name": "Expert's Smuggler Cape (Uncommon)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_CAPEITEM_SMUGGLER@2",
-		"name": "Expert's Smuggler Cape (Rare)"
+		"name": "Expert's Smuggler Cape (Rare)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_CAPEITEM_SMUGGLER@3",
-		"name": "Expert's Smuggler Cape (Exceptional)"
+		"name": "Expert's Smuggler Cape (Exceptional)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_CAPEITEM_SMUGGLER@4",
-		"name": "Expert's Smuggler Cape (Pristine)"
+		"name": "Expert's Smuggler Cape (Pristine)",
+		"weight": 2.5
 	},
 	{
 		"id": "T6_CAPEITEM_SMUGGLER",
-		"name": "Master's Smuggler Cape"
+		"name": "Master's Smuggler Cape",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_CAPEITEM_SMUGGLER@1",
-		"name": "Master's Smuggler Cape (Uncommon)"
+		"name": "Master's Smuggler Cape (Uncommon)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_CAPEITEM_SMUGGLER@2",
-		"name": "Master's Smuggler Cape (Rare)"
+		"name": "Master's Smuggler Cape (Rare)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_CAPEITEM_SMUGGLER@3",
-		"name": "Master's Smuggler Cape (Exceptional)"
+		"name": "Master's Smuggler Cape (Exceptional)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_CAPEITEM_SMUGGLER@4",
-		"name": "Master's Smuggler Cape (Pristine)"
+		"name": "Master's Smuggler Cape (Pristine)",
+		"weight": 3.8
 	},
 	{
 		"id": "T7_CAPEITEM_SMUGGLER",
-		"name": "Grandmaster's Smuggler Cape"
+		"name": "Grandmaster's Smuggler Cape",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_CAPEITEM_SMUGGLER@1",
-		"name": "Grandmaster's Smuggler Cape (Uncommon)"
+		"name": "Grandmaster's Smuggler Cape (Uncommon)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_CAPEITEM_SMUGGLER@2",
-		"name": "Grandmaster's Smuggler Cape (Rare)"
+		"name": "Grandmaster's Smuggler Cape (Rare)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_CAPEITEM_SMUGGLER@3",
-		"name": "Grandmaster's Smuggler Cape (Exceptional)"
+		"name": "Grandmaster's Smuggler Cape (Exceptional)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_CAPEITEM_SMUGGLER@4",
-		"name": "Grandmaster's Smuggler Cape (Pristine)"
+		"name": "Grandmaster's Smuggler Cape (Pristine)",
+		"weight": 5.7
 	},
 	{
 		"id": "T8_CAPEITEM_SMUGGLER",
-		"name": "Elder's Smuggler Cape"
+		"name": "Elder's Smuggler Cape",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_CAPEITEM_SMUGGLER@1",
-		"name": "Elder's Smuggler Cape (Uncommon)"
+		"name": "Elder's Smuggler Cape (Uncommon)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_CAPEITEM_SMUGGLER@2",
-		"name": "Elder's Smuggler Cape (Rare)"
+		"name": "Elder's Smuggler Cape (Rare)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_CAPEITEM_SMUGGLER@3",
-		"name": "Elder's Smuggler Cape (Exceptional)"
+		"name": "Elder's Smuggler Cape (Exceptional)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_CAPEITEM_SMUGGLER@4",
-		"name": "Elder's Smuggler Cape (Pristine)"
+		"name": "Elder's Smuggler Cape (Pristine)",
+		"weight": 8.5
 	},
 	{
 		"id": "T4_CAPEITEM_HERETIC",
-		"name": "Adept's Heretic Cape"
+		"name": "Adept's Heretic Cape",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_CAPEITEM_HERETIC@1",
-		"name": "Adept's Heretic Cape (Uncommon)"
+		"name": "Adept's Heretic Cape (Uncommon)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_CAPEITEM_HERETIC@2",
-		"name": "Adept's Heretic Cape (Rare)"
+		"name": "Adept's Heretic Cape (Rare)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_CAPEITEM_HERETIC@3",
-		"name": "Adept's Heretic Cape (Exceptional)"
+		"name": "Adept's Heretic Cape (Exceptional)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_CAPEITEM_HERETIC@4",
-		"name": "Adept's Heretic Cape (Pristine)"
+		"name": "Adept's Heretic Cape (Pristine)",
+		"weight": 1.7
 	},
 	{
 		"id": "T5_CAPEITEM_HERETIC",
-		"name": "Expert's Heretic Cape"
+		"name": "Expert's Heretic Cape",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_CAPEITEM_HERETIC@1",
-		"name": "Expert's Heretic Cape (Uncommon)"
+		"name": "Expert's Heretic Cape (Uncommon)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_CAPEITEM_HERETIC@2",
-		"name": "Expert's Heretic Cape (Rare)"
+		"name": "Expert's Heretic Cape (Rare)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_CAPEITEM_HERETIC@3",
-		"name": "Expert's Heretic Cape (Exceptional)"
+		"name": "Expert's Heretic Cape (Exceptional)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_CAPEITEM_HERETIC@4",
-		"name": "Expert's Heretic Cape (Pristine)"
+		"name": "Expert's Heretic Cape (Pristine)",
+		"weight": 2.5
 	},
 	{
 		"id": "T6_CAPEITEM_HERETIC",
-		"name": "Master's Heretic Cape"
+		"name": "Master's Heretic Cape",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_CAPEITEM_HERETIC@1",
-		"name": "Master's Heretic Cape (Uncommon)"
+		"name": "Master's Heretic Cape (Uncommon)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_CAPEITEM_HERETIC@2",
-		"name": "Master's Heretic Cape (Rare)"
+		"name": "Master's Heretic Cape (Rare)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_CAPEITEM_HERETIC@3",
-		"name": "Master's Heretic Cape (Exceptional)"
+		"name": "Master's Heretic Cape (Exceptional)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_CAPEITEM_HERETIC@4",
-		"name": "Master's Heretic Cape (Pristine)"
+		"name": "Master's Heretic Cape (Pristine)",
+		"weight": 3.8
 	},
 	{
 		"id": "T7_CAPEITEM_HERETIC",
-		"name": "Grandmaster's Heretic Cape"
+		"name": "Grandmaster's Heretic Cape",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_CAPEITEM_HERETIC@1",
-		"name": "Grandmaster's Heretic Cape (Uncommon)"
+		"name": "Grandmaster's Heretic Cape (Uncommon)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_CAPEITEM_HERETIC@2",
-		"name": "Grandmaster's Heretic Cape (Rare)"
+		"name": "Grandmaster's Heretic Cape (Rare)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_CAPEITEM_HERETIC@3",
-		"name": "Grandmaster's Heretic Cape (Exceptional)"
+		"name": "Grandmaster's Heretic Cape (Exceptional)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_CAPEITEM_HERETIC@4",
-		"name": "Grandmaster's Heretic Cape (Pristine)"
+		"name": "Grandmaster's Heretic Cape (Pristine)",
+		"weight": 5.7
 	},
 	{
 		"id": "T8_CAPEITEM_HERETIC",
-		"name": "Elder's Heretic Cape"
+		"name": "Elder's Heretic Cape",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_CAPEITEM_HERETIC@1",
-		"name": "Elder's Heretic Cape (Uncommon)"
+		"name": "Elder's Heretic Cape (Uncommon)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_CAPEITEM_HERETIC@2",
-		"name": "Elder's Heretic Cape (Rare)"
+		"name": "Elder's Heretic Cape (Rare)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_CAPEITEM_HERETIC@3",
-		"name": "Elder's Heretic Cape (Exceptional)"
+		"name": "Elder's Heretic Cape (Exceptional)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_CAPEITEM_HERETIC@4",
-		"name": "Elder's Heretic Cape (Pristine)"
+		"name": "Elder's Heretic Cape (Pristine)",
+		"weight": 8.5
 	},
 	{
 		"id": "T4_CAPEITEM_UNDEAD",
-		"name": "Adept's Undead Cape"
+		"name": "Adept's Undead Cape",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_CAPEITEM_UNDEAD@1",
-		"name": "Adept's Undead Cape (Uncommon)"
+		"name": "Adept's Undead Cape (Uncommon)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_CAPEITEM_UNDEAD@2",
-		"name": "Adept's Undead Cape (Rare)"
+		"name": "Adept's Undead Cape (Rare)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_CAPEITEM_UNDEAD@3",
-		"name": "Adept's Undead Cape (Exceptional)"
+		"name": "Adept's Undead Cape (Exceptional)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_CAPEITEM_UNDEAD@4",
-		"name": "Adept's Undead Cape (Pristine)"
+		"name": "Adept's Undead Cape (Pristine)",
+		"weight": 1.7
 	},
 	{
 		"id": "T5_CAPEITEM_UNDEAD",
-		"name": "Expert's Undead Cape"
+		"name": "Expert's Undead Cape",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_CAPEITEM_UNDEAD@1",
-		"name": "Expert's Undead Cape (Uncommon)"
+		"name": "Expert's Undead Cape (Uncommon)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_CAPEITEM_UNDEAD@2",
-		"name": "Expert's Undead Cape (Rare)"
+		"name": "Expert's Undead Cape (Rare)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_CAPEITEM_UNDEAD@3",
-		"name": "Expert's Undead Cape (Exceptional)"
+		"name": "Expert's Undead Cape (Exceptional)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_CAPEITEM_UNDEAD@4",
-		"name": "Expert's Undead Cape (Pristine)"
+		"name": "Expert's Undead Cape (Pristine)",
+		"weight": 2.5
 	},
 	{
 		"id": "T6_CAPEITEM_UNDEAD",
-		"name": "Master's Undead Cape"
+		"name": "Master's Undead Cape",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_CAPEITEM_UNDEAD@1",
-		"name": "Master's Undead Cape (Uncommon)"
+		"name": "Master's Undead Cape (Uncommon)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_CAPEITEM_UNDEAD@2",
-		"name": "Master's Undead Cape (Rare)"
+		"name": "Master's Undead Cape (Rare)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_CAPEITEM_UNDEAD@3",
-		"name": "Master's Undead Cape (Exceptional)"
+		"name": "Master's Undead Cape (Exceptional)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_CAPEITEM_UNDEAD@4",
-		"name": "Master's Undead Cape (Pristine)"
+		"name": "Master's Undead Cape (Pristine)",
+		"weight": 3.8
 	},
 	{
 		"id": "T7_CAPEITEM_UNDEAD",
-		"name": "Grandmaster's Undead Cape"
+		"name": "Grandmaster's Undead Cape",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_CAPEITEM_UNDEAD@1",
-		"name": "Grandmaster's Undead Cape (Uncommon)"
+		"name": "Grandmaster's Undead Cape (Uncommon)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_CAPEITEM_UNDEAD@2",
-		"name": "Grandmaster's Undead Cape (Rare)"
+		"name": "Grandmaster's Undead Cape (Rare)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_CAPEITEM_UNDEAD@3",
-		"name": "Grandmaster's Undead Cape (Exceptional)"
+		"name": "Grandmaster's Undead Cape (Exceptional)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_CAPEITEM_UNDEAD@4",
-		"name": "Grandmaster's Undead Cape (Pristine)"
+		"name": "Grandmaster's Undead Cape (Pristine)",
+		"weight": 5.7
 	},
 	{
 		"id": "T8_CAPEITEM_UNDEAD",
-		"name": "Elder's Undead Cape"
+		"name": "Elder's Undead Cape",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_CAPEITEM_UNDEAD@1",
-		"name": "Elder's Undead Cape (Uncommon)"
+		"name": "Elder's Undead Cape (Uncommon)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_CAPEITEM_UNDEAD@2",
-		"name": "Elder's Undead Cape (Rare)"
+		"name": "Elder's Undead Cape (Rare)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_CAPEITEM_UNDEAD@3",
-		"name": "Elder's Undead Cape (Exceptional)"
+		"name": "Elder's Undead Cape (Exceptional)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_CAPEITEM_UNDEAD@4",
-		"name": "Elder's Undead Cape (Pristine)"
+		"name": "Elder's Undead Cape (Pristine)",
+		"weight": 8.5
 	},
 	{
 		"id": "T4_CAPEITEM_KEEPER",
-		"name": "Adept's Keeper Cape"
+		"name": "Adept's Keeper Cape",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_CAPEITEM_KEEPER@1",
-		"name": "Adept's Keeper Cape (Uncommon)"
+		"name": "Adept's Keeper Cape (Uncommon)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_CAPEITEM_KEEPER@2",
-		"name": "Adept's Keeper Cape (Rare)"
+		"name": "Adept's Keeper Cape (Rare)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_CAPEITEM_KEEPER@3",
-		"name": "Adept's Keeper Cape (Exceptional)"
+		"name": "Adept's Keeper Cape (Exceptional)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_CAPEITEM_KEEPER@4",
-		"name": "Adept's Keeper Cape (Pristine)"
+		"name": "Adept's Keeper Cape (Pristine)",
+		"weight": 1.7
 	},
 	{
 		"id": "T5_CAPEITEM_KEEPER",
-		"name": "Expert's Keeper Cape"
+		"name": "Expert's Keeper Cape",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_CAPEITEM_KEEPER@1",
-		"name": "Expert's Keeper Cape (Uncommon)"
+		"name": "Expert's Keeper Cape (Uncommon)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_CAPEITEM_KEEPER@2",
-		"name": "Expert's Keeper Cape (Rare)"
+		"name": "Expert's Keeper Cape (Rare)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_CAPEITEM_KEEPER@3",
-		"name": "Expert's Keeper Cape (Exceptional)"
+		"name": "Expert's Keeper Cape (Exceptional)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_CAPEITEM_KEEPER@4",
-		"name": "Expert's Keeper Cape (Pristine)"
+		"name": "Expert's Keeper Cape (Pristine)",
+		"weight": 2.5
 	},
 	{
 		"id": "T6_CAPEITEM_KEEPER",
-		"name": "Master's Keeper Cape"
+		"name": "Master's Keeper Cape",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_CAPEITEM_KEEPER@1",
-		"name": "Master's Keeper Cape (Uncommon)"
+		"name": "Master's Keeper Cape (Uncommon)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_CAPEITEM_KEEPER@2",
-		"name": "Master's Keeper Cape (Rare)"
+		"name": "Master's Keeper Cape (Rare)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_CAPEITEM_KEEPER@3",
-		"name": "Master's Keeper Cape (Exceptional)"
+		"name": "Master's Keeper Cape (Exceptional)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_CAPEITEM_KEEPER@4",
-		"name": "Master's Keeper Cape (Pristine)"
+		"name": "Master's Keeper Cape (Pristine)",
+		"weight": 3.8
 	},
 	{
 		"id": "T7_CAPEITEM_KEEPER",
-		"name": "Grandmaster's Keeper Cape"
+		"name": "Grandmaster's Keeper Cape",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_CAPEITEM_KEEPER@1",
-		"name": "Grandmaster's Keeper Cape (Uncommon)"
+		"name": "Grandmaster's Keeper Cape (Uncommon)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_CAPEITEM_KEEPER@2",
-		"name": "Grandmaster's Keeper Cape (Rare)"
+		"name": "Grandmaster's Keeper Cape (Rare)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_CAPEITEM_KEEPER@3",
-		"name": "Grandmaster's Keeper Cape (Exceptional)"
+		"name": "Grandmaster's Keeper Cape (Exceptional)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_CAPEITEM_KEEPER@4",
-		"name": "Grandmaster's Keeper Cape (Pristine)"
+		"name": "Grandmaster's Keeper Cape (Pristine)",
+		"weight": 5.7
 	},
 	{
 		"id": "T8_CAPEITEM_KEEPER",
-		"name": "Elder's Keeper Cape"
+		"name": "Elder's Keeper Cape",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_CAPEITEM_KEEPER@1",
-		"name": "Elder's Keeper Cape (Uncommon)"
+		"name": "Elder's Keeper Cape (Uncommon)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_CAPEITEM_KEEPER@2",
-		"name": "Elder's Keeper Cape (Rare)"
+		"name": "Elder's Keeper Cape (Rare)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_CAPEITEM_KEEPER@3",
-		"name": "Elder's Keeper Cape (Exceptional)"
+		"name": "Elder's Keeper Cape (Exceptional)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_CAPEITEM_KEEPER@4",
-		"name": "Elder's Keeper Cape (Pristine)"
+		"name": "Elder's Keeper Cape (Pristine)",
+		"weight": 8.5
 	},
 	{
 		"id": "T4_CAPEITEM_MORGANA",
-		"name": "Adept's Morgana Cape"
+		"name": "Adept's Morgana Cape",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_CAPEITEM_MORGANA@1",
-		"name": "Adept's Morgana Cape (Uncommon)"
+		"name": "Adept's Morgana Cape (Uncommon)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_CAPEITEM_MORGANA@2",
-		"name": "Adept's Morgana Cape (Rare)"
+		"name": "Adept's Morgana Cape (Rare)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_CAPEITEM_MORGANA@3",
-		"name": "Adept's Morgana Cape (Exceptional)"
+		"name": "Adept's Morgana Cape (Exceptional)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_CAPEITEM_MORGANA@4",
-		"name": "Adept's Morgana Cape (Pristine)"
+		"name": "Adept's Morgana Cape (Pristine)",
+		"weight": 1.7
 	},
 	{
 		"id": "T5_CAPEITEM_MORGANA",
-		"name": "Expert's Morgana Cape"
+		"name": "Expert's Morgana Cape",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_CAPEITEM_MORGANA@1",
-		"name": "Expert's Morgana Cape (Uncommon)"
+		"name": "Expert's Morgana Cape (Uncommon)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_CAPEITEM_MORGANA@2",
-		"name": "Expert's Morgana Cape (Rare)"
+		"name": "Expert's Morgana Cape (Rare)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_CAPEITEM_MORGANA@3",
-		"name": "Expert's Morgana Cape (Exceptional)"
+		"name": "Expert's Morgana Cape (Exceptional)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_CAPEITEM_MORGANA@4",
-		"name": "Expert's Morgana Cape (Pristine)"
+		"name": "Expert's Morgana Cape (Pristine)",
+		"weight": 2.5
 	},
 	{
 		"id": "T6_CAPEITEM_MORGANA",
-		"name": "Master's Morgana Cape"
+		"name": "Master's Morgana Cape",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_CAPEITEM_MORGANA@1",
-		"name": "Master's Morgana Cape (Uncommon)"
+		"name": "Master's Morgana Cape (Uncommon)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_CAPEITEM_MORGANA@2",
-		"name": "Master's Morgana Cape (Rare)"
+		"name": "Master's Morgana Cape (Rare)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_CAPEITEM_MORGANA@3",
-		"name": "Master's Morgana Cape (Exceptional)"
+		"name": "Master's Morgana Cape (Exceptional)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_CAPEITEM_MORGANA@4",
-		"name": "Master's Morgana Cape (Pristine)"
+		"name": "Master's Morgana Cape (Pristine)",
+		"weight": 3.8
 	},
 	{
 		"id": "T7_CAPEITEM_MORGANA",
-		"name": "Grandmaster's Morgana Cape"
+		"name": "Grandmaster's Morgana Cape",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_CAPEITEM_MORGANA@1",
-		"name": "Grandmaster's Morgana Cape (Uncommon)"
+		"name": "Grandmaster's Morgana Cape (Uncommon)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_CAPEITEM_MORGANA@2",
-		"name": "Grandmaster's Morgana Cape (Rare)"
+		"name": "Grandmaster's Morgana Cape (Rare)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_CAPEITEM_MORGANA@3",
-		"name": "Grandmaster's Morgana Cape (Exceptional)"
+		"name": "Grandmaster's Morgana Cape (Exceptional)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_CAPEITEM_MORGANA@4",
-		"name": "Grandmaster's Morgana Cape (Pristine)"
+		"name": "Grandmaster's Morgana Cape (Pristine)",
+		"weight": 5.7
 	},
 	{
 		"id": "T8_CAPEITEM_MORGANA",
-		"name": "Elder's Morgana Cape"
+		"name": "Elder's Morgana Cape",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_CAPEITEM_MORGANA@1",
-		"name": "Elder's Morgana Cape (Uncommon)"
+		"name": "Elder's Morgana Cape (Uncommon)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_CAPEITEM_MORGANA@2",
-		"name": "Elder's Morgana Cape (Rare)"
+		"name": "Elder's Morgana Cape (Rare)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_CAPEITEM_MORGANA@3",
-		"name": "Elder's Morgana Cape (Exceptional)"
+		"name": "Elder's Morgana Cape (Exceptional)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_CAPEITEM_MORGANA@4",
-		"name": "Elder's Morgana Cape (Pristine)"
+		"name": "Elder's Morgana Cape (Pristine)",
+		"weight": 8.5
 	},
 	{
 		"id": "T4_CAPEITEM_DEMON",
-		"name": "Adept's Demon Cape"
+		"name": "Adept's Demon Cape",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_CAPEITEM_DEMON@1",
-		"name": "Adept's Demon Cape (Uncommon)"
+		"name": "Adept's Demon Cape (Uncommon)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_CAPEITEM_DEMON@2",
-		"name": "Adept's Demon Cape (Rare)"
+		"name": "Adept's Demon Cape (Rare)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_CAPEITEM_DEMON@3",
-		"name": "Adept's Demon Cape (Exceptional)"
+		"name": "Adept's Demon Cape (Exceptional)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_CAPEITEM_DEMON@4",
-		"name": "Adept's Demon Cape (Pristine)"
+		"name": "Adept's Demon Cape (Pristine)",
+		"weight": 1.7
 	},
 	{
 		"id": "T5_CAPEITEM_DEMON",
-		"name": "Expert's Demon Cape"
+		"name": "Expert's Demon Cape",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_CAPEITEM_DEMON@1",
-		"name": "Expert's Demon Cape (Uncommon)"
+		"name": "Expert's Demon Cape (Uncommon)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_CAPEITEM_DEMON@2",
-		"name": "Expert's Demon Cape (Rare)"
+		"name": "Expert's Demon Cape (Rare)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_CAPEITEM_DEMON@3",
-		"name": "Expert's Demon Cape (Exceptional)"
+		"name": "Expert's Demon Cape (Exceptional)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_CAPEITEM_DEMON@4",
-		"name": "Expert's Demon Cape (Pristine)"
+		"name": "Expert's Demon Cape (Pristine)",
+		"weight": 2.5
 	},
 	{
 		"id": "T6_CAPEITEM_DEMON",
-		"name": "Master's Demon Cape"
+		"name": "Master's Demon Cape",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_CAPEITEM_DEMON@1",
-		"name": "Master's Demon Cape (Uncommon)"
+		"name": "Master's Demon Cape (Uncommon)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_CAPEITEM_DEMON@2",
-		"name": "Master's Demon Cape (Rare)"
+		"name": "Master's Demon Cape (Rare)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_CAPEITEM_DEMON@3",
-		"name": "Master's Demon Cape (Exceptional)"
+		"name": "Master's Demon Cape (Exceptional)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_CAPEITEM_DEMON@4",
-		"name": "Master's Demon Cape (Pristine)"
+		"name": "Master's Demon Cape (Pristine)",
+		"weight": 3.8
 	},
 	{
 		"id": "T7_CAPEITEM_DEMON",
-		"name": "Grandmaster's Demon Cape"
+		"name": "Grandmaster's Demon Cape",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_CAPEITEM_DEMON@1",
-		"name": "Grandmaster's Demon Cape (Uncommon)"
+		"name": "Grandmaster's Demon Cape (Uncommon)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_CAPEITEM_DEMON@2",
-		"name": "Grandmaster's Demon Cape (Rare)"
+		"name": "Grandmaster's Demon Cape (Rare)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_CAPEITEM_DEMON@3",
-		"name": "Grandmaster's Demon Cape (Exceptional)"
+		"name": "Grandmaster's Demon Cape (Exceptional)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_CAPEITEM_DEMON@4",
-		"name": "Grandmaster's Demon Cape (Pristine)"
+		"name": "Grandmaster's Demon Cape (Pristine)",
+		"weight": 5.7
 	},
 	{
 		"id": "T8_CAPEITEM_DEMON",
-		"name": "Elder's Demon Cape"
+		"name": "Elder's Demon Cape",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_CAPEITEM_DEMON@1",
-		"name": "Elder's Demon Cape (Uncommon)"
+		"name": "Elder's Demon Cape (Uncommon)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_CAPEITEM_DEMON@2",
-		"name": "Elder's Demon Cape (Rare)"
+		"name": "Elder's Demon Cape (Rare)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_CAPEITEM_DEMON@3",
-		"name": "Elder's Demon Cape (Exceptional)"
+		"name": "Elder's Demon Cape (Exceptional)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_CAPEITEM_DEMON@4",
-		"name": "Elder's Demon Cape (Pristine)"
+		"name": "Elder's Demon Cape (Pristine)",
+		"weight": 8.5
 	},
 	{
 		"id": "UNIQUE_CAPE_VANITY_FOUNDER_ASIA_CRYSTAL",
-		"name": "Sea Captain's Spyglass"
+		"name": "Sea Captain's Spyglass",
+		"weight": 1.1
 	},
 	{
 		"id": "UNIQUE_CAPE_VANITY_FOUNDER_ASIA_GOLD",
-		"name": "Seafarer's Harpoon"
+		"name": "Seafarer's Harpoon",
+		"weight": 1.1
 	},
 	{
 		"id": "UNIQUE_CAPE_VANITY_WARRIOR_KING",
-		"name": "Paragon's Sword and Cape"
+		"name": "Paragon's Sword and Cape",
+		"weight": 1.1
 	},
 	{
 		"id": "UNIQUE_CAPE_VANITY_WARRIOR_KNIGHT",
-		"name": "Champion's Sword and Cape"
+		"name": "Champion's Sword and Cape",
+		"weight": 1.1
 	},
 	{
 		"id": "UNIQUE_CAPE_VANITY_DARK_SORCERER",
-		"name": "Harbinger's Staff and Cape"
+		"name": "Harbinger's Staff and Cape",
+		"weight": 1.1
 	},
 	{
 		"id": "UNIQUE_CAPE_VANITY_DARK_NOVICE",
-		"name": "Warlock's Staff and Cape"
+		"name": "Warlock's Staff and Cape",
+		"weight": 1.1
 	},
 	{
 		"id": "UNIQUE_CAPE_VANITY_WEDDING_TUXEDO",
-		"name": "Groom's Cape"
+		"name": "Groom's Cape",
+		"weight": 1.1
 	},
 	{
 		"id": "UNIQUE_CAPE_VANITY_ARENA_SET_01",
-		"name": "Arena Veteran's Cape"
+		"name": "Arena Veteran's Cape",
+		"weight": 1.1
 	},
 	{
 		"id": "T4_CAPE_ARENA_BANNER",
-		"name": "Arena Veteran's Small Banner"
+		"name": "Arena Veteran's Small Banner",
+		"weight": 1.7
 	},
 	{
 		"id": "T6_CAPE_ARENA_BANNER",
-		"name": "Arena Veteran's Medium Banner"
+		"name": "Arena Veteran's Medium Banner",
+		"weight": 3.8
 	},
 	{
 		"id": "T8_CAPE_ARENA_BANNER",
-		"name": "Arena Veteran's Large Banner"
+		"name": "Arena Veteran's Large Banner",
+		"weight": 8.5
 	},
 	{
 		"id": "UNIQUE_CAPE_VANITY_GLADIATOR_ARENA",
-		"name": "Arena Gladiator Cape"
+		"name": "Arena Gladiator Cape",
+		"weight": 1.1
 	},
 	{
 		"id": "UNIQUE_CAPE_VANITY_GLADIATOR_CRYSTAL",
-		"name": "Crystal Gladiator Cape"
+		"name": "Crystal Gladiator Cape",
+		"weight": 1.1
 	},
 	{
 		"id": "UNIQUE_CAPE_VANITY_SKELETON",
-		"name": "Ragged Cape"
+		"name": "Ragged Cape",
+		"weight": 1.1
 	},
 	{
 		"id": "UNIQUE_CAPE_FOUNDER_LEGENDARY",
-		"name": "Legendary Explorer's Cloak"
+		"name": "Legendary Explorer's Cloak",
+		"weight": 1.1
 	},
 	{
 		"id": "UNIQUE_CAPE_STARTERPACK_LEGENDARY",
-		"name": "Legendary Adventurer's Cloak"
+		"name": "Legendary Adventurer's Cloak",
+		"weight": 1.1
 	},
 	{
 		"id": "UNIQUE_CAPE_VANITY_SKELETON_UNDEAD",
-		"name": "Ragged Undead Cape"
+		"name": "Ragged Undead Cape",
+		"weight": 1.1
 	},
 	{
 		"id": "UNIQUE_CAPE_TELLAFRIEND",
-		"name": "Recruiter's Cape"
+		"name": "Recruiter's Cape",
+		"weight": 0.8
 	},
 	{
 		"id": "UNIQUE_CAPE_TELLAFRIEND_02",
-		"name": "Riuros Cape"
+		"name": "Riuros Cape",
+		"weight": 0.8
 	},
 	{
 		"id": "UNIQUE_CAPE_TELLAFRIEND_BATRIDER",
-		"name": "Master of Bats Cape"
+		"name": "Master of Bats Cape",
+		"weight": 0.8
 	},
 	{
 		"id": "UNIQUE_CAPE_TELLAFRIEND_BANNER",
-		"name": "Recruiter's Banner"
+		"name": "Recruiter's Banner",
+		"weight": 1.1
 	},
 	{
 		"id": "UNIQUE_CAPE_TELLAFRIEND_BANNER_02",
-		"name": "Ogronios Banner"
+		"name": "Ogronios Banner",
+		"weight": 1.1
 	},
 	{
 		"id": "UNIQUE_CAPE_TOAD_TELLAFRIEND",
-		"name": "Recruiter's Cape - Toad"
+		"name": "Recruiter's Cape - Toad",
+		"weight": 1.1
 	},
 	{
 		"id": "UNIQUE_CAPE_BLOODHOUND_TELLAFRIEND",
-		"name": "Recruiter's Cape - Rottweiler"
+		"name": "Recruiter's Cape - Rottweiler",
+		"weight": 1.1
 	},
 	{
 		"id": "UNIQUE_CAPE_TIGER_TELLAFRIEND",
-		"name": "Recruiter's Tiger Cape"
+		"name": "Recruiter's Tiger Cape",
+		"weight": 1.1
 	},
 	{
 		"id": "UNIQUE_CAPE_RAM_TELLAFRIEND",
-		"name": "Recruiter's Fur Cape"
+		"name": "Recruiter's Fur Cape",
+		"weight": 1.1
 	},
 	{
 		"id": "UNIQUE_CAPE_WOLF_GREY_TELLAFRIEND",
-		"name": "Recruiter's Grey Wolf Cape"
+		"name": "Recruiter's Grey Wolf Cape",
+		"weight": 1.1
 	},
 	{
 		"id": "T6_CAPE_PLATE_UNDEAD",
-		"name": "Decorative Undead Platemail Cape"
+		"name": "Decorative Undead Platemail Cape",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_CAPE_LEATHER_UNDEAD",
-		"name": "Decorative Undead Leather Cape"
+		"name": "Decorative Undead Leather Cape",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_CAPE_CLOTH_UNDEAD",
-		"name": "Decorative Undead Cloth Cape"
+		"name": "Decorative Undead Cloth Cape",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_CAPE_PLATE_KEEPER",
-		"name": "Decorative Keeper Platemail Cape"
+		"name": "Decorative Keeper Platemail Cape",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_CAPE_LEATHER_KEEPER",
-		"name": "Decorative Keeper Leather Cape"
+		"name": "Decorative Keeper Leather Cape",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_CAPE_CLOTH_KEEPER",
-		"name": "Decorative Keeper Cloth Cape"
+		"name": "Decorative Keeper Cloth Cape",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_CAPE_PLATE_MORGANA",
-		"name": "Decorative Morgana Platemail Cape"
+		"name": "Decorative Morgana Platemail Cape",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_CAPE_LEATHER_MORGANA",
-		"name": "Decorative Morgana Leather Cape"
+		"name": "Decorative Morgana Leather Cape",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_CAPE_CLOTH_MORGANA",
-		"name": "Decorative Morgana Cloth Cape"
+		"name": "Decorative Morgana Cloth Cape",
+		"weight": 3.8
 	},
 	{
 		"id": "UNIQUE_CAPE_VANITY_ROGUE",
-		"name": "Rogue Adventurer's Cape"
+		"name": "Rogue Adventurer's Cape",
+		"weight": 1.1
 	},
 	{
 		"id": "UNIQUE_CAPE_VANITY_ROGUE_GUILD_COLORED",
-		"name": "Rogue Adventurer's Heraldic Cape"
+		"name": "Rogue Adventurer's Heraldic Cape",
+		"weight": 1.1
 	},
 	{
 		"id": "UNIQUE_CAPE_VANITY_KNIGHT",
-		"name": "Knight Adventurer's Cape"
+		"name": "Knight Adventurer's Cape",
+		"weight": 1.1
 	},
 	{
 		"id": "UNIQUE_CAPE_VANITY_KNIGHT_GUILD_COLORED",
-		"name": "Knight Adventurer's Heraldic Cape"
+		"name": "Knight Adventurer's Heraldic Cape",
+		"weight": 1.1
 	},
 	{
 		"id": "UNIQUE_CAPE_VANITY_MAGE",
-		"name": "Mage Adventurer's Cape"
+		"name": "Mage Adventurer's Cape",
+		"weight": 1.1
 	},
 	{
 		"id": "UNIQUE_CAPE_VANITY_MAGE_GUILD_COLORED",
-		"name": "Mage Adventurer's Heraldic Cape"
+		"name": "Mage Adventurer's Heraldic Cape",
+		"weight": 1.1
 	},
 	{
 		"id": "UNIQUE_CAPE_VANITY_BARBARIAN",
-		"name": "Barbarian's Cape"
+		"name": "Barbarian's Cape",
+		"weight": 1.1
 	},
 	{
 		"id": "UNIQUE_CAPE_VANITY_SOULKEEPER",
-		"name": "Keeper of Souls Cape"
+		"name": "Keeper of Souls Cape",
+		"weight": 1.1
 	},
 	{
 		"id": "UNIQUE_CAPE_VANITY_PALADIN",
-		"name": "Paladin's Cape"
+		"name": "Paladin's Cape",
+		"weight": 1.1
 	},
 	{
 		"id": "UNIQUE_CAPE_VANITY_PALADIN_GUILD_COLORED",
-		"name": "Paladin's Heraldic Cape"
+		"name": "Paladin's Heraldic Cape",
+		"weight": 1.1
 	},
 	{
 		"id": "UNIQUE_CAPE_VANITY_PALADIN_ANNIVERSARY",
-		"name": "Anniversary Paladin's Cape"
+		"name": "Anniversary Paladin's Cape",
+		"weight": 1.1
 	},
 	{
 		"id": "UNIQUE_CAPE_VANITY_DEMONHUNTER",
-		"name": "Demon Hunter's Cape"
+		"name": "Demon Hunter's Cape",
+		"weight": 1.1
 	},
 	{
 		"id": "UNIQUE_CAPE_VANITY_DRUID",
-		"name": "Druid's Cape"
+		"name": "Druid's Cape",
+		"weight": 1.1
 	},
 	{
 		"id": "UNIQUE_CAPE_VANITY_DEMONICWARRIOR",
-		"name": "Demonic Warrior's Cape"
+		"name": "Demonic Warrior's Cape",
+		"weight": 1.1
 	},
 	{
 		"id": "UNIQUE_CAPE_VANITY_MONK",
-		"name": "Master of Fists Scroll"
+		"name": "Master of Fists Scroll",
+		"weight": 1.1
 	},
 	{
 		"id": "UNIQUE_CAPE_VANITY_MARAUDER",
-		"name": "Reaver's Cape"
+		"name": "Reaver's Cape",
+		"weight": 1.1
 	},
 	{
 		"id": "UNIQUE_CAPE_VANITY_FIREMAGE",
-		"name": "Pyromancer's Cape"
+		"name": "Pyromancer's Cape",
+		"weight": 1.1
 	},
 	{
 		"id": "UNIQUE_CAPE_VANITY_FROSTMAGE",
-		"name": "Cryomancer's Cape"
+		"name": "Cryomancer's Cape",
+		"weight": 1.1
 	},
 	{
 		"id": "UNIQUE_CAPE_VANITY_PRIEST_HOLY",
-		"name": "Priest's Cape"
+		"name": "Priest's Cape",
+		"weight": 1.1
 	},
 	{
 		"id": "UNIQUE_CAPE_VANITY_RANGER",
-		"name": "Ranger's Cape"
+		"name": "Ranger's Cape",
+		"weight": 1.1
 	},
 	{
 		"id": "UNIQUE_CAPE_VANITY_BATTLEMAGE",
-		"name": "Arcanist's Cape"
+		"name": "Arcanist's Cape",
+		"weight": 1.1
 	},
 	{
 		"id": "UNIQUE_CAPE_VANITY_ZEALOT",
-		"name": "Zealot's Cape"
+		"name": "Zealot's Cape",
+		"weight": 1.1
 	},
 	{
 		"id": "UNIQUE_CAPE_VANITY_TITAN",
-		"name": "Titan's Cape"
+		"name": "Titan's Cape",
+		"weight": 1.1
 	},
 	{
 		"id": "UNIQUE_CAPE_VANITY_ASSASSIN",
-		"name": "Assassin's Swords"
+		"name": "Assassin's Swords",
+		"weight": 1.1
 	},
 	{
 		"id": "UNIQUE_CAPE_VANITY_TRACKER",
-		"name": "Tracker's Spear"
+		"name": "Tracker's Spear",
+		"weight": 1.1
 	},
 	{
 		"id": "UNIQUE_CAPE_VANITY_ALCHEMIST",
-		"name": "Alchemist's Backpack"
+		"name": "Alchemist's Backpack",
+		"weight": 1.1
 	},
 	{
 		"id": "UNIQUE_CAPE_VANITY_FROSTKNIGHT",
-		"name": "Frost Knight's Cape"
+		"name": "Frost Knight's Cape",
+		"weight": 1.1
 	},
 	{
 		"id": "UNIQUE_CAPE_VANITY_DUELIST",
-		"name": "Duelist's Cape"
+		"name": "Duelist's Cape",
+		"weight": 1.1
 	},
 	{
 		"id": "UNIQUE_CAPE_VANITY_DUELIST_01",
-		"name": "UNIQUE_CAPE_VANITY_DUELIST_01"
+		"name": "UNIQUE_CAPE_VANITY_DUELIST_01",
+		"weight": 1.1
 	},
 	{
 		"id": "UNIQUE_CAPE_VANITY_CORRUPTED_PREACHER",
-		"name": "Corrupted Preacher's Cape"
+		"name": "Corrupted Preacher's Cape",
+		"weight": 0.8
 	},
 	{
 		"id": "UNIQUE_CAPE_VANITY_BARBARIAN_ANNIVERSARY",
-		"name": "Anniversary Barbarian's Cape"
+		"name": "Anniversary Barbarian's Cape",
+		"weight": 0.8
 	},
 	{
 		"id": "UNIQUE_CAPE_VANITY_PRIEST_HOLY_ANNIVERSARY",
-		"name": "Anniversary Priest's Cape"
+		"name": "Anniversary Priest's Cape",
+		"weight": 0.8
 	},
 	{
 		"id": "UNIQUE_CAPE_VANITY_FW_COMMANDER",
-		"name": "Commander's Cape"
+		"name": "Commander's Cape",
+		"weight": 1.1
 	},
 	{
 		"id": "UNIQUE_CAPE_VANITY_FW_COMMANDER_GUILD_COLORED",
-		"name": "Commander's Heraldic Cape"
+		"name": "Commander's Heraldic Cape",
+		"weight": 1.1
 	},
 	{
 		"id": "UNIQUE_CAPE_VANITY_KICKSTART_2024_UPGRADE",
-		"name": "Warden's Legendary Axe"
+		"name": "Warden's Legendary Axe",
+		"weight": 0.8
 	},
 	{
 		"id": "UNIQUE_CAPE_VANITY_KICKSTART_2024",
-		"name": "Warden's Axe"
+		"name": "Warden's Axe",
+		"weight": 0.8
 	},
 	{
 		"id": "UNIQUE_CAPE_VANITY_KNIGHT_GREEN",
-		"name": "Green Knight's Cape"
+		"name": "Green Knight's Cape",
+		"weight": 0.8
 	},
 	{
 		"id": "UNIQUE_CAPE_VANITY_SMUGGLER",
-		"name": "Smuggler's Cloak"
+		"name": "Smuggler's Cloak",
+		"weight": 0.8
 	},
 	{
 		"id": "UNIQUE_CAPE_VANITY_KNIGHT_AOCP",
-		"name": "Noble Knight's Cape"
+		"name": "Noble Knight's Cape",
+		"weight": 1.1
 	},
 	{
 		"id": "UNIQUE_CAPE_VANITY_FW_SOLDIER_PLATE",
-		"name": "Faction Legionnaire's Cape"
+		"name": "Faction Legionnaire's Cape",
+		"weight": 0.8
 	},
 	{
 		"id": "UNIQUE_CAPE_VANITY_HYENA",
-		"name": "Hyena Cape"
+		"name": "Hyena Cape",
+		"weight": 1.1
 	},
 	{
 		"id": "UNIQUE_CAPE_VANITY_SNOWLEOPARD",
-		"name": "Snow Leopard Cape"
+		"name": "Snow Leopard Cape",
+		"weight": 1.1
 	},
 	{
 		"id": "T4_CAPEITEM_FW_BRIDGEWATCH_BP",
-		"name": "Adept's Bridgewatch Crest"
+		"name": "Adept's Bridgewatch Crest",
+		"weight": 0.51
 	},
 	{
 		"id": "T5_CAPEITEM_FW_BRIDGEWATCH_BP",
-		"name": "Expert's Bridgewatch Crest"
+		"name": "Expert's Bridgewatch Crest",
+		"weight": 0.51
 	},
 	{
 		"id": "T6_CAPEITEM_FW_BRIDGEWATCH_BP",
-		"name": "Master's Bridgewatch Crest"
+		"name": "Master's Bridgewatch Crest",
+		"weight": 0.51
 	},
 	{
 		"id": "T7_CAPEITEM_FW_BRIDGEWATCH_BP",
-		"name": "Grandmaster's Bridgewatch Crest"
+		"name": "Grandmaster's Bridgewatch Crest",
+		"weight": 0.51
 	},
 	{
 		"id": "T8_CAPEITEM_FW_BRIDGEWATCH_BP",
-		"name": "Elder's Bridgewatch Crest"
+		"name": "Elder's Bridgewatch Crest",
+		"weight": 0.51
 	},
 	{
 		"id": "T4_CAPEITEM_FW_FORTSTERLING_BP",
-		"name": "Adept's Fort Sterling Crest"
+		"name": "Adept's Fort Sterling Crest",
+		"weight": 0.51
 	},
 	{
 		"id": "T5_CAPEITEM_FW_FORTSTERLING_BP",
-		"name": "Expert's Fort Sterling Crest"
+		"name": "Expert's Fort Sterling Crest",
+		"weight": 0.51
 	},
 	{
 		"id": "T6_CAPEITEM_FW_FORTSTERLING_BP",
-		"name": "Master's Fort Sterling Crest"
+		"name": "Master's Fort Sterling Crest",
+		"weight": 0.51
 	},
 	{
 		"id": "T7_CAPEITEM_FW_FORTSTERLING_BP",
-		"name": "Grandmaster's Fort Sterling Crest"
+		"name": "Grandmaster's Fort Sterling Crest",
+		"weight": 0.51
 	},
 	{
 		"id": "T8_CAPEITEM_FW_FORTSTERLING_BP",
-		"name": "Elder's Fort Sterling Crest"
+		"name": "Elder's Fort Sterling Crest",
+		"weight": 0.51
 	},
 	{
 		"id": "T4_CAPEITEM_FW_LYMHURST_BP",
-		"name": "Adept's Lymhurst Crest"
+		"name": "Adept's Lymhurst Crest",
+		"weight": 0.51
 	},
 	{
 		"id": "T5_CAPEITEM_FW_LYMHURST_BP",
-		"name": "Expert's Lymhurst Crest"
+		"name": "Expert's Lymhurst Crest",
+		"weight": 0.51
 	},
 	{
 		"id": "T6_CAPEITEM_FW_LYMHURST_BP",
-		"name": "Master's Lymhurst Crest"
+		"name": "Master's Lymhurst Crest",
+		"weight": 0.51
 	},
 	{
 		"id": "T7_CAPEITEM_FW_LYMHURST_BP",
-		"name": "Grandmaster's Lymhurst Crest"
+		"name": "Grandmaster's Lymhurst Crest",
+		"weight": 0.51
 	},
 	{
 		"id": "T8_CAPEITEM_FW_LYMHURST_BP",
-		"name": "Elder's Lymhurst Crest"
+		"name": "Elder's Lymhurst Crest",
+		"weight": 0.51
 	},
 	{
 		"id": "T4_CAPEITEM_FW_MARTLOCK_BP",
-		"name": "Adept's Martlock Crest"
+		"name": "Adept's Martlock Crest",
+		"weight": 0.51
 	},
 	{
 		"id": "T5_CAPEITEM_FW_MARTLOCK_BP",
-		"name": "Expert's Martlock Crest"
+		"name": "Expert's Martlock Crest",
+		"weight": 0.51
 	},
 	{
 		"id": "T6_CAPEITEM_FW_MARTLOCK_BP",
-		"name": "Master's Martlock Crest"
+		"name": "Master's Martlock Crest",
+		"weight": 0.51
 	},
 	{
 		"id": "T7_CAPEITEM_FW_MARTLOCK_BP",
-		"name": "Grandmaster's Martlock Crest"
+		"name": "Grandmaster's Martlock Crest",
+		"weight": 0.51
 	},
 	{
 		"id": "T8_CAPEITEM_FW_MARTLOCK_BP",
-		"name": "Elder's Martlock Crest"
+		"name": "Elder's Martlock Crest",
+		"weight": 0.51
 	},
 	{
 		"id": "T4_CAPEITEM_FW_THETFORD_BP",
-		"name": "Adept's Thetford Crest"
+		"name": "Adept's Thetford Crest",
+		"weight": 0.51
 	},
 	{
 		"id": "T5_CAPEITEM_FW_THETFORD_BP",
-		"name": "Expert's Thetford Crest"
+		"name": "Expert's Thetford Crest",
+		"weight": 0.51
 	},
 	{
 		"id": "T6_CAPEITEM_FW_THETFORD_BP",
-		"name": "Master's Thetford Crest"
+		"name": "Master's Thetford Crest",
+		"weight": 0.51
 	},
 	{
 		"id": "T7_CAPEITEM_FW_THETFORD_BP",
-		"name": "Grandmaster's Thetford Crest"
+		"name": "Grandmaster's Thetford Crest",
+		"weight": 0.51
 	},
 	{
 		"id": "T8_CAPEITEM_FW_THETFORD_BP",
-		"name": "Elder's Thetford Crest"
+		"name": "Elder's Thetford Crest",
+		"weight": 0.51
 	},
 	{
 		"id": "T4_CAPEITEM_FW_CAERLEON_BP",
-		"name": "Adept's Caerleon Crest"
+		"name": "Adept's Caerleon Crest",
+		"weight": 0.51
 	},
 	{
 		"id": "T5_CAPEITEM_FW_CAERLEON_BP",
-		"name": "Expert's Caerleon Crest"
+		"name": "Expert's Caerleon Crest",
+		"weight": 0.51
 	},
 	{
 		"id": "T6_CAPEITEM_FW_CAERLEON_BP",
-		"name": "Master's Caerleon Crest"
+		"name": "Master's Caerleon Crest",
+		"weight": 0.51
 	},
 	{
 		"id": "T7_CAPEITEM_FW_CAERLEON_BP",
-		"name": "Grandmaster's Caerleon Crest"
+		"name": "Grandmaster's Caerleon Crest",
+		"weight": 0.51
 	},
 	{
 		"id": "T8_CAPEITEM_FW_CAERLEON_BP",
-		"name": "Elder's Caerleon Crest"
+		"name": "Elder's Caerleon Crest",
+		"weight": 0.51
 	},
 	{
 		"id": "T4_CAPEITEM_SMUGGLER_BP",
-		"name": "Adept's Smuggler Crest"
+		"name": "Adept's Smuggler Crest",
+		"weight": 0.51
 	},
 	{
 		"id": "T5_CAPEITEM_SMUGGLER_BP",
-		"name": "Expert's Smuggler Crest"
+		"name": "Expert's Smuggler Crest",
+		"weight": 0.51
 	},
 	{
 		"id": "T6_CAPEITEM_SMUGGLER_BP",
-		"name": "Master's Smuggler Crest"
+		"name": "Master's Smuggler Crest",
+		"weight": 0.51
 	},
 	{
 		"id": "T7_CAPEITEM_SMUGGLER_BP",
-		"name": "Grandmaster's Smuggler Crest"
+		"name": "Grandmaster's Smuggler Crest",
+		"weight": 0.51
 	},
 	{
 		"id": "T8_CAPEITEM_SMUGGLER_BP",
-		"name": "Elder's Smuggler Crest"
+		"name": "Elder's Smuggler Crest",
+		"weight": 0.51
 	},
 	{
 		"id": "T4_CAPEITEM_FW_BRECILIEN_BP",
-		"name": "Adept's Brecilien Crest"
+		"name": "Adept's Brecilien Crest",
+		"weight": 0.51
 	},
 	{
 		"id": "T5_CAPEITEM_FW_BRECILIEN_BP",
-		"name": "Expert's Brecilien Crest"
+		"name": "Expert's Brecilien Crest",
+		"weight": 0.51
 	},
 	{
 		"id": "T6_CAPEITEM_FW_BRECILIEN_BP",
-		"name": "Master's Brecilien Crest"
+		"name": "Master's Brecilien Crest",
+		"weight": 0.51
 	},
 	{
 		"id": "T7_CAPEITEM_FW_BRECILIEN_BP",
-		"name": "Grandmaster's Brecilien Crest"
+		"name": "Grandmaster's Brecilien Crest",
+		"weight": 0.51
 	},
 	{
 		"id": "T8_CAPEITEM_FW_BRECILIEN_BP",
-		"name": "Elder's Brecilien Crest"
+		"name": "Elder's Brecilien Crest",
+		"weight": 0.51
 	},
 	{
 		"id": "T4_CAPEITEM_AVALON_BP",
-		"name": "Adept's Avalonian Crest"
+		"name": "Adept's Avalonian Crest",
+		"weight": 0.51
 	},
 	{
 		"id": "T5_CAPEITEM_AVALON_BP",
-		"name": "Expert's Avalonian Crest"
+		"name": "Expert's Avalonian Crest",
+		"weight": 0.51
 	},
 	{
 		"id": "T6_CAPEITEM_AVALON_BP",
-		"name": "Master's Avalonian Crest"
+		"name": "Master's Avalonian Crest",
+		"weight": 0.51
 	},
 	{
 		"id": "T7_CAPEITEM_AVALON_BP",
-		"name": "Grandmaster's Avalonian Crest"
+		"name": "Grandmaster's Avalonian Crest",
+		"weight": 0.51
 	},
 	{
 		"id": "T8_CAPEITEM_AVALON_BP",
-		"name": "Elder's Avalonian Crest"
+		"name": "Elder's Avalonian Crest",
+		"weight": 0.51
 	},
 	{
 		"id": "T4_CAPEITEM_HERETIC_BP",
-		"name": "Adept's Heretic Crest"
+		"name": "Adept's Heretic Crest",
+		"weight": 0.51
 	},
 	{
 		"id": "T5_CAPEITEM_HERETIC_BP",
-		"name": "Expert's Heretic Crest"
+		"name": "Expert's Heretic Crest",
+		"weight": 0.51
 	},
 	{
 		"id": "T6_CAPEITEM_HERETIC_BP",
-		"name": "Master's Heretic Crest"
+		"name": "Master's Heretic Crest",
+		"weight": 0.51
 	},
 	{
 		"id": "T7_CAPEITEM_HERETIC_BP",
-		"name": "Grandmaster's Heretic Crest"
+		"name": "Grandmaster's Heretic Crest",
+		"weight": 0.51
 	},
 	{
 		"id": "T8_CAPEITEM_HERETIC_BP",
-		"name": "Elder's Heretic Crest"
+		"name": "Elder's Heretic Crest",
+		"weight": 0.51
 	},
 	{
 		"id": "T4_CAPEITEM_UNDEAD_BP",
-		"name": "Adept's Undead Crest"
+		"name": "Adept's Undead Crest",
+		"weight": 0.51
 	},
 	{
 		"id": "T5_CAPEITEM_UNDEAD_BP",
-		"name": "Expert's Undead Crest"
+		"name": "Expert's Undead Crest",
+		"weight": 0.51
 	},
 	{
 		"id": "T6_CAPEITEM_UNDEAD_BP",
-		"name": "Master's Undead Crest"
+		"name": "Master's Undead Crest",
+		"weight": 0.51
 	},
 	{
 		"id": "T7_CAPEITEM_UNDEAD_BP",
-		"name": "Grandmaster's Undead Crest"
+		"name": "Grandmaster's Undead Crest",
+		"weight": 0.51
 	},
 	{
 		"id": "T8_CAPEITEM_UNDEAD_BP",
-		"name": "Elder's Undead Crest"
+		"name": "Elder's Undead Crest",
+		"weight": 0.51
 	},
 	{
 		"id": "T4_CAPEITEM_KEEPER_BP",
-		"name": "Adept's Keeper Crest"
+		"name": "Adept's Keeper Crest",
+		"weight": 0.51
 	},
 	{
 		"id": "T5_CAPEITEM_KEEPER_BP",
-		"name": "Expert's Keeper Crest"
+		"name": "Expert's Keeper Crest",
+		"weight": 0.51
 	},
 	{
 		"id": "T6_CAPEITEM_KEEPER_BP",
-		"name": "Master's Keeper Crest"
+		"name": "Master's Keeper Crest",
+		"weight": 0.51
 	},
 	{
 		"id": "T7_CAPEITEM_KEEPER_BP",
-		"name": "Grandmaster's Keeper Crest"
+		"name": "Grandmaster's Keeper Crest",
+		"weight": 0.51
 	},
 	{
 		"id": "T8_CAPEITEM_KEEPER_BP",
-		"name": "Elder's Keeper Crest"
+		"name": "Elder's Keeper Crest",
+		"weight": 0.51
 	},
 	{
 		"id": "T4_CAPEITEM_MORGANA_BP",
-		"name": "Adept's Morgana Crest"
+		"name": "Adept's Morgana Crest",
+		"weight": 0.51
 	},
 	{
 		"id": "T5_CAPEITEM_MORGANA_BP",
-		"name": "Expert's Morgana Crest"
+		"name": "Expert's Morgana Crest",
+		"weight": 0.51
 	},
 	{
 		"id": "T6_CAPEITEM_MORGANA_BP",
-		"name": "Master's Morgana Crest"
+		"name": "Master's Morgana Crest",
+		"weight": 0.51
 	},
 	{
 		"id": "T7_CAPEITEM_MORGANA_BP",
-		"name": "Grandmaster's Morgana Crest"
+		"name": "Grandmaster's Morgana Crest",
+		"weight": 0.51
 	},
 	{
 		"id": "T8_CAPEITEM_MORGANA_BP",
-		"name": "Elder's Morgana Crest"
+		"name": "Elder's Morgana Crest",
+		"weight": 0.51
 	},
 	{
 		"id": "T4_CAPEITEM_DEMON_BP",
-		"name": "Adept's Demon Crest"
+		"name": "Adept's Demon Crest",
+		"weight": 0.51
 	},
 	{
 		"id": "T5_CAPEITEM_DEMON_BP",
-		"name": "Expert's Demon Crest"
+		"name": "Expert's Demon Crest",
+		"weight": 0.51
 	},
 	{
 		"id": "T6_CAPEITEM_DEMON_BP",
-		"name": "Master's Demon Crest"
+		"name": "Master's Demon Crest",
+		"weight": 0.51
 	},
 	{
 		"id": "T7_CAPEITEM_DEMON_BP",
-		"name": "Grandmaster's Demon Crest"
+		"name": "Grandmaster's Demon Crest",
+		"weight": 0.51
 	},
 	{
 		"id": "T8_CAPEITEM_DEMON_BP",
-		"name": "Elder's Demon Crest"
+		"name": "Elder's Demon Crest",
+		"weight": 0.51
 	}
 ]

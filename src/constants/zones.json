@@ -54,11 +54,15 @@
 	{
 		"id": "0004",
 		"name": "Swamp Cross",
-		"market": "Thetford"
+		"market": "Thetford",
+		"x": -52.44,
+		"y": -160.51
 	},
 	{
 		"id": "4206",
-		"name": "Tharcal Fissure"
+		"name": "Tharcal Fissure",
+		"x": 76.23,
+		"y": -235.27
 	},
 	{
 		"id": "MushroomCave-GROUP",
@@ -86,247 +90,369 @@
 	},
 	{
 		"id": "4209",
-		"name": "Cairn Darg"
+		"name": "Cairn Darg",
+		"x": 99.57,
+		"y": -245.26
 	},
 	{
 		"id": "4210",
-		"name": "Gwan Gorge"
+		"name": "Gwan Gorge",
+		"x": -28.5,
+		"y": -164.72
 	},
 	{
 		"id": "4215",
-		"name": "Malag Crevasse"
+		"name": "Malag Crevasse",
+		"x": 26.83,
+		"y": -255.95
 	},
 	{
 		"id": "4216",
-		"name": "Creag Morr"
+		"name": "Creag Morr",
+		"x": 36.88,
+		"y": -271.2
 	},
 	{
 		"id": "4213",
-		"name": "Cairn Camain"
+		"name": "Cairn Camain",
+		"x": 61.8,
+		"y": -226.4
 	},
 	{
 		"id": "4212",
-		"name": "Cairn Glascore"
+		"name": "Cairn Glascore",
+		"x": 21.17,
+		"y": -204.41
 	},
 	{
 		"id": "4207",
-		"name": "Pen Gent"
+		"name": "Pen Gent",
+		"x": 59.06,
+		"y": -184.09
 	},
 	{
 		"id": "4201",
-		"name": "Pen Garn"
+		"name": "Pen Garn",
+		"x": 45.38,
+		"y": -180.33
 	},
 	{
 		"id": "4203",
-		"name": "Crose Gorge"
+		"name": "Crose Gorge",
+		"x": 91.6,
+		"y": -191.47
 	},
 	{
 		"id": "3201",
-		"name": "Birken Fell"
+		"name": "Birken Fell",
+		"x": 13.98,
+		"y": -271.68
 	},
 	{
 		"id": "3204",
-		"name": "Eldon Hill"
+		"name": "Eldon Hill",
+		"x": -45.16,
+		"y": -263.14
 	},
 	{
 		"id": "3203",
-		"name": "Lewsdon Hill"
+		"name": "Lewsdon Hill",
+		"x": -50.78,
+		"y": -248.39
 	},
 	{
 		"id": "3207",
-		"name": "Blackthorn Quarry"
+		"name": "Blackthorn Quarry",
+		"x": -44.41,
+		"y": -296.7
 	},
 	{
 		"id": "3206",
-		"name": "Haytor"
+		"name": "Haytor",
+		"x": -68.29,
+		"y": -259.19
 	},
 	{
 		"id": "3209",
-		"name": "Brent Knoll"
+		"name": "Brent Knoll",
+		"x": -81.75,
+		"y": -283.53
 	},
 	{
 		"id": "3210",
-		"name": "Mase Knoll"
+		"name": "Mase Knoll",
+		"x": -78.38,
+		"y": -300.51
 	},
 	{
 		"id": "3212",
-		"name": "Croker Hill"
+		"name": "Croker Hill",
+		"x": -39.2,
+		"y": -324.87
 	},
 	{
 		"id": "3215",
-		"name": "Goffers Knoll"
+		"name": "Goffers Knoll",
+		"x": -23.08,
+		"y": -378.13
 	},
 	{
 		"id": "3213",
-		"name": "Vixen Tor"
+		"name": "Vixen Tor",
+		"x": -10.34,
+		"y": -368.16
 	},
 	{
 		"id": "2215",
-		"name": "Prospector's Hope"
+		"name": "Prospector's Hope",
+		"x": 15.44,
+		"y": -401.33
 	},
 	{
 		"id": "2213",
-		"name": "Steelhide Meadow"
+		"name": "Steelhide Meadow",
+		"x": 112.33,
+		"y": -392.19
 	},
 	{
 		"id": "2212",
-		"name": "Longmarch Meadow"
+		"name": "Longmarch Meadow",
+		"x": 26.21,
+		"y": -387.5
 	},
 	{
 		"id": "2209",
-		"name": "Lazygrass Plain"
+		"name": "Lazygrass Plain",
+		"x": 36.32,
+		"y": -356.61
 	},
 	{
 		"id": "2210",
-		"name": "Snapshaft Trough"
+		"name": "Snapshaft Trough",
+		"x": 42.48,
+		"y": -374.94
 	},
 	{
 		"id": "2207",
-		"name": "Drywater Meadow"
+		"name": "Drywater Meadow",
+		"x": 46.44,
+		"y": -391.8
 	},
 	{
 		"id": "2206",
-		"name": "Parchthroat Plain"
+		"name": "Parchthroat Plain",
+		"x": 73.43,
+		"y": -380.18
 	},
 	{
 		"id": "2204",
-		"name": "Deadvein Gully"
+		"name": "Deadvein Gully",
+		"x": 16.71,
+		"y": -312.83
 	},
 	{
 		"id": "2203",
-		"name": "Roastcorpse Steppe"
+		"name": "Roastcorpse Steppe",
+		"x": 10.76,
+		"y": -299.84
 	},
 	{
 		"id": "2201",
-		"name": "Kindlegrass Steppe"
+		"name": "Kindlegrass Steppe",
+		"x": 45.57,
+		"y": -343.88
 	},
 	{
 		"id": "1215",
-		"name": "Ferndell"
+		"name": "Ferndell",
+		"x": 118.74,
+		"y": -321.36
 	},
 	{
 		"id": "1213",
-		"name": "Wyre Forest"
+		"name": "Wyre Forest",
+		"x": 43.66,
+		"y": -294.24
 	},
 	{
 		"id": "1212",
-		"name": "Stagbourne"
+		"name": "Stagbourne",
+		"x": 137.31,
+		"y": -327.88
 	},
 	{
 		"id": "1210",
-		"name": "Murkweald"
+		"name": "Murkweald",
+		"x": 72.6,
+		"y": -321.91
 	},
 	{
 		"id": "1209",
-		"name": "Longtimber Glen"
+		"name": "Longtimber Glen",
+		"x": 56.07,
+		"y": -283.97
 	},
 	{
 		"id": "1207",
-		"name": "Birchcopse"
+		"name": "Birchcopse",
+		"x": 139.54,
+		"y": -307.32
 	},
 	{
 		"id": "1206",
-		"name": "Willow Wood"
+		"name": "Willow Wood",
+		"x": 102.13,
+		"y": -334.67
 	},
 	{
 		"id": "1204",
-		"name": "Oakcopse"
+		"name": "Oakcopse",
+		"x": 139.29,
+		"y": -257.71
 	},
 	{
 		"id": "1203",
-		"name": "Rowanwood"
+		"name": "Rowanwood",
+		"x": 119.86,
+		"y": -244.96
 	},
 	{
 		"id": "1201",
-		"name": "Larchroad"
+		"name": "Larchroad",
+		"x": 101.51,
+		"y": -207.49
 	},
 	{
 		"id": "4204",
-		"name": "Pen Kerrig"
+		"name": "Pen Kerrig",
+		"x": 101.8,
+		"y": -227.26
 	},
 	{
 		"id": "0214",
-		"name": "Slimehag"
+		"name": "Slimehag",
+		"x": -95.11,
+		"y": -267.64
 	},
 	{
 		"id": "0212",
-		"name": "Bonepool Marsh"
+		"name": "Bonepool Marsh",
+		"x": -68.54,
+		"y": -235.28
 	},
 	{
 		"id": "0211",
-		"name": "Spectral Sump"
+		"name": "Spectral Sump",
+		"x": 31.01,
+		"y": -214.84
 	},
 	{
 		"id": "0203",
-		"name": "Willowsigh Marsh"
+		"name": "Willowsigh Marsh",
+		"x": -8.06,
+		"y": -200.54
 	},
 	{
 		"id": "0208",
-		"name": "Stumprot Swamp"
+		"name": "Stumprot Swamp",
+		"x": -11.07,
+		"y": -247.18
 	},
 	{
 		"id": "0206",
-		"name": "Dusklight Fen"
+		"name": "Dusklight Fen",
+		"x": -35.56,
+		"y": -191.27
 	},
 	{
 		"id": "0209",
-		"name": "Dewleaf Fen"
+		"name": "Dewleaf Fen",
+		"x": -70.74,
+		"y": -209.42
 	},
 	{
 		"id": "0205",
-		"name": "Stinkhag"
+		"name": "Stinkhag",
+		"x": -54.88,
+		"y": -179.41
 	},
 	{
 		"id": "0202",
-		"name": "Chillhag"
+		"name": "Chillhag",
+		"x": -40.17,
+		"y": -173.23
 	},
 	{
 		"id": "2208",
-		"name": "Slowtree Plain"
+		"name": "Slowtree Plain",
+		"x": 17.55,
+		"y": -351.59
 	},
 	{
 		"id": "2211",
-		"name": "Smoothfloor Cleft"
+		"name": "Smoothfloor Cleft",
+		"x": 2.58,
+		"y": -362.48
 	},
 	{
 		"id": "3205",
-		"name": "Gutras Hill"
+		"name": "Gutras Hill",
+		"x": -27.29,
+		"y": -273.23
 	},
 	{
 		"id": "3202",
-		"name": "Mardale"
+		"name": "Mardale",
+		"x": 1.03,
+		"y": -285.28
 	},
 	{
 		"id": "0210",
-		"name": "Wispwhisper Marsh"
+		"name": "Wispwhisper Marsh",
+		"x": -57.42,
+		"y": -223.59
 	},
 	{
 		"id": "0213",
-		"name": "Curlew Fen"
+		"name": "Curlew Fen",
+		"x": -86.27,
+		"y": -250.45
 	},
 	{
 		"id": "3211",
-		"name": "Saddle Tor"
+		"name": "Saddle Tor",
+		"x": -41.73,
+		"y": -376.36
 	},
 	{
 		"id": "0204",
-		"name": "Windripple Fen"
+		"name": "Windripple Fen",
+		"x": -6.89,
+		"y": -176.07
 	},
 	{
 		"id": "4208",
-		"name": "Mawar Gorge"
+		"name": "Mawar Gorge",
+		"x": 87.02,
+		"y": -213.86
 	},
 	{
 		"id": "1202",
-		"name": "Russerdell"
+		"name": "Russerdell",
+		"x": 129.47,
+		"y": -232.57
 	},
 	{
 		"id": "4202",
-		"name": "Bryn Gorge"
+		"name": "Bryn Gorge",
+		"x": 74.74,
+		"y": -184.14
 	},
 	{
 		"id": "4205",
-		"name": "Cairn Gorm"
+		"name": "Cairn Gorm",
+		"x": 31.01,
+		"y": -194.24
 	},
 	{
 		"id": "LumberCampGROUP",
@@ -342,57 +468,83 @@
 	},
 	{
 		"id": "3208",
-		"name": "Bowscale Fell"
+		"name": "Bowscale Fell",
+		"x": -30.96,
+		"y": -248.54
 	},
 	{
 		"id": "4214",
-		"name": "Cairn Fidair"
+		"name": "Cairn Fidair",
+		"x": 44.55,
+		"y": -208.12
 	},
 	{
 		"id": "4211",
-		"name": "Creag Garr"
+		"name": "Creag Garr",
+		"x": 56.6,
+		"y": -248.05
 	},
 	{
 		"id": "0207",
-		"name": "Nightcreak Marsh"
+		"name": "Nightcreak Marsh",
+		"x": -14.47,
+		"y": -217.69
 	},
 	{
 		"id": "2214",
-		"name": "Fractured Ground"
+		"name": "Fractured Ground",
+		"x": 6.35,
+		"y": -384.27
 	},
 	{
 		"id": "2202",
-		"name": "Cracked Earth"
+		"name": "Cracked Earth",
+		"x": 131.51,
+		"y": -345.57
 	},
 	{
 		"id": "1208",
-		"name": "Redlake"
+		"name": "Redlake",
+		"x": 153.34,
+		"y": -318.19
 	},
 	{
 		"id": "1211",
-		"name": "Yew Wood"
+		"name": "Yew Wood",
+		"x": 111.31,
+		"y": -286.05
 	},
 	{
 		"id": "1205",
-		"name": "Highbole Glen"
+		"name": "Highbole Glen",
+		"x": 88.28,
+		"y": -278.99
 	},
 	{
 		"id": "1214",
-		"name": "Hornbeam Wood"
+		"name": "Hornbeam Wood",
+		"x": 99.91,
+		"y": -294.64
 	},
 	{
 		"id": "2002",
 		"name": "Steppe Cross",
-		"market": "Bridgewatch"
+		"market": "Bridgewatch",
+		"x": 0.11,
+		"y": -403.6
 	},
 	{
 		"id": "3002",
 		"name": "Highland Cross",
-		"market": "Martlock"
+		"market": "Martlock",
+		"x": -96.41,
+		"y": -302.44
 	},
 	{
 		"id": "3214",
-		"name": "Haldon Tor"
+		"name": "Haldon Tor",
+		"x": -62.94,
+		"y": -312.55
 	},
 	{
 		"id": "LumberCampSOLO",
@@ -400,41 +552,59 @@
 	},
 	{
 		"id": "3004",
-		"name": "Martlock"
+		"name": "Martlock",
+		"x": -58.59,
+		"y": -280.33
 	},
 	{
 		"id": "4000",
-		"name": "Fort Sterling"
+		"name": "Fort Sterling",
+		"x": 70.83,
+		"y": -208.91
 	},
 	{
 		"id": "1006",
 		"name": "Forest Cross",
-		"market": "Lymhurst"
+		"market": "Lymhurst",
+		"x": 155.02,
+		"y": -333.01
 	},
 	{
 		"id": "4006",
 		"name": "Mountain Cross",
-		"market": "Fort Sterling"
+		"market": "Fort Sterling",
+		"x": 101.07,
+		"y": -179.07
 	},
 	{
 		"id": "0000",
-		"name": "Thetford"
+		"name": "Thetford",
+		"x": -19.82,
+		"y": -187.29
 	},
 	{
 		"id": "0201",
-		"name": "Sleetwater Basin"
+		"name": "Sleetwater Basin",
+		"x": 6.92,
+		"y": -192.61
 	},
 	{
 		"id": "1000",
-		"name": "Lymhurst"
+		"name": "Lymhurst",
+		"x": 127.54,
+		"y": -313.69
 	},
 	{
 		"id": "0005",
-		"name": "Camlann"
+		"name": "Camlann",
+		"x": 11.38,
+		"y": -243.03
 	},
 	{
 		"id": "2009",
-		"name": "Astolat"
+		"name": "Astolat",
+		"x": 28.81,
+		"y": -336.82
 	},
 	{
 		"id": "Mine-SOLO",
@@ -446,7 +616,9 @@
 	},
 	{
 		"id": "2000",
-		"name": "Bridgewatch"
+		"name": "Bridgewatch",
+		"x": 15.8,
+		"y": -370.8
 	},
 	{
 		"id": "PSG-0003",
@@ -475,15 +647,21 @@
 	{
 		"id": "3003",
 		"name": "Caerleon",
-		"market": "Caerleon"
+		"market": "Caerleon",
+		"x": 28.21,
+		"y": -288.95
 	},
 	{
 		"id": "3245",
-		"name": "Runnel Sink"
+		"name": "Runnel Sink",
+		"x": -12.16,
+		"y": -274.81
 	},
 	{
 		"id": "1007",
-		"name": "Inis Mon"
+		"name": "Inis Mon",
+		"x": 113.74,
+		"y": -262.17
 	},
 	{
 		"id": "ThreeSisters-GROUP",
@@ -495,24 +673,34 @@
 	},
 	{
 		"id": "1246",
-		"name": "Cedarcopse"
+		"name": "Cedarcopse",
+		"x": 115.95,
+		"y": -215.29
 	},
 	{
 		"id": "3249",
-		"name": "Bellever Tor"
+		"name": "Bellever Tor",
+		"x": -52.69,
+		"y": -335.15
 	},
 	{
 		"id": "4249",
-		"name": "Pen Uchaf"
+		"name": "Pen Uchaf",
+		"x": 58.08,
+		"y": -162.11
 	},
 	{
 		"id": "2205",
-		"name": "Shiftshadow Expanse"
+		"name": "Shiftshadow Expanse",
+		"x": 9.33,
+		"y": -328.66
 	},
 	{
 		"id": "3005",
 		"name": "Caerleon Market",
-		"market": "Caerleon"
+		"market": "Caerleon",
+		"x": 28.21,
+		"y": -288.95
 	},
 	{
 		"id": "3006",
@@ -549,7 +737,9 @@
 	{
 		"id": "0007",
 		"name": "Thetford Market",
-		"market": "Thetford"
+		"market": "Thetford",
+		"x": -19.82,
+		"y": -187.29
 	},
 	{
 		"id": "1001",
@@ -558,7 +748,9 @@
 	{
 		"id": "1002",
 		"name": "Lymhurst Market",
-		"market": "Lymhurst"
+		"market": "Lymhurst",
+		"x": 127.54,
+		"y": -313.69
 	},
 	{
 		"id": "2003",
@@ -567,7 +759,9 @@
 	{
 		"id": "2004",
 		"name": "Bridgewatch Market",
-		"market": "Bridgewatch"
+		"market": "Bridgewatch",
+		"x": 15.8,
+		"y": -370.8
 	},
 	{
 		"id": "3007",
@@ -576,7 +770,9 @@
 	{
 		"id": "3008",
 		"name": "Martlock Market",
-		"market": "Martlock"
+		"market": "Martlock",
+		"x": -58.59,
+		"y": -280.33
 	},
 	{
 		"id": "4001",
@@ -585,7 +781,9 @@
 	{
 		"id": "4002",
 		"name": "Fort Sterling Market",
-		"market": "Fort Sterling"
+		"market": "Fort Sterling",
+		"x": 70.83,
+		"y": -208.91
 	},
 	{
 		"id": "EternalBattle-HRD",
@@ -657,19 +855,27 @@
 	},
 	{
 		"id": "1008",
-		"name": "The Lighthouse"
+		"name": "The Lighthouse",
+		"x": -124.71,
+		"y": -338.49
 	},
 	{
 		"id": "1009",
-		"name": "Forgotten Woods"
+		"name": "Forgotten Woods",
+		"x": -122.14,
+		"y": -326.07
 	},
 	{
 		"id": "1010",
-		"name": "Mountain Fort"
+		"name": "Mountain Fort",
+		"x": -115.68,
+		"y": -325.43
 	},
 	{
 		"id": "1011",
-		"name": "The Cove"
+		"name": "The Cove",
+		"x": -123.3,
+		"y": -331.2
 	},
 	{
 		"id": "3013-Auction2",
@@ -693,72 +899,106 @@
 	},
 	{
 		"id": "2305",
-		"name": "Northstrand Dunes"
+		"name": "Northstrand Dunes",
+		"x": -18.24,
+		"y": 408
 	},
 	{
 		"id": "2326",
-		"name": "Northstrand Beach"
+		"name": "Northstrand Beach",
+		"x": -7.78,
+		"y": 398.1
 	},
 	{
 		"id": "0324",
-		"name": "Scuttlesink Mouth"
+		"name": "Scuttlesink Mouth",
+		"x": 7.5,
+		"y": 384.38
 	},
 	{
 		"id": "1306",
-		"name": "Deepwood Dell"
+		"name": "Deepwood Dell",
+		"x": 90.37,
+		"y": 238.44
 	},
 	{
 		"id": "4308",
-		"name": "Whitebank Stream"
+		"name": "Whitebank Stream",
+		"x": 76.65,
+		"y": 272.8
 	},
 	{
 		"id": "4309",
-		"name": "Whitebank Shore"
+		"name": "Whitebank Shore",
+		"x": 101.75,
+		"y": 256.89
 	},
 	{
 		"id": "4311",
-		"name": "Whitebank Cross"
+		"name": "Whitebank Cross",
+		"x": 67.46,
+		"y": 251.59
 	},
 	{
 		"id": "4326",
-		"name": "Whitebank Wall"
+		"name": "Whitebank Wall",
+		"x": 57.35,
+		"y": 265.09
 	},
 	{
 		"id": "0307",
 		"name": "Meltwater Bog",
-		"market": "Smuggler's Den"
+		"market": "Smuggler's Den",
+		"x": 45.82,
+		"y": 282.28
 	},
 	{
 		"id": "4305",
-		"name": "Whitebank Descent"
+		"name": "Whitebank Descent",
+		"x": 78.14,
+		"y": 297.76
 	},
 	{
 		"id": "4338",
-		"name": "Whitebank Ridge"
+		"name": "Whitebank Ridge",
+		"x": 69.86,
+		"y": 282.56
 	},
 	{
 		"id": "1326",
-		"name": "Timberslope Dell"
+		"name": "Timberslope Dell",
+		"x": 166.24,
+		"y": 202.16
 	},
 	{
 		"id": "1340",
-		"name": "Deepwood Pines"
+		"name": "Deepwood Pines",
+		"x": 94.96,
+		"y": 218.28
 	},
 	{
 		"id": "4306",
-		"name": "Frostpeak Vista"
+		"name": "Frostpeak Vista",
+		"x": 160.71,
+		"y": 255.31
 	},
 	{
 		"id": "4324",
-		"name": "Frostpeak Ascent"
+		"name": "Frostpeak Ascent",
+		"x": 157.12,
+		"y": 238.58
 	},
 	{
 		"id": "4327",
-		"name": "Floatshoal Fissure"
+		"name": "Floatshoal Fissure",
+		"x": 116.74,
+		"y": 195.3
 	},
 	{
 		"id": "4339",
-		"name": "Floatshoal Bight"
+		"name": "Floatshoal Bight",
+		"x": 147.79,
+		"y": 193.61
 	},
 	{
 		"id": "PSG-0039#2",
@@ -766,61 +1006,89 @@
 	},
 	{
 		"id": "0325",
-		"name": "Meltwater Delta"
+		"name": "Meltwater Delta",
+		"x": 63.92,
+		"y": 301.79
 	},
 	{
 		"id": "0338",
-		"name": "Meltwater Sump"
+		"name": "Meltwater Sump",
+		"x": 48.65,
+		"y": 314.66
 	},
 	{
 		"id": "2307",
-		"name": "Skysand Plateau"
+		"name": "Skysand Plateau",
+		"x": 6.08,
+		"y": 303.21
 	},
 	{
 		"id": "4307",
-		"name": "Everwinter Crossing"
+		"name": "Everwinter Crossing",
+		"x": 39.53,
+		"y": 300.45
 	},
 	{
 		"id": "4323",
-		"name": "Everwinter Plain"
+		"name": "Everwinter Plain",
+		"x": 24.61,
+		"y": 310.84
 	},
 	{
 		"id": "4325",
-		"name": "Everwinter Gorge"
+		"name": "Everwinter Gorge",
+		"x": 26.8,
+		"y": 292.95
 	},
 	{
 		"id": "0353",
 		"name": "Scuttlesink Marsh",
-		"market": "Smuggler's Den"
+		"market": "Smuggler's Den",
+		"x": 6.86,
+		"y": 362.25
 	},
 	{
 		"id": "1305",
-		"name": "Brambleshore Hinterlands"
+		"name": "Brambleshore Hinterlands",
+		"x": 20.93,
+		"y": 370.95
 	},
 	{
 		"id": "3338",
-		"name": "Shaleheath Steep"
+		"name": "Shaleheath Steep",
+		"x": -6.65,
+		"y": 340.27
 	},
 	{
 		"id": "4321",
-		"name": "Everwinter Reach"
+		"name": "Everwinter Reach",
+		"x": 42.57,
+		"y": 358.36
 	},
 	{
 		"id": "4322",
 		"name": "Everwinter Peak",
-		"market": "Smuggler's Den"
+		"market": "Smuggler's Den",
+		"x": 17.25,
+		"y": 326.82
 	},
 	{
 		"id": "4337",
-		"name": "Everwinter Passage"
+		"name": "Everwinter Passage",
+		"x": 32.17,
+		"y": 339.06
 	},
 	{
 		"id": "4340",
-		"name": "Everwinter Expanse"
+		"name": "Everwinter Expanse",
+		"x": -14.15,
+		"y": 323.76
 	},
 	{
 		"id": "4353",
-		"name": "Everwinter Incline"
+		"name": "Everwinter Incline",
+		"x": 0.5,
+		"y": 318.55
 	},
 	{
 		"id": "PSG-0042#1",
@@ -832,257 +1100,381 @@
 	},
 	{
 		"id": "0306",
-		"name": "Scuttlesink Pools"
+		"name": "Scuttlesink Pools",
+		"x": -0.92,
+		"y": 373.14
 	},
 	{
 		"id": "1325",
-		"name": "Timbertop Dale"
+		"name": "Timbertop Dale",
+		"x": -20.01,
+		"y": 381.34
 	},
 	{
 		"id": "1338",
-		"name": "Timbertop Wood"
+		"name": "Timbertop Wood",
+		"x": -31.61,
+		"y": 393.36
 	},
 	{
 		"id": "1353",
-		"name": "Timbertop Escarp"
+		"name": "Timbertop Escarp",
+		"x": -29.63,
+		"y": 372.43
 	},
 	{
 		"id": "3326",
-		"name": "Shaleheath Hills"
+		"name": "Shaleheath Hills",
+		"x": -14.7,
+		"y": 352.56
 	},
 	{
 		"id": "4310",
-		"name": "Everwinter Shores"
+		"name": "Everwinter Shores",
+		"x": -21.51,
+		"y": 335.39
 	},
 	{
 		"id": "0305",
-		"name": "Wetgrave Bog"
+		"name": "Wetgrave Bog",
+		"x": 189.36,
+		"y": 144.96
 	},
 	{
 		"id": "0339",
-		"name": "Wetgrave Swale"
+		"name": "Wetgrave Swale",
+		"x": 178.83,
+		"y": 159.45
 	},
 	{
 		"id": "0342",
-		"name": "Wetgrave Marsh"
+		"name": "Wetgrave Marsh",
+		"x": 175.49,
+		"y": 130.86
 	},
 	{
 		"id": "1339",
 		"name": "Timberslope Grove",
-		"market": "Smuggler's Den"
+		"market": "Smuggler's Den",
+		"x": 170.2,
+		"y": 189.86
 	},
 	{
 		"id": "1354",
-		"name": "Timberslope Bridge"
+		"name": "Timberslope Bridge",
+		"x": 162.02,
+		"y": 173.88
 	},
 	{
 		"id": "2306",
-		"name": "Swiftsands Plain"
+		"name": "Swiftsands Plain",
+		"x": 205.06,
+		"y": 171.97
 	},
 	{
 		"id": "2308",
 		"name": "Drybasin Riverbed",
-		"market": "Smuggler's Den"
+		"market": "Smuggler's Den",
+		"x": 164.12,
+		"y": 147.57
 	},
 	{
 		"id": "2339",
-		"name": "Swiftsands Basin"
+		"name": "Swiftsands Basin",
+		"x": 194.31,
+		"y": 181.02
 	},
 	{
 		"id": "2354",
-		"name": "Swiftsands Chaparral"
+		"name": "Swiftsands Chaparral",
+		"x": 192.55,
+		"y": 166.24
 	},
 	{
 		"id": "3327",
-		"name": "Skylake Bridge"
+		"name": "Skylake Bridge",
+		"x": 145.31,
+		"y": 163.84
 	},
 	{
 		"id": "1355",
-		"name": "Greenshore Bay"
+		"name": "Greenshore Bay",
+		"x": 180.52,
+		"y": 79.55
 	},
 	{
 		"id": "3305",
-		"name": "Flatrock Cliffs"
+		"name": "Flatrock Cliffs",
+		"x": 176.64,
+		"y": 98.85
 	},
 	{
 		"id": "0315",
-		"name": "Skullmarsh Lower"
+		"name": "Skullmarsh Lower",
+		"x": 165.89,
+		"y": 3.25
 	},
 	{
 		"id": "0343",
-		"name": "Skullmarsh Upper"
+		"name": "Skullmarsh Upper",
+		"x": 175.57,
+		"y": 18.46
 	},
 	{
 		"id": "1307",
-		"name": "Greenshore Peninsula"
+		"name": "Greenshore Peninsula",
+		"x": 173.74,
+		"y": 67.67
 	},
 	{
 		"id": "1308",
-		"name": "Giantweald Dale"
+		"name": "Giantweald Dale",
+		"x": 139.23,
+		"y": 91.85
 	},
 	{
 		"id": "1311",
-		"name": "Watchwood Precipice"
+		"name": "Watchwood Precipice",
+		"x": 144.67,
+		"y": 49.64
 	},
 	{
 		"id": "1315",
-		"name": "Watchwood Grove"
+		"name": "Watchwood Grove",
+		"x": 151.6,
+		"y": 26.3
 	},
 	{
 		"id": "1328",
-		"name": "Giantweald Woods"
+		"name": "Giantweald Woods",
+		"x": 133.08,
+		"y": 109.04
 	},
 	{
 		"id": "1329",
-		"name": "Watchwood Lakeside"
+		"name": "Watchwood Lakeside",
+		"x": 155.28,
+		"y": 56.57
 	},
 	{
 		"id": "1330",
-		"name": "Watchwood Bluffs"
+		"name": "Watchwood Bluffs",
+		"x": 161.22,
+		"y": 34.08
 	},
 	{
 		"id": "1341",
-		"name": "Giantweald Edge"
+		"name": "Giantweald Edge",
+		"x": 157.54,
+		"y": 115.68
 	},
 	{
 		"id": "2309",
-		"name": "Slakesands Canyon"
+		"name": "Slakesands Canyon",
+		"x": 180.71,
+		"y": 47.83
 	},
 	{
 		"id": "2341",
-		"name": "Drybasin Oasis"
+		"name": "Drybasin Oasis",
+		"x": 149.98,
+		"y": 133.29
 	},
 	{
 		"id": "2342",
 		"name": "Slakesands Mesa",
-		"market": "Smuggler's Den"
+		"market": "Smuggler's Den",
+		"x": 170.23,
+		"y": 48.99
 	},
 	{
 		"id": "3328",
-		"name": "Flatrock Plateau"
+		"name": "Flatrock Plateau",
+		"x": 162.14,
+		"y": 89.31
 	},
 	{
 		"id": "4315",
-		"name": "Munten Rise"
+		"name": "Munten Rise",
+		"x": 139.8,
+		"y": 64.13
 	},
 	{
 		"id": "4331",
-		"name": "Munten Tundra"
+		"name": "Munten Tundra",
+		"x": 120.42,
+		"y": 76.16
 	},
 	{
 		"id": "4345",
 		"name": "Munten Fell",
-		"market": "Smuggler's Den"
+		"market": "Smuggler's Den",
+		"x": 147.57,
+		"y": 75.59
 	},
 	{
 		"id": "1313",
-		"name": "Hightree Steep"
+		"name": "Hightree Steep",
+		"x": 116.67,
+		"y": 50.06
 	},
 	{
 		"id": "1316",
-		"name": "Hightree Lake"
+		"name": "Hightree Lake",
+		"x": 87.33,
+		"y": 56.78
 	},
 	{
 		"id": "1317",
-		"name": "Hightree Dale"
+		"name": "Hightree Dale",
+		"x": 124.1,
+		"y": 19.3
 	},
 	{
 		"id": "1319",
-		"name": "Hightree Strand"
+		"name": "Hightree Strand",
+		"x": 88.6,
+		"y": 22.27
 	},
 	{
 		"id": "1320",
-		"name": "Hightree Glade"
+		"name": "Hightree Glade",
+		"x": 113.28,
+		"y": -7.21
 	},
 	{
 		"id": "1322",
-		"name": "Hightree Enclave"
+		"name": "Hightree Enclave",
+		"x": 91.08,
+		"y": -15.7
 	},
 	{
 		"id": "1332",
-		"name": "Hightree Pass"
+		"name": "Hightree Pass",
+		"x": 109.96,
+		"y": 62.86
 	},
 	{
 		"id": "1335",
-		"name": "Hightree Levee"
+		"name": "Hightree Levee",
+		"x": 80.54,
+		"y": 7.85
 	},
 	{
 		"id": "1336",
-		"name": "Hightree Cliffs"
+		"name": "Hightree Cliffs",
+		"x": 117.1,
+		"y": -28
 	},
 	{
 		"id": "1345",
-		"name": "Hightree Isle"
+		"name": "Hightree Isle",
+		"x": 138,
+		"y": 13.35
 	},
 	{
 		"id": "1347",
-		"name": "Hightree Hillock"
+		"name": "Hightree Hillock",
+		"x": 69.03,
+		"y": 40.71
 	},
 	{
 		"id": "4332",
-		"name": "Glacierbreak Summit"
+		"name": "Glacierbreak Summit",
+		"x": 153.87,
+		"y": -13.86
 	},
 	{
 		"id": "0308",
-		"name": "Drownfield Course"
+		"name": "Drownfield Course",
+		"x": -34.58,
+		"y": 316.34
 	},
 	{
 		"id": "0309",
-		"name": "Widemoor Shore"
+		"name": "Widemoor Shore",
+		"x": -108.05,
+		"y": 365.23
 	},
 	{
 		"id": "0312",
-		"name": "Widemoor Pool"
+		"name": "Widemoor Pool",
+		"x": -96.03,
+		"y": 341.96
 	},
 	{
 		"id": "0314",
-		"name": "Willowshade Wetlands"
+		"name": "Willowshade Wetlands",
+		"x": -108.54,
+		"y": 304.27
 	},
 	{
 		"id": "0316",
-		"name": "Widemoor Estuary"
+		"name": "Widemoor Estuary",
+		"x": -135.99,
+		"y": 322.36
 	},
 	{
 		"id": "0327",
-		"name": "Widemoor Hills"
+		"name": "Widemoor Hills",
+		"x": -91.15,
+		"y": 354.37
 	},
 	{
 		"id": "0328",
-		"name": "Drownfield Wetland"
+		"name": "Drownfield Wetland",
+		"x": -53.41,
+		"y": 311.7
 	},
 	{
 		"id": "0330",
-		"name": "Widemoor End"
+		"name": "Widemoor End",
+		"x": -90.75,
+		"y": 325.24
 	},
 	{
 		"id": "0331",
-		"name": "Willowshade Pools"
+		"name": "Willowshade Pools",
+		"x": -89.73,
+		"y": 295.43
 	},
 	{
 		"id": "0333",
-		"name": "Widemoor Woods"
+		"name": "Widemoor Woods",
+		"x": -125.51,
+		"y": 300.17
 	},
 	{
 		"id": "0344",
 		"name": "Willowshade Hills",
-		"market": "Smuggler's Den"
+		"market": "Smuggler's Den",
+		"x": -109.11,
+		"y": 276.41
 	},
 	{
 		"id": "1309",
-		"name": "Timberscar Dell"
+		"name": "Timberscar Dell",
+		"x": -75.31,
+		"y": 302.29
 	},
 	{
 		"id": "1342",
 		"name": "Timberscar Copse",
-		"market": "Smuggler's Den"
+		"market": "Smuggler's Den",
+		"x": -74.88,
+		"y": 330.45
 	},
 	{
 		"id": "2327",
-		"name": "Drytop Riverbed"
+		"name": "Drytop Riverbed",
+		"x": -76.67,
+		"y": 364.93
 	},
 	{
 		"id": "2328",
-		"name": "Drytop Pillars"
+		"name": "Drytop Pillars",
+		"x": -67.53,
+		"y": 352.21
 	},
 	{
 		"id": "PSG-0044#1",
@@ -1090,265 +1482,391 @@
 	},
 	{
 		"id": "0310",
-		"name": "Drownfield Mire"
+		"name": "Drownfield Mire",
+		"x": -33.21,
+		"y": 286.97
 	},
 	{
 		"id": "0313",
-		"name": "Drownfield Fen"
+		"name": "Drownfield Fen",
+		"x": -21.34,
+		"y": 250.95
 	},
 	{
 		"id": "0329",
-		"name": "Drownfield Slough"
+		"name": "Drownfield Slough",
+		"x": -17.46,
+		"y": 270.25
 	},
 	{
 		"id": "0332",
-		"name": "Drownfield Rut"
+		"name": "Drownfield Rut",
+		"x": -37.62,
+		"y": 247.06
 	},
 	{
 		"id": "0340",
-		"name": "Drownfield Quag"
+		"name": "Drownfield Quag",
+		"x": -32.53,
+		"y": 262.2
 	},
 	{
 		"id": "0354",
-		"name": "Meltwater Channel"
+		"name": "Meltwater Channel",
+		"x": 36.91,
+		"y": 271.25
 	},
 	{
 		"id": "0355",
-		"name": "Drownfield Sink"
+		"name": "Drownfield Sink",
+		"x": -32.81,
+		"y": 230.38
 	},
 	{
 		"id": "1312",
 		"name": "Deadpine Forest",
-		"market": "Smuggler's Den"
+		"market": "Smuggler's Den",
+		"x": -19.94,
+		"y": 219.63
 	},
 	{
 		"id": "2340",
-		"name": "Skysand Ridge"
+		"name": "Skysand Ridge",
+		"x": -3.61,
+		"y": 287.01
 	},
 	{
 		"id": "2355",
-		"name": "Citadel of Ash"
+		"name": "Citadel of Ash",
+		"x": -15.49,
+		"y": 298.47
 	},
 	{
 		"id": "4312",
-		"name": "Glacierfall Passage"
+		"name": "Glacierfall Passage",
+		"x": 48.22,
+		"y": 251.45
 	},
 	{
 		"id": "4317",
-		"name": "Whitepeak Ascent"
+		"name": "Whitepeak Ascent",
+		"x": -62.73,
+		"y": 259.75
 	},
 	{
 		"id": "4329",
-		"name": "Glacierfall Canyon"
+		"name": "Glacierfall Canyon",
+		"x": 17.82,
+		"y": 227.69
 	},
 	{
 		"id": "4341",
-		"name": "Everwinter Gap"
+		"name": "Everwinter Gap",
+		"x": 13.44,
+		"y": 279.59
 	},
 	{
 		"id": "4343",
-		"name": "Glacierfall Cross"
+		"name": "Glacierfall Cross",
+		"x": 29.49,
+		"y": 243.46
 	},
 	{
 		"id": "4344",
-		"name": "Glacierfall Valley"
+		"name": "Glacierfall Valley",
+		"x": 38.96,
+		"y": 230.73
 	},
 	{
 		"id": "4348",
-		"name": "Whitepeak Spring"
+		"name": "Whitepeak Spring",
+		"x": -70.71,
+		"y": 278.03
 	},
 	{
 		"id": "4355",
-		"name": "Glacierfall Pass"
+		"name": "Glacierfall Pass",
+		"x": 2.83,
+		"y": 240.56
 	},
 	{
 		"id": "4357",
 		"name": "Whitepeak Tundra",
-		"market": "Smuggler's Den"
+		"market": "Smuggler's Den",
+		"x": -49.02,
+		"y": 277.45
 	},
 	{
 		"id": "0321",
 		"name": "Springsump Basin",
-		"market": "Smuggler's Den"
+		"market": "Smuggler's Den",
+		"x": -22.27,
+		"y": 4.45
 	},
 	{
 		"id": "0335",
-		"name": "Springsump Wetland"
+		"name": "Springsump Wetland",
+		"x": -38.43,
+		"y": 11.73
 	},
 	{
 		"id": "0351",
-		"name": "Springsump Melt"
+		"name": "Springsump Melt",
+		"x": -32.1,
+		"y": -3.11
 	},
 	{
 		"id": "1314",
-		"name": "Southgrove Escarp"
+		"name": "Southgrove Escarp",
+		"x": -9.83,
+		"y": -76.01
 	},
 	{
 		"id": "1337",
-		"name": "Southgrove Copse"
+		"name": "Southgrove Copse",
+		"x": -16.97,
+		"y": -58.83
 	},
 	{
 		"id": "1350",
-		"name": "Southgrove Thicket"
+		"name": "Southgrove Thicket",
+		"x": -8.27,
+		"y": -49.57
 	},
 	{
 		"id": "2315",
-		"name": "Dryvein Cross"
+		"name": "Dryvein Cross",
+		"x": -54.83,
+		"y": 21.74
 	},
 	{
 		"id": "2316",
-		"name": "Sunstrand Shoal"
+		"name": "Sunstrand Shoal",
+		"x": 6.13,
+		"y": -38.28
 	},
 	{
 		"id": "2317",
-		"name": "Sunstrand Delta"
+		"name": "Sunstrand Delta",
+		"x": 33.87,
+		"y": -64.6
 	},
 	{
 		"id": "2319",
-		"name": "Dryvein Plain"
+		"name": "Dryvein Plain",
+		"x": -58.48,
+		"y": 1.34
 	},
 	{
 		"id": "2320",
-		"name": "Farshore Esker"
+		"name": "Farshore Esker",
+		"x": -120.1,
+		"y": 36.26
 	},
 	{
 		"id": "2334",
-		"name": "Dryvein Oasis"
+		"name": "Dryvein Oasis",
+		"x": -75.02,
+		"y": 21
 	},
 	{
 		"id": "2335",
-		"name": "Sunstrand Dunes"
+		"name": "Sunstrand Dunes",
+		"x": 25.48,
+		"y": -77.12
 	},
 	{
 		"id": "2336",
 		"name": "Farshore Heath",
-		"market": "Smuggler's Den"
+		"market": "Smuggler's Den",
+		"x": -110.59,
+		"y": 22.63
 	},
 	{
 		"id": "2348",
 		"name": "Sunstrand Quicksands",
-		"market": "Smuggler's Den"
+		"market": "Smuggler's Den",
+		"x": 4.95,
+		"y": -60.25
 	},
 	{
 		"id": "3317",
-		"name": "Battlebrae Peaks"
+		"name": "Battlebrae Peaks",
+		"x": -77.57,
+		"y": 53.39
 	},
 	{
 		"id": "3325",
-		"name": "Stonelake Fields"
+		"name": "Stonelake Fields",
+		"x": -103.17,
+		"y": -3.75
 	},
 	{
 		"id": "3336",
-		"name": "Stonelake Hillock"
+		"name": "Stonelake Hillock",
+		"x": -93.69,
+		"y": 11.1
 	},
 	{
 		"id": "3358",
-		"name": "Stonemouth Southbluff"
+		"name": "Stonemouth Southbluff",
+		"x": 34.52,
+		"y": -41.21
 	},
 	{
 		"id": "4336",
-		"name": "Frostspring Passage"
+		"name": "Frostspring Passage",
+		"x": -17.25,
+		"y": -31.68
 	},
 	{
 		"id": "4351",
 		"name": "Frostspring Volcano",
-		"market": "Smuggler's Den"
+		"market": "Smuggler's Den",
+		"x": -6.63,
+		"y": -17.36
 	},
 	{
 		"id": "4352",
-		"name": "Whitewall Ridge"
+		"name": "Whitewall Ridge",
+		"x": -94.61,
+		"y": 35.5
 	},
 	{
 		"id": "4359",
-		"name": "Whitewall Pass"
+		"name": "Whitewall Pass",
+		"x": -100.8,
+		"y": 51.3
 	},
 	{
 		"id": "0311",
-		"name": "Runnelvein Slough"
+		"name": "Runnelvein Slough",
+		"x": 71.7,
+		"y": 166.17
 	},
 	{
 		"id": "0326",
-		"name": "Runnelvein Bog"
+		"name": "Runnelvein Bog",
+		"x": 86.41,
+		"y": 176.07
 	},
 	{
 		"id": "0341",
 		"name": "Runnelvein Sink",
-		"market": "Smuggler's Den"
+		"market": "Smuggler's Den",
+		"x": 67.39,
+		"y": 151.25
 	},
 	{
 		"id": "1310",
-		"name": "Giantweald Copse"
+		"name": "Giantweald Copse",
+		"x": 113.07,
+		"y": 110.52
 	},
 	{
 		"id": "1327",
-		"name": "Deepwood Gorge"
+		"name": "Deepwood Gorge",
+		"x": 64.91,
+		"y": 234.19
 	},
 	{
 		"id": "1331",
-		"name": "Giantweald Roots"
+		"name": "Giantweald Roots",
+		"x": 95.6,
+		"y": 103.8
 	},
 	{
 		"id": "1343",
 		"name": "Deepwood Copse",
-		"market": "Smuggler's Den"
+		"market": "Smuggler's Den",
+		"x": 56.71,
+		"y": 216.37
 	},
 	{
 		"id": "1344",
-		"name": "Giantweald Glade"
+		"name": "Giantweald Glade",
+		"x": 104.58,
+		"y": 91.57
 	},
 	{
 		"id": "1356",
-		"name": "Eye of the Forest"
+		"name": "Eye of the Forest",
+		"x": 117.38,
+		"y": 130.67
 	},
 	{
 		"id": "1357",
-		"name": "Eldersleep"
+		"name": "Eldersleep",
+		"x": 50.85,
+		"y": 206.14
 	},
 	{
 		"id": "3339",
-		"name": "Skylake Hinterlands"
+		"name": "Skylake Hinterlands",
+		"x": 137.96,
+		"y": 150.97
 	},
 	{
 		"id": "3353",
-		"name": "Thunderrock Draw"
+		"name": "Thunderrock Draw",
+		"x": 58.34,
+		"y": 131.45
 	},
 	{
 		"id": "4313",
 		"name": "Floatshoal Floe",
-		"market": "Smuggler's Den"
+		"market": "Smuggler's Den",
+		"x": 105.99,
+		"y": 177.87
 	},
 	{
 		"id": "4318",
 		"name": "Iceburn Firth",
-		"market": "Smuggler's Den"
+		"market": "Smuggler's Den",
+		"x": 35,
+		"y": 178.69
 	},
 	{
 		"id": "4319",
-		"name": "Flammog Fork"
+		"name": "Flammog Fork",
+		"x": 78.42,
+		"y": 120.84
 	},
 	{
 		"id": "4328",
-		"name": "Iceburn Peaks"
+		"name": "Iceburn Peaks",
+		"x": 66.26,
+		"y": 189.01
 	},
 	{
 		"id": "4330",
-		"name": "Flammog Valley"
+		"name": "Flammog Valley",
+		"x": 93.2,
+		"y": 125.86
 	},
 	{
 		"id": "4342",
-		"name": "Iceburn Cliffs"
+		"name": "Iceburn Cliffs",
+		"x": 78.35,
+		"y": 205.91
 	},
 	{
 		"id": "4346",
-		"name": "Iceburn Tundra"
+		"name": "Iceburn Tundra",
+		"x": 52.54,
+		"y": 181.23
 	},
 	{
 		"id": "4354",
-		"name": "Flammog Desolation"
+		"name": "Flammog Desolation",
+		"x": 99.35,
+		"y": 151.25
 	},
 	{
 		"id": "4356",
-		"name": "Glacierfall Fissure"
+		"name": "Glacierfall Fissure",
+		"x": 16.97,
+		"y": 203.51
 	},
 	{
 		"id": "PSG-0053#1",
@@ -1368,256 +1886,380 @@
 	},
 	{
 		"id": "0317",
-		"name": "Widemoor Delta"
+		"name": "Widemoor Delta",
+		"x": -154.71,
+		"y": 330.08
 	},
 	{
 		"id": "0318",
-		"name": "Willowshade Mire"
+		"name": "Willowshade Mire",
+		"x": -123.53,
+		"y": 252.08
 	},
 	{
 		"id": "0319",
-		"name": "Willowshade Lake"
+		"name": "Willowshade Lake",
+		"x": -106.7,
+		"y": 243.88
 	},
 	{
 		"id": "0320",
 		"name": "Willowshade Icemarsh",
-		"market": "Smuggler's Den"
+		"market": "Smuggler's Den",
+		"x": -135.91,
+		"y": 244.23
 	},
 	{
 		"id": "0334",
-		"name": "Widemoor Flats"
+		"name": "Widemoor Flats",
+		"x": -153.87,
+		"y": 291.05
 	},
 	{
 		"id": "0345",
-		"name": "Willowshade Sink"
+		"name": "Willowshade Sink",
+		"x": -92.42,
+		"y": 262.41
 	},
 	{
 		"id": "0348",
-		"name": "Widemoor Fen"
+		"name": "Widemoor Fen",
+		"x": -161.72,
+		"y": 278.95
 	},
 	{
 		"id": "0350",
-		"name": "Twinchannel Narrows"
+		"name": "Twinchannel Narrows",
+		"x": -191.62,
+		"y": 192.65
 	},
 	{
 		"id": "0357",
-		"name": "Unhallowed Cloister"
+		"name": "Unhallowed Cloister",
+		"x": -178.57,
+		"y": 202.49
 	},
 	{
 		"id": "1323",
 		"name": "Westweald Thicket",
-		"market": "Smuggler's Den"
+		"market": "Smuggler's Den",
+		"x": -205.56,
+		"y": 176.1
 	},
 	{
 		"id": "1334",
-		"name": "Driftwood Glen"
+		"name": "Driftwood Glen",
+		"x": -118.72,
+		"y": 232.14
 	},
 	{
 		"id": "1351",
-		"name": "Westweald Shore"
+		"name": "Westweald Shore",
+		"x": -219.11,
+		"y": 193.77
 	},
 	{
 		"id": "2312",
-		"name": "Sandmount Strand"
+		"name": "Sandmount Strand",
+		"x": -209.58,
+		"y": 211.7
 	},
 	{
 		"id": "2314",
-		"name": "Bleachskull Steppe"
+		"name": "Bleachskull Steppe",
+		"x": -192.12,
+		"y": 166.95
 	},
 	{
 		"id": "2318",
-		"name": "Sandmount Esker"
+		"name": "Sandmount Esker",
+		"x": -248.65,
+		"y": 188
 	},
 	{
 		"id": "2321",
-		"name": "Sandrift Steppe"
+		"name": "Sandrift Steppe",
+		"x": -58.27,
+		"y": -16.4
 	},
 	{
 		"id": "2322",
-		"name": "Sandrift Prairie"
+		"name": "Sandrift Prairie",
+		"x": -97.86,
+		"y": -20.79
 	},
 	{
 		"id": "2323",
-		"name": "Sandrift Coast"
+		"name": "Sandrift Coast",
+		"x": -50.47,
+		"y": -45.96
 	},
 	{
 		"id": "2324",
-		"name": "Sandrift Shore"
+		"name": "Sandrift Shore",
+		"x": -56.21,
+		"y": -58.34
 	},
 	{
 		"id": "2325",
-		"name": "Farshore Bay"
+		"name": "Farshore Bay",
+		"x": -113.95,
+		"y": -33.78
 	},
 	{
 		"id": "2333",
 		"name": "Bleachskull Desert",
-		"market": "Smuggler's Den"
+		"market": "Smuggler's Den",
+		"x": -176.49,
+		"y": 148.63
 	},
 	{
 		"id": "2337",
-		"name": "Sandrift Expanse"
+		"name": "Sandrift Expanse",
+		"x": -40.65,
+		"y": -35.7
 	},
 	{
 		"id": "2338",
-		"name": "Farshore Lagoon"
+		"name": "Farshore Lagoon",
+		"x": -122.9,
+		"y": 3.68
 	},
 	{
 		"id": "2349",
-		"name": "Sandmount Desert"
+		"name": "Sandmount Desert",
+		"x": -257.74,
+		"y": 175.43
 	},
 	{
 		"id": "2350",
-		"name": "Sandrift Dunes"
+		"name": "Sandrift Dunes",
+		"x": -73.74,
+		"y": -7.01
 	},
 	{
 		"id": "2351",
-		"name": "Farshore Drylands"
+		"name": "Farshore Drylands",
+		"x": -134.7,
+		"y": 27.51
 	},
 	{
 		"id": "2352",
-		"name": "Sandrift Fringe"
+		"name": "Sandrift Fringe",
+		"x": -34.61,
+		"y": -58.73
 	},
 	{
 		"id": "2353",
-		"name": "Farshore Cape"
+		"name": "Farshore Cape",
+		"x": -137.39,
+		"y": -8.98
 	},
 	{
 		"id": "2358",
-		"name": "Sandmount Ascent"
+		"name": "Sandmount Ascent",
+		"x": -222.1,
+		"y": 216.45
 	},
 	{
 		"id": "3309",
-		"name": "Braemore Upland"
+		"name": "Braemore Upland",
+		"x": -213.48,
+		"y": 241.05
 	},
 	{
 		"id": "3318",
-		"name": "Windgrass Border"
+		"name": "Windgrass Border",
+		"x": -205.63,
+		"y": 150.47
 	},
 	{
 		"id": "3320",
-		"name": "Windgrass Gully"
+		"name": "Windgrass Gully",
+		"x": -237.23,
+		"y": 152.1
 	},
 	{
 		"id": "3321",
-		"name": "Windgrass Rill"
+		"name": "Windgrass Rill",
+		"x": -201.95,
+		"y": 127.28
 	},
 	{
 		"id": "3322",
-		"name": "Windgrass Precipice"
+		"name": "Windgrass Precipice",
+		"x": -251.59,
+		"y": 146.37
 	},
 	{
 		"id": "3331",
-		"name": "Braemore Lowland"
+		"name": "Braemore Lowland",
+		"x": -191.41,
+		"y": 238.51
 	},
 	{
 		"id": "3333",
-		"name": "Windgrass Fields"
+		"name": "Windgrass Fields",
+		"x": -189.22,
+		"y": 138.59
 	},
 	{
 		"id": "3334",
-		"name": "Windgrass Coast"
+		"name": "Windgrass Coast",
+		"x": -248.12,
+		"y": 159.31
 	},
 	{
 		"id": "3346",
-		"name": "Highstone Mound"
+		"name": "Highstone Mound",
+		"x": -163.84,
+		"y": 180.67
 	},
 	{
 		"id": "4314",
-		"name": "Avalanche Ravine"
+		"name": "Avalanche Ravine",
+		"x": -129.04,
+		"y": 201.72
 	},
 	{
 		"id": "4316",
-		"name": "Frostbite Chasm"
+		"name": "Frostbite Chasm",
+		"x": -228.61,
+		"y": 173.5
 	},
 	{
 		"id": "4320",
-		"name": "Frostseep Ravine"
+		"name": "Frostseep Ravine",
+		"x": -148.14,
+		"y": 260.29
 	},
 	{
 		"id": "4335",
-		"name": "Frostbite Mountain"
+		"name": "Frostbite Mountain",
+		"x": -221.25,
+		"y": 164.54
 	},
 	{
 		"id": "4347",
-		"name": "Frostseep Crevasse"
+		"name": "Frostseep Crevasse",
+		"x": -129.59,
+		"y": 274.03
 	},
 	{
 		"id": "0322",
-		"name": "Longfen Marsh"
+		"name": "Longfen Marsh",
+		"x": -134.42,
+		"y": 50.42
 	},
 	{
 		"id": "0323",
-		"name": "Mudfoot Sump"
+		"name": "Mudfoot Sump",
+		"x": -207.39,
+		"y": 90.58
 	},
 	{
 		"id": "0337",
-		"name": "Mudfoot Mounds"
+		"name": "Mudfoot Mounds",
+		"x": -223.3,
+		"y": 82.02
 	},
 	{
 		"id": "0352",
-		"name": "Longfen Veins"
+		"name": "Longfen Veins",
+		"x": -123.6,
+		"y": 62.08
 	},
 	{
 		"id": "0359",
-		"name": "Deathreach Priory"
+		"name": "Deathreach Priory",
+		"x": -136.05,
+		"y": 78.21
 	},
 	{
 		"id": "1324",
-		"name": "Greenhollow Vale"
+		"name": "Greenhollow Vale",
+		"x": -162.14,
+		"y": 102.18
 	},
 	{
 		"id": "1352",
-		"name": "Greenhollow Copse"
+		"name": "Greenhollow Copse",
+		"x": -175.86,
+		"y": 95.67
 	},
 	{
 		"id": "3315",
-		"name": "Highstone Plains"
+		"name": "Highstone Plains",
+		"x": -135.69,
+		"y": 141.92
 	},
 	{
 		"id": "3316",
-		"name": "Battlebrae Flatland"
+		"name": "Battlebrae Flatland",
+		"x": -120.84,
+		"y": 85.91
 	},
 	{
 		"id": "3319",
-		"name": "Highstone Grassland"
+		"name": "Highstone Grassland",
+		"x": -166.1,
+		"y": 129.61
 	},
 	{
 		"id": "3323",
-		"name": "Gravemound Brim"
+		"name": "Gravemound Brim",
+		"x": -211.71,
+		"y": 62.79
 	},
 	{
 		"id": "3324",
-		"name": "Gravemound Hills"
+		"name": "Gravemound Hills",
+		"x": -182.29,
+		"y": 70.15
 	},
 	{
 		"id": "3337",
-		"name": "Gravemound Slope"
+		"name": "Gravemound Slope",
+		"x": -192.47,
+		"y": 81.46
 	},
 	{
 		"id": "3349",
-		"name": "Battlebrae Meadow"
+		"name": "Battlebrae Meadow",
+		"x": -107.48,
+		"y": 75.29
 	},
 	{
 		"id": "3350",
-		"name": "Windgrass Terrace"
+		"name": "Windgrass Terrace",
+		"x": -189.36,
+		"y": 110.31
 	},
 	{
 		"id": "3351",
 		"name": "Gravemound Knoll",
-		"market": "Smuggler's Den"
+		"market": "Smuggler's Den",
+		"x": -160.37,
+		"y": 67.32
 	},
 	{
 		"id": "3352",
-		"name": "Gravemound Cliffs"
+		"name": "Gravemound Cliffs",
+		"x": -204.5,
+		"y": 50.91
 	},
 	{
 		"id": "3357",
 		"name": "Highstone Loch",
-		"market": "Smuggler's Den"
+		"market": "Smuggler's Den",
+		"x": -140.93,
+		"y": 114.48
 	},
 	{
 		"id": "3359",
-		"name": "Redtree Enclave"
+		"name": "Redtree Enclave",
+		"x": -161.36,
+		"y": 22.77
 	},
 	{
 		"id": "PSG-0052#2",
@@ -1641,208 +2283,306 @@
 	},
 	{
 		"id": "0346",
-		"name": "Deathwisp Sink"
+		"name": "Deathwisp Sink",
+		"x": -76.05,
+		"y": 216.54
 	},
 	{
 		"id": "0347",
-		"name": "Deathwisp Bog"
+		"name": "Deathwisp Bog",
+		"x": -65.34,
+		"y": 171.26
 	},
 	{
 		"id": "0349",
 		"name": "Sunkenbough Woods",
-		"market": "Smuggler's Den"
+		"market": "Smuggler's Den",
+		"x": 32.71,
+		"y": 55.59
 	},
 	{
 		"id": "0356",
-		"name": "Black Monastery"
+		"name": "Black Monastery",
+		"x": -73.76,
+		"y": 191.85
 	},
 	{
 		"id": "0358",
-		"name": "Sunkenbough Spring"
+		"name": "Sunkenbough Spring",
+		"x": 21.73,
+		"y": 36.54
 	},
 	{
 		"id": "1318",
-		"name": "Rivercopse Crossing"
+		"name": "Rivercopse Crossing",
+		"x": 25.49,
+		"y": 87.11
 	},
 	{
 		"id": "1321",
-		"name": "Driftwood Vale"
+		"name": "Driftwood Vale",
+		"x": -97.58,
+		"y": 214.39
 	},
 	{
 		"id": "1333",
-		"name": "Hightree Borderlands"
+		"name": "Hightree Borderlands",
+		"x": 57.56,
+		"y": 47.8
 	},
 	{
 		"id": "1346",
-		"name": "Rivercopse Curve"
+		"name": "Rivercopse Curve",
+		"x": 36.56,
+		"y": 75.02
 	},
 	{
 		"id": "1348",
 		"name": "Driftwood Hollow",
-		"market": "Smuggler's Den"
+		"market": "Smuggler's Den",
+		"x": -91.29,
+		"y": 199.76
 	},
 	{
 		"id": "1349",
-		"name": "Rivercopse Path"
+		"name": "Rivercopse Path",
+		"x": 7.85,
+		"y": 76.58
 	},
 	{
 		"id": "1358",
-		"name": "Darkbough Snag"
+		"name": "Darkbough Snag",
+		"x": 35.99,
+		"y": 160.44
 	},
 	{
 		"id": "1359",
 		"name": "Rivercopse Fount",
-		"market": "Smuggler's Den"
+		"market": "Smuggler's Den",
+		"x": 39.39,
+		"y": 103.45
 	},
 	{
 		"id": "2310",
 		"name": "Sunfang Ravine",
-		"market": "Smuggler's Den"
+		"market": "Smuggler's Den",
+		"x": -16.83,
+		"y": 91.36
 	},
 	{
 		"id": "2330",
-		"name": "Sunfang Approach"
+		"name": "Sunfang Approach",
+		"x": -37.05,
+		"y": 75.24
 	},
 	{
 		"id": "2331",
-		"name": "Parchsand Cliffs"
+		"name": "Parchsand Cliffs",
+		"x": -112.71,
+		"y": 126.15
 	},
 	{
 		"id": "2343",
-		"name": "Sunfang Cliffs"
+		"name": "Sunfang Cliffs",
+		"x": -52.68,
+		"y": 132.87
 	},
 	{
 		"id": "2344",
 		"name": "Sunfang Wasteland",
-		"market": "Smuggler's Den"
+		"market": "Smuggler's Den",
+		"x": -29.49,
+		"y": 116.46
 	},
 	{
 		"id": "2356",
-		"name": "Wailing Bulwark"
+		"name": "Wailing Bulwark",
+		"x": 2.62,
+		"y": 104.16
 	},
 	{
 		"id": "2357",
-		"name": "Sunfang Dawn"
+		"name": "Sunfang Dawn",
+		"x": -61.58,
+		"y": 87.18
 	},
 	{
 		"id": "2359",
-		"name": "Parchsand Drought"
+		"name": "Parchsand Drought",
+		"x": -108.69,
+		"y": 109.55
 	},
 	{
 		"id": "3306",
 		"name": "Murdergulch Cross",
-		"market": "Smuggler's Den"
+		"market": "Smuggler's Den",
+		"x": -78.63,
+		"y": 243.95
 	},
 	{
 		"id": "3307",
-		"name": "Murdergulch Gap"
+		"name": "Murdergulch Gap",
+		"x": -52.89,
+		"y": 219.91
 	},
 	{
 		"id": "3308",
-		"name": "Razorrock Passage"
+		"name": "Razorrock Passage",
+		"x": -88.05,
+		"y": 176.88
 	},
 	{
 		"id": "3310",
-		"name": "Razorrock Valley"
+		"name": "Razorrock Valley",
+		"x": -89.02,
+		"y": 123.25
 	},
 	{
 		"id": "3311",
-		"name": "Highstone Meadow"
+		"name": "Highstone Meadow",
+		"x": -128.98,
+		"y": 156.55
 	},
 	{
 		"id": "3312",
-		"name": "Battlebrae Plain"
+		"name": "Battlebrae Plain",
+		"x": -92.98,
+		"y": 86.9
 	},
 	{
 		"id": "3313",
-		"name": "Battlebrae Lake"
+		"name": "Battlebrae Lake",
+		"x": -64.91,
+		"y": 60.53
 	},
 	{
 		"id": "3314",
-		"name": "Stonemouth Northbluff"
+		"name": "Stonemouth Northbluff",
+		"x": 49.99,
+		"y": -24.82
 	},
 	{
 		"id": "3329",
-		"name": "Thunderrock Rapids"
+		"name": "Thunderrock Rapids",
+		"x": 62.97,
+		"y": 77.17
 	},
 	{
 		"id": "3330",
-		"name": "Razorrock Ravine"
+		"name": "Razorrock Ravine",
+		"x": -50.2,
+		"y": 103.94
 	},
 	{
 		"id": "3332",
-		"name": "Razorrock Edge"
+		"name": "Razorrock Edge",
+		"x": -96.67,
+		"y": 151.75
 	},
 	{
 		"id": "3335",
-		"name": "Stonemouth Bay"
+		"name": "Stonemouth Bay",
+		"x": 32.05,
+		"y": -6.17
 	},
 	{
 		"id": "3340",
-		"name": "Thunderrock Ascent"
+		"name": "Thunderrock Ascent",
+		"x": 31.25,
+		"y": 130.11
 	},
 	{
 		"id": "3341",
-		"name": "Thunderrock Upland"
+		"name": "Thunderrock Upland",
+		"x": 63.07,
+		"y": 95.46
 	},
 	{
 		"id": "3342",
-		"name": "Murdergulch Trail"
+		"name": "Murdergulch Trail",
+		"x": -87.96,
+		"y": 230.94
 	},
 	{
 		"id": "3343",
-		"name": "Razorrock Chasm"
+		"name": "Razorrock Chasm",
+		"x": -78.63,
+		"y": 136.75
 	},
 	{
 		"id": "3344",
 		"name": "Razorrock Verge",
-		"market": "Smuggler's Den"
+		"market": "Smuggler's Den",
+		"x": -113.21,
+		"y": 162.42
 	},
 	{
 		"id": "3345",
 		"name": "Razorrock Bank",
-		"market": "Smuggler's Den"
+		"market": "Smuggler's Den",
+		"x": -75.38,
+		"y": 110.03
 	},
 	{
 		"id": "3347",
-		"name": "Highstone Plateau"
+		"name": "Highstone Plateau",
+		"x": -159.81,
+		"y": 161.5
 	},
 	{
 		"id": "3348",
-		"name": "Battlebrae Grassland"
+		"name": "Battlebrae Grassland",
+		"x": -73.54,
+		"y": 73.11
 	},
 	{
 		"id": "3354",
-		"name": "Murdergulch Divide"
+		"name": "Murdergulch Divide",
+		"x": -63.57,
+		"y": 238.93
 	},
 	{
 		"id": "3355",
 		"name": "Murdergulch Ravine",
-		"market": "Smuggler's Den"
+		"market": "Smuggler's Den",
+		"x": -47.94,
+		"y": 197.57
 	},
 	{
 		"id": "3356",
-		"name": "Razorrock Gulch"
+		"name": "Razorrock Gulch",
+		"x": -59.82,
+		"y": 113.7
 	},
 	{
 		"id": "4333",
-		"name": "Firesink Caldera"
+		"name": "Firesink Caldera",
+		"x": 40.64,
+		"y": 34.68
 	},
 	{
 		"id": "4334",
-		"name": "Whitecliff Peak"
+		"name": "Whitecliff Peak",
+		"x": 74.53,
+		"y": -26.73
 	},
 	{
 		"id": "4349",
-		"name": "Firesink Trench"
+		"name": "Firesink Trench",
+		"x": 32.99,
+		"y": 24.46
 	},
 	{
 		"id": "4350",
-		"name": "Whitecliff Expanse"
+		"name": "Whitecliff Expanse",
+		"x": 88.03,
+		"y": -35.57
 	},
 	{
 		"id": "4358",
-		"name": "Avalanche Incline"
+		"name": "Avalanche Incline",
+		"x": -113.52,
+		"y": 185.56
 	},
 	{
 		"id": "PSG-0051#3",
@@ -1854,41 +2594,59 @@
 	},
 	{
 		"id": "0336",
-		"name": "Longfen Arms"
+		"name": "Longfen Arms",
+		"x": -150.54,
+		"y": 32.31
 	},
 	{
 		"id": "2311",
 		"name": "Thirstwater Steppe",
-		"market": "Smuggler's Den"
+		"market": "Smuggler's Den",
+		"x": 62.37,
+		"y": -7.21
 	},
 	{
 		"id": "2313",
-		"name": "Dryvein Riverbed"
+		"name": "Dryvein Riverbed",
+		"x": -25.03,
+		"y": 26.73
 	},
 	{
 		"id": "2329",
-		"name": "Thirstwater Waste"
+		"name": "Thirstwater Waste",
+		"x": 64.13,
+		"y": 15.63
 	},
 	{
 		"id": "2332",
-		"name": "Dryvein Steppe"
+		"name": "Dryvein Steppe",
+		"x": 2.83,
+		"y": 18.81
 	},
 	{
 		"id": "2345",
-		"name": "Dryvein End"
+		"name": "Dryvein End",
+		"x": -20.72,
+		"y": 51.27
 	},
 	{
 		"id": "2346",
-		"name": "Thirstwater Gully"
+		"name": "Thirstwater Gully",
+		"x": 52.54,
+		"y": 6.01
 	},
 	{
 		"id": "2347",
 		"name": "Dryvein Confluence",
-		"market": "Smuggler's Den"
+		"market": "Smuggler's Den",
+		"x": -39.53,
+		"y": 46.17
 	},
 	{
 		"id": "2360",
-		"name": "Daemonium Keep"
+		"name": "Daemonium Keep",
+		"x": 15.77,
+		"y": 6.58
 	},
 	{
 		"id": "PSG-0004#1",
@@ -1905,12 +2663,16 @@
 	{
 		"id": "4300",
 		"name": "Arthur's Rest",
-		"market": "Smuggler's Den"
+		"market": "Smuggler's Den",
+		"x": -91.78,
+		"y": 65.62
 	},
 	{
 		"id": "1012",
 		"name": "Merlyn's Rest",
-		"market": "Smuggler's Den"
+		"market": "Smuggler's Den",
+		"x": 119.23,
+		"y": 95.41
 	},
 	{
 		"id": "0360-HALL-01",
@@ -1955,7 +2717,9 @@
 	{
 		"id": "0008",
 		"name": "Morgana's Rest",
-		"market": "Smuggler's Den"
+		"market": "Smuggler's Den",
+		"x": -4.73,
+		"y": 261.14
 	},
 	{
 		"id": "TNL-001",
@@ -3983,151 +4747,225 @@
 	},
 	{
 		"id": "0215",
-		"name": "Murky Fen"
+		"name": "Murky Fen",
+		"x": -22.17,
+		"y": -144.65
 	},
 	{
 		"id": "0216",
-		"name": "Fog Fen"
+		"name": "Fog Fen",
+		"x": -67.67,
+		"y": -187.23
 	},
 	{
 		"id": "0217",
-		"name": "Drownhorse Basin"
+		"name": "Drownhorse Basin",
+		"x": -1.44,
+		"y": -159.27
 	},
 	{
 		"id": "0218",
-		"name": "Slithertail Marsh"
+		"name": "Slithertail Marsh",
+		"x": -28.9,
+		"y": -225.19
 	},
 	{
 		"id": "0219",
-		"name": "Wanderlure Basin"
+		"name": "Wanderlure Basin",
+		"x": -41.65,
+		"y": -232.99
 	},
 	{
 		"id": "0220",
-		"name": "Falsestep Marsh"
+		"name": "Falsestep Marsh",
+		"x": -53.34,
+		"y": -201.41
 	},
 	{
 		"id": "0221",
-		"name": "Darkground Swamp"
+		"name": "Darkground Swamp",
+		"x": 5.47,
+		"y": -222.22
 	},
 	{
 		"id": "0222",
-		"name": "Anklesnag Mire"
+		"name": "Anklesnag Mire",
+		"x": 25.84,
+		"y": -231.2
 	},
 	{
 		"id": "0223",
-		"name": "Dusktree Swamp"
+		"name": "Dusktree Swamp",
+		"x": -6.57,
+		"y": -229.14
 	},
 	{
 		"id": "1216",
-		"name": "Flynsdell"
+		"name": "Flynsdell",
+		"x": 139.14,
+		"y": -287.43
 	},
 	{
 		"id": "1217",
-		"name": "Pinecopse"
+		"name": "Pinecopse",
+		"x": 104.02,
+		"y": -377.52
 	},
 	{
 		"id": "1218",
-		"name": "Deeproot Wood"
+		"name": "Deeproot Wood",
+		"x": 87.92,
+		"y": -317.84
 	},
 	{
 		"id": "1220",
-		"name": "Aspenwood"
+		"name": "Aspenwood",
+		"x": 123.47,
+		"y": -274.72
 	},
 	{
 		"id": "1221",
-		"name": "Spindlewood"
+		"name": "Spindlewood",
+		"x": 100.53,
+		"y": -350.18
 	},
 	{
 		"id": "1222",
-		"name": "Owlsong Glen"
+		"name": "Owlsong Glen",
+		"x": 96.14,
+		"y": -266.92
 	},
 	{
 		"id": "1223",
-		"name": "Nightbloom Forest"
+		"name": "Nightbloom Forest",
+		"x": 72.12,
+		"y": -276.42
 	},
 	{
 		"id": "2216",
-		"name": "Dryfield Meadow"
+		"name": "Dryfield Meadow",
+		"x": 129.34,
+		"y": -359.9
 	},
 	{
 		"id": "2217",
-		"name": "Sandgust Cleft"
+		"name": "Sandgust Cleft",
+		"x": 64.1,
+		"y": -400.06
 	},
 	{
 		"id": "2218",
-		"name": "Longshadow Plain"
+		"name": "Longshadow Plain",
+		"x": 59.91,
+		"y": -365.93
 	},
 	{
 		"id": "2219",
-		"name": "Flatriver Trough"
+		"name": "Flatriver Trough",
+		"x": 2.31,
+		"y": -344.22
 	},
 	{
 		"id": "2220",
-		"name": "Redstone Plain"
+		"name": "Redstone Plain",
+		"x": -13.1,
+		"y": -350.25
 	},
 	{
 		"id": "2221",
-		"name": "Flimmerair Steppe"
+		"name": "Flimmerair Steppe",
+		"x": 33.26,
+		"y": -309.01
 	},
 	{
 		"id": "2222",
-		"name": "Goldshimmer Plain"
+		"name": "Goldshimmer Plain",
+		"x": 84.64,
+		"y": -337.64
 	},
 	{
 		"id": "3216",
-		"name": "Kilmar Tor"
+		"name": "Kilmar Tor",
+		"x": -24.26,
+		"y": -363.25
 	},
 	{
 		"id": "3217",
-		"name": "Carns Hill"
+		"name": "Carns Hill",
+		"x": -19.41,
+		"y": -331.68
 	},
 	{
 		"id": "3218",
-		"name": "Brons Hill"
+		"name": "Brons Hill",
+		"x": -39.73,
+		"y": -356.57
 	},
 	{
 		"id": "3219",
-		"name": "Felniks Hill"
+		"name": "Felniks Hill",
+		"x": -31.59,
+		"y": -343.17
 	},
 	{
 		"id": "3220",
-		"name": "Adrens Hill"
+		"name": "Adrens Hill",
+		"x": -34.31,
+		"y": -307.39
 	},
 	{
 		"id": "3221",
-		"name": "Garrow Fell"
+		"name": "Garrow Fell",
+		"x": -12.73,
+		"y": -302.5
 	},
 	{
 		"id": "3222",
-		"name": "Broken Fell"
+		"name": "Broken Fell",
+		"x": -9.74,
+		"y": -319.95
 	},
 	{
 		"id": "4217",
-		"name": "Pen Fenair"
+		"name": "Pen Fenair",
+		"x": 18.68,
+		"y": -148.55
 	},
 	{
 		"id": "4218",
-		"name": "Cairn Drain"
+		"name": "Cairn Drain",
+		"x": 88.36,
+		"y": -251.79
 	},
 	{
 		"id": "4219",
-		"name": "Caulder Fissure"
+		"name": "Caulder Fissure",
+		"x": 36.7,
+		"y": -166.95
 	},
 	{
 		"id": "4220",
-		"name": "Cairn Cloch"
+		"name": "Cairn Cloch",
+		"x": 18.92,
+		"y": -176.8
 	},
 	{
 		"id": "4221",
-		"name": "Creag Dhor"
+		"name": "Creag Dhor",
+		"x": 46.98,
+		"y": -232.16
 	},
 	{
 		"id": "4222",
-		"name": "Creag Meagir"
+		"name": "Creag Meagir",
+		"x": 41.97,
+		"y": -245.85
 	},
 	{
 		"id": "4223",
-		"name": "Domhain Chasm"
+		"name": "Domhain Chasm",
+		"x": 51.19,
+		"y": -261.74
 	},
 	{
 		"id": "PSG-0006#1",
@@ -4883,24 +5721,34 @@
 	},
 	{
 		"id": "0301",
-		"name": "Thetford Portal"
+		"name": "Thetford Portal",
+		"x": -125.29,
+		"y": 337.02
 	},
 	{
 		"id": "1301",
-		"name": "Lymhurst Portal"
+		"name": "Lymhurst Portal",
+		"x": 111.09,
+		"y": 29.77
 	},
 	{
 		"id": "2301",
-		"name": "Bridgewatch Portal"
+		"name": "Bridgewatch Portal",
+		"x": -75.26,
+		"y": -32.88
 	},
 	{
 		"id": "3301",
-		"name": "Martlock Portal"
+		"name": "Martlock Portal",
+		"x": -220.31,
+		"y": 132.55
 	},
 	{
 		"id": "4301",
 		"name": "Fort Sterling Portal",
-		"market": "Fort Sterling"
+		"market": "Fort Sterling",
+		"x": 109.22,
+		"y": 271.68
 	},
 	{
 		"id": "0302",
@@ -5009,7 +5857,9 @@
 	{
 		"id": "5003",
 		"name": "Brecilien Market",
-		"market": "Brecilien"
+		"market": "Brecilien",
+		"x": 5.5,
+		"y": -74.5
 	},
 	{
 		"id": "ISLAND-PLAYER-MISTS-0001f",

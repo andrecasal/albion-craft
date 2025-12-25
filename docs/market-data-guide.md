@@ -40,14 +40,14 @@ This document explains how to interpret and use market data from the Albion Onli
 - `timestamp`: The hour/day this data represents
 
 ### Available time scales
-- **Daily average (last 28 days)**: Stable baseline for long-term pricing (e.g., material costs)
-- **6-hour average (last 7 days)**: Recent trends and short-term price movements
-- **Hourly average (last 24 hours)**: Intraday fluctuations and immediate market state
+- **Daily average (last 30 days)**: Stable baseline for long-term pricing (e.g., material costs)
+- **6-hour average (last 30 days)**: Recent trends and short-term price movements
+- **Hourly average (last 5 days)**: Intraday fluctuations and immediate market state
 
 ### Recommended usage
-- Use 28-day daily data to assess stable material baseline prices
-- Use 7-day 6h data to identify recent price trends for crafted items
-- Use 24h hourly data for timing trades within a single session
+- Use 30-day daily data to assess stable material baseline prices
+- Use 30-day 6h data to identify recent price trends for crafted items
+- Use 5-day hourly data for timing trades within a single session
 - Volume data helps gauge demand - high volume = active market, low volume = illiquid
 
 ### Limitations
@@ -79,9 +79,9 @@ This document explains how to interpret and use market data from the Albion Onli
 ## Practical Strategies
 
 ### Crafting Profitability
-1. Use `/history` 28-day daily data to assess material baseline prices
+1. Use `/history` 30-day daily data to assess material baseline prices
 2. Use order book to find where to actually buy materials now
-3. Use `/history` 7-day 6h data for crafted item prices (expected sell price)
+3. Use `/history` 30-day 6h data for crafted item prices (expected sell price)
 
 ### City Arbitrage
 - **Small scale**: Use `/prices` to spot price gaps, execute quickly

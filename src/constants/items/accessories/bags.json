@@ -1,822 +1,1027 @@
 [
 	{
 		"id": "T2_BAG",
-		"name": "Novice's Bag"
+		"name": "Novice's Bag",
+		"weight": 1.5
 	},
 	{
 		"id": "T3_BAG",
-		"name": "Journeyman's Bag"
+		"name": "Journeyman's Bag",
+		"weight": 2.3
 	},
 	{
 		"id": "T4_BAG",
-		"name": "Adept's Bag"
+		"name": "Adept's Bag",
+		"weight": 3.4
 	},
 	{
 		"id": "T4_BAG@1",
-		"name": "Adept's Bag (Uncommon)"
+		"name": "Adept's Bag (Uncommon)",
+		"weight": 3.4
 	},
 	{
 		"id": "T4_BAG@2",
-		"name": "Adept's Bag (Rare)"
+		"name": "Adept's Bag (Rare)",
+		"weight": 3.4
 	},
 	{
 		"id": "T4_BAG@3",
-		"name": "Adept's Bag (Exceptional)"
+		"name": "Adept's Bag (Exceptional)",
+		"weight": 3.4
 	},
 	{
 		"id": "T4_BAG@4",
-		"name": "Adept's Bag (Pristine)"
+		"name": "Adept's Bag (Pristine)",
+		"weight": 3.4
 	},
 	{
 		"id": "T5_BAG",
-		"name": "Expert's Bag"
+		"name": "Expert's Bag",
+		"weight": 5.1
 	},
 	{
 		"id": "T5_BAG@1",
-		"name": "Expert's Bag (Uncommon)"
+		"name": "Expert's Bag (Uncommon)",
+		"weight": 5.1
 	},
 	{
 		"id": "T5_BAG@2",
-		"name": "Expert's Bag (Rare)"
+		"name": "Expert's Bag (Rare)",
+		"weight": 5.1
 	},
 	{
 		"id": "T5_BAG@3",
-		"name": "Expert's Bag (Exceptional)"
+		"name": "Expert's Bag (Exceptional)",
+		"weight": 5.1
 	},
 	{
 		"id": "T5_BAG@4",
-		"name": "Expert's Bag (Pristine)"
+		"name": "Expert's Bag (Pristine)",
+		"weight": 5.1
 	},
 	{
 		"id": "T6_BAG",
-		"name": "Master's Bag"
+		"name": "Master's Bag",
+		"weight": 7.6
 	},
 	{
 		"id": "T6_BAG@1",
-		"name": "Master's Bag (Uncommon)"
+		"name": "Master's Bag (Uncommon)",
+		"weight": 7.6
 	},
 	{
 		"id": "T6_BAG@2",
-		"name": "Master's Bag (Rare)"
+		"name": "Master's Bag (Rare)",
+		"weight": 7.6
 	},
 	{
 		"id": "T6_BAG@3",
-		"name": "Master's Bag (Exceptional)"
+		"name": "Master's Bag (Exceptional)",
+		"weight": 7.6
 	},
 	{
 		"id": "T6_BAG@4",
-		"name": "Master's Bag (Pristine)"
+		"name": "Master's Bag (Pristine)",
+		"weight": 7.6
 	},
 	{
 		"id": "T7_BAG",
-		"name": "Grandmaster's Bag"
+		"name": "Grandmaster's Bag",
+		"weight": 11.4
 	},
 	{
 		"id": "T7_BAG@1",
-		"name": "Grandmaster's Bag (Uncommon)"
+		"name": "Grandmaster's Bag (Uncommon)",
+		"weight": 11.4
 	},
 	{
 		"id": "T7_BAG@2",
-		"name": "Grandmaster's Bag (Rare)"
+		"name": "Grandmaster's Bag (Rare)",
+		"weight": 11.4
 	},
 	{
 		"id": "T7_BAG@3",
-		"name": "Grandmaster's Bag (Exceptional)"
+		"name": "Grandmaster's Bag (Exceptional)",
+		"weight": 11.4
 	},
 	{
 		"id": "T7_BAG@4",
-		"name": "Grandmaster's Bag (Pristine)"
+		"name": "Grandmaster's Bag (Pristine)",
+		"weight": 11.4
 	},
 	{
 		"id": "T8_BAG",
-		"name": "Elder's Bag"
+		"name": "Elder's Bag",
+		"weight": 17.1
 	},
 	{
 		"id": "T8_BAG@1",
-		"name": "Elder's Bag (Uncommon)"
+		"name": "Elder's Bag (Uncommon)",
+		"weight": 17.1
 	},
 	{
 		"id": "T8_BAG@2",
-		"name": "Elder's Bag (Rare)"
+		"name": "Elder's Bag (Rare)",
+		"weight": 17.1
 	},
 	{
 		"id": "T8_BAG@3",
-		"name": "Elder's Bag (Exceptional)"
+		"name": "Elder's Bag (Exceptional)",
+		"weight": 17.1
 	},
 	{
 		"id": "T8_BAG@4",
-		"name": "Elder's Bag (Pristine)"
+		"name": "Elder's Bag (Pristine)",
+		"weight": 17.1
 	},
 	{
 		"id": "T4_BAG_INSIGHT",
-		"name": "Adept's Satchel of Insight"
+		"name": "Adept's Satchel of Insight",
+		"weight": 3.4
 	},
 	{
 		"id": "T4_BAG_INSIGHT@1",
-		"name": "Adept's Satchel of Insight (Uncommon)"
+		"name": "Adept's Satchel of Insight (Uncommon)",
+		"weight": 3.4
 	},
 	{
 		"id": "T4_BAG_INSIGHT@2",
-		"name": "Adept's Satchel of Insight (Rare)"
+		"name": "Adept's Satchel of Insight (Rare)",
+		"weight": 3.4
 	},
 	{
 		"id": "T4_BAG_INSIGHT@3",
-		"name": "Adept's Satchel of Insight (Exceptional)"
+		"name": "Adept's Satchel of Insight (Exceptional)",
+		"weight": 3.4
 	},
 	{
 		"id": "T4_BAG_INSIGHT@4",
-		"name": "Adept's Satchel of Insight (Pristine)"
+		"name": "Adept's Satchel of Insight (Pristine)",
+		"weight": 3.4
 	},
 	{
 		"id": "T5_BAG_INSIGHT",
-		"name": "Expert's Satchel of Insight"
+		"name": "Expert's Satchel of Insight",
+		"weight": 5.1
 	},
 	{
 		"id": "T5_BAG_INSIGHT@1",
-		"name": "Expert's Satchel of Insight (Uncommon)"
+		"name": "Expert's Satchel of Insight (Uncommon)",
+		"weight": 5.1
 	},
 	{
 		"id": "T5_BAG_INSIGHT@2",
-		"name": "Expert's Satchel of Insight (Rare)"
+		"name": "Expert's Satchel of Insight (Rare)",
+		"weight": 5.1
 	},
 	{
 		"id": "T5_BAG_INSIGHT@3",
-		"name": "Expert's Satchel of Insight (Exceptional)"
+		"name": "Expert's Satchel of Insight (Exceptional)",
+		"weight": 5.1
 	},
 	{
 		"id": "T5_BAG_INSIGHT@4",
-		"name": "Expert's Satchel of Insight (Pristine)"
+		"name": "Expert's Satchel of Insight (Pristine)",
+		"weight": 5.1
 	},
 	{
 		"id": "T6_BAG_INSIGHT",
-		"name": "Master's Satchel of Insight"
+		"name": "Master's Satchel of Insight",
+		"weight": 7.6
 	},
 	{
 		"id": "T6_BAG_INSIGHT@1",
-		"name": "Master's Satchel of Insight (Uncommon)"
+		"name": "Master's Satchel of Insight (Uncommon)",
+		"weight": 7.6
 	},
 	{
 		"id": "T6_BAG_INSIGHT@2",
-		"name": "Master's Satchel of Insight (Rare)"
+		"name": "Master's Satchel of Insight (Rare)",
+		"weight": 7.6
 	},
 	{
 		"id": "T6_BAG_INSIGHT@3",
-		"name": "Master's Satchel of Insight (Exceptional)"
+		"name": "Master's Satchel of Insight (Exceptional)",
+		"weight": 7.6
 	},
 	{
 		"id": "T6_BAG_INSIGHT@4",
-		"name": "Master's Satchel of Insight (Pristine)"
+		"name": "Master's Satchel of Insight (Pristine)",
+		"weight": 7.6
 	},
 	{
 		"id": "T7_BAG_INSIGHT",
-		"name": "Grandmaster's Satchel of Insight"
+		"name": "Grandmaster's Satchel of Insight",
+		"weight": 11.4
 	},
 	{
 		"id": "T7_BAG_INSIGHT@1",
-		"name": "Grandmaster's Satchel of Insight (Uncommon)"
+		"name": "Grandmaster's Satchel of Insight (Uncommon)",
+		"weight": 11.4
 	},
 	{
 		"id": "T7_BAG_INSIGHT@2",
-		"name": "Grandmaster's Satchel of Insight (Rare)"
+		"name": "Grandmaster's Satchel of Insight (Rare)",
+		"weight": 11.4
 	},
 	{
 		"id": "T7_BAG_INSIGHT@3",
-		"name": "Grandmaster's Satchel of Insight (Exceptional)"
+		"name": "Grandmaster's Satchel of Insight (Exceptional)",
+		"weight": 11.4
 	},
 	{
 		"id": "T7_BAG_INSIGHT@4",
-		"name": "Grandmaster's Satchel of Insight (Pristine)"
+		"name": "Grandmaster's Satchel of Insight (Pristine)",
+		"weight": 11.4
 	},
 	{
 		"id": "T8_BAG_INSIGHT",
-		"name": "Elder's Satchel of Insight"
+		"name": "Elder's Satchel of Insight",
+		"weight": 17.1
 	},
 	{
 		"id": "T8_BAG_INSIGHT@1",
-		"name": "Elder's Satchel of Insight (Uncommon)"
+		"name": "Elder's Satchel of Insight (Uncommon)",
+		"weight": 17.1
 	},
 	{
 		"id": "T8_BAG_INSIGHT@2",
-		"name": "Elder's Satchel of Insight (Rare)"
+		"name": "Elder's Satchel of Insight (Rare)",
+		"weight": 17.1
 	},
 	{
 		"id": "T8_BAG_INSIGHT@3",
-		"name": "Elder's Satchel of Insight (Exceptional)"
+		"name": "Elder's Satchel of Insight (Exceptional)",
+		"weight": 17.1
 	},
 	{
 		"id": "T8_BAG_INSIGHT@4",
-		"name": "Elder's Satchel of Insight (Pristine)"
+		"name": "Elder's Satchel of Insight (Pristine)",
+		"weight": 17.1
 	},
 	{
 		"id": "T4_BACKPACK_GATHERER_FIBER",
-		"name": "Adept's Harvester Backpack"
+		"name": "Adept's Harvester Backpack",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_BACKPACK_GATHERER_FIBER@1",
-		"name": "Adept's Harvester Backpack (Uncommon)"
+		"name": "Adept's Harvester Backpack (Uncommon)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_BACKPACK_GATHERER_FIBER@2",
-		"name": "Adept's Harvester Backpack (Rare)"
+		"name": "Adept's Harvester Backpack (Rare)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_BACKPACK_GATHERER_FIBER@3",
-		"name": "Adept's Harvester Backpack (Exceptional)"
+		"name": "Adept's Harvester Backpack (Exceptional)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_BACKPACK_GATHERER_FIBER@4",
-		"name": "Adept's Harvester Backpack (Pristine)"
+		"name": "Adept's Harvester Backpack (Pristine)",
+		"weight": 1.7
 	},
 	{
 		"id": "T5_BACKPACK_GATHERER_FIBER",
-		"name": "Expert's Harvester Backpack"
+		"name": "Expert's Harvester Backpack",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_BACKPACK_GATHERER_FIBER@1",
-		"name": "Expert's Harvester Backpack (Uncommon)"
+		"name": "Expert's Harvester Backpack (Uncommon)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_BACKPACK_GATHERER_FIBER@2",
-		"name": "Expert's Harvester Backpack (Rare)"
+		"name": "Expert's Harvester Backpack (Rare)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_BACKPACK_GATHERER_FIBER@3",
-		"name": "Expert's Harvester Backpack (Exceptional)"
+		"name": "Expert's Harvester Backpack (Exceptional)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_BACKPACK_GATHERER_FIBER@4",
-		"name": "Expert's Harvester Backpack (Pristine)"
+		"name": "Expert's Harvester Backpack (Pristine)",
+		"weight": 2.5
 	},
 	{
 		"id": "T6_BACKPACK_GATHERER_FIBER",
-		"name": "Master's Harvester Backpack"
+		"name": "Master's Harvester Backpack",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_BACKPACK_GATHERER_FIBER@1",
-		"name": "Master's Harvester Backpack (Uncommon)"
+		"name": "Master's Harvester Backpack (Uncommon)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_BACKPACK_GATHERER_FIBER@2",
-		"name": "Master's Harvester Backpack (Rare)"
+		"name": "Master's Harvester Backpack (Rare)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_BACKPACK_GATHERER_FIBER@3",
-		"name": "Master's Harvester Backpack (Exceptional)"
+		"name": "Master's Harvester Backpack (Exceptional)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_BACKPACK_GATHERER_FIBER@4",
-		"name": "Master's Harvester Backpack (Pristine)"
+		"name": "Master's Harvester Backpack (Pristine)",
+		"weight": 3.8
 	},
 	{
 		"id": "T7_BACKPACK_GATHERER_FIBER",
-		"name": "Grandmaster's Harvester Backpack"
+		"name": "Grandmaster's Harvester Backpack",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_BACKPACK_GATHERER_FIBER@1",
-		"name": "Grandmaster's Harvester Backpack (Uncommon)"
+		"name": "Grandmaster's Harvester Backpack (Uncommon)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_BACKPACK_GATHERER_FIBER@2",
-		"name": "Grandmaster's Harvester Backpack (Rare)"
+		"name": "Grandmaster's Harvester Backpack (Rare)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_BACKPACK_GATHERER_FIBER@3",
-		"name": "Grandmaster's Harvester Backpack (Exceptional)"
+		"name": "Grandmaster's Harvester Backpack (Exceptional)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_BACKPACK_GATHERER_FIBER@4",
-		"name": "Grandmaster's Harvester Backpack (Pristine)"
+		"name": "Grandmaster's Harvester Backpack (Pristine)",
+		"weight": 5.7
 	},
 	{
 		"id": "T8_BACKPACK_GATHERER_FIBER",
-		"name": "Elder's Harvester Backpack"
+		"name": "Elder's Harvester Backpack",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_BACKPACK_GATHERER_FIBER@1",
-		"name": "Elder's Harvester Backpack (Uncommon)"
+		"name": "Elder's Harvester Backpack (Uncommon)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_BACKPACK_GATHERER_FIBER@2",
-		"name": "Elder's Harvester Backpack (Rare)"
+		"name": "Elder's Harvester Backpack (Rare)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_BACKPACK_GATHERER_FIBER@3",
-		"name": "Elder's Harvester Backpack (Exceptional)"
+		"name": "Elder's Harvester Backpack (Exceptional)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_BACKPACK_GATHERER_FIBER@4",
-		"name": "Elder's Harvester Backpack (Pristine)"
+		"name": "Elder's Harvester Backpack (Pristine)",
+		"weight": 8.5
 	},
 	{
 		"id": "T4_BACKPACK_GATHERER_HIDE",
-		"name": "Adept's Skinner Backpack"
+		"name": "Adept's Skinner Backpack",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_BACKPACK_GATHERER_HIDE@1",
-		"name": "Adept's Skinner Backpack (Uncommon)"
+		"name": "Adept's Skinner Backpack (Uncommon)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_BACKPACK_GATHERER_HIDE@2",
-		"name": "Adept's Skinner Backpack (Rare)"
+		"name": "Adept's Skinner Backpack (Rare)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_BACKPACK_GATHERER_HIDE@3",
-		"name": "Adept's Skinner Backpack (Exceptional)"
+		"name": "Adept's Skinner Backpack (Exceptional)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_BACKPACK_GATHERER_HIDE@4",
-		"name": "Adept's Skinner Backpack (Pristine)"
+		"name": "Adept's Skinner Backpack (Pristine)",
+		"weight": 1.7
 	},
 	{
 		"id": "T5_BACKPACK_GATHERER_HIDE",
-		"name": "Expert's Skinner Backpack"
+		"name": "Expert's Skinner Backpack",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_BACKPACK_GATHERER_HIDE@1",
-		"name": "Expert's Skinner Backpack (Uncommon)"
+		"name": "Expert's Skinner Backpack (Uncommon)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_BACKPACK_GATHERER_HIDE@2",
-		"name": "Expert's Skinner Backpack (Rare)"
+		"name": "Expert's Skinner Backpack (Rare)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_BACKPACK_GATHERER_HIDE@3",
-		"name": "Expert's Skinner Backpack (Exceptional)"
+		"name": "Expert's Skinner Backpack (Exceptional)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_BACKPACK_GATHERER_HIDE@4",
-		"name": "Expert's Skinner Backpack (Pristine)"
+		"name": "Expert's Skinner Backpack (Pristine)",
+		"weight": 2.5
 	},
 	{
 		"id": "T6_BACKPACK_GATHERER_HIDE",
-		"name": "Master's Skinner Backpack"
+		"name": "Master's Skinner Backpack",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_BACKPACK_GATHERER_HIDE@1",
-		"name": "Master's Skinner Backpack (Uncommon)"
+		"name": "Master's Skinner Backpack (Uncommon)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_BACKPACK_GATHERER_HIDE@2",
-		"name": "Master's Skinner Backpack (Rare)"
+		"name": "Master's Skinner Backpack (Rare)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_BACKPACK_GATHERER_HIDE@3",
-		"name": "Master's Skinner Backpack (Exceptional)"
+		"name": "Master's Skinner Backpack (Exceptional)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_BACKPACK_GATHERER_HIDE@4",
-		"name": "Master's Skinner Backpack (Pristine)"
+		"name": "Master's Skinner Backpack (Pristine)",
+		"weight": 3.8
 	},
 	{
 		"id": "T7_BACKPACK_GATHERER_HIDE",
-		"name": "Grandmaster's Skinner Backpack"
+		"name": "Grandmaster's Skinner Backpack",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_BACKPACK_GATHERER_HIDE@1",
-		"name": "Grandmaster's Skinner Backpack (Uncommon)"
+		"name": "Grandmaster's Skinner Backpack (Uncommon)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_BACKPACK_GATHERER_HIDE@2",
-		"name": "Grandmaster's Skinner Backpack (Rare)"
+		"name": "Grandmaster's Skinner Backpack (Rare)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_BACKPACK_GATHERER_HIDE@3",
-		"name": "Grandmaster's Skinner Backpack (Exceptional)"
+		"name": "Grandmaster's Skinner Backpack (Exceptional)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_BACKPACK_GATHERER_HIDE@4",
-		"name": "Grandmaster's Skinner Backpack (Pristine)"
+		"name": "Grandmaster's Skinner Backpack (Pristine)",
+		"weight": 5.7
 	},
 	{
 		"id": "T8_BACKPACK_GATHERER_HIDE",
-		"name": "Elder's Skinner Backpack"
+		"name": "Elder's Skinner Backpack",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_BACKPACK_GATHERER_HIDE@1",
-		"name": "Elder's Skinner Backpack (Uncommon)"
+		"name": "Elder's Skinner Backpack (Uncommon)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_BACKPACK_GATHERER_HIDE@2",
-		"name": "Elder's Skinner Backpack (Rare)"
+		"name": "Elder's Skinner Backpack (Rare)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_BACKPACK_GATHERER_HIDE@3",
-		"name": "Elder's Skinner Backpack (Exceptional)"
+		"name": "Elder's Skinner Backpack (Exceptional)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_BACKPACK_GATHERER_HIDE@4",
-		"name": "Elder's Skinner Backpack (Pristine)"
+		"name": "Elder's Skinner Backpack (Pristine)",
+		"weight": 8.5
 	},
 	{
 		"id": "T4_BACKPACK_GATHERER_ORE",
-		"name": "Adept's Miner Backpack"
+		"name": "Adept's Miner Backpack",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_BACKPACK_GATHERER_ORE@1",
-		"name": "Adept's Miner Backpack (Uncommon)"
+		"name": "Adept's Miner Backpack (Uncommon)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_BACKPACK_GATHERER_ORE@2",
-		"name": "Adept's Miner Backpack (Rare)"
+		"name": "Adept's Miner Backpack (Rare)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_BACKPACK_GATHERER_ORE@3",
-		"name": "Adept's Miner Backpack (Exceptional)"
+		"name": "Adept's Miner Backpack (Exceptional)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_BACKPACK_GATHERER_ORE@4",
-		"name": "Adept's Miner Backpack (Pristine)"
+		"name": "Adept's Miner Backpack (Pristine)",
+		"weight": 1.7
 	},
 	{
 		"id": "T5_BACKPACK_GATHERER_ORE",
-		"name": "Expert's Miner Backpack"
+		"name": "Expert's Miner Backpack",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_BACKPACK_GATHERER_ORE@1",
-		"name": "Expert's Miner Backpack (Uncommon)"
+		"name": "Expert's Miner Backpack (Uncommon)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_BACKPACK_GATHERER_ORE@2",
-		"name": "Expert's Miner Backpack (Rare)"
+		"name": "Expert's Miner Backpack (Rare)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_BACKPACK_GATHERER_ORE@3",
-		"name": "Expert's Miner Backpack (Exceptional)"
+		"name": "Expert's Miner Backpack (Exceptional)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_BACKPACK_GATHERER_ORE@4",
-		"name": "Expert's Miner Backpack (Pristine)"
+		"name": "Expert's Miner Backpack (Pristine)",
+		"weight": 2.5
 	},
 	{
 		"id": "T6_BACKPACK_GATHERER_ORE",
-		"name": "Master's Miner Backpack"
+		"name": "Master's Miner Backpack",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_BACKPACK_GATHERER_ORE@1",
-		"name": "Master's Miner Backpack (Uncommon)"
+		"name": "Master's Miner Backpack (Uncommon)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_BACKPACK_GATHERER_ORE@2",
-		"name": "Master's Miner Backpack (Rare)"
+		"name": "Master's Miner Backpack (Rare)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_BACKPACK_GATHERER_ORE@3",
-		"name": "Master's Miner Backpack (Exceptional)"
+		"name": "Master's Miner Backpack (Exceptional)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_BACKPACK_GATHERER_ORE@4",
-		"name": "Master's Miner Backpack (Pristine)"
+		"name": "Master's Miner Backpack (Pristine)",
+		"weight": 3.8
 	},
 	{
 		"id": "T7_BACKPACK_GATHERER_ORE",
-		"name": "Grandmaster's Miner Backpack"
+		"name": "Grandmaster's Miner Backpack",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_BACKPACK_GATHERER_ORE@1",
-		"name": "Grandmaster's Miner Backpack (Uncommon)"
+		"name": "Grandmaster's Miner Backpack (Uncommon)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_BACKPACK_GATHERER_ORE@2",
-		"name": "Grandmaster's Miner Backpack (Rare)"
+		"name": "Grandmaster's Miner Backpack (Rare)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_BACKPACK_GATHERER_ORE@3",
-		"name": "Grandmaster's Miner Backpack (Exceptional)"
+		"name": "Grandmaster's Miner Backpack (Exceptional)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_BACKPACK_GATHERER_ORE@4",
-		"name": "Grandmaster's Miner Backpack (Pristine)"
+		"name": "Grandmaster's Miner Backpack (Pristine)",
+		"weight": 5.7
 	},
 	{
 		"id": "T8_BACKPACK_GATHERER_ORE",
-		"name": "Elder's Miner Backpack"
+		"name": "Elder's Miner Backpack",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_BACKPACK_GATHERER_ORE@1",
-		"name": "Elder's Miner Backpack (Uncommon)"
+		"name": "Elder's Miner Backpack (Uncommon)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_BACKPACK_GATHERER_ORE@2",
-		"name": "Elder's Miner Backpack (Rare)"
+		"name": "Elder's Miner Backpack (Rare)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_BACKPACK_GATHERER_ORE@3",
-		"name": "Elder's Miner Backpack (Exceptional)"
+		"name": "Elder's Miner Backpack (Exceptional)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_BACKPACK_GATHERER_ORE@4",
-		"name": "Elder's Miner Backpack (Pristine)"
+		"name": "Elder's Miner Backpack (Pristine)",
+		"weight": 8.5
 	},
 	{
 		"id": "T4_BACKPACK_GATHERER_ROCK",
-		"name": "Adept's Quarrier Backpack"
+		"name": "Adept's Quarrier Backpack",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_BACKPACK_GATHERER_ROCK@1",
-		"name": "Adept's Quarrier Backpack (Uncommon)"
+		"name": "Adept's Quarrier Backpack (Uncommon)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_BACKPACK_GATHERER_ROCK@2",
-		"name": "Adept's Quarrier Backpack (Rare)"
+		"name": "Adept's Quarrier Backpack (Rare)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_BACKPACK_GATHERER_ROCK@3",
-		"name": "Adept's Quarrier Backpack (Exceptional)"
+		"name": "Adept's Quarrier Backpack (Exceptional)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_BACKPACK_GATHERER_ROCK@4",
-		"name": "Adept's Quarrier Backpack (Pristine)"
+		"name": "Adept's Quarrier Backpack (Pristine)",
+		"weight": 1.7
 	},
 	{
 		"id": "T5_BACKPACK_GATHERER_ROCK",
-		"name": "Expert's Quarrier Backpack"
+		"name": "Expert's Quarrier Backpack",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_BACKPACK_GATHERER_ROCK@1",
-		"name": "Expert's Quarrier Backpack (Uncommon)"
+		"name": "Expert's Quarrier Backpack (Uncommon)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_BACKPACK_GATHERER_ROCK@2",
-		"name": "Expert's Quarrier Backpack (Rare)"
+		"name": "Expert's Quarrier Backpack (Rare)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_BACKPACK_GATHERER_ROCK@3",
-		"name": "Expert's Quarrier Backpack (Exceptional)"
+		"name": "Expert's Quarrier Backpack (Exceptional)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_BACKPACK_GATHERER_ROCK@4",
-		"name": "Expert's Quarrier Backpack (Pristine)"
+		"name": "Expert's Quarrier Backpack (Pristine)",
+		"weight": 2.5
 	},
 	{
 		"id": "T6_BACKPACK_GATHERER_ROCK",
-		"name": "Master's Quarrier Backpack"
+		"name": "Master's Quarrier Backpack",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_BACKPACK_GATHERER_ROCK@1",
-		"name": "Master's Quarrier Backpack (Uncommon)"
+		"name": "Master's Quarrier Backpack (Uncommon)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_BACKPACK_GATHERER_ROCK@2",
-		"name": "Master's Quarrier Backpack (Rare)"
+		"name": "Master's Quarrier Backpack (Rare)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_BACKPACK_GATHERER_ROCK@3",
-		"name": "Master's Quarrier Backpack (Exceptional)"
+		"name": "Master's Quarrier Backpack (Exceptional)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_BACKPACK_GATHERER_ROCK@4",
-		"name": "Master's Quarrier Backpack (Pristine)"
+		"name": "Master's Quarrier Backpack (Pristine)",
+		"weight": 3.8
 	},
 	{
 		"id": "T7_BACKPACK_GATHERER_ROCK",
-		"name": "Grandmaster's Quarrier Backpack"
+		"name": "Grandmaster's Quarrier Backpack",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_BACKPACK_GATHERER_ROCK@1",
-		"name": "Grandmaster's Quarrier Backpack (Uncommon)"
+		"name": "Grandmaster's Quarrier Backpack (Uncommon)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_BACKPACK_GATHERER_ROCK@2",
-		"name": "Grandmaster's Quarrier Backpack (Rare)"
+		"name": "Grandmaster's Quarrier Backpack (Rare)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_BACKPACK_GATHERER_ROCK@3",
-		"name": "Grandmaster's Quarrier Backpack (Exceptional)"
+		"name": "Grandmaster's Quarrier Backpack (Exceptional)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_BACKPACK_GATHERER_ROCK@4",
-		"name": "Grandmaster's Quarrier Backpack (Pristine)"
+		"name": "Grandmaster's Quarrier Backpack (Pristine)",
+		"weight": 5.7
 	},
 	{
 		"id": "T8_BACKPACK_GATHERER_ROCK",
-		"name": "Elder's Quarrier Backpack"
+		"name": "Elder's Quarrier Backpack",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_BACKPACK_GATHERER_ROCK@1",
-		"name": "Elder's Quarrier Backpack (Uncommon)"
+		"name": "Elder's Quarrier Backpack (Uncommon)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_BACKPACK_GATHERER_ROCK@2",
-		"name": "Elder's Quarrier Backpack (Rare)"
+		"name": "Elder's Quarrier Backpack (Rare)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_BACKPACK_GATHERER_ROCK@3",
-		"name": "Elder's Quarrier Backpack (Exceptional)"
+		"name": "Elder's Quarrier Backpack (Exceptional)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_BACKPACK_GATHERER_ROCK@4",
-		"name": "Elder's Quarrier Backpack (Pristine)"
+		"name": "Elder's Quarrier Backpack (Pristine)",
+		"weight": 8.5
 	},
 	{
 		"id": "T4_BACKPACK_GATHERER_WOOD",
-		"name": "Adept's Lumberjack Backpack"
+		"name": "Adept's Lumberjack Backpack",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_BACKPACK_GATHERER_WOOD@1",
-		"name": "Adept's Lumberjack Backpack (Uncommon)"
+		"name": "Adept's Lumberjack Backpack (Uncommon)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_BACKPACK_GATHERER_WOOD@2",
-		"name": "Adept's Lumberjack Backpack (Rare)"
+		"name": "Adept's Lumberjack Backpack (Rare)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_BACKPACK_GATHERER_WOOD@3",
-		"name": "Adept's Lumberjack Backpack (Exceptional)"
+		"name": "Adept's Lumberjack Backpack (Exceptional)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_BACKPACK_GATHERER_WOOD@4",
-		"name": "Adept's Lumberjack Backpack (Pristine)"
+		"name": "Adept's Lumberjack Backpack (Pristine)",
+		"weight": 1.7
 	},
 	{
 		"id": "T5_BACKPACK_GATHERER_WOOD",
-		"name": "Expert's Lumberjack Backpack"
+		"name": "Expert's Lumberjack Backpack",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_BACKPACK_GATHERER_WOOD@1",
-		"name": "Expert's Lumberjack Backpack (Uncommon)"
+		"name": "Expert's Lumberjack Backpack (Uncommon)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_BACKPACK_GATHERER_WOOD@2",
-		"name": "Expert's Lumberjack Backpack (Rare)"
+		"name": "Expert's Lumberjack Backpack (Rare)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_BACKPACK_GATHERER_WOOD@3",
-		"name": "Expert's Lumberjack Backpack (Exceptional)"
+		"name": "Expert's Lumberjack Backpack (Exceptional)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_BACKPACK_GATHERER_WOOD@4",
-		"name": "Expert's Lumberjack Backpack (Pristine)"
+		"name": "Expert's Lumberjack Backpack (Pristine)",
+		"weight": 2.5
 	},
 	{
 		"id": "T6_BACKPACK_GATHERER_WOOD",
-		"name": "Master's Lumberjack Backpack"
+		"name": "Master's Lumberjack Backpack",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_BACKPACK_GATHERER_WOOD@1",
-		"name": "Master's Lumberjack Backpack (Uncommon)"
+		"name": "Master's Lumberjack Backpack (Uncommon)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_BACKPACK_GATHERER_WOOD@2",
-		"name": "Master's Lumberjack Backpack (Rare)"
+		"name": "Master's Lumberjack Backpack (Rare)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_BACKPACK_GATHERER_WOOD@3",
-		"name": "Master's Lumberjack Backpack (Exceptional)"
+		"name": "Master's Lumberjack Backpack (Exceptional)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_BACKPACK_GATHERER_WOOD@4",
-		"name": "Master's Lumberjack Backpack (Pristine)"
+		"name": "Master's Lumberjack Backpack (Pristine)",
+		"weight": 3.8
 	},
 	{
 		"id": "T7_BACKPACK_GATHERER_WOOD",
-		"name": "Grandmaster's Lumberjack Backpack"
+		"name": "Grandmaster's Lumberjack Backpack",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_BACKPACK_GATHERER_WOOD@1",
-		"name": "Grandmaster's Lumberjack Backpack (Uncommon)"
+		"name": "Grandmaster's Lumberjack Backpack (Uncommon)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_BACKPACK_GATHERER_WOOD@2",
-		"name": "Grandmaster's Lumberjack Backpack (Rare)"
+		"name": "Grandmaster's Lumberjack Backpack (Rare)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_BACKPACK_GATHERER_WOOD@3",
-		"name": "Grandmaster's Lumberjack Backpack (Exceptional)"
+		"name": "Grandmaster's Lumberjack Backpack (Exceptional)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_BACKPACK_GATHERER_WOOD@4",
-		"name": "Grandmaster's Lumberjack Backpack (Pristine)"
+		"name": "Grandmaster's Lumberjack Backpack (Pristine)",
+		"weight": 5.7
 	},
 	{
 		"id": "T8_BACKPACK_GATHERER_WOOD",
-		"name": "Elder's Lumberjack Backpack"
+		"name": "Elder's Lumberjack Backpack",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_BACKPACK_GATHERER_WOOD@1",
-		"name": "Elder's Lumberjack Backpack (Uncommon)"
+		"name": "Elder's Lumberjack Backpack (Uncommon)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_BACKPACK_GATHERER_WOOD@2",
-		"name": "Elder's Lumberjack Backpack (Rare)"
+		"name": "Elder's Lumberjack Backpack (Rare)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_BACKPACK_GATHERER_WOOD@3",
-		"name": "Elder's Lumberjack Backpack (Exceptional)"
+		"name": "Elder's Lumberjack Backpack (Exceptional)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_BACKPACK_GATHERER_WOOD@4",
-		"name": "Elder's Lumberjack Backpack (Pristine)"
+		"name": "Elder's Lumberjack Backpack (Pristine)",
+		"weight": 8.5
 	},
 	{
 		"id": "T4_BACKPACK_GATHERER_FISH",
-		"name": "Adept's Fisherman Backpack"
+		"name": "Adept's Fisherman Backpack",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_BACKPACK_GATHERER_FISH@1",
-		"name": "Adept's Fisherman Backpack (Uncommon)"
+		"name": "Adept's Fisherman Backpack (Uncommon)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_BACKPACK_GATHERER_FISH@2",
-		"name": "Adept's Fisherman Backpack (Rare)"
+		"name": "Adept's Fisherman Backpack (Rare)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_BACKPACK_GATHERER_FISH@3",
-		"name": "Adept's Fisherman Backpack (Exceptional)"
+		"name": "Adept's Fisherman Backpack (Exceptional)",
+		"weight": 1.7
 	},
 	{
 		"id": "T4_BACKPACK_GATHERER_FISH@4",
-		"name": "Adept's Fisherman Backpack (Pristine)"
+		"name": "Adept's Fisherman Backpack (Pristine)",
+		"weight": 1.7
 	},
 	{
 		"id": "T5_BACKPACK_GATHERER_FISH",
-		"name": "Expert's Fisherman Backpack"
+		"name": "Expert's Fisherman Backpack",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_BACKPACK_GATHERER_FISH@1",
-		"name": "Expert's Fisherman Backpack (Uncommon)"
+		"name": "Expert's Fisherman Backpack (Uncommon)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_BACKPACK_GATHERER_FISH@2",
-		"name": "Expert's Fisherman Backpack (Rare)"
+		"name": "Expert's Fisherman Backpack (Rare)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_BACKPACK_GATHERER_FISH@3",
-		"name": "Expert's Fisherman Backpack (Exceptional)"
+		"name": "Expert's Fisherman Backpack (Exceptional)",
+		"weight": 2.5
 	},
 	{
 		"id": "T5_BACKPACK_GATHERER_FISH@4",
-		"name": "Expert's Fisherman Backpack (Pristine)"
+		"name": "Expert's Fisherman Backpack (Pristine)",
+		"weight": 2.5
 	},
 	{
 		"id": "T6_BACKPACK_GATHERER_FISH",
-		"name": "Master's Fisherman Backpack"
+		"name": "Master's Fisherman Backpack",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_BACKPACK_GATHERER_FISH@1",
-		"name": "Master's Fisherman Backpack (Uncommon)"
+		"name": "Master's Fisherman Backpack (Uncommon)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_BACKPACK_GATHERER_FISH@2",
-		"name": "Master's Fisherman Backpack (Rare)"
+		"name": "Master's Fisherman Backpack (Rare)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_BACKPACK_GATHERER_FISH@3",
-		"name": "Master's Fisherman Backpack (Exceptional)"
+		"name": "Master's Fisherman Backpack (Exceptional)",
+		"weight": 3.8
 	},
 	{
 		"id": "T6_BACKPACK_GATHERER_FISH@4",
-		"name": "Master's Fisherman Backpack (Pristine)"
+		"name": "Master's Fisherman Backpack (Pristine)",
+		"weight": 3.8
 	},
 	{
 		"id": "T7_BACKPACK_GATHERER_FISH",
-		"name": "Grandmaster's Fisherman Backpack"
+		"name": "Grandmaster's Fisherman Backpack",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_BACKPACK_GATHERER_FISH@1",
-		"name": "Grandmaster's Fisherman Backpack (Uncommon)"
+		"name": "Grandmaster's Fisherman Backpack (Uncommon)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_BACKPACK_GATHERER_FISH@2",
-		"name": "Grandmaster's Fisherman Backpack (Rare)"
+		"name": "Grandmaster's Fisherman Backpack (Rare)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_BACKPACK_GATHERER_FISH@3",
-		"name": "Grandmaster's Fisherman Backpack (Exceptional)"
+		"name": "Grandmaster's Fisherman Backpack (Exceptional)",
+		"weight": 5.7
 	},
 	{
 		"id": "T7_BACKPACK_GATHERER_FISH@4",
-		"name": "Grandmaster's Fisherman Backpack (Pristine)"
+		"name": "Grandmaster's Fisherman Backpack (Pristine)",
+		"weight": 5.7
 	},
 	{
 		"id": "T8_BACKPACK_GATHERER_FISH",
-		"name": "Elder's Fisherman Backpack"
+		"name": "Elder's Fisherman Backpack",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_BACKPACK_GATHERER_FISH@1",
-		"name": "Elder's Fisherman Backpack (Uncommon)"
+		"name": "Elder's Fisherman Backpack (Uncommon)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_BACKPACK_GATHERER_FISH@2",
-		"name": "Elder's Fisherman Backpack (Rare)"
+		"name": "Elder's Fisherman Backpack (Rare)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_BACKPACK_GATHERER_FISH@3",
-		"name": "Elder's Fisherman Backpack (Exceptional)"
+		"name": "Elder's Fisherman Backpack (Exceptional)",
+		"weight": 8.5
 	},
 	{
 		"id": "T8_BACKPACK_GATHERER_FISH@4",
-		"name": "Elder's Fisherman Backpack (Pristine)"
+		"name": "Elder's Fisherman Backpack (Pristine)",
+		"weight": 8.5
 	},
 	{
 		"id": "UNIQUE_BACKPACK_VANITY_SANTACLAUS",
-		"name": "Yule Backpack"
+		"name": "Yule Backpack",
+		"weight": 1.1
 	},
 	{
 		"id": "UNIQUE_BACKPACK_VANITY_EASTER",
-		"name": "Bunny Stalker Basket"
+		"name": "Bunny Stalker Basket",
+		"weight": 1.1
 	},
 	{
 		"id": "UNIQUE_BACKPACK_VANITY_KICKSTART",
-		"name": "Warden's Backpack"
+		"name": "Warden's Backpack",
+		"weight": 0.8
 	}
 ]

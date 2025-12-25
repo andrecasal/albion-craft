@@ -1,646 +1,807 @@
 [
 	{
 		"id": "T2_POTION_HEAL",
-		"name": "Minor Healing Potion"
+		"name": "Minor Healing Potion",
+		"weight": 0.1
 	},
 	{
 		"id": "T2_POTION_HEAL@1",
-		"name": "Minor Healing Potion (Uncommon)"
+		"name": "Minor Healing Potion (Uncommon)",
+		"weight": 0.1
 	},
 	{
 		"id": "T2_POTION_HEAL@2",
-		"name": "Minor Healing Potion (Rare)"
+		"name": "Minor Healing Potion (Rare)",
+		"weight": 0.1
 	},
 	{
 		"id": "T2_POTION_HEAL@3",
-		"name": "Minor Healing Potion (Exceptional)"
+		"name": "Minor Healing Potion (Exceptional)",
+		"weight": 0.1
 	},
 	{
 		"id": "T4_POTION_HEAL",
-		"name": "Healing Potion"
+		"name": "Healing Potion",
+		"weight": 0.3
 	},
 	{
 		"id": "T4_POTION_HEAL@1",
-		"name": "Healing Potion (Uncommon)"
+		"name": "Healing Potion (Uncommon)",
+		"weight": 0.3
 	},
 	{
 		"id": "T4_POTION_HEAL@2",
-		"name": "Healing Potion (Rare)"
+		"name": "Healing Potion (Rare)",
+		"weight": 0.3
 	},
 	{
 		"id": "T4_POTION_HEAL@3",
-		"name": "Healing Potion (Exceptional)"
+		"name": "Healing Potion (Exceptional)",
+		"weight": 0.3
 	},
 	{
 		"id": "T6_POTION_HEAL",
-		"name": "Major Healing Potion"
+		"name": "Major Healing Potion",
+		"weight": 0.87
 	},
 	{
 		"id": "T6_POTION_HEAL@1",
-		"name": "Major Healing Potion (Uncommon)"
+		"name": "Major Healing Potion (Uncommon)",
+		"weight": 0.87
 	},
 	{
 		"id": "T6_POTION_HEAL@2",
-		"name": "Major Healing Potion (Rare)"
+		"name": "Major Healing Potion (Rare)",
+		"weight": 0.87
 	},
 	{
 		"id": "T6_POTION_HEAL@3",
-		"name": "Major Healing Potion (Exceptional)"
+		"name": "Major Healing Potion (Exceptional)",
+		"weight": 0.87
 	},
 	{
 		"id": "T2_POTION_ENERGY",
-		"name": "Minor Energy Potion"
+		"name": "Minor Energy Potion",
+		"weight": 0.1
 	},
 	{
 		"id": "T2_POTION_ENERGY@1",
-		"name": "Minor Energy Potion (Uncommon)"
+		"name": "Minor Energy Potion (Uncommon)",
+		"weight": 0.1
 	},
 	{
 		"id": "T2_POTION_ENERGY@2",
-		"name": "Minor Energy Potion (Rare)"
+		"name": "Minor Energy Potion (Rare)",
+		"weight": 0.1
 	},
 	{
 		"id": "T2_POTION_ENERGY@3",
-		"name": "Minor Energy Potion (Exceptional)"
+		"name": "Minor Energy Potion (Exceptional)",
+		"weight": 0.1
 	},
 	{
 		"id": "T4_POTION_ENERGY",
-		"name": "Energy Potion"
+		"name": "Energy Potion",
+		"weight": 0.3
 	},
 	{
 		"id": "T4_POTION_ENERGY@1",
-		"name": "Energy Potion (Uncommon)"
+		"name": "Energy Potion (Uncommon)",
+		"weight": 0.3
 	},
 	{
 		"id": "T4_POTION_ENERGY@2",
-		"name": "Energy Potion (Rare)"
+		"name": "Energy Potion (Rare)",
+		"weight": 0.3
 	},
 	{
 		"id": "T4_POTION_ENERGY@3",
-		"name": "Energy Potion (Exceptional)"
+		"name": "Energy Potion (Exceptional)",
+		"weight": 0.3
 	},
 	{
 		"id": "T6_POTION_ENERGY",
-		"name": "Major Energy Potion"
+		"name": "Major Energy Potion",
+		"weight": 0.87
 	},
 	{
 		"id": "T6_POTION_ENERGY@1",
-		"name": "Major Energy Potion (Uncommon)"
+		"name": "Major Energy Potion (Uncommon)",
+		"weight": 0.87
 	},
 	{
 		"id": "T6_POTION_ENERGY@2",
-		"name": "Major Energy Potion (Rare)"
+		"name": "Major Energy Potion (Rare)",
+		"weight": 0.87
 	},
 	{
 		"id": "T6_POTION_ENERGY@3",
-		"name": "Major Energy Potion (Exceptional)"
+		"name": "Major Energy Potion (Exceptional)",
+		"weight": 0.87
 	},
 	{
 		"id": "T3_POTION_REVIVE",
-		"name": "Minor Gigantify Potion"
+		"name": "Minor Gigantify Potion",
+		"weight": 0.1
 	},
 	{
 		"id": "T3_POTION_REVIVE@1",
-		"name": "Minor Gigantify Potion (Uncommon)"
+		"name": "Minor Gigantify Potion (Uncommon)",
+		"weight": 0.1
 	},
 	{
 		"id": "T3_POTION_REVIVE@2",
-		"name": "Minor Gigantify Potion (Rare)"
+		"name": "Minor Gigantify Potion (Rare)",
+		"weight": 0.1
 	},
 	{
 		"id": "T3_POTION_REVIVE@3",
-		"name": "Minor Gigantify Potion (Exceptional)"
+		"name": "Minor Gigantify Potion (Exceptional)",
+		"weight": 0.1
 	},
 	{
 		"id": "T5_POTION_REVIVE",
-		"name": "Gigantify Potion"
+		"name": "Gigantify Potion",
+		"weight": 0.42
 	},
 	{
 		"id": "T5_POTION_REVIVE@1",
-		"name": "Gigantify Potion (Uncommon)"
+		"name": "Gigantify Potion (Uncommon)",
+		"weight": 0.42
 	},
 	{
 		"id": "T5_POTION_REVIVE@2",
-		"name": "Gigantify Potion (Rare)"
+		"name": "Gigantify Potion (Rare)",
+		"weight": 0.42
 	},
 	{
 		"id": "T5_POTION_REVIVE@3",
-		"name": "Gigantify Potion (Exceptional)"
+		"name": "Gigantify Potion (Exceptional)",
+		"weight": 0.42
 	},
 	{
 		"id": "T7_POTION_REVIVE",
-		"name": "Major Gigantify Potion"
+		"name": "Major Gigantify Potion",
+		"weight": 1.15
 	},
 	{
 		"id": "T7_POTION_REVIVE@1",
-		"name": "Major Gigantify Potion (Uncommon)"
+		"name": "Major Gigantify Potion (Uncommon)",
+		"weight": 1.15
 	},
 	{
 		"id": "T7_POTION_REVIVE@2",
-		"name": "Major Gigantify Potion (Rare)"
+		"name": "Major Gigantify Potion (Rare)",
+		"weight": 1.15
 	},
 	{
 		"id": "T7_POTION_REVIVE@3",
-		"name": "Major Gigantify Potion (Exceptional)"
+		"name": "Major Gigantify Potion (Exceptional)",
+		"weight": 1.15
 	},
 	{
 		"id": "T3_POTION_STONESKIN",
-		"name": "Minor Resistance Potion"
+		"name": "Minor Resistance Potion",
+		"weight": 0.1
 	},
 	{
 		"id": "T3_POTION_STONESKIN@1",
-		"name": "Minor Resistance Potion (Uncommon)"
+		"name": "Minor Resistance Potion (Uncommon)",
+		"weight": 0.1
 	},
 	{
 		"id": "T3_POTION_STONESKIN@2",
-		"name": "Minor Resistance Potion (Rare)"
+		"name": "Minor Resistance Potion (Rare)",
+		"weight": 0.1
 	},
 	{
 		"id": "T3_POTION_STONESKIN@3",
-		"name": "Minor Resistance Potion (Exceptional)"
+		"name": "Minor Resistance Potion (Exceptional)",
+		"weight": 0.1
 	},
 	{
 		"id": "T5_POTION_STONESKIN",
-		"name": "Resistance Potion"
+		"name": "Resistance Potion",
+		"weight": 0.42
 	},
 	{
 		"id": "T5_POTION_STONESKIN@1",
-		"name": "Resistance Potion (Uncommon)"
+		"name": "Resistance Potion (Uncommon)",
+		"weight": 0.42
 	},
 	{
 		"id": "T5_POTION_STONESKIN@2",
-		"name": "Resistance Potion (Rare)"
+		"name": "Resistance Potion (Rare)",
+		"weight": 0.42
 	},
 	{
 		"id": "T5_POTION_STONESKIN@3",
-		"name": "Resistance Potion (Exceptional)"
+		"name": "Resistance Potion (Exceptional)",
+		"weight": 0.42
 	},
 	{
 		"id": "T7_POTION_STONESKIN",
-		"name": "Major Resistance Potion"
+		"name": "Major Resistance Potion",
+		"weight": 1.44
 	},
 	{
 		"id": "T7_POTION_STONESKIN@1",
-		"name": "Major Resistance Potion (Uncommon)"
+		"name": "Major Resistance Potion (Uncommon)",
+		"weight": 1.44
 	},
 	{
 		"id": "T7_POTION_STONESKIN@2",
-		"name": "Major Resistance Potion (Rare)"
+		"name": "Major Resistance Potion (Rare)",
+		"weight": 1.44
 	},
 	{
 		"id": "T7_POTION_STONESKIN@3",
-		"name": "Major Resistance Potion (Exceptional)"
+		"name": "Major Resistance Potion (Exceptional)",
+		"weight": 1.44
 	},
 	{
 		"id": "T3_POTION_SLOWFIELD",
-		"name": "Minor Sticky Potion"
+		"name": "Minor Sticky Potion",
+		"weight": 0.1
 	},
 	{
 		"id": "T3_POTION_SLOWFIELD@1",
-		"name": "Minor Sticky Potion (Uncommon)"
+		"name": "Minor Sticky Potion (Uncommon)",
+		"weight": 0.1
 	},
 	{
 		"id": "T3_POTION_SLOWFIELD@2",
-		"name": "Minor Sticky Potion (Rare)"
+		"name": "Minor Sticky Potion (Rare)",
+		"weight": 0.1
 	},
 	{
 		"id": "T3_POTION_SLOWFIELD@3",
-		"name": "Minor Sticky Potion (Exceptional)"
+		"name": "Minor Sticky Potion (Exceptional)",
+		"weight": 0.1
 	},
 	{
 		"id": "T5_POTION_SLOWFIELD",
-		"name": "Sticky Potion"
+		"name": "Sticky Potion",
+		"weight": 0.42
 	},
 	{
 		"id": "T5_POTION_SLOWFIELD@1",
-		"name": "Sticky Potion (Uncommon)"
+		"name": "Sticky Potion (Uncommon)",
+		"weight": 0.42
 	},
 	{
 		"id": "T5_POTION_SLOWFIELD@2",
-		"name": "Sticky Potion (Rare)"
+		"name": "Sticky Potion (Rare)",
+		"weight": 0.42
 	},
 	{
 		"id": "T5_POTION_SLOWFIELD@3",
-		"name": "Sticky Potion (Exceptional)"
+		"name": "Sticky Potion (Exceptional)",
+		"weight": 0.42
 	},
 	{
 		"id": "T7_POTION_SLOWFIELD",
-		"name": "Major Sticky Potion"
+		"name": "Major Sticky Potion",
+		"weight": 1.44
 	},
 	{
 		"id": "T7_POTION_SLOWFIELD@1",
-		"name": "Major Sticky Potion (Uncommon)"
+		"name": "Major Sticky Potion (Uncommon)",
+		"weight": 1.44
 	},
 	{
 		"id": "T7_POTION_SLOWFIELD@2",
-		"name": "Major Sticky Potion (Rare)"
+		"name": "Major Sticky Potion (Rare)",
+		"weight": 1.44
 	},
 	{
 		"id": "T7_POTION_SLOWFIELD@3",
-		"name": "Major Sticky Potion (Exceptional)"
+		"name": "Major Sticky Potion (Exceptional)",
+		"weight": 1.44
 	},
 	{
 		"id": "T4_POTION_COOLDOWN",
-		"name": "Minor Poison Potion"
+		"name": "Minor Poison Potion",
+		"weight": 0.14
 	},
 	{
 		"id": "T4_POTION_COOLDOWN@1",
-		"name": "Minor Poison Potion (Uncommon)"
+		"name": "Minor Poison Potion (Uncommon)",
+		"weight": 0.14
 	},
 	{
 		"id": "T4_POTION_COOLDOWN@2",
-		"name": "Minor Poison Potion (Rare)"
+		"name": "Minor Poison Potion (Rare)",
+		"weight": 0.14
 	},
 	{
 		"id": "T4_POTION_COOLDOWN@3",
-		"name": "Minor Poison Potion (Exceptional)"
+		"name": "Minor Poison Potion (Exceptional)",
+		"weight": 0.14
 	},
 	{
 		"id": "T6_POTION_COOLDOWN",
-		"name": "Poison Potion"
+		"name": "Poison Potion",
+		"weight": 0.53
 	},
 	{
 		"id": "T6_POTION_COOLDOWN@1",
-		"name": "Poison Potion (Uncommon)"
+		"name": "Poison Potion (Uncommon)",
+		"weight": 0.53
 	},
 	{
 		"id": "T6_POTION_COOLDOWN@2",
-		"name": "Poison Potion (Rare)"
+		"name": "Poison Potion (Rare)",
+		"weight": 0.53
 	},
 	{
 		"id": "T6_POTION_COOLDOWN@3",
-		"name": "Poison Potion (Exceptional)"
+		"name": "Poison Potion (Exceptional)",
+		"weight": 0.53
 	},
 	{
 		"id": "T8_POTION_COOLDOWN",
-		"name": "Major Poison Potion"
+		"name": "Major Poison Potion",
+		"weight": 1.44
 	},
 	{
 		"id": "T8_POTION_COOLDOWN@1",
-		"name": "Major Poison Potion (Uncommon)"
+		"name": "Major Poison Potion (Uncommon)",
+		"weight": 1.44
 	},
 	{
 		"id": "T8_POTION_COOLDOWN@2",
-		"name": "Major Poison Potion (Rare)"
+		"name": "Major Poison Potion (Rare)",
+		"weight": 1.44
 	},
 	{
 		"id": "T8_POTION_COOLDOWN@3",
-		"name": "Major Poison Potion (Exceptional)"
+		"name": "Major Poison Potion (Exceptional)",
+		"weight": 1.44
 	},
 	{
 		"id": "T8_POTION_CLEANSE",
-		"name": "Invisibility Potion"
+		"name": "Invisibility Potion",
+		"weight": 1.44
 	},
 	{
 		"id": "T8_POTION_CLEANSE@1",
-		"name": "Invisibility Potion (Uncommon)"
+		"name": "Invisibility Potion (Uncommon)",
+		"weight": 1.44
 	},
 	{
 		"id": "T8_POTION_CLEANSE@2",
-		"name": "Invisibility Potion (Rare)"
+		"name": "Invisibility Potion (Rare)",
+		"weight": 1.44
 	},
 	{
 		"id": "T8_POTION_CLEANSE@3",
-		"name": "Invisibility Potion (Exceptional)"
+		"name": "Invisibility Potion (Exceptional)",
+		"weight": 1.44
 	},
 	{
 		"id": "T3_POTION_MOB_RESET",
-		"name": "Minor Calming Potion"
+		"name": "Minor Calming Potion",
+		"weight": 0.1
 	},
 	{
 		"id": "T3_POTION_MOB_RESET@1",
-		"name": "Minor Calming Potion (Uncommon)"
+		"name": "Minor Calming Potion (Uncommon)",
+		"weight": 0.1
 	},
 	{
 		"id": "T3_POTION_MOB_RESET@2",
-		"name": "Minor Calming Potion (Rare)"
+		"name": "Minor Calming Potion (Rare)",
+		"weight": 0.1
 	},
 	{
 		"id": "T3_POTION_MOB_RESET@3",
-		"name": "Minor Calming Potion (Exceptional)"
+		"name": "Minor Calming Potion (Exceptional)",
+		"weight": 0.1
 	},
 	{
 		"id": "T5_POTION_MOB_RESET",
-		"name": "Calming Potion"
+		"name": "Calming Potion",
+		"weight": 0.42
 	},
 	{
 		"id": "T5_POTION_MOB_RESET@1",
-		"name": "Calming Potion (Uncommon)"
+		"name": "Calming Potion (Uncommon)",
+		"weight": 0.42
 	},
 	{
 		"id": "T5_POTION_MOB_RESET@2",
-		"name": "Calming Potion (Rare)"
+		"name": "Calming Potion (Rare)",
+		"weight": 0.42
 	},
 	{
 		"id": "T5_POTION_MOB_RESET@3",
-		"name": "Calming Potion (Exceptional)"
+		"name": "Calming Potion (Exceptional)",
+		"weight": 0.42
 	},
 	{
 		"id": "T7_POTION_MOB_RESET",
-		"name": "Major Calming Potion"
+		"name": "Major Calming Potion",
+		"weight": 1.44
 	},
 	{
 		"id": "T7_POTION_MOB_RESET@1",
-		"name": "Major Calming Potion (Uncommon)"
+		"name": "Major Calming Potion (Uncommon)",
+		"weight": 1.44
 	},
 	{
 		"id": "T7_POTION_MOB_RESET@2",
-		"name": "Major Calming Potion (Rare)"
+		"name": "Major Calming Potion (Rare)",
+		"weight": 1.44
 	},
 	{
 		"id": "T7_POTION_MOB_RESET@3",
-		"name": "Major Calming Potion (Exceptional)"
+		"name": "Major Calming Potion (Exceptional)",
+		"weight": 1.44
 	},
 	{
 		"id": "T3_POTION_CLEANSE2",
-		"name": "Minor Cleansing Potion"
+		"name": "Minor Cleansing Potion",
+		"weight": 0.1
 	},
 	{
 		"id": "T3_POTION_CLEANSE2@1",
-		"name": "Minor Cleansing Potion (Uncommon)"
+		"name": "Minor Cleansing Potion (Uncommon)",
+		"weight": 0.1
 	},
 	{
 		"id": "T3_POTION_CLEANSE2@2",
-		"name": "Minor Cleansing Potion (Rare)"
+		"name": "Minor Cleansing Potion (Rare)",
+		"weight": 0.1
 	},
 	{
 		"id": "T3_POTION_CLEANSE2@3",
-		"name": "Minor Cleansing Potion (Exceptional)"
+		"name": "Minor Cleansing Potion (Exceptional)",
+		"weight": 0.1
 	},
 	{
 		"id": "T5_POTION_CLEANSE2",
-		"name": "Cleansing Potion"
+		"name": "Cleansing Potion",
+		"weight": 0.42
 	},
 	{
 		"id": "T5_POTION_CLEANSE2@1",
-		"name": "Cleansing Potion (Uncommon)"
+		"name": "Cleansing Potion (Uncommon)",
+		"weight": 0.42
 	},
 	{
 		"id": "T5_POTION_CLEANSE2@2",
-		"name": "Cleansing Potion (Rare)"
+		"name": "Cleansing Potion (Rare)",
+		"weight": 0.42
 	},
 	{
 		"id": "T5_POTION_CLEANSE2@3",
-		"name": "Cleansing Potion (Exceptional)"
+		"name": "Cleansing Potion (Exceptional)",
+		"weight": 0.42
 	},
 	{
 		"id": "T7_POTION_CLEANSE2",
-		"name": "Major Cleansing Potion"
+		"name": "Major Cleansing Potion",
+		"weight": 1.45
 	},
 	{
 		"id": "T7_POTION_CLEANSE2@1",
-		"name": "Major Cleansing Potion (Uncommon)"
+		"name": "Major Cleansing Potion (Uncommon)",
+		"weight": 1.45
 	},
 	{
 		"id": "T7_POTION_CLEANSE2@2",
-		"name": "Major Cleansing Potion (Rare)"
+		"name": "Major Cleansing Potion (Rare)",
+		"weight": 1.45
 	},
 	{
 		"id": "T7_POTION_CLEANSE2@3",
-		"name": "Major Cleansing Potion (Exceptional)"
+		"name": "Major Cleansing Potion (Exceptional)",
+		"weight": 1.45
 	},
 	{
 		"id": "T3_POTION_ACID",
-		"name": "Minor Acid Potion"
+		"name": "Minor Acid Potion",
+		"weight": 0.1
 	},
 	{
 		"id": "T3_POTION_ACID@1",
-		"name": "Minor Acid Potion (Uncommon)"
+		"name": "Minor Acid Potion (Uncommon)",
+		"weight": 0.1
 	},
 	{
 		"id": "T3_POTION_ACID@2",
-		"name": "Minor Acid Potion (Rare)"
+		"name": "Minor Acid Potion (Rare)",
+		"weight": 0.1
 	},
 	{
 		"id": "T3_POTION_ACID@3",
-		"name": "Minor Acid Potion (Exceptional)"
+		"name": "Minor Acid Potion (Exceptional)",
+		"weight": 0.1
 	},
 	{
 		"id": "T5_POTION_ACID",
-		"name": "Acid Potion"
+		"name": "Acid Potion",
+		"weight": 0.42
 	},
 	{
 		"id": "T5_POTION_ACID@1",
-		"name": "Acid Potion (Uncommon)"
+		"name": "Acid Potion (Uncommon)",
+		"weight": 0.42
 	},
 	{
 		"id": "T5_POTION_ACID@2",
-		"name": "Acid Potion (Rare)"
+		"name": "Acid Potion (Rare)",
+		"weight": 0.42
 	},
 	{
 		"id": "T5_POTION_ACID@3",
-		"name": "Acid Potion (Exceptional)"
+		"name": "Acid Potion (Exceptional)",
+		"weight": 0.42
 	},
 	{
 		"id": "T7_POTION_ACID",
-		"name": "Major Acid Potion"
+		"name": "Major Acid Potion",
+		"weight": 1.46
 	},
 	{
 		"id": "T7_POTION_ACID@1",
-		"name": "Major Acid Potion (Uncommon)"
+		"name": "Major Acid Potion (Uncommon)",
+		"weight": 1.46
 	},
 	{
 		"id": "T7_POTION_ACID@2",
-		"name": "Major Acid Potion (Rare)"
+		"name": "Major Acid Potion (Rare)",
+		"weight": 1.46
 	},
 	{
 		"id": "T7_POTION_ACID@3",
-		"name": "Major Acid Potion (Exceptional)"
+		"name": "Major Acid Potion (Exceptional)",
+		"weight": 1.46
 	},
 	{
 		"id": "T4_POTION_BERSERK",
-		"name": "Minor Berserk Potion"
+		"name": "Minor Berserk Potion",
+		"weight": 0.1
 	},
 	{
 		"id": "T4_POTION_BERSERK@1",
-		"name": "Minor Berserk Potion (Uncommon)"
+		"name": "Minor Berserk Potion (Uncommon)",
+		"weight": 0.1
 	},
 	{
 		"id": "T4_POTION_BERSERK@2",
-		"name": "Minor Berserk Potion (Rare)"
+		"name": "Minor Berserk Potion (Rare)",
+		"weight": 0.1
 	},
 	{
 		"id": "T4_POTION_BERSERK@3",
-		"name": "Minor Berserk Potion (Exceptional)"
+		"name": "Minor Berserk Potion (Exceptional)",
+		"weight": 0.1
 	},
 	{
 		"id": "T6_POTION_BERSERK",
-		"name": "Berserk Potion"
+		"name": "Berserk Potion",
+		"weight": 0.42
 	},
 	{
 		"id": "T6_POTION_BERSERK@1",
-		"name": "Berserk Potion (Uncommon)"
+		"name": "Berserk Potion (Uncommon)",
+		"weight": 0.42
 	},
 	{
 		"id": "T6_POTION_BERSERK@2",
-		"name": "Berserk Potion (Rare)"
+		"name": "Berserk Potion (Rare)",
+		"weight": 0.42
 	},
 	{
 		"id": "T6_POTION_BERSERK@3",
-		"name": "Berserk Potion (Exceptional)"
+		"name": "Berserk Potion (Exceptional)",
+		"weight": 0.42
 	},
 	{
 		"id": "T8_POTION_BERSERK",
-		"name": "Major Berserk Potion"
+		"name": "Major Berserk Potion",
+		"weight": 1.47
 	},
 	{
 		"id": "T8_POTION_BERSERK@1",
-		"name": "Major Berserk Potion (Uncommon)"
+		"name": "Major Berserk Potion (Uncommon)",
+		"weight": 1.47
 	},
 	{
 		"id": "T8_POTION_BERSERK@2",
-		"name": "Major Berserk Potion (Rare)"
+		"name": "Major Berserk Potion (Rare)",
+		"weight": 1.47
 	},
 	{
 		"id": "T8_POTION_BERSERK@3",
-		"name": "Major Berserk Potion (Exceptional)"
+		"name": "Major Berserk Potion (Exceptional)",
+		"weight": 1.47
 	},
 	{
 		"id": "T4_POTION_LAVA",
-		"name": "Minor Hellfire Potion"
+		"name": "Minor Hellfire Potion",
+		"weight": 0.1
 	},
 	{
 		"id": "T4_POTION_LAVA@1",
-		"name": "Minor Hellfire Potion (Uncommon)"
+		"name": "Minor Hellfire Potion (Uncommon)",
+		"weight": 0.1
 	},
 	{
 		"id": "T4_POTION_LAVA@2",
-		"name": "Minor Hellfire Potion (Rare)"
+		"name": "Minor Hellfire Potion (Rare)",
+		"weight": 0.1
 	},
 	{
 		"id": "T4_POTION_LAVA@3",
-		"name": "Minor Hellfire Potion (Exceptional)"
+		"name": "Minor Hellfire Potion (Exceptional)",
+		"weight": 0.1
 	},
 	{
 		"id": "T6_POTION_LAVA",
-		"name": "Hellfire Potion"
+		"name": "Hellfire Potion",
+		"weight": 0.42
 	},
 	{
 		"id": "T6_POTION_LAVA@1",
-		"name": "Hellfire Potion (Uncommon)"
+		"name": "Hellfire Potion (Uncommon)",
+		"weight": 0.42
 	},
 	{
 		"id": "T6_POTION_LAVA@2",
-		"name": "Hellfire Potion (Rare)"
+		"name": "Hellfire Potion (Rare)",
+		"weight": 0.42
 	},
 	{
 		"id": "T6_POTION_LAVA@3",
-		"name": "Hellfire Potion (Exceptional)"
+		"name": "Hellfire Potion (Exceptional)",
+		"weight": 0.42
 	},
 	{
 		"id": "T8_POTION_LAVA",
-		"name": "Major Hellfire Potion"
+		"name": "Major Hellfire Potion",
+		"weight": 1.44
 	},
 	{
 		"id": "T8_POTION_LAVA@1",
-		"name": "Major Hellfire Potion (Uncommon)"
+		"name": "Major Hellfire Potion (Uncommon)",
+		"weight": 1.44
 	},
 	{
 		"id": "T8_POTION_LAVA@2",
-		"name": "Major Hellfire Potion (Rare)"
+		"name": "Major Hellfire Potion (Rare)",
+		"weight": 1.44
 	},
 	{
 		"id": "T8_POTION_LAVA@3",
-		"name": "Major Hellfire Potion (Exceptional)"
+		"name": "Major Hellfire Potion (Exceptional)",
+		"weight": 1.44
 	},
 	{
 		"id": "T4_POTION_GATHER",
-		"name": "Minor Gathering Potion"
+		"name": "Minor Gathering Potion",
+		"weight": 0.1
 	},
 	{
 		"id": "T4_POTION_GATHER@1",
-		"name": "Minor Gathering Potion (Uncommon)"
+		"name": "Minor Gathering Potion (Uncommon)",
+		"weight": 0.1
 	},
 	{
 		"id": "T4_POTION_GATHER@2",
-		"name": "Minor Gathering Potion (Rare)"
+		"name": "Minor Gathering Potion (Rare)",
+		"weight": 0.1
 	},
 	{
 		"id": "T4_POTION_GATHER@3",
-		"name": "Minor Gathering Potion (Exceptional)"
+		"name": "Minor Gathering Potion (Exceptional)",
+		"weight": 0.1
 	},
 	{
 		"id": "T6_POTION_GATHER",
-		"name": "Gathering Potion"
+		"name": "Gathering Potion",
+		"weight": 0.44
 	},
 	{
 		"id": "T6_POTION_GATHER@1",
-		"name": "Gathering Potion (Uncommon)"
+		"name": "Gathering Potion (Uncommon)",
+		"weight": 0.44
 	},
 	{
 		"id": "T6_POTION_GATHER@2",
-		"name": "Gathering Potion (Rare)"
+		"name": "Gathering Potion (Rare)",
+		"weight": 0.44
 	},
 	{
 		"id": "T6_POTION_GATHER@3",
-		"name": "Gathering Potion (Exceptional)"
+		"name": "Gathering Potion (Exceptional)",
+		"weight": 0.44
 	},
 	{
 		"id": "T8_POTION_GATHER",
-		"name": "Major Gathering Potion"
+		"name": "Major Gathering Potion",
+		"weight": 1.48
 	},
 	{
 		"id": "T8_POTION_GATHER@1",
-		"name": "Major Gathering Potion (Uncommon)"
+		"name": "Major Gathering Potion (Uncommon)",
+		"weight": 1.48
 	},
 	{
 		"id": "T8_POTION_GATHER@2",
-		"name": "Major Gathering Potion (Rare)"
+		"name": "Major Gathering Potion (Rare)",
+		"weight": 1.48
 	},
 	{
 		"id": "T8_POTION_GATHER@3",
-		"name": "Major Gathering Potion (Exceptional)"
+		"name": "Major Gathering Potion (Exceptional)",
+		"weight": 1.48
 	},
 	{
 		"id": "T4_POTION_TORNADO",
-		"name": "Minor Tornado in a Bottle"
+		"name": "Minor Tornado in a Bottle",
+		"weight": 0.1
 	},
 	{
 		"id": "T4_POTION_TORNADO@1",
-		"name": "Minor Tornado in a Bottle (Uncommon)"
+		"name": "Minor Tornado in a Bottle (Uncommon)",
+		"weight": 0.1
 	},
 	{
 		"id": "T4_POTION_TORNADO@2",
-		"name": "Minor Tornado in a Bottle (Rare)"
+		"name": "Minor Tornado in a Bottle (Rare)",
+		"weight": 0.1
 	},
 	{
 		"id": "T4_POTION_TORNADO@3",
-		"name": "Minor Tornado in a Bottle (Exceptional)"
+		"name": "Minor Tornado in a Bottle (Exceptional)",
+		"weight": 0.1
 	},
 	{
 		"id": "T6_POTION_TORNADO",
-		"name": "Tornado in a Bottle"
+		"name": "Tornado in a Bottle",
+		"weight": 0.42
 	},
 	{
 		"id": "T6_POTION_TORNADO@1",
-		"name": "Tornado in a Bottle (Uncommon)"
+		"name": "Tornado in a Bottle (Uncommon)",
+		"weight": 0.42
 	},
 	{
 		"id": "T6_POTION_TORNADO@2",
-		"name": "Tornado in a Bottle (Rare)"
+		"name": "Tornado in a Bottle (Rare)",
+		"weight": 0.42
 	},
 	{
 		"id": "T6_POTION_TORNADO@3",
-		"name": "Tornado in a Bottle (Exceptional)"
+		"name": "Tornado in a Bottle (Exceptional)",
+		"weight": 0.42
 	},
 	{
 		"id": "T8_POTION_TORNADO",
-		"name": "Major Tornado in a Bottle"
+		"name": "Major Tornado in a Bottle",
+		"weight": 1.46
 	},
 	{
 		"id": "T8_POTION_TORNADO@1",
-		"name": "Major Tornado in a Bottle (Uncommon)"
+		"name": "Major Tornado in a Bottle (Uncommon)",
+		"weight": 1.46
 	},
 	{
 		"id": "T8_POTION_TORNADO@2",
-		"name": "Major Tornado in a Bottle (Rare)"
+		"name": "Major Tornado in a Bottle (Rare)",
+		"weight": 1.46
 	},
 	{
 		"id": "T8_POTION_TORNADO@3",
-		"name": "Major Tornado in a Bottle (Exceptional)"
+		"name": "Major Tornado in a Bottle (Exceptional)",
+		"weight": 1.46
 	},
 	{
 		"id": "UNIQUE_WEAPONMASTER_POTION_PROTOTYPE",
-		"name": "UNIQUE_WEAPONMASTER_POTION_PROTOTYPE"
+		"name": "UNIQUE_WEAPONMASTER_POTION_PROTOTYPE",
+		"weight": 0.11
 	}
 ]

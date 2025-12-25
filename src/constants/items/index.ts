@@ -38,7 +38,7 @@ import mounts from './mounts.json' with { type: 'json' }
 import journals from './journals.json' with { type: 'json' }
 import fish from './fish.json' with { type: 'json' }
 
-export type ItemEntry = { id: string; name: string }
+export type ItemEntry = { id: string; name: string; weight?: number }
 
 // Re-export individual arrays
 export {

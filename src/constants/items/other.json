@@ -1,642 +1,802 @@
 [
 	{
 		"id": "UNIQUE_VANITY_MAIN_BEERMUG_TELLAFRIEND",
-		"name": "Recruiter's Beer Mug"
+		"name": "Recruiter's Beer Mug",
+		"weight": 1.1
 	},
 	{
 		"id": "UNIQUE_VANITY_MAIN_HORN_TELLAFRIEND",
-		"name": "Recruiter's Hunter Horn"
+		"name": "Recruiter's Hunter Horn",
+		"weight": 1.1
 	},
 	{
 		"id": "UNIQUE_VANITY_MAIN_FOXCROP_TELLAFRIEND",
-		"name": "Recruiter's Fox Crop"
+		"name": "Recruiter's Fox Crop",
+		"weight": 1.1
 	},
 	{
 		"id": "UNIQUE_VANITY_MAIN_TRUMPET_TELLAFRIEND",
-		"name": "Recruiter's Trumpet"
+		"name": "Recruiter's Trumpet",
+		"weight": 1.1
 	},
 	{
 		"id": "UNIQUE_VANITY_MAIN_BEERMUG_02_TELLAFRIEND",
-		"name": "Recruiter's Ale Mug"
+		"name": "Recruiter's Ale Mug",
+		"weight": 1.1
 	},
 	{
 		"id": "UNIQUE_VANITY_MAIN_POISONBOTTLE_ROGUE",
-		"name": "Rogue Adventurer's Poison Bottle"
+		"name": "Rogue Adventurer's Poison Bottle",
+		"weight": 1.1
 	},
 	{
 		"id": "UNIQUE_VANITY_MAIN_DICE_SIXSIDED_AJ",
-		"name": "Cube of Fate"
+		"name": "Cube of Fate",
+		"weight": 1.1
 	},
 	{
 		"id": "UNIQUE_VANITY_MAIN_DICE_TWENTYSIDED_AJ",
-		"name": "Icosahedron of Fate"
+		"name": "Icosahedron of Fate",
+		"weight": 1.1
 	},
 	{
 		"id": "UNIQUE_VANITY_2H_SKULL_UNDEAD_AJ",
-		"name": "Undead Skull"
+		"name": "Undead Skull",
+		"weight": 1.1
 	},
 	{
 		"id": "UNIQUE_VANITY_2H_SKULL_DEMON_GOLDEN_AJ",
-		"name": "Demon Skull"
+		"name": "Demon Skull",
+		"weight": 1.1
 	},
 	{
 		"id": "T3_VANITY_CONSUMABLE_FIREWORKS_BLUE",
-		"name": "Royal Blue Fireworks"
+		"name": "Royal Blue Fireworks",
+		"weight": 0.01
 	},
 	{
 		"id": "T3_VANITY_CONSUMABLE_FIREWORKS_GREEN",
-		"name": "Royal Green Fireworks"
+		"name": "Royal Green Fireworks",
+		"weight": 0.01
 	},
 	{
 		"id": "T3_VANITY_CONSUMABLE_FIREWORKS_YELLOW",
-		"name": "Royal Yellow Fireworks"
+		"name": "Royal Yellow Fireworks",
+		"weight": 0.01
 	},
 	{
 		"id": "T3_VANITY_CONSUMABLE_FIREWORKS_RED",
-		"name": "Royal Red Fireworks"
+		"name": "Royal Red Fireworks",
+		"weight": 0.01
 	},
 	{
 		"id": "UNIQUE_CONSUMABLE_EVENT_WINTER_2017",
-		"name": "Snowball"
+		"name": "Snowball",
+		"weight": 0.01
 	},
 	{
 		"id": "UNIQUE_CONSUMABLE_EVENT_EASTER_2020_EGG",
-		"name": "Surprise Egg"
+		"name": "Surprise Egg",
+		"weight": 0.01
 	},
 	{
 		"id": "UNIQUE_CONSUMABLE_EVENT_EASTER_2020_CHOCOLATE",
-		"name": "Chocolate"
+		"name": "Chocolate",
+		"weight": 0.01
 	},
 	{
 		"id": "UNIQUE_WEAPONMASTER_IDLE_PROTOTYPE",
-		"name": "UNIQUE_WEAPONMASTER_IDLE_PROTOTYPE"
+		"name": "UNIQUE_WEAPONMASTER_IDLE_PROTOTYPE",
+		"weight": 0.11
 	},
 	{
 		"id": "T6_MOUNTUPGRADE_GIANTSTAG_XMAS",
-		"name": "Decorative Stag Bridle"
+		"name": "Decorative Stag Bridle",
+		"weight": 2
 	},
 	{
 		"id": "UNIQUE_MOUNTUPGRADE_RAM_XMAS",
-		"name": "Decorative Ram Bridle"
+		"name": "Decorative Ram Bridle",
+		"weight": 2
 	},
 	{
 		"id": "T5_MOUNTUPGRADE_HORSE_CURSE",
-		"name": "Necromantic Elixir"
+		"name": "Necromantic Elixir",
+		"weight": 2
 	},
 	{
 		"id": "T8_MOUNTUPGRADE_HORSE_CURSE",
-		"name": "Spectral Mask"
+		"name": "Spectral Mask",
+		"weight": 2
 	},
 	{
 		"id": "T8_MOUNTUPGRADE_COUGAR_KEEPER",
-		"name": "Sacred Bone Marrow"
+		"name": "Sacred Bone Marrow",
+		"weight": 2
 	},
 	{
 		"id": "T5_MOUNTUPGRADE_HORSE_MORGANA",
-		"name": "Morgana Mare Saddle"
+		"name": "Morgana Mare Saddle",
+		"weight": 2
 	},
 	{
 		"id": "T8_MOUNTUPGRADE_HORSE_MORGANA",
-		"name": "Infernal Horseshoes"
+		"name": "Infernal Horseshoes",
+		"weight": 2
 	},
 	{
 		"id": "T1_WORM",
-		"name": "Earthworm"
+		"name": "Earthworm",
+		"weight": 0
 	},
 	{
 		"id": "T1_ALCHEMY_COMMON",
-		"name": "Rare Animal Remains"
+		"name": "Rare Animal Remains",
+		"weight": 0.05
 	},
 	{
 		"id": "UNIQUE_ROTTEN_CHOCOLATE_EGG",
-		"name": "Rotten Chocolate Egg"
+		"name": "Rotten Chocolate Egg",
+		"weight": 0.01
 	},
 	{
 		"id": "UNIQUE_INGREDIENT_ANCHOR_FOUNDER_LEGENDARY",
-		"name": "Explorer's Anchor"
+		"name": "Explorer's Anchor",
+		"weight": 5
 	},
 	{
 		"id": "UNIQUE_GVGTOKEN_GENERIC",
-		"name": "Siphoned Energy"
+		"name": "Siphoned Energy",
+		"weight": 0.01
 	},
 	{
 		"id": "T1_FACTION_FOREST_TOKEN_1",
-		"name": "Treeheart"
+		"name": "Treeheart",
+		"weight": 2.56
 	},
 	{
 		"id": "T1_FACTION_HIGHLAND_TOKEN_1",
-		"name": "Rockheart"
+		"name": "Rockheart",
+		"weight": 2.56
 	},
 	{
 		"id": "T1_FACTION_STEPPE_TOKEN_1",
-		"name": "Beastheart"
+		"name": "Beastheart",
+		"weight": 2.56
 	},
 	{
 		"id": "T1_FACTION_MOUNTAIN_TOKEN_1",
-		"name": "Mountainheart"
+		"name": "Mountainheart",
+		"weight": 2.56
 	},
 	{
 		"id": "T1_FACTION_SWAMP_TOKEN_1",
-		"name": "Vineheart"
+		"name": "Vineheart",
+		"weight": 2.56
 	},
 	{
 		"id": "T1_FACTION_CAERLEON_TOKEN_1",
-		"name": "Shadowheart"
+		"name": "Shadowheart",
+		"weight": 2.56
 	},
 	{
 		"id": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_SMALL_IRON_REST_PH",
-		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_SMALL_IRON_REST_PH"
+		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_SMALL_IRON_REST_PH",
+		"weight": 1
 	},
 	{
 		"id": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_SMALL_BRONZE_REST_PH",
-		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_SMALL_BRONZE_REST_PH"
+		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_SMALL_BRONZE_REST_PH",
+		"weight": 1
 	},
 	{
 		"id": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_SMALL_BRONZE_500_PH",
-		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_SMALL_BRONZE_500_PH"
+		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_SMALL_BRONZE_500_PH",
+		"weight": 1
 	},
 	{
 		"id": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_SMALL_BRONZE_250_PH",
-		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_SMALL_BRONZE_250_PH"
+		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_SMALL_BRONZE_250_PH",
+		"weight": 1
 	},
 	{
 		"id": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_SMALL_BRONZE_125_PH",
-		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_SMALL_BRONZE_125_PH"
+		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_SMALL_BRONZE_125_PH",
+		"weight": 1
 	},
 	{
 		"id": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_SMALL_BRONZE_50_PH",
-		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_SMALL_BRONZE_50_PH"
+		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_SMALL_BRONZE_50_PH",
+		"weight": 1
 	},
 	{
 		"id": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_SMALL_SILVER_REST_PH",
-		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_SMALL_SILVER_REST_PH"
+		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_SMALL_SILVER_REST_PH",
+		"weight": 1
 	},
 	{
 		"id": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_SMALL_SILVER_150_PH",
-		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_SMALL_SILVER_150_PH"
+		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_SMALL_SILVER_150_PH",
+		"weight": 1
 	},
 	{
 		"id": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_SMALL_SILVER_75_PH",
-		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_SMALL_SILVER_75_PH"
+		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_SMALL_SILVER_75_PH",
+		"weight": 1
 	},
 	{
 		"id": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_SMALL_SILVER_25_PH",
-		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_SMALL_SILVER_25_PH"
+		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_SMALL_SILVER_25_PH",
+		"weight": 1
 	},
 	{
 		"id": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_SMALL_GOLD_REST_PH",
-		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_SMALL_GOLD_REST_PH"
+		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_SMALL_GOLD_REST_PH",
+		"weight": 1
 	},
 	{
 		"id": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_SMALL_GOLD_50_PH",
-		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_SMALL_GOLD_50_PH"
+		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_SMALL_GOLD_50_PH",
+		"weight": 1
 	},
 	{
 		"id": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_SMALL_GOLD_25_PH",
-		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_SMALL_GOLD_25_PH"
+		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_SMALL_GOLD_25_PH",
+		"weight": 1
 	},
 	{
 		"id": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_SMALL_GOLD_10_PH",
-		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_SMALL_GOLD_10_PH"
+		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_SMALL_GOLD_10_PH",
+		"weight": 1
 	},
 	{
 		"id": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_SMALL_CRYSTAL_REST_PH",
-		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_SMALL_CRYSTAL_REST_PH"
+		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_SMALL_CRYSTAL_REST_PH",
+		"weight": 1
 	},
 	{
 		"id": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_SMALL_CRYSTAL_10_PH",
-		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_SMALL_CRYSTAL_10_PH"
+		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_SMALL_CRYSTAL_10_PH",
+		"weight": 1
 	},
 	{
 		"id": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_SMALL_CRYSTAL_5_PH",
-		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_SMALL_CRYSTAL_5_PH"
+		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_SMALL_CRYSTAL_5_PH",
+		"weight": 1
 	},
 	{
 		"id": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_SMALL_CRYSTAL_3_PH",
-		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_SMALL_CRYSTAL_3_PH"
+		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_SMALL_CRYSTAL_3_PH",
+		"weight": 1
 	},
 	{
 		"id": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_SMALL_CRYSTAL_2_PH",
-		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_SMALL_CRYSTAL_2_PH"
+		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_SMALL_CRYSTAL_2_PH",
+		"weight": 1
 	},
 	{
 		"id": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_SMALL_CRYSTAL_1_PH",
-		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_SMALL_CRYSTAL_1_PH"
+		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_SMALL_CRYSTAL_1_PH",
+		"weight": 1
 	},
 	{
 		"id": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_MEDIUM_IRON_REST_PH",
-		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_MEDIUM_IRON_REST_PH"
+		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_MEDIUM_IRON_REST_PH",
+		"weight": 1
 	},
 	{
 		"id": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_MEDIUM_BRONZE_REST_PH",
-		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_MEDIUM_BRONZE_REST_PH"
+		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_MEDIUM_BRONZE_REST_PH",
+		"weight": 1
 	},
 	{
 		"id": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_MEDIUM_BRONZE_500_PH",
-		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_MEDIUM_BRONZE_500_PH"
+		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_MEDIUM_BRONZE_500_PH",
+		"weight": 1
 	},
 	{
 		"id": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_MEDIUM_BRONZE_250_PH",
-		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_MEDIUM_BRONZE_250_PH"
+		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_MEDIUM_BRONZE_250_PH",
+		"weight": 1
 	},
 	{
 		"id": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_MEDIUM_BRONZE_125_PH",
-		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_MEDIUM_BRONZE_125_PH"
+		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_MEDIUM_BRONZE_125_PH",
+		"weight": 1
 	},
 	{
 		"id": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_MEDIUM_BRONZE_50_PH",
-		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_MEDIUM_BRONZE_50_PH"
+		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_MEDIUM_BRONZE_50_PH",
+		"weight": 1
 	},
 	{
 		"id": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_MEDIUM_SILVER_REST_PH",
-		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_MEDIUM_SILVER_REST_PH"
+		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_MEDIUM_SILVER_REST_PH",
+		"weight": 1
 	},
 	{
 		"id": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_MEDIUM_SILVER_150_PH",
-		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_MEDIUM_SILVER_150_PH"
+		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_MEDIUM_SILVER_150_PH",
+		"weight": 1
 	},
 	{
 		"id": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_MEDIUM_SILVER_75_PH",
-		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_MEDIUM_SILVER_75_PH"
+		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_MEDIUM_SILVER_75_PH",
+		"weight": 1
 	},
 	{
 		"id": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_MEDIUM_SILVER_25_PH",
-		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_MEDIUM_SILVER_25_PH"
+		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_MEDIUM_SILVER_25_PH",
+		"weight": 1
 	},
 	{
 		"id": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_MEDIUM_GOLD_REST_PH",
-		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_MEDIUM_GOLD_REST_PH"
+		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_MEDIUM_GOLD_REST_PH",
+		"weight": 1
 	},
 	{
 		"id": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_MEDIUM_GOLD_50_PH",
-		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_MEDIUM_GOLD_50_PH"
+		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_MEDIUM_GOLD_50_PH",
+		"weight": 1
 	},
 	{
 		"id": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_MEDIUM_GOLD_25_PH",
-		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_MEDIUM_GOLD_25_PH"
+		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_MEDIUM_GOLD_25_PH",
+		"weight": 1
 	},
 	{
 		"id": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_MEDIUM_GOLD_10_PH",
-		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_MEDIUM_GOLD_10_PH"
+		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_MEDIUM_GOLD_10_PH",
+		"weight": 1
 	},
 	{
 		"id": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_MEDIUM_CRYSTAL_REST_PH",
-		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_MEDIUM_CRYSTAL_REST_PH"
+		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_MEDIUM_CRYSTAL_REST_PH",
+		"weight": 1
 	},
 	{
 		"id": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_MEDIUM_CRYSTAL_10_PH",
-		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_MEDIUM_CRYSTAL_10_PH"
+		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_MEDIUM_CRYSTAL_10_PH",
+		"weight": 1
 	},
 	{
 		"id": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_MEDIUM_CRYSTAL_5_PH",
-		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_MEDIUM_CRYSTAL_5_PH"
+		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_MEDIUM_CRYSTAL_5_PH",
+		"weight": 1
 	},
 	{
 		"id": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_MEDIUM_CRYSTAL_3_PH",
-		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_MEDIUM_CRYSTAL_3_PH"
+		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_MEDIUM_CRYSTAL_3_PH",
+		"weight": 1
 	},
 	{
 		"id": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_MEDIUM_CRYSTAL_2_PH",
-		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_MEDIUM_CRYSTAL_2_PH"
+		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_MEDIUM_CRYSTAL_2_PH",
+		"weight": 1
 	},
 	{
 		"id": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_MEDIUM_CRYSTAL_1_PH",
-		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_MEDIUM_CRYSTAL_1_PH"
+		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_MEDIUM_CRYSTAL_1_PH",
+		"weight": 1
 	},
 	{
 		"id": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_BIG_IRON_REST_PH",
-		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_BIG_IRON_REST_PH"
+		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_BIG_IRON_REST_PH",
+		"weight": 1
 	},
 	{
 		"id": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_BIG_BRONZE_REST_PH",
-		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_BIG_BRONZE_REST_PH"
+		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_BIG_BRONZE_REST_PH",
+		"weight": 1
 	},
 	{
 		"id": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_BIG_BRONZE_500_PH",
-		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_BIG_BRONZE_500_PH"
+		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_BIG_BRONZE_500_PH",
+		"weight": 1
 	},
 	{
 		"id": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_BIG_BRONZE_250_PH",
-		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_BIG_BRONZE_250_PH"
+		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_BIG_BRONZE_250_PH",
+		"weight": 1
 	},
 	{
 		"id": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_BIG_BRONZE_125_PH",
-		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_BIG_BRONZE_125_PH"
+		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_BIG_BRONZE_125_PH",
+		"weight": 1
 	},
 	{
 		"id": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_BIG_BRONZE_50_PH",
-		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_BIG_BRONZE_50_PH"
+		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_BIG_BRONZE_50_PH",
+		"weight": 1
 	},
 	{
 		"id": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_BIG_SILVER_REST_PH",
-		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_BIG_SILVER_REST_PH"
+		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_BIG_SILVER_REST_PH",
+		"weight": 1
 	},
 	{
 		"id": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_BIG_SILVER_150_PH",
-		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_BIG_SILVER_150_PH"
+		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_BIG_SILVER_150_PH",
+		"weight": 1
 	},
 	{
 		"id": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_BIG_SILVER_75_PH",
-		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_BIG_SILVER_75_PH"
+		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_BIG_SILVER_75_PH",
+		"weight": 1
 	},
 	{
 		"id": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_BIG_SILVER_25_PH",
-		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_BIG_SILVER_25_PH"
+		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_BIG_SILVER_25_PH",
+		"weight": 1
 	},
 	{
 		"id": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_BIG_GOLD_REST_PH",
-		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_BIG_GOLD_REST_PH"
+		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_BIG_GOLD_REST_PH",
+		"weight": 1
 	},
 	{
 		"id": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_BIG_GOLD_50_PH",
-		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_BIG_GOLD_50_PH"
+		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_BIG_GOLD_50_PH",
+		"weight": 1
 	},
 	{
 		"id": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_BIG_GOLD_25_PH",
-		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_BIG_GOLD_25_PH"
+		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_BIG_GOLD_25_PH",
+		"weight": 1
 	},
 	{
 		"id": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_BIG_GOLD_10_PH",
-		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_BIG_GOLD_10_PH"
+		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_BIG_GOLD_10_PH",
+		"weight": 1
 	},
 	{
 		"id": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_BIG_CRYSTAL_REST_PH",
-		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_BIG_CRYSTAL_REST_PH"
+		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_BIG_CRYSTAL_REST_PH",
+		"weight": 1
 	},
 	{
 		"id": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_BIG_CRYSTAL_10_PH",
-		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_BIG_CRYSTAL_10_PH"
+		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_BIG_CRYSTAL_10_PH",
+		"weight": 1
 	},
 	{
 		"id": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_BIG_CRYSTAL_5_PH",
-		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_BIG_CRYSTAL_5_PH"
+		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_BIG_CRYSTAL_5_PH",
+		"weight": 1
 	},
 	{
 		"id": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_BIG_CRYSTAL_3_PH",
-		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_BIG_CRYSTAL_3_PH"
+		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_BIG_CRYSTAL_3_PH",
+		"weight": 1
 	},
 	{
 		"id": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_BIG_CRYSTAL_2_PH",
-		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_BIG_CRYSTAL_2_PH"
+		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_BIG_CRYSTAL_2_PH",
+		"weight": 1
 	},
 	{
 		"id": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_BIG_CRYSTAL_1_PH",
-		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_BIG_CRYSTAL_1_PH"
+		"name": "UNIQUE_LOOTCHEST_CONQUEROR_SEASON_BIG_CRYSTAL_1_PH",
+		"weight": 1
 	},
 	{
 		"id": "T6_HELLGATE_2V2_LETHAL_1_MAP",
-		"name": "Master's Hellgate Ritual (2v2 - Lethal)"
+		"name": "Master's Hellgate Ritual (2v2 - Lethal)",
+		"weight": 0.09
 	},
 	{
 		"id": "T7_HELLGATE_5V5_LETHAL_1_MAP",
-		"name": "Grandmaster's Hellgate Ritual (5v5 - Lethal)"
+		"name": "Grandmaster's Hellgate Ritual (5v5 - Lethal)",
+		"weight": 0.09
 	},
 	{
 		"id": "T8_HELLGATE_10V10_LETHAL_1_MAP",
-		"name": "Elder's Hellgate Ritual (10v10 - Lethal)"
+		"name": "Elder's Hellgate Ritual (10v10 - Lethal)",
+		"weight": 0.09
 	},
 	{
 		"id": "T5_HELLGATE_2V2_NON_LETHAL_1_MAP",
-		"name": "Expert's Hellgate Ritual (2v2 - Nonlethal)"
+		"name": "Expert's Hellgate Ritual (2v2 - Nonlethal)",
+		"weight": 0.09
 	},
 	{
 		"id": "T5_HELLGATE_5V5_NON_LETHAL_1_MAP",
-		"name": "Expert's Hellgate Ritual (5v5 - Nonlethal)"
+		"name": "Expert's Hellgate Ritual (5v5 - Nonlethal)",
+		"weight": 0.09
 	},
 	{
 		"id": "T5_HELLGATE_10V10_NON_LETHAL_1_MAP",
-		"name": "Expert's Hellgate Ritual (10v10 - Nonlethal)"
+		"name": "Expert's Hellgate Ritual (10v10 - Nonlethal)",
+		"weight": 0.09
 	},
 	{
 		"id": "T6_RANDOM_DUNGEON_ELITE_TOKEN_1",
-		"name": "Master's Dungeon Map (Large Group)"
+		"name": "Master's Dungeon Map (Large Group)",
+		"weight": 0.09
 	},
 	{
 		"id": "T7_RANDOM_DUNGEON_ELITE_TOKEN_1",
-		"name": "Grandmaster's Dungeon Map (Large Group)"
+		"name": "Grandmaster's Dungeon Map (Large Group)",
+		"weight": 0.09
 	},
 	{
 		"id": "T8_RANDOM_DUNGEON_ELITE_TOKEN_1",
-		"name": "Elder's Dungeon Map (Large Group)"
+		"name": "Elder's Dungeon Map (Large Group)",
+		"weight": 0.09
 	},
 	{
 		"id": "T6_RANDOM_DUNGEON_ELITE_TOKEN_2",
-		"name": "T6_RANDOM_DUNGEON_ELITE_TOKEN_2"
+		"name": "T6_RANDOM_DUNGEON_ELITE_TOKEN_2",
+		"weight": 0.09
 	},
 	{
 		"id": "T7_RANDOM_DUNGEON_ELITE_TOKEN_2",
-		"name": "T7_RANDOM_DUNGEON_ELITE_TOKEN_2"
+		"name": "T7_RANDOM_DUNGEON_ELITE_TOKEN_2",
+		"weight": 0.09
 	},
 	{
 		"id": "T8_RANDOM_DUNGEON_ELITE_TOKEN_2",
-		"name": "T8_RANDOM_DUNGEON_ELITE_TOKEN_2"
+		"name": "T8_RANDOM_DUNGEON_ELITE_TOKEN_2",
+		"weight": 0.09
 	},
 	{
 		"id": "T6_RANDOM_DUNGEON_ELITE_TOKEN_3",
-		"name": "T6_RANDOM_DUNGEON_ELITE_TOKEN_3"
+		"name": "T6_RANDOM_DUNGEON_ELITE_TOKEN_3",
+		"weight": 0.09
 	},
 	{
 		"id": "T7_RANDOM_DUNGEON_ELITE_TOKEN_3",
-		"name": "T7_RANDOM_DUNGEON_ELITE_TOKEN_3"
+		"name": "T7_RANDOM_DUNGEON_ELITE_TOKEN_3",
+		"weight": 0.09
 	},
 	{
 		"id": "T8_RANDOM_DUNGEON_ELITE_TOKEN_3",
-		"name": "T8_RANDOM_DUNGEON_ELITE_TOKEN_3"
+		"name": "T8_RANDOM_DUNGEON_ELITE_TOKEN_3",
+		"weight": 0.09
 	},
 	{
 		"id": "T6_RANDOM_DUNGEON_ELITE_TOKEN_4",
-		"name": "T6_RANDOM_DUNGEON_ELITE_TOKEN_4"
+		"name": "T6_RANDOM_DUNGEON_ELITE_TOKEN_4",
+		"weight": 0.09
 	},
 	{
 		"id": "T7_RANDOM_DUNGEON_ELITE_TOKEN_4",
-		"name": "T7_RANDOM_DUNGEON_ELITE_TOKEN_4"
+		"name": "T7_RANDOM_DUNGEON_ELITE_TOKEN_4",
+		"weight": 0.09
 	},
 	{
 		"id": "T8_RANDOM_DUNGEON_ELITE_TOKEN_4",
-		"name": "T8_RANDOM_DUNGEON_ELITE_TOKEN_4"
+		"name": "T8_RANDOM_DUNGEON_ELITE_TOKEN_4",
+		"weight": 0.09
 	},
 	{
 		"id": "T2_RANDOM_DUNGEON_SOLO_TOKEN_1",
-		"name": "T2_RANDOM_DUNGEON_SOLO_TOKEN_1"
+		"name": "T2_RANDOM_DUNGEON_SOLO_TOKEN_1",
+		"weight": 0.09
 	},
 	{
 		"id": "T3_RANDOM_DUNGEON_SOLO_TOKEN_1",
-		"name": "Journeyman's Dungeon Map (Solo)"
+		"name": "Journeyman's Dungeon Map (Solo)",
+		"weight": 0.09
 	},
 	{
 		"id": "T4_RANDOM_DUNGEON_SOLO_TOKEN_1",
-		"name": "Adept's Dungeon Map (Solo)"
+		"name": "Adept's Dungeon Map (Solo)",
+		"weight": 0.09
 	},
 	{
 		"id": "T5_RANDOM_DUNGEON_SOLO_TOKEN_1",
-		"name": "Expert's Dungeon Map (Solo)"
+		"name": "Expert's Dungeon Map (Solo)",
+		"weight": 0.09
 	},
 	{
 		"id": "T6_RANDOM_DUNGEON_SOLO_TOKEN_1",
-		"name": "Master's Dungeon Map (Solo)"
+		"name": "Master's Dungeon Map (Solo)",
+		"weight": 0.09
 	},
 	{
 		"id": "T7_RANDOM_DUNGEON_SOLO_TOKEN_1",
-		"name": "Grandmaster's Dungeon Map (Solo)"
+		"name": "Grandmaster's Dungeon Map (Solo)",
+		"weight": 0.09
 	},
 	{
 		"id": "T8_RANDOM_DUNGEON_SOLO_TOKEN_1",
-		"name": "Elder's Dungeon Map (Solo)"
+		"name": "Elder's Dungeon Map (Solo)",
+		"weight": 0.09
 	},
 	{
 		"id": "T4_RANDOM_DUNGEON_SOLO_TOKEN_2",
-		"name": "T4_RANDOM_DUNGEON_SOLO_TOKEN_2"
+		"name": "T4_RANDOM_DUNGEON_SOLO_TOKEN_2",
+		"weight": 0.09
 	},
 	{
 		"id": "T5_RANDOM_DUNGEON_SOLO_TOKEN_2",
-		"name": "T5_RANDOM_DUNGEON_SOLO_TOKEN_2"
+		"name": "T5_RANDOM_DUNGEON_SOLO_TOKEN_2",
+		"weight": 0.09
 	},
 	{
 		"id": "T6_RANDOM_DUNGEON_SOLO_TOKEN_2",
-		"name": "T6_RANDOM_DUNGEON_SOLO_TOKEN_2"
+		"name": "T6_RANDOM_DUNGEON_SOLO_TOKEN_2",
+		"weight": 0.09
 	},
 	{
 		"id": "T7_RANDOM_DUNGEON_SOLO_TOKEN_2",
-		"name": "T7_RANDOM_DUNGEON_SOLO_TOKEN_2"
+		"name": "T7_RANDOM_DUNGEON_SOLO_TOKEN_2",
+		"weight": 0.09
 	},
 	{
 		"id": "T8_RANDOM_DUNGEON_SOLO_TOKEN_2",
-		"name": "T8_RANDOM_DUNGEON_SOLO_TOKEN_2"
+		"name": "T8_RANDOM_DUNGEON_SOLO_TOKEN_2",
+		"weight": 0.09
 	},
 	{
 		"id": "T4_RANDOM_DUNGEON_SOLO_TOKEN_3",
-		"name": "T4_RANDOM_DUNGEON_SOLO_TOKEN_3"
+		"name": "T4_RANDOM_DUNGEON_SOLO_TOKEN_3",
+		"weight": 0.09
 	},
 	{
 		"id": "T5_RANDOM_DUNGEON_SOLO_TOKEN_3",
-		"name": "T5_RANDOM_DUNGEON_SOLO_TOKEN_3"
+		"name": "T5_RANDOM_DUNGEON_SOLO_TOKEN_3",
+		"weight": 0.09
 	},
 	{
 		"id": "T6_RANDOM_DUNGEON_SOLO_TOKEN_3",
-		"name": "T6_RANDOM_DUNGEON_SOLO_TOKEN_3"
+		"name": "T6_RANDOM_DUNGEON_SOLO_TOKEN_3",
+		"weight": 0.09
 	},
 	{
 		"id": "T7_RANDOM_DUNGEON_SOLO_TOKEN_3",
-		"name": "T7_RANDOM_DUNGEON_SOLO_TOKEN_3"
+		"name": "T7_RANDOM_DUNGEON_SOLO_TOKEN_3",
+		"weight": 0.09
 	},
 	{
 		"id": "T8_RANDOM_DUNGEON_SOLO_TOKEN_3",
-		"name": "T8_RANDOM_DUNGEON_SOLO_TOKEN_3"
+		"name": "T8_RANDOM_DUNGEON_SOLO_TOKEN_3",
+		"weight": 0.09
 	},
 	{
 		"id": "T4_RANDOM_DUNGEON_SOLO_TOKEN_4",
-		"name": "T4_RANDOM_DUNGEON_SOLO_TOKEN_4"
+		"name": "T4_RANDOM_DUNGEON_SOLO_TOKEN_4",
+		"weight": 0.09
 	},
 	{
 		"id": "T5_RANDOM_DUNGEON_SOLO_TOKEN_4",
-		"name": "T5_RANDOM_DUNGEON_SOLO_TOKEN_4"
+		"name": "T5_RANDOM_DUNGEON_SOLO_TOKEN_4",
+		"weight": 0.09
 	},
 	{
 		"id": "T6_RANDOM_DUNGEON_SOLO_TOKEN_4",
-		"name": "T6_RANDOM_DUNGEON_SOLO_TOKEN_4"
+		"name": "T6_RANDOM_DUNGEON_SOLO_TOKEN_4",
+		"weight": 0.09
 	},
 	{
 		"id": "T7_RANDOM_DUNGEON_SOLO_TOKEN_4",
-		"name": "T7_RANDOM_DUNGEON_SOLO_TOKEN_4"
+		"name": "T7_RANDOM_DUNGEON_SOLO_TOKEN_4",
+		"weight": 0.09
 	},
 	{
 		"id": "T8_RANDOM_DUNGEON_SOLO_TOKEN_4",
-		"name": "T8_RANDOM_DUNGEON_SOLO_TOKEN_4"
+		"name": "T8_RANDOM_DUNGEON_SOLO_TOKEN_4",
+		"weight": 0.09
 	},
 	{
 		"id": "T4_RANDOM_DUNGEON_TOKEN_1",
-		"name": "Adept's Dungeon Map (Group)"
+		"name": "Adept's Dungeon Map (Group)",
+		"weight": 0.09
 	},
 	{
 		"id": "T5_RANDOM_DUNGEON_TOKEN_1",
-		"name": "Expert's Dungeon Map (Group)"
+		"name": "Expert's Dungeon Map (Group)",
+		"weight": 0.09
 	},
 	{
 		"id": "T6_RANDOM_DUNGEON_TOKEN_1",
-		"name": "Master's Dungeon Map (Group)"
+		"name": "Master's Dungeon Map (Group)",
+		"weight": 0.09
 	},
 	{
 		"id": "T7_RANDOM_DUNGEON_TOKEN_1",
-		"name": "Grandmaster's Dungeon Map (Group)"
+		"name": "Grandmaster's Dungeon Map (Group)",
+		"weight": 0.09
 	},
 	{
 		"id": "T8_RANDOM_DUNGEON_TOKEN_1",
-		"name": "Elder's Dungeon Map (Group)"
+		"name": "Elder's Dungeon Map (Group)",
+		"weight": 0.09
 	},
 	{
 		"id": "T4_RANDOM_DUNGEON_TOKEN_2",
-		"name": "T4_RANDOM_DUNGEON_TOKEN_2"
+		"name": "T4_RANDOM_DUNGEON_TOKEN_2",
+		"weight": 0.09
 	},
 	{
 		"id": "T5_RANDOM_DUNGEON_TOKEN_2",
-		"name": "T5_RANDOM_DUNGEON_TOKEN_2"
+		"name": "T5_RANDOM_DUNGEON_TOKEN_2",
+		"weight": 0.09
 	},
 	{
 		"id": "T6_RANDOM_DUNGEON_TOKEN_2",
-		"name": "T6_RANDOM_DUNGEON_TOKEN_2"
+		"name": "T6_RANDOM_DUNGEON_TOKEN_2",
+		"weight": 0.09
 	},
 	{
 		"id": "T7_RANDOM_DUNGEON_TOKEN_2",
-		"name": "T7_RANDOM_DUNGEON_TOKEN_2"
+		"name": "T7_RANDOM_DUNGEON_TOKEN_2",
+		"weight": 0.09
 	},
 	{
 		"id": "T8_RANDOM_DUNGEON_TOKEN_2",
-		"name": "T8_RANDOM_DUNGEON_TOKEN_2"
+		"name": "T8_RANDOM_DUNGEON_TOKEN_2",
+		"weight": 0.09
 	},
 	{
 		"id": "T4_RANDOM_DUNGEON_TOKEN_3",
-		"name": "T4_RANDOM_DUNGEON_TOKEN_3"
+		"name": "T4_RANDOM_DUNGEON_TOKEN_3",
+		"weight": 0.09
 	},
 	{
 		"id": "T5_RANDOM_DUNGEON_TOKEN_3",
-		"name": "T5_RANDOM_DUNGEON_TOKEN_3"
+		"name": "T5_RANDOM_DUNGEON_TOKEN_3",
+		"weight": 0.09
 	},
 	{
 		"id": "T6_RANDOM_DUNGEON_TOKEN_3",
-		"name": "T6_RANDOM_DUNGEON_TOKEN_3"
+		"name": "T6_RANDOM_DUNGEON_TOKEN_3",
+		"weight": 0.09
 	},
 	{
 		"id": "T7_RANDOM_DUNGEON_TOKEN_3",
-		"name": "T7_RANDOM_DUNGEON_TOKEN_3"
+		"name": "T7_RANDOM_DUNGEON_TOKEN_3",
+		"weight": 0.09
 	},
 	{
 		"id": "T8_RANDOM_DUNGEON_TOKEN_3",
-		"name": "T8_RANDOM_DUNGEON_TOKEN_3"
+		"name": "T8_RANDOM_DUNGEON_TOKEN_3",
+		"weight": 0.09
 	},
 	{
 		"id": "T4_RANDOM_DUNGEON_TOKEN_4",
-		"name": "T4_RANDOM_DUNGEON_TOKEN_4"
+		"name": "T4_RANDOM_DUNGEON_TOKEN_4",
+		"weight": 0.09
 	},
 	{
 		"id": "T5_RANDOM_DUNGEON_TOKEN_4",
-		"name": "T5_RANDOM_DUNGEON_TOKEN_4"
+		"name": "T5_RANDOM_DUNGEON_TOKEN_4",
+		"weight": 0.09
 	},
 	{
 		"id": "T6_RANDOM_DUNGEON_TOKEN_4",
-		"name": "T6_RANDOM_DUNGEON_TOKEN_4"
+		"name": "T6_RANDOM_DUNGEON_TOKEN_4",
+		"weight": 0.09
 	},
 	{
 		"id": "T7_RANDOM_DUNGEON_TOKEN_4",
-		"name": "T7_RANDOM_DUNGEON_TOKEN_4"
+		"name": "T7_RANDOM_DUNGEON_TOKEN_4",
+		"weight": 0.09
 	},
 	{
 		"id": "T8_RANDOM_DUNGEON_TOKEN_4",
-		"name": "T8_RANDOM_DUNGEON_TOKEN_4"
+		"name": "T8_RANDOM_DUNGEON_TOKEN_4",
+		"weight": 0.09
 	},
 	{
 		"id": "UNIQUE_ROTTEN_CAKE",
-		"name": "Spoiled Anniversary Cake"
+		"name": "Spoiled Anniversary Cake",
+		"weight": 0.01
 	},
 	{
 		"id": "UNIQUE_ROTTEN_CANDY",
-		"name": "Rotten Allhallows Treat"
+		"name": "Rotten Allhallows Treat",
+		"weight": 0.01
 	},
 	{
 		"id": "UNIQUE_TOKEN_COMMUNITY",
-		"name": "Community Token"
+		"name": "Community Token",
+		"weight": 0.01
 	},
 	{
 		"id": "UNIQUE_TOKEN_AOCP",
-		"name": "Noble Community Token"
+		"name": "Noble Community Token",
+		"weight": 0.01
 	}
 ]

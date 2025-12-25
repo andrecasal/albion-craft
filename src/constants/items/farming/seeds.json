@@ -1,62 +1,77 @@
 [
 	{
 		"id": "T1_FARM_CARROT_SEED",
-		"name": "Carrot Seeds"
+		"name": "Carrot Seeds",
+		"weight": 0.1
 	},
 	{
 		"id": "T2_FARM_BEAN_SEED",
-		"name": "Bean Seeds"
+		"name": "Bean Seeds",
+		"weight": 0.2
 	},
 	{
 		"id": "T3_FARM_WHEAT_SEED",
-		"name": "Wheat Seeds"
+		"name": "Wheat Seeds",
+		"weight": 0.2
 	},
 	{
 		"id": "T4_FARM_TURNIP_SEED",
-		"name": "Turnip Seeds"
+		"name": "Turnip Seeds",
+		"weight": 0.3
 	},
 	{
 		"id": "T5_FARM_CABBAGE_SEED",
-		"name": "Cabbage Seeds"
+		"name": "Cabbage Seeds",
+		"weight": 0.5
 	},
 	{
 		"id": "T6_FARM_POTATO_SEED",
-		"name": "Potato Seeds"
+		"name": "Potato Seeds",
+		"weight": 0.8
 	},
 	{
 		"id": "T7_FARM_CORN_SEED",
-		"name": "Corn Seeds"
+		"name": "Corn Seeds",
+		"weight": 1.1
 	},
 	{
 		"id": "T8_FARM_PUMPKIN_SEED",
-		"name": "Pumpkin Seeds"
+		"name": "Pumpkin Seeds",
+		"weight": 1.7
 	},
 	{
 		"id": "T2_FARM_AGARIC_SEED",
-		"name": "Arcane Agaric Seeds"
+		"name": "Arcane Agaric Seeds",
+		"weight": 0.2
 	},
 	{
 		"id": "T3_FARM_COMFREY_SEED",
-		"name": "Brightleaf Comfrey Seeds"
+		"name": "Brightleaf Comfrey Seeds",
+		"weight": 0.2
 	},
 	{
 		"id": "T4_FARM_BURDOCK_SEED",
-		"name": "Crenellated Burdock Seeds"
+		"name": "Crenellated Burdock Seeds",
+		"weight": 0.3
 	},
 	{
 		"id": "T5_FARM_TEASEL_SEED",
-		"name": "Dragon Teasel Seeds"
+		"name": "Dragon Teasel Seeds",
+		"weight": 0.5
 	},
 	{
 		"id": "T6_FARM_FOXGLOVE_SEED",
-		"name": "Elusive Foxglove Seeds"
+		"name": "Elusive Foxglove Seeds",
+		"weight": 0.8
 	},
 	{
 		"id": "T7_FARM_MULLEIN_SEED",
-		"name": "Firetouched Mullein Seeds"
+		"name": "Firetouched Mullein Seeds",
+		"weight": 1.1
 	},
 	{
 		"id": "T8_FARM_YARROW_SEED",
-		"name": "Ghoul Yarrow Seeds"
+		"name": "Ghoul Yarrow Seeds",
+		"weight": 1.7
 	}
 ]

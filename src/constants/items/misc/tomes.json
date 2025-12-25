@@ -1,114 +1,142 @@
 [
 	{
 		"id": "T4_SKILLBOOK_GATHER_FIBER",
-		"name": "Adept Fiber Harvester Tome"
+		"name": "Adept Fiber Harvester Tome",
+		"weight": 0.09
 	},
 	{
 		"id": "T5_SKILLBOOK_GATHER_FIBER",
-		"name": "Expert Fiber Harvester Tome"
+		"name": "Expert Fiber Harvester Tome",
+		"weight": 0.09
 	},
 	{
 		"id": "T6_SKILLBOOK_GATHER_FIBER",
-		"name": "Master Fiber Harvester Tome"
+		"name": "Master Fiber Harvester Tome",
+		"weight": 0.09
 	},
 	{
 		"id": "T7_SKILLBOOK_GATHER_FIBER",
-		"name": "Grandmaster Fiber Harvester Tome"
+		"name": "Grandmaster Fiber Harvester Tome",
+		"weight": 0.09
 	},
 	{
 		"id": "T8_SKILLBOOK_GATHER_FIBER",
-		"name": "Elder Fiber Harvester Tome"
+		"name": "Elder Fiber Harvester Tome",
+		"weight": 0.09
 	},
 	{
 		"id": "T4_SKILLBOOK_GATHER_HIDE",
-		"name": "Adept Animal Skinner Tome"
+		"name": "Adept Animal Skinner Tome",
+		"weight": 0.09
 	},
 	{
 		"id": "T5_SKILLBOOK_GATHER_HIDE",
-		"name": "Expert Animal Skinner Tome"
+		"name": "Expert Animal Skinner Tome",
+		"weight": 0.09
 	},
 	{
 		"id": "T6_SKILLBOOK_GATHER_HIDE",
-		"name": "Master Animal Skinner Tome"
+		"name": "Master Animal Skinner Tome",
+		"weight": 0.09
 	},
 	{
 		"id": "T7_SKILLBOOK_GATHER_HIDE",
-		"name": "Grandmaster Animal Skinner Tome"
+		"name": "Grandmaster Animal Skinner Tome",
+		"weight": 0.09
 	},
 	{
 		"id": "T8_SKILLBOOK_GATHER_HIDE",
-		"name": "Elder Animal Skinner Tome"
+		"name": "Elder Animal Skinner Tome",
+		"weight": 0.09
 	},
 	{
 		"id": "T4_SKILLBOOK_GATHER_ORE",
-		"name": "Adept Ore Miner Tome"
+		"name": "Adept Ore Miner Tome",
+		"weight": 0.09
 	},
 	{
 		"id": "T5_SKILLBOOK_GATHER_ORE",
-		"name": "Expert Ore Miner Tome"
+		"name": "Expert Ore Miner Tome",
+		"weight": 0.09
 	},
 	{
 		"id": "T6_SKILLBOOK_GATHER_ORE",
-		"name": "Master Ore Miner Tome"
+		"name": "Master Ore Miner Tome",
+		"weight": 0.09
 	},
 	{
 		"id": "T7_SKILLBOOK_GATHER_ORE",
-		"name": "Grandmaster Ore Miner Tome"
+		"name": "Grandmaster Ore Miner Tome",
+		"weight": 0.09
 	},
 	{
 		"id": "T8_SKILLBOOK_GATHER_ORE",
-		"name": "Elder Ore Miner Tome"
+		"name": "Elder Ore Miner Tome",
+		"weight": 0.09
 	},
 	{
 		"id": "T4_SKILLBOOK_GATHER_ROCK",
-		"name": "Adept Quarrier Tome"
+		"name": "Adept Quarrier Tome",
+		"weight": 0.09
 	},
 	{
 		"id": "T5_SKILLBOOK_GATHER_ROCK",
-		"name": "Expert Quarrier Tome"
+		"name": "Expert Quarrier Tome",
+		"weight": 0.09
 	},
 	{
 		"id": "T6_SKILLBOOK_GATHER_ROCK",
-		"name": "Master Quarrier Tome"
+		"name": "Master Quarrier Tome",
+		"weight": 0.09
 	},
 	{
 		"id": "T7_SKILLBOOK_GATHER_ROCK",
-		"name": "Grandmaster Quarrier Tome"
+		"name": "Grandmaster Quarrier Tome",
+		"weight": 0.09
 	},
 	{
 		"id": "T8_SKILLBOOK_GATHER_ROCK",
-		"name": "Elder Quarrier Tome"
+		"name": "Elder Quarrier Tome",
+		"weight": 0.09
 	},
 	{
 		"id": "T4_SKILLBOOK_GATHER_WOOD",
-		"name": "Adept Lumberjack Tome"
+		"name": "Adept Lumberjack Tome",
+		"weight": 0.09
 	},
 	{
 		"id": "T5_SKILLBOOK_GATHER_WOOD",
-		"name": "Expert Lumberjack Tome"
+		"name": "Expert Lumberjack Tome",
+		"weight": 0.09
 	},
 	{
 		"id": "T6_SKILLBOOK_GATHER_WOOD",
-		"name": "Master Lumberjack Tome"
+		"name": "Master Lumberjack Tome",
+		"weight": 0.09
 	},
 	{
 		"id": "T7_SKILLBOOK_GATHER_WOOD",
-		"name": "Grandmaster Lumberjack Tome"
+		"name": "Grandmaster Lumberjack Tome",
+		"weight": 0.09
 	},
 	{
 		"id": "T8_SKILLBOOK_GATHER_WOOD",
-		"name": "Elder Lumberjack Tome"
+		"name": "Elder Lumberjack Tome",
+		"weight": 0.09
 	},
 	{
 		"id": "T4_SKILLBOOK_STANDARD",
-		"name": "Adept's Tome of Insight"
+		"name": "Adept's Tome of Insight",
+		"weight": 0.09
 	},
 	{
 		"id": "UNIQUE_LOOTCHEST_SKILLBOOKS_TELLAFRIEND",
-		"name": "Pile of Tomes"
+		"name": "Pile of Tomes",
+		"weight": 1
 	},
 	{
 		"id": "UNIQUE_SKILLBOOK_ADC_GENERAL_01",
-		"name": "Adventurer's Tome"
+		"name": "Adventurer's Tome",
+		"weight": 0.09
 	}
 ]

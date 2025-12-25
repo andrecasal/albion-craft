@@ -1,86 +1,107 @@
 [
 	{
 		"id": "TREASURE_KNOWLEDGE_RARITY1",
-		"name": "Corrupted Scroll"
+		"name": "Corrupted Scroll",
+		"weight": 2.5
 	},
 	{
 		"id": "TREASURE_KNOWLEDGE_RARITY2",
-		"name": "Thin Booklet"
+		"name": "Thin Booklet",
+		"weight": 5
 	},
 	{
 		"id": "TREASURE_KNOWLEDGE_RARITY3",
-		"name": "Ancient Tome"
+		"name": "Ancient Tome",
+		"weight": 6.25
 	},
 	{
 		"id": "TREASURE_SILVERWARE_RARITY1",
-		"name": "Silver Cup"
+		"name": "Silver Cup",
+		"weight": 2.5
 	},
 	{
 		"id": "TREASURE_SILVERWARE_RARITY2",
-		"name": "Silver Mirror"
+		"name": "Silver Mirror",
+		"weight": 5
 	},
 	{
 		"id": "TREASURE_SILVERWARE_RARITY3",
-		"name": "Silver Candelabrum"
+		"name": "Silver Candelabrum",
+		"weight": 6.25
 	},
 	{
 		"id": "TREASURE_DECORATIVE_RARITY1",
-		"name": "Simple Stone Toy"
+		"name": "Simple Stone Toy",
+		"weight": 2.5
 	},
 	{
 		"id": "TREASURE_DECORATIVE_RARITY2",
-		"name": "Stone Mask"
+		"name": "Stone Mask",
+		"weight": 5
 	},
 	{
 		"id": "TREASURE_DECORATIVE_RARITY3",
-		"name": "Stone Idol"
+		"name": "Stone Idol",
+		"weight": 6.25
 	},
 	{
 		"id": "TREASURE_CEREMONIAL_RARITY1",
-		"name": "Ornamental Scepter"
+		"name": "Ornamental Scepter",
+		"weight": 2.5
 	},
 	{
 		"id": "TREASURE_CEREMONIAL_RARITY2",
-		"name": "Globus Cruciger"
+		"name": "Globus Cruciger",
+		"weight": 5
 	},
 	{
 		"id": "TREASURE_CEREMONIAL_RARITY3",
-		"name": "Golden Crown"
+		"name": "Golden Crown",
+		"weight": 6.25
 	},
 	{
 		"id": "TREASURE_TRIBAL_RARITY1",
-		"name": "Feather Talisman"
+		"name": "Feather Talisman",
+		"weight": 2.5
 	},
 	{
 		"id": "TREASURE_TRIBAL_RARITY2",
-		"name": "Dreamcatcher"
+		"name": "Dreamcatcher",
+		"weight": 5
 	},
 	{
 		"id": "TREASURE_TRIBAL_RARITY3",
-		"name": "Holy Fetish"
+		"name": "Holy Fetish",
+		"weight": 6.25
 	},
 	{
 		"id": "TREASURE_RITUAL_RARITY1",
-		"name": "Ritual Candles"
+		"name": "Ritual Candles",
+		"weight": 2.5
 	},
 	{
 		"id": "TREASURE_RITUAL_RARITY2",
-		"name": "Blood Chalice"
+		"name": "Blood Chalice",
+		"weight": 5
 	},
 	{
 		"id": "TREASURE_RITUAL_RARITY3",
-		"name": "Sacrificial Dagger"
+		"name": "Sacrificial Dagger",
+		"weight": 6.25
 	},
 	{
 		"id": "TREASURE_AVALON_RARITY1",
-		"name": "Golden Frame"
+		"name": "Golden Frame",
+		"weight": 2.5
 	},
 	{
 		"id": "TREASURE_AVALON_RARITY2",
-		"name": "Golden Gyroscope"
+		"name": "Golden Gyroscope",
+		"weight": 5
 	},
 	{
 		"id": "TREASURE_AVALON_RARITY3",
-		"name": "Golden Sextant"
+		"name": "Golden Sextant",
+		"weight": 6.25
 	}
 ]
