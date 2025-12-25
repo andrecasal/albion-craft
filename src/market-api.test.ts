@@ -1,6 +1,6 @@
 import { describe, test, expect, beforeAll, afterAll, beforeEach } from 'bun:test'
 import { Database } from 'bun:sqlite'
-import { setTestDatabase, initializeSchema } from './db'
+import { setTestDatabase, initializeSchema } from './db/db'
 
 // Import functions to test - they will use the test database via the proxy
 import {
@@ -18,6 +18,7 @@ import {
 	getCraftingInputCost,
 	isDataFresh,
 	getDataAge,
+	getProfitableInstantSell,
 	DEFAULT_MAX_AGE_MINUTES,
 } from './market-api'
 
@@ -688,5 +689,276 @@ describe('getDataAge', () => {
 		expect(result.source).toBe('latest')
 		expect(result.lastUpdated).toBeNull()
 		expect(result.ageMinutes).toBeNull()
+	})
+})
+
+// ============================================================================
+// INTEGRATION TESTS - Profitable Instant Sell
+// ============================================================================
+
+describe('getProfitableInstantSell', () => {
+	test('returns null when no buy orders exist', () => {
+		const result = getProfitableInstantSell('T4_BAG', 'Caerleon', 1000)
+		expect(result).toBeNull()
+	})
+
+	test('returns zero quantity when no orders are profitable', () => {
+		// Buy order at 1000 silver, after 4% tax = 960 silver net
+		// minSellPrice is 1000, so 960 < 1000 = not profitable
+		insertOrderBookOrder({
+			orderId: 1,
+			itemId: 'T4_BAG',
+			city: 'Caerleon',
+			price: 10000000, // 1000 silver in raw units
+			amount: 10,
+			orderType: 'buy',
+		})
+
+		const result = getProfitableInstantSell('T4_BAG', 'Caerleon', 1000)
+
+		expect(result).not.toBeNull()
+		expect(result!.quantity).toBe(0)
+		expect(result!.totalProfit).toBe(0)
+	})
+
+	test('calculates profitable quantity with single order', () => {
+		// Buy order at 1100 silver, after 4% tax = 1056 silver net
+		// minSellPrice is 1000, so profit per item = 1056 - 1000 = 56 silver
+		insertOrderBookOrder({
+			orderId: 1,
+			itemId: 'T4_BAG',
+			city: 'Caerleon',
+			price: 11000000, // 1100 silver in raw units
+			amount: 10,
+			orderType: 'buy',
+		})
+
+		const result = getProfitableInstantSell('T4_BAG', 'Caerleon', 1000)
+
+		expect(result).not.toBeNull()
+		expect(result!.quantity).toBe(10)
+		// Profit = (1100 * 0.96 - 1000) * 10 = (1056 - 1000) * 10 = 560
+		expect(result!.totalProfit).toBe(560)
+	})
+
+	test('stops at unprofitable orders when walking order book', () => {
+		// High price order: 1200 silver, net after 4% tax = 1152
+		insertOrderBookOrder({
+			orderId: 1,
+			itemId: 'T4_BAG',
+			city: 'Caerleon',
+			price: 12000000, // 1200 silver
+			amount: 5,
+			orderType: 'buy',
+		})
+		// Lower price order: 1000 silver, net after 4% tax = 960 (not profitable)
+		insertOrderBookOrder({
+			orderId: 2,
+			itemId: 'T4_BAG',
+			city: 'Caerleon',
+			price: 10000000, // 1000 silver
+			amount: 10,
+			orderType: 'buy',
+		})
+
+		const result = getProfitableInstantSell('T4_BAG', 'Caerleon', 1000)
+
+		expect(result).not.toBeNull()
+		// Only the first 5 items are profitable
+		expect(result!.quantity).toBe(5)
+		// Profit = (1200 * 0.96 - 1000) * 5 = (1152 - 1000) * 5 = 760
+		expect(result!.totalProfit).toBe(760)
+	})
+
+	test('aggregates profit from multiple profitable orders', () => {
+		// Order 1: 1500 silver, net = 1440, profit per item = 440
+		insertOrderBookOrder({
+			orderId: 1,
+			itemId: 'T4_BAG',
+			city: 'Caerleon',
+			price: 15000000, // 1500 silver
+			amount: 3,
+			orderType: 'buy',
+		})
+		// Order 2: 1200 silver, net = 1152, profit per item = 152
+		insertOrderBookOrder({
+			orderId: 2,
+			itemId: 'T4_BAG',
+			city: 'Caerleon',
+			price: 12000000, // 1200 silver
+			amount: 7,
+			orderType: 'buy',
+		})
+
+		const result = getProfitableInstantSell('T4_BAG', 'Caerleon', 1000)
+
+		expect(result).not.toBeNull()
+		expect(result!.quantity).toBe(10) // 3 + 7
+		// Total profit = (1440 - 1000) * 3 + (1152 - 1000) * 7 = 440*3 + 152*7 = 1320 + 1064 = 2384
+		expect(result!.totalProfit).toBe(2384)
+	})
+
+	test('respects custom tax rate', () => {
+		// Buy order at 1100 silver
+		// With 6.5% tax: net = 1100 * 0.935 = 1028.5
+		// minSellPrice = 1000, profit per item = 28.5
+		insertOrderBookOrder({
+			orderId: 1,
+			itemId: 'T4_BAG',
+			city: 'Caerleon',
+			price: 11000000, // 1100 silver
+			amount: 10,
+			orderType: 'buy',
+		})
+
+		const result = getProfitableInstantSell('T4_BAG', 'Caerleon', 1000, {
+			taxRate: 0.065,
+		})
+
+		expect(result).not.toBeNull()
+		expect(result!.quantity).toBe(10)
+		// Profit = (1100 * 0.935 - 1000) * 10 = (1028.5 - 1000) * 10 = 285
+		expect(result!.totalProfit).toBe(285)
+	})
+
+	test('respects quality filter - includes lower quality buy orders', () => {
+		// Quality 1 buy order (accepts quality 1, 2, 3, etc.)
+		insertOrderBookOrder({
+			orderId: 1,
+			itemId: 'T4_BAG',
+			city: 'Caerleon',
+			quality: 1,
+			price: 12000000, // 1200 silver
+			amount: 5,
+			orderType: 'buy',
+		})
+		// Quality 2 buy order (accepts quality 2, 3, etc.)
+		insertOrderBookOrder({
+			orderId: 2,
+			itemId: 'T4_BAG',
+			city: 'Caerleon',
+			quality: 2,
+			price: 13000000, // 1300 silver
+			amount: 5,
+			orderType: 'buy',
+		})
+		// Quality 3 buy order (accepts quality 3+, so not applicable for quality 2 items)
+		insertOrderBookOrder({
+			orderId: 3,
+			itemId: 'T4_BAG',
+			city: 'Caerleon',
+			quality: 3,
+			price: 14000000, // 1400 silver
+			amount: 5,
+			orderType: 'buy',
+		})
+
+		// Selling quality 2 items - should match quality 1 and 2 buy orders
+		const result = getProfitableInstantSell('T4_BAG', 'Caerleon', 1000, {
+			quality: 2,
+		})
+
+		expect(result).not.toBeNull()
+		// Should include both quality 1 and quality 2 orders (10 items total)
+		expect(result!.quantity).toBe(10)
+	})
+
+	test('excludes stale orders', () => {
+		const oldTime = Date.now() - 20 * 60 * 1000 // 20 minutes ago
+
+		insertOrderBookOrder({
+			orderId: 1,
+			itemId: 'T4_BAG',
+			city: 'Caerleon',
+			price: 12000000,
+			amount: 10,
+			orderType: 'buy',
+			updatedAt: oldTime,
+		})
+
+		// Default maxAge is 15 minutes, so this order should be excluded
+		const result = getProfitableInstantSell('T4_BAG', 'Caerleon', 1000)
+
+		expect(result).toBeNull()
+	})
+
+	test('includes orders within maxAgeMinutes', () => {
+		const tenMinutesAgo = Date.now() - 10 * 60 * 1000
+
+		insertOrderBookOrder({
+			orderId: 1,
+			itemId: 'T4_BAG',
+			city: 'Caerleon',
+			price: 12000000,
+			amount: 10,
+			orderType: 'buy',
+			updatedAt: tenMinutesAgo,
+		})
+
+		const result = getProfitableInstantSell('T4_BAG', 'Caerleon', 1000, {
+			maxAgeMinutes: 15,
+		})
+
+		expect(result).not.toBeNull()
+		expect(result!.quantity).toBe(10)
+	})
+
+	test('excludes expired orders', () => {
+		const pastDate = new Date()
+		pastDate.setDate(pastDate.getDate() - 1) // Expired yesterday
+
+		insertOrderBookOrder({
+			orderId: 1,
+			itemId: 'T4_BAG',
+			city: 'Caerleon',
+			price: 12000000,
+			amount: 10,
+			orderType: 'buy',
+			expires: pastDate.toISOString(),
+		})
+
+		const result = getProfitableInstantSell('T4_BAG', 'Caerleon', 1000)
+
+		expect(result).toBeNull()
+	})
+
+	test('handles edge case where net equals minSellPrice exactly', () => {
+		// If net after tax equals minSellPrice exactly, there's no profit
+		// For minSellPrice = 960 and taxRate = 0.04:
+		// We need net = 960, so sellPrice * 0.96 = 960, sellPrice = 1000
+		insertOrderBookOrder({
+			orderId: 1,
+			itemId: 'T4_BAG',
+			city: 'Caerleon',
+			price: 10000000, // 1000 silver, net = 960
+			amount: 10,
+			orderType: 'buy',
+		})
+
+		const result = getProfitableInstantSell('T4_BAG', 'Caerleon', 960)
+
+		expect(result).not.toBeNull()
+		// netAfterTax (960) <= minSellPrice (960), so no profit
+		expect(result!.quantity).toBe(0)
+		expect(result!.totalProfit).toBe(0)
+	})
+
+	test('rounds total profit to nearest integer', () => {
+		// Create a scenario with fractional profit
+		// 1050 silver * 0.96 = 1008 net, profit = 1008 - 1000 = 8 per item
+		// 8 * 3 = 24 (clean division)
+		insertOrderBookOrder({
+			orderId: 1,
+			itemId: 'T4_BAG',
+			city: 'Caerleon',
+			price: 10500000, // 1050 silver
+			amount: 3,
+			orderType: 'buy',
+		})
+
+		const result = getProfitableInstantSell('T4_BAG', 'Caerleon', 1000)
+
+		expect(result).not.toBeNull()
+		expect(Number.isInteger(result!.totalProfit)).toBe(true)
 	})
 })

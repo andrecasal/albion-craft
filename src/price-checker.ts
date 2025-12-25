@@ -2,7 +2,7 @@ import 'dotenv/config'
 import { search, select } from '@inquirer/prompts'
 import { readdirSync, readFileSync } from 'fs'
 import { join } from 'path'
-import { db } from './db'
+import { db } from './db/db'
 import { ITEMS_WITH_QUALITY, BLACK_MARKET_ITEMS, equipment } from './constants/items'
 
 // ============================================================================

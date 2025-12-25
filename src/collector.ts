@@ -1,7 +1,7 @@
 import 'dotenv/config'
 import { connect, NatsConnection, Subscription, StringCodec } from 'nats'
 import { appendFileSync } from 'fs'
-import { closeDb, getDatabaseSize, db } from './db'
+import { closeDb, getDatabaseSize, db } from './db/db'
 import { ALL_ITEM_IDS } from './constants/items'
 import { getMarket } from './constants/markets'
 

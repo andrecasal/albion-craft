@@ -1,4 +1,4 @@
-import { db } from './db'
+import { db } from './db/db'
 
 // ============================================================================
 // TYPES
@@ -107,15 +107,9 @@ export const DEFAULT_MAX_AGE_MINUTES: Record<DataSource, number> = {
 	daily: 1440, // Daily data: 24 hours
 }
 
-const RAW_TO_SILVER = 10000 // Order book stores raw units (10000 = 1 silver)
-
 // ============================================================================
 // INTERNAL HELPERS
 // ============================================================================
-
-function rawToSilver(rawPrice: number): number {
-	return Math.round(rawPrice / RAW_TO_SILVER)
-}
 
 function getAgeMinutes(date: Date | number): number {
 	const timestamp = typeof date === 'number' ? date : date.getTime()
@@ -595,20 +589,17 @@ export function getBuyableQuantity(
 	const maxAge = options?.maxAgeMinutes ?? DEFAULT_MAX_AGE_MINUTES.orderBook
 	const minUpdatedAt = Date.now() - maxAge * 60000
 
-	// Convert silver price to raw units for comparison
-	const maxPriceRaw = maxPrice * RAW_TO_SILVER
-
 	const row = db
 		.prepare(
 			`
 		SELECT COALESCE(SUM(amount), 0) as total
 		FROM order_book
 		WHERE item_id = ? AND city = ? AND quality = ?
-			AND order_type = 'sell' AND price <= ?
+			AND order_type = 'sell' AND ROUND(price / 10000) <= ?
 			AND updated_at > ? AND expires > datetime('now')
 	`,
 		)
-		.get(itemId, city, quality, maxPriceRaw, minUpdatedAt) as { total: number }
+		.get(itemId, city, quality, maxPrice, minUpdatedAt) as { total: number }
 
 	return row.total
 }
@@ -630,7 +621,7 @@ export function getCostToBuy(
 	const orders = db
 		.prepare(
 			`
-		SELECT price, amount
+		SELECT ROUND(price / 10000) as price, amount
 		FROM order_book
 		WHERE item_id = ? AND city = ? AND quality = ?
 			AND order_type = 'sell'
@@ -653,7 +644,7 @@ export function getCostToBuy(
 		if (quantityFilled >= quantity) break
 
 		const take = Math.min(order.amount, quantity - quantityFilled)
-		totalCost += rawToSilver(order.price) * take
+		totalCost += order.price * take
 		quantityFilled += take
 		ordersUsed++
 	}
@@ -686,7 +677,7 @@ export function getRevenueFromSelling(
 	const orders = db
 		.prepare(
 			`
-		SELECT price, amount
+		SELECT ROUND(price / 10000) as price, amount
 		FROM order_book
 		WHERE item_id = ? AND city = ? AND quality <= ?
 			AND order_type = 'buy'
@@ -709,7 +700,7 @@ export function getRevenueFromSelling(
 		if (quantityFilled >= quantity) break
 
 		const take = Math.min(order.amount, quantity - quantityFilled)
-		totalRevenue += rawToSilver(order.price) * take
+		totalRevenue += order.price * take
 		quantityFilled += take
 		ordersUsed++
 	}
@@ -722,6 +713,62 @@ export function getRevenueFromSelling(
 		quantityFilled,
 		quantityUnfilled: Math.max(0, quantity - quantityFilled),
 	}
+}
+
+/**
+ * Calculate profitable instant sell quantity and total profit.
+ * Walks through buy orders from highest to lowest, counting only those
+ * where we make a profit after the 4% premium tax.
+ *
+ * @param minSellPrice - Minimum price we need to receive after tax to break even (buyPrice)
+ * @param taxRate - Market tax rate (0.04 for premium, 0.065 for non-premium)
+ * @returns Object with quantity we can sell profitably and total profit
+ */
+export function getProfitableInstantSell(
+	itemId: string,
+	city: string,
+	minSellPrice: number,
+	options?: { quality?: number; maxAgeMinutes?: number; taxRate?: number },
+): { quantity: number; totalProfit: number } | null {
+	const quality = options?.quality ?? 1
+	const taxRate = options?.taxRate ?? 0.04 // Default to premium tax
+	const maxAge = options?.maxAgeMinutes ?? DEFAULT_MAX_AGE_MINUTES.orderBook
+	const minUpdatedAt = Date.now() - maxAge * 60000
+
+	// Buy orders for quality N accept items of quality N or higher.
+	const orders = db
+		.prepare(
+			`
+		SELECT ROUND(price / 10000) as price, amount
+		FROM order_book
+		WHERE item_id = ? AND city = ? AND quality <= ?
+			AND order_type = 'buy'
+			AND updated_at > ? AND expires > datetime('now')
+		ORDER BY price DESC
+	`,
+		)
+		.all(itemId, city, quality, minUpdatedAt) as {
+		price: number
+		amount: number
+	}[]
+
+	if (orders.length === 0) return null
+
+	let profitableQty = 0
+	let totalProfit = 0
+
+	for (const order of orders) {
+		const netAfterTax = order.price * (1 - taxRate)
+
+		// Stop when orders are no longer profitable
+		if (netAfterTax <= minSellPrice) break
+
+		const profitPerItem = netAfterTax - minSellPrice
+		profitableQty += order.amount
+		totalProfit += profitPerItem * order.amount
+	}
+
+	return { quantity: profitableQty, totalProfit: Math.round(totalProfit) }
 }
 
 /**
@@ -746,7 +793,7 @@ export function getOrderBookDepth(
 	const qualityOperator = options?.orderType === 'buy' ? '<=' : '='
 
 	let query = `
-		SELECT price, SUM(amount) as quantity, MAX(updated_at) as updated_at
+		SELECT ROUND(price / 10000) as price, SUM(amount) as quantity, MAX(updated_at) as updated_at
 		FROM order_book
 		WHERE item_id = ? AND city = ? AND quality ${qualityOperator} ?
 			AND updated_at > ? AND expires > datetime('now')
@@ -767,7 +814,7 @@ export function getOrderBookDepth(
 	}[]
 
 	return rows.map((row) => ({
-		price: rawToSilver(row.price),
+		price: row.price,
 		quantity: row.quantity,
 		updatedAt: new Date(row.updated_at),
 	}))
