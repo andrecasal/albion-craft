@@ -1,0 +1,14 @@
+{
+	"hasPremium": true,
+	"excludeBlackMarket": true,
+	"excludeCaerleon": true,
+	"loadout": {
+		"mountId": "T4_MOUNT_OX",
+		"mountQuality": 1,
+		"bagId": null,
+		"bagQuality": 1,
+		"bootsId": null,
+		"bootsQuality": 1,
+		"hasPorkPie": false
+	}
+}

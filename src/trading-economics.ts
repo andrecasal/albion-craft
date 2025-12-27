@@ -7,6 +7,7 @@
 
 import taxes from './constants/taxes.json'
 import { CITY_DISTANCES, type RoyalCity } from './constants/locations'
+import type { City } from './types'
 import {
 	getMount,
 	getMountCapacity,
@@ -81,10 +82,30 @@ export interface ArbitrageSellOrderResult {
 // ============================================================================
 
 /**
- * Teleport cost rate.
- * TODO: These values are placeholders and need in-game research to calibrate.
+ * Teleport cost constants.
+ * Formula: 173 * weight * travel_cost_modifier * distance
  */
-const TELEPORT_RATE = 0.5 // silver per kg per map unit (PLACEHOLDER)
+const TELEPORT_BASE_RATE = 173 // silver per kg per distance unit
+
+/** Travel cost modifier for resources and journals (10x normal) */
+const RESOURCE_TRAVEL_COST_MODIFIER = 10
+
+/**
+ * Adjacent royal city pairs (distance = 1).
+ * Non-adjacent pairs have distance = 2.
+ * Brecilien routes always have distance = 2.
+ */
+const ADJACENT_CITY_PAIRS: Set<string> = new Set([
+	'Bridgewatch-Caerleon',
+	'Bridgewatch-Martlock',
+	'Bridgewatch-Thetford',
+	'Caerleon-Fort Sterling',
+	'Caerleon-Lymhurst',
+	'Caerleon-Thetford',
+	'Fort Sterling-Lymhurst',
+	'Fort Sterling-Martlock',
+	'Lymhurst-Martlock',
+])
 
 /** Pork Pie buff multiplier (+30% carry capacity) */
 const PORK_PIE_MULTIPLIER = 1.3
@@ -157,22 +178,53 @@ export function calculateListingFee(sellPrice: number): number {
 // ============================================================================
 
 /**
+ * Check if two cities are adjacent (distance = 1 for teleport).
+ * Non-adjacent royal city pairs and all Brecilien routes have distance = 2.
+ */
+function areCitiesAdjacent(city1: City, city2: City): boolean {
+	// Brecilien is never adjacent to any city
+	if (city1 === 'Brecilien' || city2 === 'Brecilien') {
+		return false
+	}
+	// Black Market is in Caerleon, treat as Caerleon for adjacency
+	const c1 = city1 === 'Black Market' ? 'Caerleon' : city1
+	const c2 = city2 === 'Black Market' ? 'Caerleon' : city2
+	// Create canonical key (alphabetically sorted)
+	const key = [c1, c2].sort().join('-')
+	return ADJACENT_CITY_PAIRS.has(key)
+}
+
+/**
  * Calculate teleport cost based on weight and distance.
  *
- * NOTE: The formula is a placeholder and needs in-game research to calibrate.
+ * Formula: 173 * weight * travel_cost_modifier * distance
+ * - 173: Base rate in silver per effective kg
+ * - weight: Total weight in kg
+ * - travel_cost_modifier: 1 for most items, 10 for resources and journals
+ * - distance: 1 for adjacent royal cities, 2 for non-adjacent or Brecilien routes
  *
  * @param weight - Total weight to teleport in kg
  * @param fromCity - Origin city
  * @param toCity - Destination city
+ * @param isResource - Whether items are resources or journals (10x cost modifier)
  * @returns Teleport cost in silver
  */
-export function calculateTeleportCost(weight: number, fromCity: RoyalCity, toCity: RoyalCity): number {
+export function calculateTeleportCost(
+	weight: number,
+	fromCity: City,
+	toCity: City,
+	isResource: boolean = false
+): number {
 	if (fromCity === toCity) {
 		return 0
 	}
 
-	const distance = CITY_DISTANCES[fromCity][toCity]
-	return Math.floor(weight * distance * TELEPORT_RATE)
+	const travelCostModifier = isResource ? RESOURCE_TRAVEL_COST_MODIFIER : 1
+
+	// Distance is 1 for adjacent royal cities, 2 for non-adjacent or Brecilien routes
+	const distance = areCitiesAdjacent(fromCity, toCity) ? 1 : 2
+
+	return Math.floor(TELEPORT_BASE_RATE * weight * travelCostModifier * distance)
 }
 
 // ============================================================================
@@ -282,19 +334,21 @@ export function calculateCarryCapacity(loadout: CarryLoadout): number {
  * @param fromCity - City where item is bought
  * @param toCity - City where item is sold
  * @param hasPremium - Whether the player has premium subscription
+ * @param isResource - Whether items are resources or journals (10x teleport cost)
  * @returns Profit analysis result
  */
 export function calculateUnitProfitInstantSell(
 	buyPrice: number,
 	sellPrice: number,
 	itemWeight: number,
-	fromCity: RoyalCity,
-	toCity: RoyalCity,
-	hasPremium: boolean
+	fromCity: City,
+	toCity: City,
+	hasPremium: boolean,
+	isResource: boolean = false
 ): ProfitResult {
 	const tax = calculateInstantSellTax(sellPrice, hasPremium)
 	const netRevenue = sellPrice - tax
-	const teleportCost = calculateTeleportCost(itemWeight, fromCity, toCity)
+	const teleportCost = calculateTeleportCost(itemWeight, fromCity, toCity, isResource)
 
 	const grossProfit = sellPrice - buyPrice
 	const netProfit = netRevenue - buyPrice - teleportCost
@@ -326,19 +380,21 @@ export function calculateUnitProfitInstantSell(
  * @param fromCity - City where item is bought
  * @param toCity - City where item is sold
  * @param hasPremium - Whether the player has premium subscription
+ * @param isResource - Whether items are resources or journals (10x teleport cost)
  * @returns Profit analysis result
  */
 export function calculateUnitProfitSellOrder(
 	buyPrice: number,
 	sellPrice: number,
 	itemWeight: number,
-	fromCity: RoyalCity,
-	toCity: RoyalCity,
-	hasPremium: boolean
+	fromCity: City,
+	toCity: City,
+	hasPremium: boolean,
+	isResource: boolean = false
 ): ProfitResult {
 	const totalTax = calculateSellOrderTax(sellPrice, hasPremium)
 	const netRevenue = sellPrice - totalTax
-	const teleportCost = calculateTeleportCost(itemWeight, fromCity, toCity)
+	const teleportCost = calculateTeleportCost(itemWeight, fromCity, toCity, isResource)
 
 	const grossProfit = sellPrice - buyPrice
 	const netProfit = netRevenue - buyPrice - teleportCost
@@ -374,15 +430,17 @@ export function calculateUnitProfitSellOrder(
  * @param fromCity - City where items are bought
  * @param toCity - City where items are sold
  * @param hasPremium - Whether the player has premium subscription
+ * @param isResource - Whether items are resources or journals (10x teleport cost)
  * @returns Arbitrage analysis or null if no profitable trades
  */
 export function calculateProfitableArbitrageInstantSell(
 	sellOrders: OrderLevel[],
 	buyOrders: OrderLevel[],
 	itemWeight: number,
-	fromCity: RoyalCity,
-	toCity: RoyalCity,
-	hasPremium: boolean
+	fromCity: City,
+	toCity: City,
+	hasPremium: boolean,
+	isResource: boolean = false
 ): ArbitrageInstantSellResult | null {
 	if (sellOrders.length === 0 || buyOrders.length === 0) {
 		return null
@@ -407,7 +465,7 @@ export function calculateProfitableArbitrageInstantSell(
 		const sellPrice = sortedBuyOrders[buyIdx].price
 
 		// Calculate profit for this price combination
-		const profitResult = calculateUnitProfitInstantSell(buyPrice, sellPrice, itemWeight, fromCity, toCity, hasPremium)
+		const profitResult = calculateUnitProfitInstantSell(buyPrice, sellPrice, itemWeight, fromCity, toCity, hasPremium, isResource)
 
 		// Stop if this combination is not profitable
 		if (profitResult.netProfit <= 0) {
@@ -461,15 +519,17 @@ export function calculateProfitableArbitrageInstantSell(
  * @param fromCity - City where items are bought
  * @param toCity - City where items are sold
  * @param hasPremium - Whether the player has premium subscription
+ * @param isResource - Whether items are resources or journals (10x teleport cost)
  * @returns Arbitrage analysis or null if no profitable trades
  */
 export function calculateProfitableArbitrageSellOrder(
 	sellOrders: OrderLevel[],
 	destinationSellOrders: OrderLevel[],
 	itemWeight: number,
-	fromCity: RoyalCity,
-	toCity: RoyalCity,
-	hasPremium: boolean
+	fromCity: City,
+	toCity: City,
+	hasPremium: boolean,
+	isResource: boolean = false
 ): ArbitrageSellOrderResult | null {
 	if (sellOrders.length === 0 || destinationSellOrders.length === 0) {
 		return null
@@ -494,7 +554,8 @@ export function calculateProfitableArbitrageSellOrder(
 			itemWeight,
 			fromCity,
 			toCity,
-			hasPremium
+			hasPremium,
+			isResource
 		)
 
 		// Stop if this buy price is no longer profitable

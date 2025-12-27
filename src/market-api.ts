@@ -595,7 +595,7 @@ export function getBuyableQuantity(
 		SELECT COALESCE(SUM(amount), 0) as total
 		FROM order_book
 		WHERE item_id = ? AND city = ? AND quality = ?
-			AND order_type = 'sell' AND ROUND(price / 10000) <= ?
+			AND order_type = 'sell' AND price <= ?
 			AND updated_at > ? AND expires > datetime('now')
 	`,
 		)
@@ -621,7 +621,7 @@ export function getCostToBuy(
 	const orders = db
 		.prepare(
 			`
-		SELECT ROUND(price / 10000) as price, amount
+		SELECT price, amount
 		FROM order_book
 		WHERE item_id = ? AND city = ? AND quality = ?
 			AND order_type = 'sell'
@@ -677,7 +677,7 @@ export function getRevenueFromSelling(
 	const orders = db
 		.prepare(
 			`
-		SELECT ROUND(price / 10000) as price, amount
+		SELECT price, amount
 		FROM order_book
 		WHERE item_id = ? AND city = ? AND quality <= ?
 			AND order_type = 'buy'
@@ -739,7 +739,7 @@ export function getProfitableInstantSell(
 	const orders = db
 		.prepare(
 			`
-		SELECT ROUND(price / 10000) as price, amount
+		SELECT price, amount
 		FROM order_book
 		WHERE item_id = ? AND city = ? AND quality <= ?
 			AND order_type = 'buy'
@@ -793,7 +793,7 @@ export function getOrderBookDepth(
 	const qualityOperator = options?.orderType === 'buy' ? '<=' : '='
 
 	let query = `
-		SELECT ROUND(price / 10000) as price, SUM(amount) as quantity, MAX(updated_at) as updated_at
+		SELECT price, SUM(amount) as quantity, MAX(updated_at) as updated_at
 		FROM order_book
 		WHERE item_id = ? AND city = ? AND quality ${qualityOperator} ?
 			AND updated_at > ? AND expires > datetime('now')

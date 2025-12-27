@@ -11,6 +11,7 @@
 		"shopping-tracker": "bun src/shopping-tracker.ts",
 		"crafting-planner": "bun src/crafting-planner.ts",
 		"arbitrage": "bun src/arbitrage-scanner.ts",
+		"teleport-arbitrage": "bun src/ui/teleport-instant-sells.ts",
 		"typecheck": "bun x tsc --noEmit",
 		"format": "bun x prettier --write .",
 		"test": "bun test",
